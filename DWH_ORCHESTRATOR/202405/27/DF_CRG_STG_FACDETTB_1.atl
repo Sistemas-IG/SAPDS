@@ -1,0 +1,417 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E87279DDBAEC657A4D7C52A3B611A1F22F1BE58472D982B95F55C478C13289ADF0BDFF248CEB1B4B1F94233896614753</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8FAA80A6DE94A1049004CAB0C95732DF47C9593868CA08F81F6A638D98B2D7380061A4CC4AB94B3674A2DF2572B</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8BCB85C3731851CE6BC6A2393E7D8197CE3F0F1D09EA1A470C88C0169DC30D9BF4641BD56DD30EABBC0667D346A</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8C410C3F8E6DAF944AFB95589D8A91161B60CD75209B3FCEC05CCD98F3048D54D950A0DB7D53C92EB0B2FC267EABBF9BD33C792CE41FE</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '5316' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '5316' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '0 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Thu Apr 27 17:49:56 2023' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Mon May 27 15:50:33 2024' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Thu May 18 14:10:40 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.FACDETTB(CODPAI DECIMAL(3, 0)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+NUMCOT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUMERO COTIZACION'), 
+STATUS VARCHAR(3)  NOT NULL  SET("Description" = 'STATUS'), 
+PTIPMO VARCHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO DE MOVTO.'), 
+PCCEMI VARCHAR(2)  KEY  NOT NULL  SET("Description" = 'C.C. EMISOR'), 
+PNUMCO VARCHAR(6)  KEY  NOT NULL  SET("Description" = 'NUMERO DE COMPROB.'), 
+PCODAR VARCHAR(17)  KEY  NOT NULL  SET("Description" = 'CODIGO DE ARTICULO'), 
+PREDES VARCHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION'), 
+PENTSA VARCHAR(1)  KEY  NOT NULL  SET("Description" = 'ENTRADA/SALIDA'), 
+PAÑODE VARCHAR(4)  NOT NULL  SET("Description" = 'AÑO'), 
+PFECDE VARCHAR(4)  KEY  NOT NULL  SET("Description" = 'FECHA TRANSAC.MMDD'), 
+PCANTI DECIMAL(7, 0)  NOT NULL  SET("Description" = 'CANTIDAD DE MOVIM.'), 
+PVALDE DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VALOR DE DETALLE:'), 
+PREBDE DECIMAL(7, 2)  NOT NULL  SET("Description" = 'REBAJA DE DETALLE'), 
+PDESDE DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DESCTO  DETALLE:'), 
+PCOSVE DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO VTA/DEV.'), 
+PSTSTR VARCHAR(1)  NOT NULL  SET("Description" = 'STATUS TRANSAC.'), 
+PEXMAQ DECIMAL(9, 0)  NOT NULL  SET("Description" = 'EXIST. ALMACEN'), 
+PEXTOT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'EXIST. TOTAL'), 
+PCOSAN DECIMAL(9, 4)  NOT NULL  SET("Description" = 'COSTO ANTERIOR'), 
+PTIPTR VARCHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO TRANSAC.F/R.'), 
+PVAIVA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VALOR DE IVA DETALLE'), 
+PTIPPZ VARCHAR(1)  NOT NULL  SET("Description" = 'TIPO C.PLAZA K/V/E'), 
+PCORPZ DECIMAL(2, 0)  NOT NULL  SET("Description" = 'CORRELATIVO C.PLAZA'), 
+PNORPZ VARCHAR(6)  NOT NULL  SET("Description" = 'Nº ORDEN C.PLAZA'), 
+NUEPRF VARCHAR(1)  NOT NULL  SET("Description" = 'NUEVA PREFACTURA'), 
+PGRUPO VARCHAR(2)  NOT NULL  SET("Description" = 'Grupo'), 
+PSGRUP VARCHAR(2)  NOT NULL  SET("Description" = 'SubGrupo'), 
+PREBES DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Rebaja Especial'), 
+PMPROM VARCHAR(2)  NOT NULL  SET("Description" = 'Marca Promocion'), 
+PCOSCP DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Costo Compr.Plaz'), 
+PFU001 VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU002 VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU003 VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU004 VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU005 VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU006 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Percep.IVA'), 
+PFU007 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Precio Original'), 
+PFU008 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU009 VARCHAR(10)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+PFU010 VARCHAR(10)  NOT NULL  SET("Description" = 'Futuro Uso'), 
+FECING DATETIME(6)  NOT NULL  SET("Description" = 'Fecha Registro', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (CODPAI, PTIPMO, PCCEMI, PNUMCO, PCODAR, PENTSA, PFECDE, PTIPTR) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Jan 25 14:23:26 2023', "ActaValue_3" = 'Mon Dec 11 15:13:59 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_FACDETTB::'9945154d-7552-4fc7-b9f5-c61265d2fad0'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '119', "Output_Width_Name" = '336', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQLSV', "x" = '1484', "y" = '-929')
+GUID::'807edc51-a62d-4061-84e5-3f2fb04b5b77' CREATE VIEW Query( CODPAI DECIMAL(3, 0)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'SQLSV.CODPAI') ,
+ NUMCOT DECIMAL(9, 0)  SET( "Description" = 'NUMERO COTIZACION', "ui_mapping_text" = 'SQLSV.NUMCOT') ,
+ STATUS VARCHAR(3)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'SQLSV.STATUS') ,
+ PTIPMO VARCHAR(1)  KEY  SET( "Description" = 'TIPO DE MOVTO.', "ui_mapping_text" = 'SQLSV.PTIPMO') ,
+ PCCEMI VARCHAR(2)  KEY  SET( "Description" = 'C.C. EMISOR', "ui_mapping_text" = 'SQLSV.PCCEMI') ,
+ PNUMCO VARCHAR(6)  KEY  SET( "Description" = 'NUMERO DE COMPROB.', "ui_mapping_text" = 'SQLSV.PNUMCO') ,
+ PCODAR VARCHAR(17)  KEY  SET( "Description" = 'CODIGO DE ARTICULO', "ui_mapping_text" = 'SQLSV.PCODAR') ,
+ PREDES VARCHAR(20)  SET( "Description" = 'DESCRIPCION', "ui_mapping_text" = 'SQLSV.PREDES') ,
+ PENTSA VARCHAR(1)  KEY  SET( "Description" = 'ENTRADA/SALIDA', "ui_mapping_text" = 'SQLSV.PENTSA') ,
+ PAÑODE VARCHAR(4)  SET( "Description" = 'AÑO', "ui_mapping_text" = 'SQLSV.PAÑODE') ,
+ PFECDE VARCHAR(4)  KEY  SET( "Description" = 'FECHA TRANSAC.MMDD', "ui_mapping_text" = 'SQLSV.PFECDE') ,
+ PCANTI DECIMAL(7, 0)  SET( "Description" = 'CANTIDAD DE MOVIM.', "ui_mapping_text" = 'SQLSV.PCANTI') ,
+ PVALDE DECIMAL(9, 2)  SET( "Description" = 'VALOR DE DETALLE:', "ui_mapping_text" = 'SQLSV.PVALDE') ,
+ PREBDE DECIMAL(7, 2)  SET( "Description" = 'REBAJA DE DETALLE', "ui_mapping_text" = 'SQLSV.PREBDE') ,
+ PDESDE DECIMAL(7, 2)  SET( "Description" = 'DESCTO  DETALLE:', "ui_mapping_text" = 'SQLSV.PDESDE') ,
+ PCOSVE DECIMAL(9, 2)  SET( "Description" = 'COSTO VTA/DEV.', "ui_mapping_text" = 'SQLSV.PCOSVE') ,
+ PSTSTR VARCHAR(1)  SET( "Description" = 'STATUS TRANSAC.', "ui_mapping_text" = 'SQLSV.PSTSTR') ,
+ PEXMAQ DECIMAL(9, 0)  SET( "Description" = 'EXIST. ALMACEN', "ui_mapping_text" = 'SQLSV.PEXMAQ') ,
+ PEXTOT DECIMAL(9, 0)  SET( "Description" = 'EXIST. TOTAL', "ui_mapping_text" = 'SQLSV.PEXTOT') ,
+ PCOSAN DECIMAL(9, 4)  SET( "Description" = 'COSTO ANTERIOR', "ui_mapping_text" = 'SQLSV.PCOSAN') ,
+ PTIPTR VARCHAR(1)  KEY  SET( "Description" = 'TIPO TRANSAC.F/R.', "ui_mapping_text" = 'SQLSV.PTIPTR') ,
+ PVAIVA DECIMAL(9, 2)  SET( "Description" = 'VALOR DE IVA DETALLE', "ui_mapping_text" = 'SQLSV.PVAIVA') ,
+ PTIPPZ VARCHAR(1)  SET( "Description" = 'TIPO C.PLAZA K/V/E', "ui_mapping_text" = 'SQLSV.PTIPPZ') ,
+ PCORPZ DECIMAL(2, 0)  SET( "Description" = 'CORRELATIVO C.PLAZA', "ui_mapping_text" = 'SQLSV.PCORPZ') ,
+ PNORPZ VARCHAR(6)  SET( "Description" = 'Nº ORDEN C.PLAZA', "ui_mapping_text" = 'SQLSV.PNORPZ') ,
+ NUEPRF VARCHAR(1)  SET( "Description" = 'NUEVA PREFACTURA', "ui_mapping_text" = 'SQLSV.NUEPRF') ,
+ PGRUPO VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'SQLSV.PGRUPO') ,
+ PSGRUP VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'SQLSV.PSGRUP') ,
+ PREBES DECIMAL(7, 2)  SET( "Description" = 'Rebaja Especial', "ui_mapping_text" = 'SQLSV.PREBES') ,
+ PMPROM VARCHAR(2)  SET( "Description" = 'Marca Promocion', "ui_mapping_text" = 'SQLSV.PMPROM') ,
+ PCOSCP DECIMAL(7, 2)  SET( "Description" = 'Costo Compr.Plaz', "ui_mapping_text" = 'SQLSV.PCOSCP') ,
+ PFU001 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU001') ,
+ PFU002 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU002') ,
+ PFU003 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU003') ,
+ PFU004 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU004') ,
+ PFU005 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU005') ,
+ PFU006 DECIMAL(9, 2)  SET( "Description" = 'Percep.IVA', "ui_mapping_text" = 'SQLSV.PFU006') ,
+ PFU007 DECIMAL(9, 2)  SET( "Description" = 'Precio Original', "ui_mapping_text" = 'SQLSV.PFU007') ,
+ PFU008 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU008') ,
+ PFU009 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU009') ,
+ PFU010 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQLSV.PFU010') ,
+ FECING DATETIME(9)  SET( "Description" = 'Fecha Registro', "ui_mapping_text" = 'SQLSV.FECING') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SQLSV.CODPAI, SQLSV.NUMCOT, SQLSV.STATUS, SQLSV.PTIPMO, SQLSV.PCCEMI, SQLSV.PNUMCO, SQLSV.PCODAR, SQLSV.PREDES, SQLSV.PENTSA, SQLSV.PAÑODE, SQLSV.PFECDE, SQLSV.PCANTI, SQLSV.PVALDE, SQLSV.PREBDE, SQLSV.PDESDE, SQLSV.PCOSVE, SQLSV.PSTSTR, SQLSV.PEXMAQ, SQLSV.PEXTOT, SQLSV.PCOSAN, SQLSV.PTIPTR, SQLSV.PVAIVA, SQLSV.PTIPPZ, SQLSV.PCORPZ, SQLSV.PNORPZ, SQLSV.NUEPRF, SQLSV.PGRUPO, SQLSV.PSGRUP, SQLSV.PREBES, SQLSV.PMPROM, SQLSV.PCOSCP, SQLSV.PFU001, SQLSV.PFU002, SQLSV.PFU003, SQLSV.PFU004, SQLSV.PFU005, SQLSV.PFU006, SQLSV.PFU007, SQLSV.PFU008, SQLSV.PFU009, SQLSV.PFU010, SQLSV.FECING, sysdate() FROM SQLSV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>306</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_FACDERTBHN', "x" = '606', "y" = '-1666')
+GUID::'6d4ce27a-07a0-4835-8070-56f7d1fc2677' CALL TRANSFORM SQL() OUTPUT(SQL_FACDERTBHN( CODPAI DECIMAL(3, 0) ,
+ NUMCOT DECIMAL(9, 0) ,
+ STATUS VARCHAR(3) ,
+ PTIPMO VARCHAR(1) ,
+ PCCEMI VARCHAR(2) ,
+ PNUMCO VARCHAR(6) ,
+ PCODAR VARCHAR(17) ,
+ PREDES VARCHAR(20) ,
+ PENTSA VARCHAR(1) ,
+ PAÑODE VARCHAR(4) ,
+ PFECDE VARCHAR(4) ,
+ PCANTI DECIMAL(7, 0) ,
+ PVALDE DECIMAL(9, 2) ,
+ PREBDE DECIMAL(7, 2) ,
+ PDESDE DECIMAL(7, 2) ,
+ PCOSVE DECIMAL(9, 2) ,
+ PSTSTR VARCHAR(1) ,
+ PEXMAQ DECIMAL(9, 0) ,
+ PEXTOT DECIMAL(9, 0) ,
+ PCOSAN DECIMAL(9, 4) ,
+ PTIPTR VARCHAR(1) ,
+ PVAIVA DECIMAL(9, 2) ,
+ PTIPPZ VARCHAR(1) ,
+ PCORPZ DECIMAL(2, 0) ,
+ PNORPZ VARCHAR(6) ,
+ NUEPRF VARCHAR(1) ,
+ PGRUPO VARCHAR(2) ,
+ PSGRUP VARCHAR(2) ,
+ PREBES DECIMAL(7, 2) ,
+ PMPROM VARCHAR(2) ,
+ PCOSCP DECIMAL(7, 2) ,
+ PFU001 VARCHAR(1) ,
+ PFU002 VARCHAR(1) ,
+ PFU003 VARCHAR(1) ,
+ PFU004 VARCHAR(1) ,
+ PFU005 VARCHAR(1) ,
+ PFU006 DECIMAL(9, 2) ,
+ PFU007 DECIMAL(9, 2) ,
+ PFU008 DECIMAL(9, 2) ,
+ PFU009 VARCHAR(10) ,
+ PFU010 VARCHAR(10) ,
+ FECING DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT CODPAI,NUMCOT,STATUS,PTIPMO,PCCEMI,PNUMCO,PCODAR,PREDES,PENTSA,PAÑODE,PFECDE,PCANTI,PVALDE&#xD;&#xA;,PREBDE,PDESDE,PCOSVE,PSTSTR,PEXMAQ,PEXTOT,PCOSAN,PTIPTR,PVAIVA,PTIPPZ,PCORPZ,PNORPZ,NUEPRF,PGRUPO&#xD;&#xA;,PSGRUP,PREBES,PMPROM,PCOSCP,PFU001,PFU002,PFU003,PFU004,PFU005,PFU006,PFU007,PFU008,PFU009,PFU010&#xD;&#xA;,FECING&#xD;&#xA;FROM SRWEBPRO.FACDETTB&#xD;&#xA;Where CODPAI=2 and FECING &gt;= current_date - 60 DAYS</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_FACDERTBHN', "ui_display_name" = 'QRYHN', "x" = '1474', "y" = '-1416')
+GUID::'ed85cd0c-49b1-425c-be5e-3bf1bc306a3c' CREATE VIEW QRYHN( CODPAI DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.CODPAI') ,
+ NUMCOT DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.NUMCOT') ,
+ STATUS VARCHAR(3)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.STATUS') ,
+ PTIPMO VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PTIPMO') ,
+ PCCEMI VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCCEMI') ,
+ PNUMCO VARCHAR(6)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PNUMCO') ,
+ PCODAR VARCHAR(17)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCODAR') ,
+ PREDES VARCHAR(20)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PREDES') ,
+ PENTSA VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PENTSA') ,
+ PAÑODE VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PAÑODE') ,
+ PFECDE VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFECDE') ,
+ PCANTI DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCANTI') ,
+ PVALDE DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PVALDE') ,
+ PREBDE DECIMAL(7, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PREBDE') ,
+ PDESDE DECIMAL(7, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PDESDE') ,
+ PCOSVE DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCOSVE') ,
+ PSTSTR VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PSTSTR') ,
+ PEXMAQ DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PEXMAQ') ,
+ PEXTOT DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PEXTOT') ,
+ PCOSAN DECIMAL(9, 4)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCOSAN') ,
+ PTIPTR VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PTIPTR') ,
+ PVAIVA DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PVAIVA') ,
+ PTIPPZ VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PTIPPZ') ,
+ PCORPZ DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCORPZ') ,
+ PNORPZ VARCHAR(6)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PNORPZ') ,
+ NUEPRF VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.NUEPRF') ,
+ PGRUPO VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PGRUPO') ,
+ PSGRUP VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PSGRUP') ,
+ PREBES DECIMAL(7, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PREBES') ,
+ PMPROM VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PMPROM') ,
+ PCOSCP DECIMAL(7, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PCOSCP') ,
+ PFU001 VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU001') ,
+ PFU002 VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU002') ,
+ PFU003 VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU003') ,
+ PFU004 VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU004') ,
+ PFU005 VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU005') ,
+ PFU006 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU006') ,
+ PFU007 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU007') ,
+ PFU008 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU008') ,
+ PFU009 VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU009') ,
+ PFU010 VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.PFU010') ,
+ FECING DATETIME(9)  SET( "ui_mapping_text" = 'SQL_FACDERTBHN.FECING') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SQL_FACDERTBHN.CODPAI, SQL_FACDERTBHN.NUMCOT, SQL_FACDERTBHN.STATUS, SQL_FACDERTBHN.PTIPMO, SQL_FACDERTBHN.PCCEMI, SQL_FACDERTBHN.PNUMCO, SQL_FACDERTBHN.PCODAR, SQL_FACDERTBHN.PREDES, SQL_FACDERTBHN.PENTSA, SQL_FACDERTBHN.PAÑODE, SQL_FACDERTBHN.PFECDE, SQL_FACDERTBHN.PCANTI, SQL_FACDERTBHN.PVALDE, SQL_FACDERTBHN.PREBDE, SQL_FACDERTBHN.PDESDE, SQL_FACDERTBHN.PCOSVE, SQL_FACDERTBHN.PSTSTR, SQL_FACDERTBHN.PEXMAQ, SQL_FACDERTBHN.PEXTOT, SQL_FACDERTBHN.PCOSAN, SQL_FACDERTBHN.PTIPTR, SQL_FACDERTBHN.PVAIVA, SQL_FACDERTBHN.PTIPPZ, SQL_FACDERTBHN.PCORPZ, SQL_FACDERTBHN.PNORPZ, SQL_FACDERTBHN.NUEPRF, SQL_FACDERTBHN.PGRUPO, SQL_FACDERTBHN.PSGRUP, SQL_FACDERTBHN.PREBES, SQL_FACDERTBHN.PMPROM, SQL_FACDERTBHN.PCOSCP, SQL_FACDERTBHN.PFU001, SQL_FACDERTBHN.PFU002, SQL_FACDERTBHN.PFU003, SQL_FACDERTBHN.PFU004, SQL_FACDERTBHN.PFU005, SQL_FACDERTBHN.PFU006, SQL_FACDERTBHN.PFU007, SQL_FACDERTBHN.PFU008, SQL_FACDERTBHN.PFU009, SQL_FACDERTBHN.PFU010, SQL_FACDERTBHN.FECING, sysdate() FROM SQL_FACDERTBHN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '2073', "y" = '-1166')
+GUID::'f41c5bc1-8d78-4767-b354-ba8b0a64a62e' CALL TRANSFORM Merge() INPUT(QRYHN, Query) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'FACDETTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2936', "y" = '-1154')
+GUID::'64a7b230-530a-4a1b-8de2-051fbd9dfe89' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.FACDETTB INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_FACDETTB.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQLSV', "x" = '600', "y" = '-784')
+GUID::'3a5d22f3-7476-4e67-9c78-afaad04880b7' CALL TRANSFORM SQL() OUTPUT(SQLSV( CODPAI DECIMAL(3, 0) ,
+ NUMCOT DECIMAL(9, 0) ,
+ STATUS VARCHAR(3) ,
+ PTIPMO VARCHAR(1) ,
+ PCCEMI VARCHAR(2) ,
+ PNUMCO VARCHAR(6) ,
+ PCODAR VARCHAR(17) ,
+ PREDES VARCHAR(20) ,
+ PENTSA VARCHAR(1) ,
+ PAÑODE VARCHAR(4) ,
+ PFECDE VARCHAR(4) ,
+ PCANTI DECIMAL(7, 0) ,
+ PVALDE DECIMAL(9, 2) ,
+ PREBDE DECIMAL(7, 2) ,
+ PDESDE DECIMAL(7, 2) ,
+ PCOSVE DECIMAL(9, 2) ,
+ PSTSTR VARCHAR(1) ,
+ PEXMAQ DECIMAL(9, 0) ,
+ PEXTOT DECIMAL(9, 0) ,
+ PCOSAN DECIMAL(9, 4) ,
+ PTIPTR VARCHAR(1) ,
+ PVAIVA DECIMAL(9, 2) ,
+ PTIPPZ VARCHAR(1) ,
+ PCORPZ DECIMAL(2, 0) ,
+ PNORPZ VARCHAR(6) ,
+ NUEPRF VARCHAR(1) ,
+ PGRUPO VARCHAR(2) ,
+ PSGRUP VARCHAR(2) ,
+ PREBES DECIMAL(7, 2) ,
+ PMPROM VARCHAR(2) ,
+ PCOSCP DECIMAL(7, 2) ,
+ PFU001 VARCHAR(1) ,
+ PFU002 VARCHAR(1) ,
+ PFU003 VARCHAR(1) ,
+ PFU004 VARCHAR(1) ,
+ PFU005 VARCHAR(1) ,
+ PFU006 DECIMAL(9, 2) ,
+ PFU007 DECIMAL(9, 2) ,
+ PFU008 DECIMAL(9, 2) ,
+ PFU009 VARCHAR(10) ,
+ PFU010 VARCHAR(10) ,
+ FECING DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select CODPAI,NUMCOT,STATUS,PTIPMO,PCCEMI,PNUMCO,PCODAR,PREDES,PENTSA,PAÑODE,PFECDE,PCANTI,PVALDE&#xD;&#xA;,PREBDE,PDESDE,PCOSVE,PSTSTR,PEXMAQ,PEXTOT,PCOSAN,PTIPTR,PVAIVA,PTIPPZ,PCORPZ,PNORPZ,NUEPRF,PGRUPO&#xD;&#xA;,PSGRUP,PREBES,PMPROM,PCOSCP,PFU001,PFU002,PFU003,PFU004,PFU005,PFU006,PFU007,PFU008,PFU009,PFU010&#xD;&#xA;,FECING&#xD;&#xA;from srwebpro.facdettb&#xD;&#xA;Where CODPAI=1 and FECING &gt;= current_date - 60 DAYS</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

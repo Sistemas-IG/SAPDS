@@ -1,0 +1,1038 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8D3D3BD597CEF0EA46722A5BBD48578346BE389B7FD087704D45434AC9E57CB0B186EDF6C4291212123C5B51825F8C0</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8F7D0B743FFB95E92AF1EE7EFFDDC7FB89FFD6D324D85E2880AE33BD88DAEAFF1A3972FEF39DBEE872BB7C45211</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E859C6EB4BF3687E687F74E431231B07BB41344F8D7A83D6BD68C1D0DEC778B99F54A248E3D26A65338422186DFA</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E89A05B5AF4DAAB75A98106898DE4849843C4ECFC58E22CB4538DDDF6E68AD5F0F8D9D8A26DE6184E96AA73DA976F615E7797D16E71654</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RTotal_Number_Of_Rows_Processed',ActaValue_7 = '341149' , 
+ActaName_8 = 'RNumber_Of_Rows_Rejected',ActaValue_8 = '0' , 
+ActaName_9 = 'RNumber_Of_Inserts',ActaValue_9 = '341149' , 
+ActaName_10 = 'RDate_created',ActaValue_10 = 'Thu Oct 12 11:56:09 2023' , 
+ActaName_11 = 'RDate_last_loaded',ActaValue_11 = 'Tue Dec 12 14:27:55 2023' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Thu Oct 12 12:04:44 2023' , 
+ActaName_13 = 'RElapsed_Time_For_Load',ActaValue_13 = '14 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFCDEUEX01(ID_PAIS INT  NULL , 
+ALMAEX VARCHAR(2)  NOT NULL , 
+FECHEX DECIMAL(8, 0)  NOT NULL , 
+PAISEX VARCHAR(3)  NOT NULL , 
+CIASEX VARCHAR(3)  NOT NULL , 
+CDDIEX VARCHAR(2)  NOT NULL , 
+ZONAEX VARCHAR(2)  NOT NULL , 
+NUMEEX VARCHAR(3)  NOT NULL , 
+LADOEX VARCHAR(1)  NOT NULL , 
+MODUEX VARCHAR(3)  NOT NULL , 
+NIVEEX VARCHAR(2)  NOT NULL , 
+POSIEX VARCHAR(2)  NOT NULL , 
+CODPEX VARCHAR(17)  NOT NULL , 
+GRUPEX VARCHAR(2)  NOT NULL , 
+SGRUEX VARCHAR(2)  NOT NULL , 
+MCREEX VARCHAR(1)  NOT NULL , 
+EXA1EX DECIMAL(7, 0)  NOT NULL , 
+UCO1EX DECIMAL(7, 0)  NOT NULL , 
+FEC1EX DECIMAL(8, 0)  NOT NULL , 
+HOC1EX DECIMAL(6, 0)  NOT NULL , 
+USC1EX VARCHAR(10)  NOT NULL , 
+REC1EX VARCHAR(10)  NOT NULL , 
+DIC1EX VARCHAR(10)  NOT NULL , 
+EXA2EX DECIMAL(7, 0)  NOT NULL , 
+UCO2EX DECIMAL(7, 0)  NOT NULL , 
+FEC2EX DECIMAL(8, 0)  NOT NULL , 
+HOC2EX DECIMAL(6, 0)  NOT NULL , 
+USC2EX VARCHAR(10)  NOT NULL , 
+REC2EX VARCHAR(10)  NOT NULL , 
+DIC2EX VARCHAR(10)  NOT NULL , 
+SMEGEX DECIMAL(7, 0)  NOT NULL , 
+SMINEX DECIMAL(7, 0)  NOT NULL , 
+UNESEX DECIMAL(7, 0)  NOT NULL , 
+UNAVEX DECIMAL(7, 0)  NOT NULL , 
+UNDIEX DECIMAL(7, 0)  NOT NULL , 
+UDFTEX DECIMAL(7, 0)  NOT NULL , 
+UCAVEX DECIMAL(7, 0)  NOT NULL , 
+UCFSEX DECIMAL(7, 0)  NOT NULL , 
+UAFIEX DECIMAL(7, 0)  NOT NULL , 
+UDITEX DECIMAL(7, 0)  NOT NULL , 
+COSTEX DECIMAL(11, 2)  NOT NULL , 
+STATEX VARCHAR(3)  NOT NULL , 
+USESEX VARCHAR(10)  NOT NULL , 
+FEESEX DECIMAL(8, 0)  NOT NULL , 
+HOESEX DECIMAL(6, 0)  NOT NULL , 
+REESEX VARCHAR(10)  NOT NULL , 
+DIESEX VARCHAR(10)  NOT NULL , 
+USCEEX VARCHAR(10)  NOT NULL , 
+FECEEX DECIMAL(8, 0)  NOT NULL , 
+HOCEEX DECIMAL(6, 0)  NOT NULL , 
+RECEEX VARCHAR(10)  NOT NULL , 
+DICEEX VARCHAR(10)  NOT NULL , 
+UCDCEX VARCHAR(10)  NOT NULL , 
+CRG_DATE DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENT.FISICO CDD - Existencias x Ubicaciones' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Oct 12 11:47:05 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.IFCDEUEX01(ALMAEX CHAR(2)  NOT NULL  SET("Description" = 'Almacen'), 
+FECHEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Inventario'), 
+PAISEX CHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASEX CHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CDDIEX CHAR(2)  NOT NULL  SET("Description" = 'Centro Distribucion'), 
+ZONAEX CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEEX CHAR(3)  NOT NULL  SET("Description" = 'Numero'), 
+LADOEX CHAR(1)  NOT NULL  SET("Description" = 'Lado A/B'), 
+MODUEX CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEEX CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIEX CHAR(2)  NOT NULL  SET("Description" = 'Posicion 01/02'), 
+CODPEX CHAR(17)  NOT NULL  SET("Description" = 'Codigo Producto'), 
+GRUPEX CHAR(2)  NOT NULL  SET("Description" = 'Grupo'), 
+SGRUEX CHAR(2)  NOT NULL  SET("Description" = 'SubGrupo'), 
+MCREEX CHAR(1)  NOT NULL  SET("Description" = 'Marca Creado'), 
+EXA1EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Existencia Actual 01'), 
+UCO1EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Comprometido Actual 01'), 
+FEC1EX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOC1EX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USC1EX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+REC1EX CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DIC1EX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+EXA2EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Existencia Actual 02'), 
+UCO2EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Comprometido Actual 02'), 
+FEC2EX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOC2EX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USC2EX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+REC2EX CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DIC2EX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+SMEGEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Sum.Mov Egresos'), 
+SMINEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Sum.Mov Ingresos'), 
+UNESEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Escaneadas'), 
+UNAVEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Averias'), 
+UNDIEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Diferencias'), 
+UDFTEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Difer.Fisica Temporal'), 
+UCAVEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Uni.Correccion Averias'), 
+UCFSEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Uni.Correccion F/S'), 
+UAFIEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'AFIS'), 
+UDITEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unid.Diferencia Totales'), 
+COSTEX DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Costo Total'), 
+STATEX CHAR(3)  NOT NULL  SET("Description" = 'Status'), 
+USESEX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Escaneando'), 
+FEESEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Escaneando'), 
+HOESEX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Escaneando'), 
+REESEX CHAR(10)  NOT NULL  SET("Description" = 'Refer Escaneando'), 
+DIESEX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Escaneando'), 
+USCEEX CHAR(10)  NOT NULL  SET("Description" = 'Usu.AUD Cerrado'), 
+FECEEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cerrado'), 
+HOCEEX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cerrado'), 
+RECEEX CHAR(10)  NOT NULL  SET("Description" = 'Refer Cerrado'), 
+DICEEX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Cerrado'), 
+UCDCEX CHAR(10)  NOT NULL  SET("Description" = 'Usuario CDD Cerrado')) 
+CREATE_INDEX "NEWINV.IFCDEUEX01" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX, CODPEX) 
+CREATE_INDEX "NEWINV.IFCDEUEX02" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, CODPEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX) 
+CREATE_INDEX "NEWINV.IFCDEUEX03" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX, CODPEX) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENT.FISICO CDD - Existencias x Ubicaciones' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Oct 12 11:47:10 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.IFCDEUEX01(ALMAEX CHAR(2)  NOT NULL  SET("Description" = 'Almacen'), 
+FECHEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Inventario'), 
+PAISEX CHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASEX CHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CDDIEX CHAR(2)  NOT NULL  SET("Description" = 'Centro Distribucion'), 
+ZONAEX CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEEX CHAR(3)  NOT NULL  SET("Description" = 'Numero'), 
+LADOEX CHAR(1)  NOT NULL  SET("Description" = 'Lado A/B'), 
+MODUEX CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEEX CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIEX CHAR(2)  NOT NULL  SET("Description" = 'Posicion 01/02'), 
+CODPEX CHAR(17)  NOT NULL  SET("Description" = 'Codigo Producto'), 
+GRUPEX CHAR(2)  NOT NULL  SET("Description" = 'Grupo'), 
+SGRUEX CHAR(2)  NOT NULL  SET("Description" = 'SubGrupo'), 
+MCREEX CHAR(1)  NOT NULL  SET("Description" = 'Marca Creado'), 
+EXA1EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Existencia Actual 01'), 
+UCO1EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Comprometido Actual 01'), 
+FEC1EX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOC1EX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USC1EX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+REC1EX CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DIC1EX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+EXA2EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Existencia Actual 02'), 
+UCO2EX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Comprometido Actual 02'), 
+FEC2EX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOC2EX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USC2EX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+REC2EX CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DIC2EX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+SMEGEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Sum.Mov Egresos'), 
+SMINEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Sum.Mov Ingresos'), 
+UNESEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Escaneadas'), 
+UNAVEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Averias'), 
+UNDIEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Diferencias'), 
+UDFTEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Difer.Fisica Temporal'), 
+UCAVEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Uni.Correccion Averias'), 
+UCFSEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Uni.Correccion F/S'), 
+UAFIEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'AFIS'), 
+UDITEX DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unid.Diferencia Totales'), 
+COSTEX DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Costo Total'), 
+STATEX CHAR(3)  NOT NULL  SET("Description" = 'Status'), 
+USESEX CHAR(10)  NOT NULL  SET("Description" = 'Usuario Escaneando'), 
+FEESEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Escaneando'), 
+HOESEX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Escaneando'), 
+REESEX CHAR(10)  NOT NULL  SET("Description" = 'Refer Escaneando'), 
+DIESEX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Escaneando'), 
+USCEEX CHAR(10)  NOT NULL  SET("Description" = 'Usu.AUD Cerrado'), 
+FECEEX DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cerrado'), 
+HOCEEX DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cerrado'), 
+RECEEX CHAR(10)  NOT NULL  SET("Description" = 'Refer Cerrado'), 
+DICEEX CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Cerrado'), 
+UCDCEX CHAR(10)  NOT NULL  SET("Description" = 'Usuario CDD Cerrado')) 
+CREATE_INDEX "PHNINV.IFCDEUEX01" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX, CODPEX) 
+CREATE_INDEX "PHNINV.IFCDEUEX02" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, CODPEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX) 
+CREATE_INDEX "PHNINV.IFCDEUEX03" ON (ALMAEX, FECHEX, PAISEX, CIASEX, CDDIEX, ZONAEX, NUMEEX, LADOEX, MODUEX, NIVEEX, POSIEX, CODPEX) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue Oct 10 11:13:16 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Tue Dec 12 14:27:37 2023' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '721850' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '721850' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '21 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFCDMOVI01(ID_PAIS INT  NULL , 
+ALMAMO VARCHAR(2)  NOT NULL , 
+FECHMO DECIMAL(8, 0)  NOT NULL , 
+PAISMO VARCHAR(3)  NOT NULL , 
+CIASMO VARCHAR(3)  NOT NULL , 
+CDDIMO VARCHAR(2)  NOT NULL , 
+ZONAMO VARCHAR(2)  NOT NULL , 
+NUMEMO VARCHAR(3)  NOT NULL , 
+LADOMO VARCHAR(1)  NOT NULL , 
+MODUMO VARCHAR(3)  NOT NULL , 
+NIVEMO VARCHAR(2)  NOT NULL , 
+POSIMO VARCHAR(2)  NOT NULL , 
+NCORMO DECIMAL(5, 0)  NOT NULL , 
+CODPMO VARCHAR(17)  NOT NULL , 
+UNESMO DECIMAL(7, 0)  NOT NULL , 
+UNAVMO DECIMAL(7, 0)  NOT NULL , 
+OBSEMO VARCHAR(60)  NOT NULL , 
+USCRMO VARCHAR(10)  NOT NULL , 
+FECRMO DECIMAL(8, 0)  NOT NULL , 
+HOCRMO DECIMAL(6, 0)  NOT NULL , 
+RECRMO VARCHAR(10)  NOT NULL , 
+DICRMO VARCHAR(10)  NOT NULL , 
+STATMO VARCHAR(3)  NOT NULL , 
+DATE_CRG_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENT.FISICO CDD - Mov. Escaneados' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Nov  8 11:18:06 2023' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.IFCDMOVI01(ALMAMO CHAR(2)  NOT NULL  SET("Description" = 'Almacen'), 
+FECHMO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Inventario'), 
+PAISMO CHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASMO CHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CDDIMO CHAR(2)  NOT NULL  SET("Description" = 'Centro Distribucion'), 
+ZONAMO CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEMO CHAR(3)  NOT NULL  SET("Description" = 'Numero'), 
+LADOMO CHAR(1)  NOT NULL  SET("Description" = 'Lado A/B'), 
+MODUMO CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEMO CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIMO CHAR(2)  NOT NULL  SET("Description" = 'Posicion 01/02'), 
+NCORMO DECIMAL(5, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+CODPMO CHAR(17)  NOT NULL  SET("Description" = 'Codigo Producto'), 
+UNESMO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Escaneadas'), 
+UNAVMO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Averias'), 
+OBSEMO CHAR(60)  NOT NULL  SET("Description" = 'Observacion'), 
+USCRMO CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+FECRMO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRMO DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+RECRMO CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DICRMO CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+STATMO CHAR(3)  NOT NULL  SET("Description" = 'Status')) 
+CREATE_INDEX "NEWINV.IFCDMOVI01" ON (ALMAMO, FECHMO, PAISMO, CIASMO, CDDIMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO, NCORMO, CODPMO) 
+CREATE_INDEX "NEWINV.IFCDMOVI02" ON (ALMAMO, FECHMO, PAISMO, CIASMO, CDDIMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO, CODPMO, NCORMO) 
+CREATE_INDEX "NEWINV.IFCDMOVI99" ON (ALMAMO, FECHMO, CODPMO, FECRMO, HOCRMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENT.FISICO CDD - Mov. Escaneados' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Nov  8 11:18:10 2023' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.IFCDMOVI01(ALMAMO CHAR(2)  NOT NULL  SET("Description" = 'Almacen'), 
+FECHMO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Inventario'), 
+PAISMO CHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASMO CHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CDDIMO CHAR(2)  NOT NULL  SET("Description" = 'Centro Distribucion'), 
+ZONAMO CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEMO CHAR(3)  NOT NULL  SET("Description" = 'Numero'), 
+LADOMO CHAR(1)  NOT NULL  SET("Description" = 'Lado A/B'), 
+MODUMO CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEMO CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIMO CHAR(2)  NOT NULL  SET("Description" = 'Posicion 01/02'), 
+NCORMO DECIMAL(5, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+CODPMO CHAR(17)  NOT NULL  SET("Description" = 'Codigo Producto'), 
+UNESMO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Escaneadas'), 
+UNAVMO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Averias'), 
+OBSEMO CHAR(60)  NOT NULL  SET("Description" = 'Observacion'), 
+USCRMO CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+FECRMO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRMO DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+RECRMO CHAR(10)  NOT NULL  SET("Description" = 'Referencia Creacion'), 
+DICRMO CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creacion'), 
+STATMO CHAR(3)  NOT NULL  SET("Description" = 'Status')) 
+CREATE_INDEX "PHNINV.IFCDMOVI01" ON (ALMAMO, FECHMO, PAISMO, CIASMO, CDDIMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO, NCORMO, CODPMO) 
+CREATE_INDEX "PHNINV.IFCDMOVI02" ON (ALMAMO, FECHMO, PAISMO, CIASMO, CDDIMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO, CODPMO, NCORMO) 
+CREATE_INDEX "PHNINV.IFCDMOVI99" ON (ALMAMO, FECHMO, CODPMO, FECRMO, HOCRMO, ZONAMO, NUMEMO, LADOMO, MODUMO, NIVEMO, POSIMO) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Dec 12 14:27:11 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '11369946' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '11369946' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_modified',ActaValue_11 = 'Tue Nov 22 16:32:30 2022' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '5 Minutes and 37 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFISCF01(ALMACF VARCHAR(2)  NOT NULL , 
+FECICF DECIMAL(8, 0)  NOT NULL , 
+GRUPCF VARCHAR(2)  NOT NULL , 
+SGRPCF VARCHAR(2)  NOT NULL , 
+CORRCF DECIMAL(6, 0)  NOT NULL , 
+CODPCF VARCHAR(17)  NOT NULL , 
+CANTCF DECIMAL(5, 0)  NOT NULL , 
+EXISCF DECIMAL(5, 0)  NOT NULL , 
+DESCCF VARCHAR(20)  NOT NULL , 
+SURECF VARCHAR(1)  NOT NULL , 
+CODICF VARCHAR(2)  NOT NULL , 
+OBSECF VARCHAR(30)  NOT NULL , 
+CONMCF VARCHAR(2)  NOT NULL , 
+STATCF VARCHAR(3)  NOT NULL , 
+AJSTCF VARCHAR(1)  NOT NULL , 
+AGDECF VARCHAR(1)  NOT NULL , 
+USABCF VARCHAR(10)  NOT NULL , 
+FEABCF DECIMAL(8, 0)  NOT NULL , 
+HOABCF DECIMAL(6, 0)  NOT NULL , 
+REABCF VARCHAR(10)  NOT NULL , 
+USCECF VARCHAR(10)  NOT NULL , 
+FECECF DECIMAL(8, 0)  NOT NULL , 
+HOCECF DECIMAL(6, 0)  NOT NULL , 
+RECECF VARCHAR(10)  NOT NULL , 
+USAJCF VARCHAR(10)  NOT NULL , 
+FEAJCF DECIMAL(8, 0)  NOT NULL , 
+HOAJCF DECIMAL(6, 0)  NOT NULL , 
+REAJCF VARCHAR(10)  NOT NULL , 
+USTFCF VARCHAR(10)  NOT NULL , 
+FETFCF DECIMAL(8, 0)  NOT NULL , 
+HOTFCF DECIMAL(6, 0)  NOT NULL , 
+RETFCF VARCHAR(10)  NOT NULL , 
+DISPCF VARCHAR(10)  NOT NULL , 
+USRECF VARCHAR(10)  NOT NULL , 
+FERECF DECIMAL(8, 0)  NOT NULL , 
+HORECF DECIMAL(6, 0)  NOT NULL , 
+RERECF VARCHAR(10)  NOT NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENTARIO FISICO - Conteo Fisico' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Nov 22 14:04:44 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.IFISCF01(ALMACF CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+FECICF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA INICIO'), 
+GRUPCF CHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+SGRPCF CHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+CORRCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'CORRELATIVO'), 
+CODPCF CHAR(17)  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+CANTCF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'CANTIDAD'), 
+EXISCF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'EXISTENCIA'), 
+DESCCF CHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CODIGO'), 
+SURECF CHAR(1)  NOT NULL  SET("Description" = 'MARCA SUMA/RESTA'), 
+CODICF CHAR(2)  NOT NULL  SET("Description" = 'CODIFICACION'), 
+OBSECF CHAR(30)  NOT NULL  SET("Description" = 'OBSERVACION'), 
+CONMCF CHAR(2)  NOT NULL  SET("Description" = 'CODIGO NO MANEJADO'), 
+STATCF CHAR(3)  NOT NULL  SET("Description" = 'STATUS'), 
+AJSTCF CHAR(1)  NOT NULL  SET("Description" = 'PROC.AJUSTE'), 
+AGDECF CHAR(1)  NOT NULL  SET("Description" = 'AGREGADO DESPUES'), 
+USABCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO ABIERTO'), 
+FEABCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA ABIERTO'), 
+HOABCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA ABIERTO'), 
+REABCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USCECF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO CERRADO'), 
+FECECF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA CERRADO'), 
+HOCECF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA CERRADO'), 
+RECECF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USAJCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO AJUSTES'), 
+FEAJCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA AJUSTES'), 
+HOAJCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AJUSTES'), 
+REAJCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USTFCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO FINALIZADO'), 
+FETFCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA FINALIZADO'), 
+HOTFCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA FINALIZADO'), 
+RETFCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+DISPCF CHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO'), 
+USRECF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO REABIERTO'), 
+FERECF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA REABIERTO'), 
+HORECF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA REABIERTO'), 
+RERECF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA')) 
+CREATE_INDEX "NEWINV.IFISCF01" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "NEWINV.IFISCF02" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CODPCF, CORRCF) 
+CREATE_INDEX "NEWINV.IFISCF03" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CODPCF, CORRCF) 
+CREATE_INDEX "NEWINV.IFISCF04" ON (DISPCF, ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "NEWINV.IFISCF05" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "NEWINV.IFISCF06" ON (CODPCF) 
+CREATE_INDEX "NEWINV.IFISCF07" ON (ALMACF, FECICF, CODPCF, CORRCF) 
+CREATE_INDEX "NEWINV.IFISCF08" ON (ALMACF, FECICF, CODPCF) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'INVENTARIO FISICO - Conteo Fisico' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Nov 22 14:04:50 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.IFISCF01(ALMACF CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+FECICF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA INICIO'), 
+GRUPCF CHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+SGRPCF CHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+CORRCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'CORRELATIVO'), 
+CODPCF CHAR(17)  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+CANTCF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'CANTIDAD'), 
+EXISCF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'EXISTENCIA'), 
+DESCCF CHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CODIGO'), 
+SURECF CHAR(1)  NOT NULL  SET("Description" = 'MARCA SUMA/RESTA'), 
+CODICF CHAR(2)  NOT NULL  SET("Description" = 'CODIFICACION'), 
+OBSECF CHAR(30)  NOT NULL  SET("Description" = 'OBSERVACION'), 
+CONMCF CHAR(2)  NOT NULL  SET("Description" = 'CODIGO NO MANEJADO'), 
+STATCF CHAR(3)  NOT NULL  SET("Description" = 'STATUS'), 
+AJSTCF CHAR(1)  NOT NULL  SET("Description" = 'PROC.AJUSTE'), 
+AGDECF CHAR(1)  NOT NULL  SET("Description" = 'AGREGADO DESPUES'), 
+USABCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO ABIERTO'), 
+FEABCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA ABIERTO'), 
+HOABCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA ABIERTO'), 
+REABCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USCECF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO CERRADO'), 
+FECECF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA CERRADO'), 
+HOCECF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA CERRADO'), 
+RECECF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USAJCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO AJUSTES'), 
+FEAJCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA AJUSTES'), 
+HOAJCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AJUSTES'), 
+REAJCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+USTFCF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO FINALIZADO'), 
+FETFCF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA FINALIZADO'), 
+HOTFCF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA FINALIZADO'), 
+RETFCF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA'), 
+DISPCF CHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO'), 
+USRECF CHAR(10)  NOT NULL  SET("Description" = 'USUARIO REABIERTO'), 
+FERECF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA REABIERTO'), 
+HORECF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA REABIERTO'), 
+RERECF CHAR(10)  NOT NULL  SET("Description" = 'REF PROGRAMA')) 
+CREATE_INDEX "PHNINV.IFISCF01" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "PHNINV.IFISCF02" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CODPCF, CORRCF) 
+CREATE_INDEX "PHNINV.IFISCF03" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CODPCF, CORRCF) 
+CREATE_INDEX "PHNINV.IFISCF04" ON (DISPCF, ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "PHNINV.IFISCF05" ON (ALMACF, FECICF, GRUPCF, SGRPCF, CORRCF, CODPCF) 
+CREATE_INDEX "PHNINV.IFISCF06" ON (CODPCF) 
+CREATE_INDEX "PHNINV.IFISCF07" ON (ALMACF, FECICF, CODPCF, CORRCF) 
+CREATE_INDEX "PHNINV.IFISCF08" ON (ALMACF, FECICF, CODPCF) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Oct 12 11:56:08 2023', "ActaValue_3" = 'Thu Oct 12 12:05:17 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_IFCDEUEX01::'1c3c9265-6fef-4ce7-b7a1-8d3c24a9e4eb'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '258', "Output_Width_Mapping" = '85', "Output_Width_Name" = '588', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '731', "y" = '-1028')
+GUID::'db84c9ec-1a02-4e04-a085-4faf13dea73c' READ TABLE DS_DB2_GER_VTAS.NEWINV.IFCDEUEX01 OUTPUT(IFCDEUEX01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'IFCDEUEX01', "ui_display_name" = 'QRY_SV', "x" = '1264', "y" = '-1029')
+GUID::'e38e0ae1-1eef-4b2a-9128-91077aa263c5' CREATE VIEW QRY_SV( ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ ALMAEX VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'IFCDEUEX01.ALMAEX') ,
+ FECHEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Inicio Inventario', "ui_mapping_text" = 'IFCDEUEX01.FECHEX') ,
+ PAISEX VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'IFCDEUEX01.PAISEX') ,
+ CIASEX VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'IFCDEUEX01.CIASEX') ,
+ CDDIEX VARCHAR(2)  SET( "Description" = 'Centro Distribucion', "ui_mapping_text" = 'IFCDEUEX01.CDDIEX') ,
+ ZONAEX VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'IFCDEUEX01.ZONAEX') ,
+ NUMEEX VARCHAR(3)  SET( "Description" = 'Numero', "ui_mapping_text" = 'IFCDEUEX01.NUMEEX') ,
+ LADOEX VARCHAR(1)  SET( "Description" = 'Lado A/B', "ui_mapping_text" = 'IFCDEUEX01.LADOEX') ,
+ MODUEX VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'IFCDEUEX01.MODUEX') ,
+ NIVEEX VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'IFCDEUEX01.NIVEEX') ,
+ POSIEX VARCHAR(2)  SET( "Description" = 'Posicion 01/02', "ui_mapping_text" = 'IFCDEUEX01.POSIEX') ,
+ CODPEX VARCHAR(17)  SET( "Description" = 'Codigo Producto', "ui_mapping_text" = 'IFCDEUEX01.CODPEX') ,
+ GRUPEX VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'IFCDEUEX01.GRUPEX') ,
+ SGRUEX VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'IFCDEUEX01.SGRUEX') ,
+ MCREEX VARCHAR(1)  SET( "Description" = 'Marca Creado', "ui_mapping_text" = 'IFCDEUEX01.MCREEX') ,
+ EXA1EX DECIMAL(7, 0)  SET( "Description" = 'Existencia Actual 01', "ui_mapping_text" = 'IFCDEUEX01.EXA1EX') ,
+ UCO1EX DECIMAL(7, 0)  SET( "Description" = 'Comprometido Actual 01', "ui_mapping_text" = 'IFCDEUEX01.UCO1EX') ,
+ FEC1EX DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDEUEX01.FEC1EX') ,
+ HOC1EX DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDEUEX01.HOC1EX') ,
+ USC1EX VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDEUEX01.USC1EX') ,
+ REC1EX VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDEUEX01.REC1EX') ,
+ DIC1EX VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDEUEX01.DIC1EX') ,
+ EXA2EX DECIMAL(7, 0)  SET( "Description" = 'Existencia Actual 02', "ui_mapping_text" = 'IFCDEUEX01.EXA2EX') ,
+ UCO2EX DECIMAL(7, 0)  SET( "Description" = 'Comprometido Actual 02', "ui_mapping_text" = 'IFCDEUEX01.UCO2EX') ,
+ FEC2EX DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDEUEX01.FEC2EX') ,
+ HOC2EX DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDEUEX01.HOC2EX') ,
+ USC2EX VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDEUEX01.USC2EX') ,
+ REC2EX VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDEUEX01.REC2EX') ,
+ DIC2EX VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDEUEX01.DIC2EX') ,
+ SMEGEX DECIMAL(7, 0)  SET( "Description" = 'Sum.Mov Egresos', "ui_mapping_text" = 'IFCDEUEX01.SMEGEX') ,
+ SMINEX DECIMAL(7, 0)  SET( "Description" = 'Sum.Mov Ingresos', "ui_mapping_text" = 'IFCDEUEX01.SMINEX') ,
+ UNESEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Escaneadas', "ui_mapping_text" = 'IFCDEUEX01.UNESEX') ,
+ UNAVEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'IFCDEUEX01.UNAVEX') ,
+ UNDIEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Diferencias', "ui_mapping_text" = 'IFCDEUEX01.UNDIEX') ,
+ UDFTEX DECIMAL(7, 0)  SET( "Description" = 'Difer.Fisica Temporal', "ui_mapping_text" = 'IFCDEUEX01.UDFTEX') ,
+ UCAVEX DECIMAL(7, 0)  SET( "Description" = 'Uni.Correccion Averias', "ui_mapping_text" = 'IFCDEUEX01.UCAVEX') ,
+ UCFSEX DECIMAL(7, 0)  SET( "Description" = 'Uni.Correccion F/S', "ui_mapping_text" = 'IFCDEUEX01.UCFSEX') ,
+ UAFIEX DECIMAL(7, 0)  SET( "Description" = 'AFIS', "ui_mapping_text" = 'IFCDEUEX01.UAFIEX') ,
+ UDITEX DECIMAL(7, 0)  SET( "Description" = 'Unid.Diferencia Totales', "ui_mapping_text" = 'IFCDEUEX01.UDITEX') ,
+ COSTEX DECIMAL(11, 2)  SET( "Description" = 'Costo Total', "ui_mapping_text" = 'IFCDEUEX01.COSTEX') ,
+ STATEX VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'IFCDEUEX01.STATEX') ,
+ USESEX VARCHAR(10)  SET( "Description" = 'Usuario Escaneando', "ui_mapping_text" = 'IFCDEUEX01.USESEX') ,
+ FEESEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Escaneando', "ui_mapping_text" = 'IFCDEUEX01.FEESEX') ,
+ HOESEX DECIMAL(6, 0)  SET( "Description" = 'Hora Escaneando', "ui_mapping_text" = 'IFCDEUEX01.HOESEX') ,
+ REESEX VARCHAR(10)  SET( "Description" = 'Refer Escaneando', "ui_mapping_text" = 'IFCDEUEX01.REESEX') ,
+ DIESEX VARCHAR(10)  SET( "Description" = 'Dispositivo Escaneando', "ui_mapping_text" = 'IFCDEUEX01.DIESEX') ,
+ USCEEX VARCHAR(10)  SET( "Description" = 'Usu.AUD Cerrado', "ui_mapping_text" = 'IFCDEUEX01.USCEEX') ,
+ FECEEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Cerrado', "ui_mapping_text" = 'IFCDEUEX01.FECEEX') ,
+ HOCEEX DECIMAL(6, 0)  SET( "Description" = 'Hora Cerrado', "ui_mapping_text" = 'IFCDEUEX01.HOCEEX') ,
+ RECEEX VARCHAR(10)  SET( "Description" = 'Refer Cerrado', "ui_mapping_text" = 'IFCDEUEX01.RECEEX') ,
+ DICEEX VARCHAR(10)  SET( "Description" = 'Dispositivo Cerrado', "ui_mapping_text" = 'IFCDEUEX01.DICEEX') ,
+ UCDCEX VARCHAR(10)  SET( "Description" = 'Usuario CDD Cerrado', "ui_mapping_text" = 'IFCDEUEX01.UCDCEX') ,
+ CRG_DATE DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT 1, IFCDEUEX01.ALMAEX, IFCDEUEX01.FECHEX, IFCDEUEX01.PAISEX, IFCDEUEX01.CIASEX, IFCDEUEX01.CDDIEX, IFCDEUEX01.ZONAEX, IFCDEUEX01.NUMEEX, IFCDEUEX01.LADOEX, IFCDEUEX01.MODUEX, IFCDEUEX01.NIVEEX, IFCDEUEX01.POSIEX, IFCDEUEX01.CODPEX, IFCDEUEX01.GRUPEX, IFCDEUEX01.SGRUEX, IFCDEUEX01.MCREEX, IFCDEUEX01.EXA1EX, IFCDEUEX01.UCO1EX, IFCDEUEX01.FEC1EX, IFCDEUEX01.HOC1EX, IFCDEUEX01.USC1EX, IFCDEUEX01.REC1EX, IFCDEUEX01.DIC1EX, IFCDEUEX01.EXA2EX, IFCDEUEX01.UCO2EX, IFCDEUEX01.FEC2EX, IFCDEUEX01.HOC2EX, IFCDEUEX01.USC2EX, IFCDEUEX01.REC2EX, IFCDEUEX01.DIC2EX, IFCDEUEX01.SMEGEX, IFCDEUEX01.SMINEX, IFCDEUEX01.UNESEX, IFCDEUEX01.UNAVEX, IFCDEUEX01.UNDIEX, IFCDEUEX01.UDFTEX, IFCDEUEX01.UCAVEX, IFCDEUEX01.UCFSEX, IFCDEUEX01.UAFIEX, IFCDEUEX01.UDITEX, IFCDEUEX01.COSTEX, IFCDEUEX01.STATEX, IFCDEUEX01.USESEX, IFCDEUEX01.FEESEX, IFCDEUEX01.HOESEX, IFCDEUEX01.REESEX, IFCDEUEX01.DIESEX, IFCDEUEX01.USCEEX, IFCDEUEX01.FECEEX, IFCDEUEX01.HOCEEX, IFCDEUEX01.RECEEX, IFCDEUEX01.DICEEX, IFCDEUEX01.UCDCEX, sysdate() FROM IFCDEUEX01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '731', "y" = '-1468')
+GUID::'d3f4968e-4294-4c18-a0a0-27644817ee0b' READ TABLE DS_DB2_GER_VTAS.PHNINV.IFCDEUEX01 OUTPUT(IFCDEUEX01_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'IFCDEUEX01_1', "ui_display_name" = 'QRY_HN', "x" = '1270', "y" = '-1470')
+GUID::'e8af1f4d-565c-4ce6-8e1c-01de6976974f' CREATE VIEW QRY_HN( ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ ALMAEX VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'IFCDEUEX01_1.ALMAEX') ,
+ FECHEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Inicio Inventario', "ui_mapping_text" = 'IFCDEUEX01_1.FECHEX') ,
+ PAISEX VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'IFCDEUEX01_1.PAISEX') ,
+ CIASEX VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'IFCDEUEX01_1.CIASEX') ,
+ CDDIEX VARCHAR(2)  SET( "Description" = 'Centro Distribucion', "ui_mapping_text" = 'IFCDEUEX01_1.CDDIEX') ,
+ ZONAEX VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'IFCDEUEX01_1.ZONAEX') ,
+ NUMEEX VARCHAR(3)  SET( "Description" = 'Numero', "ui_mapping_text" = 'IFCDEUEX01_1.NUMEEX') ,
+ LADOEX VARCHAR(1)  SET( "Description" = 'Lado A/B', "ui_mapping_text" = 'IFCDEUEX01_1.LADOEX') ,
+ MODUEX VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'IFCDEUEX01_1.MODUEX') ,
+ NIVEEX VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'IFCDEUEX01_1.NIVEEX') ,
+ POSIEX VARCHAR(2)  SET( "Description" = 'Posicion 01/02', "ui_mapping_text" = 'IFCDEUEX01_1.POSIEX') ,
+ CODPEX VARCHAR(17)  SET( "Description" = 'Codigo Producto', "ui_mapping_text" = 'IFCDEUEX01_1.CODPEX') ,
+ GRUPEX VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'IFCDEUEX01_1.GRUPEX') ,
+ SGRUEX VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'IFCDEUEX01_1.SGRUEX') ,
+ MCREEX VARCHAR(1)  SET( "Description" = 'Marca Creado', "ui_mapping_text" = 'IFCDEUEX01_1.MCREEX') ,
+ EXA1EX DECIMAL(7, 0)  SET( "Description" = 'Existencia Actual 01', "ui_mapping_text" = 'IFCDEUEX01_1.EXA1EX') ,
+ UCO1EX DECIMAL(7, 0)  SET( "Description" = 'Comprometido Actual 01', "ui_mapping_text" = 'IFCDEUEX01_1.UCO1EX') ,
+ FEC1EX DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.FEC1EX') ,
+ HOC1EX DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.HOC1EX') ,
+ USC1EX VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.USC1EX') ,
+ REC1EX VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.REC1EX') ,
+ DIC1EX VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.DIC1EX') ,
+ EXA2EX DECIMAL(7, 0)  SET( "Description" = 'Existencia Actual 02', "ui_mapping_text" = 'IFCDEUEX01_1.EXA2EX') ,
+ UCO2EX DECIMAL(7, 0)  SET( "Description" = 'Comprometido Actual 02', "ui_mapping_text" = 'IFCDEUEX01_1.UCO2EX') ,
+ FEC2EX DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.FEC2EX') ,
+ HOC2EX DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.HOC2EX') ,
+ USC2EX VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.USC2EX') ,
+ REC2EX VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.REC2EX') ,
+ DIC2EX VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDEUEX01_1.DIC2EX') ,
+ SMEGEX DECIMAL(7, 0)  SET( "Description" = 'Sum.Mov Egresos', "ui_mapping_text" = 'IFCDEUEX01_1.SMEGEX') ,
+ SMINEX DECIMAL(7, 0)  SET( "Description" = 'Sum.Mov Ingresos', "ui_mapping_text" = 'IFCDEUEX01_1.SMINEX') ,
+ UNESEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Escaneadas', "ui_mapping_text" = 'IFCDEUEX01_1.UNESEX') ,
+ UNAVEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'IFCDEUEX01_1.UNAVEX') ,
+ UNDIEX DECIMAL(7, 0)  SET( "Description" = 'Unidades Diferencias', "ui_mapping_text" = 'IFCDEUEX01_1.UNDIEX') ,
+ UDFTEX DECIMAL(7, 0)  SET( "Description" = 'Difer.Fisica Temporal', "ui_mapping_text" = 'IFCDEUEX01_1.UDFTEX') ,
+ UCAVEX DECIMAL(7, 0)  SET( "Description" = 'Uni.Correccion Averias', "ui_mapping_text" = 'IFCDEUEX01_1.UCAVEX') ,
+ UCFSEX DECIMAL(7, 0)  SET( "Description" = 'Uni.Correccion F/S', "ui_mapping_text" = 'IFCDEUEX01_1.UCFSEX') ,
+ UAFIEX DECIMAL(7, 0)  SET( "Description" = 'AFIS', "ui_mapping_text" = 'IFCDEUEX01_1.UAFIEX') ,
+ UDITEX DECIMAL(7, 0)  SET( "Description" = 'Unid.Diferencia Totales', "ui_mapping_text" = 'IFCDEUEX01_1.UDITEX') ,
+ COSTEX DECIMAL(11, 2)  SET( "Description" = 'Costo Total', "ui_mapping_text" = 'IFCDEUEX01_1.COSTEX') ,
+ STATEX VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'IFCDEUEX01_1.STATEX') ,
+ USESEX VARCHAR(10)  SET( "Description" = 'Usuario Escaneando', "ui_mapping_text" = 'IFCDEUEX01_1.USESEX') ,
+ FEESEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Escaneando', "ui_mapping_text" = 'IFCDEUEX01_1.FEESEX') ,
+ HOESEX DECIMAL(6, 0)  SET( "Description" = 'Hora Escaneando', "ui_mapping_text" = 'IFCDEUEX01_1.HOESEX') ,
+ REESEX VARCHAR(10)  SET( "Description" = 'Refer Escaneando', "ui_mapping_text" = 'IFCDEUEX01_1.REESEX') ,
+ DIESEX VARCHAR(10)  SET( "Description" = 'Dispositivo Escaneando', "ui_mapping_text" = 'IFCDEUEX01_1.DIESEX') ,
+ USCEEX VARCHAR(10)  SET( "Description" = 'Usu.AUD Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.USCEEX') ,
+ FECEEX DECIMAL(8, 0)  SET( "Description" = 'Fecha Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.FECEEX') ,
+ HOCEEX DECIMAL(6, 0)  SET( "Description" = 'Hora Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.HOCEEX') ,
+ RECEEX VARCHAR(10)  SET( "Description" = 'Refer Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.RECEEX') ,
+ DICEEX VARCHAR(10)  SET( "Description" = 'Dispositivo Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.DICEEX') ,
+ UCDCEX VARCHAR(10)  SET( "Description" = 'Usuario CDD Cerrado', "ui_mapping_text" = 'IFCDEUEX01_1.UCDCEX') ,
+ CRG_DATE DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT 2, IFCDEUEX01_1.ALMAEX, IFCDEUEX01_1.FECHEX, IFCDEUEX01_1.PAISEX, IFCDEUEX01_1.CIASEX, IFCDEUEX01_1.CDDIEX, IFCDEUEX01_1.ZONAEX, IFCDEUEX01_1.NUMEEX, IFCDEUEX01_1.LADOEX, IFCDEUEX01_1.MODUEX, IFCDEUEX01_1.NIVEEX, IFCDEUEX01_1.POSIEX, IFCDEUEX01_1.CODPEX, IFCDEUEX01_1.GRUPEX, IFCDEUEX01_1.SGRUEX, IFCDEUEX01_1.MCREEX, IFCDEUEX01_1.EXA1EX, IFCDEUEX01_1.UCO1EX, IFCDEUEX01_1.FEC1EX, IFCDEUEX01_1.HOC1EX, IFCDEUEX01_1.USC1EX, IFCDEUEX01_1.REC1EX, IFCDEUEX01_1.DIC1EX, IFCDEUEX01_1.EXA2EX, IFCDEUEX01_1.UCO2EX, IFCDEUEX01_1.FEC2EX, IFCDEUEX01_1.HOC2EX, IFCDEUEX01_1.USC2EX, IFCDEUEX01_1.REC2EX, IFCDEUEX01_1.DIC2EX, IFCDEUEX01_1.SMEGEX, IFCDEUEX01_1.SMINEX, IFCDEUEX01_1.UNESEX, IFCDEUEX01_1.UNAVEX, IFCDEUEX01_1.UNDIEX, IFCDEUEX01_1.UDFTEX, IFCDEUEX01_1.UCAVEX, IFCDEUEX01_1.UCFSEX, IFCDEUEX01_1.UAFIEX, IFCDEUEX01_1.UDITEX, IFCDEUEX01_1.COSTEX, IFCDEUEX01_1.STATEX, IFCDEUEX01_1.USESEX, IFCDEUEX01_1.FEESEX, IFCDEUEX01_1.HOESEX, IFCDEUEX01_1.REESEX, IFCDEUEX01_1.DIESEX, IFCDEUEX01_1.USCEEX, IFCDEUEX01_1.FECEEX, IFCDEUEX01_1.HOCEEX, IFCDEUEX01_1.RECEEX, IFCDEUEX01_1.DICEEX, IFCDEUEX01_1.UCDCEX, sysdate() FROM IFCDEUEX01_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1853', "y" = '-1243')
+GUID::'e0430fba-a573-48d0-a80b-159ca4d7eef7' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'IFCDEUEX01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2365', "y" = '-1244')
+GUID::'a2e59d8b-aaa4-42e9-91b8-c04f0be5c9ef' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFCDEUEX01 INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 10 11:07:40 2023', "ActaValue_3" = 'Tue Oct 10 11:23:06 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_IFCDMOVI01::'28eb27b7-2ca5-4306-8d79-66de313ac66a'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '366', "y" = '-904')
+GUID::'c143cb00-4841-4a23-a5a7-acb62e1a3ad1' READ TABLE DS_DB2_GER_VTAS.NEWINV.IFCDMOVI01 OUTPUT(IFCDMOVI01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'IFCDMOVI01', "ui_display_name" = 'SV', "x" = '871', "y" = '-904')
+GUID::'2663f39e-31e7-45ea-b70f-a98058dd5965' CREATE VIEW SV( ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ ALMAMO VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'IFCDMOVI01.ALMAMO') ,
+ FECHMO DECIMAL(8, 0)  SET( "Description" = 'Fecha Inicio Inventario', "ui_mapping_text" = 'IFCDMOVI01.FECHMO') ,
+ PAISMO VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'IFCDMOVI01.PAISMO') ,
+ CIASMO VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'IFCDMOVI01.CIASMO') ,
+ CDDIMO VARCHAR(2)  SET( "Description" = 'Centro Distribucion', "ui_mapping_text" = 'IFCDMOVI01.CDDIMO') ,
+ ZONAMO VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'IFCDMOVI01.ZONAMO') ,
+ NUMEMO VARCHAR(3)  SET( "Description" = 'Numero', "ui_mapping_text" = 'IFCDMOVI01.NUMEMO') ,
+ LADOMO VARCHAR(1)  SET( "Description" = 'Lado A/B', "ui_mapping_text" = 'IFCDMOVI01.LADOMO') ,
+ MODUMO VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'IFCDMOVI01.MODUMO') ,
+ NIVEMO VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'IFCDMOVI01.NIVEMO') ,
+ POSIMO VARCHAR(2)  SET( "Description" = 'Posicion 01/02', "ui_mapping_text" = 'IFCDMOVI01.POSIMO') ,
+ NCORMO DECIMAL(5, 0)  SET( "Description" = 'No. Correlativo', "ui_mapping_text" = 'IFCDMOVI01.NCORMO') ,
+ CODPMO VARCHAR(17)  SET( "Description" = 'Codigo Producto', "ui_mapping_text" = 'IFCDMOVI01.CODPMO') ,
+ UNESMO DECIMAL(7, 0)  SET( "Description" = 'Unidades Escaneadas', "ui_mapping_text" = 'IFCDMOVI01.UNESMO') ,
+ UNAVMO DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'IFCDMOVI01.UNAVMO') ,
+ OBSEMO VARCHAR(60)  SET( "Description" = 'Observacion', "ui_mapping_text" = 'IFCDMOVI01.OBSEMO') ,
+ USCRMO VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDMOVI01.USCRMO') ,
+ FECRMO DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDMOVI01.FECRMO') ,
+ HOCRMO DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDMOVI01.HOCRMO') ,
+ RECRMO VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDMOVI01.RECRMO') ,
+ DICRMO VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDMOVI01.DICRMO') ,
+ STATMO VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'IFCDMOVI01.STATMO') ,
+ DATE_CRG_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT 1, IFCDMOVI01.ALMAMO, IFCDMOVI01.FECHMO, IFCDMOVI01.PAISMO, IFCDMOVI01.CIASMO, IFCDMOVI01.CDDIMO, IFCDMOVI01.ZONAMO, IFCDMOVI01.NUMEMO, IFCDMOVI01.LADOMO, IFCDMOVI01.MODUMO, IFCDMOVI01.NIVEMO, IFCDMOVI01.POSIMO, IFCDMOVI01.NCORMO, IFCDMOVI01.CODPMO, IFCDMOVI01.UNESMO, IFCDMOVI01.UNAVMO, IFCDMOVI01.OBSEMO, IFCDMOVI01.USCRMO, IFCDMOVI01.FECRMO, IFCDMOVI01.HOCRMO, IFCDMOVI01.RECRMO, IFCDMOVI01.DICRMO, IFCDMOVI01.STATMO, sysdate() FROM IFCDMOVI01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '372', "y" = '-1431')
+GUID::'3f162ca9-94c6-43df-903f-075533240ad0' READ TABLE DS_DB2_GER_VTAS.PHNINV.IFCDMOVI01 OUTPUT(IFCDMOVI01_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'IFCDMOVI01_1', "ui_display_name" = 'HN', "x" = '865', "y" = '-1430')
+GUID::'957f2ad1-251d-4d17-8c6b-814863b12f07' CREATE VIEW HN( ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ ALMAMO VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'IFCDMOVI01_1.ALMAMO') ,
+ FECHMO DECIMAL(8, 0)  SET( "Description" = 'Fecha Inicio Inventario', "ui_mapping_text" = 'IFCDMOVI01_1.FECHMO') ,
+ PAISMO VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'IFCDMOVI01_1.PAISMO') ,
+ CIASMO VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'IFCDMOVI01_1.CIASMO') ,
+ CDDIMO VARCHAR(2)  SET( "Description" = 'Centro Distribucion', "ui_mapping_text" = 'IFCDMOVI01_1.CDDIMO') ,
+ ZONAMO VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'IFCDMOVI01_1.ZONAMO') ,
+ NUMEMO VARCHAR(3)  SET( "Description" = 'Numero', "ui_mapping_text" = 'IFCDMOVI01_1.NUMEMO') ,
+ LADOMO VARCHAR(1)  SET( "Description" = 'Lado A/B', "ui_mapping_text" = 'IFCDMOVI01_1.LADOMO') ,
+ MODUMO VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'IFCDMOVI01_1.MODUMO') ,
+ NIVEMO VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'IFCDMOVI01_1.NIVEMO') ,
+ POSIMO VARCHAR(2)  SET( "Description" = 'Posicion 01/02', "ui_mapping_text" = 'IFCDMOVI01_1.POSIMO') ,
+ NCORMO DECIMAL(5, 0)  SET( "Description" = 'No. Correlativo', "ui_mapping_text" = 'IFCDMOVI01_1.NCORMO') ,
+ CODPMO VARCHAR(17)  SET( "Description" = 'Codigo Producto', "ui_mapping_text" = 'IFCDMOVI01_1.CODPMO') ,
+ UNESMO DECIMAL(7, 0)  SET( "Description" = 'Unidades Escaneadas', "ui_mapping_text" = 'IFCDMOVI01_1.UNESMO') ,
+ UNAVMO DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'IFCDMOVI01_1.UNAVMO') ,
+ OBSEMO VARCHAR(60)  SET( "Description" = 'Observacion', "ui_mapping_text" = 'IFCDMOVI01_1.OBSEMO') ,
+ USCRMO VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'IFCDMOVI01_1.USCRMO') ,
+ FECRMO DECIMAL(8, 0)  SET( "Description" = 'Fecha Creacion', "ui_mapping_text" = 'IFCDMOVI01_1.FECRMO') ,
+ HOCRMO DECIMAL(6, 0)  SET( "Description" = 'Hora Creacion', "ui_mapping_text" = 'IFCDMOVI01_1.HOCRMO') ,
+ RECRMO VARCHAR(10)  SET( "Description" = 'Referencia Creacion', "ui_mapping_text" = 'IFCDMOVI01_1.RECRMO') ,
+ DICRMO VARCHAR(10)  SET( "Description" = 'Dispositivo Creacion', "ui_mapping_text" = 'IFCDMOVI01_1.DICRMO') ,
+ STATMO VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'IFCDMOVI01_1.STATMO') ,
+ DATE_CRG_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT 2, IFCDMOVI01_1.ALMAMO, IFCDMOVI01_1.FECHMO, IFCDMOVI01_1.PAISMO, IFCDMOVI01_1.CIASMO, IFCDMOVI01_1.CDDIMO, IFCDMOVI01_1.ZONAMO, IFCDMOVI01_1.NUMEMO, IFCDMOVI01_1.LADOMO, IFCDMOVI01_1.MODUMO, IFCDMOVI01_1.NIVEMO, IFCDMOVI01_1.POSIMO, IFCDMOVI01_1.NCORMO, IFCDMOVI01_1.CODPMO, IFCDMOVI01_1.UNESMO, IFCDMOVI01_1.UNAVMO, IFCDMOVI01_1.OBSEMO, IFCDMOVI01_1.USCRMO, IFCDMOVI01_1.FECRMO, IFCDMOVI01_1.HOCRMO, IFCDMOVI01_1.RECRMO, IFCDMOVI01_1.DICRMO, IFCDMOVI01_1.STATMO, sysdate() FROM IFCDMOVI01_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1519', "y" = '-1128')
+GUID::'216bec58-4e7d-4406-8fed-242c88421bd9' CALL TRANSFORM Merge() INPUT(HN, SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'IFCDMOVI01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2021', "y" = '-1129')
+GUID::'83aa58d7-6d95-421b-a6a7-732427e55f21' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFCDMOVI01 INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Nov 22 15:01:14 2022', "ActaValue_3" = 'Mon Dec  5 09:44:26 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_IFISCF01::'f3dee6fd-fde3-45ce-9f1a-6a0e6ce9a5f0'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '241', "Output_Width_Mapping" = '85', "Output_Width_Name" = '777', "Output_Width_Type" = '127', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>609</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '397', "y" = '-812')
+GUID::'77acc160-d665-4273-959d-99a85c102016' READ TABLE DS_DB2_GER_VTAS.NEWINV.IFISCF01 OUTPUT(IFISCF01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '403', "y" = '-1153')
+GUID::'2265cc93-e40e-4aff-900a-7b600bd283ce' READ TABLE DS_DB2_GER_VTAS.PHNINV.IFISCF01 OUTPUT(IFISCF01_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'IFISCF01', "ui_display_name" = 'QRY_SV', "x" = '809', "y" = '-814')
+GUID::'e94d1f04-4935-425e-8ac1-c534008472a0' CREATE VIEW QRY_SV( ALMACF VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'IFISCF01.ALMACF') ,
+ FECICF DECIMAL(8, 0)  SET( "Description" = 'FECHA INICIO', "ui_mapping_text" = 'IFISCF01.FECICF') ,
+ GRUPCF VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'IFISCF01.GRUPCF') ,
+ SGRPCF VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'IFISCF01.SGRPCF') ,
+ CORRCF DECIMAL(6, 0)  SET( "Description" = 'CORRELATIVO', "ui_mapping_text" = 'IFISCF01.CORRCF') ,
+ CODPCF VARCHAR(17)  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'IFISCF01.CODPCF') ,
+ CANTCF DECIMAL(5, 0)  SET( "Description" = 'CANTIDAD', "ui_mapping_text" = 'IFISCF01.CANTCF') ,
+ EXISCF DECIMAL(5, 0)  SET( "Description" = 'EXISTENCIA', "ui_mapping_text" = 'IFISCF01.EXISCF') ,
+ DESCCF VARCHAR(20)  SET( "Description" = 'DESCRIPCION CODIGO', "ui_mapping_text" = 'IFISCF01.DESCCF') ,
+ SURECF VARCHAR(1)  SET( "Description" = 'MARCA SUMA/RESTA', "ui_mapping_text" = 'IFISCF01.SURECF') ,
+ CODICF VARCHAR(2)  SET( "Description" = 'CODIFICACION', "ui_mapping_text" = 'IFISCF01.CODICF') ,
+ OBSECF VARCHAR(30)  SET( "Description" = 'OBSERVACION', "ui_mapping_text" = 'IFISCF01.OBSECF') ,
+ CONMCF VARCHAR(2)  SET( "Description" = 'CODIGO NO MANEJADO', "ui_mapping_text" = 'IFISCF01.CONMCF') ,
+ STATCF VARCHAR(3)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'IFISCF01.STATCF') ,
+ AJSTCF VARCHAR(1)  SET( "Description" = 'PROC.AJUSTE', "ui_mapping_text" = 'IFISCF01.AJSTCF') ,
+ AGDECF VARCHAR(1)  SET( "Description" = 'AGREGADO DESPUES', "ui_mapping_text" = 'IFISCF01.AGDECF') ,
+ USABCF VARCHAR(10)  SET( "Description" = 'USUARIO ABIERTO', "ui_mapping_text" = 'IFISCF01.USABCF') ,
+ FEABCF DECIMAL(8, 0)  SET( "Description" = 'FECHA ABIERTO', "ui_mapping_text" = 'IFISCF01.FEABCF') ,
+ HOABCF DECIMAL(6, 0)  SET( "Description" = 'HORA ABIERTO', "ui_mapping_text" = 'IFISCF01.HOABCF') ,
+ REABCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01.REABCF') ,
+ USCECF VARCHAR(10)  SET( "Description" = 'USUARIO CERRADO', "ui_mapping_text" = 'IFISCF01.USCECF') ,
+ FECECF DECIMAL(8, 0)  SET( "Description" = 'FECHA CERRADO', "ui_mapping_text" = 'IFISCF01.FECECF') ,
+ HOCECF DECIMAL(6, 0)  SET( "Description" = 'HORA CERRADO', "ui_mapping_text" = 'IFISCF01.HOCECF') ,
+ RECECF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01.RECECF') ,
+ USAJCF VARCHAR(10)  SET( "Description" = 'USUARIO AJUSTES', "ui_mapping_text" = 'IFISCF01.USAJCF') ,
+ FEAJCF DECIMAL(8, 0)  SET( "Description" = 'FECHA AJUSTES', "ui_mapping_text" = 'IFISCF01.FEAJCF') ,
+ HOAJCF DECIMAL(6, 0)  SET( "Description" = 'HORA AJUSTES', "ui_mapping_text" = 'IFISCF01.HOAJCF') ,
+ REAJCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01.REAJCF') ,
+ USTFCF VARCHAR(10)  SET( "Description" = 'USUARIO FINALIZADO', "ui_mapping_text" = 'IFISCF01.USTFCF') ,
+ FETFCF DECIMAL(8, 0)  SET( "Description" = 'FECHA FINALIZADO', "ui_mapping_text" = 'IFISCF01.FETFCF') ,
+ HOTFCF DECIMAL(6, 0)  SET( "Description" = 'HORA FINALIZADO', "ui_mapping_text" = 'IFISCF01.HOTFCF') ,
+ RETFCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01.RETFCF') ,
+ DISPCF VARCHAR(10)  SET( "Description" = 'DISPOSITIVO', "ui_mapping_text" = 'IFISCF01.DISPCF') ,
+ USRECF VARCHAR(10)  SET( "Description" = 'USUARIO REABIERTO', "ui_mapping_text" = 'IFISCF01.USRECF') ,
+ FERECF DECIMAL(8, 0)  SET( "Description" = 'FECHA REABIERTO', "ui_mapping_text" = 'IFISCF01.FERECF') ,
+ HORECF DECIMAL(6, 0)  SET( "Description" = 'HORA REABIERTO', "ui_mapping_text" = 'IFISCF01.HORECF') ,
+ RERECF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01.RERECF') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT IFISCF01.ALMACF, IFISCF01.FECICF, IFISCF01.GRUPCF, IFISCF01.SGRPCF, IFISCF01.CORRCF, IFISCF01.CODPCF, IFISCF01.CANTCF, IFISCF01.EXISCF, IFISCF01.DESCCF, IFISCF01.SURECF, IFISCF01.CODICF, IFISCF01.OBSECF, IFISCF01.CONMCF, IFISCF01.STATCF, IFISCF01.AJSTCF, IFISCF01.AGDECF, IFISCF01.USABCF, IFISCF01.FEABCF, IFISCF01.HOABCF, IFISCF01.REABCF, IFISCF01.USCECF, IFISCF01.FECECF, IFISCF01.HOCECF, IFISCF01.RECECF, IFISCF01.USAJCF, IFISCF01.FEAJCF, IFISCF01.HOAJCF, IFISCF01.REAJCF, IFISCF01.USTFCF, IFISCF01.FETFCF, IFISCF01.HOTFCF, IFISCF01.RETFCF, IFISCF01.DISPCF, IFISCF01.USRECF, IFISCF01.FERECF, IFISCF01.HORECF, IFISCF01.RERECF, 1, sysdate() FROM IFISCF01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'IFISCF01_1', "ui_display_name" = 'QRY_HN', "x" = '819', "y" = '-1153')
+GUID::'dbeaceae-538f-48c6-8e7d-aef9c6d4d1f8' CREATE VIEW QRY_HN( ALMACF VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'IFISCF01_1.ALMACF') ,
+ FECICF DECIMAL(8, 0)  SET( "Description" = 'FECHA INICIO', "ui_mapping_text" = 'IFISCF01_1.FECICF') ,
+ GRUPCF VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'IFISCF01_1.GRUPCF') ,
+ SGRPCF VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'IFISCF01_1.SGRPCF') ,
+ CORRCF DECIMAL(6, 0)  SET( "Description" = 'CORRELATIVO', "ui_mapping_text" = 'IFISCF01_1.CORRCF') ,
+ CODPCF VARCHAR(17)  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'IFISCF01_1.CODPCF') ,
+ CANTCF DECIMAL(5, 0)  SET( "Description" = 'CANTIDAD', "ui_mapping_text" = 'IFISCF01_1.CANTCF') ,
+ EXISCF DECIMAL(5, 0)  SET( "Description" = 'EXISTENCIA', "ui_mapping_text" = 'IFISCF01_1.EXISCF') ,
+ DESCCF VARCHAR(20)  SET( "Description" = 'DESCRIPCION CODIGO', "ui_mapping_text" = 'IFISCF01_1.DESCCF') ,
+ SURECF VARCHAR(1)  SET( "Description" = 'MARCA SUMA/RESTA', "ui_mapping_text" = 'IFISCF01_1.SURECF') ,
+ CODICF VARCHAR(2)  SET( "Description" = 'CODIFICACION', "ui_mapping_text" = 'IFISCF01_1.CODICF') ,
+ OBSECF VARCHAR(30)  SET( "Description" = 'OBSERVACION', "ui_mapping_text" = 'IFISCF01_1.OBSECF') ,
+ CONMCF VARCHAR(2)  SET( "Description" = 'CODIGO NO MANEJADO', "ui_mapping_text" = 'IFISCF01_1.CONMCF') ,
+ STATCF VARCHAR(3)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'IFISCF01_1.STATCF') ,
+ AJSTCF VARCHAR(1)  SET( "Description" = 'PROC.AJUSTE', "ui_mapping_text" = 'IFISCF01_1.AJSTCF') ,
+ AGDECF VARCHAR(1)  SET( "Description" = 'AGREGADO DESPUES', "ui_mapping_text" = 'IFISCF01_1.AGDECF') ,
+ USABCF VARCHAR(10)  SET( "Description" = 'USUARIO ABIERTO', "ui_mapping_text" = 'IFISCF01_1.USABCF') ,
+ FEABCF DECIMAL(8, 0)  SET( "Description" = 'FECHA ABIERTO', "ui_mapping_text" = 'IFISCF01_1.FEABCF') ,
+ HOABCF DECIMAL(6, 0)  SET( "Description" = 'HORA ABIERTO', "ui_mapping_text" = 'IFISCF01_1.HOABCF') ,
+ REABCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01_1.REABCF') ,
+ USCECF VARCHAR(10)  SET( "Description" = 'USUARIO CERRADO', "ui_mapping_text" = 'IFISCF01_1.USCECF') ,
+ FECECF DECIMAL(8, 0)  SET( "Description" = 'FECHA CERRADO', "ui_mapping_text" = 'IFISCF01_1.FECECF') ,
+ HOCECF DECIMAL(6, 0)  SET( "Description" = 'HORA CERRADO', "ui_mapping_text" = 'IFISCF01_1.HOCECF') ,
+ RECECF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01_1.RECECF') ,
+ USAJCF VARCHAR(10)  SET( "Description" = 'USUARIO AJUSTES', "ui_mapping_text" = 'IFISCF01_1.USAJCF') ,
+ FEAJCF DECIMAL(8, 0)  SET( "Description" = 'FECHA AJUSTES', "ui_mapping_text" = 'IFISCF01_1.FEAJCF') ,
+ HOAJCF DECIMAL(6, 0)  SET( "Description" = 'HORA AJUSTES', "ui_mapping_text" = 'IFISCF01_1.HOAJCF') ,
+ REAJCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01_1.REAJCF') ,
+ USTFCF VARCHAR(10)  SET( "Description" = 'USUARIO FINALIZADO', "ui_mapping_text" = 'IFISCF01_1.USTFCF') ,
+ FETFCF DECIMAL(8, 0)  SET( "Description" = 'FECHA FINALIZADO', "ui_mapping_text" = 'IFISCF01_1.FETFCF') ,
+ HOTFCF DECIMAL(6, 0)  SET( "Description" = 'HORA FINALIZADO', "ui_mapping_text" = 'IFISCF01_1.HOTFCF') ,
+ RETFCF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01_1.RETFCF') ,
+ DISPCF VARCHAR(10)  SET( "Description" = 'DISPOSITIVO', "ui_mapping_text" = 'IFISCF01_1.DISPCF') ,
+ USRECF VARCHAR(10)  SET( "Description" = 'USUARIO REABIERTO', "ui_mapping_text" = 'IFISCF01_1.USRECF') ,
+ FERECF DECIMAL(8, 0)  SET( "Description" = 'FECHA REABIERTO', "ui_mapping_text" = 'IFISCF01_1.FERECF') ,
+ HORECF DECIMAL(6, 0)  SET( "Description" = 'HORA REABIERTO', "ui_mapping_text" = 'IFISCF01_1.HORECF') ,
+ RERECF VARCHAR(10)  SET( "Description" = 'REF PROGRAMA', "ui_mapping_text" = 'IFISCF01_1.RERECF') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT IFISCF01_1.ALMACF, IFISCF01_1.FECICF, IFISCF01_1.GRUPCF, IFISCF01_1.SGRPCF, IFISCF01_1.CORRCF, IFISCF01_1.CODPCF, IFISCF01_1.CANTCF, IFISCF01_1.EXISCF, IFISCF01_1.DESCCF, IFISCF01_1.SURECF, IFISCF01_1.CODICF, IFISCF01_1.OBSECF, IFISCF01_1.CONMCF, IFISCF01_1.STATCF, IFISCF01_1.AJSTCF, IFISCF01_1.AGDECF, IFISCF01_1.USABCF, IFISCF01_1.FEABCF, IFISCF01_1.HOABCF, IFISCF01_1.REABCF, IFISCF01_1.USCECF, IFISCF01_1.FECECF, IFISCF01_1.HOCECF, IFISCF01_1.RECECF, IFISCF01_1.USAJCF, IFISCF01_1.FEAJCF, IFISCF01_1.HOAJCF, IFISCF01_1.REAJCF, IFISCF01_1.USTFCF, IFISCF01_1.FETFCF, IFISCF01_1.HOTFCF, IFISCF01_1.RETFCF, IFISCF01_1.DISPCF, IFISCF01_1.USRECF, IFISCF01_1.FERECF, IFISCF01_1.HORECF, IFISCF01_1.RERECF, 2, sysdate() FROM IFISCF01_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '1300', "y" = '-984')
+GUID::'784cdf95-59d6-4b61-961a-a5f03661cfa8' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'IFISCF01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '1737', "y" = '-983')
+GUID::'00d0fe44-2f37-4904-bdb2-b7b4fc2577c4' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.IFISCF01 INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_IFISCF01.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

@@ -1,0 +1,71 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8EA0E74E782181AD905D00288D976B15DF8D9A130CDD468C7500DD82089432EE5AD52633429BFF984EE51D3CDC7</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8DDCE33384935C1029FB0584BE5FBC3073BF2B77E19F0BAFB7C18BBAD4BE442503385C26C46EFE6DFAD0700F7D2</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8DD78F1907B15097C4E8C3D4928867FAA118FEE5CB5A11DD96D0C29A05E8372CEAC04B1A5E3393FEE8BAC717FEE4A8087635BF6EADB0F</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep 13 15:31:04 2023', "ActaValue_3" = 'Thu Sep 21 15:41:36 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_MSTINV_A1::'fa7963c3-d12d-48f2-a73f-6ae3b67112fd'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio STG', "ui_script_text" = 'print(\'*********************************************--> INICIO <--*************************************************\');
+print(\'*****************************--> LOAD STAGE MSTINV_A1 <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '217', "y" = '-219')
+BEGIN_SCRIPT
+print('*********************************************--> INICIO <--*************************************************');print('*****************************--> LOAD STAGE MSTINV_A1 <--*******************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>400</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'STAGE_BI SP_MSTINV_A1', "ui_script_text" = 'sql(\'DS_SQL_SERVER_STAGE_BI\',\'EXEC DWH.sp_MSTINV_A1\');', "x" = '705', "y" = '-341')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_STAGE_BI', 'EXEC DWH.sp_MSTINV_A1');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin STG', "ui_script_text" = 'print(\'*********************************************--> FIN <--*************************************************\');
+print(\'*****************************--> LOAD STAGE MSTINV_A1 <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '1106', "y" = '-559')
+BEGIN_SCRIPT
+print('*********************************************--> FIN <--*************************************************');print('*****************************--> LOAD STAGE MSTINV_A1 <--*******************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio ASDW', "ui_script_text" = 'print(\'*********************************************--> INICIO <--*************************************************\');
+print(\'*****************************--> LOAD DW-AS MSTINV_A1 <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '1510', "y" = '-558')
+BEGIN_SCRIPT
+print('*********************************************--> INICIO <--*************************************************');print('*****************************--> LOAD DW-AS MSTINV_A1 <--*******************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>272</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'LOAD DW2AS', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\BodegasRegionales\\ExecutePYBodReg_Bat.py\',
+	 0
+)
+;', "x" = '1907', "y" = '-748')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\BodegasRegionales\\ExecutePYBodReg_Bat.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin ASDW', "ui_script_text" = 'print(\'*********************************************--> FIN <--*************************************************\');
+print(\'*****************************--> LOAD DW-AS MSTINV_A1 <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '2312', "y" = '-963')
+BEGIN_SCRIPT
+print('*********************************************--> FIN <--*************************************************');print('*****************************--> LOAD DW-AS MSTINV_A1 <--*******************************');print('************************************************************************************************************');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

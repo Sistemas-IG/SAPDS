@@ -1,0 +1,492 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8BF3E929FB715176B78C4B7FEA20CB32B8DF1CCC174C3705BF0D09B8D0E0FB218C76445AF1351FB87C37D155FC86E22</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Sep 20 13:47:30 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8760E110264BA64AD57CDE538B624ACBA48B63275E6198940549DC2DE50019384BB823D89F448025E3AA90FA739</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8F06F020F2184464D7C25008AF218565FFAE5345A4331FBB28E6F607A3318B99456BF28819A2182733BFA7CC510</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E835078D24ADA5F2D993B255DD378AC9EECD6CAFEBF187C0E7059836ACE8C7AE2DEDB3F5830549F93A820D6A556D4455075EFD9856E5E8</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Sep 20 16:27:12 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '249628' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '249628' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '8 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Tue Sep 20 16:25:58 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.AFI005D(TTRA5D VARCHAR(1)  NOT NULL  SET("Description" = 'TIPO TRANSACION'), 
+NTRA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUMERO COMPROB/TRN'), 
+ALMA5D VARCHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+GRUP5D VARCHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+SBGP5D VARCHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+CODA5D VARCHAR(17)  NOT NULL  SET("Description" = 'CODIGO DEL ARTICULO'), 
+EXMA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'EXISTENCIA MAQUINA'), 
+CANT5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'CANT DIF.INV.FISICO'), 
+COSU5D DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO UNITARIO'), 
+ULMO5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'ULTIMO MOVIMIENTO'), 
+FECI5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA DE INVENTARIO'), 
+CAUS5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'CAUSA AFI'), 
+USRC5D VARCHAR(10)  NOT NULL  SET("Description" = 'ID CREA'), 
+FECC5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CREA'), 
+HORC5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA CREA'), 
+DEVC5D VARCHAR(8)  NOT NULL  SET("Description" = 'DEV CREA'), 
+PRGC5D VARCHAR(10)  NOT NULL  SET("Description" = 'PRG CREA'), 
+STAT5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'STATUS'), 
+USRA5D VARCHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA'), 
+FECA5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  AUTORIZA'), 
+HORA5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA'), 
+DEVA5D VARCHAR(8)  NOT NULL  SET("Description" = 'DEV AUTORIZA'), 
+PROA5D VARCHAR(10)  NOT NULL  SET("Description" = 'PRG AUTORIZA'), 
+CAUR5D VARCHAR(2)  NOT NULL  SET("Description" = 'CAUSA RECHAZO'), 
+USRP5D VARCHAR(10)  NOT NULL  SET("Description" = 'ID PROCESO'), 
+FECP5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  PROCESO'), 
+HORP5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA PROCESO'), 
+DEVP5D VARCHAR(8)  NOT NULL  SET("Description" = 'DEV PROCESO'), 
+PROP5D VARCHAR(10)  NOT NULL  SET("Description" = 'PRG PROCESO'), 
+FECD5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CIERRE/DIARIO'), 
+CCOS5D VARCHAR(2)  NOT NULL  SET("Description" = 'CENTRO COSTO'), 
+CONC5D VARCHAR(30)  NOT NULL  SET("Description" = 'OBSERVACIONES'), 
+FLCP5D VARCHAR(1)  NOT NULL  SET("Description" = 'FLAG COSTO P MANUAL'), 
+MARC5D VARCHAR(5)  NOT NULL  SET("Description" = 'Marca'), 
+USRT5D VARCHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA CONTA'), 
+FECT5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECH AUTORIZA CONTA'), 
+HORT5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA CONTA'), 
+DEVT5D VARCHAR(8)  NOT NULL  SET("Description" = 'DEV  AUTORIZA CONTA'), 
+PROT5D VARCHAR(10)  NOT NULL  SET("Description" = 'PRG  AUTORIZA CONTA'), 
+FU015D VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU025D VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU035D VARCHAR(20)  NOT NULL  SET("Description" = 'Futuro Uso3'), 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Históricos ** A F I -MEMO-DETALLE' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Sep 20 13:55:49 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.AFI005D(TTRA5D CHAR(1)  NOT NULL  SET("Description" = 'TIPO TRANSACION'), 
+NTRA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUMERO COMPROB/TRN'), 
+ALMA5D CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+GRUP5D CHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+SBGP5D CHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+CODA5D CHAR(17)  NOT NULL  SET("Description" = 'CODIGO DEL ARTICULO'), 
+EXMA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'EXISTENCIA MAQUINA'), 
+CANT5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'CANT DIF.INV.FISICO'), 
+COSU5D DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO UNITARIO'), 
+ULMO5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'ULTIMO MOVIMIENTO'), 
+FECI5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA DE INVENTARIO'), 
+CAUS5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'CAUSA AFI'), 
+USRC5D CHAR(10)  NOT NULL  SET("Description" = 'ID CREA'), 
+FECC5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CREA'), 
+HORC5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA CREA'), 
+DEVC5D CHAR(8)  NOT NULL  SET("Description" = 'DEV CREA'), 
+PRGC5D CHAR(10)  NOT NULL  SET("Description" = 'PRG CREA'), 
+STAT5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'STATUS'), 
+USRA5D CHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA'), 
+FECA5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  AUTORIZA'), 
+HORA5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA'), 
+DEVA5D CHAR(8)  NOT NULL  SET("Description" = 'DEV AUTORIZA'), 
+PROA5D CHAR(10)  NOT NULL  SET("Description" = 'PRG AUTORIZA'), 
+CAUR5D CHAR(2)  NOT NULL  SET("Description" = 'CAUSA RECHAZO'), 
+USRP5D CHAR(10)  NOT NULL  SET("Description" = 'ID PROCESO'), 
+FECP5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  PROCESO'), 
+HORP5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA PROCESO'), 
+DEVP5D CHAR(8)  NOT NULL  SET("Description" = 'DEV PROCESO'), 
+PROP5D CHAR(10)  NOT NULL  SET("Description" = 'PRG PROCESO'), 
+FECD5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CIERRE/DIARIO'), 
+CCOS5D CHAR(2)  NOT NULL  SET("Description" = 'CENTRO COSTO'), 
+CONC5D CHAR(30)  NOT NULL  SET("Description" = 'OBSERVACIONES'), 
+FLCP5D CHAR(1)  NOT NULL  SET("Description" = 'FLAG COSTO P MANUAL'), 
+MARC5D CHAR(5)  NOT NULL  SET("Description" = 'Marca'), 
+USRT5D CHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA CONTA'), 
+FECT5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECH AUTORIZA CONTA'), 
+HORT5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA CONTA'), 
+DEVT5D CHAR(8)  NOT NULL  SET("Description" = 'DEV  AUTORIZA CONTA'), 
+PROT5D CHAR(10)  NOT NULL  SET("Description" = 'PRG  AUTORIZA CONTA'), 
+FU015D CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU025D CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU035D CHAR(20)  NOT NULL  SET("Description" = 'Futuro Uso3')) 
+CREATE_INDEX "NEWINV.AFI005D" ON (ALMA5D, GRUP5D, SBGP5D, CODA5D, NTRA5D) 
+CREATE_INDEX "NEWINV.AFI005D1" ON (ALMA5D, NTRA5D) 
+CREATE_INDEX "NEWINV.AFI005D3" ON (ALMA5D, GRUP5D, SBGP5D, CODA5D, NTRA5D) 
+CREATE_INDEX "NEWINV.AFI005D4" ON (CODA5D) 
+CREATE_INDEX "NEWINV.AFI005D5" ON (FECP5D, CODA5D) 
+CREATE_INDEX "NEWINV.AFI005D7" ON (ALMA5D, NTRA5D, CODA5D) 
+CREATE_INDEX "NEWINV.AFI005D8" ON (ALMA5D, NTRA5D) 
+CREATE_INDEX "NEWINV.AFI005D9" ON (CAUS5D) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Históricos ** A F I -MEMO-DETALLE' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Sep 20 13:55:54 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.AFI005D(TTRA5D CHAR(1)  NOT NULL  SET("Description" = 'TIPO TRANSACION'), 
+NTRA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUMERO COMPROB/TRN'), 
+ALMA5D CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+GRUP5D CHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+SBGP5D CHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+CODA5D CHAR(17)  NOT NULL  SET("Description" = 'CODIGO DEL ARTICULO'), 
+EXMA5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'EXISTENCIA MAQUINA'), 
+CANT5D DECIMAL(9, 0)  NOT NULL  SET("Description" = 'CANT DIF.INV.FISICO'), 
+COSU5D DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO UNITARIO'), 
+ULMO5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'ULTIMO MOVIMIENTO'), 
+FECI5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA DE INVENTARIO'), 
+CAUS5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'CAUSA AFI'), 
+USRC5D CHAR(10)  NOT NULL  SET("Description" = 'ID CREA'), 
+FECC5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CREA'), 
+HORC5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA CREA'), 
+DEVC5D CHAR(8)  NOT NULL  SET("Description" = 'DEV CREA'), 
+PRGC5D CHAR(10)  NOT NULL  SET("Description" = 'PRG CREA'), 
+STAT5D DECIMAL(2, 0)  NOT NULL  SET("Description" = 'STATUS'), 
+USRA5D CHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA'), 
+FECA5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  AUTORIZA'), 
+HORA5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA'), 
+DEVA5D CHAR(8)  NOT NULL  SET("Description" = 'DEV AUTORIZA'), 
+PROA5D CHAR(10)  NOT NULL  SET("Description" = 'PRG AUTORIZA'), 
+CAUR5D CHAR(2)  NOT NULL  SET("Description" = 'CAUSA RECHAZO'), 
+USRP5D CHAR(10)  NOT NULL  SET("Description" = 'ID PROCESO'), 
+FECP5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  PROCESO'), 
+HORP5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA PROCESO'), 
+DEVP5D CHAR(8)  NOT NULL  SET("Description" = 'DEV PROCESO'), 
+PROP5D CHAR(10)  NOT NULL  SET("Description" = 'PRG PROCESO'), 
+FECD5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECHA  CIERRE/DIARIO'), 
+CCOS5D CHAR(2)  NOT NULL  SET("Description" = 'CENTRO COSTO'), 
+CONC5D CHAR(30)  NOT NULL  SET("Description" = 'OBSERVACIONES'), 
+FLCP5D CHAR(1)  NOT NULL  SET("Description" = 'FLAG COSTO P MANUAL'), 
+MARC5D CHAR(5)  NOT NULL  SET("Description" = 'Marca'), 
+USRT5D CHAR(10)  NOT NULL  SET("Description" = 'ID AUTORIZA CONTA'), 
+FECT5D DECIMAL(8, 0)  NOT NULL  SET("Description" = 'FECH AUTORIZA CONTA'), 
+HORT5D DECIMAL(6, 0)  NOT NULL  SET("Description" = 'HORA AUTORIZA CONTA'), 
+DEVT5D CHAR(8)  NOT NULL  SET("Description" = 'DEV  AUTORIZA CONTA'), 
+PROT5D CHAR(10)  NOT NULL  SET("Description" = 'PRG  AUTORIZA CONTA'), 
+FU015D CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU025D CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU035D CHAR(20)  NOT NULL  SET("Description" = 'Futuro Uso3')) 
+CREATE_INDEX "PHNINV.AFI005D" ON (ALMA5D, GRUP5D, SBGP5D, CODA5D, NTRA5D) 
+CREATE_INDEX "PHNINV.AFI005D1" ON (ALMA5D, NTRA5D) 
+CREATE_INDEX "PHNINV.AFI005D3" ON (ALMA5D, GRUP5D, SBGP5D, CODA5D, NTRA5D) 
+CREATE_INDEX "PHNINV.AFI005D4" ON (CODA5D) 
+CREATE_INDEX "PHNINV.AFI005D5" ON (FECP5D, CODA5D) 
+CREATE_INDEX "PHNINV.AFI005D7" ON (ALMA5D, NTRA5D, CODA5D) 
+CREATE_INDEX "PHNINV.AFI005D8" ON (ALMA5D, NTRA5D) 
+CREATE_INDEX "PHNINV.AFI005D9" ON (CAUS5D) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Sep 20 16:01:06 2022', "ActaValue_3" = 'Tue Sep 20 16:15:59 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_AFI005D::'7b105c7d-c018-40e5-b045-cb166247afd1'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '39', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '519', "y" = '-456')
+GUID::'e4158a99-2d45-4591-9755-ea7e8afd24e2' READ TABLE DS_DB2_GER_VTAS.NEWINV.AFI005D OUTPUT(AFI005D)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '39', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '534', "y" = '-978')
+GUID::'ee0f848c-92cf-423c-b962-da67f54aea22' READ TABLE DS_DB2_GER_VTAS.PHNINV.AFI005D OUTPUT(AFI005D_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'AFI005D', "ui_display_name" = 'QRY_SV', "x" = '1028', "y" = '-445')
+GUID::'6552c66e-2ca1-4838-b444-66cad1058d56' CREATE VIEW QRY_SV( TTRA5D VARCHAR(1)  SET( "Description" = 'TIPO TRANSACION', "ui_mapping_text" = 'AFI005D.TTRA5D') ,
+ NTRA5D DECIMAL(9, 0)  SET( "Description" = 'NUMERO COMPROB/TRN', "ui_mapping_text" = 'AFI005D.NTRA5D') ,
+ ALMA5D VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'AFI005D.ALMA5D') ,
+ GRUP5D VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'AFI005D.GRUP5D') ,
+ SBGP5D VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'AFI005D.SBGP5D') ,
+ CODA5D VARCHAR(17)  SET( "Description" = 'CODIGO DEL ARTICULO', "ui_mapping_text" = 'AFI005D.CODA5D') ,
+ EXMA5D DECIMAL(9, 0)  SET( "Description" = 'EXISTENCIA MAQUINA', "ui_mapping_text" = 'AFI005D.EXMA5D') ,
+ CANT5D DECIMAL(9, 0)  SET( "Description" = 'CANT DIF.INV.FISICO', "ui_mapping_text" = 'AFI005D.CANT5D') ,
+ COSU5D DECIMAL(9, 2)  SET( "Description" = 'COSTO UNITARIO', "ui_mapping_text" = 'AFI005D.COSU5D') ,
+ ULMO5D DECIMAL(8, 0)  SET( "Description" = 'ULTIMO MOVIMIENTO', "ui_mapping_text" = 'AFI005D.ULMO5D') ,
+ FECI5D DECIMAL(8, 0)  SET( "Description" = 'FECHA DE INVENTARIO', "ui_mapping_text" = 'AFI005D.FECI5D') ,
+ CAUS5D DECIMAL(2, 0)  SET( "Description" = 'CAUSA AFI', "ui_mapping_text" = 'AFI005D.CAUS5D') ,
+ USRC5D VARCHAR(10)  SET( "Description" = 'ID CREA', "ui_mapping_text" = 'AFI005D.USRC5D') ,
+ FECC5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CREA', "ui_mapping_text" = 'AFI005D.FECC5D') ,
+ HORC5D DECIMAL(6, 0)  SET( "Description" = 'HORA CREA', "ui_mapping_text" = 'AFI005D.HORC5D') ,
+ DEVC5D VARCHAR(8)  SET( "Description" = 'DEV CREA', "ui_mapping_text" = 'AFI005D.DEVC5D') ,
+ PRGC5D VARCHAR(10)  SET( "Description" = 'PRG CREA', "ui_mapping_text" = 'AFI005D.PRGC5D') ,
+ STAT5D DECIMAL(2, 0)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'AFI005D.STAT5D') ,
+ USRA5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA', "ui_mapping_text" = 'AFI005D.USRA5D') ,
+ FECA5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  AUTORIZA', "ui_mapping_text" = 'AFI005D.FECA5D') ,
+ HORA5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA', "ui_mapping_text" = 'AFI005D.HORA5D') ,
+ DEVA5D VARCHAR(8)  SET( "Description" = 'DEV AUTORIZA', "ui_mapping_text" = 'AFI005D.DEVA5D') ,
+ PROA5D VARCHAR(10)  SET( "Description" = 'PRG AUTORIZA', "ui_mapping_text" = 'AFI005D.PROA5D') ,
+ CAUR5D VARCHAR(2)  SET( "Description" = 'CAUSA RECHAZO', "ui_mapping_text" = 'AFI005D.CAUR5D') ,
+ USRP5D VARCHAR(10)  SET( "Description" = 'ID PROCESO', "ui_mapping_text" = 'AFI005D.USRP5D') ,
+ FECP5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  PROCESO', "ui_mapping_text" = 'AFI005D.FECP5D') ,
+ HORP5D DECIMAL(6, 0)  SET( "Description" = 'HORA PROCESO', "ui_mapping_text" = 'AFI005D.HORP5D') ,
+ DEVP5D VARCHAR(8)  SET( "Description" = 'DEV PROCESO', "ui_mapping_text" = 'AFI005D.DEVP5D') ,
+ PROP5D VARCHAR(10)  SET( "Description" = 'PRG PROCESO', "ui_mapping_text" = 'AFI005D.PROP5D') ,
+ FECD5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CIERRE/DIARIO', "ui_mapping_text" = 'AFI005D.FECD5D') ,
+ CCOS5D VARCHAR(2)  SET( "Description" = 'CENTRO COSTO', "ui_mapping_text" = 'AFI005D.CCOS5D') ,
+ CONC5D VARCHAR(30)  SET( "Description" = 'OBSERVACIONES', "ui_mapping_text" = 'AFI005D.CONC5D') ,
+ FLCP5D VARCHAR(1)  SET( "Description" = 'FLAG COSTO P MANUAL', "ui_mapping_text" = 'AFI005D.FLCP5D') ,
+ MARC5D VARCHAR(5)  SET( "Description" = 'Marca', "ui_mapping_text" = 'AFI005D.MARC5D') ,
+ USRT5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D.USRT5D') ,
+ FECT5D DECIMAL(8, 0)  SET( "Description" = 'FECH AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D.FECT5D') ,
+ HORT5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D.HORT5D') ,
+ DEVT5D VARCHAR(8)  SET( "Description" = 'DEV  AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D.DEVT5D') ,
+ PROT5D VARCHAR(10)  SET( "Description" = 'PRG  AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D.PROT5D') ,
+ FU015D VARCHAR(1)  SET( "Description" = 'Futuro Uso1', "ui_mapping_text" = 'AFI005D.FU015D') ,
+ FU025D VARCHAR(1)  SET( "Description" = 'Futuro Uso2', "ui_mapping_text" = 'AFI005D.FU025D') ,
+ FU035D VARCHAR(20)  SET( "Description" = 'Futuro Uso3', "ui_mapping_text" = 'AFI005D.FU035D') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT AFI005D.TTRA5D, AFI005D.NTRA5D, AFI005D.ALMA5D, AFI005D.GRUP5D, AFI005D.SBGP5D, AFI005D.CODA5D, AFI005D.EXMA5D, AFI005D.CANT5D, AFI005D.COSU5D, AFI005D.ULMO5D, AFI005D.FECI5D, AFI005D.CAUS5D, AFI005D.USRC5D, AFI005D.FECC5D, AFI005D.HORC5D, AFI005D.DEVC5D, AFI005D.PRGC5D, AFI005D.STAT5D, AFI005D.USRA5D, AFI005D.FECA5D, AFI005D.HORA5D, AFI005D.DEVA5D, AFI005D.PROA5D, AFI005D.CAUR5D, AFI005D.USRP5D, AFI005D.FECP5D, AFI005D.HORP5D, AFI005D.DEVP5D, AFI005D.PROP5D, AFI005D.FECD5D, AFI005D.CCOS5D, AFI005D.CONC5D, AFI005D.FLCP5D, AFI005D.MARC5D, AFI005D.USRT5D, AFI005D.FECT5D, AFI005D.HORT5D, AFI005D.DEVT5D, AFI005D.PROT5D, AFI005D.FU015D, AFI005D.FU025D, AFI005D.FU035D, 1, sysdate() FROM AFI005D 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'AFI005D_1', "ui_display_name" = 'QRY_HN', "x" = '1040', "y" = '-995')
+GUID::'dccb7a96-0d0b-4b38-b839-9384336e240a' CREATE VIEW QRY_HN( TTRA5D VARCHAR(1)  SET( "Description" = 'TIPO TRANSACION', "ui_mapping_text" = 'AFI005D_1.TTRA5D') ,
+ NTRA5D DECIMAL(9, 0)  SET( "Description" = 'NUMERO COMPROB/TRN', "ui_mapping_text" = 'AFI005D_1.NTRA5D') ,
+ ALMA5D VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'AFI005D_1.ALMA5D') ,
+ GRUP5D VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'AFI005D_1.GRUP5D') ,
+ SBGP5D VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'AFI005D_1.SBGP5D') ,
+ CODA5D VARCHAR(17)  SET( "Description" = 'CODIGO DEL ARTICULO', "ui_mapping_text" = 'AFI005D_1.CODA5D') ,
+ EXMA5D DECIMAL(9, 0)  SET( "Description" = 'EXISTENCIA MAQUINA', "ui_mapping_text" = 'AFI005D_1.EXMA5D') ,
+ CANT5D DECIMAL(9, 0)  SET( "Description" = 'CANT DIF.INV.FISICO', "ui_mapping_text" = 'AFI005D_1.CANT5D') ,
+ COSU5D DECIMAL(9, 2)  SET( "Description" = 'COSTO UNITARIO', "ui_mapping_text" = 'AFI005D_1.COSU5D') ,
+ ULMO5D DECIMAL(8, 0)  SET( "Description" = 'ULTIMO MOVIMIENTO', "ui_mapping_text" = 'AFI005D_1.ULMO5D') ,
+ FECI5D DECIMAL(8, 0)  SET( "Description" = 'FECHA DE INVENTARIO', "ui_mapping_text" = 'AFI005D_1.FECI5D') ,
+ CAUS5D DECIMAL(2, 0)  SET( "Description" = 'CAUSA AFI', "ui_mapping_text" = 'AFI005D_1.CAUS5D') ,
+ USRC5D VARCHAR(10)  SET( "Description" = 'ID CREA', "ui_mapping_text" = 'AFI005D_1.USRC5D') ,
+ FECC5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CREA', "ui_mapping_text" = 'AFI005D_1.FECC5D') ,
+ HORC5D DECIMAL(6, 0)  SET( "Description" = 'HORA CREA', "ui_mapping_text" = 'AFI005D_1.HORC5D') ,
+ DEVC5D VARCHAR(8)  SET( "Description" = 'DEV CREA', "ui_mapping_text" = 'AFI005D_1.DEVC5D') ,
+ PRGC5D VARCHAR(10)  SET( "Description" = 'PRG CREA', "ui_mapping_text" = 'AFI005D_1.PRGC5D') ,
+ STAT5D DECIMAL(2, 0)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'AFI005D_1.STAT5D') ,
+ USRA5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA', "ui_mapping_text" = 'AFI005D_1.USRA5D') ,
+ FECA5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  AUTORIZA', "ui_mapping_text" = 'AFI005D_1.FECA5D') ,
+ HORA5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA', "ui_mapping_text" = 'AFI005D_1.HORA5D') ,
+ DEVA5D VARCHAR(8)  SET( "Description" = 'DEV AUTORIZA', "ui_mapping_text" = 'AFI005D_1.DEVA5D') ,
+ PROA5D VARCHAR(10)  SET( "Description" = 'PRG AUTORIZA', "ui_mapping_text" = 'AFI005D_1.PROA5D') ,
+ CAUR5D VARCHAR(2)  SET( "Description" = 'CAUSA RECHAZO', "ui_mapping_text" = 'AFI005D_1.CAUR5D') ,
+ USRP5D VARCHAR(10)  SET( "Description" = 'ID PROCESO', "ui_mapping_text" = 'AFI005D_1.USRP5D') ,
+ FECP5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  PROCESO', "ui_mapping_text" = 'AFI005D_1.FECP5D') ,
+ HORP5D DECIMAL(6, 0)  SET( "Description" = 'HORA PROCESO', "ui_mapping_text" = 'AFI005D_1.HORP5D') ,
+ DEVP5D VARCHAR(8)  SET( "Description" = 'DEV PROCESO', "ui_mapping_text" = 'AFI005D_1.DEVP5D') ,
+ PROP5D VARCHAR(10)  SET( "Description" = 'PRG PROCESO', "ui_mapping_text" = 'AFI005D_1.PROP5D') ,
+ FECD5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CIERRE/DIARIO', "ui_mapping_text" = 'AFI005D_1.FECD5D') ,
+ CCOS5D VARCHAR(2)  SET( "Description" = 'CENTRO COSTO', "ui_mapping_text" = 'AFI005D_1.CCOS5D') ,
+ CONC5D VARCHAR(30)  SET( "Description" = 'OBSERVACIONES', "ui_mapping_text" = 'AFI005D_1.CONC5D') ,
+ FLCP5D VARCHAR(1)  SET( "Description" = 'FLAG COSTO P MANUAL', "ui_mapping_text" = 'AFI005D_1.FLCP5D') ,
+ MARC5D VARCHAR(5)  SET( "Description" = 'Marca', "ui_mapping_text" = 'AFI005D_1.MARC5D') ,
+ USRT5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D_1.USRT5D') ,
+ FECT5D DECIMAL(8, 0)  SET( "Description" = 'FECH AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D_1.FECT5D') ,
+ HORT5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D_1.HORT5D') ,
+ DEVT5D VARCHAR(8)  SET( "Description" = 'DEV  AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D_1.DEVT5D') ,
+ PROT5D VARCHAR(10)  SET( "Description" = 'PRG  AUTORIZA CONTA', "ui_mapping_text" = 'AFI005D_1.PROT5D') ,
+ FU015D VARCHAR(1)  SET( "Description" = 'Futuro Uso1', "ui_mapping_text" = 'AFI005D_1.FU015D') ,
+ FU025D VARCHAR(1)  SET( "Description" = 'Futuro Uso2', "ui_mapping_text" = 'AFI005D_1.FU025D') ,
+ FU035D VARCHAR(20)  SET( "Description" = 'Futuro Uso3', "ui_mapping_text" = 'AFI005D_1.FU035D') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT AFI005D_1.TTRA5D, AFI005D_1.NTRA5D, AFI005D_1.ALMA5D, AFI005D_1.GRUP5D, AFI005D_1.SBGP5D, AFI005D_1.CODA5D, AFI005D_1.EXMA5D, AFI005D_1.CANT5D, AFI005D_1.COSU5D, AFI005D_1.ULMO5D, AFI005D_1.FECI5D, AFI005D_1.CAUS5D, AFI005D_1.USRC5D, AFI005D_1.FECC5D, AFI005D_1.HORC5D, AFI005D_1.DEVC5D, AFI005D_1.PRGC5D, AFI005D_1.STAT5D, AFI005D_1.USRA5D, AFI005D_1.FECA5D, AFI005D_1.HORA5D, AFI005D_1.DEVA5D, AFI005D_1.PROA5D, AFI005D_1.CAUR5D, AFI005D_1.USRP5D, AFI005D_1.FECP5D, AFI005D_1.HORP5D, AFI005D_1.DEVP5D, AFI005D_1.PROP5D, AFI005D_1.FECD5D, AFI005D_1.CCOS5D, AFI005D_1.CONC5D, AFI005D_1.FLCP5D, AFI005D_1.MARC5D, AFI005D_1.USRT5D, AFI005D_1.FECT5D, AFI005D_1.HORT5D, AFI005D_1.DEVT5D, AFI005D_1.PROT5D, AFI005D_1.FU015D, AFI005D_1.FU025D, AFI005D_1.FU035D, 2, sysdate() FROM AFI005D_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1643', "y" = '-719')
+GUID::'261bd22e-f93d-47bf-a9a6-1844599ab27c' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>357</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_STG_AFI005D', "x" = '2103', "y" = '-713')
+GUID::'db72f59a-e04b-4101-85ba-2851e5469916' CREATE VIEW QRY_STG_AFI005D( TTRA5D VARCHAR(1)  SET( "Description" = 'TIPO TRANSACION', "ui_mapping_text" = 'Merge.TTRA5D') ,
+ NTRA5D DECIMAL(9, 0)  SET( "Description" = 'NUMERO COMPROB/TRN', "ui_mapping_text" = 'Merge.NTRA5D') ,
+ ALMA5D VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'Merge.ALMA5D') ,
+ GRUP5D VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'Merge.GRUP5D') ,
+ SBGP5D VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'Merge.SBGP5D') ,
+ CODA5D VARCHAR(17)  SET( "Description" = 'CODIGO DEL ARTICULO', "ui_mapping_text" = 'Merge.CODA5D') ,
+ EXMA5D DECIMAL(9, 0)  SET( "Description" = 'EXISTENCIA MAQUINA', "ui_mapping_text" = 'Merge.EXMA5D') ,
+ CANT5D DECIMAL(9, 0)  SET( "Description" = 'CANT DIF.INV.FISICO', "ui_mapping_text" = 'Merge.CANT5D') ,
+ COSU5D DECIMAL(9, 2)  SET( "Description" = 'COSTO UNITARIO', "ui_mapping_text" = 'Merge.COSU5D') ,
+ ULMO5D DECIMAL(8, 0)  SET( "Description" = 'ULTIMO MOVIMIENTO', "ui_mapping_text" = 'Merge.ULMO5D') ,
+ FECI5D DECIMAL(8, 0)  SET( "Description" = 'FECHA DE INVENTARIO', "ui_mapping_text" = 'Merge.FECI5D') ,
+ CAUS5D DECIMAL(2, 0)  SET( "Description" = 'CAUSA AFI', "ui_mapping_text" = 'Merge.CAUS5D') ,
+ USRC5D VARCHAR(10)  SET( "Description" = 'ID CREA', "ui_mapping_text" = 'Merge.USRC5D') ,
+ FECC5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CREA', "ui_mapping_text" = 'Merge.FECC5D') ,
+ HORC5D DECIMAL(6, 0)  SET( "Description" = 'HORA CREA', "ui_mapping_text" = 'Merge.HORC5D') ,
+ DEVC5D VARCHAR(8)  SET( "Description" = 'DEV CREA', "ui_mapping_text" = 'Merge.DEVC5D') ,
+ PRGC5D VARCHAR(10)  SET( "Description" = 'PRG CREA', "ui_mapping_text" = 'Merge.PRGC5D') ,
+ STAT5D DECIMAL(2, 0)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'Merge.STAT5D') ,
+ USRA5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA', "ui_mapping_text" = 'Merge.USRA5D') ,
+ FECA5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  AUTORIZA', "ui_mapping_text" = 'Merge.FECA5D') ,
+ HORA5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA', "ui_mapping_text" = 'Merge.HORA5D') ,
+ DEVA5D VARCHAR(8)  SET( "Description" = 'DEV AUTORIZA', "ui_mapping_text" = 'Merge.DEVA5D') ,
+ PROA5D VARCHAR(10)  SET( "Description" = 'PRG AUTORIZA', "ui_mapping_text" = 'Merge.PROA5D') ,
+ CAUR5D VARCHAR(2)  SET( "Description" = 'CAUSA RECHAZO', "ui_mapping_text" = 'Merge.CAUR5D') ,
+ USRP5D VARCHAR(10)  SET( "Description" = 'ID PROCESO', "ui_mapping_text" = 'Merge.USRP5D') ,
+ FECP5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  PROCESO', "ui_mapping_text" = 'Merge.FECP5D') ,
+ HORP5D DECIMAL(6, 0)  SET( "Description" = 'HORA PROCESO', "ui_mapping_text" = 'Merge.HORP5D') ,
+ DEVP5D VARCHAR(8)  SET( "Description" = 'DEV PROCESO', "ui_mapping_text" = 'Merge.DEVP5D') ,
+ PROP5D VARCHAR(10)  SET( "Description" = 'PRG PROCESO', "ui_mapping_text" = 'Merge.PROP5D') ,
+ FECD5D DECIMAL(8, 0)  SET( "Description" = 'FECHA  CIERRE/DIARIO', "ui_mapping_text" = 'Merge.FECD5D') ,
+ CCOS5D VARCHAR(2)  SET( "Description" = 'CENTRO COSTO', "ui_mapping_text" = 'Merge.CCOS5D') ,
+ CONC5D VARCHAR(30)  SET( "Description" = 'OBSERVACIONES', "ui_mapping_text" = 'Merge.CONC5D') ,
+ FLCP5D VARCHAR(1)  SET( "Description" = 'FLAG COSTO P MANUAL', "ui_mapping_text" = 'Merge.FLCP5D') ,
+ MARC5D VARCHAR(5)  SET( "Description" = 'Marca', "ui_mapping_text" = 'Merge.MARC5D') ,
+ USRT5D VARCHAR(10)  SET( "Description" = 'ID AUTORIZA CONTA', "ui_mapping_text" = 'Merge.USRT5D') ,
+ FECT5D DECIMAL(8, 0)  SET( "Description" = 'FECH AUTORIZA CONTA', "ui_mapping_text" = 'Merge.FECT5D') ,
+ HORT5D DECIMAL(6, 0)  SET( "Description" = 'HORA AUTORIZA CONTA', "ui_mapping_text" = 'Merge.HORT5D') ,
+ DEVT5D VARCHAR(8)  SET( "Description" = 'DEV  AUTORIZA CONTA', "ui_mapping_text" = 'Merge.DEVT5D') ,
+ PROT5D VARCHAR(10)  SET( "Description" = 'PRG  AUTORIZA CONTA', "ui_mapping_text" = 'Merge.PROT5D') ,
+ FU015D VARCHAR(1)  SET( "Description" = 'Futuro Uso1', "ui_mapping_text" = 'Merge.FU015D') ,
+ FU025D VARCHAR(1)  SET( "Description" = 'Futuro Uso2', "ui_mapping_text" = 'Merge.FU025D') ,
+ FU035D VARCHAR(20)  SET( "Description" = 'Futuro Uso3', "ui_mapping_text" = 'Merge.FU035D') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH')  )
+ AS
+SELECT Merge.TTRA5D, Merge.NTRA5D, Merge.ALMA5D, Merge.GRUP5D, Merge.SBGP5D, Merge.CODA5D, Merge.EXMA5D, Merge.CANT5D, Merge.COSU5D, Merge.ULMO5D, Merge.FECI5D, Merge.CAUS5D, Merge.USRC5D, Merge.FECC5D, Merge.HORC5D, Merge.DEVC5D, Merge.PRGC5D, Merge.STAT5D, Merge.USRA5D, Merge.FECA5D, Merge.HORA5D, Merge.DEVA5D, Merge.PROA5D, Merge.CAUR5D, Merge.USRP5D, Merge.FECP5D, Merge.HORP5D, Merge.DEVP5D, Merge.PROP5D, Merge.FECD5D, Merge.CCOS5D, Merge.CONC5D, Merge.FLCP5D, Merge.MARC5D, Merge.USRT5D, Merge.FECT5D, Merge.HORT5D, Merge.DEVT5D, Merge.PROT5D, Merge.FU015D, Merge.FU025D, Merge.FU035D, Merge.ID_PAIS, Merge.FECHA_CARGA_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'AFI005D(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2703', "y" = '-713')
+GUID::'c0a0a860-d140-452d-a737-b6247d197812' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.AFI005D INPUT(QRY_STG_AFI005D)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_AFI005D.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

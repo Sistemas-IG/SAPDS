@@ -1,0 +1,51 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ODS::'4a76885e-ae42-460a-99ff-e7767746a3bd' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8A224389437D1F025F293D792EE81F288E2EE6D78B16E40FB03E391488C4EA2A18ABFADE0CDA4F282EA8B6B5955</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E82B0DA28F9B755BAFA037F318FCC444AC68EB10FD882BB8721A1A5024A306F6B90C694B987C96411D222573C5F8</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8F1C4FD5CCB686A1D43F5EB305EA0D7B21CACC12ACDFE10A0BB755F86F69B7FED8372C9FAAE2A4B7C8B3837040F7BF9E37B6CEFE7E503</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_ODS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ODS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN DWH_ODS_MAIN_00::'2bb378e3-5948-4ae7-84c1-1265e0ae3864'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1215', "y" = '-556')
+CALL PLAN SP_tra_comision_comprobante::'c9fbb789-6fd9-465b-8d2b-669c12dbb61f'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Oct 26 16:33:25 2022', "ActaValue_3" = 'Thu Oct 27 13:57:23 2022', "x" = '-1', "y" = '-1')
+CREATE PLAN SP_tra_comision_comprobante::'c9fbb789-6fd9-465b-8d2b-669c12dbb61f'( )
+DECLARE
+     $tra_comision INT ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SP_TRA_COMISION_COMPROBANTE', "ui_script_text" = '$tra_comision = 1;
+$tra_comision = SQL( \'DS_SQL_SERVER_ODS\', \'EXEC	ods.sp_tra_comision_comprobante\');
+print( $tra_comision );', "x" = '1099', "y" = '-273')
+BEGIN_SCRIPT
+$tra_comision = 1;$tra_comision = sql('DS_SQL_SERVER_ODS', 'EXEC	ods.sp_tra_comision_comprobante');print($tra_comision);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

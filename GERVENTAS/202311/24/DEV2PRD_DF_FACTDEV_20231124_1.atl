@@ -1,0 +1,294 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E856B24067F7C462610C91FED75D3A0C5FD8B8E53E427C67063E4D73FF5DD1D125E226C15ABE6440B946AA480FD03011</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E823103C2863CADD0FF6D33A3D8E85B2654D8EC1214E52645BE4D2E4A4E0EC1CB1EEBB6CC1F977B0D96C74C93447</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8010B74AE26EDDDDABC5456FED4D827098EC32FE43ED99E97419D458B120B03711CB6E8A8972512B33C0D82345B</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E89E1F6F1F3031A1554B2C3064648F27B6DC1F5F55C5C51879602165A9069FBF5E1D0DC1C1A38D7BE75B7BF59C2BEBAC3CE7BEF7FA025E</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Fri Nov 24 11:37:30 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.FACTDEV(CCEMDV CHAR(2)  KEY  NOT NULL  SET("Description" = 'CENTRO COSTO EMITIDO'), 
+NUMCDV CHAR(6)  KEY  NOT NULL  SET("Description" = 'NUMERO COMPROBANTE'), 
+TIPMDV CHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO MOVIMIENTO'), 
+MESDDV CHAR(4)  KEY  NOT NULL  SET("Description" = 'MES Y DIA'), 
+TIPDDV CHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO DE DOCUMENTO'), 
+ANODDV CHAR(4)  NOT NULL  SET("Description" = 'ANNIO'), 
+USRADV CHAR(10)  NOT NULL  SET("Description" = 'USUARIO APRUEBA'), 
+CODEDV CHAR(4)  NOT NULL  SET("Description" = 'CODIGO EMPLEADO'), 
+USRLDV CHAR(10)  NOT NULL  SET("Description" = 'USUARIO LOGEADO'), 
+DEVCDV CHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO'), 
+PGMADV CHAR(10)  NOT NULL  SET("Description" = 'PROGRAMA'), 
+TIMEDV DATETIME(6)  NOT NULL  SET("Description" = 'FECHA Y HORA')) 
+PRIMARY KEY (MESDDV, CCEMDV, TIPMDV, TIPDDV, NUMCDV) 
+CREATE_INDEX "NEWINV.FACTDEV" ON (MESDDV, CCEMDV, TIPMDV, TIPDDV, NUMCDV) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Fri Nov 24 11:37:33 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.FACTDEV(CCEMDV CHAR(2)  KEY  NOT NULL  SET("Description" = 'CENTRO COSTO EMITIDO'), 
+NUMCDV CHAR(6)  KEY  NOT NULL  SET("Description" = 'NUMERO COMPROBANTE'), 
+TIPMDV CHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO MOVIMIENTO'), 
+MESDDV CHAR(4)  KEY  NOT NULL  SET("Description" = 'MES Y DIA'), 
+TIPDDV CHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO DE DOCUMENTO'), 
+ANODDV CHAR(4)  NOT NULL  SET("Description" = 'ANNIO'), 
+USRADV CHAR(10)  NOT NULL  SET("Description" = 'USUARIO APRUEBA'), 
+CODEDV CHAR(4)  NOT NULL  SET("Description" = 'CODIGO EMPLEADO'), 
+USRLDV CHAR(10)  NOT NULL  SET("Description" = 'USUARIO LOGEADO'), 
+DEVCDV CHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO'), 
+PGMADV CHAR(10)  NOT NULL  SET("Description" = 'PROGRAMA'), 
+TIMEDV DATETIME(6)  NOT NULL  SET("Description" = 'FECHA Y HORA')) 
+PRIMARY KEY (MESDDV, CCEMDV, TIPMDV, TIPDDV, NUMCDV) 
+CREATE_INDEX "PHNINV.FACTDEV" ON (MESDDV, CCEMDV, TIPMDV, TIPDDV, NUMCDV) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'yes' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Fri Nov 24 17:36:07 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.FACTDEV(CCEMDV VARCHAR(2)  KEY  NOT NULL  SET("Description" = 'CENTRO COSTO EMITIDO'), 
+NUMCDV VARCHAR(6)  KEY  NOT NULL  SET("Description" = 'NUMERO COMPROBANTE'), 
+TIPMDV VARCHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO MOVIMIENTO'), 
+MESDDV VARCHAR(4)  KEY  NOT NULL  SET("Description" = 'MES Y DIA'), 
+TIPDDV VARCHAR(1)  KEY  NOT NULL  SET("Description" = 'TIPO DE DOCUMENTO'), 
+ANODDV VARCHAR(4)  NOT NULL  SET("Description" = 'ANNIO'), 
+USRADV VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO APRUEBA'), 
+CODEDV VARCHAR(4)  NOT NULL  SET("Description" = 'CODIGO EMPLEADO'), 
+USRLDV VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO LOGEADO'), 
+DEVCDV VARCHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO'), 
+PGMADV VARCHAR(10)  NOT NULL  SET("Description" = 'PROGRAMA'), 
+TIMEDV DATETIME(6)  NOT NULL  SET("Description" = 'FECHA Y HORA', "Native Type" = 'DATETIME2'), 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (CCEMDV, NUMCDV, TIPMDV, MESDDV, TIPDDV) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 24 11:46:47 2023', "ActaValue_3" = 'Fri Nov 24 14:21:05 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_FACTDEV::'4ebcb2ad-5ca7-4ee3-a6df-fe0eebda40d5'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '709', "y" = '-863')
+GUID::'a3912292-18ae-422f-a443-48158017ab64' READ TABLE DS_DB2_GER_VTAS.NEWINV.FACTDEV OUTPUT(FACTDEV)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '703', "y" = '-1841')
+GUID::'bf81988b-3bcf-442c-94d3-7f679be4fade' READ TABLE DS_DB2_GER_VTAS.PHNINV.FACTDEV OUTPUT(FACTDEV_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'FACTDEV', "ui_display_name" = 'QRYSV', "x" = '1492', "y" = '-826')
+GUID::'b1f9c2e1-508e-4654-80d2-e6a7282d6b64' CREATE VIEW QRYSV( CCEMDV VARCHAR(2)  KEY  SET( "Description" = 'CENTRO COSTO EMITIDO', "ui_mapping_text" = 'FACTDEV.CCEMDV') ,
+ NUMCDV VARCHAR(6)  KEY  SET( "Description" = 'NUMERO COMPROBANTE', "ui_mapping_text" = 'FACTDEV.NUMCDV') ,
+ TIPMDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO MOVIMIENTO', "ui_mapping_text" = 'FACTDEV.TIPMDV') ,
+ MESDDV VARCHAR(4)  KEY  SET( "Description" = 'MES Y DIA', "ui_mapping_text" = 'FACTDEV.MESDDV') ,
+ TIPDDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO DE DOCUMENTO', "ui_mapping_text" = 'FACTDEV.TIPDDV') ,
+ ANODDV VARCHAR(4)  SET( "Description" = 'ANNIO', "ui_mapping_text" = 'FACTDEV.ANODDV') ,
+ USRADV VARCHAR(10)  SET( "Description" = 'USUARIO APRUEBA', "ui_mapping_text" = 'FACTDEV.USRADV') ,
+ CODEDV VARCHAR(4)  SET( "Description" = 'CODIGO EMPLEADO', "ui_mapping_text" = 'FACTDEV.CODEDV') ,
+ USRLDV VARCHAR(10)  SET( "Description" = 'USUARIO LOGEADO', "ui_mapping_text" = 'FACTDEV.USRLDV') ,
+ DEVCDV VARCHAR(10)  SET( "Description" = 'DISPOSITIVO', "ui_mapping_text" = 'FACTDEV.DEVCDV') ,
+ PGMADV VARCHAR(10)  SET( "Description" = 'PROGRAMA', "ui_mapping_text" = 'FACTDEV.PGMADV') ,
+ TIMEDV DATETIME(9)  SET( "Description" = 'FECHA Y HORA', "ui_mapping_text" = 'FACTDEV.TIMEDV') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1')  )
+ AS
+SELECT FACTDEV.CCEMDV, FACTDEV.NUMCDV, FACTDEV.TIPMDV, FACTDEV.MESDDV, FACTDEV.TIPDDV, FACTDEV.ANODDV, FACTDEV.USRADV, FACTDEV.CODEDV, FACTDEV.USRLDV, FACTDEV.DEVCDV, FACTDEV.PGMADV, FACTDEV.TIMEDV, 1 FROM FACTDEV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'FACTDEV_1', "ui_display_name" = 'QRYHN', "x" = '1505', "y" = '-1902')
+GUID::'9425b2cc-f2e8-45f4-b4f7-6c59db25374a' CREATE VIEW QRYHN( CCEMDV VARCHAR(2)  KEY  SET( "Description" = 'CENTRO COSTO EMITIDO', "ui_mapping_text" = 'FACTDEV_1.CCEMDV') ,
+ NUMCDV VARCHAR(6)  KEY  SET( "Description" = 'NUMERO COMPROBANTE', "ui_mapping_text" = 'FACTDEV_1.NUMCDV') ,
+ TIPMDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO MOVIMIENTO', "ui_mapping_text" = 'FACTDEV_1.TIPMDV') ,
+ MESDDV VARCHAR(4)  KEY  SET( "Description" = 'MES Y DIA', "ui_mapping_text" = 'FACTDEV_1.MESDDV') ,
+ TIPDDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO DE DOCUMENTO', "ui_mapping_text" = 'FACTDEV_1.TIPDDV') ,
+ ANODDV VARCHAR(4)  SET( "Description" = 'ANNIO', "ui_mapping_text" = 'FACTDEV_1.ANODDV') ,
+ USRADV VARCHAR(10)  SET( "Description" = 'USUARIO APRUEBA', "ui_mapping_text" = 'FACTDEV_1.USRADV') ,
+ CODEDV VARCHAR(4)  SET( "Description" = 'CODIGO EMPLEADO', "ui_mapping_text" = 'FACTDEV_1.CODEDV') ,
+ USRLDV VARCHAR(10)  SET( "Description" = 'USUARIO LOGEADO', "ui_mapping_text" = 'FACTDEV_1.USRLDV') ,
+ DEVCDV VARCHAR(10)  SET( "Description" = 'DISPOSITIVO', "ui_mapping_text" = 'FACTDEV_1.DEVCDV') ,
+ PGMADV VARCHAR(10)  SET( "Description" = 'PROGRAMA', "ui_mapping_text" = 'FACTDEV_1.PGMADV') ,
+ TIMEDV DATETIME(9)  SET( "Description" = 'FECHA Y HORA', "ui_mapping_text" = 'FACTDEV_1.TIMEDV') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2')  )
+ AS
+SELECT FACTDEV_1.CCEMDV, FACTDEV_1.NUMCDV, FACTDEV_1.TIPMDV, FACTDEV_1.MESDDV, FACTDEV_1.TIPDDV, FACTDEV_1.ANODDV, FACTDEV_1.USRADV, FACTDEV_1.CODEDV, FACTDEV_1.USRLDV, FACTDEV_1.DEVCDV, FACTDEV_1.PGMADV, FACTDEV_1.TIMEDV, 2 FROM FACTDEV_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '2325', "y" = '-1328')
+GUID::'fff877ef-3fc4-4b3f-9547-06a4641b88b2' CALL TRANSFORM Merge() INPUT(QRYHN, QRYSV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'Merge', "x" = '2942', "y" = '-1329')
+GUID::'bcc3f92a-e066-48c5-850c-e071b1b2f2b6' CREATE VIEW Query( CCEMDV VARCHAR(2)  KEY  SET( "Description" = 'CENTRO COSTO EMITIDO', "ui_mapping_text" = 'Merge.CCEMDV') ,
+ NUMCDV VARCHAR(6)  KEY  SET( "Description" = 'NUMERO COMPROBANTE', "ui_mapping_text" = 'Merge.NUMCDV') ,
+ TIPMDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO MOVIMIENTO', "ui_mapping_text" = 'Merge.TIPMDV') ,
+ MESDDV VARCHAR(4)  KEY  SET( "Description" = 'MES Y DIA', "ui_mapping_text" = 'Merge.MESDDV') ,
+ TIPDDV VARCHAR(1)  KEY  SET( "Description" = 'TIPO DE DOCUMENTO', "ui_mapping_text" = 'Merge.TIPDDV') ,
+ ANODDV VARCHAR(4)  SET( "Description" = 'ANNIO', "ui_mapping_text" = 'Merge.ANODDV') ,
+ USRADV VARCHAR(10)  SET( "Description" = 'USUARIO APRUEBA', "ui_mapping_text" = 'Merge.USRADV') ,
+ CODEDV VARCHAR(4)  SET( "Description" = 'CODIGO EMPLEADO', "ui_mapping_text" = 'Merge.CODEDV') ,
+ USRLDV VARCHAR(10)  SET( "Description" = 'USUARIO LOGEADO', "ui_mapping_text" = 'Merge.USRLDV') ,
+ DEVCDV VARCHAR(10)  SET( "Description" = 'DISPOSITIVO', "ui_mapping_text" = 'Merge.DEVCDV') ,
+ PGMADV VARCHAR(10)  SET( "Description" = 'PROGRAMA', "ui_mapping_text" = 'Merge.PGMADV') ,
+ TIMEDV DATETIME(9)  SET( "Description" = 'FECHA Y HORA', "ui_mapping_text" = 'Merge.TIMEDV') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Merge.CCEMDV, Merge.NUMCDV, Merge.TIPMDV, Merge.MESDDV, Merge.TIPDDV, Merge.ANODDV, Merge.USRADV, Merge.CODEDV, Merge.USRLDV, Merge.DEVCDV, Merge.PGMADV, Merge.TIMEDV, Merge.ID_PAIS, sysdate() FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "x" = '3796', "y" = '-1332')
+GUID::'da33dbe1-5524-473a-a1c0-3de09c089195' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.FACTDEV INPUT(Query)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

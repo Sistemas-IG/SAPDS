@@ -1,0 +1,1737 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 11:42:40 2019', "ActaValue_3" = 'Fri Nov 01 11:42:42 2019', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_BITWORKS::'73ed069a-6fc9-4f67-a2a0-9b2f40a3c1ce' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>odbc_automatic</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>BITWORKS_SD</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8C1E8A3C1554BE261A6E5CDCD3D8799C04514B7F8DEB2F5B09D883CA1B8E92655F5A0DAB6756AE42B3F13394832FB02EE1953A282479B</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_BITWORKS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 12:10:59 2019', "ActaValue_3" = 'Fri Nov 01 12:11:00 2019', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_SD_BITWORKS::'f3900c82-4356-4e0a-9a3f-fcaf41fab714' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E85FA4401FADA19AF49B78F13AD54EE8E81197089616B851A511609ABE922CC50C70E2FF247E29A3F4E7411FB18AE7DE</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_SD_BITWORKS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Feb 04 10:02:21 2020' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWCENDES(BWDPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWDALMA CHAR(2)  KEY  NOT NULL  SET("Description" = 'ALMACEN'), 
+BWDNOMB CHAR(15)  NOT NULL  SET("Description" = 'NOMBRE ALMACEN'), 
+BWDDIRE CHAR(100)  NOT NULL  SET("Description" = 'DIRECCION ALMACEN'), 
+BWDDEPT CHAR(60)  NOT NULL  SET("Description" = 'DEPARTAMENTO ALMACEN'), 
+BWDMUNI CHAR(60)  NOT NULL  SET("Description" = 'MUNICIPIO ALMACEN'), 
+BWDLATD DECIMAL(8, 6)  NOT NULL  SET("Description" = 'LATITUD'), 
+BWDLOND DECIMAL(8, 6)  NOT NULL  SET("Description" = 'LONGITUD')) 
+PRIMARY KEY (BWDPAIS, BWDALMA) 
+CREATE_INDEX "NEWINV.BWCENDES" ON (BWDPAIS, BWDALMA) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Oct 10 10:15:11 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '49' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '49' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '1 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Thu Feb 13 17:42:08 2020' )
+CREATE TABLE DS_BITWORKS.dbo.BWCENDES(BWDPAIS VARCHAR(3)  KEY  NULL  SET("Description" = 'PAIS', "ui_mapping_text" = 'BWCENDES.BWDPAIS'), 
+BWDALMA VARCHAR(2)  KEY  NULL  SET("Description" = 'ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDALMA'), 
+BWDNOMB VARCHAR(15)  NULL  SET("Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDNOMB'), 
+BWDDIRE VARCHAR(100)  NULL  SET("Description" = 'DIRECCION ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDIRE'), 
+BWDDEPT VARCHAR(60)  NULL  SET("Description" = 'DEPARTAMENTO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDEPT'), 
+BWDMUNI VARCHAR(60)  NULL  SET("Description" = 'MUNICIPIO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDMUNI'), 
+BWDLATD DECIMAL(8, 6)  NULL  SET("Description" = 'LATITUD', "ui_mapping_text" = 'BWCENDES.BWDLATD'), 
+BWDLOND DECIMAL(8, 6)  NULL  SET("Description" = 'LONGITUD', "ui_mapping_text" = 'BWCENDES.BWDLOND')) 
+PRIMARY KEY (BWDPAIS, BWDALMA) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Feb 04 10:17:10 2020' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWDEPART(BWDPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWDCODI CHAR(2)  KEY  NOT NULL  SET("Description" = 'ID DEPARTAMENTO'), 
+BWDNOMB CHAR(25)  NOT NULL  SET("Description" = 'NOMBRE DEPARTAMENTO')) 
+PRIMARY KEY (BWDPAIS, BWDCODI) 
+CREATE_INDEX "NEWINV.BWDEPART" ON (BWDPAIS, BWDCODI) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Oct 10 10:15:24 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '32' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '32' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Fri Feb 14 10:04:20 2020' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_BITWORKS.dbo.BWDEPART(BWDPAIS VARCHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWDCODI VARCHAR(2)  KEY  NOT NULL  SET("Description" = 'ID DEPARTAMENTO'), 
+BWDNOMB VARCHAR(25)  NOT NULL  SET("Description" = 'NOMBRE DEPARTAMENTO')) 
+PRIMARY KEY (BWDPAIS, BWDCODI) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Feb 26 13:38:49 2020' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMAECLI(BWMAPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWMANUID CHAR(20)  KEY  NOT NULL  SET("Description" = 'NUMERO ID DEL CLIENTE'), 
+BWMACODC CHAR(7)  KEY  NOT NULL  SET("Description" = 'CODIGO DEL CLIENTE'), 
+BWMANOMC CHAR(45)  NOT NULL  SET("Description" = 'NOMBRE DEL CLIENTE')) 
+PRIMARY KEY (BWMAPAIS, BWMANUID, BWMACODC) 
+CREATE_INDEX "BWAPP.BWMAECLI" ON (BWMAPAIS, BWMANUID, BWMACODC) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Feb 26 13:43:28 2020' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Tue Oct 10 10:15:43 2023' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Wed Feb 26 13:56:31 2020' , 
+ActaName_10 = 'RTotal_Number_Of_Rows_Processed',ActaValue_10 = '71469' , 
+ActaName_11 = 'RNumber_Of_Rows_Rejected',ActaValue_11 = '0' , 
+ActaName_12 = 'RNumber_Of_Inserts',ActaValue_12 = '71469' , 
+ActaName_13 = 'RNumber_Of_Updates',ActaValue_13 = '0' , 
+ActaName_14 = 'RNumber_Of_Deletes',ActaValue_14 = '0' , 
+ActaName_15 = 'RElapsed_Time_For_Load',ActaValue_15 = '2 Seconds' )
+CREATE TABLE DS_BITWORKS.dbo.BWMAECLI(BWMAPAIS VARCHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWMANUID VARCHAR(20)  KEY  NOT NULL  SET("Description" = 'NUMERO ID DEL CLIENTE'), 
+BWMACODC VARCHAR(7)  KEY  NOT NULL  SET("Description" = 'CODIGO DEL CLIENTE'), 
+BWMANOMC VARCHAR(45)  NOT NULL  SET("Description" = 'NOMBRE DEL CLIENTE')) 
+PRIMARY KEY (BWMAPAIS, BWMANUID, BWMACODC) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue Nov 05 16:54:29 2019' , 
+ActaName_8 = 'RDate_created',ActaValue_8 = 'Tue Feb 04 10:03:05 2020' , 
+ActaName_9 = 'RDate_last_loaded',ActaValue_9 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMUNICI(BWMPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWMCODD CHAR(2)  KEY  NOT NULL  SET("Description" = 'ID DEPARTAMENTO'), 
+BWMCODM CHAR(2)  KEY  NOT NULL  SET("Description" = 'ID MUNICIPIO'), 
+BWMNOMB CHAR(25)  NOT NULL  SET("Description" = 'NOMBRE MUNICIPIO')) 
+PRIMARY KEY (BWMPAIS, BWMCODD, BWMCODM) 
+CREATE_INDEX "NEWINV.BWMUNICI" ON (BWMPAIS, BWMCODD, BWMCODM) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Oct 10 10:15:28 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '560' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RDatabase_Object_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RTable_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RDescription',ActaValue_6 = '' , 
+ActaName_7 = 'REstimated_Row_Count',ActaValue_7 = '50000' , 
+ActaName_8 = 'RLoader_Is_Template_Table',ActaValue_8 = 'no' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RDate_modified',ActaValue_10 = 'Fri Feb 14 10:04:23 2020' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '560' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_BITWORKS.dbo.BWMUNICI(BWMPAIS VARCHAR(3)  KEY  NULL  SET("Description" = 'PAIS', "ui_mapping_text" = 'BWMUNICI.BWMPAIS'), 
+BWMCODD VARCHAR(2)  KEY  NULL  SET("Description" = 'ID DEPARTAMENTO', "ui_mapping_text" = 'BWMUNICI.BWMCODD'), 
+BWMCODM VARCHAR(2)  KEY  NULL  SET("Description" = 'ID MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMCODM'), 
+BWMNOMB VARCHAR(25)  NULL  SET("Description" = 'NOMBRE MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMNOMB')) 
+PRIMARY KEY (BWMPAIS, BWMCODD, BWMCODM) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Oct 10 10:15:32 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '2' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '2' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '0 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Fri Feb 14 10:04:30 2020' )
+CREATE TABLE DS_BITWORKS.dbo.BWPAIS(COD_PAIS VARCHAR(3)  NOT NULL  SET("Description" = 'Numero Pais'), 
+NOM_PAIS VARCHAR(30)  NOT NULL  SET("Description" = 'Nombre Pais'), 
+NOM_ABR_PAIS VARCHAR(10)  NOT NULL  SET("Description" = 'Nombre Abreviado'), 
+SIGLA_PAIS VARCHAR(3)  NOT NULL  SET("Description" = 'Siglas Pais')) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Mar 25 14:20:22 2020' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTIPVIA(BWVPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWVCODI CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO DE VIAJE'), 
+BWVNOMB CHAR(50)  NOT NULL  SET("Description" = 'NOMBRE ALMACEN'), 
+BWFLAGW CHAR(1)  NOT NULL  SET("Description" = 'FLAG APLICA WEB')) 
+PRIMARY KEY (BWVPAIS, BWVCODI) 
+CREATE_INDEX "BWAPP.BWTIPVIA" ON (BWVPAIS, BWVCODI) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '42' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '42' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '0 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Mar 25 14:28:11 2020' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Tue Oct 10 10:15:15 2023' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed Mar 25 14:34:56 2020' )
+CREATE TABLE DS_BITWORKS.dbo.BWTIPVIA(BWVPAIS VARCHAR(3)  KEY  NULL  SET("Description" = 'PAIS', "ui_mapping_text" = 'BWTIPVIA.BWVPAIS'), 
+BWVCODI VARCHAR(5)  KEY  NULL  SET("Description" = 'ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVCODI'), 
+BWVNOMB VARCHAR(50)  NULL  SET("Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVNOMB'), 
+BWFLAGW VARCHAR(1)  NOT NULL  SET("Description" = 'FLAG APLICA WEB')) 
+PRIMARY KEY (BWVPAIS, BWVCODI) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RDescription',ActaValue_2 = '' , 
+ActaName_3 = 'RTable_Type',ActaValue_3 = 'TABLE' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue Jan 21 10:52:17 2020' , 
+ActaName_8 = 'RDate_created',ActaValue_8 = 'Tue Feb 04 10:06:33 2020' , 
+ActaName_9 = 'RDate_last_loaded',ActaValue_9 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTRANSP(BWTPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWTCODI CHAR(4)  KEY  NOT NULL  SET("Description" = 'CODIGO MOTORISTA'), 
+BWTNOMB CHAR(45)  NOT NULL  SET("Description" = 'NOMBRE MOTORISTA'), 
+BWTAPEL CHAR(45)  NOT NULL  SET("Description" = 'APELLIDO MOTORISTA'), 
+BWTALMA CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN DEL MOTORISTA'), 
+BWTTIPM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'TIPO VEHICULO ASIGANADO'), 
+BWTCARG CHAR(3)  NOT NULL  SET("Description" = 'CARGO'), 
+BWTSTAT DECIMAL(1, 0)  NOT NULL , 
+BWTPASW CHAR(10)  NOT NULL  SET("Description" = 'PASSWORD')) 
+PRIMARY KEY (BWTPAIS, BWTCODI) 
+CREATE_INDEX "NEWINV.BWTRANSP" ON (BWTPAIS, BWTCODI) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Oct 10 10:15:20 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '770' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '770' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '0 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Fri Feb 14 10:04:58 2020' )
+CREATE TABLE DS_BITWORKS.dbo.BWTRANSP(BWTPAIS VARCHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWTCODI VARCHAR(4)  KEY  NOT NULL  SET("Description" = 'CODIGO MOTORISTA'), 
+BWTNOMB VARCHAR(45)  NOT NULL  SET("Description" = 'NOMBRE MOTORISTA'), 
+BWTAPEL VARCHAR(45)  NOT NULL  SET("Description" = 'APELLIDO MOTORISTA'), 
+BWTALMA VARCHAR(2)  NOT NULL  SET("Description" = 'ALMACEN DEL MOTORISTA'), 
+BWTTIPM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'TIPO VEHICULO ASIGANADO'), 
+BWTCARG VARCHAR(3)  NOT NULL  SET("Description" = 'CARGO'), 
+BWTSTAT DECIMAL(1, 0)  NOT NULL  SET("Description" = 'ESTATUS'), 
+BWTPASW VARCHAR(10)  NOT NULL  SET("Description" = 'PASSWORD')) 
+PRIMARY KEY (BWTPAIS, BWTCODI) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Feb 26 13:38:44 2020' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.BWAPP.BWVALCLI(BWVAPAIS CHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWVANUID CHAR(20)  KEY  NOT NULL  SET("Description" = 'NUMERO ID DEL CLIENTE')) 
+PRIMARY KEY (BWVAPAIS, BWVANUID) 
+CREATE_INDEX "BWAPP.BWVALCLI" ON (BWVAPAIS, BWVANUID) 
+SET("db_alias_name" = 'BWAPP')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '0' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Wed Feb 26 13:43:28 2020' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Tue Oct 10 10:15:37 2023' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Wed Feb 26 13:55:53 2020' , 
+ActaName_14 = 'RNumber_Of_Deletes',ActaValue_14 = '0' , 
+ActaName_15 = 'RElapsed_Time_For_Load',ActaValue_15 = '0 Seconds' )
+CREATE TABLE DS_BITWORKS.dbo.BWVALCLI(BWVAPAIS VARCHAR(3)  KEY  NOT NULL  SET("Description" = 'PAIS'), 
+BWVANUID VARCHAR(20)  KEY  NOT NULL  SET("Description" = 'NUMERO ID DEL CLIENTE')) 
+PRIMARY KEY (BWVAPAIS, BWVANUID) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Paises' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Dec 19 15:06:55 2019' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_SD_BITWORKS.NEWCTB.CNPAIS01(NUPAPA CHAR(3)  NOT NULL  SET("Description" = 'Numero Pais'), 
+NOPAPA CHAR(30)  NOT NULL  SET("Description" = 'Nombre Pais'), 
+NOABPA CHAR(10)  NOT NULL  SET("Description" = 'Nombre Abrev'), 
+SIPAPA CHAR(3)  NOT NULL  SET("Description" = 'Siglas Pais'), 
+MOPAPA DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Moneda Pais'), 
+FU01PA CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU02PA CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU03PA CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso3'), 
+FU04PA CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso4'), 
+FU05PA CHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso5'), 
+FECRPA DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRPA DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USCRPA CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+DICRPA CHAR(10)  NOT NULL  SET("Description" = 'Disposi Creacion'), 
+RECRPA CHAR(10)  NOT NULL  SET("Description" = 'Ref Creacion'), 
+FEMOPA DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Modifica'), 
+HOMOPA DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Modifica'), 
+USMOPA CHAR(10)  NOT NULL  SET("Description" = 'Usuario Modifica'), 
+DIMOPA CHAR(10)  NOT NULL  SET("Description" = 'Disposi Modifica'), 
+REMOPA CHAR(10)  NOT NULL  SET("Description" = 'Ref Modifica')) 
+CREATE_INDEX "NEWCTB.CNPAIS01" ON (NUPAPA) 
+SET("db_alias_name" = 'NEWCTB')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 10:18:45 2020', "ActaValue_3" = 'Fri Feb 14 12:24:26 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWCENDES::'f670514a-3ccd-4a87-82ab-89c88cadc9cb'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '443', "y" = '-874')
+GUID::'a6f49a8d-4a90-45fa-a99a-013fa8efd628' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWCENDES OUTPUT(BWCENDES)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWCENDES', "x" = '1039', "y" = '-876')
+GUID::'537e33d6-57b8-402d-9c59-c868de44a008' CREATE VIEW Query( BWDPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWCENDES.BWDPAIS') ,
+ BWDALMA VARCHAR(2)  KEY  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDALMA') ,
+ BWDNOMB VARCHAR(15)  SET( "Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDNOMB') ,
+ BWDDIRE VARCHAR(100)  SET( "Description" = 'DIRECCION ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDIRE') ,
+ BWDDEPT VARCHAR(60)  SET( "Description" = 'DEPARTAMENTO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDEPT') ,
+ BWDMUNI VARCHAR(60)  SET( "Description" = 'MUNICIPIO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDMUNI') ,
+ BWDLATD DECIMAL(8, 6)  SET( "Description" = 'LATITUD', "ui_mapping_text" = 'BWCENDES.BWDLATD') ,
+ BWDLOND DECIMAL(8, 6)  SET( "Description" = 'LONGITUD', "ui_mapping_text" = 'BWCENDES.BWDLOND')  )
+ AS
+SELECT BWCENDES.BWDPAIS, BWCENDES.BWDALMA, BWCENDES.BWDNOMB, BWCENDES.BWDDIRE, BWCENDES.BWDDEPT, BWCENDES.BWDMUNI, BWCENDES.BWDLATD, BWCENDES.BWDLOND FROM BWCENDES 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '45', "x" = '1603', "y" = '-875')
+GUID::'f1c084f0-e15f-44c5-b7c1-418fe1999c06' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWCENDES_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWDNOMB', "compare_column2" = 'BWDDIRE', "compare_column3" = 'BWDDEPT', "compare_column4" = 'BWDMUNI', "compare_column5" = 'BWDLATD', "compare_column6" = 'BWDLOND', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWDPAIS', "primary_key_column2" = 'BWDALMA', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWCENDES', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2162', "y" = '-875')
+GUID::'dd1a2baa-b78d-4537-9cab-6700c654012a' CALL TRANSFORM Map_Operation() INPUT(BWCENDES_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'BWCENDES(DS_BITWORKS.dbo)', "x" = '2732', "y" = '-874')
+GUID::'084fbccd-5eea-45f5-9205-502039389e34' LOAD TABLE DS_BITWORKS.dbo.BWCENDES INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWCENDES.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 11:41:11 2020', "ActaValue_3" = 'Fri Feb 14 12:04:16 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWDEPART::'aa11e9b8-2d24-4b98-989a-0a827b45c5a4'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '603', "y" = '-853')
+GUID::'34373c76-a69e-4950-95e0-09c1cee2d37a' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWDEPART OUTPUT(BWDEPART)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWDEPART', "x" = '1136', "y" = '-854')
+GUID::'8aecb871-6098-4cf2-9ced-d5be24a4fc89' CREATE VIEW Query( BWDPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWDEPART.BWDPAIS') ,
+ BWDCODI VARCHAR(2)  KEY  SET( "Description" = 'ID DEPARTAMENTO', "ui_mapping_text" = 'BWDEPART.BWDCODI') ,
+ BWDNOMB VARCHAR(25)  SET( "Description" = 'NOMBRE DEPARTAMENTO', "ui_mapping_text" = 'BWDEPART.BWDNOMB')  )
+ AS
+SELECT BWDEPART.BWDPAIS, BWDEPART.BWDCODI, BWDEPART.BWDNOMB FROM BWDEPART 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2830', "y" = '-854')
+GUID::'49a19e27-13d4-429d-affe-7c36ec1c591d' LOAD TABLE DS_BITWORKS.dbo.BWDEPART INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWDEPART.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '42', "x" = '1675', "y" = '-853')
+GUID::'93838d75-4a5e-4831-981c-e867cb25c9ea' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWDEPART_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWDNOMB', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWDPAIS', "primary_key_column2" = 'BWDCODI', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWDEPART', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2253', "y" = '-853')
+GUID::'431697fc-1e88-4b9a-b5b5-f4d74dcb7e3f' CALL TRANSFORM Map_Operation() INPUT(BWDEPART_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 11:41:11 2020', "ActaValue_3" = 'Fri Feb 14 15:48:30 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWMUNICI::'f90f59ab-a214-4d54-85b1-3f18a3a878e3'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>372</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '631', "y" = '-878')
+GUID::'269eedd8-e2b7-4513-a2ac-0b0648f8c5cd' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMUNICI OUTPUT(BWMUNICI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWMUNICI', "x" = '1136', "y" = '-879')
+GUID::'15152875-c447-4e05-83db-118dc36e75ae' CREATE VIEW Query( BWMPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWMUNICI.BWMPAIS') ,
+ BWMCODD VARCHAR(2)  KEY  SET( "Description" = 'ID DEPARTAMENTO', "ui_mapping_text" = 'BWMUNICI.BWMCODD') ,
+ BWMCODM VARCHAR(2)  KEY  SET( "Description" = 'ID MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMCODM') ,
+ BWMNOMB VARCHAR(25)  SET( "Description" = 'NOMBRE MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMNOMB')  )
+ AS
+SELECT BWMUNICI.BWMPAIS, BWMUNICI.BWMCODD, BWMUNICI.BWMCODM, BWMUNICI.BWMNOMB FROM BWMUNICI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2763', "y" = '-879')
+GUID::'f8689f27-62f7-4114-8c66-2eedce97635a' LOAD TABLE DS_BITWORKS.dbo.BWMUNICI INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWMUNICI.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '42', "x" = '1698', "y" = '-879')
+GUID::'bc38ffd6-7d03-4eea-b53b-0c7c3fa231f7' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWMUNICI_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWMNOMB', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWMPAIS', "primary_key_column2" = 'BWMCODD', "primary_key_column3" = 'BWMCODM', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWMUNICI', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '42', "x" = '2225', "y" = '-878')
+GUID::'221b1640-4017-4fe9-9e89-acdf92202f27' CALL TRANSFORM Map_Operation() INPUT(BWMUNICI_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 11:41:11 2020', "ActaValue_3" = 'Fri Feb 14 15:48:30 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWPAIS::'7437e477-4119-4261-824a-361a73cda7e4'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '530', "y" = '-818')
+GUID::'1a76a614-a029-499a-9761-7f52dbacb9d9' READ TABLE DS_DB2_SD_BITWORKS.NEWCTB.CNPAIS01 OUTPUT(CNPAIS01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CNPAIS01', "x" = '1039', "y" = '-818')
+GUID::'b8bc2918-cbc8-4854-b425-98ce35268ecb' CREATE VIEW Query( COD_PAIS VARCHAR(3)  SET( "Description" = 'Numero Pais', "ui_mapping_text" = 'CNPAIS01.NUPAPA') ,
+ NOM_PAIS VARCHAR(30)  SET( "Description" = 'Nombre Pais', "ui_mapping_text" = 'CNPAIS01.NOPAPA') ,
+ NOM_ABR_PAIS VARCHAR(10)  SET( "Description" = 'Nombre Abreviado', "ui_mapping_text" = 'CNPAIS01.NOABPA') ,
+ SIGLA_PAIS VARCHAR(3)  SET( "Description" = 'Siglas Pais', "ui_mapping_text" = 'CNPAIS01.SIPAPA')  )
+ AS
+SELECT CNPAIS01.NUPAPA, CNPAIS01.NOPAPA, CNPAIS01.NOABPA, CNPAIS01.SIPAPA FROM CNPAIS01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2528', "y" = '-820')
+GUID::'72fc5134-4005-4eb2-820e-7f643bbf6f25' LOAD TABLE DS_BITWORKS.dbo.BWPAIS INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWPAIS.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '37', "x" = '1540', "y" = '-820')
+GUID::'c31a8151-32cb-413c-9982-1ba3c6b17c0e' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWPAIS()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'NOM_PAIS', "compare_column2" = 'NOM_ABR_PAIS', "compare_column3" = 'SIGLA_PAIS', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'COD_PAIS', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWPAIS', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2039', "y" = '-820')
+GUID::'1313fd5e-3a26-4701-93b9-75fffbb7c5c1' CALL TRANSFORM Map_Operation() INPUT(BWPAIS) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 10:18:45 2020', "ActaValue_3" = 'Wed Mar 25 14:42:00 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWTIPVIA::'34e1cbe7-8732-4829-aa4a-1f13bbf0f236'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '497', "y" = '-860')
+GUID::'0e922430-f854-4505-9689-cd90e05ffa0c' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTIPVIA OUTPUT(BWTIPVIA)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWTIPVIA', "x" = '1018', "y" = '-858')
+GUID::'9d75fc55-4dc9-4668-8d5c-fa1b78b92fb0' CREATE VIEW Query( BWVPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWTIPVIA.BWVPAIS') ,
+ BWVCODI VARCHAR(5)  KEY  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVCODI') ,
+ BWVNOMB VARCHAR(50)  SET( "Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVNOMB') ,
+ BWFLAGW VARCHAR(1)  SET( "Description" = 'FLAG APLICA WEB', "ui_mapping_text" = 'BWTIPVIA.BWFLAGW')  )
+ AS
+SELECT BWTIPVIA.BWVPAIS, BWTIPVIA.BWVCODI, BWTIPVIA.BWVNOMB, BWTIPVIA.BWFLAGW FROM BWTIPVIA 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '45', "x" = '1515', "y" = '-859')
+GUID::'50ab0ccd-e07e-4a66-abf8-842fc9b8d2b8' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWTIPVIA_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWVNOMB', "compare_column2" = 'BWFLAGW', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWVPAIS', "primary_key_column2" = 'BWVCODI', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWTIPVIA', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2099', "y" = '-859')
+GUID::'dffe662e-4981-422a-8fa4-dc920f9220ea' CALL TRANSFORM Map_Operation() INPUT(BWTIPVIA_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2754', "y" = '-860')
+GUID::'65803b92-b15a-4921-af6b-f08b12ce8165' LOAD TABLE DS_BITWORKS.dbo.BWTIPVIA INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWTIPVIA.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 14 11:41:11 2020', "ActaValue_3" = 'Fri Feb 14 12:25:51 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWTRANSP::'50e4d313-93bf-471b-9fd8-11294eb8e4cf'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '457', "y" = '-819')
+GUID::'1cd7743c-55f6-4a53-a7c9-8607fc8d1ac6' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTRANSP OUTPUT(BWTRANSP)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWTRANSP', "x" = '1010', "y" = '-820')
+GUID::'fb503d88-a779-4d25-b5f3-affe59dfab77' CREATE VIEW Query( BWTPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWTRANSP.BWTPAIS') ,
+ BWTCODI VARCHAR(4)  KEY  SET( "Description" = 'CODIGO MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTCODI') ,
+ BWTNOMB VARCHAR(45)  SET( "Description" = 'NOMBRE MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTNOMB') ,
+ BWTAPEL VARCHAR(45)  SET( "Description" = 'APELLIDO MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTAPEL') ,
+ BWTALMA VARCHAR(2)  SET( "Description" = 'ALMACEN DEL MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTALMA') ,
+ BWTTIPM DECIMAL(1, 0)  SET( "Description" = 'TIPO VEHICULO ASIGANADO', "ui_mapping_text" = 'BWTRANSP.BWTTIPM') ,
+ BWTCARG VARCHAR(3)  SET( "Description" = 'CARGO', "ui_mapping_text" = 'BWTRANSP.BWTCARG') ,
+ BWTSTAT DECIMAL(1, 0)  SET( "Description" = 'ESTATUS', "ui_mapping_text" = 'BWTRANSP.BWTSTAT') ,
+ BWTPASW VARCHAR(10)  SET( "Description" = 'PASSWORD', "ui_mapping_text" = 'BWTRANSP.BWTPASW')  )
+ AS
+SELECT BWTRANSP.BWTPAIS, BWTRANSP.BWTCODI, BWTRANSP.BWTNOMB, BWTRANSP.BWTAPEL, BWTRANSP.BWTALMA, BWTRANSP.BWTTIPM, BWTRANSP.BWTCARG, BWTRANSP.BWTSTAT, BWTRANSP.BWTPASW FROM BWTRANSP 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2798', "y" = '-820')
+GUID::'a343e183-d423-4114-ac3a-dd92772a66cd' LOAD TABLE DS_BITWORKS.dbo.BWTRANSP INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWTRANSP.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1601', "y" = '-819')
+GUID::'c0120246-cff8-4430-9ce6-4ecc0b9c1cab' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWTRANSP_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWTNOMB', "compare_column2" = 'BWTAPEL', "compare_column3" = 'BWTALMA', "compare_column4" = 'BWTTIPM', "compare_column5" = 'BWTCARG', "compare_column6" = 'BWTSTAT', "compare_column7" = 'BWTPASW', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWTPAIS', "primary_key_column2" = 'BWTCODI', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWTRANSP', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '2188', "y" = '-819')
+GUID::'14c8966b-f761-4d39-980a-7b7f48316c86' CALL TRANSFORM Map_Operation() INPUT(BWTRANSP_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 26 13:37:05 2020', "ActaValue_3" = 'Wed Feb 26 14:01:39 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_BWVALCLI::'eba426d7-9c32-4f5d-8217-a17ca4725b2a'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '501', "y" = '-800')
+GUID::'c1e06184-2d3f-4653-9111-114046989f5e' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWVALCLI OUTPUT(BWVALCLI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWVALCLI', "x" = '1015', "y" = '-801')
+GUID::'e85275e5-becd-4c1c-96df-e761daec19ed' CREATE VIEW Query( BWVAPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWVALCLI.BWVAPAIS') ,
+ BWVANUID VARCHAR(20)  KEY  SET( "Description" = 'NUMERO ID DEL CLIENTE', "ui_mapping_text" = 'BWVALCLI.BWVANUID')  )
+ AS
+SELECT BWVALCLI.BWVAPAIS, BWVALCLI.BWVANUID FROM BWVALCLI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '35', "x" = '1539', "y" = '-800')
+GUID::'82196b53-15ac-40fd-ba33-ad7bed33421c' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWVALCLI_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWVAPAIS', "compare_column2" = 'BWVANUID', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWVAPAIS', "primary_key_column2" = 'BWVANUID', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWVALCLI', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2099', "y" = '-800')
+GUID::'cda540f2-0bda-4d02-b1a8-1abaf8e7f7e0' CALL TRANSFORM Map_Operation() INPUT(BWVALCLI_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2709', "y" = '-800')
+GUID::'e6b30db3-24bf-4b12-9d6e-d9a9b0f228b9' LOAD TABLE DS_BITWORKS.dbo.BWVALCLI INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type></odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 26 13:37:05 2020', "ActaValue_3" = 'Wed Feb 26 17:36:59 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_ACTUALIZA_MAECLI::'dd45c332-88b6-4f34-bfe5-e5689957c349'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '35', "x" = '2686', "y" = '-808')
+GUID::'2faba359-4afc-4d85-869b-d4e7314bb425' LOAD TABLE DS_BITWORKS.dbo.BWMAECLI INPUT(Map_Operation)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWMAECLI.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '35', "x" = '510', "y" = '-809')
+GUID::'a7a5fb27-411e-49de-9531-850277f33650' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMAECLI OUTPUT(BWMAECLI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '35', "ui_acta_from_schema_0" = 'BWMAECLI', "x" = '1026', "y" = '-810')
+GUID::'32297bf6-8c50-4b09-a822-095373be0ba8' CREATE VIEW Query( BWMAPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWMAECLI.BWMAPAIS') ,
+ BWMANUID VARCHAR(20)  KEY  SET( "Description" = 'NUMERO ID DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMANUID') ,
+ BWMACODC VARCHAR(7)  KEY  SET( "Description" = 'CODIGO DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMACODC') ,
+ BWMANOMC VARCHAR(45)  SET( "Description" = 'NOMBRE DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMANOMC')  )
+ AS
+SELECT BWMAECLI.BWMAPAIS, BWMAECLI.BWMANUID, BWMAECLI.BWMACODC, BWMAECLI.BWMANOMC FROM BWMAECLI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '35', "x" = '1568', "y" = '-809')
+GUID::'a8ddb3f3-7397-46a9-b8f0-e29627e80bd0' CALL TRANSFORM Table_Comparison() INPUT(Query) OUTPUT(BWMAECLI_1()
+)
+SET("cache_comparison_table" = 'yes', "compare_column1" = 'BWMANOMC', "database_datastore" = 'DS_BITWORKS', "detect_all_dup_deletes" = 'no', "detect_delete" = 'no', "primary_key_column1" = 'BWMAPAIS', "primary_key_column2" = 'BWMANUID', "primary_key_column3" = 'BWMACODC', "run_as_separate_process" = 'no', "source_is_sorted" = 'no', "table_name" = 'BWMAECLI', "table_owner" = 'dbo', "update_cache" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '35', "x" = '2138', "y" = '-808')
+GUID::'0d0a8635-efcd-4f4f-8d44-ca09d4229461' CALL TRANSFORM Map_Operation() INPUT(BWMAECLI_1) OUTPUT(Map_Operation()
+)
+SET("delete" = 'delete', "insert" = 'insert', "normal" = 'normal', "update" = 'update');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 11:57:16 2019', "ActaValue_3" = 'Fri Feb 14 11:41:11 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWCENDES::'22f0e45c-1e8a-4b5a-9ee3-6cc9c0637cc5'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '987', "y" = '-954')
+GUID::'0923bac5-0254-4458-8c06-ce3b8b56b835' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWCENDES OUTPUT(BWCENDES)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWCENDES', "x" = '1631', "y" = '-956')
+GUID::'bab806bc-515c-4cd9-b254-86b7395c47bf' CREATE VIEW Query( BWDPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWCENDES.BWDPAIS') ,
+ BWDALMA VARCHAR(2)  KEY  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDALMA') ,
+ BWDNOMB VARCHAR(15)  SET( "Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDNOMB') ,
+ BWDDIRE VARCHAR(100)  SET( "Description" = 'DIRECCION ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDIRE') ,
+ BWDDEPT VARCHAR(60)  SET( "Description" = 'DEPARTAMENTO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDDEPT') ,
+ BWDMUNI VARCHAR(60)  SET( "Description" = 'MUNICIPIO ALMACEN', "ui_mapping_text" = 'BWCENDES.BWDMUNI') ,
+ BWDLATD DECIMAL(8, 6)  SET( "Description" = 'LATITUD', "ui_mapping_text" = 'BWCENDES.BWDLATD') ,
+ BWDLOND DECIMAL(8, 6)  SET( "Description" = 'LONGITUD', "ui_mapping_text" = 'BWCENDES.BWDLOND')  )
+ AS
+SELECT BWCENDES.BWDPAIS, BWCENDES.BWDALMA, BWCENDES.BWDNOMB, BWCENDES.BWDDIRE, BWCENDES.BWDDEPT, BWCENDES.BWDMUNI, BWCENDES.BWDLATD, BWCENDES.BWDLOND FROM BWCENDES 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'BWCENDES(DS_BITWORKS.dbo)', "x" = '2312', "y" = '-955')
+GUID::'f79e7f9a-0b7c-447b-ab1b-a4c054133e6a' LOAD TABLE DS_BITWORKS.dbo.BWCENDES INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWCENDES.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Nov 05 16:16:48 2019', "ActaValue_3" = 'Fri Feb 14 10:04:20 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWDEPART::'5535eb71-d735-47ff-9b1a-9943511b4a6e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '603', "y" = '-853')
+GUID::'3c5b7702-ba8b-49c3-9434-9d672340ebb7' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWDEPART OUTPUT(BWDEPART)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWDEPART', "x" = '1240', "y" = '-854')
+GUID::'63a877b0-e368-434b-a9d9-1c8a622ffacb' CREATE VIEW Query( BWDPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWDEPART.BWDPAIS') ,
+ BWDCODI VARCHAR(2)  KEY  SET( "Description" = 'ID DEPARTAMENTO', "ui_mapping_text" = 'BWDEPART.BWDCODI') ,
+ BWDNOMB VARCHAR(25)  SET( "Description" = 'NOMBRE DEPARTAMENTO', "ui_mapping_text" = 'BWDEPART.BWDNOMB')  )
+ AS
+SELECT BWDEPART.BWDPAIS, BWDEPART.BWDCODI, BWDEPART.BWDNOMB FROM BWDEPART 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '1990', "y" = '-854')
+GUID::'7b2c634b-61a6-48de-89d2-ff317089f3dc' LOAD TABLE DS_BITWORKS.dbo.BWDEPART INPUT(Query)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWDEPART.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Nov 05 16:16:48 2019', "ActaValue_3" = 'Fri Feb 14 10:04:23 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWMUNICI::'4ef0c56f-628b-495c-b3da-5a384f7dcc03'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>372</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '631', "y" = '-878')
+GUID::'e50d345a-f861-4043-818c-531d1a94105b' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMUNICI OUTPUT(BWMUNICI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWMUNICI', "x" = '1224', "y" = '-879')
+GUID::'2804c87e-3d78-48f9-ab77-65ec97c77901' CREATE VIEW Query( BWMPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWMUNICI.BWMPAIS') ,
+ BWMCODD VARCHAR(2)  KEY  SET( "Description" = 'ID DEPARTAMENTO', "ui_mapping_text" = 'BWMUNICI.BWMCODD') ,
+ BWMCODM VARCHAR(2)  KEY  SET( "Description" = 'ID MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMCODM') ,
+ BWMNOMB VARCHAR(25)  SET( "Description" = 'NOMBRE MUNICIPIO', "ui_mapping_text" = 'BWMUNICI.BWMNOMB')  )
+ AS
+SELECT BWMUNICI.BWMPAIS, BWMUNICI.BWMCODD, BWMUNICI.BWMCODM, BWMUNICI.BWMNOMB FROM BWMUNICI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '1915', "y" = '-879')
+GUID::'d4b8f797-36d7-4a74-9026-c6f0552fda96' LOAD TABLE DS_BITWORKS.dbo.BWMUNICI INPUT(Query)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWMUNICI.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Dec 19 15:27:05 2019', "ActaValue_3" = 'Fri Feb 14 10:04:30 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWPAIS::'d4d59781-741c-425b-ae94-fe663e674541'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '794', "y" = '-818')
+GUID::'7537f6a2-0911-44c7-9d3d-3c7e006b0c9b' READ TABLE DS_DB2_SD_BITWORKS.NEWCTB.CNPAIS01 OUTPUT(CNPAIS01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CNPAIS01', "x" = '1399', "y" = '-818')
+GUID::'a4f15519-9951-4431-aa64-a09bd7628e4c' CREATE VIEW Query( COD_PAIS VARCHAR(3)  SET( "Description" = 'Numero Pais', "ui_mapping_text" = 'CNPAIS01.NUPAPA') ,
+ NOM_PAIS VARCHAR(30)  SET( "Description" = 'Nombre Pais', "ui_mapping_text" = 'CNPAIS01.NOPAPA') ,
+ NOM_ABR_PAIS VARCHAR(10)  SET( "Description" = 'Nombre Abreviado', "ui_mapping_text" = 'CNPAIS01.NOABPA') ,
+ SIGLA_PAIS VARCHAR(3)  SET( "Description" = 'Siglas Pais', "ui_mapping_text" = 'CNPAIS01.SIPAPA')  )
+ AS
+SELECT CNPAIS01.NUPAPA, CNPAIS01.NOPAPA, CNPAIS01.NOABPA, CNPAIS01.SIPAPA FROM CNPAIS01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2112', "y" = '-820')
+GUID::'66d40c6c-ad3c-4a62-8807-97a8d356f07f' LOAD TABLE DS_BITWORKS.dbo.BWPAIS INPUT(Query)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWPAIS.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 12:22:21 2019', "ActaValue_3" = 'Wed Mar 25 14:28:10 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWTIPVIA::'6a756a47-d38b-4d80-9a78-c3897a2aa93d'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '825', "y" = '-940')
+GUID::'79d06f3b-2bba-4f9f-9a50-2db049a3afbd' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTIPVIA OUTPUT(BWTIPVIA)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWTIPVIA', "x" = '1504', "y" = '-942')
+GUID::'de517b76-85f3-4605-9546-77099b56b033' CREATE VIEW Query( BWVPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWTIPVIA.BWVPAIS') ,
+ BWVCODI VARCHAR(5)  KEY  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVCODI') ,
+ BWVNOMB VARCHAR(50)  SET( "Description" = 'NOMBRE ALMACEN', "ui_mapping_text" = 'BWTIPVIA.BWVNOMB') ,
+ BWFLAGW VARCHAR(1)  SET( "Description" = 'FLAG APLICA WEB', "ui_mapping_text" = 'BWTIPVIA.BWFLAGW')  )
+ AS
+SELECT BWTIPVIA.BWVPAIS, BWTIPVIA.BWVCODI, BWTIPVIA.BWVNOMB, BWTIPVIA.BWFLAGW FROM BWTIPVIA 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'BWTIPVIA(DS_BITWORKS.dbo)', "x" = '2242', "y" = '-942')
+GUID::'41950f4e-77bf-4681-904f-4d9ac3eda5b1' LOAD TABLE DS_BITWORKS.dbo.BWTIPVIA INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWTIPVIA.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type></odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 12:22:21 2019', "ActaValue_3" = 'Fri Feb 14 10:04:58 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWTRANSP::'bd5158d9-b6a7-4b57-973f-2a0123bf4289'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '713', "y" = '-819')
+GUID::'88e99370-2b0b-40c6-aa86-c7f1a9145006' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWTRANSP OUTPUT(BWTRANSP)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWTRANSP', "x" = '1442', "y" = '-820')
+GUID::'c67f2179-10e4-4047-90b5-9c9f29f693c5' CREATE VIEW Query( BWTPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWTRANSP.BWTPAIS') ,
+ BWTCODI VARCHAR(4)  KEY  SET( "Description" = 'CODIGO MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTCODI') ,
+ BWTNOMB VARCHAR(45)  SET( "Description" = 'NOMBRE MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTNOMB') ,
+ BWTAPEL VARCHAR(45)  SET( "Description" = 'APELLIDO MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTAPEL') ,
+ BWTALMA VARCHAR(2)  SET( "Description" = 'ALMACEN DEL MOTORISTA', "ui_mapping_text" = 'BWTRANSP.BWTALMA') ,
+ BWTTIPM DECIMAL(1, 0)  SET( "Description" = 'TIPO VEHICULO ASIGANADO', "ui_mapping_text" = 'BWTRANSP.BWTTIPM') ,
+ BWTCARG VARCHAR(3)  SET( "Description" = 'CARGO', "ui_mapping_text" = 'BWTRANSP.BWTCARG') ,
+ BWTSTAT DECIMAL(1, 0)  SET( "Description" = 'ESTATUS', "ui_mapping_text" = 'BWTRANSP.BWTSTAT') ,
+ BWTPASW VARCHAR(10)  SET( "Description" = 'PASSWORD', "ui_mapping_text" = 'BWTRANSP.BWTPASW')  )
+ AS
+SELECT BWTRANSP.BWTPAIS, BWTRANSP.BWTCODI, BWTRANSP.BWTNOMB, BWTRANSP.BWTAPEL, BWTRANSP.BWTALMA, BWTRANSP.BWTTIPM, BWTRANSP.BWTCARG, BWTRANSP.BWTSTAT, BWTRANSP.BWTPASW FROM BWTRANSP 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2286', "y" = '-820')
+GUID::'4419553b-c90a-44ec-be08-41ef9f71bf5b' LOAD TABLE DS_BITWORKS.dbo.BWTRANSP INPUT(Query)
+SET("LDRLiveLoad" = 'no', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWTRANSP.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type>OTHER</odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 26 13:34:20 2020', "ActaValue_3" = 'Wed Feb 26 13:43:28 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_BWVALCLI::'b9a6d75d-f218-4e37-b0ec-ffb0be01553e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWVALCLI', "x" = '1515', "y" = '-960')
+GUID::'52831941-7c77-4633-bf2d-1ef3d524fc55' CREATE VIEW Query( BWVAPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWVALCLI.BWVAPAIS') ,
+ BWVANUID VARCHAR(20)  KEY  SET( "Description" = 'NUMERO ID DEL CLIENTE', "ui_mapping_text" = 'BWVALCLI.BWVANUID')  )
+ AS
+SELECT BWVALCLI.BWVAPAIS, BWVALCLI.BWVANUID FROM BWVALCLI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '860', "y" = '-960')
+GUID::'b877f742-cdb0-4c97-957a-0d10f5412f4e' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWVALCLI OUTPUT(BWVALCLI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'BWVALCLI(DS_BITWORKS.dbo)', "x" = '2309', "y" = '-958')
+GUID::'bbec9b0e-7c42-4d59-855e-55c9d0893478' LOAD TABLE DS_BITWORKS.dbo.BWVALCLI INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWVALCLI.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type></odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 26 13:34:20 2020', "ActaValue_3" = 'Wed Feb 26 13:43:28 2020', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CARGA_MAECLI::'644b1d59-ef14-4cf8-b4f5-083371a3b212'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'BWMAECLI', "x" = '1540', "y" = '-893')
+GUID::'3c033efd-c368-4e3f-b957-3be104c1175e' CREATE VIEW Query( BWMAPAIS VARCHAR(3)  KEY  SET( "Description" = 'PAIS', "ui_mapping_text" = 'BWMAECLI.BWMAPAIS') ,
+ BWMANUID VARCHAR(20)  KEY  SET( "Description" = 'NUMERO ID DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMANUID') ,
+ BWMACODC VARCHAR(7)  KEY  SET( "Description" = 'CODIGO DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMACODC') ,
+ BWMANOMC VARCHAR(45)  SET( "Description" = 'NOMBRE DEL CLIENTE', "ui_mapping_text" = 'BWMAECLI.BWMANOMC')  )
+ AS
+SELECT BWMAECLI.BWMAPAIS, BWMAECLI.BWMANUID, BWMAECLI.BWMACODC, BWMAECLI.BWMANOMC FROM BWMAECLI 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '856', "y" = '-893')
+GUID::'feaabcda-c74f-4f0e-be81-9da82d4189a8' READ TABLE DS_DB2_SD_BITWORKS.BWAPP.BWMAECLI OUTPUT(BWMAECLI)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_SD_BITWORKS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'BWMAECLI(DS_BITWORKS.dbo)', "x" = '2237', "y" = '-895')
+GUID::'8d9e15c6-22a9-48b7-bfe1-60d481878b98' LOAD TABLE DS_BITWORKS.dbo.BWMAECLI INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_generate_files_only></bulk_ldr_generate_files_only>
+<bulk_ldr_max_discards>10</bulk_ldr_max_discards>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>replace</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_BITWORKS_dbo_BWMAECLI.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>5000</loader_xact_size>
+<netezza_bulk_ldr_all_type>File</netezza_bulk_ldr_all_type>
+<netezza_bulk_ldr_col_delimiter>|</netezza_bulk_ldr_col_delimiter>
+<netezza_bulk_ldr_commit_size>0</netezza_bulk_ldr_commit_size>
+<netezza_bulk_ldr_escape></netezza_bulk_ldr_escape>
+<netezza_bulk_ldr_mode>append</netezza_bulk_ldr_mode>
+<netezza_bulk_ldr_update_method>delete-insert</netezza_bulk_ldr_update_method>
+<odbc_database_type></odbc_database_type>
+<overflow_file_format>write_data</overflow_file_format>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_BITWORKS', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 11:44:06 2019', "ActaValue_3" = 'Wed Mar 25 14:29:01 2020', "x" = '-1', "y" = '-1')
+CREATE SESSION SD_SR::'d9f7e5ce-e81c-438f-8175-8ac01fcf6488'( )
+DECLARE
+     GLOBAL $GV_TIPO_CARGA INT ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO', "ui_script_text" = 'print(\'*********************************--> INICIO DE ETL <--*************************************\');
+print(\'###########################################################################################\');', "x" = '552', "y" = '-748')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE ETL <--*************************************');print('###########################################################################################');END
+ AlGUIComment ("If_condition" = '$GV_TIPO_CARGA = 1', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'IF_CARGA', "x" = '1056', "y" = '-749')
+IF (($GV_TIPO_CARGA = 1) )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2007', "y" = '-575')
+CALL PLAN WF_ACTUALIZA_TABLAS::'dbad85b1-25b2-4154-ae83-96a5f975ec96'();
+END
+ELSE
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2010', "y" = '-419')
+CALL PLAN WF_CARGA_TABLAS::'9113d49b-49d1-48b8-9e29-c70159757786'();
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FINAL', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'***********************************--> FIN DE ETL <--**************************************\');', "x" = '1567', "y" = '-749')
+BEGIN_SCRIPT
+print('###########################################################################################');print('***********************************--> FIN DE ETL <--**************************************');END
+END
+ SET ("job_GV_$GV_TIPO_CARGA" = '1', "job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'd9f7e5ce-e81c-438f-8175-8ac01fcf6488', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'SD_SR', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Feb 13 12:31:47 2020', "ActaValue_3" = 'Wed Mar 25 14:29:01 2020', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_ACTUALIZA_TABLAS::'dbad85b1-25b2-4154-ae83-96a5f975ec96'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>353</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INI_ACTUALIZA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'*******************--> INICIA ACTUALIZACION DE TABLAS DE SQL SERVER<--*********************\');
+print(\'###########################################################################################\');', "x" = '138', "y" = '-710')
+BEGIN_SCRIPT
+print('###########################################################################################');print('*******************--> INICIA ACTUALIZACION DE TABLAS DE SQL SERVER<--*********************');print('###########################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>322</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'TRY_ACTUALIZA', "x" = '623', "y" = '-710')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1109', "y" = '-712')
+CALL DATAFLOW DF_ACTUALIZA_BWCENDES::'f670514a-3ccd-4a87-82ab-89c88cadc9cb'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1615', "y" = '-712')
+CALL DATAFLOW DF_ACTUALIZA_BWTIPVIA::'34e1cbe7-8732-4829-aa4a-1f13bbf0f236'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2109', "y" = '-712')
+CALL DATAFLOW DF_ACTUALIZA_BWTRANSP::'50e4d313-93bf-471b-9fd8-11294eb8e4cf'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1114', "y" = '-1209')
+CALL DATAFLOW DF_ACTUALIZA_BWDEPART::'aa11e9b8-2d24-4b98-989a-0a827b45c5a4'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1616', "y" = '-1209')
+CALL DATAFLOW DF_ACTUALIZA_BWMUNICI::'f90f59ab-a214-4d54-85b1-3f18a3a878e3'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2103', "y" = '-1208')
+CALL DATAFLOW DF_ACTUALIZA_BWPAIS::'7437e477-4119-4261-824a-361a73cda7e4'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1118', "y" = '-1732')
+CALL DATAFLOW DF_ACTUALIZA_BWVALCLI::'eba426d7-9c32-4f5d-8217-a17ca4725b2a'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1592', "y" = '-1732')
+CALL DATAFLOW DF_ACTUALIZA_MAECLI::'dd45c332-88b6-4f34-bfe5-e5689957c349'();
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'CATCH_ACTUALIZA', "x" = '2097', "y" = '-1732')
+CATCH (210101)
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_ERROR_CARGA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'***********************--> ERROR EN CARGA DE TABLAS A SQL SERVER <--***********************\');', "x" = '1595', "y" = '-367')
+BEGIN_SCRIPT
+print('###########################################################################################');print('***********************--> ERROR EN CARGA DE TABLAS A SQL SERVER <--***********************');END
+END
+
+END_TRY
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FIN_ACTUALIZA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'******************--> FINALIZA ACTUALIZACION DE TABLAS DE SQL SERVER<--********************\');
+print(\'###########################################################################################\');', "x" = '2654', "y" = '-1733')
+BEGIN_SCRIPT
+print('###########################################################################################');print('******************--> FINALIZA ACTUALIZACION DE TABLAS DE SQL SERVER<--********************');print('###########################################################################################');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov 01 11:57:16 2019', "ActaValue_3" = 'Mon Feb 17 11:32:54 2020', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CARGA_TABLAS::'9113d49b-49d1-48b8-9e29-c70159757786'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>288</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INI_CARGA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'*********************--> INICIA CARGA DE TABLAS DB2 A SQL SERVER<--************************\');
+print(\'###########################################################################################\');', "x" = '138', "y" = '-710')
+BEGIN_SCRIPT
+print('###########################################################################################');print('*********************--> INICIA CARGA DE TABLAS DB2 A SQL SERVER<--************************');print('###########################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>257</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'TRY_CARGA', "x" = '629', "y" = '-710')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1113', "y" = '-712')
+CALL DATAFLOW DF_CARGA_BWCENDES::'22f0e45c-1e8a-4b5a-9ee3-6cc9c0637cc5'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1608', "y" = '-710')
+CALL DATAFLOW DF_CARGA_BWTIPVIA::'6a756a47-d38b-4d80-9a78-c3897a2aa93d'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2113', "y" = '-710')
+CALL DATAFLOW DF_CARGA_BWTRANSP::'bd5158d9-b6a7-4b57-973f-2a0123bf4289'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1109', "y" = '-1207')
+CALL DATAFLOW DF_CARGA_BWDEPART::'5535eb71-d735-47ff-9b1a-9943511b4a6e'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>407</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1596', "y" = '-1208')
+CALL DATAFLOW DF_CARGA_BWMUNICI::'4ef0c56f-628b-495c-b3da-5a384f7dcc03'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>375</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2099', "y" = '-1209')
+CALL DATAFLOW DF_CARGA_BWPAIS::'d4d59781-741c-425b-ae94-fe663e674541'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1104', "y" = '-1697')
+CALL DATAFLOW DF_CARGA_BWVALCLI::'b9a6d75d-f218-4e37-b0ec-ffb0be01553e'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1603', "y" = '-1698')
+CALL DATAFLOW DF_CARGA_MAECLI::'644b1d59-ef14-4cf8-b4f5-083371a3b212'();
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>300</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'CATCH_CARGA', "x" = '2090', "y" = '-1697')
+CATCH (210101)
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_ERROR_CARGA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'***********************--> ERROR EN CARGA DE TABLAS A SQL SERVER <--***********************\');', "x" = '1595', "y" = '-367')
+BEGIN_SCRIPT
+print('###########################################################################################');print('***********************--> ERROR EN CARGA DE TABLAS A SQL SERVER <--***********************');END
+END
+
+END_TRY
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>300</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FIN_CARGA', "ui_script_text" = 'print(\'###########################################################################################\');
+print(\'********************--> FINALIZA CARGA DE TABLAS DB2 A SQL SERVER<--***********************\');
+print(\'###########################################################################################\');', "x" = '2625', "y" = '-1699')
+BEGIN_SCRIPT
+print('###########################################################################################');print('********************--> FINALIZA CARGA DE TABLAS DB2 A SQL SERVER<--***********************');print('###########################################################################################');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

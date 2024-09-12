@@ -1,0 +1,337 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_GERENCIA_BI::'a09e3796-0d8c-4d87-9de1-8a86bd1524a2' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8CF442961916BC37D664C6DC596152D32B59647278C49D8DFD67A119653BA0C51AB3CBE6103A10EC3E838DECD12</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8B6999ACA8478C0C4C0448970E6A437D600F1BB260E6937019D28CF2BAA7B4464C95AD52A1379801376D1D09FA0</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8EADBBF3C0AD646003E1A489BE1EBFEDD17328AE7951E6D4F18DEE0CDDFF47473C8BF911A61D98325FDBD1AA47D131EECCA42E7E86817</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>BI_GERENCIA</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue May  9 13:37:20 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '10055' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '10055' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '1 Seconds' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue May  9 14:26:44 2023' )
+CREATE TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHII(ID_PAIS DECIMAL(2, 0)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.ID_PAIS'), 
+AÑO VARCHAR(4)  NULL  SET("Description" = 'AÑO DE VTA.', "ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.AÑO'), 
+MESNUM DECIMAL(2, 0)  NULL  SET("Description" = 'MES DE VTA.', "ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.MES'), 
+MES VARCHAR(10)  NULL  SET("ui_mapping_text" = 'decode (
+(QRY_IDVENHIR_PREVIO.MES = 1), \'Enero\',
+(QRY_IDVENHIR_PREVIO.MES = 2), \'Febrero\',
+(QRY_IDVENHIR_PREVIO.MES = 3), \'Marzo\',
+(QRY_IDVENHIR_PREVIO.MES = 4), \'Abril\',
+(QRY_IDVENHIR_PREVIO.MES = 5), \'Mayo\',
+(QRY_IDVENHIR_PREVIO.MES = 6), \'Junio\',
+(QRY_IDVENHIR_PREVIO.MES = 7), \'Julio\',
+(QRY_IDVENHIR_PREVIO.MES = 8), \'Agosto\',
+(QRY_IDVENHIR_PREVIO.MES = 9), \'Septiembre\',
+(QRY_IDVENHIR_PREVIO.MES = 10), \'Octubre\',
+(QRY_IDVENHIR_PREVIO.MES = 11), \'Noviembre\',\'Diciembre\')'), 
+PERIODO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.AÑO||lpad( cast(QRY_IDVENHIR_PREVIO.MES,\'varchar(2)\'),2,\'0\')'), 
+ID_ALMACEN VARCHAR(28)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.ID_ALMACEN'), 
+ALM VARCHAR(5)  NULL  SET("ui_mapping_text" = 'ALMACENES.ALM'), 
+VTA_ALM DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIR_PREVIO.VTA_ALM'), 
+"VTA_ALM$" DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIR_PREVIO."VTA_ALM$"')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue May  9 13:35:48 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '10055' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '10055' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '0 Seconds' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue May  9 14:26:44 2023' )
+CREATE TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHIL(ID_PAIS DECIMAL(2, 0)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.ID_PAIS'), 
+AÑO VARCHAR(4)  NULL  SET("Description" = 'AÑO DE VTA.', "ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.AÑO'), 
+MESNUM DECIMAL(2, 0)  NULL  SET("Description" = 'MES DE VTA.', "ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.MES'), 
+MES VARCHAR(10)  NULL  SET("ui_mapping_text" = 'decode (
+(QRY_IDVENHIL_PREVIO.MES = 1), \'Enero\',
+(QRY_IDVENHIL_PREVIO.MES = 2), \'Febrero\',
+(QRY_IDVENHIL_PREVIO.MES = 3), \'Marzo\',
+(QRY_IDVENHIL_PREVIO.MES = 4), \'Abril\',
+(QRY_IDVENHIL_PREVIO.MES = 5), \'Mayo\',
+(QRY_IDVENHIL_PREVIO.MES = 6), \'Junio\',
+(QRY_IDVENHIL_PREVIO.MES = 7), \'Julio\',
+(QRY_IDVENHIL_PREVIO.MES = 8), \'Agosto\',
+(QRY_IDVENHIL_PREVIO.MES = 9), \'Septiembre\',
+(QRY_IDVENHIL_PREVIO.MES = 10), \'Octubre\',
+(QRY_IDVENHIL_PREVIO.MES = 11), \'Noviembre\',\'Diciembre\')'), 
+PERIODO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.AÑO||lpad( cast(QQRY_IDVENHIL_PREVIOMES,\'varchar(2)\'),2,\'0\')'), 
+ID_ALMACEN VARCHAR(28)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.ID_ALMACEN'), 
+ALM VARCHAR(5)  NULL  SET("ui_mapping_text" = 'ALMACENES.ALM'), 
+VTA_ALM DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIL_PREVIO.VTA_ALM'), 
+"VTA_ALM$" DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'QRY_IDVENHIL_PREVIO."VTA_ALM$"')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue May  9 14:26:45 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '10055' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '10055' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '0 Seconds' )
+CREATE TABLE DS_SQL_GERENCIA_BI.dbo.IDVENHIR(ID_PAIS DECIMAL(2, 0)  NULL , 
+AÑO VARCHAR(4)  NULL , 
+MESNUM DECIMAL(2, 0)  NULL , 
+MES VARCHAR(10)  NULL , 
+PERIODO VARCHAR(6)  NULL , 
+ID_ALMACEN VARCHAR(28)  NULL , 
+ALM VARCHAR(5)  NULL , 
+VTA_ALM DECIMAL(11, 2)  NULL , 
+"VTA_ALM$" DECIMAL(11, 2)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue May  9 14:26:46 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '25607' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '25607' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '1 Seconds' )
+CREATE TABLE DS_SQL_GERENCIA_BI.dbo.IDVENHIS(ID_PAIS DECIMAL(2, 0)  NULL , 
+AÑO VARCHAR(4)  NULL , 
+MESNUM DECIMAL(2, 0)  NULL , 
+MES VARCHAR(10)  NULL , 
+PERIODO VARCHAR(6)  NULL , 
+ID_ALMACEN VARCHAR(28)  NULL , 
+ALM VARCHAR(5)  NULL , 
+VTA_ALM DECIMAL(11, 2)  NULL , 
+"VTA_ALM$" DECIMAL(11, 2)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '55772' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '55772' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '1 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Tue May  9 16:40:52 2023' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Tue May  9 16:42:57 2023' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Tue May  9 16:42:28 2023' )
+CREATE TABLE DS_SQL_GERENCIA_BI.DBO.IDVENH_TOTAL(ID_PAIS DECIMAL(2, 0)  NULL  SET("ui_mapping_text" = 'IDVENHIR.ID_PAIS'), 
+ID_LINEA VARCHAR(2)  NULL  SET("ui_mapping_text" = '\'01\''), 
+LINEA VARCHAR(12)  NULL  SET("ui_mapping_text" = '\'REPUESTOS\''), 
+AÑO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'IDVENHIR.AÑO'), 
+MESNUM DECIMAL(2, 0)  NULL  SET("ui_mapping_text" = 'IDVENHIR.MESNUM'), 
+MES VARCHAR(10)  NULL  SET("ui_mapping_text" = 'IDVENHIR.MES'), 
+PERIODO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'IDVENHIR.PERIODO'), 
+ID_ALMACEN VARCHAR(28)  NULL  SET("ui_mapping_text" = 'IDVENHIR.ID_ALMACEN'), 
+ALM VARCHAR(5)  NULL  SET("ui_mapping_text" = 'IDVENHIR.ALM'), 
+VTA_ALM DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'IDVENHIR.VTA_ALM'), 
+"VTA_ALM$" DECIMAL(11, 2)  NULL  SET("ui_mapping_text" = 'IDVENHIR."VTA_ALM$"')) 
+SET("db_alias_name" = 'DBO')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  9 16:32:53 2023', "ActaValue_3" = 'Tue May  9 16:40:52 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_IDVENH_TOTAL::'af06930a-ac24-40ca-ab82-1c31b14f2df8'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '372', "y" = '-1809')
+GUID::'e5061eed-ad35-469e-9786-d86ec6685db7' READ TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHIS OUTPUT(IDVENHIS)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '366', "y" = '-570')
+GUID::'9d3efe81-c49f-4d3d-9305-e85a115775b0' READ TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHIR OUTPUT(IDVENHIR)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '360', "y" = '-992')
+GUID::'c369a5fe-57e9-48dd-8fda-1380983dead6' READ TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHIL OUTPUT(IDVENHIL)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '365', "y" = '-1384')
+GUID::'eae991a8-8d0b-4bfb-a5b4-03511ecd7587' READ TABLE DS_SQL_GERENCIA_BI.DBO.IDVENHII OUTPUT(IDVENHII)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'IDVENHIR', "ui_display_name" = 'QRY_REPUESTOS', "x" = '843', "y" = '-569')
+GUID::'7926ba42-1528-4a87-ba36-fe252167c7e7' CREATE VIEW QRY_REPUESTOS( ID_PAIS DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIR.ID_PAIS') ,
+ ID_LINEA VARCHAR(2)  SET( "ui_mapping_text" = '\'01\'') ,
+ LINEA VARCHAR(12)  SET( "ui_mapping_text" = '\'REPUESTOS\'') ,
+ AÑO VARCHAR(4)  SET( "ui_mapping_text" = 'IDVENHIR.AÑO') ,
+ MESNUM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIR.MESNUM') ,
+ MES VARCHAR(10)  SET( "ui_mapping_text" = 'IDVENHIR.MES') ,
+ PERIODO VARCHAR(6)  SET( "ui_mapping_text" = 'IDVENHIR.PERIODO') ,
+ ID_ALMACEN VARCHAR(28)  SET( "ui_mapping_text" = 'IDVENHIR.ID_ALMACEN') ,
+ ALM VARCHAR(5)  SET( "ui_mapping_text" = 'IDVENHIR.ALM') ,
+ VTA_ALM DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIR.VTA_ALM') ,
+ "VTA_ALM$" DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIR."VTA_ALM$"')  )
+ AS
+SELECT IDVENHIR.ID_PAIS, '01', 'REPUESTOS', IDVENHIR.AÑO, IDVENHIR.MESNUM, IDVENHIR.MES, IDVENHIR.PERIODO, IDVENHIR.ID_ALMACEN, IDVENHIR.ALM, IDVENHIR.VTA_ALM, IDVENHIR."VTA_ALM$" FROM IDVENHIR 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'IDVENHIL', "ui_display_name" = 'QRY_LUBRICANTES', "x" = '862', "y" = '-991')
+GUID::'31954cab-8348-4d6d-b02f-d12ff0ea31d9' CREATE VIEW QRY_LUBRICANTES( ID_PAIS DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIL.ID_PAIS', "ui_pasting" = 'IDVENHIR.ID_PAIS') ,
+ ID_LINEA VARCHAR(2)  SET( "ui_mapping_text" = '\'02\'', "ui_pasting" = '\'01\'') ,
+ LINEA VARCHAR(12)  SET( "ui_mapping_text" = '\'LUBRICANTES\'', "ui_pasting" = '\'TODO\'') ,
+ AÑO VARCHAR(4)  SET( "ui_mapping_text" = 'IDVENHIL.AÑO', "ui_pasting" = 'IDVENHIR.AÑO') ,
+ MESNUM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIL.MESNUM', "ui_pasting" = 'IDVENHIR.MESNUM') ,
+ MES VARCHAR(10)  SET( "ui_mapping_text" = 'IDVENHIL.MES', "ui_pasting" = 'IDVENHIR.MES') ,
+ PERIODO VARCHAR(6)  SET( "ui_mapping_text" = 'IDVENHIL.PERIODO', "ui_pasting" = 'IDVENHIR.PERIODO') ,
+ ID_ALMACEN VARCHAR(28)  SET( "ui_mapping_text" = 'IDVENHIL.ID_ALMACEN', "ui_pasting" = 'IDVENHIR.ID_ALMACEN') ,
+ ALM VARCHAR(5)  SET( "ui_mapping_text" = 'IDVENHIL.ALM', "ui_pasting" = 'IDVENHIR.ALM') ,
+ VTA_ALM DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIL.VTA_ALM', "ui_pasting" = 'IDVENHIR.VTA_ALM') ,
+ "VTA_ALM$" DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIL."VTA_ALM$"', "ui_pasting" = 'IDVENHIR."VTA_ALM$"')  )
+ AS
+SELECT IDVENHIL.ID_PAIS, '02', 'LUBRICANTES', IDVENHIL.AÑO, IDVENHIL.MESNUM, IDVENHIL.MES, IDVENHIL.PERIODO, IDVENHIL.ID_ALMACEN, IDVENHIL.ALM, IDVENHIL.VTA_ALM, IDVENHIL."VTA_ALM$" FROM IDVENHIL 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'IDVENHII', "ui_display_name" = 'QRY_HERRAMIENTAS', "x" = '862', "y" = '-1384')
+GUID::'cbfeec0a-afa2-49ad-a977-3cd19be84736' CREATE VIEW QRY_HERRAMIENTAS( ID_PAIS DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHII.ID_PAIS', "ui_pasting" = 'IDVENHIL.ID_PAIS') ,
+ ID_LINEA VARCHAR(2)  SET( "ui_mapping_text" = '\'04\'', "ui_pasting" = '\'02\'') ,
+ LINEA VARCHAR(12)  SET( "ui_mapping_text" = '\'HERRAMIENTAS\'', "ui_pasting" = '\'LUBRICANTES\'') ,
+ AÑO VARCHAR(4)  SET( "ui_mapping_text" = 'IDVENHII.AÑO', "ui_pasting" = 'IDVENHIL.AÑO') ,
+ MESNUM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHII.MESNUM', "ui_pasting" = 'IDVENHIL.MESNUM') ,
+ MES VARCHAR(10)  SET( "ui_mapping_text" = 'IDVENHII.MES', "ui_pasting" = 'IDVENHIL.MES') ,
+ PERIODO VARCHAR(6)  SET( "ui_mapping_text" = 'IDVENHII.PERIODO', "ui_pasting" = 'IDVENHIL.PERIODO') ,
+ ID_ALMACEN VARCHAR(28)  SET( "ui_mapping_text" = 'IDVENHII.ID_ALMACEN', "ui_pasting" = 'IDVENHIL.ID_ALMACEN') ,
+ ALM VARCHAR(5)  SET( "ui_mapping_text" = 'IDVENHII.ALM', "ui_pasting" = 'IDVENHIL.ALM') ,
+ VTA_ALM DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHII.VTA_ALM', "ui_pasting" = 'IDVENHIL.VTA_ALM') ,
+ "VTA_ALM$" DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHII."VTA_ALM$"', "ui_pasting" = 'IDVENHIL."VTA_ALM$"')  )
+ AS
+SELECT IDVENHII.ID_PAIS, '04', 'HERRAMIENTAS', IDVENHII.AÑO, IDVENHII.MESNUM, IDVENHII.MES, IDVENHII.PERIODO, IDVENHII.ID_ALMACEN, IDVENHII.ALM, IDVENHII.VTA_ALM, IDVENHII."VTA_ALM$" FROM IDVENHII 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'IDVENHIS', "ui_display_name" = 'QRY_TODO', "x" = '862', "y" = '-1811')
+GUID::'64124bec-adfe-4aee-bd2a-49021844c0f5' CREATE VIEW QRY_TODO( ID_PAIS DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIS.ID_PAIS', "ui_pasting" = 'IDVENHIR.ID_PAIS') ,
+ ID_LINEA VARCHAR(2)  SET( "ui_mapping_text" = '\'00\'', "ui_pasting" = '\'01\'') ,
+ LINEA VARCHAR(12)  SET( "ui_mapping_text" = '\'TODAS\'', "ui_pasting" = '\'REPUESTOS\'') ,
+ AÑO VARCHAR(4)  SET( "ui_mapping_text" = 'IDVENHIS.AÑO', "ui_pasting" = 'IDVENHIR.AÑO') ,
+ MESNUM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'IDVENHIS.MESNUM', "ui_pasting" = 'IDVENHIR.MESNUM') ,
+ MES VARCHAR(10)  SET( "ui_mapping_text" = 'IDVENHIS.MES', "ui_pasting" = 'IDVENHIR.MES') ,
+ PERIODO VARCHAR(6)  SET( "ui_mapping_text" = 'IDVENHIS.PERIODO', "ui_pasting" = 'IDVENHIR.PERIODO') ,
+ ID_ALMACEN VARCHAR(28)  SET( "ui_mapping_text" = 'IDVENHIS.ID_ALMACEN', "ui_pasting" = 'IDVENHIR.ID_ALMACEN') ,
+ ALM VARCHAR(5)  SET( "ui_mapping_text" = 'IDVENHIS.ALM', "ui_pasting" = 'IDVENHIR.ALM') ,
+ VTA_ALM DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIS.VTA_ALM', "ui_pasting" = 'IDVENHIR.VTA_ALM') ,
+ "VTA_ALM$" DECIMAL(11, 2)  SET( "ui_mapping_text" = 'IDVENHIS."VTA_ALM$"', "ui_pasting" = 'IDVENHIR."VTA_ALM$"')  )
+ AS
+SELECT IDVENHIS.ID_PAIS, '00', 'TODAS', IDVENHIS.AÑO, IDVENHIS.MESNUM, IDVENHIS.MES, IDVENHIS.PERIODO, IDVENHIS.ID_ALMACEN, IDVENHIS.ALM, IDVENHIS.VTA_ALM, IDVENHIS."VTA_ALM$" FROM IDVENHIS 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1499', "y" = '-1197')
+GUID::'1220e058-ee39-45b7-bdf5-a8b522173368' CALL TRANSFORM Merge() INPUT(QRY_HERRAMIENTAS, QRY_LUBRICANTES, QRY_REPUESTOS, QRY_TODO) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>385</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_IDVENH_TOTAL', "x" = '1908', "y" = '-1198')
+GUID::'57034244-be27-49a7-919a-e03571a39a56' CREATE VIEW QRY_IDVENH_TOTAL( ID_PAIS DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Merge.ID_PAIS', "ui_pasting" = 'IDVENHIR.ID_PAIS') ,
+ ID_LINEA VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ID_LINEA', "ui_pasting" = '\'01\'') ,
+ LINEA VARCHAR(12)  SET( "ui_mapping_text" = 'Merge.LINEA', "ui_pasting" = '\'REPUESTOS\'') ,
+ AÑO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.AÑO', "ui_pasting" = 'IDVENHIR.AÑO') ,
+ MESNUM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Merge.MESNUM', "ui_pasting" = 'IDVENHIR.MESNUM') ,
+ MES VARCHAR(10)  SET( "ui_mapping_text" = 'Merge.MES', "ui_pasting" = 'IDVENHIR.MES') ,
+ PERIODO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.PERIODO', "ui_pasting" = 'IDVENHIR.PERIODO') ,
+ ID_ALMACEN VARCHAR(28)  SET( "ui_mapping_text" = 'Merge.ID_ALMACEN', "ui_pasting" = 'IDVENHIR.ID_ALMACEN') ,
+ ALM VARCHAR(5)  SET( "ui_mapping_text" = 'Merge.ALM', "ui_pasting" = 'IDVENHIR.ALM') ,
+ VTA_ALM DECIMAL(11, 2)  SET( "ui_mapping_text" = 'Merge.VTA_ALM', "ui_pasting" = 'IDVENHIR.VTA_ALM') ,
+ "VTA_ALM$" DECIMAL(11, 2)  SET( "ui_mapping_text" = 'Merge."VTA_ALM$"', "ui_pasting" = 'IDVENHIR."VTA_ALM$"')  )
+ AS
+SELECT Merge.ID_PAIS, Merge.ID_LINEA, Merge.LINEA, Merge.AÑO, Merge.MESNUM, Merge.MES, Merge.PERIODO, Merge.ID_ALMACEN, Merge.ALM, Merge.VTA_ALM, Merge."VTA_ALM$" FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'IDVENH_TOTAL(DS_SQL_GERENCIA_BI.DBO)', "x" = '2390', "y" = '-1198')
+GUID::'03fefe7b-cd79-4ad8-a075-87d35f8f29a5' LOAD TABLE DS_SQL_GERENCIA_BI.DBO.IDVENH_TOTAL INPUT(QRY_IDVENH_TOTAL)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_GERENCIA_BI_DBO_IDVENH_TOTAL.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>3000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_GERENCIA_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

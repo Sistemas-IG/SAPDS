@@ -1,0 +1,626 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E838504D809EDEA2DB491CAA8A0A162C1A55ECB8696E5C1495E5E24D556A1314663209C9B6F2ADD6F6ED3AFF494C4E65</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8EE90BE8E8BF4E0C6AA54C43843D9359B48432EC0FD171EF67E2B551323438E5E2CFF5D58ACBAE612C024B35D30</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E89D97FA0D92C588C924C8CC1DB340BB936DA4CCEAAD48FB4F351FEC13D26DF3CC6F1ECBD50A73B59EB518A12389</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E83034701F0B17DD2E14935822E5B913573EA8919DBB1247C60867E49F327E5DE9D3C5BF1617B1ABA8470E7FAC2EC5D245F345A8F5966C</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '4217144' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '4217144' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '12 Minutes and 48 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Mon Jun 12 15:11:35 2023' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Fri Dec 22 10:00:28 2023' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Mon Dec 18 14:35:35 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVAFA_HIST(ID_PAIS INT  NULL  SET("ui_mapping_text" = 'Merge.ID_PAIS', "ui_pasting" = '1'), 
+ANIO INT  NULL  SET("ui_mapping_text" = '2020'), 
+CODICO VARCHAR(4)  NULL  SET("Description" = 'Codigo de Cliente', "ui_mapping_text" = 'Merge.CODICO', "ui_pasting" = 'COVAFA2021.CODICO'), 
+ALMACO VARCHAR(2)  NULL  SET("Description" = 'Codigo de Almacen', "ui_mapping_text" = 'Merge.ALMACO', "ui_pasting" = 'COVAFA2021.ALMACO'), 
+MMDDCO VARCHAR(4)  NULL  SET("Description" = 'Mes y Dia de corte', "ui_mapping_text" = 'Merge.MMDDCO', "ui_pasting" = 'COVAFA2021.MMDDCO'), 
+ANODCO VARCHAR(4)  NULL  SET("Description" = 'Año de corte', "ui_mapping_text" = 'Merge.ANODCO', "ui_pasting" = 'COVAFA2021.ANODCO'), 
+CMPTCO VARCHAR(9)  NULL  SET("Description" = 'Numero Comprobante', "ui_mapping_text" = 'Merge.CMPTCO', "ui_pasting" = 'COVAFA2021.CMPTCO'), 
+MOVICO VARCHAR(1)  NULL  SET("Description" = 'Codigo de Movto', "ui_mapping_text" = 'Merge.MOVICO', "ui_pasting" = 'COVAFA2021.MOVICO'), 
+TIPOCO VARCHAR(1)  NULL  SET("Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'Merge.TIPOCO', "ui_pasting" = 'COVAFA2021.TIPOCO'), 
+FPAGCO VARCHAR(1)  NULL  SET("Description" = 'Forma de Pago 0/1', "ui_mapping_text" = 'Merge.FPAGCO', "ui_pasting" = 'COVAFA2021.FPAGCO'), 
+VFSICO DECIMAL(9, 2)  NULL  SET("Description" = 'Vlr Factura sin ISV', "ui_mapping_text" = 'Merge.VFSICO', "ui_pasting" = 'COVAFA2021.VFSICO'), 
+VIFACO DECIMAL(8, 2)  NULL  SET("Description" = 'Vlr ISV de Factura', "ui_mapping_text" = 'Merge.VIFACO', "ui_pasting" = 'COVAFA2021.VIFACO'), 
+VREBCO DECIMAL(9, 2)  NULL  SET("Description" = 'Rebaja sin ISV', "ui_mapping_text" = 'Merge.VREBCO', "ui_pasting" = 'COVAFA2021.VREBCO'), 
+VIRECO DECIMAL(8, 2)  NULL  SET("Description" = 'ISV de la Rebaja', "ui_mapping_text" = 'Merge.VIRECO', "ui_pasting" = 'COVAFA2021.VIRECO'), 
+USUACO VARCHAR(10)  NULL  SET("Description" = 'Usuario que Imprime', "ui_mapping_text" = 'Merge.USUACO', "ui_pasting" = 'COVAFA2021.USUACO'), 
+FEDECO DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha que Imprime', "ui_mapping_text" = 'Merge.FEDECO', "ui_pasting" = 'COVAFA2021.FEDECO'), 
+HORACO DECIMAL(6, 0)  NULL  SET("Description" = 'Hora que Imprime', "ui_mapping_text" = 'Merge.HORACO', "ui_pasting" = 'COVAFA2021.HORACO'), 
+NOMBCO VARCHAR(35)  NULL  SET("Description" = 'Nombre en Factura', "ui_mapping_text" = 'Merge.NOMBCO', "ui_pasting" = 'COVAFA2021.NOMBCO'), 
+DOCUCO VARCHAR(25)  NULL  SET("Description" = 'Documento presentado', "ui_mapping_text" = 'Merge.DOCUCO', "ui_pasting" = 'COVAFA2021.DOCUCO'), 
+DIRECO VARCHAR(35)  NULL  SET("Description" = 'Dirección 1', "ui_mapping_text" = 'Merge.DIRECO', "ui_pasting" = 'COVAFA2021.DIRECO'), 
+DIR2CO VARCHAR(35)  NULL  SET("Description" = 'Dirección 2', "ui_mapping_text" = 'Merge.DIR2CO', "ui_pasting" = 'COVAFA2021.DIR2CO'), 
+NURECO VARCHAR(10)  NULL  SET("Description" = 'Num Registro Fiscal', "ui_mapping_text" = 'Merge.NURECO', "ui_pasting" = 'COVAFA2021.NURECO'), 
+GIROCO VARCHAR(40)  NULL  SET("Description" = 'Giro de Negocio', "ui_mapping_text" = 'Merge.GIROCO', "ui_pasting" = 'COVAFA2021.GIROCO'), 
+NITCO VARCHAR(14)  NULL  SET("Description" = 'RTN del Taller', "ui_mapping_text" = 'Merge.NITCO', "ui_pasting" = 'COVAFA2021.NITCO'), 
+TELECO VARCHAR(7)  NULL  SET("Description" = 'Telefono Taller', "ui_mapping_text" = 'Merge.TELECO', "ui_pasting" = 'COVAFA2021.TELECO'), 
+FARECO VARCHAR(9)  NULL  SET("Description" = 'Factura Referencia', "ui_mapping_text" = 'Merge.FARECO', "ui_pasting" = 'COVAFA2021.FARECO'), 
+FERECO VARCHAR(4)  NULL  SET("Description" = 'Mes y Dia transado', "ui_mapping_text" = 'Merge.FERECO', "ui_pasting" = 'COVAFA2021.FERECO'), 
+RENTCO VARCHAR(1)  NULL  SET("Description" = 'Descuento Renta', "ui_mapping_text" = 'Merge.RENTCO', "ui_pasting" = 'COVAFA2021.RENTCO'), 
+NUVECO VARCHAR(4)  NULL  SET("Description" = 'Vendedor', "ui_mapping_text" = 'Merge.NUVECO', "ui_pasting" = 'COVAFA2021.NUVECO'), 
+FU01CO VARCHAR(4)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU01CO', "ui_pasting" = 'COVAFA2021.FU01CO'), 
+FU02CO DECIMAL(9, 2)  NULL  SET("Description" = 'Valor Percepcion ISV', "ui_mapping_text" = 'Merge.FU02CO', "ui_pasting" = 'COVAFA2021.FU02CO'), 
+FU03CO DECIMAL(9, 2)  NULL  SET("Description" = 'Vlr Descto sobre ISV', "ui_mapping_text" = 'Merge.FU03CO', "ui_pasting" = 'COVAFA2021.FU03CO'), 
+FU04CO DECIMAL(9, 2)  NULL  SET("Description" = 'Valor de ISR', "ui_mapping_text" = 'Merge.FU04CO', "ui_pasting" = 'COVAFA2021.FU04CO'), 
+FU05CO VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU05CO', "ui_pasting" = 'COVAFA2021.FU05CO'), 
+FU06CO VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU06CO', "ui_pasting" = 'COVAFA2021.FU06CO'), 
+FU07CO VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU07CO', "ui_pasting" = 'COVAFA2021.FU07CO'), 
+FACCCO DECIMAL(11, 5)  NULL  SET("Description" = 'Factor Cambio Moneda', "ui_mapping_text" = 'Merge.FACCCO', "ui_pasting" = '\'  \''), 
+FISVCO DECIMAL(5, 2)  NULL  SET("Description" = 'Factor Impto de ISV', "ui_mapping_text" = 'Merge.FISVCO', "ui_pasting" = '\'  \''), 
+FISRCO DECIMAL(5, 2)  NULL  SET("Description" = 'Factor Impto de ISR', "ui_mapping_text" = 'Merge.FISRCO', "ui_pasting" = '\'  \''), 
+RTNCCO VARCHAR(14)  NULL  SET("Description" = 'Numero RTN Cliente', "ui_mapping_text" = 'Merge.RTNCCO', "ui_pasting" = '\'  \''), 
+BISRCO VARCHAR(1)  NULL  SET("Description" = 'Flg Cte Sujeto Renta', "ui_mapping_text" = 'Merge.BISRCO', "ui_pasting" = '\'  \''), 
+FECCCO VARCHAR(8)  NULL  SET("Description" = 'Fecha Calendario', "ui_mapping_text" = 'Merge.FECCCO', "ui_pasting" = '\'  \''), 
+CODCCO DECIMAL(7, 0)  NULL  SET("Description" = 'Cod Cliente Eventual', "ui_mapping_text" = 'Merge.CODCCO', "ui_pasting" = '\'  \''), 
+FU08CO VARCHAR(1)  NULL  SET("Description" = 'Docto de Origen', "ui_mapping_text" = 'Merge.FU08CO', "ui_pasting" = '\'  \''), 
+FU09CO VARCHAR(1)  NULL  SET("Description" = 'Flag 2', "ui_mapping_text" = 'Merge.FU09CO', "ui_pasting" = '\'  \''), 
+FU10CO VARCHAR(1)  NULL  SET("Description" = 'Flag 3', "ui_mapping_text" = 'Merge.FU10CO', "ui_pasting" = '\'  \''), 
+NCAICO VARCHAR(40)  NULL  SET("Description" = 'Numero CAI', "ui_mapping_text" = 'Merge.NCAICO', "ui_pasting" = '\'  \''), 
+ESTACO VARCHAR(3)  NULL  SET("Description" = 'Establecimiento', "ui_mapping_text" = 'Merge.ESTACO', "ui_pasting" = '\'  \''), 
+PTOECO VARCHAR(3)  NULL  SET("Description" = 'Punto Emision', "ui_mapping_text" = 'Merge.PTOECO', "ui_pasting" = '\'  \''), 
+TIMOCO VARCHAR(2)  NULL  SET("Description" = 'Tipo Movimiento', "ui_mapping_text" = 'Merge.TIMOCO', "ui_pasting" = '\'  \''), 
+CORACO VARCHAR(8)  NULL  SET("Description" = 'Correlativo Asignado', "ui_mapping_text" = 'Merge.CORACO', "ui_pasting" = '\'  \''), 
+FDESCO VARCHAR(8)  NULL  SET("Description" = 'Fecha Desde', "ui_mapping_text" = 'Merge.FDESCO', "ui_pasting" = '\'  \''), 
+FHASCO VARCHAR(8)  NULL  SET("Description" = 'Fecha Hasta', "ui_mapping_text" = 'Merge.FHASCO', "ui_pasting" = '\'  \''), 
+NDESCO VARCHAR(8)  NULL  SET("Description" = 'Numero Desde', "ui_mapping_text" = 'Merge.NDESCO', "ui_pasting" = '\'  \''), 
+NHASCO VARCHAR(8)  NULL  SET("Description" = 'Numero Hasta', "ui_mapping_text" = 'Merge.NHASCO', "ui_pasting" = '\'  \''), 
+RESTCO VARCHAR(3)  NULL  SET("Description" = 'Ref.Establecimiento', "ui_mapping_text" = 'Merge.RESTCO', "ui_pasting" = '\'  \''), 
+RPTOCO VARCHAR(3)  NULL  SET("Description" = 'Ref.Punto Emision', "ui_mapping_text" = 'Merge.RPTOCO', "ui_pasting" = '\'  \''), 
+RTIMCO VARCHAR(2)  NULL  SET("Description" = 'Ref.Tipo Movimiento', "ui_mapping_text" = 'Merge.RTIMCO', "ui_pasting" = '\'  \''), 
+RCORCO VARCHAR(8)  NULL  SET("Description" = 'Ref.Correlativo Asig', "ui_mapping_text" = 'Merge.RCORCO', "ui_pasting" = '\'  \''), 
+FU11CO DECIMAL(11, 2)  NULL  SET("Description" = 'Valor 1', "ui_mapping_text" = 'Merge.FU11CO', "ui_pasting" = '\'  \''), 
+FU12CO DECIMAL(11, 2)  NULL  SET("Description" = 'Valor 2', "ui_mapping_text" = 'Merge.FU12CO', "ui_pasting" = '\'  \''), 
+FU13CO DECIMAL(11, 2)  NULL  SET("Description" = 'Valor 3', "ui_mapping_text" = 'Merge.FU13CO', "ui_pasting" = '\'  \''), 
+FU14CO DECIMAL(11, 2)  NULL  SET("Description" = 'Valor 4', "ui_mapping_text" = 'Merge.FU14CO', "ui_pasting" = '\'  \''), 
+FU15CO DECIMAL(11, 2)  NULL  SET("Description" = 'Valor 5', "ui_mapping_text" = 'Merge.FU15CO', "ui_pasting" = '\'  \''), 
+FU16CO VARCHAR(10)  NULL  SET("Description" = 'Campo 1', "ui_mapping_text" = 'Merge.FU16CO', "ui_pasting" = '\'  \''), 
+FU17CO VARCHAR(10)  NULL  SET("Description" = 'Campo 2', "ui_mapping_text" = 'Merge.FU17CO', "ui_pasting" = '\'  \''), 
+FU18CO VARCHAR(10)  NULL  SET("Description" = 'Campo 3', "ui_mapping_text" = 'Merge.FU18CO', "ui_pasting" = '\'  \''), 
+FU19CO VARCHAR(10)  NULL  SET("Description" = 'Campo 4', "ui_mapping_text" = 'Merge.FU19CO', "ui_pasting" = '\'  \''), 
+FU20CO VARCHAR(10)  NULL  SET("Description" = 'Campo 5', "ui_mapping_text" = 'Merge.FU20CO', "ui_pasting" = '\'  \''), 
+FU21CO VARCHAR(40)  NULL  SET("Description" = 'Observac 1', "ui_mapping_text" = 'Merge.FU21CO', "ui_pasting" = '\'  \''), 
+FU22CO VARCHAR(40)  NULL  SET("Description" = 'Observac 2', "ui_mapping_text" = 'Merge.FU22CO', "ui_pasting" = '\'  \''), 
+FU23CO VARCHAR(8)  NULL  SET("Description" = 'Fecha 1', "ui_mapping_text" = 'Merge.FU23CO', "ui_pasting" = '\'  \''), 
+FU24CO VARCHAR(8)  NULL  SET("Description" = 'Fecha 2', "ui_mapping_text" = 'Merge.FU24CO', "ui_pasting" = '\'  \''), 
+FU25CO VARCHAR(8)  NULL  SET("Description" = 'Fecha 3', "ui_mapping_text" = 'Merge.FU25CO', "ui_pasting" = '\'  \''), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH', "ui_pasting" = 'sysdate( )')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Jun 12 15:11:36 2023', "ActaValue_3" = 'Mon Dec 18 14:35:35 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_COVAFA_HIST::'f8e560c3-a131-46f6-83bc-ff256d435999'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '186', "Output_Width_Mapping" = '85', "Output_Width_Name" = '321', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1737', "y" = '-1416')
+GUID::'9071df60-fc01-4a3e-9c8b-f050f9564c3d' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Name" = '246', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '248', "Output_Width_Name" = '321', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'SQL_COVAFA_HN', "ui_display_name" = 'QRY_HN', "x" = '1206', "y" = '-1922')
+GUID::'4dcd652d-31b8-4b4d-baa9-ddd8d0f79e32' CREATE VIEW QRY_HN( CODICO VARCHAR(4)  SET( "Description" = 'Codigo de Cliente', "ui_mapping_text" = 'SQL_COVAFA_HN.CODICO', "ui_pasting" = 'COVAFA2020.CODICO') ,
+ ALMACO VARCHAR(2)  SET( "Description" = 'Codigo de Almacen', "ui_mapping_text" = 'SQL_COVAFA_HN.ALMACO', "ui_pasting" = 'COVAFA2020.ALMACO') ,
+ MMDDCO VARCHAR(4)  SET( "Description" = 'Mes y Dia de corte', "ui_mapping_text" = 'SQL_COVAFA_HN.MMDDCO', "ui_pasting" = 'COVAFA2020.MMDDCO') ,
+ ANODCO VARCHAR(4)  SET( "Description" = 'Año de corte', "ui_mapping_text" = 'SQL_COVAFA_HN.ANODCO', "ui_pasting" = 'COVAFA2020.ANODCO') ,
+ CMPTCO VARCHAR(9)  SET( "Description" = 'Numero Comprobante', "ui_mapping_text" = 'SQL_COVAFA_HN.CMPTCO', "ui_pasting" = 'COVAFA2020.CMPTCO') ,
+ MOVICO VARCHAR(1)  SET( "Description" = 'Codigo de Movto', "ui_mapping_text" = 'SQL_COVAFA_HN.MOVICO', "ui_pasting" = 'COVAFA2020.MOVICO') ,
+ TIPOCO VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'SQL_COVAFA_HN.TIPOCO', "ui_pasting" = 'COVAFA2020.TIPOCO') ,
+ FPAGCO VARCHAR(1)  SET( "Description" = 'Forma de Pago 0/1', "ui_mapping_text" = 'SQL_COVAFA_HN.FPAGCO', "ui_pasting" = 'COVAFA2020.FPAGCO') ,
+ VFSICO DECIMAL(9, 2)  SET( "Description" = 'Vlr Factura sin ISV', "ui_mapping_text" = 'SQL_COVAFA_HN.VFSICO', "ui_pasting" = 'COVAFA2020.VFSICO') ,
+ VIFACO DECIMAL(8, 2)  SET( "Description" = 'Vlr ISV de Factura', "ui_mapping_text" = 'SQL_COVAFA_HN.VIFACO', "ui_pasting" = 'COVAFA2020.VIFACO') ,
+ VREBCO DECIMAL(9, 2)  SET( "Description" = 'Rebaja sin ISV', "ui_mapping_text" = 'SQL_COVAFA_HN.VREBCO', "ui_pasting" = 'COVAFA2020.VREBCO') ,
+ VIRECO DECIMAL(8, 2)  SET( "Description" = 'ISV de la Rebaja', "ui_mapping_text" = 'SQL_COVAFA_HN.VIRECO', "ui_pasting" = 'COVAFA2020.VIRECO') ,
+ USUACO VARCHAR(10)  SET( "Description" = 'Usuario que Imprime', "ui_mapping_text" = 'SQL_COVAFA_HN.USUACO', "ui_pasting" = 'COVAFA2020.USUACO') ,
+ FEDECO DECIMAL(8, 0)  SET( "Description" = 'Fecha que Imprime', "ui_mapping_text" = 'SQL_COVAFA_HN.FEDECO', "ui_pasting" = 'COVAFA2020.FEDECO') ,
+ HORACO DECIMAL(6, 0)  SET( "Description" = 'Hora que Imprime', "ui_mapping_text" = 'SQL_COVAFA_HN.HORACO', "ui_pasting" = 'COVAFA2020.HORACO') ,
+ NOMBCO VARCHAR(35)  SET( "Description" = 'Nombre en Factura', "ui_mapping_text" = 'SQL_COVAFA_HN.NOMBCO', "ui_pasting" = 'COVAFA2020.NOMBCO') ,
+ DOCUCO VARCHAR(25)  SET( "Description" = 'Documento presentado', "ui_mapping_text" = 'SQL_COVAFA_HN.DOCUCO', "ui_pasting" = 'COVAFA2020.DOCUCO') ,
+ DIRECO VARCHAR(35)  SET( "Description" = 'Dirección 1', "ui_mapping_text" = 'SQL_COVAFA_HN.DIRECO', "ui_pasting" = 'COVAFA2020.DIRECO') ,
+ DIR2CO VARCHAR(35)  SET( "Description" = 'Dirección 2', "ui_mapping_text" = 'SQL_COVAFA_HN.DIR2CO', "ui_pasting" = 'COVAFA2020.DIR2CO') ,
+ NURECO VARCHAR(10)  SET( "Description" = 'Num Registro Fiscal', "ui_mapping_text" = 'SQL_COVAFA_HN.NURECO', "ui_pasting" = 'COVAFA2020.NURECO') ,
+ GIROCO VARCHAR(40)  SET( "Description" = 'Giro de Negocio', "ui_mapping_text" = 'SQL_COVAFA_HN.GIROCO', "ui_pasting" = 'COVAFA2020.GIROCO') ,
+ NITCO VARCHAR(14)  SET( "Description" = 'RTN del Taller', "ui_mapping_text" = 'SQL_COVAFA_HN.NITCO', "ui_pasting" = 'COVAFA2020.NITCO') ,
+ TELECO VARCHAR(7)  SET( "Description" = 'Telefono Taller', "ui_mapping_text" = 'SQL_COVAFA_HN.TELECO', "ui_pasting" = 'COVAFA2020.TELECO') ,
+ FARECO VARCHAR(9)  SET( "Description" = 'Factura Referencia', "ui_mapping_text" = 'SQL_COVAFA_HN.FARECO', "ui_pasting" = 'COVAFA2020.FARECO') ,
+ FERECO VARCHAR(4)  SET( "Description" = 'Mes y Dia transado', "ui_mapping_text" = 'SQL_COVAFA_HN.FERECO', "ui_pasting" = 'COVAFA2020.FERECO') ,
+ RENTCO VARCHAR(1)  SET( "Description" = 'Descuento Renta', "ui_mapping_text" = 'SQL_COVAFA_HN.RENTCO', "ui_pasting" = 'COVAFA2020.RENTCO') ,
+ NUVECO VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'SQL_COVAFA_HN.NUVECO', "ui_pasting" = 'COVAFA2020.NUVECO') ,
+ FU01CO VARCHAR(4)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_HN.FU01CO', "ui_pasting" = 'COVAFA2020.FU01CO') ,
+ FU02CO DECIMAL(9, 2)  SET( "Description" = 'Valor Percepcion ISV', "ui_mapping_text" = 'SQL_COVAFA_HN.FU02CO', "ui_pasting" = 'COVAFA2020.FU02CO') ,
+ FU03CO DECIMAL(9, 2)  SET( "Description" = 'Vlr Descto sobre ISV', "ui_mapping_text" = 'SQL_COVAFA_HN.FU03CO', "ui_pasting" = 'COVAFA2020.FU03CO') ,
+ FU04CO DECIMAL(9, 2)  SET( "Description" = 'Valor de ISR', "ui_mapping_text" = 'SQL_COVAFA_HN.FU04CO', "ui_pasting" = 'COVAFA2020.FU04CO') ,
+ FU05CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_HN.FU05CO', "ui_pasting" = 'COVAFA2020.FU05CO') ,
+ FU06CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_HN.FU06CO', "ui_pasting" = 'COVAFA2020.FU06CO') ,
+ FU07CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_HN.FU07CO', "ui_pasting" = 'COVAFA2020.FU07CO') ,
+ FACCCO DECIMAL(11, 5)  SET( "Description" = 'Factor Cambio Moneda', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FISVCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISV', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FISRCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISR', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RTNCCO VARCHAR(14)  SET( "Description" = 'Numero RTN Cliente', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ BISRCO VARCHAR(1)  SET( "Description" = 'Flg Cte Sujeto Renta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FECCCO VARCHAR(8)  SET( "Description" = 'Fecha Calendario', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ CODCCO DECIMAL(7, 0)  SET( "Description" = 'Cod Cliente Eventual', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU08CO VARCHAR(1)  SET( "Description" = 'Docto de Origen', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU09CO VARCHAR(1)  SET( "Description" = 'Flag 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU10CO VARCHAR(1)  SET( "Description" = 'Flag 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NCAICO VARCHAR(40)  SET( "Description" = 'Numero CAI', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ ESTACO VARCHAR(3)  SET( "Description" = 'Establecimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ PTOECO VARCHAR(3)  SET( "Description" = 'Punto Emision', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ TIMOCO VARCHAR(2)  SET( "Description" = 'Tipo Movimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ CORACO VARCHAR(8)  SET( "Description" = 'Correlativo Asignado', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FDESCO VARCHAR(8)  SET( "Description" = 'Fecha Desde', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FHASCO VARCHAR(8)  SET( "Description" = 'Fecha Hasta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NDESCO VARCHAR(8)  SET( "Description" = 'Numero Desde', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NHASCO VARCHAR(8)  SET( "Description" = 'Numero Hasta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RESTCO VARCHAR(3)  SET( "Description" = 'Ref.Establecimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RPTOCO VARCHAR(3)  SET( "Description" = 'Ref.Punto Emision', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RTIMCO VARCHAR(2)  SET( "Description" = 'Ref.Tipo Movimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RCORCO VARCHAR(8)  SET( "Description" = 'Ref.Correlativo Asig', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU11CO DECIMAL(11, 2)  SET( "Description" = 'Valor 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU12CO DECIMAL(11, 2)  SET( "Description" = 'Valor 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU13CO DECIMAL(11, 2)  SET( "Description" = 'Valor 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU14CO DECIMAL(11, 2)  SET( "Description" = 'Valor 4', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU15CO DECIMAL(11, 2)  SET( "Description" = 'Valor 5', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU16CO VARCHAR(10)  SET( "Description" = 'Campo 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU17CO VARCHAR(10)  SET( "Description" = 'Campo 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU18CO VARCHAR(10)  SET( "Description" = 'Campo 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU19CO VARCHAR(10)  SET( "Description" = 'Campo 4', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU20CO VARCHAR(10)  SET( "Description" = 'Campo 5', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU21CO VARCHAR(40)  SET( "Description" = 'Observac 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU22CO VARCHAR(40)  SET( "Description" = 'Observac 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU23CO VARCHAR(8)  SET( "Description" = 'Fecha 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU24CO VARCHAR(8)  SET( "Description" = 'Fecha 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU25CO VARCHAR(8)  SET( "Description" = 'Fecha 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2', "ui_pasting" = '2') ,
+ ANIO INT  SET( "ui_mapping_text" = 'year(sysdate())') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )', "ui_pasting" = 'sysdate( )')  )
+ AS
+SELECT SQL_COVAFA_HN.CODICO, SQL_COVAFA_HN.ALMACO, SQL_COVAFA_HN.MMDDCO, SQL_COVAFA_HN.ANODCO, SQL_COVAFA_HN.CMPTCO, SQL_COVAFA_HN.MOVICO, SQL_COVAFA_HN.TIPOCO, SQL_COVAFA_HN.FPAGCO, SQL_COVAFA_HN.VFSICO, SQL_COVAFA_HN.VIFACO, SQL_COVAFA_HN.VREBCO, SQL_COVAFA_HN.VIRECO, SQL_COVAFA_HN.USUACO, SQL_COVAFA_HN.FEDECO, SQL_COVAFA_HN.HORACO, SQL_COVAFA_HN.NOMBCO, SQL_COVAFA_HN.DOCUCO, SQL_COVAFA_HN.DIRECO, SQL_COVAFA_HN.DIR2CO, SQL_COVAFA_HN.NURECO, SQL_COVAFA_HN.GIROCO, SQL_COVAFA_HN.NITCO, SQL_COVAFA_HN.TELECO, SQL_COVAFA_HN.FARECO, SQL_COVAFA_HN.FERECO, SQL_COVAFA_HN.RENTCO, SQL_COVAFA_HN.NUVECO, SQL_COVAFA_HN.FU01CO, SQL_COVAFA_HN.FU02CO, SQL_COVAFA_HN.FU03CO, SQL_COVAFA_HN.FU04CO, SQL_COVAFA_HN.FU05CO, SQL_COVAFA_HN.FU06CO, SQL_COVAFA_HN.FU07CO, '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', 2, year(sysdate()), sysdate() FROM SQL_COVAFA_HN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Name" = '246', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '248', "Output_Width_Name" = '321', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'SQL_COVAFA_SV', "ui_display_name" = 'QRY_SV', "x" = '1189', "y" = '-941')
+GUID::'a406d1c0-675a-4b16-97b6-76836258ffd4' CREATE VIEW QRY_SV( CODICO VARCHAR(4)  SET( "Description" = 'Codigo de Cliente', "ui_mapping_text" = 'SQL_COVAFA_SV.CODICO', "ui_pasting" = 'COVAFA2020_1.CODICO') ,
+ ALMACO VARCHAR(2)  SET( "Description" = 'Codigo de Almacen', "ui_mapping_text" = 'SQL_COVAFA_SV.ALMACO', "ui_pasting" = 'COVAFA2020_1.ALMACO') ,
+ MMDDCO VARCHAR(4)  SET( "Description" = 'Mes y Dia de corte', "ui_mapping_text" = 'SQL_COVAFA_SV.MMDDCO', "ui_pasting" = 'COVAFA2020_1.MMDDCO') ,
+ ANODCO VARCHAR(4)  SET( "Description" = 'Año de corte', "ui_mapping_text" = 'SQL_COVAFA_SV.ANODCO', "ui_pasting" = 'COVAFA2020_1.ANODCO') ,
+ CMPTCO VARCHAR(9)  SET( "Description" = 'Numero Comprobante', "ui_mapping_text" = 'SQL_COVAFA_SV.CMPTCO', "ui_pasting" = 'COVAFA2020_1.CMPTCO') ,
+ MOVICO VARCHAR(1)  SET( "Description" = 'Codigo de Movto', "ui_mapping_text" = 'SQL_COVAFA_SV.MOVICO', "ui_pasting" = 'COVAFA2020_1.MOVICO') ,
+ TIPOCO VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'SQL_COVAFA_SV.TIPOCO', "ui_pasting" = 'COVAFA2020_1.TIPOCO') ,
+ FPAGCO VARCHAR(1)  SET( "Description" = 'Forma de Pago 0/1', "ui_mapping_text" = 'SQL_COVAFA_SV.FPAGCO', "ui_pasting" = 'COVAFA2020_1.FPAGCO') ,
+ VFSICO DECIMAL(9, 2)  SET( "Description" = 'Vlr Factura sin ISV', "ui_mapping_text" = 'SQL_COVAFA_SV.VFSICO', "ui_pasting" = 'COVAFA2020_1.VFSICO') ,
+ VIFACO DECIMAL(8, 2)  SET( "Description" = 'Vlr ISV de Factura', "ui_mapping_text" = 'SQL_COVAFA_SV.VIFACO', "ui_pasting" = 'COVAFA2020_1.VIFACO') ,
+ VREBCO DECIMAL(9, 2)  SET( "Description" = 'Rebaja sin ISV', "ui_mapping_text" = 'SQL_COVAFA_SV.VREBCO', "ui_pasting" = 'COVAFA2020_1.VREBCO') ,
+ VIRECO DECIMAL(8, 2)  SET( "Description" = 'ISV de la Rebaja', "ui_mapping_text" = 'SQL_COVAFA_SV.VIRECO', "ui_pasting" = 'COVAFA2020_1.VIRECO') ,
+ USUACO VARCHAR(10)  SET( "Description" = 'Usuario que Imprime', "ui_mapping_text" = 'SQL_COVAFA_SV.USUACO', "ui_pasting" = 'COVAFA2020_1.USUACO') ,
+ FEDECO DECIMAL(8, 0)  SET( "Description" = 'Fecha que Imprime', "ui_mapping_text" = 'SQL_COVAFA_SV.FEDECO', "ui_pasting" = 'COVAFA2020_1.FEDECO') ,
+ HORACO DECIMAL(6, 0)  SET( "Description" = 'Hora que Imprime', "ui_mapping_text" = 'SQL_COVAFA_SV.HORACO', "ui_pasting" = 'COVAFA2020_1.HORACO') ,
+ NOMBCO VARCHAR(35)  SET( "Description" = 'Nombre en Factura', "ui_mapping_text" = 'SQL_COVAFA_SV.NOMBCO', "ui_pasting" = 'COVAFA2020_1.NOMBCO') ,
+ DOCUCO VARCHAR(25)  SET( "Description" = 'Documento presentado', "ui_mapping_text" = 'SQL_COVAFA_SV.DOCUCO', "ui_pasting" = 'COVAFA2020_1.DOCUCO') ,
+ DIRECO VARCHAR(35)  SET( "Description" = 'Dirección 1', "ui_mapping_text" = 'SQL_COVAFA_SV.DIRECO', "ui_pasting" = 'COVAFA2020_1.DIRECO') ,
+ DIR2CO VARCHAR(35)  SET( "Description" = 'Dirección 2', "ui_mapping_text" = 'SQL_COVAFA_SV.DIR2CO', "ui_pasting" = 'COVAFA2020_1.DIR2CO') ,
+ NURECO VARCHAR(10)  SET( "Description" = 'Num Registro Fiscal', "ui_mapping_text" = 'SQL_COVAFA_SV.NURECO', "ui_pasting" = 'COVAFA2020_1.NURECO') ,
+ GIROCO VARCHAR(40)  SET( "Description" = 'Giro de Negocio', "ui_mapping_text" = 'SQL_COVAFA_SV.GIROCO', "ui_pasting" = 'COVAFA2020_1.GIROCO') ,
+ NITCO VARCHAR(14)  SET( "Description" = 'RTN del Taller', "ui_mapping_text" = 'SQL_COVAFA_SV.NITCO', "ui_pasting" = 'COVAFA2020_1.NITCO') ,
+ TELECO VARCHAR(7)  SET( "Description" = 'Telefono Taller', "ui_mapping_text" = 'SQL_COVAFA_SV.TELECO', "ui_pasting" = 'COVAFA2020_1.TELECO') ,
+ FARECO VARCHAR(9)  SET( "Description" = 'Factura Referencia', "ui_mapping_text" = 'SQL_COVAFA_SV.FARECO', "ui_pasting" = 'COVAFA2020_1.FARECO') ,
+ FERECO VARCHAR(4)  SET( "Description" = 'Mes y Dia transado', "ui_mapping_text" = 'SQL_COVAFA_SV.FERECO', "ui_pasting" = 'COVAFA2020_1.FERECO') ,
+ RENTCO VARCHAR(1)  SET( "Description" = 'Descuento Renta', "ui_mapping_text" = 'SQL_COVAFA_SV.RENTCO', "ui_pasting" = 'COVAFA2020_1.RENTCO') ,
+ NUVECO VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'SQL_COVAFA_SV.NUVECO', "ui_pasting" = 'COVAFA2020_1.NUVECO') ,
+ FU01CO VARCHAR(4)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_SV.FU01CO', "ui_pasting" = 'COVAFA2020_1.FU01CO') ,
+ FU02CO DECIMAL(9, 2)  SET( "Description" = 'Valor Percepcion ISV', "ui_mapping_text" = 'SQL_COVAFA_SV.FU02CO', "ui_pasting" = 'COVAFA2020_1.FU02CO') ,
+ FU03CO DECIMAL(9, 2)  SET( "Description" = 'Vlr Descto sobre ISV', "ui_mapping_text" = 'SQL_COVAFA_SV.FU03CO', "ui_pasting" = 'COVAFA2020_1.FU03CO') ,
+ FU04CO DECIMAL(9, 2)  SET( "Description" = 'Valor de ISR', "ui_mapping_text" = 'SQL_COVAFA_SV.FU04CO', "ui_pasting" = 'COVAFA2020_1.FU04CO') ,
+ FU05CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_SV.FU05CO', "ui_pasting" = 'COVAFA2020_1.FU05CO') ,
+ FU06CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_SV.FU06CO', "ui_pasting" = 'COVAFA2020_1.FU06CO') ,
+ FU07CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVAFA_SV.FU07CO', "ui_pasting" = 'COVAFA2020_1.FU07CO') ,
+ FACCCO DECIMAL(11, 5)  SET( "Description" = 'Factor Cambio Moneda', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FISVCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISV', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FISRCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISR', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RTNCCO VARCHAR(14)  SET( "Description" = 'Numero RTN Cliente', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ BISRCO VARCHAR(1)  SET( "Description" = 'Flg Cte Sujeto Renta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FECCCO VARCHAR(8)  SET( "Description" = 'Fecha Calendario', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ CODCCO DECIMAL(7, 0)  SET( "Description" = 'Cod Cliente Eventual', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU08CO VARCHAR(1)  SET( "Description" = 'Docto de Origen', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU09CO VARCHAR(1)  SET( "Description" = 'Flag 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU10CO VARCHAR(1)  SET( "Description" = 'Flag 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NCAICO VARCHAR(40)  SET( "Description" = 'Numero CAI', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ ESTACO VARCHAR(3)  SET( "Description" = 'Establecimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ PTOECO VARCHAR(3)  SET( "Description" = 'Punto Emision', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ TIMOCO VARCHAR(2)  SET( "Description" = 'Tipo Movimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ CORACO VARCHAR(8)  SET( "Description" = 'Correlativo Asignado', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FDESCO VARCHAR(8)  SET( "Description" = 'Fecha Desde', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FHASCO VARCHAR(8)  SET( "Description" = 'Fecha Hasta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NDESCO VARCHAR(8)  SET( "Description" = 'Numero Desde', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ NHASCO VARCHAR(8)  SET( "Description" = 'Numero Hasta', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RESTCO VARCHAR(3)  SET( "Description" = 'Ref.Establecimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RPTOCO VARCHAR(3)  SET( "Description" = 'Ref.Punto Emision', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RTIMCO VARCHAR(2)  SET( "Description" = 'Ref.Tipo Movimiento', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ RCORCO VARCHAR(8)  SET( "Description" = 'Ref.Correlativo Asig', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU11CO DECIMAL(11, 2)  SET( "Description" = 'Valor 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU12CO DECIMAL(11, 2)  SET( "Description" = 'Valor 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU13CO DECIMAL(11, 2)  SET( "Description" = 'Valor 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU14CO DECIMAL(11, 2)  SET( "Description" = 'Valor 4', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU15CO DECIMAL(11, 2)  SET( "Description" = 'Valor 5', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU16CO VARCHAR(10)  SET( "Description" = 'Campo 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU17CO VARCHAR(10)  SET( "Description" = 'Campo 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU18CO VARCHAR(10)  SET( "Description" = 'Campo 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU19CO VARCHAR(10)  SET( "Description" = 'Campo 4', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU20CO VARCHAR(10)  SET( "Description" = 'Campo 5', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU21CO VARCHAR(40)  SET( "Description" = 'Observac 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU22CO VARCHAR(40)  SET( "Description" = 'Observac 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU23CO VARCHAR(8)  SET( "Description" = 'Fecha 1', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU24CO VARCHAR(8)  SET( "Description" = 'Fecha 2', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ FU25CO VARCHAR(8)  SET( "Description" = 'Fecha 3', "ui_mapping_text" = '\'  \'', "ui_pasting" = '\'  \'') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1', "ui_pasting" = '1') ,
+ ANIO INT  SET( "ui_mapping_text" = 'year(sysdate())') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )', "ui_pasting" = 'sysdate( )')  )
+ AS
+SELECT SQL_COVAFA_SV.CODICO, SQL_COVAFA_SV.ALMACO, SQL_COVAFA_SV.MMDDCO, SQL_COVAFA_SV.ANODCO, SQL_COVAFA_SV.CMPTCO, SQL_COVAFA_SV.MOVICO, SQL_COVAFA_SV.TIPOCO, SQL_COVAFA_SV.FPAGCO, SQL_COVAFA_SV.VFSICO, SQL_COVAFA_SV.VIFACO, SQL_COVAFA_SV.VREBCO, SQL_COVAFA_SV.VIRECO, SQL_COVAFA_SV.USUACO, SQL_COVAFA_SV.FEDECO, SQL_COVAFA_SV.HORACO, SQL_COVAFA_SV.NOMBCO, SQL_COVAFA_SV.DOCUCO, SQL_COVAFA_SV.DIRECO, SQL_COVAFA_SV.DIR2CO, SQL_COVAFA_SV.NURECO, SQL_COVAFA_SV.GIROCO, SQL_COVAFA_SV.NITCO, SQL_COVAFA_SV.TELECO, SQL_COVAFA_SV.FARECO, SQL_COVAFA_SV.FERECO, SQL_COVAFA_SV.RENTCO, SQL_COVAFA_SV.NUVECO, SQL_COVAFA_SV.FU01CO, SQL_COVAFA_SV.FU02CO, SQL_COVAFA_SV.FU03CO, SQL_COVAFA_SV.FU04CO, SQL_COVAFA_SV.FU05CO, SQL_COVAFA_SV.FU06CO, SQL_COVAFA_SV.FU07CO, '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ', 1, year(sysdate()), sysdate() FROM SQL_COVAFA_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>372</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_COVAFA_HIST', "x" = '2127', "y" = '-1416')
+GUID::'10b6e5cd-1651-4829-88b2-9329e515a1e2' CREATE VIEW QRY_COVAFA_HIST( ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS', "ui_pasting" = '1') ,
+ ANIO INT  SET( "ui_mapping_text" = 'Merge.ANIO') ,
+ CODICO VARCHAR(4)  SET( "Description" = 'Codigo de Cliente', "ui_mapping_text" = 'Merge.CODICO', "ui_pasting" = 'COVAFA2021.CODICO') ,
+ ALMACO VARCHAR(2)  SET( "Description" = 'Codigo de Almacen', "ui_mapping_text" = 'Merge.ALMACO', "ui_pasting" = 'COVAFA2021.ALMACO') ,
+ MMDDCO VARCHAR(4)  SET( "Description" = 'Mes y Dia de corte', "ui_mapping_text" = 'Merge.MMDDCO', "ui_pasting" = 'COVAFA2021.MMDDCO') ,
+ ANODCO VARCHAR(4)  SET( "Description" = 'Año de corte', "ui_mapping_text" = 'Merge.ANODCO', "ui_pasting" = 'COVAFA2021.ANODCO') ,
+ CMPTCO VARCHAR(9)  SET( "Description" = 'Numero Comprobante', "ui_mapping_text" = 'Merge.CMPTCO', "ui_pasting" = 'COVAFA2021.CMPTCO') ,
+ MOVICO VARCHAR(1)  SET( "Description" = 'Codigo de Movto', "ui_mapping_text" = 'Merge.MOVICO', "ui_pasting" = 'COVAFA2021.MOVICO') ,
+ TIPOCO VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'Merge.TIPOCO', "ui_pasting" = 'COVAFA2021.TIPOCO') ,
+ FPAGCO VARCHAR(1)  SET( "Description" = 'Forma de Pago 0/1', "ui_mapping_text" = 'Merge.FPAGCO', "ui_pasting" = 'COVAFA2021.FPAGCO') ,
+ VFSICO DECIMAL(9, 2)  SET( "Description" = 'Vlr Factura sin ISV', "ui_mapping_text" = 'Merge.VFSICO', "ui_pasting" = 'COVAFA2021.VFSICO') ,
+ VIFACO DECIMAL(8, 2)  SET( "Description" = 'Vlr ISV de Factura', "ui_mapping_text" = 'Merge.VIFACO', "ui_pasting" = 'COVAFA2021.VIFACO') ,
+ VREBCO DECIMAL(9, 2)  SET( "Description" = 'Rebaja sin ISV', "ui_mapping_text" = 'Merge.VREBCO', "ui_pasting" = 'COVAFA2021.VREBCO') ,
+ VIRECO DECIMAL(8, 2)  SET( "Description" = 'ISV de la Rebaja', "ui_mapping_text" = 'Merge.VIRECO', "ui_pasting" = 'COVAFA2021.VIRECO') ,
+ USUACO VARCHAR(10)  SET( "Description" = 'Usuario que Imprime', "ui_mapping_text" = 'Merge.USUACO', "ui_pasting" = 'COVAFA2021.USUACO') ,
+ FEDECO DECIMAL(8, 0)  SET( "Description" = 'Fecha que Imprime', "ui_mapping_text" = 'Merge.FEDECO', "ui_pasting" = 'COVAFA2021.FEDECO') ,
+ HORACO DECIMAL(6, 0)  SET( "Description" = 'Hora que Imprime', "ui_mapping_text" = 'Merge.HORACO', "ui_pasting" = 'COVAFA2021.HORACO') ,
+ NOMBCO VARCHAR(35)  SET( "Description" = 'Nombre en Factura', "ui_mapping_text" = 'Merge.NOMBCO', "ui_pasting" = 'COVAFA2021.NOMBCO') ,
+ DOCUCO VARCHAR(25)  SET( "Description" = 'Documento presentado', "ui_mapping_text" = 'Merge.DOCUCO', "ui_pasting" = 'COVAFA2021.DOCUCO') ,
+ DIRECO VARCHAR(35)  SET( "Description" = 'Dirección 1', "ui_mapping_text" = 'Merge.DIRECO', "ui_pasting" = 'COVAFA2021.DIRECO') ,
+ DIR2CO VARCHAR(35)  SET( "Description" = 'Dirección 2', "ui_mapping_text" = 'Merge.DIR2CO', "ui_pasting" = 'COVAFA2021.DIR2CO') ,
+ NURECO VARCHAR(10)  SET( "Description" = 'Num Registro Fiscal', "ui_mapping_text" = 'Merge.NURECO', "ui_pasting" = 'COVAFA2021.NURECO') ,
+ GIROCO VARCHAR(40)  SET( "Description" = 'Giro de Negocio', "ui_mapping_text" = 'Merge.GIROCO', "ui_pasting" = 'COVAFA2021.GIROCO') ,
+ NITCO VARCHAR(14)  SET( "Description" = 'RTN del Taller', "ui_mapping_text" = 'Merge.NITCO', "ui_pasting" = 'COVAFA2021.NITCO') ,
+ TELECO VARCHAR(7)  SET( "Description" = 'Telefono Taller', "ui_mapping_text" = 'Merge.TELECO', "ui_pasting" = 'COVAFA2021.TELECO') ,
+ FARECO VARCHAR(9)  SET( "Description" = 'Factura Referencia', "ui_mapping_text" = 'Merge.FARECO', "ui_pasting" = 'COVAFA2021.FARECO') ,
+ FERECO VARCHAR(4)  SET( "Description" = 'Mes y Dia transado', "ui_mapping_text" = 'Merge.FERECO', "ui_pasting" = 'COVAFA2021.FERECO') ,
+ RENTCO VARCHAR(1)  SET( "Description" = 'Descuento Renta', "ui_mapping_text" = 'Merge.RENTCO', "ui_pasting" = 'COVAFA2021.RENTCO') ,
+ NUVECO VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'Merge.NUVECO', "ui_pasting" = 'COVAFA2021.NUVECO') ,
+ FU01CO VARCHAR(4)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU01CO', "ui_pasting" = 'COVAFA2021.FU01CO') ,
+ FU02CO DECIMAL(9, 2)  SET( "Description" = 'Valor Percepcion ISV', "ui_mapping_text" = 'Merge.FU02CO', "ui_pasting" = 'COVAFA2021.FU02CO') ,
+ FU03CO DECIMAL(9, 2)  SET( "Description" = 'Vlr Descto sobre ISV', "ui_mapping_text" = 'Merge.FU03CO', "ui_pasting" = 'COVAFA2021.FU03CO') ,
+ FU04CO DECIMAL(9, 2)  SET( "Description" = 'Valor de ISR', "ui_mapping_text" = 'Merge.FU04CO', "ui_pasting" = 'COVAFA2021.FU04CO') ,
+ FU05CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU05CO', "ui_pasting" = 'COVAFA2021.FU05CO') ,
+ FU06CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU06CO', "ui_pasting" = 'COVAFA2021.FU06CO') ,
+ FU07CO VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.FU07CO', "ui_pasting" = 'COVAFA2021.FU07CO') ,
+ FACCCO DECIMAL(11, 5)  SET( "Description" = 'Factor Cambio Moneda', "ui_mapping_text" = 'Merge.FACCCO', "ui_pasting" = '\'  \'') ,
+ FISVCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISV', "ui_mapping_text" = 'Merge.FISVCO', "ui_pasting" = '\'  \'') ,
+ FISRCO DECIMAL(5, 2)  SET( "Description" = 'Factor Impto de ISR', "ui_mapping_text" = 'Merge.FISRCO', "ui_pasting" = '\'  \'') ,
+ RTNCCO VARCHAR(14)  SET( "Description" = 'Numero RTN Cliente', "ui_mapping_text" = 'Merge.RTNCCO', "ui_pasting" = '\'  \'') ,
+ BISRCO VARCHAR(1)  SET( "Description" = 'Flg Cte Sujeto Renta', "ui_mapping_text" = 'Merge.BISRCO', "ui_pasting" = '\'  \'') ,
+ FECCCO VARCHAR(8)  SET( "Description" = 'Fecha Calendario', "ui_mapping_text" = 'Merge.FECCCO', "ui_pasting" = '\'  \'') ,
+ CODCCO DECIMAL(7, 0)  SET( "Description" = 'Cod Cliente Eventual', "ui_mapping_text" = 'Merge.CODCCO', "ui_pasting" = '\'  \'') ,
+ FU08CO VARCHAR(1)  SET( "Description" = 'Docto de Origen', "ui_mapping_text" = 'Merge.FU08CO', "ui_pasting" = '\'  \'') ,
+ FU09CO VARCHAR(1)  SET( "Description" = 'Flag 2', "ui_mapping_text" = 'Merge.FU09CO', "ui_pasting" = '\'  \'') ,
+ FU10CO VARCHAR(1)  SET( "Description" = 'Flag 3', "ui_mapping_text" = 'Merge.FU10CO', "ui_pasting" = '\'  \'') ,
+ NCAICO VARCHAR(40)  SET( "Description" = 'Numero CAI', "ui_mapping_text" = 'Merge.NCAICO', "ui_pasting" = '\'  \'') ,
+ ESTACO VARCHAR(3)  SET( "Description" = 'Establecimiento', "ui_mapping_text" = 'Merge.ESTACO', "ui_pasting" = '\'  \'') ,
+ PTOECO VARCHAR(3)  SET( "Description" = 'Punto Emision', "ui_mapping_text" = 'Merge.PTOECO', "ui_pasting" = '\'  \'') ,
+ TIMOCO VARCHAR(2)  SET( "Description" = 'Tipo Movimiento', "ui_mapping_text" = 'Merge.TIMOCO', "ui_pasting" = '\'  \'') ,
+ CORACO VARCHAR(8)  SET( "Description" = 'Correlativo Asignado', "ui_mapping_text" = 'Merge.CORACO', "ui_pasting" = '\'  \'') ,
+ FDESCO VARCHAR(8)  SET( "Description" = 'Fecha Desde', "ui_mapping_text" = 'Merge.FDESCO', "ui_pasting" = '\'  \'') ,
+ FHASCO VARCHAR(8)  SET( "Description" = 'Fecha Hasta', "ui_mapping_text" = 'Merge.FHASCO', "ui_pasting" = '\'  \'') ,
+ NDESCO VARCHAR(8)  SET( "Description" = 'Numero Desde', "ui_mapping_text" = 'Merge.NDESCO', "ui_pasting" = '\'  \'') ,
+ NHASCO VARCHAR(8)  SET( "Description" = 'Numero Hasta', "ui_mapping_text" = 'Merge.NHASCO', "ui_pasting" = '\'  \'') ,
+ RESTCO VARCHAR(3)  SET( "Description" = 'Ref.Establecimiento', "ui_mapping_text" = 'Merge.RESTCO', "ui_pasting" = '\'  \'') ,
+ RPTOCO VARCHAR(3)  SET( "Description" = 'Ref.Punto Emision', "ui_mapping_text" = 'Merge.RPTOCO', "ui_pasting" = '\'  \'') ,
+ RTIMCO VARCHAR(2)  SET( "Description" = 'Ref.Tipo Movimiento', "ui_mapping_text" = 'Merge.RTIMCO', "ui_pasting" = '\'  \'') ,
+ RCORCO VARCHAR(8)  SET( "Description" = 'Ref.Correlativo Asig', "ui_mapping_text" = 'Merge.RCORCO', "ui_pasting" = '\'  \'') ,
+ FU11CO DECIMAL(11, 2)  SET( "Description" = 'Valor 1', "ui_mapping_text" = 'Merge.FU11CO', "ui_pasting" = '\'  \'') ,
+ FU12CO DECIMAL(11, 2)  SET( "Description" = 'Valor 2', "ui_mapping_text" = 'Merge.FU12CO', "ui_pasting" = '\'  \'') ,
+ FU13CO DECIMAL(11, 2)  SET( "Description" = 'Valor 3', "ui_mapping_text" = 'Merge.FU13CO', "ui_pasting" = '\'  \'') ,
+ FU14CO DECIMAL(11, 2)  SET( "Description" = 'Valor 4', "ui_mapping_text" = 'Merge.FU14CO', "ui_pasting" = '\'  \'') ,
+ FU15CO DECIMAL(11, 2)  SET( "Description" = 'Valor 5', "ui_mapping_text" = 'Merge.FU15CO', "ui_pasting" = '\'  \'') ,
+ FU16CO VARCHAR(10)  SET( "Description" = 'Campo 1', "ui_mapping_text" = 'Merge.FU16CO', "ui_pasting" = '\'  \'') ,
+ FU17CO VARCHAR(10)  SET( "Description" = 'Campo 2', "ui_mapping_text" = 'Merge.FU17CO', "ui_pasting" = '\'  \'') ,
+ FU18CO VARCHAR(10)  SET( "Description" = 'Campo 3', "ui_mapping_text" = 'Merge.FU18CO', "ui_pasting" = '\'  \'') ,
+ FU19CO VARCHAR(10)  SET( "Description" = 'Campo 4', "ui_mapping_text" = 'Merge.FU19CO', "ui_pasting" = '\'  \'') ,
+ FU20CO VARCHAR(10)  SET( "Description" = 'Campo 5', "ui_mapping_text" = 'Merge.FU20CO', "ui_pasting" = '\'  \'') ,
+ FU21CO VARCHAR(40)  SET( "Description" = 'Observac 1', "ui_mapping_text" = 'Merge.FU21CO', "ui_pasting" = '\'  \'') ,
+ FU22CO VARCHAR(40)  SET( "Description" = 'Observac 2', "ui_mapping_text" = 'Merge.FU22CO', "ui_pasting" = '\'  \'') ,
+ FU23CO VARCHAR(8)  SET( "Description" = 'Fecha 1', "ui_mapping_text" = 'Merge.FU23CO', "ui_pasting" = '\'  \'') ,
+ FU24CO VARCHAR(8)  SET( "Description" = 'Fecha 2', "ui_mapping_text" = 'Merge.FU24CO', "ui_pasting" = '\'  \'') ,
+ FU25CO VARCHAR(8)  SET( "Description" = 'Fecha 3', "ui_mapping_text" = 'Merge.FU25CO', "ui_pasting" = '\'  \'') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH', "ui_pasting" = 'sysdate( )')  )
+ AS
+SELECT Merge.ID_PAIS, Merge.ANIO, Merge.CODICO, Merge.ALMACO, Merge.MMDDCO, Merge.ANODCO, Merge.CMPTCO, Merge.MOVICO, Merge.TIPOCO, Merge.FPAGCO, Merge.VFSICO, Merge.VIFACO, Merge.VREBCO, Merge.VIRECO, Merge.USUACO, Merge.FEDECO, Merge.HORACO, Merge.NOMBCO, Merge.DOCUCO, Merge.DIRECO, Merge.DIR2CO, Merge.NURECO, Merge.GIROCO, Merge.NITCO, Merge.TELECO, Merge.FARECO, Merge.FERECO, Merge.RENTCO, Merge.NUVECO, Merge.FU01CO, Merge.FU02CO, Merge.FU03CO, Merge.FU04CO, Merge.FU05CO, Merge.FU06CO, Merge.FU07CO, Merge.FACCCO, Merge.FISVCO, Merge.FISRCO, Merge.RTNCCO, Merge.BISRCO, Merge.FECCCO, Merge.CODCCO, Merge.FU08CO, Merge.FU09CO, Merge.FU10CO, Merge.NCAICO, Merge.ESTACO, Merge.PTOECO, Merge.TIMOCO, Merge.CORACO, Merge.FDESCO, Merge.FHASCO, Merge.NDESCO, Merge.NHASCO, Merge.RESTCO, Merge.RPTOCO, Merge.RTIMCO, Merge.RCORCO, Merge.FU11CO, Merge.FU12CO, Merge.FU13CO, Merge.FU14CO, Merge.FU15CO, Merge.FU16CO, Merge.FU17CO, Merge.FU18CO, Merge.FU19CO, Merge.FU20CO, Merge.FU21CO, Merge.FU22CO, Merge.FU23CO, Merge.FU24CO, Merge.FU25CO, Merge.FECHA_CARGA_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'COVAFA_HIST(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2565', "y" = '-1417')
+GUID::'7b572395-8b52-4e7f-a7e9-235214129d86' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVAFA_HIST INPUT(QRY_COVAFA_HIST)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_COVAFA_HIST.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>300</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'SQL_COVAFA_SV', "x" = '691', "y" = '-940')
+GUID::'c3278d7a-0750-4909-a1f3-9d72627e1024' CALL TRANSFORM SQL() OUTPUT(SQL_COVAFA_SV( CODICO VARCHAR(4) ,
+ ALMACO VARCHAR(2) ,
+ MMDDCO VARCHAR(4) ,
+ ANODCO VARCHAR(4) ,
+ CMPTCO VARCHAR(9) ,
+ MOVICO VARCHAR(1) ,
+ TIPOCO VARCHAR(1) ,
+ FPAGCO VARCHAR(1) ,
+ VFSICO DECIMAL(9, 2) ,
+ VIFACO DECIMAL(8, 2) ,
+ VREBCO DECIMAL(9, 2) ,
+ VIRECO DECIMAL(8, 2) ,
+ USUACO VARCHAR(10) ,
+ FEDECO DECIMAL(8, 0) ,
+ HORACO DECIMAL(6, 0) ,
+ NOMBCO VARCHAR(35) ,
+ DOCUCO VARCHAR(25) ,
+ DIRECO VARCHAR(35) ,
+ DIR2CO VARCHAR(35) ,
+ NURECO VARCHAR(10) ,
+ GIROCO VARCHAR(40) ,
+ NITCO VARCHAR(14) ,
+ TELECO VARCHAR(7) ,
+ FARECO VARCHAR(9) ,
+ FERECO VARCHAR(4) ,
+ RENTCO VARCHAR(1) ,
+ NUVECO VARCHAR(4) ,
+ FU01CO VARCHAR(4) ,
+ FU02CO DECIMAL(9, 2) ,
+ FU03CO DECIMAL(9, 2) ,
+ FU04CO DECIMAL(9, 2) ,
+ FU05CO VARCHAR(1) ,
+ FU06CO VARCHAR(1) ,
+ FU07CO VARCHAR(1)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT * &#xD;&#xA;FROM NEWINV.COVAFA &#xD;&#xA;WHERE MMDDCO BETWEEN \'0101\' AND VARCHAR_FORMAT(CURRENT DATE, \'MMDD\') AND ANODCO not between \'2018\' and  VARCHAR_FORMAT(CURRENT DATE - 1 YEAR, \'YYYY\')</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '43', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>297</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'SQL_COVAFA_HN', "x" = '675', "y" = '-1922')
+GUID::'1250a0df-98fe-4af8-9eb4-0935c4e1182d' CALL TRANSFORM SQL() OUTPUT(SQL_COVAFA_HN( CODICO VARCHAR(4) ,
+ ALMACO VARCHAR(2) ,
+ MMDDCO VARCHAR(4) ,
+ ANODCO VARCHAR(4) ,
+ CMPTCO VARCHAR(9) ,
+ MOVICO VARCHAR(1) ,
+ TIPOCO VARCHAR(1) ,
+ FPAGCO VARCHAR(1) ,
+ VFSICO DECIMAL(9, 2) ,
+ VIFACO DECIMAL(8, 2) ,
+ VREBCO DECIMAL(9, 2) ,
+ VIRECO DECIMAL(8, 2) ,
+ USUACO VARCHAR(10) ,
+ FEDECO DECIMAL(8, 0) ,
+ HORACO DECIMAL(6, 0) ,
+ NOMBCO VARCHAR(35) ,
+ DOCUCO VARCHAR(25) ,
+ DIRECO VARCHAR(35) ,
+ DIR2CO VARCHAR(35) ,
+ NURECO VARCHAR(10) ,
+ GIROCO VARCHAR(40) ,
+ NITCO VARCHAR(14) ,
+ TELECO VARCHAR(7) ,
+ FARECO VARCHAR(9) ,
+ FERECO VARCHAR(4) ,
+ RENTCO VARCHAR(1) ,
+ NUVECO VARCHAR(4) ,
+ FU01CO VARCHAR(4) ,
+ FU02CO DECIMAL(9, 2) ,
+ FU03CO DECIMAL(9, 2) ,
+ FU04CO DECIMAL(9, 2) ,
+ FU05CO VARCHAR(1) ,
+ FU06CO VARCHAR(1) ,
+ FU07CO VARCHAR(1) ,
+ FACCCO DECIMAL(11, 5) ,
+ FISVCO DECIMAL(5, 2) ,
+ FISRCO DECIMAL(5, 2) ,
+ RTNCCO VARCHAR(14) ,
+ BISRCO VARCHAR(1) ,
+ FECCCO VARCHAR(8) ,
+ CODCCO DECIMAL(7, 0) ,
+ FU08CO VARCHAR(1) ,
+ FU09CO VARCHAR(1) ,
+ FU10CO VARCHAR(1) ,
+ NCAICO VARCHAR(40) ,
+ ESTACO VARCHAR(3) ,
+ PTOECO VARCHAR(3) ,
+ TIMOCO VARCHAR(2) ,
+ CORACO VARCHAR(8) ,
+ FDESCO VARCHAR(8) ,
+ FHASCO VARCHAR(8) ,
+ NDESCO VARCHAR(8) ,
+ NHASCO VARCHAR(8) ,
+ RESTCO VARCHAR(3) ,
+ RPTOCO VARCHAR(3) ,
+ RTIMCO VARCHAR(2) ,
+ RCORCO VARCHAR(8) ,
+ FU11CO DECIMAL(11, 2) ,
+ FU12CO DECIMAL(11, 2) ,
+ FU13CO DECIMAL(11, 2) ,
+ FU14CO DECIMAL(11, 2) ,
+ FU15CO DECIMAL(11, 2) ,
+ FU16CO VARCHAR(10) ,
+ FU17CO VARCHAR(10) ,
+ FU18CO VARCHAR(10) ,
+ FU19CO VARCHAR(10) ,
+ FU20CO VARCHAR(10) ,
+ FU21CO VARCHAR(40) ,
+ FU22CO VARCHAR(40) ,
+ FU23CO VARCHAR(8) ,
+ FU24CO VARCHAR(8) ,
+ FU25CO VARCHAR(8)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT * &#xD;&#xA;FROM PHNINV.COVAFA &#xD;&#xA;WHERE MMDDCO BETWEEN \'0101\' AND VARCHAR_FORMAT(CURRENT DATE, \'MMDD\') AND ANODCO not between \'2018\' and  VARCHAR_FORMAT(CURRENT DATE - 1 YEAR, \'YYYY\')</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+END
+ SET ("Audit" = '<?xml version="1.0" encoding="UTF-8"?>
+<Audit>
+<AuditObjects>
+</AuditObjects>
+<AuditRules>
+</AuditRules>
+<Notifications>
+<RaiseException Enabled="true" >
+</RaiseException>
+<Mail Enabled="false" ></Mail>
+<Script Enabled="false" ></Script>
+</Notifications>
+</Audit>
+', "Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

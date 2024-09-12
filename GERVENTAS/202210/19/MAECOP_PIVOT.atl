@@ -1,0 +1,669 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8C2CFFA1F38A25EC4D9B4F322F7B9E28AFDB51094C192E22627FD679B5D0739AC88D48C57EB7144FB1D4B0CB2A060BA</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E809B0D28FA417BE73AAE52370E1D9847C00E1013B7DB392F49F7762DB9652B3110CC68FB7ED65143884CE12A005</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E813926DD2B38839680C3D0EA391684E51D38655190564CF39C1D7595ABFD9745DDC1936A957A2FB9CF2AB957553</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8F095846B91E2219E0D97B0DEB212359BD475209C9CC15EC2E09BB33414B2B73462C498C5926E7871354AF49F4D27523C0C688DBE1032</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Oct 19 08:41:10 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.MAECOPALM(CODIGO CHAR(17)  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+GRUPO CHAR(2)  NULL  SET("Description" = 'GRUPO'), 
+SGRUPO CHAR(2)  NULL  SET("Description" = 'SUBGRUPO'), 
+DESCRI CHAR(20)  NULL  SET("Description" = 'DESCRIPCION'), 
+ID_ALMACEN DECIMAL(11, 0)  NOT NULL , 
+ALMAC2 VARCHAR(2)  NULL  SET("Description" = 'ALMACEN'), 
+ALM VARCHAR(8)  NULL , 
+ALMACEN VARCHAR(12)  NULL  SET("Description" = 'NOMBRE ALMACEN'), 
+EXISTENCIAS DECIMAL(31, 0)  NULL , 
+COSPRO DECIMAL(9, 4)  NULL  SET("Description" = 'COSTO PROMEDIO'), 
+PREVTA DECIMAL(9, 2)  NULL  SET("Description" = 'PRECIO VENTA')) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'yes' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Oct 19 15:07:55 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAECOP_PIVOT(CODIGO VARCHAR(17)  NULL  SET("Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'MAECOPALM.CODIGO'), 
+GRUPO VARCHAR(2)  NULL  SET("Description" = 'GRUPO', "ui_mapping_text" = 'MAECOPALM.GRUPO'), 
+SGRUPO VARCHAR(2)  NULL  SET("Description" = 'SUBGRUPO', "ui_mapping_text" = 'MAECOPALM.SGRUPO'), 
+DESCRI VARCHAR(20)  NULL  SET("Description" = 'DESCRIPCION', "ui_mapping_text" = 'MAECOPALM.DESCRI'), 
+"01-LC_TOTCOST" DECIMAL(10, 2)  NULL , 
+"01-LC_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"01-LC_COSPRO" DECIMAL(9, 4)  NULL , 
+"01-LC_PREVTA" DECIMAL(9, 2)  NULL , 
+"02-LG_TOTCOST" DECIMAL(10, 2)  NULL , 
+"02-LG_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"02-LG_COSPRO" DECIMAL(9, 4)  NULL , 
+"02-LG_PREVTA" DECIMAL(9, 2)  NULL , 
+"03-ST_TOTCOST" DECIMAL(10, 2)  NULL , 
+"03-ST_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"03-ST_COSPRO" DECIMAL(9, 4)  NULL , 
+"03-ST_PREVTA" DECIMAL(9, 2)  NULL , 
+"04-SM_TOTCOST" DECIMAL(10, 2)  NULL , 
+"04-SM_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"04-SM_COSPRO" DECIMAL(9, 4)  NULL , 
+"04-SM_PREVTA" DECIMAL(9, 2)  NULL , 
+"05-LV_TOTCOST" DECIMAL(10, 2)  NULL , 
+"05-LV_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"05-LV_COSPRO" DECIMAL(9, 4)  NULL , 
+"05-LV_PREVTA" DECIMAL(9, 2)  NULL , 
+"06-CO_TOTCOST" DECIMAL(10, 2)  NULL , 
+"06-CO_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"06-CO_COSPRO" DECIMAL(9, 4)  NULL , 
+"06-CO_PREVTA" DECIMAL(9, 2)  NULL , 
+"07-SA_TOTCOST" DECIMAL(10, 2)  NULL , 
+"07-SA_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"07-SA_COSPRO" DECIMAL(9, 4)  NULL , 
+"07-SA_PREVTA" DECIMAL(9, 2)  NULL , 
+"08-SG_TOTCOST" DECIMAL(10, 2)  NULL , 
+"08-SG_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"08-SG_COSPRO" DECIMAL(9, 4)  NULL , 
+"08-SG_PREVTA" DECIMAL(9, 2)  NULL , 
+"09-SO_TOTCOST" DECIMAL(10, 2)  NULL , 
+"09-SO_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"09-SO_COSPRO" DECIMAL(9, 4)  NULL , 
+"09-SO_PREVTA" DECIMAL(9, 2)  NULL , 
+"10-CD_TOTCOST" DECIMAL(10, 2)  NULL , 
+"10-CD_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"10-CD_COSPRO" DECIMAL(9, 4)  NULL , 
+"10-CD_PREVTA" DECIMAL(9, 2)  NULL , 
+"21-MY_TOTCOST" DECIMAL(10, 2)  NULL , 
+"21-MY_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"21-MY_COSPRO" DECIMAL(9, 4)  NULL , 
+"21-MY_PREVTA" DECIMAL(9, 2)  NULL , 
+"22-EX_TOTCOST" DECIMAL(10, 2)  NULL , 
+"22-EX_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"22-EX_COSPRO" DECIMAL(9, 4)  NULL , 
+"22-EX_PREVTA" DECIMAL(9, 2)  NULL , 
+"23-AP_TOTCOST" DECIMAL(10, 2)  NULL , 
+"23-AP_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"23-AP_COSPRO" DECIMAL(9, 4)  NULL , 
+"23-AP_PREVTA" DECIMAL(9, 2)  NULL , 
+"24-SS_TOTCOST" DECIMAL(10, 2)  NULL , 
+"24-SS_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"24-SS_COSPRO" DECIMAL(9, 4)  NULL , 
+"24-SS_PREVTA" DECIMAL(9, 2)  NULL , 
+"25-CA_TOTCOST" DECIMAL(10, 2)  NULL , 
+"25-CA_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"25-CA_COSPRO" DECIMAL(9, 4)  NULL , 
+"25-CA_PREVTA" DECIMAL(9, 2)  NULL , 
+"26-SY_TOTCOST" DECIMAL(10, 2)  NULL , 
+"26-SY_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"26-SY_COSPRO" DECIMAL(9, 4)  NULL , 
+"26-SY_PREVTA" DECIMAL(9, 2)  NULL , 
+"27-US_TOTCOST" DECIMAL(10, 2)  NULL , 
+"27-US_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"27-US_COSPRO" DECIMAL(9, 4)  NULL , 
+"27-US_PREVTA" DECIMAL(9, 2)  NULL , 
+"28-SL_TOTCOST" DECIMAL(10, 2)  NULL , 
+"28-SL_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"28-SL_COSPRO" DECIMAL(9, 4)  NULL , 
+"28-SL_PREVTA" DECIMAL(9, 2)  NULL , 
+"29-TY_TOTCOST" DECIMAL(10, 2)  NULL , 
+"29-TY_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"29-TY_COSPRO" DECIMAL(9, 4)  NULL , 
+"29-TY_PREVTA" DECIMAL(9, 2)  NULL , 
+"30-LO_TOTCOST" DECIMAL(10, 2)  NULL , 
+"30-LO_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"30-LO_COSPRO" DECIMAL(9, 4)  NULL , 
+"30-LO_PREVTA" DECIMAL(9, 2)  NULL , 
+"32-CY_TOTCOST" DECIMAL(10, 2)  NULL , 
+"32-CY_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"32-CY_COSPRO" DECIMAL(9, 4)  NULL , 
+"32-CY_PREVTA" DECIMAL(9, 2)  NULL , 
+"33-ZA_TOTCOST" DECIMAL(10, 2)  NULL , 
+"33-ZA_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"33-ZA_COSPRO" DECIMAL(9, 4)  NULL , 
+"33-ZA_PREVTA" DECIMAL(9, 2)  NULL , 
+"34-S2_TOTCOST" DECIMAL(10, 2)  NULL , 
+"34-S2_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"34-S2_COSPRO" DECIMAL(9, 4)  NULL , 
+"34-S2_PREVTA" DECIMAL(9, 2)  NULL , 
+"35-AH_TOTCOST" DECIMAL(10, 2)  NULL , 
+"35-AH_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"35-AH_COSPRO" DECIMAL(9, 4)  NULL , 
+"35-AH_PREVTA" DECIMAL(9, 2)  NULL , 
+"36-S3_TOTCOST" DECIMAL(10, 2)  NULL , 
+"36-S3_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"36-S3_COSPRO" DECIMAL(9, 4)  NULL , 
+"36-S3_PREVTA" DECIMAL(9, 2)  NULL , 
+"37-A2_TOTCOST" DECIMAL(10, 2)  NULL , 
+"37-A2_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"37-A2_COSPRO" DECIMAL(9, 4)  NULL , 
+"37-A2_PREVTA" DECIMAL(9, 2)  NULL , 
+"38-M2_TOTCOST" DECIMAL(10, 2)  NULL , 
+"38-M2_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"38-M2_COSPRO" DECIMAL(9, 4)  NULL , 
+"38-M2_PREVTA" DECIMAL(9, 2)  NULL , 
+"39-VC_TOTCOST" DECIMAL(10, 2)  NULL , 
+"39-VC_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"39-VC_COSPRO" DECIMAL(9, 4)  NULL , 
+"39-VC_PREVTA" DECIMAL(9, 2)  NULL , 
+"40-SJ_TOTCOST" DECIMAL(10, 2)  NULL , 
+"40-SJ_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"40-SJ_COSPRO" DECIMAL(9, 4)  NULL , 
+"40-SJ_PREVTA" DECIMAL(9, 2)  NULL , 
+"41-DI_TOTCOST" DECIMAL(10, 2)  NULL , 
+"41-DI_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"41-DI_COSPRO" DECIMAL(9, 4)  NULL , 
+"41-DI_PREVTA" DECIMAL(9, 2)  NULL , 
+"43-ME_TOTCOST" DECIMAL(10, 2)  NULL , 
+"43-ME_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"43-ME_COSPRO" DECIMAL(9, 4)  NULL , 
+"43-ME_PREVTA" DECIMAL(9, 2)  NULL , 
+"44-MJ_TOTCOST" DECIMAL(10, 2)  NULL , 
+"44-MJ_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"44-MJ_COSPRO" DECIMAL(9, 4)  NULL , 
+"44-MJ_PREVTA" DECIMAL(9, 2)  NULL , 
+"45-SE_TOTCOST" DECIMAL(10, 2)  NULL , 
+"45-SE_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"45-SE_COSPRO" DECIMAL(9, 4)  NULL , 
+"45-SE_PREVTA" DECIMAL(9, 2)  NULL , 
+"46-GO_TOTCOST" DECIMAL(10, 2)  NULL , 
+"46-GO_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"46-GO_COSPRO" DECIMAL(9, 4)  NULL , 
+"46-GO_PREVTA" DECIMAL(9, 2)  NULL , 
+"47-CJ_TOTCOST" DECIMAL(10, 2)  NULL , 
+"47-CJ_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"47-CJ_COSPRO" DECIMAL(9, 4)  NULL , 
+"47-CJ_PREVTA" DECIMAL(9, 2)  NULL , 
+"48-MT_TOTCOST" DECIMAL(10, 2)  NULL , 
+"48-MT_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"48-MT_COSPRO" DECIMAL(9, 4)  NULL , 
+"48-MT_PREVTA" DECIMAL(9, 2)  NULL , 
+"99-TODOS_TOTCOST" DECIMAL(10, 2)  NULL , 
+"99-TODOS_EXISTENCIAS" DECIMAL(31, 0)  NULL , 
+"99-TODOS_COSPRO" DECIMAL(9, 4)  NULL , 
+"99-TODOS_PREVTA" DECIMAL(9, 2)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Oct 19 10:41:28 2022', "ActaValue_3" = 'Wed Oct 19 15:00:57 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_PIVOT_MAECOP::'84adf8dc-dd81-42a0-aed2-3403008c8908'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '558', "y" = '-934')
+GUID::'b73da38e-8993-4876-bfea-0e115420788f' READ TABLE DS_DB2_GER_VTAS.NEWINV.MAECOPALM OUTPUT(MAECOPALM)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'MAECOPALM', "ui_where_text" = 'MAECOPALM.ALM is not null
+', "x" = '1169', "y" = '-934')
+GUID::'54dcc998-8b7f-4797-affc-d1d2358abcf9' CREATE VIEW Query( CODIGO VARCHAR(17)  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'MAECOPALM.CODIGO') ,
+ GRUPO VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'MAECOPALM.GRUPO') ,
+ SGRUPO VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'MAECOPALM.SGRUPO') ,
+ DESCRI VARCHAR(20)  SET( "Description" = 'DESCRIPCION', "ui_mapping_text" = 'MAECOPALM.DESCRI') ,
+ ALM VARCHAR(8)  SET( "ui_mapping_text" = 'MAECOPALM.ALM') ,
+ TOTCOST DECIMAL(10, 2)  SET( "ui_mapping_text" = 'MAECOPALM.EXISTENCIAS*MAECOPALM.COSPRO') ,
+ EXISTENCIAS DECIMAL(31, 0)  SET( "ui_mapping_text" = 'MAECOPALM.EXISTENCIAS') ,
+ COSPRO DECIMAL(9, 4)  SET( "Description" = 'COSTO PROMEDIO', "ui_mapping_text" = 'MAECOPALM.COSPRO') ,
+ PREVTA DECIMAL(9, 2)  SET( "Description" = 'PRECIO VENTA', "ui_mapping_text" = 'MAECOPALM.PREVTA')  )
+ AS
+SELECT MAECOPALM.CODIGO, MAECOPALM.GRUPO, MAECOPALM.SGRUPO, MAECOPALM.DESCRI, MAECOPALM.ALM, (MAECOPALM.EXISTENCIAS * MAECOPALM.COSPRO), MAECOPALM.EXISTENCIAS, MAECOPALM.COSPRO, MAECOPALM.PREVTA FROM MAECOPALM  WHERE (MAECOPALM.ALM IS NOT  NULL )
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>272</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1868', "y" = '-902')
+GUID::'7a7be283-3d9e-4d3a-b712-2ec98de85759' CALL TRANSFORM Reverse_Pivot() INPUT(Query) OUTPUT(Reverse_Pivot( CODIGO VARCHAR(17)  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'MAECOPALM.CODIGO') ,
+ GRUPO VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'MAECOPALM.GRUPO') ,
+ SGRUPO VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'MAECOPALM.SGRUPO') ,
+ DESCRI VARCHAR(20)  SET( "Description" = 'DESCRIPCION', "ui_mapping_text" = 'MAECOPALM.DESCRI') ,
+ "01-LC_TOTCOST" DECIMAL(10, 2) ,
+ "01-LC_EXISTENCIAS" DECIMAL(31, 0) ,
+ "01-LC_COSPRO" DECIMAL(9, 4) ,
+ "01-LC_PREVTA" DECIMAL(9, 2) ,
+ "02-LG_TOTCOST" DECIMAL(10, 2) ,
+ "02-LG_EXISTENCIAS" DECIMAL(31, 0) ,
+ "02-LG_COSPRO" DECIMAL(9, 4) ,
+ "02-LG_PREVTA" DECIMAL(9, 2) ,
+ "03-ST_TOTCOST" DECIMAL(10, 2) ,
+ "03-ST_EXISTENCIAS" DECIMAL(31, 0) ,
+ "03-ST_COSPRO" DECIMAL(9, 4) ,
+ "03-ST_PREVTA" DECIMAL(9, 2) ,
+ "04-SM_TOTCOST" DECIMAL(10, 2) ,
+ "04-SM_EXISTENCIAS" DECIMAL(31, 0) ,
+ "04-SM_COSPRO" DECIMAL(9, 4) ,
+ "04-SM_PREVTA" DECIMAL(9, 2) ,
+ "05-LV_TOTCOST" DECIMAL(10, 2) ,
+ "05-LV_EXISTENCIAS" DECIMAL(31, 0) ,
+ "05-LV_COSPRO" DECIMAL(9, 4) ,
+ "05-LV_PREVTA" DECIMAL(9, 2) ,
+ "06-CO_TOTCOST" DECIMAL(10, 2) ,
+ "06-CO_EXISTENCIAS" DECIMAL(31, 0) ,
+ "06-CO_COSPRO" DECIMAL(9, 4) ,
+ "06-CO_PREVTA" DECIMAL(9, 2) ,
+ "07-SA_TOTCOST" DECIMAL(10, 2) ,
+ "07-SA_EXISTENCIAS" DECIMAL(31, 0) ,
+ "07-SA_COSPRO" DECIMAL(9, 4) ,
+ "07-SA_PREVTA" DECIMAL(9, 2) ,
+ "08-SG_TOTCOST" DECIMAL(10, 2) ,
+ "08-SG_EXISTENCIAS" DECIMAL(31, 0) ,
+ "08-SG_COSPRO" DECIMAL(9, 4) ,
+ "08-SG_PREVTA" DECIMAL(9, 2) ,
+ "09-SO_TOTCOST" DECIMAL(10, 2) ,
+ "09-SO_EXISTENCIAS" DECIMAL(31, 0) ,
+ "09-SO_COSPRO" DECIMAL(9, 4) ,
+ "09-SO_PREVTA" DECIMAL(9, 2) ,
+ "10-CD_TOTCOST" DECIMAL(10, 2) ,
+ "10-CD_EXISTENCIAS" DECIMAL(31, 0) ,
+ "10-CD_COSPRO" DECIMAL(9, 4) ,
+ "10-CD_PREVTA" DECIMAL(9, 2) ,
+ "21-MY_TOTCOST" DECIMAL(10, 2) ,
+ "21-MY_EXISTENCIAS" DECIMAL(31, 0) ,
+ "21-MY_COSPRO" DECIMAL(9, 4) ,
+ "21-MY_PREVTA" DECIMAL(9, 2) ,
+ "22-EX_TOTCOST" DECIMAL(10, 2) ,
+ "22-EX_EXISTENCIAS" DECIMAL(31, 0) ,
+ "22-EX_COSPRO" DECIMAL(9, 4) ,
+ "22-EX_PREVTA" DECIMAL(9, 2) ,
+ "23-AP_TOTCOST" DECIMAL(10, 2) ,
+ "23-AP_EXISTENCIAS" DECIMAL(31, 0) ,
+ "23-AP_COSPRO" DECIMAL(9, 4) ,
+ "23-AP_PREVTA" DECIMAL(9, 2) ,
+ "24-SS_TOTCOST" DECIMAL(10, 2) ,
+ "24-SS_EXISTENCIAS" DECIMAL(31, 0) ,
+ "24-SS_COSPRO" DECIMAL(9, 4) ,
+ "24-SS_PREVTA" DECIMAL(9, 2) ,
+ "25-CA_TOTCOST" DECIMAL(10, 2) ,
+ "25-CA_EXISTENCIAS" DECIMAL(31, 0) ,
+ "25-CA_COSPRO" DECIMAL(9, 4) ,
+ "25-CA_PREVTA" DECIMAL(9, 2) ,
+ "26-SY_TOTCOST" DECIMAL(10, 2) ,
+ "26-SY_EXISTENCIAS" DECIMAL(31, 0) ,
+ "26-SY_COSPRO" DECIMAL(9, 4) ,
+ "26-SY_PREVTA" DECIMAL(9, 2) ,
+ "27-US_TOTCOST" DECIMAL(10, 2) ,
+ "27-US_EXISTENCIAS" DECIMAL(31, 0) ,
+ "27-US_COSPRO" DECIMAL(9, 4) ,
+ "27-US_PREVTA" DECIMAL(9, 2) ,
+ "28-SL_TOTCOST" DECIMAL(10, 2) ,
+ "28-SL_EXISTENCIAS" DECIMAL(31, 0) ,
+ "28-SL_COSPRO" DECIMAL(9, 4) ,
+ "28-SL_PREVTA" DECIMAL(9, 2) ,
+ "29-TY_TOTCOST" DECIMAL(10, 2) ,
+ "29-TY_EXISTENCIAS" DECIMAL(31, 0) ,
+ "29-TY_COSPRO" DECIMAL(9, 4) ,
+ "29-TY_PREVTA" DECIMAL(9, 2) ,
+ "30-LO_TOTCOST" DECIMAL(10, 2) ,
+ "30-LO_EXISTENCIAS" DECIMAL(31, 0) ,
+ "30-LO_COSPRO" DECIMAL(9, 4) ,
+ "30-LO_PREVTA" DECIMAL(9, 2) ,
+ "32-CY_TOTCOST" DECIMAL(10, 2) ,
+ "32-CY_EXISTENCIAS" DECIMAL(31, 0) ,
+ "32-CY_COSPRO" DECIMAL(9, 4) ,
+ "32-CY_PREVTA" DECIMAL(9, 2) ,
+ "33-ZA_TOTCOST" DECIMAL(10, 2) ,
+ "33-ZA_EXISTENCIAS" DECIMAL(31, 0) ,
+ "33-ZA_COSPRO" DECIMAL(9, 4) ,
+ "33-ZA_PREVTA" DECIMAL(9, 2) ,
+ "34-S2_TOTCOST" DECIMAL(10, 2) ,
+ "34-S2_EXISTENCIAS" DECIMAL(31, 0) ,
+ "34-S2_COSPRO" DECIMAL(9, 4) ,
+ "34-S2_PREVTA" DECIMAL(9, 2) ,
+ "35-AH_TOTCOST" DECIMAL(10, 2) ,
+ "35-AH_EXISTENCIAS" DECIMAL(31, 0) ,
+ "35-AH_COSPRO" DECIMAL(9, 4) ,
+ "35-AH_PREVTA" DECIMAL(9, 2) ,
+ "36-S3_TOTCOST" DECIMAL(10, 2) ,
+ "36-S3_EXISTENCIAS" DECIMAL(31, 0) ,
+ "36-S3_COSPRO" DECIMAL(9, 4) ,
+ "36-S3_PREVTA" DECIMAL(9, 2) ,
+ "37-A2_TOTCOST" DECIMAL(10, 2) ,
+ "37-A2_EXISTENCIAS" DECIMAL(31, 0) ,
+ "37-A2_COSPRO" DECIMAL(9, 4) ,
+ "37-A2_PREVTA" DECIMAL(9, 2) ,
+ "38-M2_TOTCOST" DECIMAL(10, 2) ,
+ "38-M2_EXISTENCIAS" DECIMAL(31, 0) ,
+ "38-M2_COSPRO" DECIMAL(9, 4) ,
+ "38-M2_PREVTA" DECIMAL(9, 2) ,
+ "39-VC_TOTCOST" DECIMAL(10, 2) ,
+ "39-VC_EXISTENCIAS" DECIMAL(31, 0) ,
+ "39-VC_COSPRO" DECIMAL(9, 4) ,
+ "39-VC_PREVTA" DECIMAL(9, 2) ,
+ "40-SJ_TOTCOST" DECIMAL(10, 2) ,
+ "40-SJ_EXISTENCIAS" DECIMAL(31, 0) ,
+ "40-SJ_COSPRO" DECIMAL(9, 4) ,
+ "40-SJ_PREVTA" DECIMAL(9, 2) ,
+ "41-DI_TOTCOST" DECIMAL(10, 2) ,
+ "41-DI_EXISTENCIAS" DECIMAL(31, 0) ,
+ "41-DI_COSPRO" DECIMAL(9, 4) ,
+ "41-DI_PREVTA" DECIMAL(9, 2) ,
+ "43-ME_TOTCOST" DECIMAL(10, 2) ,
+ "43-ME_EXISTENCIAS" DECIMAL(31, 0) ,
+ "43-ME_COSPRO" DECIMAL(9, 4) ,
+ "43-ME_PREVTA" DECIMAL(9, 2) ,
+ "44-MJ_TOTCOST" DECIMAL(10, 2) ,
+ "44-MJ_EXISTENCIAS" DECIMAL(31, 0) ,
+ "44-MJ_COSPRO" DECIMAL(9, 4) ,
+ "44-MJ_PREVTA" DECIMAL(9, 2) ,
+ "45-SE_TOTCOST" DECIMAL(10, 2) ,
+ "45-SE_EXISTENCIAS" DECIMAL(31, 0) ,
+ "45-SE_COSPRO" DECIMAL(9, 4) ,
+ "45-SE_PREVTA" DECIMAL(9, 2) ,
+ "46-GO_TOTCOST" DECIMAL(10, 2) ,
+ "46-GO_EXISTENCIAS" DECIMAL(31, 0) ,
+ "46-GO_COSPRO" DECIMAL(9, 4) ,
+ "46-GO_PREVTA" DECIMAL(9, 2) ,
+ "47-CJ_TOTCOST" DECIMAL(10, 2) ,
+ "47-CJ_EXISTENCIAS" DECIMAL(31, 0) ,
+ "47-CJ_COSPRO" DECIMAL(9, 4) ,
+ "47-CJ_PREVTA" DECIMAL(9, 2) ,
+ "48-MT_TOTCOST" DECIMAL(10, 2) ,
+ "48-MT_EXISTENCIAS" DECIMAL(31, 0) ,
+ "48-MT_COSPRO" DECIMAL(9, 4) ,
+ "48-MT_PREVTA" DECIMAL(9, 2) ,
+ "99-TODOS_TOTCOST" DECIMAL(10, 2) ,
+ "99-TODOS_EXISTENCIAS" DECIMAL(31, 0) ,
+ "99-TODOS_COSPRO" DECIMAL(9, 4) ,
+ "99-TODOS_PREVTA" DECIMAL(9, 2)  )
+)
+SET("axis_column" = 'ALM', "axis_value1" = '01-LC', "axis_value10" = '10-CD', "axis_value11" = '21-MY', "axis_value12" = '22-EX', "axis_value13" = '23-AP', "axis_value14" = '24-SS', "axis_value15" = '25-CA', "axis_value16" = '26-SY', "axis_value17" = '27-US', "axis_value18" = '28-SL', "axis_value19" = '29-TY', "axis_value2" = '02-LG', "axis_value20" = '30-LO', "axis_value21" = '32-CY', "axis_value22" = '33-ZA', "axis_value23" = '34-S2', "axis_value24" = '35-AH', "axis_value25" = '36-S3', "axis_value26" = '37-A2', "axis_value27" = '38-M2', "axis_value28" = '39-VC', "axis_value29" = '40-SJ', "axis_value3" = '03-ST', "axis_value30" = '41-DI', "axis_value31" = '43-ME', "axis_value32" = '44-MJ', "axis_value33" = '45-SE', "axis_value34" = '46-GO', "axis_value35" = '47-CJ', "axis_value36" = '48-MT', "axis_value37" = '99-TODOS', "axis_value4" = '04-SM', "axis_value5" = '05-LV', "axis_value6" = '06-CO', "axis_value7" = '07-SA', "axis_value8" = '08-SG', "axis_value9" = '09-SO', "collision_resolution" = 'Abort', "nonpivot_column1" = 'CODIGO', "nonpivot_column2" = 'GRUPO', "nonpivot_column3" = 'SGRUPO', "nonpivot_column4" = 'DESCRI', "pivot_column1" = 'TOTCOST', "pivot_column2" = 'EXISTENCIAS', "pivot_column3" = 'COSPRO', "pivot_column4" = 'PREVTA', "pivot_column_prefix1" = '01-LC', "pivot_column_prefix10" = '10-CD', "pivot_column_prefix11" = '21-MY', "pivot_column_prefix12" = '22-EX', "pivot_column_prefix13" = '23-AP', "pivot_column_prefix14" = '24-SS', "pivot_column_prefix15" = '25-CA', "pivot_column_prefix16" = '26-SY', "pivot_column_prefix17" = '27-US', "pivot_column_prefix18" = '28-SL', "pivot_column_prefix19" = '29-TY', "pivot_column_prefix2" = '02-LG', "pivot_column_prefix20" = '30-LO', "pivot_column_prefix21" = '32-CY', "pivot_column_prefix22" = '33-ZA', "pivot_column_prefix23" = '34-S2', "pivot_column_prefix24" = '35-AH', "pivot_column_prefix25" = '36-S3', "pivot_column_prefix26" = '37-A2', "pivot_column_prefix27" = '38-M2', "pivot_column_prefix28" = '39-VC', "pivot_column_prefix29" = '40-SJ', "pivot_column_prefix3" = '03-ST', "pivot_column_prefix30" = '41-DI', "pivot_column_prefix31" = '43-ME', "pivot_column_prefix32" = '44-MJ', "pivot_column_prefix33" = '45-SE', "pivot_column_prefix34" = '46-GO', "pivot_column_prefix35" = '47-CJ', "pivot_column_prefix36" = '48-MT', "pivot_column_prefix37" = '99-TODOS', "pivot_column_prefix4" = '04-SM', "pivot_column_prefix5" = '05-LV', "pivot_column_prefix6" = '06-CO', "pivot_column_prefix7" = '07-SA', "pivot_column_prefix8" = '08-SG', "pivot_column_prefix9" = '09-SO', "source_is_sorted" = 'no', "total_axis_values" = '37');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'Reverse_Pivot', "x" = '2452', "y" = '-879')
+GUID::'803e24bc-978e-48da-b6ff-ee9dae365170' CREATE VIEW Query_1( CODIGO VARCHAR(17)  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'Reverse_Pivot.CODIGO') ,
+ GRUPO VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = 'Reverse_Pivot.GRUPO') ,
+ SGRUPO VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = 'Reverse_Pivot.SGRUPO') ,
+ DESCRI VARCHAR(20)  SET( "Description" = 'DESCRIPCION', "ui_mapping_text" = 'Reverse_Pivot.DESCRI') ,
+ "01-LC_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."01-LC_TOTCOST"') ,
+ "01-LC_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."01-LC_EXISTENCIAS"') ,
+ "01-LC_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."01-LC_COSPRO"') ,
+ "01-LC_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."01-LC_PREVTA"') ,
+ "02-LG_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."02-LG_TOTCOST"') ,
+ "02-LG_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."02-LG_EXISTENCIAS"') ,
+ "02-LG_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."02-LG_COSPRO"') ,
+ "02-LG_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."02-LG_PREVTA"') ,
+ "03-ST_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."03-ST_TOTCOST"') ,
+ "03-ST_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."03-ST_EXISTENCIAS"') ,
+ "03-ST_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."03-ST_COSPRO"') ,
+ "03-ST_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."03-ST_PREVTA"') ,
+ "04-SM_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."04-SM_TOTCOST"') ,
+ "04-SM_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."04-SM_EXISTENCIAS"') ,
+ "04-SM_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."04-SM_COSPRO"') ,
+ "04-SM_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."04-SM_PREVTA"') ,
+ "05-LV_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."05-LV_TOTCOST"') ,
+ "05-LV_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."05-LV_EXISTENCIAS"') ,
+ "05-LV_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."05-LV_COSPRO"') ,
+ "05-LV_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."05-LV_PREVTA"') ,
+ "06-CO_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."06-CO_TOTCOST"') ,
+ "06-CO_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."06-CO_EXISTENCIAS"') ,
+ "06-CO_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."06-CO_COSPRO"') ,
+ "06-CO_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."06-CO_PREVTA"') ,
+ "07-SA_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."07-SA_TOTCOST"') ,
+ "07-SA_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."07-SA_EXISTENCIAS"') ,
+ "07-SA_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."07-SA_COSPRO"') ,
+ "07-SA_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."07-SA_PREVTA"') ,
+ "08-SG_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."08-SG_TOTCOST"') ,
+ "08-SG_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."08-SG_EXISTENCIAS"') ,
+ "08-SG_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."08-SG_COSPRO"') ,
+ "08-SG_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."08-SG_PREVTA"') ,
+ "09-SO_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."09-SO_TOTCOST"') ,
+ "09-SO_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."09-SO_EXISTENCIAS"') ,
+ "09-SO_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."09-SO_COSPRO"') ,
+ "09-SO_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."09-SO_PREVTA"') ,
+ "10-CD_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."10-CD_TOTCOST"') ,
+ "10-CD_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."10-CD_EXISTENCIAS"') ,
+ "10-CD_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."10-CD_COSPRO"') ,
+ "10-CD_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."10-CD_PREVTA"') ,
+ "21-MY_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."21-MY_TOTCOST"') ,
+ "21-MY_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."21-MY_EXISTENCIAS"') ,
+ "21-MY_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."21-MY_COSPRO"') ,
+ "21-MY_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."21-MY_PREVTA"') ,
+ "22-EX_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."22-EX_TOTCOST"') ,
+ "22-EX_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."22-EX_EXISTENCIAS"') ,
+ "22-EX_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."22-EX_COSPRO"') ,
+ "22-EX_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."22-EX_PREVTA"') ,
+ "23-AP_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."23-AP_TOTCOST"') ,
+ "23-AP_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."23-AP_EXISTENCIAS"') ,
+ "23-AP_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."23-AP_COSPRO"') ,
+ "23-AP_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."23-AP_PREVTA"') ,
+ "24-SS_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."24-SS_TOTCOST"') ,
+ "24-SS_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."24-SS_EXISTENCIAS"') ,
+ "24-SS_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."24-SS_COSPRO"') ,
+ "24-SS_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."24-SS_PREVTA"') ,
+ "25-CA_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."25-CA_TOTCOST"') ,
+ "25-CA_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."25-CA_EXISTENCIAS"') ,
+ "25-CA_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."25-CA_COSPRO"') ,
+ "25-CA_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."25-CA_PREVTA"') ,
+ "26-SY_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."26-SY_TOTCOST"') ,
+ "26-SY_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."26-SY_EXISTENCIAS"') ,
+ "26-SY_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."26-SY_COSPRO"') ,
+ "26-SY_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."26-SY_PREVTA"') ,
+ "27-US_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."27-US_TOTCOST"') ,
+ "27-US_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."27-US_EXISTENCIAS"') ,
+ "27-US_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."27-US_COSPRO"') ,
+ "27-US_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."27-US_PREVTA"') ,
+ "28-SL_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."28-SL_TOTCOST"') ,
+ "28-SL_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."28-SL_EXISTENCIAS"') ,
+ "28-SL_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."28-SL_COSPRO"') ,
+ "28-SL_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."28-SL_PREVTA"') ,
+ "29-TY_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."29-TY_TOTCOST"') ,
+ "29-TY_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."29-TY_EXISTENCIAS"') ,
+ "29-TY_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."29-TY_COSPRO"') ,
+ "29-TY_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."29-TY_PREVTA"') ,
+ "30-LO_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."30-LO_TOTCOST"') ,
+ "30-LO_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."30-LO_EXISTENCIAS"') ,
+ "30-LO_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."30-LO_COSPRO"') ,
+ "30-LO_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."30-LO_PREVTA"') ,
+ "32-CY_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."32-CY_TOTCOST"') ,
+ "32-CY_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."32-CY_EXISTENCIAS"') ,
+ "32-CY_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."32-CY_COSPRO"') ,
+ "32-CY_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."32-CY_PREVTA"') ,
+ "33-ZA_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."33-ZA_TOTCOST"') ,
+ "33-ZA_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."33-ZA_EXISTENCIAS"') ,
+ "33-ZA_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."33-ZA_COSPRO"') ,
+ "33-ZA_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."33-ZA_PREVTA"') ,
+ "34-S2_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."34-S2_TOTCOST"') ,
+ "34-S2_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."34-S2_EXISTENCIAS"') ,
+ "34-S2_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."34-S2_COSPRO"') ,
+ "34-S2_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."34-S2_PREVTA"') ,
+ "35-AH_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."35-AH_TOTCOST"') ,
+ "35-AH_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."35-AH_EXISTENCIAS"') ,
+ "35-AH_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."35-AH_COSPRO"') ,
+ "35-AH_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."35-AH_PREVTA"') ,
+ "36-S3_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."36-S3_TOTCOST"') ,
+ "36-S3_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."36-S3_EXISTENCIAS"') ,
+ "36-S3_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."36-S3_COSPRO"') ,
+ "36-S3_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."36-S3_PREVTA"') ,
+ "37-A2_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."37-A2_TOTCOST"') ,
+ "37-A2_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."37-A2_EXISTENCIAS"') ,
+ "37-A2_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."37-A2_COSPRO"') ,
+ "37-A2_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."37-A2_PREVTA"') ,
+ "38-M2_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."38-M2_TOTCOST"') ,
+ "38-M2_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."38-M2_EXISTENCIAS"') ,
+ "38-M2_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."38-M2_COSPRO"') ,
+ "38-M2_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."38-M2_PREVTA"') ,
+ "39-VC_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."39-VC_TOTCOST"') ,
+ "39-VC_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."39-VC_EXISTENCIAS"') ,
+ "39-VC_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."39-VC_COSPRO"') ,
+ "39-VC_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."39-VC_PREVTA"') ,
+ "40-SJ_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."40-SJ_TOTCOST"') ,
+ "40-SJ_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."40-SJ_EXISTENCIAS"') ,
+ "40-SJ_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."40-SJ_COSPRO"') ,
+ "40-SJ_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."40-SJ_PREVTA"') ,
+ "41-DI_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."41-DI_TOTCOST"') ,
+ "41-DI_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."41-DI_EXISTENCIAS"') ,
+ "41-DI_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."41-DI_COSPRO"') ,
+ "41-DI_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."41-DI_PREVTA"') ,
+ "43-ME_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."43-ME_TOTCOST"') ,
+ "43-ME_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."43-ME_EXISTENCIAS"') ,
+ "43-ME_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."43-ME_COSPRO"') ,
+ "43-ME_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."43-ME_PREVTA"') ,
+ "44-MJ_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."44-MJ_TOTCOST"') ,
+ "44-MJ_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."44-MJ_EXISTENCIAS"') ,
+ "44-MJ_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."44-MJ_COSPRO"') ,
+ "44-MJ_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."44-MJ_PREVTA"') ,
+ "45-SE_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."45-SE_TOTCOST"') ,
+ "45-SE_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."45-SE_EXISTENCIAS"') ,
+ "45-SE_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."45-SE_COSPRO"') ,
+ "45-SE_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."45-SE_PREVTA"') ,
+ "46-GO_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."46-GO_TOTCOST"') ,
+ "46-GO_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."46-GO_EXISTENCIAS"') ,
+ "46-GO_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."46-GO_COSPRO"') ,
+ "46-GO_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."46-GO_PREVTA"') ,
+ "47-CJ_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."47-CJ_TOTCOST"') ,
+ "47-CJ_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."47-CJ_EXISTENCIAS"') ,
+ "47-CJ_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."47-CJ_COSPRO"') ,
+ "47-CJ_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."47-CJ_PREVTA"') ,
+ "48-MT_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."48-MT_TOTCOST"') ,
+ "48-MT_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."48-MT_EXISTENCIAS"') ,
+ "48-MT_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."48-MT_COSPRO"') ,
+ "48-MT_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."48-MT_PREVTA"') ,
+ "99-TODOS_TOTCOST" DECIMAL(10, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."99-TODOS_TOTCOST"') ,
+ "99-TODOS_EXISTENCIAS" DECIMAL(31, 0)  SET( "ui_mapping_text" = 'Reverse_Pivot."99-TODOS_EXISTENCIAS"') ,
+ "99-TODOS_COSPRO" DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Reverse_Pivot."99-TODOS_COSPRO"') ,
+ "99-TODOS_PREVTA" DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Reverse_Pivot."99-TODOS_PREVTA"') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Reverse_Pivot.CODIGO, Reverse_Pivot.GRUPO, Reverse_Pivot.SGRUPO, Reverse_Pivot.DESCRI, Reverse_Pivot."01-LC_TOTCOST", Reverse_Pivot."01-LC_EXISTENCIAS", Reverse_Pivot."01-LC_COSPRO", Reverse_Pivot."01-LC_PREVTA", Reverse_Pivot."02-LG_TOTCOST", Reverse_Pivot."02-LG_EXISTENCIAS", Reverse_Pivot."02-LG_COSPRO", Reverse_Pivot."02-LG_PREVTA", Reverse_Pivot."03-ST_TOTCOST", Reverse_Pivot."03-ST_EXISTENCIAS", Reverse_Pivot."03-ST_COSPRO", Reverse_Pivot."03-ST_PREVTA", Reverse_Pivot."04-SM_TOTCOST", Reverse_Pivot."04-SM_EXISTENCIAS", Reverse_Pivot."04-SM_COSPRO", Reverse_Pivot."04-SM_PREVTA", Reverse_Pivot."05-LV_TOTCOST", Reverse_Pivot."05-LV_EXISTENCIAS", Reverse_Pivot."05-LV_COSPRO", Reverse_Pivot."05-LV_PREVTA", Reverse_Pivot."06-CO_TOTCOST", Reverse_Pivot."06-CO_EXISTENCIAS", Reverse_Pivot."06-CO_COSPRO", Reverse_Pivot."06-CO_PREVTA", Reverse_Pivot."07-SA_TOTCOST", Reverse_Pivot."07-SA_EXISTENCIAS", Reverse_Pivot."07-SA_COSPRO", Reverse_Pivot."07-SA_PREVTA", Reverse_Pivot."08-SG_TOTCOST", Reverse_Pivot."08-SG_EXISTENCIAS", Reverse_Pivot."08-SG_COSPRO", Reverse_Pivot."08-SG_PREVTA", Reverse_Pivot."09-SO_TOTCOST", Reverse_Pivot."09-SO_EXISTENCIAS", Reverse_Pivot."09-SO_COSPRO", Reverse_Pivot."09-SO_PREVTA", Reverse_Pivot."10-CD_TOTCOST", Reverse_Pivot."10-CD_EXISTENCIAS", Reverse_Pivot."10-CD_COSPRO", Reverse_Pivot."10-CD_PREVTA", Reverse_Pivot."21-MY_TOTCOST", Reverse_Pivot."21-MY_EXISTENCIAS", Reverse_Pivot."21-MY_COSPRO", Reverse_Pivot."21-MY_PREVTA", Reverse_Pivot."22-EX_TOTCOST", Reverse_Pivot."22-EX_EXISTENCIAS", Reverse_Pivot."22-EX_COSPRO", Reverse_Pivot."22-EX_PREVTA", Reverse_Pivot."23-AP_TOTCOST", Reverse_Pivot."23-AP_EXISTENCIAS", Reverse_Pivot."23-AP_COSPRO", Reverse_Pivot."23-AP_PREVTA", Reverse_Pivot."24-SS_TOTCOST", Reverse_Pivot."24-SS_EXISTENCIAS", Reverse_Pivot."24-SS_COSPRO", Reverse_Pivot."24-SS_PREVTA", Reverse_Pivot."25-CA_TOTCOST", Reverse_Pivot."25-CA_EXISTENCIAS", Reverse_Pivot."25-CA_COSPRO", Reverse_Pivot."25-CA_PREVTA", Reverse_Pivot."26-SY_TOTCOST", Reverse_Pivot."26-SY_EXISTENCIAS", Reverse_Pivot."26-SY_COSPRO", Reverse_Pivot."26-SY_PREVTA", Reverse_Pivot."27-US_TOTCOST", Reverse_Pivot."27-US_EXISTENCIAS", Reverse_Pivot."27-US_COSPRO", Reverse_Pivot."27-US_PREVTA", Reverse_Pivot."28-SL_TOTCOST", Reverse_Pivot."28-SL_EXISTENCIAS", Reverse_Pivot."28-SL_COSPRO", Reverse_Pivot."28-SL_PREVTA", Reverse_Pivot."29-TY_TOTCOST", Reverse_Pivot."29-TY_EXISTENCIAS", Reverse_Pivot."29-TY_COSPRO", Reverse_Pivot."29-TY_PREVTA", Reverse_Pivot."30-LO_TOTCOST", Reverse_Pivot."30-LO_EXISTENCIAS", Reverse_Pivot."30-LO_COSPRO", Reverse_Pivot."30-LO_PREVTA", Reverse_Pivot."32-CY_TOTCOST", Reverse_Pivot."32-CY_EXISTENCIAS", Reverse_Pivot."32-CY_COSPRO", Reverse_Pivot."32-CY_PREVTA", Reverse_Pivot."33-ZA_TOTCOST", Reverse_Pivot."33-ZA_EXISTENCIAS", Reverse_Pivot."33-ZA_COSPRO", Reverse_Pivot."33-ZA_PREVTA", Reverse_Pivot."34-S2_TOTCOST", Reverse_Pivot."34-S2_EXISTENCIAS", Reverse_Pivot."34-S2_COSPRO", Reverse_Pivot."34-S2_PREVTA", Reverse_Pivot."35-AH_TOTCOST", Reverse_Pivot."35-AH_EXISTENCIAS", Reverse_Pivot."35-AH_COSPRO", Reverse_Pivot."35-AH_PREVTA", Reverse_Pivot."36-S3_TOTCOST", Reverse_Pivot."36-S3_EXISTENCIAS", Reverse_Pivot."36-S3_COSPRO", Reverse_Pivot."36-S3_PREVTA", Reverse_Pivot."37-A2_TOTCOST", Reverse_Pivot."37-A2_EXISTENCIAS", Reverse_Pivot."37-A2_COSPRO", Reverse_Pivot."37-A2_PREVTA", Reverse_Pivot."38-M2_TOTCOST", Reverse_Pivot."38-M2_EXISTENCIAS", Reverse_Pivot."38-M2_COSPRO", Reverse_Pivot."38-M2_PREVTA", Reverse_Pivot."39-VC_TOTCOST", Reverse_Pivot."39-VC_EXISTENCIAS", Reverse_Pivot."39-VC_COSPRO", Reverse_Pivot."39-VC_PREVTA", Reverse_Pivot."40-SJ_TOTCOST", Reverse_Pivot."40-SJ_EXISTENCIAS", Reverse_Pivot."40-SJ_COSPRO", Reverse_Pivot."40-SJ_PREVTA", Reverse_Pivot."41-DI_TOTCOST", Reverse_Pivot."41-DI_EXISTENCIAS", Reverse_Pivot."41-DI_COSPRO", Reverse_Pivot."41-DI_PREVTA", Reverse_Pivot."43-ME_TOTCOST", Reverse_Pivot."43-ME_EXISTENCIAS", Reverse_Pivot."43-ME_COSPRO", Reverse_Pivot."43-ME_PREVTA", Reverse_Pivot."44-MJ_TOTCOST", Reverse_Pivot."44-MJ_EXISTENCIAS", Reverse_Pivot."44-MJ_COSPRO", Reverse_Pivot."44-MJ_PREVTA", Reverse_Pivot."45-SE_TOTCOST", Reverse_Pivot."45-SE_EXISTENCIAS", Reverse_Pivot."45-SE_COSPRO", Reverse_Pivot."45-SE_PREVTA", Reverse_Pivot."46-GO_TOTCOST", Reverse_Pivot."46-GO_EXISTENCIAS", Reverse_Pivot."46-GO_COSPRO", Reverse_Pivot."46-GO_PREVTA", Reverse_Pivot."47-CJ_TOTCOST", Reverse_Pivot."47-CJ_EXISTENCIAS", Reverse_Pivot."47-CJ_COSPRO", Reverse_Pivot."47-CJ_PREVTA", Reverse_Pivot."48-MT_TOTCOST", Reverse_Pivot."48-MT_EXISTENCIAS", Reverse_Pivot."48-MT_COSPRO", Reverse_Pivot."48-MT_PREVTA", Reverse_Pivot."99-TODOS_TOTCOST", Reverse_Pivot."99-TODOS_EXISTENCIAS", Reverse_Pivot."99-TODOS_COSPRO", Reverse_Pivot."99-TODOS_PREVTA", sysdate() FROM Reverse_Pivot 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>425</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '3199', "y" = '-842')
+GUID::'d4b894f9-782b-43e7-b368-1f5cfd300166' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAECOP_PIVOT INPUT(Query_1)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

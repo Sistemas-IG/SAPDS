@@ -1,0 +1,174 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 26 11:03:49 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI::'5de09bd1-a168-4f49-b162-dfe39041c404' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8AD39D72CEF5E881EEB766B12119817346211F651930234873B8D96BEDCA3245FFFB27DFD3910089C7C0B9FC6BF</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E82E7A53E978B28FD3901028AF7DF46377DF6AB6C1F62CF8930B6E1F3D21F4A093BDF1A45B26F5BD439A2A8B61AF</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8EBAC23D0E5393E27803655ED7B2B35031585561B9D1CD36305A87A0D142A76C4144399186801EDF01752C27FD060B4C3CFBCAFFFA5E4</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '20577' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '20577' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '0 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Thu Aug 10 17:48:35 2023' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Thu Aug 10 17:49:38 2023' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Thu Aug 10 17:49:09 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DWH.CANTIDADES_SUGERIDAS(ID_PAIS INT  NULL  SET("ui_mapping_text" = 'TBLCANSUG.ID_PAIS'), 
+CODIGO VARCHAR(17)  NULL  SET("Description" = 'PRODUCTO', "ui_mapping_text" = 'TBLCANSUG.CODIGOPROD'), 
+ID_ALMACEN VARCHAR(2)  NULL  SET("Description" = 'ALMACEN', "ui_mapping_text" = 'TBLCANSUG.CODALMACEN'), 
+CANMINSUG DECIMAL(5, 0)  NULL  SET("Description" = 'CANTIDAD MINIMA SUGERIDA', "ui_mapping_text" = 'TBLCANSUG.CANMINSUG'), 
+CANMAXSUG DECIMAL(5, 0)  NULL  SET("Description" = 'CANTIDAD MAXIMA SUGERIDA', "ui_mapping_text" = 'TBLCANSUG.CANMAXSUG'), 
+STATUS VARCHAR(1)  NULL  SET("Description" = 'STATUS I/N/E', "ui_mapping_text" = 'TBLCANSUG.STATUSCS'), 
+CATEGORIA VARCHAR(1)  NULL  SET("Description" = 'CATEGORIA R/L', "ui_mapping_text" = 'TBLCANSUG.CATEGORIA'), 
+USUARIO_INCLUSION VARCHAR(10)  NULL  SET("Description" = 'USUARIO INCLUIDO', "ui_mapping_text" = 'TBLCANSUG.USUARIOINC'), 
+FECHA_INCLUSION DATETIME(9)  NULL  SET("Description" = 'FECHA/HORA INCLUIDO', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORAINC'), 
+USUARIO_NORMAL VARCHAR(10)  NULL  SET("Description" = 'USUARIO NORMAL', "ui_mapping_text" = 'TBLCANSUG.USUARIONOR'), 
+FECHA_NORMAL DATETIME(9)  NULL  SET("Description" = 'FECHA/HORA NORMAL', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORANOR'), 
+USUARIO_EXCLUSION VARCHAR(10)  NULL  SET("Description" = 'USUARIO EXCLUIDO', "ui_mapping_text" = 'TBLCANSUG.USUARIOEXC'), 
+FECHA_EXCLUSION DATETIME(9)  NULL  SET("Description" = 'FECHA/HORA EXCLUIDO', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORAEXC'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHA_CARGA_DWH')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu Aug 10 17:49:34 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '20577' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '20577' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Thu Aug 10 16:32:41 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.STG.TBLCANSUG(ID_PAIS INT  NULL  SET("ui_mapping_text" = '1'), 
+CODIGOPROD VARCHAR(17)  NOT NULL  SET("Description" = 'PRODUCTO'), 
+CODALMACEN VARCHAR(2)  NOT NULL  SET("Description" = 'ALMACEN'), 
+CANMINSUG DECIMAL(5, 0)  NOT NULL  SET("Description" = 'CANTIDAD MINIMA SUGERIDA'), 
+CANMAXSUG DECIMAL(5, 0)  NOT NULL  SET("Description" = 'CANTIDAD MAXIMA SUGERIDA'), 
+STATUSCS VARCHAR(1)  NOT NULL  SET("Description" = 'STATUS I/N/E'), 
+CATEGORIA VARCHAR(1)  NOT NULL  SET("Description" = 'CATEGORIA R/L'), 
+USUARIOINC VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INCLUIDO'), 
+FECHORAINC DATETIME(6)  NOT NULL  SET("Description" = 'FECHA/HORA INCLUIDO', "Native Type" = 'DATETIME2'), 
+REFERENINC VARCHAR(10)  NOT NULL  SET("Description" = 'REFERENCIA INCLUIDO'), 
+DISPOSIINC VARCHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO INCLUIDO'), 
+USUARIONOR VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO NORMAL'), 
+FECHORANOR DATETIME(6)  NOT NULL  SET("Description" = 'FECHA/HORA NORMAL', "Native Type" = 'DATETIME2'), 
+REFERENNOR VARCHAR(10)  NOT NULL  SET("Description" = 'REFERENCIA NORMAL'), 
+DISPOSINOR VARCHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO NORMAL'), 
+USUARIOEXC VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO EXCLUIDO'), 
+FECHORAEXC DATETIME(6)  NOT NULL  SET("Description" = 'FECHA/HORA EXCLUIDO', "Native Type" = 'DATETIME2'), 
+REFERENEXC VARCHAR(10)  NOT NULL  SET("Description" = 'REFERENCIA EXCLUIDO'), 
+DISPOSIEXC VARCHAR(10)  NOT NULL  SET("Description" = 'DISPOSITIVO EXCLUIDO'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'STG')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Aug 10 16:33:10 2023', "ActaValue_3" = 'Thu Aug 10 17:48:35 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_CANTIDADES_SUGERIDAS::'4101ad51-8624-4fc9-93fc-2d2f0fe76daa'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '37', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '54', "x" = '519', "y" = '-779')
+GUID::'c5628c65-fdd3-49aa-a6eb-21e0c80b5df1' READ TABLE DS_SQL_SERVER_CDD_BI.STG.TBLCANSUG OUTPUT(TBLCANSUG)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '37', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '179', "Input_Width_Name" = '272', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '54', "ui_acta_from_schema_0" = 'TBLCANSUG', "ui_display_name" = 'QRY_CRG_CANTIDADES_SUGERIDAS', "x" = '1087', "y" = '-779')
+GUID::'2fdbf7d9-1914-4889-baf4-780e00882a9d' CREATE VIEW QRY_CRG_CANTIDADES_SUGERIDAS( ID_PAIS INT  SET( "ui_mapping_text" = 'TBLCANSUG.ID_PAIS') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'PRODUCTO', "ui_mapping_text" = 'TBLCANSUG.CODIGOPROD') ,
+ ID_ALMACEN VARCHAR(2)  SET( "Description" = 'ALMACEN', "ui_mapping_text" = 'TBLCANSUG.CODALMACEN') ,
+ CANMINSUG DECIMAL(5, 0)  SET( "Description" = 'CANTIDAD MINIMA SUGERIDA', "ui_mapping_text" = 'TBLCANSUG.CANMINSUG') ,
+ CANMAXSUG DECIMAL(5, 0)  SET( "Description" = 'CANTIDAD MAXIMA SUGERIDA', "ui_mapping_text" = 'TBLCANSUG.CANMAXSUG') ,
+ STATUS VARCHAR(1)  SET( "Description" = 'STATUS I/N/E', "ui_mapping_text" = 'TBLCANSUG.STATUSCS') ,
+ CATEGORIA VARCHAR(1)  SET( "Description" = 'CATEGORIA R/L', "ui_mapping_text" = 'TBLCANSUG.CATEGORIA') ,
+ USUARIO_INCLUSION VARCHAR(10)  SET( "Description" = 'USUARIO INCLUIDO', "ui_mapping_text" = 'TBLCANSUG.USUARIOINC') ,
+ FECHA_INCLUSION DATETIME(9)  SET( "Description" = 'FECHA/HORA INCLUIDO', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORAINC') ,
+ USUARIO_NORMAL VARCHAR(10)  SET( "Description" = 'USUARIO NORMAL', "ui_mapping_text" = 'TBLCANSUG.USUARIONOR') ,
+ FECHA_NORMAL DATETIME(9)  SET( "Description" = 'FECHA/HORA NORMAL', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORANOR') ,
+ USUARIO_EXCLUSION VARCHAR(10)  SET( "Description" = 'USUARIO EXCLUIDO', "ui_mapping_text" = 'TBLCANSUG.USUARIOEXC') ,
+ FECHA_EXCLUSION DATETIME(9)  SET( "Description" = 'FECHA/HORA EXCLUIDO', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHORAEXC') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'TBLCANSUG.FECHA_CARGA_DWH')  )
+ AS
+SELECT TBLCANSUG.ID_PAIS, TBLCANSUG.CODIGOPROD, TBLCANSUG.CODALMACEN, TBLCANSUG.CANMINSUG, TBLCANSUG.CANMAXSUG, TBLCANSUG.STATUSCS, TBLCANSUG.CATEGORIA, TBLCANSUG.USUARIOINC, TBLCANSUG.FECHORAINC, TBLCANSUG.USUARIONOR, TBLCANSUG.FECHORANOR, TBLCANSUG.USUARIOEXC, TBLCANSUG.FECHORAEXC, TBLCANSUG.FECHA_CARGA_DWH FROM TBLCANSUG 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '37', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '54', "ui_display_name" = 'CANTIDADES_SUGERIDAS(DS_SQL_SERVER_CDD_BI.DWH)', "x" = '1709', "y" = '-779')
+GUID::'34249c90-7267-4d72-b1cf-f0abb37f1f24' LOAD TABLE DS_SQL_SERVER_CDD_BI.DWH.CANTIDADES_SUGERIDAS INPUT(QRY_CRG_CANTIDADES_SUGERIDAS)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_CDD_BI_DWH_CANTIDADES_SUGERIDAS.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

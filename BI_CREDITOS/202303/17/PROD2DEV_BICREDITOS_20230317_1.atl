@@ -1,0 +1,845 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E88DA93D4A26D77CA77755F372BF715C241CB540DC092CC3F5D2B3DBE3FC578012AE3D9622AC183F0DA83346475701E2</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ODS::'4a76885e-ae42-460a-99ff-e7767746a3bd' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8255D1458BF7C84DEFCD8A8A4A48FB9F7D4A40F87BB7B9DB605F4DF6E93BD5101830979B9243099EFBD9A4819FE</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8FF4D8E7870B4840F8B8A4B4FF0EFF9143FE79138CEC93C2C696BB2540D1C6FCC57845536ED9B78870B78463DD5</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E819C4F1E01822127DF1A1374E6DC48ABE2C0DE5099EAEA2F4670B6CE2AB974F4CA7519AAA790D7CE4D8D5B3C655DB1A3B368E88C4D549</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_ODS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ODS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8CA2EEF072B797A55790693E4670A67CC946703DEC9346696F3E5FEA3F8D25CF3031CE441B6C2DEE572573DDC33</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8420E8C6AF0BDFFAFA752699418C32136E40FC04DE27441406A5C1B6121ADA28ECDC32CEFF92CBC864A0AF1F963</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E81BA14AA512D178AB1DFE3CAFC15BAEF4F18163752C944EAB6CEAC07D8FDD92C0212D2890D4655563BFB1532B8EF33F8D4673901FBD61</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Mar 17 11:06:26 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '3317269' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '3317269' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '6 Minutes and 16 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Tue Jan 31 09:09:32 2023' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Tue Jan 31 12:28:37 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCDOCA01(CODALM DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod de Almacen'), 
+CODCTE VARCHAR(4)  NOT NULL  SET("Description" = 'Codigo de Cliente'), 
+CODTAL VARCHAR(4)  NOT NULL  SET("Description" = 'Codigo de Taller'), 
+NUMDOC DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero de Docto'), 
+FECDOC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Docto'), 
+FECVTO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Vence Docto'), 
+HORSIS DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora del Sistema'), 
+CODTRA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Transaccion'), 
+NUMCPT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Comprobante'), 
+CODVEN VARCHAR(4)  NOT NULL  SET("Description" = 'Cod de Vendedor'), 
+TIPDOC VARCHAR(1)  NOT NULL  SET("Description" = 'Tipo de Docto'), 
+TIPMOV VARCHAR(1)  NOT NULL  SET("Description" = 'Tipo de Movto'), 
+TIPPAG VARCHAR(1)  NOT NULL  SET("Description" = 'Forma de Pago'), 
+SUPPTO VARCHAR(1)  NOT NULL  SET("Description" = 'Super Puntos'), 
+VLRPTO DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Vlr de Super Puntos'), 
+CODTDO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Tipo de Docto'), 
+CODCOM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Cabecera o Movto'), 
+CARABO VARCHAR(1)  NOT NULL  SET("Description" = 'Cod Cargo o Abono'), 
+VLRORI DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Origen'), 
+VLRMOV DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Movto'), 
+VLRCAR DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Cargos'), 
+VLRABO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Abonos'), 
+SDOACT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Saldo Actual'), 
+DIANTG DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Dias de Antiguedad'), 
+OBSERV VARCHAR(30)  NOT NULL  SET("Description" = 'Observaciones'), 
+NUMRDV DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Recibo Devol'), 
+CODERR DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Error'), 
+CODANU VARCHAR(1)  NOT NULL  SET("Description" = 'Cod de Anulado'), 
+CODAUX DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Cod de Auxiliar'), 
+DIACRE DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Dias de Crédito Clte'), 
+FECCIE DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Cierre'), 
+FLGCIE DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flg Pasado Historico'), 
+MESCIE DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Mes de Cierre'), 
+ANOCIE DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Ano de Cierre'), 
+DOCANA DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Num Docto Analisis'), 
+FECANA DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Docto Analisis'), 
+CODCCR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod C Costo Reporte'), 
+FECCOR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Corte'), 
+NUMREP DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Reporte'), 
+HORREP DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora del Reporte'), 
+USRCAJ VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario de Cajera'), 
+CODPGO DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Codigo de Pago'), 
+FLGINT DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag Pago de Interes'), 
+CODACC DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod de Accion'), 
+CODATR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Almacen Transac'), 
+FLGSTA DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Flag de Status Reg'), 
+NUMRCJ DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Recibo Caja'), 
+IDEPLA VARCHAR(2)  NOT NULL  SET("Description" = 'Identif de Planilla'), 
+CODINS DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Institucion'), 
+CODDTO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Descuento'), 
+NUMREF VARCHAR(15)  NOT NULL  SET("Description" = 'Num Refer Prestamo'), 
+CODUEP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Unico Empleado'), 
+ANOPLA DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Año de Planilla'), 
+MESPLA DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Mes de Planilla'), 
+FECINI DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fech Inicio Planilla'), 
+FECFIN DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fech Final Planilla'), 
+VLRCUO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor de Cuota'), 
+VLRDTO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota de Descto'), 
+CODACO VARCHAR(4)  NOT NULL  SET("Description" = 'Cod de Acoesur'), 
+PORCUO DECIMAL(5, 2)  NOT NULL  SET("Description" = '% Cuota Descontada'), 
+CODNDT DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Cod No Descto Cuota'), 
+FECIDT DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Descto'), 
+CODBCO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Codigo de Banco'), 
+CORCBC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Corr Cuenta Banco'), 
+CTABCO VARCHAR(20)  NOT NULL  SET("Description" = 'Numero Cuenta Banco'), 
+FECLIQ DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Liquidacion'), 
+NUMLIQ DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Numero Liquidacion'), 
+REFLIQ DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Refer o Autorizacion'), 
+NOTREM DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Nota Remision'), 
+ORDCPA VARCHAR(15)  NOT NULL  SET("Description" = 'Numero Orden Compra'), 
+FLGRES DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Flag reg Reservado'), 
+NUMCOT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero de Cotizacion'), 
+LOTPGR DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Lote del Pagare'), 
+CODPLN DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Plan del Crédito'), 
+NUMCUO DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Numero de Cuota'), 
+PLZMES DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Plazo en Meses'), 
+TASINT DECIMAL(5, 2)  NOT NULL  SET("Description" = 'Tasa de Interes'), 
+ORICAP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Origen Capital'), 
+ORIINT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Origen Interes'), 
+CUOPGO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota de Pago'), 
+CUOCAP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota Capital'), 
+CUOINT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota Interes'), 
+INTREA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes Real'), 
+INTNPG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes No Pagad'), 
+INTMOR DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes Mora'), 
+NUMSEM DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Numero Semana de Año'), 
+CTEREF VARCHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Refer'), 
+ALMREF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Almacen Refer'), 
+DOCREF DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Docto Refer'), 
+FECREF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Docto Refer'), 
+HORREF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Docto Refer'), 
+TRAREF DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Transac Refer'), 
+CPTREF DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Compbte Refer'), 
+VLRREF DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Movto Refer'), 
+CODCTEO VARCHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Origen'), 
+CODCTED VARCHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Destino'), 
+CODBCO1 DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Codigo de Banco'), 
+INIBCO1 VARCHAR(3)  NOT NULL  SET("Description" = 'Inic de Bco Contable'), 
+CORCBC1 DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Corr Cuenta Banco'), 
+CTABCO1 VARCHAR(20)  NOT NULL  SET("Description" = 'Numero Cuenta Banco'), 
+FECIPG DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Docto Pago'), 
+VLRIPG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Docto de Pago'), 
+NUMIPG DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Numero de Docto Pago'), 
+NUMTAR DECIMAL(16, 0)  NOT NULL  SET("Description" = 'Numero de Tarjeta'), 
+CODPAI DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Pais'), 
+CODCIA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Compania'), 
+FECPAR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Partida'), 
+NUMPAR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Numero de Partida'), 
+CORPAR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Correl Reg Partida'), 
+CTACON VARCHAR(12)  NOT NULL  SET("Description" = 'Cuenta Contable'), 
+CODCCO VARCHAR(8)  NOT NULL  SET("Description" = 'Cod Centro Costo'), 
+TIPPAR DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Tipo de Partida'), 
+VLRPCN DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Partida'), 
+VLRPCJ DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Cajera'), 
+VLRPPL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Planilla'), 
+VLRPRF DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Refactura'), 
+VLRBRU DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Bruto'), 
+VLRGRA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Gravado'), 
+VLRDTG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Gravado'), 
+VLRIVA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Iva'), 
+VLRIVD DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Iva Descto'), 
+VLREXE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Exento'), 
+VLRDTE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Exentas'), 
+VLRIDE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Iva Descto Exe'), 
+VLREXP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Exportacion'), 
+VLRDEX DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Export'), 
+VLRFLE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Fletes Export'), 
+VLRGTO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Gastos Export'), 
+VLRSEG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Seguros Export'), 
+VLROT1 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Export'), 
+VLRREN DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Renta'), 
+VLRRET DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Retencion'), 
+VLRPER DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Percepcion'), 
+VLRIMP1 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Impto 1'), 
+VLRIMP2 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Impto 2'), 
+VLRNSU DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr No Sujeta'), 
+VLRNET DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Neto del Docto'), 
+VLR001 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 1'), 
+VLR002 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 2'), 
+FLG001 DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag 1'), 
+FLG002 DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag 2'), 
+COD001 DECIMAL(10, 0)  NOT NULL  SET("Description" = 'Cod 1'), 
+COD002 DECIMAL(10, 0)  NOT NULL  SET("Description" = 'Cod 2'), 
+DAT001 VARCHAR(10)  NOT NULL  SET("Description" = 'Dato 1'), 
+DAT002 VARCHAR(10)  NOT NULL  SET("Description" = 'Dato 2'), 
+FEC001 DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 1'), 
+FEC002 DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 2'), 
+USRCRE VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario que Creo'), 
+FECCRE DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Creado'), 
+HORCRE DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora de Creado'), 
+DEVCRE VARCHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creo'), 
+PRGCRE VARCHAR(10)  NOT NULL  SET("Description" = 'Programa Creo'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Movto de Doctos de Auxiliares' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Jan 31 12:28:37 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.CCDOCA01(CODALM DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod de Almacen'), 
+CODCTE CHAR(4)  NOT NULL  SET("Description" = 'Codigo de Cliente'), 
+CODTAL CHAR(4)  NOT NULL  SET("Description" = 'Codigo de Taller'), 
+NUMDOC DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero de Docto'), 
+FECDOC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Docto'), 
+FECVTO DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Vence Docto'), 
+HORSIS DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora del Sistema'), 
+CODTRA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Transaccion'), 
+NUMCPT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Comprobante'), 
+CODVEN CHAR(4)  NOT NULL  SET("Description" = 'Cod de Vendedor'), 
+TIPDOC CHAR(1)  NOT NULL  SET("Description" = 'Tipo de Docto'), 
+TIPMOV CHAR(1)  NOT NULL  SET("Description" = 'Tipo de Movto'), 
+TIPPAG CHAR(1)  NOT NULL  SET("Description" = 'Forma de Pago'), 
+SUPPTO CHAR(1)  NOT NULL  SET("Description" = 'Super Puntos'), 
+VLRPTO DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Vlr de Super Puntos'), 
+CODTDO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Tipo de Docto'), 
+CODCOM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Cabecera o Movto'), 
+CARABO CHAR(1)  NOT NULL  SET("Description" = 'Cod Cargo o Abono'), 
+VLRORI DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Origen'), 
+VLRMOV DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Movto'), 
+VLRCAR DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Cargos'), 
+VLRABO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Abonos'), 
+SDOACT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Saldo Actual'), 
+DIANTG DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Dias de Antiguedad'), 
+OBSERV CHAR(30)  NOT NULL  SET("Description" = 'Observaciones'), 
+NUMRDV DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Recibo Devol'), 
+CODERR DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Error'), 
+CODANU CHAR(1)  NOT NULL  SET("Description" = 'Cod de Anulado'), 
+CODAUX DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Cod de Auxiliar'), 
+DIACRE DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Dias de Crédito Clte'), 
+FECCIE DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Cierre'), 
+FLGCIE DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flg Pasado Historico'), 
+MESCIE DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Mes de Cierre'), 
+ANOCIE DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Ano de Cierre'), 
+DOCANA DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Num Docto Analisis'), 
+FECANA DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Docto Analisis'), 
+CODCCR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod C Costo Reporte'), 
+FECCOR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Corte'), 
+NUMREP DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Reporte'), 
+HORREP DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora del Reporte'), 
+USRCAJ CHAR(10)  NOT NULL  SET("Description" = 'Usuario de Cajera'), 
+CODPGO DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Codigo de Pago'), 
+FLGINT DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag Pago de Interes'), 
+CODACC DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod de Accion'), 
+CODATR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Almacen Transac'), 
+FLGSTA DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Flag de Status Reg'), 
+NUMRCJ DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Recibo Caja'), 
+IDEPLA CHAR(2)  NOT NULL  SET("Description" = 'Identif de Planilla'), 
+CODINS DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Institucion'), 
+CODDTO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Descuento'), 
+NUMREF CHAR(15)  NOT NULL  SET("Description" = 'Num Refer Prestamo'), 
+CODUEP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Unico Empleado'), 
+ANOPLA DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Año de Planilla'), 
+MESPLA DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Mes de Planilla'), 
+FECINI DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fech Inicio Planilla'), 
+FECFIN DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fech Final Planilla'), 
+VLRCUO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor de Cuota'), 
+VLRDTO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota de Descto'), 
+CODACO CHAR(4)  NOT NULL  SET("Description" = 'Cod de Acoesur'), 
+PORCUO DECIMAL(5, 2)  NOT NULL  SET("Description" = '% Cuota Descontada'), 
+CODNDT DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Cod No Descto Cuota'), 
+FECIDT DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Inicio Descto'), 
+CODBCO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Codigo de Banco'), 
+CORCBC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Corr Cuenta Banco'), 
+CTABCO CHAR(20)  NOT NULL  SET("Description" = 'Numero Cuenta Banco'), 
+FECLIQ DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Liquidacion'), 
+NUMLIQ DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Numero Liquidacion'), 
+REFLIQ DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Refer o Autorizacion'), 
+NOTREM DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Nota Remision'), 
+ORDCPA CHAR(15)  NOT NULL  SET("Description" = 'Numero Orden Compra'), 
+FLGRES DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Flag reg Reservado'), 
+NUMCOT DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero de Cotizacion'), 
+LOTPGR DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Lote del Pagare'), 
+CODPLN DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Plan del Crédito'), 
+NUMCUO DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Numero de Cuota'), 
+PLZMES DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Plazo en Meses'), 
+TASINT DECIMAL(5, 2)  NOT NULL  SET("Description" = 'Tasa de Interes'), 
+ORICAP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Origen Capital'), 
+ORIINT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Origen Interes'), 
+CUOPGO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota de Pago'), 
+CUOCAP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota Capital'), 
+CUOINT DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Cuota Interes'), 
+INTREA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes Real'), 
+INTNPG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes No Pagad'), 
+INTMOR DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Interes Mora'), 
+NUMSEM DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Numero Semana de Año'), 
+CTEREF CHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Refer'), 
+ALMREF DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Almacen Refer'), 
+DOCREF DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Docto Refer'), 
+FECREF DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Docto Refer'), 
+HORREF DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Docto Refer'), 
+TRAREF DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Transac Refer'), 
+CPTREF DECIMAL(9, 0)  NOT NULL  SET("Description" = 'Numero Compbte Refer'), 
+VLRREF DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Movto Refer'), 
+CODCTEO CHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Origen'), 
+CODCTED CHAR(4)  NOT NULL  SET("Description" = 'Cod Cliente Destino'), 
+CODBCO1 DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Codigo de Banco'), 
+INIBCO1 CHAR(3)  NOT NULL  SET("Description" = 'Inic de Bco Contable'), 
+CORCBC1 DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Corr Cuenta Banco'), 
+CTABCO1 CHAR(20)  NOT NULL  SET("Description" = 'Numero Cuenta Banco'), 
+FECIPG DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Docto Pago'), 
+VLRIPG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Docto de Pago'), 
+NUMIPG DECIMAL(15, 0)  NOT NULL  SET("Description" = 'Numero de Docto Pago'), 
+NUMTAR DECIMAL(16, 0)  NOT NULL  SET("Description" = 'Numero de Tarjeta'), 
+CODPAI DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Pais'), 
+CODCIA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Compania'), 
+FECPAR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Partida'), 
+NUMPAR DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Numero de Partida'), 
+CORPAR DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Correl Reg Partida'), 
+CTACON CHAR(12)  NOT NULL  SET("Description" = 'Cuenta Contable'), 
+CODCCO CHAR(8)  NOT NULL  SET("Description" = 'Cod Centro Costo'), 
+TIPPAR DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Tipo de Partida'), 
+VLRPCN DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Partida'), 
+VLRPCJ DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Cajera'), 
+VLRPPL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Planilla'), 
+VLRPRF DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Pend Refactura'), 
+VLRBRU DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Bruto'), 
+VLRGRA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Gravado'), 
+VLRDTG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Gravado'), 
+VLRIVA DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Iva'), 
+VLRIVD DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Iva Descto'), 
+VLREXE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Exento'), 
+VLRDTE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Exentas'), 
+VLRIDE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Iva Descto Exe'), 
+VLREXP DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Exportacion'), 
+VLRDEX DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Descto Export'), 
+VLRFLE DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Fletes Export'), 
+VLRGTO DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Gastos Export'), 
+VLRSEG DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Seguros Export'), 
+VLROT1 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Export'), 
+VLRREN DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Renta'), 
+VLRRET DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Retencion'), 
+VLRPER DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr de Percepcion'), 
+VLRIMP1 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Impto 1'), 
+VLRIMP2 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Otros Impto 2'), 
+VLRNSU DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr No Sujeta'), 
+VLRNET DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Vlr Neto del Docto'), 
+VLR001 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 1'), 
+VLR002 DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 2'), 
+FLG001 DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag 1'), 
+FLG002 DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Flag 2'), 
+COD001 DECIMAL(10, 0)  NOT NULL  SET("Description" = 'Cod 1'), 
+COD002 DECIMAL(10, 0)  NOT NULL  SET("Description" = 'Cod 2'), 
+DAT001 CHAR(10)  NOT NULL  SET("Description" = 'Dato 1'), 
+DAT002 CHAR(10)  NOT NULL  SET("Description" = 'Dato 2'), 
+FEC001 DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 1'), 
+FEC002 DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 2'), 
+USRCRE CHAR(10)  NOT NULL  SET("Description" = 'Usuario que Creo'), 
+FECCRE DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha de Creado'), 
+HORCRE DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora de Creado'), 
+DEVCRE CHAR(10)  NOT NULL  SET("Description" = 'Dispositivo Creo'), 
+PRGCRE CHAR(10)  NOT NULL  SET("Description" = 'Programa Creo')) 
+CREATE_INDEX "NEWINV.CCDOCA01" ON (CODALM, CODCTE, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA02" ON (CODCTE, CODALM, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA03" ON (CODALM, CODCTE, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA04" ON (CODALM, CODCTE, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA05" ON (CODALM, CODCTE, LOTPGR, NUMDOC, FECDOC, HORSIS, CODTRA) 
+CREATE_INDEX "NEWINV.CCDOCA06" ON (CODALM, CODCTE, FECDOC, NUMDOC, HORSIS) 
+CREATE_INDEX "NEWINV.CCDOCA07" ON (CODALM, CODCTE, FECDOC, HORSIS, NUMDOC, CODTRA) 
+CREATE_INDEX "NEWINV.CCDOCA08" ON (CODCTE, CODALM, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA09" ON (CODCTE, FECDOC, NUMDOC, HORSIS, CODTRA) 
+CREATE_INDEX "NEWINV.CCDOCA10" ON (CODCTE, CODALM, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA11" ON (CODCTE, CODALM, LOTPGR, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA12" ON (CODCTE, FECDOC, CODALM, NUMDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA13" ON (CODCTE, FECDOC, HORSIS, CODALM, NUMDOC, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA14" ON (CODCTE, LOTPGR, CODALM, NUMDOC, FECCRE, HORCRE, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA15" ON (CODCTE, CODALM, NUMDOC, FECCRE, HORCRE, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA16" ON (CODCTE, FECDOC, HORSIS, CODALM, NUMDOC, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA17" ON (CODCTE) 
+CREATE_INDEX "NEWINV.CCDOCA18" ON (SDOACT, FECDOC, HORSIS, CODALM, NUMDOC, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA19" ON (NUMPAR, FECPAR) 
+CREATE_INDEX "NEWINV.CCDOCA20" ON (CODCTE, CODALM, NUMDOC, FECDOC, HORSIS, CODTRA, NUMCPT) 
+CREATE_INDEX "NEWINV.CCDOCA21" ON (CODCOM, CODALM, CODCTE, NUMDOC) 
+CREATE_INDEX "NEWINV.CCDOCA22" ON (CODCTE, FECCIE) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue Jan 31 10:42:12 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Fri Mar 17 11:06:33 2023' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '74' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '74' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Tue Jan 31 12:28:38 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCTRAN01(CODTRA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Transaccion'), 
+NOMTRA VARCHAR(30)  NOT NULL  SET("Description" = 'Nombre Transaccion'), 
+ABRTRA VARCHAR(15)  NOT NULL  SET("Description" = 'Abreviatura Transac'), 
+INITRA VARCHAR(3)  NOT NULL  SET("Description" = 'Iniciales Transac'), 
+CARABO VARCHAR(1)  NOT NULL  SET("Description" = 'Cod Cargo o Abono'), 
+CODCOM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Cabecera o Movto'), 
+CODCDA DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Calcula Dias Ant'), 
+CODTDO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Tipo de Docto'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Tabla de Transacciones de Créditos' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Jan 31 12:28:38 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.CCTRAN01(CODTRA DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Transaccion'), 
+NOMTRA CHAR(30)  NOT NULL  SET("Description" = 'Nombre Transaccion'), 
+ABRTRA CHAR(15)  NOT NULL  SET("Description" = 'Abreviatura Transac'), 
+INITRA CHAR(3)  NOT NULL  SET("Description" = 'Iniciales Transac'), 
+CARABO CHAR(1)  NOT NULL  SET("Description" = 'Cod Cargo o Abono'), 
+CODCOM DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Cabecera o Movto'), 
+CODCDA DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Cod Calcula Dias Ant'), 
+CODTDO DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Tipo de Docto')) 
+CREATE_INDEX "NEWINV.CCTRAN01" ON (CODTRA) 
+SET("db_alias_name" = 'NEWINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jan 31 12:28:38 2023')
+CREATE __AL_PROJECT BI_CREDITOS Historico_Creditos;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Jan 26 08:39:23 2023', "ActaValue_3" = 'Tue Jan 31 09:09:46 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CCDOCA01::'05f7f89a-07c5-4300-a420-f68d2be986fe'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '747', "y" = '-916')
+GUID::'56947f59-cd2c-43d6-8bf2-7f760b95b2e7' READ TABLE DS_DB2_GER_VTAS.NEWINV.CCDOCA01 OUTPUT(CCDOCA01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'CCDOCA01', "ui_display_name" = 'QRY_SV', "x" = '1467', "y" = '-917')
+GUID::'0c2700f5-760f-4288-8e39-f58b583bf238' CREATE VIEW QRY_SV( CODALM DECIMAL(5, 0)  SET( "Description" = 'Cod de Almacen', "ui_mapping_text" = 'CCDOCA01.CODALM') ,
+ CODCTE VARCHAR(4)  SET( "Description" = 'Codigo de Cliente', "ui_mapping_text" = 'CCDOCA01.CODCTE') ,
+ CODTAL VARCHAR(4)  SET( "Description" = 'Codigo de Taller', "ui_mapping_text" = 'CCDOCA01.CODTAL') ,
+ NUMDOC DECIMAL(9, 0)  SET( "Description" = 'Numero de Docto', "ui_mapping_text" = 'CCDOCA01.NUMDOC') ,
+ FECDOC DECIMAL(8, 0)  SET( "Description" = 'Fecha de Docto', "ui_mapping_text" = 'CCDOCA01.FECDOC') ,
+ FECVTO DECIMAL(8, 0)  SET( "Description" = 'Fecha Vence Docto', "ui_mapping_text" = 'CCDOCA01.FECVTO') ,
+ HORSIS DECIMAL(6, 0)  SET( "Description" = 'Hora del Sistema', "ui_mapping_text" = 'CCDOCA01.HORSIS') ,
+ CODTRA DECIMAL(3, 0)  SET( "Description" = 'Cod de Transaccion', "ui_mapping_text" = 'CCDOCA01.CODTRA') ,
+ NUMCPT DECIMAL(9, 0)  SET( "Description" = 'Numero Comprobante', "ui_mapping_text" = 'CCDOCA01.NUMCPT') ,
+ CODVEN VARCHAR(4)  SET( "Description" = 'Cod de Vendedor', "ui_mapping_text" = 'CCDOCA01.CODVEN') ,
+ TIPDOC VARCHAR(1)  SET( "Description" = 'Tipo de Docto', "ui_mapping_text" = 'CCDOCA01.TIPDOC') ,
+ TIPMOV VARCHAR(1)  SET( "Description" = 'Tipo de Movto', "ui_mapping_text" = 'CCDOCA01.TIPMOV') ,
+ TIPPAG VARCHAR(1)  SET( "Description" = 'Forma de Pago', "ui_mapping_text" = 'CCDOCA01.TIPPAG') ,
+ SUPPTO VARCHAR(1)  SET( "Description" = 'Super Puntos', "ui_mapping_text" = 'CCDOCA01.SUPPTO') ,
+ VLRPTO DECIMAL(9, 2)  SET( "Description" = 'Vlr de Super Puntos', "ui_mapping_text" = 'CCDOCA01.VLRPTO') ,
+ CODTDO DECIMAL(3, 0)  SET( "Description" = 'Cod Tipo de Docto', "ui_mapping_text" = 'CCDOCA01.CODTDO') ,
+ CODCOM DECIMAL(1, 0)  SET( "Description" = 'Cod Cabecera o Movto', "ui_mapping_text" = 'CCDOCA01.CODCOM') ,
+ CARABO VARCHAR(1)  SET( "Description" = 'Cod Cargo o Abono', "ui_mapping_text" = 'CCDOCA01.CARABO') ,
+ VLRORI DECIMAL(11, 2)  SET( "Description" = 'Vlr de Origen', "ui_mapping_text" = 'CCDOCA01.VLRORI') ,
+ VLRMOV DECIMAL(11, 2)  SET( "Description" = 'Vlr de Movto', "ui_mapping_text" = 'CCDOCA01.VLRMOV') ,
+ VLRCAR DECIMAL(11, 2)  SET( "Description" = 'Vlr de Cargos', "ui_mapping_text" = 'CCDOCA01.VLRCAR') ,
+ VLRABO DECIMAL(11, 2)  SET( "Description" = 'Vlr de Abonos', "ui_mapping_text" = 'CCDOCA01.VLRABO') ,
+ SDOACT DECIMAL(11, 2)  SET( "Description" = 'Vlr Saldo Actual', "ui_mapping_text" = 'CCDOCA01.SDOACT') ,
+ DIANTG DECIMAL(4, 0)  SET( "Description" = 'Dias de Antiguedad', "ui_mapping_text" = 'CCDOCA01.DIANTG') ,
+ OBSERV VARCHAR(30)  SET( "Description" = 'Observaciones', "ui_mapping_text" = 'CCDOCA01.OBSERV') ,
+ NUMRDV DECIMAL(9, 0)  SET( "Description" = 'Numero Recibo Devol', "ui_mapping_text" = 'CCDOCA01.NUMRDV') ,
+ CODERR DECIMAL(3, 0)  SET( "Description" = 'Cod de Error', "ui_mapping_text" = 'CCDOCA01.CODERR') ,
+ CODANU VARCHAR(1)  SET( "Description" = 'Cod de Anulado', "ui_mapping_text" = 'CCDOCA01.CODANU') ,
+ CODAUX DECIMAL(2, 0)  SET( "Description" = 'Cod de Auxiliar', "ui_mapping_text" = 'CCDOCA01.CODAUX') ,
+ DIACRE DECIMAL(3, 0)  SET( "Description" = 'Dias de Crédito Clte', "ui_mapping_text" = 'CCDOCA01.DIACRE') ,
+ FECCIE DECIMAL(8, 0)  SET( "Description" = 'Fecha de Cierre', "ui_mapping_text" = 'CCDOCA01.FECCIE') ,
+ FLGCIE DECIMAL(1, 0)  SET( "Description" = 'Flg Pasado Historico', "ui_mapping_text" = 'CCDOCA01.FLGCIE') ,
+ MESCIE DECIMAL(2, 0)  SET( "Description" = 'Mes de Cierre', "ui_mapping_text" = 'CCDOCA01.MESCIE') ,
+ ANOCIE DECIMAL(4, 0)  SET( "Description" = 'Ano de Cierre', "ui_mapping_text" = 'CCDOCA01.ANOCIE') ,
+ DOCANA DECIMAL(9, 0)  SET( "Description" = 'Num Docto Analisis', "ui_mapping_text" = 'CCDOCA01.DOCANA') ,
+ FECANA DECIMAL(8, 0)  SET( "Description" = 'Fecha Docto Analisis', "ui_mapping_text" = 'CCDOCA01.FECANA') ,
+ CODCCR DECIMAL(5, 0)  SET( "Description" = 'Cod C Costo Reporte', "ui_mapping_text" = 'CCDOCA01.CODCCR') ,
+ FECCOR DECIMAL(8, 0)  SET( "Description" = 'Fecha de Corte', "ui_mapping_text" = 'CCDOCA01.FECCOR') ,
+ NUMREP DECIMAL(9, 0)  SET( "Description" = 'Numero Reporte', "ui_mapping_text" = 'CCDOCA01.NUMREP') ,
+ HORREP DECIMAL(6, 0)  SET( "Description" = 'Hora del Reporte', "ui_mapping_text" = 'CCDOCA01.HORREP') ,
+ USRCAJ VARCHAR(10)  SET( "Description" = 'Usuario de Cajera', "ui_mapping_text" = 'CCDOCA01.USRCAJ') ,
+ CODPGO DECIMAL(2, 0)  SET( "Description" = 'Codigo de Pago', "ui_mapping_text" = 'CCDOCA01.CODPGO') ,
+ FLGINT DECIMAL(1, 0)  SET( "Description" = 'Flag Pago de Interes', "ui_mapping_text" = 'CCDOCA01.FLGINT') ,
+ CODACC DECIMAL(1, 0)  SET( "Description" = 'Cod de Accion', "ui_mapping_text" = 'CCDOCA01.CODACC') ,
+ CODATR DECIMAL(5, 0)  SET( "Description" = 'Cod Almacen Transac', "ui_mapping_text" = 'CCDOCA01.CODATR') ,
+ FLGSTA DECIMAL(2, 0)  SET( "Description" = 'Flag de Status Reg', "ui_mapping_text" = 'CCDOCA01.FLGSTA') ,
+ NUMRCJ DECIMAL(9, 0)  SET( "Description" = 'Numero Recibo Caja', "ui_mapping_text" = 'CCDOCA01.NUMRCJ') ,
+ IDEPLA VARCHAR(2)  SET( "Description" = 'Identif de Planilla', "ui_mapping_text" = 'CCDOCA01.IDEPLA') ,
+ CODINS DECIMAL(3, 0)  SET( "Description" = 'Cod de Institucion', "ui_mapping_text" = 'CCDOCA01.CODINS') ,
+ CODDTO DECIMAL(3, 0)  SET( "Description" = 'Cod de Descuento', "ui_mapping_text" = 'CCDOCA01.CODDTO') ,
+ NUMREF VARCHAR(15)  SET( "Description" = 'Num Refer Prestamo', "ui_mapping_text" = 'CCDOCA01.NUMREF') ,
+ CODUEP DECIMAL(5, 0)  SET( "Description" = 'Cod Unico Empleado', "ui_mapping_text" = 'CCDOCA01.CODUEP') ,
+ ANOPLA DECIMAL(4, 0)  SET( "Description" = 'Año de Planilla', "ui_mapping_text" = 'CCDOCA01.ANOPLA') ,
+ MESPLA DECIMAL(2, 0)  SET( "Description" = 'Mes de Planilla', "ui_mapping_text" = 'CCDOCA01.MESPLA') ,
+ FECINI DECIMAL(8, 0)  SET( "Description" = 'Fech Inicio Planilla', "ui_mapping_text" = 'CCDOCA01.FECINI') ,
+ FECFIN DECIMAL(8, 0)  SET( "Description" = 'Fech Final Planilla', "ui_mapping_text" = 'CCDOCA01.FECFIN') ,
+ VLRCUO DECIMAL(11, 2)  SET( "Description" = 'Valor de Cuota', "ui_mapping_text" = 'CCDOCA01.VLRCUO') ,
+ VLRDTO DECIMAL(11, 2)  SET( "Description" = 'Vlr Cuota de Descto', "ui_mapping_text" = 'CCDOCA01.VLRDTO') ,
+ CODACO VARCHAR(4)  SET( "Description" = 'Cod de Acoesur', "ui_mapping_text" = 'CCDOCA01.CODACO') ,
+ PORCUO DECIMAL(5, 2)  SET( "Description" = '% Cuota Descontada', "ui_mapping_text" = 'CCDOCA01.PORCUO') ,
+ CODNDT DECIMAL(2, 0)  SET( "Description" = 'Cod No Descto Cuota', "ui_mapping_text" = 'CCDOCA01.CODNDT') ,
+ FECIDT DECIMAL(8, 0)  SET( "Description" = 'Fecha Inicio Descto', "ui_mapping_text" = 'CCDOCA01.FECIDT') ,
+ CODBCO DECIMAL(3, 0)  SET( "Description" = 'Codigo de Banco', "ui_mapping_text" = 'CCDOCA01.CODBCO') ,
+ CORCBC DECIMAL(2, 0)  SET( "Description" = 'Corr Cuenta Banco', "ui_mapping_text" = 'CCDOCA01.CORCBC') ,
+ CTABCO VARCHAR(20)  SET( "Description" = 'Numero Cuenta Banco', "ui_mapping_text" = 'CCDOCA01.CTABCO') ,
+ FECLIQ DECIMAL(8, 0)  SET( "Description" = 'Fecha de Liquidacion', "ui_mapping_text" = 'CCDOCA01.FECLIQ') ,
+ NUMLIQ DECIMAL(15, 0)  SET( "Description" = 'Numero Liquidacion', "ui_mapping_text" = 'CCDOCA01.NUMLIQ') ,
+ REFLIQ DECIMAL(15, 0)  SET( "Description" = 'Refer o Autorizacion', "ui_mapping_text" = 'CCDOCA01.REFLIQ') ,
+ NOTREM DECIMAL(9, 0)  SET( "Description" = 'Numero Nota Remision', "ui_mapping_text" = 'CCDOCA01.NOTREM') ,
+ ORDCPA VARCHAR(15)  SET( "Description" = 'Numero Orden Compra', "ui_mapping_text" = 'CCDOCA01.ORDCPA') ,
+ FLGRES DECIMAL(2, 0)  SET( "Description" = 'Flag reg Reservado', "ui_mapping_text" = 'CCDOCA01.FLGRES') ,
+ NUMCOT DECIMAL(9, 0)  SET( "Description" = 'Numero de Cotizacion', "ui_mapping_text" = 'CCDOCA01.NUMCOT') ,
+ LOTPGR DECIMAL(9, 0)  SET( "Description" = 'Lote del Pagare', "ui_mapping_text" = 'CCDOCA01.LOTPGR') ,
+ CODPLN DECIMAL(3, 0)  SET( "Description" = 'Cod Plan del Crédito', "ui_mapping_text" = 'CCDOCA01.CODPLN') ,
+ NUMCUO DECIMAL(2, 0)  SET( "Description" = 'Numero de Cuota', "ui_mapping_text" = 'CCDOCA01.NUMCUO') ,
+ PLZMES DECIMAL(2, 0)  SET( "Description" = 'Plazo en Meses', "ui_mapping_text" = 'CCDOCA01.PLZMES') ,
+ TASINT DECIMAL(5, 2)  SET( "Description" = 'Tasa de Interes', "ui_mapping_text" = 'CCDOCA01.TASINT') ,
+ ORICAP DECIMAL(11, 2)  SET( "Description" = 'Vlr Origen Capital', "ui_mapping_text" = 'CCDOCA01.ORICAP') ,
+ ORIINT DECIMAL(11, 2)  SET( "Description" = 'Vlr Origen Interes', "ui_mapping_text" = 'CCDOCA01.ORIINT') ,
+ CUOPGO DECIMAL(11, 2)  SET( "Description" = 'Vlr Cuota de Pago', "ui_mapping_text" = 'CCDOCA01.CUOPGO') ,
+ CUOCAP DECIMAL(11, 2)  SET( "Description" = 'Vlr Cuota Capital', "ui_mapping_text" = 'CCDOCA01.CUOCAP') ,
+ CUOINT DECIMAL(11, 2)  SET( "Description" = 'Vlr Cuota Interes', "ui_mapping_text" = 'CCDOCA01.CUOINT') ,
+ INTREA DECIMAL(11, 2)  SET( "Description" = 'Vlr Interes Real', "ui_mapping_text" = 'CCDOCA01.INTREA') ,
+ INTNPG DECIMAL(11, 2)  SET( "Description" = 'Vlr Interes No Pagad', "ui_mapping_text" = 'CCDOCA01.INTNPG') ,
+ INTMOR DECIMAL(11, 2)  SET( "Description" = 'Vlr Interes Mora', "ui_mapping_text" = 'CCDOCA01.INTMOR') ,
+ NUMSEM DECIMAL(2, 0)  SET( "Description" = 'Numero Semana de Año', "ui_mapping_text" = 'CCDOCA01.NUMSEM') ,
+ CTEREF VARCHAR(4)  SET( "Description" = 'Cod Cliente Refer', "ui_mapping_text" = 'CCDOCA01.CTEREF') ,
+ ALMREF DECIMAL(5, 0)  SET( "Description" = 'Cod Almacen Refer', "ui_mapping_text" = 'CCDOCA01.ALMREF') ,
+ DOCREF DECIMAL(9, 0)  SET( "Description" = 'Numero Docto Refer', "ui_mapping_text" = 'CCDOCA01.DOCREF') ,
+ FECREF DECIMAL(8, 0)  SET( "Description" = 'Fecha Docto Refer', "ui_mapping_text" = 'CCDOCA01.FECREF') ,
+ HORREF DECIMAL(6, 0)  SET( "Description" = 'Hora Docto Refer', "ui_mapping_text" = 'CCDOCA01.HORREF') ,
+ TRAREF DECIMAL(3, 0)  SET( "Description" = 'Cod Transac Refer', "ui_mapping_text" = 'CCDOCA01.TRAREF') ,
+ CPTREF DECIMAL(9, 0)  SET( "Description" = 'Numero Compbte Refer', "ui_mapping_text" = 'CCDOCA01.CPTREF') ,
+ VLRREF DECIMAL(11, 2)  SET( "Description" = 'Vlr Movto Refer', "ui_mapping_text" = 'CCDOCA01.VLRREF') ,
+ CODCTEO VARCHAR(4)  SET( "Description" = 'Cod Cliente Origen', "ui_mapping_text" = 'CCDOCA01.CODCTEO') ,
+ CODCTED VARCHAR(4)  SET( "Description" = 'Cod Cliente Destino', "ui_mapping_text" = 'CCDOCA01.CODCTED') ,
+ CODBCO1 DECIMAL(3, 0)  SET( "Description" = 'Codigo de Banco', "ui_mapping_text" = 'CCDOCA01.CODBCO1') ,
+ INIBCO1 VARCHAR(3)  SET( "Description" = 'Inic de Bco Contable', "ui_mapping_text" = 'CCDOCA01.INIBCO1') ,
+ CORCBC1 DECIMAL(2, 0)  SET( "Description" = 'Corr Cuenta Banco', "ui_mapping_text" = 'CCDOCA01.CORCBC1') ,
+ CTABCO1 VARCHAR(20)  SET( "Description" = 'Numero Cuenta Banco', "ui_mapping_text" = 'CCDOCA01.CTABCO1') ,
+ FECIPG DECIMAL(8, 0)  SET( "Description" = 'Fecha de Docto Pago', "ui_mapping_text" = 'CCDOCA01.FECIPG') ,
+ VLRIPG DECIMAL(11, 2)  SET( "Description" = 'Vlr Docto de Pago', "ui_mapping_text" = 'CCDOCA01.VLRIPG') ,
+ NUMIPG DECIMAL(15, 0)  SET( "Description" = 'Numero de Docto Pago', "ui_mapping_text" = 'CCDOCA01.NUMIPG') ,
+ NUMTAR DECIMAL(16, 0)  SET( "Description" = 'Numero de Tarjeta', "ui_mapping_text" = 'CCDOCA01.NUMTAR') ,
+ CODPAI DECIMAL(3, 0)  SET( "Description" = 'Cod de Pais', "ui_mapping_text" = 'CCDOCA01.CODPAI') ,
+ CODCIA DECIMAL(3, 0)  SET( "Description" = 'Cod de Compania', "ui_mapping_text" = 'CCDOCA01.CODCIA') ,
+ FECPAR DECIMAL(8, 0)  SET( "Description" = 'Fecha de Partida', "ui_mapping_text" = 'CCDOCA01.FECPAR') ,
+ NUMPAR DECIMAL(8, 0)  SET( "Description" = 'Numero de Partida', "ui_mapping_text" = 'CCDOCA01.NUMPAR') ,
+ CORPAR DECIMAL(5, 0)  SET( "Description" = 'Correl Reg Partida', "ui_mapping_text" = 'CCDOCA01.CORPAR') ,
+ CTACON VARCHAR(12)  SET( "Description" = 'Cuenta Contable', "ui_mapping_text" = 'CCDOCA01.CTACON') ,
+ CODCCO VARCHAR(8)  SET( "Description" = 'Cod Centro Costo', "ui_mapping_text" = 'CCDOCA01.CODCCO') ,
+ TIPPAR DECIMAL(2, 0)  SET( "Description" = 'Tipo de Partida', "ui_mapping_text" = 'CCDOCA01.TIPPAR') ,
+ VLRPCN DECIMAL(11, 2)  SET( "Description" = 'Vlr Pend Partida', "ui_mapping_text" = 'CCDOCA01.VLRPCN') ,
+ VLRPCJ DECIMAL(11, 2)  SET( "Description" = 'Vlr Pend Cajera', "ui_mapping_text" = 'CCDOCA01.VLRPCJ') ,
+ VLRPPL DECIMAL(11, 2)  SET( "Description" = 'Vlr Pend Planilla', "ui_mapping_text" = 'CCDOCA01.VLRPPL') ,
+ VLRPRF DECIMAL(11, 2)  SET( "Description" = 'Vlr Pend Refactura', "ui_mapping_text" = 'CCDOCA01.VLRPRF') ,
+ VLRBRU DECIMAL(11, 2)  SET( "Description" = 'Vlr Bruto', "ui_mapping_text" = 'CCDOCA01.VLRBRU') ,
+ VLRGRA DECIMAL(11, 2)  SET( "Description" = 'Vlr Gravado', "ui_mapping_text" = 'CCDOCA01.VLRGRA') ,
+ VLRDTG DECIMAL(11, 2)  SET( "Description" = 'Vlr Descto Gravado', "ui_mapping_text" = 'CCDOCA01.VLRDTG') ,
+ VLRIVA DECIMAL(11, 2)  SET( "Description" = 'Vlr de Iva', "ui_mapping_text" = 'CCDOCA01.VLRIVA') ,
+ VLRIVD DECIMAL(11, 2)  SET( "Description" = 'Vlr de Iva Descto', "ui_mapping_text" = 'CCDOCA01.VLRIVD') ,
+ VLREXE DECIMAL(11, 2)  SET( "Description" = 'Vlr Exento', "ui_mapping_text" = 'CCDOCA01.VLREXE') ,
+ VLRDTE DECIMAL(11, 2)  SET( "Description" = 'Vlr Descto Exentas', "ui_mapping_text" = 'CCDOCA01.VLRDTE') ,
+ VLRIDE DECIMAL(11, 2)  SET( "Description" = 'Vlr Iva Descto Exe', "ui_mapping_text" = 'CCDOCA01.VLRIDE') ,
+ VLREXP DECIMAL(11, 2)  SET( "Description" = 'Vlr de Exportacion', "ui_mapping_text" = 'CCDOCA01.VLREXP') ,
+ VLRDEX DECIMAL(11, 2)  SET( "Description" = 'Vlr Descto Export', "ui_mapping_text" = 'CCDOCA01.VLRDEX') ,
+ VLRFLE DECIMAL(11, 2)  SET( "Description" = 'Vlr Fletes Export', "ui_mapping_text" = 'CCDOCA01.VLRFLE') ,
+ VLRGTO DECIMAL(11, 2)  SET( "Description" = 'Vlr Gastos Export', "ui_mapping_text" = 'CCDOCA01.VLRGTO') ,
+ VLRSEG DECIMAL(11, 2)  SET( "Description" = 'Vlr Seguros Export', "ui_mapping_text" = 'CCDOCA01.VLRSEG') ,
+ VLROT1 DECIMAL(11, 2)  SET( "Description" = 'Vlr Otros Export', "ui_mapping_text" = 'CCDOCA01.VLROT1') ,
+ VLRREN DECIMAL(11, 2)  SET( "Description" = 'Vlr de Renta', "ui_mapping_text" = 'CCDOCA01.VLRREN') ,
+ VLRRET DECIMAL(11, 2)  SET( "Description" = 'Vlr de Retencion', "ui_mapping_text" = 'CCDOCA01.VLRRET') ,
+ VLRPER DECIMAL(11, 2)  SET( "Description" = 'Vlr de Percepcion', "ui_mapping_text" = 'CCDOCA01.VLRPER') ,
+ VLRIMP1 DECIMAL(11, 2)  SET( "Description" = 'Vlr Otros Impto 1', "ui_mapping_text" = 'CCDOCA01.VLRIMP1') ,
+ VLRIMP2 DECIMAL(11, 2)  SET( "Description" = 'Vlr Otros Impto 2', "ui_mapping_text" = 'CCDOCA01.VLRIMP2') ,
+ VLRNSU DECIMAL(11, 2)  SET( "Description" = 'Vlr No Sujeta', "ui_mapping_text" = 'CCDOCA01.VLRNSU') ,
+ VLRNET DECIMAL(11, 2)  SET( "Description" = 'Vlr Neto del Docto', "ui_mapping_text" = 'CCDOCA01.VLRNET') ,
+ VLR001 DECIMAL(11, 2)  SET( "Description" = 'Valor 1', "ui_mapping_text" = 'CCDOCA01.VLR001') ,
+ VLR002 DECIMAL(11, 2)  SET( "Description" = 'Valor 2', "ui_mapping_text" = 'CCDOCA01.VLR002') ,
+ FLG001 DECIMAL(1, 0)  SET( "Description" = 'Flag 1', "ui_mapping_text" = 'CCDOCA01.FLG001') ,
+ FLG002 DECIMAL(1, 0)  SET( "Description" = 'Flag 2', "ui_mapping_text" = 'CCDOCA01.FLG002') ,
+ COD001 DECIMAL(10, 0)  SET( "Description" = 'Cod 1', "ui_mapping_text" = 'CCDOCA01.COD001') ,
+ COD002 DECIMAL(10, 0)  SET( "Description" = 'Cod 2', "ui_mapping_text" = 'CCDOCA01.COD002') ,
+ DAT001 VARCHAR(10)  SET( "Description" = 'Dato 1', "ui_mapping_text" = 'CCDOCA01.DAT001') ,
+ DAT002 VARCHAR(10)  SET( "Description" = 'Dato 2', "ui_mapping_text" = 'CCDOCA01.DAT002') ,
+ FEC001 DECIMAL(8, 0)  SET( "Description" = 'Fecha 1', "ui_mapping_text" = 'CCDOCA01.FEC001') ,
+ FEC002 DECIMAL(8, 0)  SET( "Description" = 'Fecha 2', "ui_mapping_text" = 'CCDOCA01.FEC002') ,
+ USRCRE VARCHAR(10)  SET( "Description" = 'Usuario que Creo', "ui_mapping_text" = 'CCDOCA01.USRCRE') ,
+ FECCRE DECIMAL(8, 0)  SET( "Description" = 'Fecha de Creado', "ui_mapping_text" = 'CCDOCA01.FECCRE') ,
+ HORCRE DECIMAL(6, 0)  SET( "Description" = 'Hora de Creado', "ui_mapping_text" = 'CCDOCA01.HORCRE') ,
+ DEVCRE VARCHAR(10)  SET( "Description" = 'Dispositivo Creo', "ui_mapping_text" = 'CCDOCA01.DEVCRE') ,
+ PRGCRE VARCHAR(10)  SET( "Description" = 'Programa Creo', "ui_mapping_text" = 'CCDOCA01.PRGCRE') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CCDOCA01.CODALM, CCDOCA01.CODCTE, CCDOCA01.CODTAL, CCDOCA01.NUMDOC, CCDOCA01.FECDOC, CCDOCA01.FECVTO, CCDOCA01.HORSIS, CCDOCA01.CODTRA, CCDOCA01.NUMCPT, CCDOCA01.CODVEN, CCDOCA01.TIPDOC, CCDOCA01.TIPMOV, CCDOCA01.TIPPAG, CCDOCA01.SUPPTO, CCDOCA01.VLRPTO, CCDOCA01.CODTDO, CCDOCA01.CODCOM, CCDOCA01.CARABO, CCDOCA01.VLRORI, CCDOCA01.VLRMOV, CCDOCA01.VLRCAR, CCDOCA01.VLRABO, CCDOCA01.SDOACT, CCDOCA01.DIANTG, CCDOCA01.OBSERV, CCDOCA01.NUMRDV, CCDOCA01.CODERR, CCDOCA01.CODANU, CCDOCA01.CODAUX, CCDOCA01.DIACRE, CCDOCA01.FECCIE, CCDOCA01.FLGCIE, CCDOCA01.MESCIE, CCDOCA01.ANOCIE, CCDOCA01.DOCANA, CCDOCA01.FECANA, CCDOCA01.CODCCR, CCDOCA01.FECCOR, CCDOCA01.NUMREP, CCDOCA01.HORREP, CCDOCA01.USRCAJ, CCDOCA01.CODPGO, CCDOCA01.FLGINT, CCDOCA01.CODACC, CCDOCA01.CODATR, CCDOCA01.FLGSTA, CCDOCA01.NUMRCJ, CCDOCA01.IDEPLA, CCDOCA01.CODINS, CCDOCA01.CODDTO, CCDOCA01.NUMREF, CCDOCA01.CODUEP, CCDOCA01.ANOPLA, CCDOCA01.MESPLA, CCDOCA01.FECINI, CCDOCA01.FECFIN, CCDOCA01.VLRCUO, CCDOCA01.VLRDTO, CCDOCA01.CODACO, CCDOCA01.PORCUO, CCDOCA01.CODNDT, CCDOCA01.FECIDT, CCDOCA01.CODBCO, CCDOCA01.CORCBC, CCDOCA01.CTABCO, CCDOCA01.FECLIQ, CCDOCA01.NUMLIQ, CCDOCA01.REFLIQ, CCDOCA01.NOTREM, CCDOCA01.ORDCPA, CCDOCA01.FLGRES, CCDOCA01.NUMCOT, CCDOCA01.LOTPGR, CCDOCA01.CODPLN, CCDOCA01.NUMCUO, CCDOCA01.PLZMES, CCDOCA01.TASINT, CCDOCA01.ORICAP, CCDOCA01.ORIINT, CCDOCA01.CUOPGO, CCDOCA01.CUOCAP, CCDOCA01.CUOINT, CCDOCA01.INTREA, CCDOCA01.INTNPG, CCDOCA01.INTMOR, CCDOCA01.NUMSEM, CCDOCA01.CTEREF, CCDOCA01.ALMREF, CCDOCA01.DOCREF, CCDOCA01.FECREF, CCDOCA01.HORREF, CCDOCA01.TRAREF, CCDOCA01.CPTREF, CCDOCA01.VLRREF, CCDOCA01.CODCTEO, CCDOCA01.CODCTED, CCDOCA01.CODBCO1, CCDOCA01.INIBCO1, CCDOCA01.CORCBC1, CCDOCA01.CTABCO1, CCDOCA01.FECIPG, CCDOCA01.VLRIPG, CCDOCA01.NUMIPG, CCDOCA01.NUMTAR, CCDOCA01.CODPAI, CCDOCA01.CODCIA, CCDOCA01.FECPAR, CCDOCA01.NUMPAR, CCDOCA01.CORPAR, CCDOCA01.CTACON, CCDOCA01.CODCCO, CCDOCA01.TIPPAR, CCDOCA01.VLRPCN, CCDOCA01.VLRPCJ, CCDOCA01.VLRPPL, CCDOCA01.VLRPRF, CCDOCA01.VLRBRU, CCDOCA01.VLRGRA, CCDOCA01.VLRDTG, CCDOCA01.VLRIVA, CCDOCA01.VLRIVD, CCDOCA01.VLREXE, CCDOCA01.VLRDTE, CCDOCA01.VLRIDE, CCDOCA01.VLREXP, CCDOCA01.VLRDEX, CCDOCA01.VLRFLE, CCDOCA01.VLRGTO, CCDOCA01.VLRSEG, CCDOCA01.VLROT1, CCDOCA01.VLRREN, CCDOCA01.VLRRET, CCDOCA01.VLRPER, CCDOCA01.VLRIMP1, CCDOCA01.VLRIMP2, CCDOCA01.VLRNSU, CCDOCA01.VLRNET, CCDOCA01.VLR001, CCDOCA01.VLR002, CCDOCA01.FLG001, CCDOCA01.FLG002, CCDOCA01.COD001, CCDOCA01.COD002, CCDOCA01.DAT001, CCDOCA01.DAT002, CCDOCA01.FEC001, CCDOCA01.FEC002, CCDOCA01.USRCRE, CCDOCA01.FECCRE, CCDOCA01.HORCRE, CCDOCA01.DEVCRE, CCDOCA01.PRGCRE, sysdate() FROM CCDOCA01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'CCDOCA01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2403', "y" = '-917')
+GUID::'0409cf91-ab75-40ef-83e2-817ba4c8ab1c' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCDOCA01 INPUT(QRY_SV)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Jan 27 09:57:47 2023', "ActaValue_3" = 'Fri Jan 27 09:58:14 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CCTRAN01::'000fc764-620e-4a77-8047-2247a418259e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '663', "y" = '-863')
+GUID::'9335c9a3-d1b8-4538-b762-54af227d84ce' READ TABLE DS_DB2_GER_VTAS.NEWINV.CCTRAN01 OUTPUT(CCTRAN01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'CCTRAN01', "x" = '1433', "y" = '-854')
+GUID::'64f91c39-328a-4b01-8bee-f2b2f367aa2b' CREATE VIEW Query( CODTRA DECIMAL(3, 0)  SET( "Description" = 'Cod Transaccion', "ui_mapping_text" = 'CCTRAN01.CODTRA') ,
+ NOMTRA VARCHAR(30)  SET( "Description" = 'Nombre Transaccion', "ui_mapping_text" = 'CCTRAN01.NOMTRA') ,
+ ABRTRA VARCHAR(15)  SET( "Description" = 'Abreviatura Transac', "ui_mapping_text" = 'CCTRAN01.ABRTRA') ,
+ INITRA VARCHAR(3)  SET( "Description" = 'Iniciales Transac', "ui_mapping_text" = 'CCTRAN01.INITRA') ,
+ CARABO VARCHAR(1)  SET( "Description" = 'Cod Cargo o Abono', "ui_mapping_text" = 'CCTRAN01.CARABO') ,
+ CODCOM DECIMAL(1, 0)  SET( "Description" = 'Cod Cabecera o Movto', "ui_mapping_text" = 'CCTRAN01.CODCOM') ,
+ CODCDA DECIMAL(1, 0)  SET( "Description" = 'Cod Calcula Dias Ant', "ui_mapping_text" = 'CCTRAN01.CODCDA') ,
+ CODTDO DECIMAL(3, 0)  SET( "Description" = 'Cod Tipo de Docto', "ui_mapping_text" = 'CCTRAN01.CODTDO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CCTRAN01.CODTRA, CCTRAN01.NOMTRA, CCTRAN01.ABRTRA, CCTRAN01.INITRA, CCTRAN01.CARABO, CCTRAN01.CODCOM, CCTRAN01.CODCDA, CCTRAN01.CODTDO, sysdate() FROM CCTRAN01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'CCTRAN01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2337', "y" = '-857')
+GUID::'40450927-1970-4aee-bee3-5bf111d5cdbe' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCTRAN01 INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jan 31 10:41:17 2023', "ActaValue_3" = 'Tue Jan 31 10:52:51 2023', "x" = '-1', "y" = '-1')
+CREATE SESSION Historico_Creditos::'8aaf1217-f04f-4af8-92dd-1d4ebe3d2576'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '933', "y" = '-470')
+CALL PLAN STAGE::'965624a2-36a1-4e38-8e64-2ef5c129db83'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1539', "y" = '-467')
+CALL PLAN ODS::'d6e8073e-72eb-4107-9014-a4b3455d79de'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '8aaf1217-f04f-4af8-92dd-1d4ebe3d2576', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'Historico_Creditos', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jan 31 10:44:36 2023', "ActaValue_3" = 'Tue Jan 31 10:45:18 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN ODS::'d6e8073e-72eb-4107-9014-a4b3455d79de'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>360</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Load_tra_Creditos_Historico', "ui_script_text" = 'SQL(\'DS_SQL_SERVER_ODS\',\'EXEC cred.sp_tra_Creditos_Historico\');
+', "x" = '1086', "y" = '-444')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_ODS', 'EXEC cred.sp_tra_Creditos_Historico');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN STAGE::'965624a2-36a1-4e38-8e64-2ef5c129db83'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '578', "y" = '-913')
+CALL DATAFLOW DF_CRG_STG_CCDOCA01::'05f7f89a-07c5-4300-a420-f68d2be986fe'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1297', "y" = '-910')
+CALL DATAFLOW DF_CRG_STG_CCTRAN01::'000fc764-620e-4a77-8047-2247a418259e'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

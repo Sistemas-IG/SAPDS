@@ -1,0 +1,1730 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8BB5E3D673CEB9395A3C92789035F4BF08061BB60273BE1AF2163E4D498332B268DEDBBFE9F349B9EFD8779F800A827</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E882ADB9AA8246336D129A4DE0A261FB1290A2B7BD50D0429DD3F5487EE41EF022035C78DA2783C1CFA5986F4A9E</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8CD2AF0F5A20DA861444BB0B47F2038EFC4689E2B17D6714C44A65B19AC15407EEF1E421C830A6713C080789ADE</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E819E675A33BE37B65B9C5E10B28370DF234F783A5CCD2EA90B14E29112CDB57B6C1FDC8D6B60B3B622727C90961A1CFB6B6D94C333AB9</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Nov  4 11:11:34 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '7' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '7' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Mon Oct 24 17:17:45 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATCATTB(SRCODCAT VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO CATEGORIA'), 
+SRNOMCAT VARCHAR(20)  NOT NULL  SET("Description" = 'NOMBRE CATEGORIA'), 
+SRDESCAT VARCHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION CATEGORIA'), 
+SRNOMIMG VARCHAR(60)  NOT NULL  SET("Description" = 'NOMBRE DE LA IMAGEN'), 
+SRORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'TOP DE CATEGORIA'), 
+SRESTATU VARCHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+SRUSEING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO CREO MODIFICO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'HORA CREO MODIFICO', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (SRCODCAT) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 24 16:55:14 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATCATTB(SRCODCAT CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO CATEGORIA'), 
+SRNOMCAT CHAR(20)  NOT NULL  SET("Description" = 'NOMBRE CATEGORIA'), 
+SRDESCAT CHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION CATEGORIA'), 
+SRNOMIMG CHAR(60)  NOT NULL  SET("Description" = 'NOMBRE DE LA IMAGEN'), 
+SRORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'TOP DE CATEGORIA'), 
+SRESTATU CHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+SRUSEING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO CREO MODIFICO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'HORA CREO MODIFICO')) 
+PRIMARY KEY (SRCODCAT) 
+CREATE_INDEX "SRWEBPRO.CATCATTB" ON (SRCODCAT) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '42' , 
+ActaName_2 = 'RDatabase_Object_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RTable_Type',ActaValue_3 = 'TABLE' , 
+ActaName_4 = 'RDescription',ActaValue_4 = '' , 
+ActaName_5 = 'REstimated_Row_Count',ActaValue_5 = '50000' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RSavedAfterCheckOut',ActaValue_7 = 'YES' , 
+ActaName_8 = 'RDate_created',ActaValue_8 = 'Mon Oct 24 17:24:27 2022' , 
+ActaName_9 = 'RDate_last_loaded',ActaValue_9 = 'Fri Nov  4 11:11:41 2022' , 
+ActaName_10 = 'RDate_modified',ActaValue_10 = 'Mon Oct 24 17:24:57 2022' , 
+ActaName_11 = 'RNumber_Of_Rows_Rejected',ActaValue_11 = '0' , 
+ActaName_12 = 'RNumber_Of_Inserts',ActaValue_12 = '42' , 
+ActaName_13 = 'RElapsed_Time_For_Load',ActaValue_13 = '0 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATFAMTB(FACODUNI VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO UNICO FAMILIA'), 
+FADESCRI VARCHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION FAMILIA'), 
+FADESCOR VARCHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION FAM CORTA'), 
+FANOMIMG VARCHAR(60)  NOT NULL  SET("Description" = 'NOMBRE IMAGEN'), 
+FAORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN PARA MOSTRAR EN WEB'), 
+FAUSEING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESO MANTENIMIENTO'), 
+FAFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA INGRESO MANTENIMIENT0', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (FACODUNI) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 24 17:00:04 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATFAMTB(FACODUNI CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO UNICO FAMILIA'), 
+FADESCRI CHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION FAMILIA'), 
+FADESCOR CHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION FAM CORTA'), 
+FANOMIMG CHAR(60)  NOT NULL  SET("Description" = 'NOMBRE IMAGEN'), 
+FAORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN PARA MOSTRAR EN WEB'), 
+FAUSEING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESO MANTENIMIENTO'), 
+FAFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA INGRESO MANTENIMIENT0')) 
+PRIMARY KEY (FACODUNI) 
+CREATE_INDEX "SRWEBPRO.CATFAMTB" ON (FACODUNI) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Nov  4 11:11:46 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '376' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '376' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Mon Oct 24 17:45:36 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATSFMTB(SFCODUNI VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'ID UNICO'), 
+SFDESCOR VARCHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CORTA'), 
+SFDESCRI VARCHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION SUBFAMILIA'), 
+SFDISECO VARCHAR(1)  NOT NULL  SET("Description" = 'DISPONIBLE PARA ECOMMERCE'), 
+SFDISALM VARCHAR(1)  NOT NULL  SET("Description" = 'DISPONIBLE PARA ALMACEN'), 
+SFVTASIS VARCHAR(1)  NOT NULL  SET("Description" = 'VENTA ASISTIDA'), 
+SFNOMIMG VARCHAR(60)  NOT NULL  SET("Description" = 'NOMBRE IMAGEN'), 
+SFORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN PARA MOSTRAR EN WEB'), 
+SFMAXVTA DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MAXIMO DE VENTA'), 
+SFUSEING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA MODIFICA'), 
+SFFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESA MODIFICA', "Native Type" = 'DATETIME2'), 
+SFUSECAM VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA MODIFICA'), 
+SFFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESA MODIFICA', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (SFCODUNI) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 24 17:28:38 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATSFMTB(SFCODUNI CHAR(5)  KEY  NOT NULL  SET("Description" = 'ID UNICO'), 
+SFDESCOR CHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CORTA'), 
+SFDESCRI CHAR(60)  NOT NULL  SET("Description" = 'DESCRIPCION SUBFAMILIA'), 
+SFDISECO CHAR(1)  NOT NULL  SET("Description" = 'DISPONIBLE PARA ECOMMERCE'), 
+SFDISALM CHAR(1)  NOT NULL  SET("Description" = 'DISPONIBLE PARA ALMACEN'), 
+SFVTASIS CHAR(1)  NOT NULL  SET("Description" = 'VENTA ASISTIDA'), 
+SFNOMIMG CHAR(60)  NOT NULL  SET("Description" = 'NOMBRE IMAGEN'), 
+SFORDTOP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN PARA MOSTRAR EN WEB'), 
+SFMAXVTA DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MAXIMO DE VENTA'), 
+SFUSEING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA MODIFICA'), 
+SFFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESA MODIFICA'), 
+SFUSECAM CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA MODIFICA'), 
+SFFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESA MODIFICA')) 
+PRIMARY KEY (SFCODUNI) 
+CREATE_INDEX "SRWEBPRO.CATSFMTB" ON (SFCODUNI) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Nov  9 15:46:54 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Fri Nov  4 11:12:20 2022' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '170' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '170' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.GRUPOS(CODGRU VARCHAR(2)  NULL , 
+NOMGRU VARCHAR(30)  NULL , 
+UNVGRU DECIMAL(9, 0)  NULL , 
+UNDGRU DECIMAL(9, 0)  NULL , 
+VTBGRU DECIMAL(9, 2)  NULL , 
+DESGRU DECIMAL(9, 2)  NULL , 
+DEVGRU DECIMAL(9, 2)  NULL , 
+COVGRU DECIMAL(9, 2)  NULL , 
+CDEGRU DECIMAL(9, 2)  NULL , 
+INVGRU DECIMAL(9, 2)  NULL , 
+INVGR1 DECIMAL(9, 2)  NULL , 
+INVGR2 DECIMAL(9, 2)  NULL , 
+INVGR3 DECIMAL(9, 2)  NULL , 
+INVGR4 DECIMAL(9, 2)  NULL , 
+INVGR5 DECIMAL(9, 2)  NULL , 
+INVGR6 DECIMAL(9, 2)  NULL , 
+INVGR7 DECIMAL(9, 2)  NULL , 
+INVGR8 DECIMAL(9, 2)  NULL , 
+INVGR9 DECIMAL(9, 2)  NULL , 
+INVG10 DECIMAL(9, 2)  NULL , 
+INVG21 DECIMAL(9, 2)  NULL , 
+INVG22 DECIMAL(9, 2)  NULL , 
+INVG23 DECIMAL(9, 2)  NULL , 
+INVG24 DECIMAL(9, 2)  NULL , 
+INVG25 DECIMAL(9, 2)  NULL , 
+INVG26 DECIMAL(9, 2)  NULL , 
+INVG27 DECIMAL(9, 2)  NULL , 
+INVG28 DECIMAL(9, 2)  NULL , 
+INVG29 DECIMAL(9, 2)  NULL , 
+INVG30 DECIMAL(9, 2)  NULL , 
+INVG31 DECIMAL(9, 2)  NULL , 
+INVG32 DECIMAL(9, 2)  NULL , 
+INVG33 DECIMAL(9, 2)  NULL , 
+INVG34 DECIMAL(9, 2)  NULL , 
+INVG35 DECIMAL(9, 2)  NULL , 
+INVG36 DECIMAL(9, 2)  NULL , 
+INVG37 DECIMAL(9, 2)  NULL , 
+INVG38 DECIMAL(9, 2)  NULL , 
+INVG39 DECIMAL(9, 2)  NULL , 
+INVG40 DECIMAL(9, 2)  NULL , 
+INVG41 DECIMAL(9, 2)  NULL , 
+INVG42 DECIMAL(9, 2)  NULL , 
+INVG43 DECIMAL(9, 2)  NULL , 
+INVG44 DECIMAL(9, 2)  NULL , 
+INVG45 DECIMAL(9, 2)  NULL , 
+INVG46 DECIMAL(9, 2)  NULL , 
+INVG47 DECIMAL(9, 2)  NULL , 
+INVG48 DECIMAL(9, 2)  NULL , 
+INVG49 DECIMAL(9, 2)  NULL , 
+INVG50 DECIMAL(9, 2)  NULL , 
+ITEMGR DECIMAL(7, 0)  NULL , 
+INVG51 DECIMAL(13, 2)  NULL , 
+INVG52 DECIMAL(13, 2)  NULL , 
+INVG53 DECIMAL(13, 2)  NULL , 
+INVG54 DECIMAL(13, 2)  NULL , 
+INVG55 DECIMAL(13, 2)  NULL , 
+INVG56 DECIMAL(13, 2)  NULL , 
+INVG57 DECIMAL(13, 2)  NULL , 
+INVG58 DECIMAL(13, 2)  NULL , 
+INVG59 DECIMAL(13, 2)  NULL , 
+INVG60 DECIMAL(13, 2)  NULL , 
+INVG61 DECIMAL(13, 2)  NULL , 
+INVG62 DECIMAL(13, 2)  NULL , 
+INVG63 DECIMAL(13, 2)  NULL , 
+INVG64 DECIMAL(13, 2)  NULL , 
+INVG65 DECIMAL(13, 2)  NULL , 
+INVG66 DECIMAL(13, 2)  NULL , 
+INVG67 DECIMAL(13, 2)  NULL , 
+INVG68 DECIMAL(13, 2)  NULL , 
+INVG69 DECIMAL(13, 2)  NULL , 
+INVG70 DECIMAL(13, 2)  NULL , 
+INVG71 DECIMAL(13, 2)  NULL , 
+INVG72 DECIMAL(13, 2)  NULL , 
+INVG73 DECIMAL(13, 2)  NULL , 
+INVG74 DECIMAL(13, 2)  NULL , 
+INVG75 DECIMAL(13, 2)  NULL , 
+INVG76 DECIMAL(13, 2)  NULL , 
+INVG77 DECIMAL(13, 2)  NULL , 
+INVG78 DECIMAL(13, 2)  NULL , 
+INVG79 DECIMAL(13, 2)  NULL , 
+INVG80 DECIMAL(13, 2)  NULL , 
+INVG81 DECIMAL(13, 2)  NULL , 
+INVG82 DECIMAL(13, 2)  NULL , 
+INVG83 DECIMAL(13, 2)  NULL , 
+INVG84 DECIMAL(13, 2)  NULL , 
+INVG85 DECIMAL(13, 2)  NULL , 
+INVG86 DECIMAL(13, 2)  NULL , 
+INVG87 DECIMAL(13, 2)  NULL , 
+INVG88 DECIMAL(13, 2)  NULL , 
+INVG89 DECIMAL(13, 2)  NULL , 
+INVG90 DECIMAL(13, 2)  NULL , 
+INVG91 DECIMAL(13, 2)  NULL , 
+INVG92 DECIMAL(13, 2)  NULL , 
+INVG93 DECIMAL(13, 2)  NULL , 
+INVG94 DECIMAL(13, 2)  NULL , 
+INVG95 DECIMAL(13, 2)  NULL , 
+INVG96 DECIMAL(13, 2)  NULL , 
+INVG97 DECIMAL(13, 2)  NULL , 
+INVG98 DECIMAL(13, 2)  NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Nov  4 11:12:16 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '124290' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '124290' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '8 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Wed Nov  9 15:46:20 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAEPRODTB(SRPROCOD VARCHAR(20)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+SRPROCFS DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ID CAT/FAM/SUN FAM'), 
+SRPRODCR VARCHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CORTA'), 
+SRPRODES VARCHAR(100)  NOT NULL  SET("Description" = 'DESCRIPCION'), 
+SRPROSND VARCHAR(20)  NOT NULL  SET("Description" = 'SONIDO'), 
+SRPROMIC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MINIMO DE COMPRA'), 
+SRPROMAV DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MAXIMO DE COMPRA'), 
+SRPROMUC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MULTIPLO DE COMPRA'), 
+SRPRIDSP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN DE DESPLIEGUE EN WEB'), 
+SRPROSTS VARCHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+SRPROBAU VARCHAR(1)  NOT NULL  SET("Description" = 'ESTATUS BLOQUEO AUTOMATICO'), 
+SRPRODBA VARCHAR(100)  NOT NULL  SET("Description" = 'DESTALLE BLOQUEO AUTOMATICO'), 
+SRUSUING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO', "Native Type" = 'DATETIME2'), 
+SRUSUCAM VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (SRPROCOD) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 31 10:54:58 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.MAEPRODTB(SRPROCOD CHAR(20)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+SRPROCFS DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ID CAT/FAM/SUN FAM'), 
+SRPRODCR CHAR(20)  NOT NULL  SET("Description" = 'DESCRIPCION CORTA'), 
+SRPRODES CHAR(100)  NOT NULL  SET("Description" = 'DESCRIPCION'), 
+SRPROSND CHAR(20)  NOT NULL  SET("Description" = 'SONIDO'), 
+SRPROMIC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MINIMO DE COMPRA'), 
+SRPROMAV DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MAXIMO DE COMPRA'), 
+SRPROMUC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'MULTIPLO DE COMPRA'), 
+SRPRIDSP DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ORDEN DE DESPLIEGUE EN WEB'), 
+SRPROSTS CHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+SRPROBAU CHAR(1)  NOT NULL  SET("Description" = 'ESTATUS BLOQUEO AUTOMATICO'), 
+SRPRODBA CHAR(100)  NOT NULL  SET("Description" = 'DESTALLE BLOQUEO AUTOMATICO'), 
+SRUSUING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO'), 
+SRUSUCAM CHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION')) 
+PRIMARY KEY (SRPROCOD) 
+CREATE_INDEX "SRWEBPRO.MAEPRODTB" ON (SRPROCOD) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Mon Oct 24 17:47:11 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Fri Nov  4 11:11:52 2022' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '613' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '613' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '0 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.RELCFSTB(IDRELCFS INT  NOT NULL  SET("Description" = 'CODIGO RELACION'), 
+IDCODCAT VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO CATEGORIA'), 
+IDCODFAM VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO FAMILIA'), 
+IDCODSFM VARCHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO SUB FAMILIA'), 
+IDSTATUS VARCHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+IDSECUEN DECIMAL(6, 0)  NOT NULL  SET("Description" = 'ULTIMA SECUENCIA'), 
+SRUSUING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO', "Native Type" = 'DATETIME2'), 
+SRUSUCAM VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION', "Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (IDCODCAT, IDCODFAM, IDCODSFM) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 24 17:03:37 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.RELCFSTB(IDRELCFS INT  NOT NULL  SET("Description" = 'CODIGO RELACION'), 
+IDCODCAT CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO CATEGORIA'), 
+IDCODFAM CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO FAMILIA'), 
+IDCODSFM CHAR(5)  KEY  NOT NULL  SET("Description" = 'CODIGO SUB FAMILIA'), 
+IDSTATUS CHAR(1)  NOT NULL  SET("Description" = 'ESTATUS'), 
+IDSECUEN DECIMAL(6, 0)  NOT NULL  SET("Description" = 'ULTIMA SECUENCIA'), 
+SRUSUING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO'), 
+SRUSUCAM CHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION')) 
+PRIMARY KEY (IDCODCAT, IDCODFAM, IDCODSFM) 
+CREATE_INDEX "SRWEBPRO.RELCFSTB" ON (IDCODCAT, IDCODFAM, IDCODSFM) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Nov  4 11:12:03 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '154241' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '154241' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_modified',ActaValue_11 = 'Mon Oct 31 10:44:58 2022' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '5 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.RELPRCSRTB(SRIDPROD INT  NOT NULL  SET("Description" = 'CODIGO IDENTIDAD PRODUCTO'), 
+SRPROCOD VARCHAR(20)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+SRCODSRP VARCHAR(17)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO SR'), 
+SRPROEXL VARCHAR(1)  NOT NULL  SET("Description" = 'EXISTENCIA LIMITADA'), 
+SRPROURL VARCHAR(100)  NOT NULL  SET("Description" = 'WEB DEL PRODUCTO'), 
+SRPROSTP VARCHAR(1)  NOT NULL  SET("Description" = 'ESTATUS PRODUCTO'), 
+SRUSUING VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO', "Native Type" = 'DATETIME2'), 
+SRUSUCAM VARCHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION', "Native Type" = 'DATETIME2'), 
+SROBSECMFLAG VARCHAR(1)  NOT NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (SRPROCOD, SRCODSRP) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon Oct 31 10:28:05 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.SRWEBPRO.RELPRCSRTB(SRIDPROD INT  NOT NULL  SET("Description" = 'CODIGO IDENTIDAD PRODUCTO'), 
+SRPROCOD CHAR(20)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO'), 
+SRCODSRP CHAR(17)  KEY  NOT NULL  SET("Description" = 'CODIGO PRODUCTO SR'), 
+SRPROEXL CHAR(1)  NOT NULL  SET("Description" = 'EXISTENCIA LIMITADA'), 
+SRPROURL CHAR(100)  NOT NULL  SET("Description" = 'WEB DEL PRODUCTO'), 
+SRPROSTP CHAR(1)  NOT NULL  SET("Description" = 'ESTATUS PRODUCTO'), 
+SRUSUING CHAR(10)  NOT NULL  SET("Description" = 'USUARIO INGRESA REGISTRO'), 
+SRFECING DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA INGRESO'), 
+SRUSUCAM CHAR(10)  NOT NULL  SET("Description" = 'USUARIO MODIFICA REGISTRO'), 
+SRFECCAM DATETIME(6)  NOT NULL  SET("Description" = 'FECHA HORA MODIFICACION'), 
+SROBSECMFLAG CHAR(1)  NOT NULL ) 
+PRIMARY KEY (SRPROCOD, SRCODSRP) 
+CREATE_INDEX "SRWEBPRO.RELPRCSRTB" ON (SRPROCOD, SRCODSRP) 
+SET("db_alias_name" = 'SRWEBPRO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Nov  9 15:47:23 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Fri Nov  4 11:12:25 2022' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '1790' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '1790' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '1 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SGRUPOS(CODGRU VARCHAR(2)  NOT NULL  SET("Description" = 'GRUPO'), 
+CODSUB VARCHAR(2)  NOT NULL  SET("Description" = 'SUBGRUPO'), 
+NOMSG VARCHAR(30)  NOT NULL  SET("Description" = 'NOMBRE SUBGRUPO'), 
+DESSUG VARCHAR(20)  NOT NULL  SET("Description" = 'DESCRIPC.SUGERIDA'), 
+CANSUM VARCHAR(1)  NOT NULL  SET("Description" = 'CANT. DE SUMINIS'), 
+SUMIN1 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.1'), 
+SUMIN2 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.2'), 
+SUMIN3 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.3'), 
+SUMIN4 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.4'), 
+SUMIN5 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.5'), 
+SUMIN6 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.6'), 
+SUMIN7 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.7'), 
+SUMIN8 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.8'), 
+SUMIN9 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINIS.9'), 
+SUMI10 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.10'), 
+SUMI11 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.11'), 
+SUMI12 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.12'), 
+SUMI13 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.13'), 
+SUMI14 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.14'), 
+SUMI15 VARCHAR(3)  NOT NULL  SET("Description" = 'CODIGO SUMINI.15'), 
+UNVSG DECIMAL(9, 0)  NOT NULL  SET("Description" = 'UNIDADES VENDIDAS'), 
+UNDSG DECIMAL(9, 0)  NOT NULL  SET("Description" = 'UNIDADES DEVUELTAS'), 
+VTBSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VENTAS BRUTAS'), 
+DESSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'DESCUENTOS'), 
+DEVSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'DEVOLUCION'), 
+COVSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO DE VENTA'), 
+COSDSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO DE DEVOLUCION'), 
+CODTSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTOS DETERIORO'), 
+INVSG DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVERSION SUBGPO'), 
+VTNACS DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VTA NETA ACUMULADA'), 
+COVTAS DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO VTA ACUMULADA'), 
+CODVAS DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO DEV. ACUMULADA'), 
+CODTAS DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO DET. ACUMULADA'), 
+COFIAS DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COSTO INV. FISICO ACUM.'), 
+PERCAT VARCHAR(1)  NOT NULL  SET("Description" = 'ES DE CAT SI=1 NO=0'), 
+FECLIS VARCHAR(8)  NOT NULL  SET("Description" = 'FECHA LISTA'), 
+NUMLIS DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUMERO LISTA'), 
+FELISA VARCHAR(8)  NOT NULL  SET("Description" = 'F.LISTA ANTERIOR'), 
+NULISA DECIMAL(9, 0)  NOT NULL  SET("Description" = 'NUM.LISTA ANTER'), 
+FORCAR VARCHAR(20)  NOT NULL  SET("Description" = 'FORMATO CARACTER'), 
+INVER1 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER LC'), 
+INVER2 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER LG'), 
+INVER3 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER ST'), 
+INVER4 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER SM'), 
+INVER5 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER LV'), 
+INVER6 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER CO'), 
+INVER7 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER SA'), 
+INVER8 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER SG'), 
+INVER9 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER SO'), 
+INVE10 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER BO'), 
+INVE21 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 21'), 
+INVE22 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 22'), 
+INVE23 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 23'), 
+INVE24 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 24'), 
+INVE25 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 25'), 
+INVE26 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 26'), 
+INVE27 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 27'), 
+INVE28 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 28'), 
+INVE29 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 29'), 
+INVE30 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 30'), 
+INVE31 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 31'), 
+INVE32 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 32'), 
+INVE33 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 33'), 
+INVE34 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 34'), 
+INVE35 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 35'), 
+INVE36 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 36'), 
+INVE37 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 37'), 
+INVE38 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 38'), 
+INVE39 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 39'), 
+INVE40 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 40'), 
+INVE41 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 41'), 
+INVE42 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 42'), 
+INVE43 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 43'), 
+INVE44 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 44'), 
+INVE45 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 45'), 
+INVE46 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 46'), 
+INVE47 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 47'), 
+INVE48 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 48'), 
+INVE49 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 49'), 
+INVE50 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 50'), 
+RDCARO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'RANGO DESDE CAT.ROT'), 
+RHCARO DECIMAL(7, 0)  NOT NULL  SET("Description" = 'RANGO HASTA CAT.ROT'), 
+ITEMSG DECIMAL(5, 0)  NOT NULL  SET("Description" = 'ITEMS EN SGPO'), 
+INVE51 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 51'), 
+INVE52 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 52'), 
+INVE53 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 53'), 
+INVE54 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 54'), 
+INVE55 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 55'), 
+INVE56 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 56'), 
+INVE57 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 57'), 
+INVE58 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 58'), 
+INVE59 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 59'), 
+INVE60 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 60'), 
+INVE61 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 61'), 
+INVE62 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 62'), 
+INVE63 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 63'), 
+INVE64 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 64'), 
+INVE65 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 65'), 
+INVE66 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 66'), 
+INVE67 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 67'), 
+INVE68 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 68'), 
+INVE69 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 69'), 
+INVE70 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 70'), 
+INVE71 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 71'), 
+INVE72 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 72'), 
+INVE73 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 73'), 
+INVE74 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 74'), 
+INVE75 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 75'), 
+INVE76 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 76'), 
+INVE77 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 77'), 
+INVE78 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 78'), 
+INVE79 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 79'), 
+INVE80 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 80'), 
+INVE81 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 81'), 
+INVE82 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 82'), 
+INVE83 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 83'), 
+INVE84 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 84'), 
+INVE85 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 85'), 
+INVE86 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 86'), 
+INVE87 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 87'), 
+INVE88 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 88'), 
+INVE89 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 89'), 
+INVE90 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 90'), 
+INVE91 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 91'), 
+INVE92 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 92'), 
+INVE93 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 93'), 
+INVE94 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 94'), 
+INVE95 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 95'), 
+INVE96 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 96'), 
+INVE97 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 97'), 
+INVE98 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INVER 98'), 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 24 17:15:01 2022', "ActaValue_3" = 'Mon Oct 24 17:18:02 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CATCATTB::'1611802d-ea96-4598-8066-c2b601c27e10'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '47', "x" = '572', "y" = '-747')
+GUID::'a115f71a-c7c2-4f14-b457-521d9534ad70' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATCATTB OUTPUT(CATCATTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'CATCATTB', "x" = '1300', "y" = '-725')
+GUID::'0b303468-e213-4e10-aae6-4bf62c9a5c43' CREATE VIEW Query( SRCODCAT VARCHAR(5)  KEY  SET( "Description" = 'CODIGO CATEGORIA', "ui_mapping_text" = 'CATCATTB.SRCODCAT') ,
+ SRNOMCAT VARCHAR(20)  SET( "Description" = 'NOMBRE CATEGORIA', "ui_mapping_text" = 'CATCATTB.SRNOMCAT') ,
+ SRDESCAT VARCHAR(60)  SET( "Description" = 'DESCRIPCION CATEGORIA', "ui_mapping_text" = 'CATCATTB.SRDESCAT') ,
+ SRNOMIMG VARCHAR(60)  SET( "Description" = 'NOMBRE DE LA IMAGEN', "ui_mapping_text" = 'CATCATTB.SRNOMIMG') ,
+ SRORDTOP DECIMAL(5, 0)  SET( "Description" = 'TOP DE CATEGORIA', "ui_mapping_text" = 'CATCATTB.SRORDTOP') ,
+ SRESTATU VARCHAR(1)  SET( "Description" = 'ESTATUS', "ui_mapping_text" = 'CATCATTB.SRESTATU') ,
+ SRUSEING VARCHAR(10)  SET( "Description" = 'USUARIO CREO MODIFICO', "ui_mapping_text" = 'CATCATTB.SRUSEING') ,
+ SRFECING DATETIME(9)  SET( "Description" = 'HORA CREO MODIFICO', "ui_mapping_text" = 'CATCATTB.SRFECING') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CATCATTB.SRCODCAT, CATCATTB.SRNOMCAT, CATCATTB.SRDESCAT, CATCATTB.SRNOMIMG, CATCATTB.SRORDTOP, CATCATTB.SRESTATU, CATCATTB.SRUSEING, CATCATTB.SRFECING, sysdate() FROM CATCATTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'CATCATTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2121', "y" = '-692')
+GUID::'138a5ebc-7802-41a2-995e-5da9da15f093' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATCATTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 24 17:24:27 2022', "ActaValue_3" = 'Mon Oct 24 17:25:16 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CATFAMTB::'88c3f080-27a8-45a9-a53f-3c8c3c0c1d2e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '438', "y" = '-785')
+GUID::'d5c7d8d9-3ff5-46ed-a698-289b8318f163' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATFAMTB OUTPUT(CATFAMTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CATFAMTB', "x" = '1287', "y" = '-637')
+GUID::'00083ddb-b735-45ea-b017-74eb4bbeb5a5' CREATE VIEW Query( FACODUNI VARCHAR(5)  KEY  SET( "Description" = 'CODIGO UNICO FAMILIA', "ui_mapping_text" = 'CATFAMTB.FACODUNI') ,
+ FADESCRI VARCHAR(60)  SET( "Description" = 'DESCRIPCION FAMILIA', "ui_mapping_text" = 'CATFAMTB.FADESCRI') ,
+ FADESCOR VARCHAR(20)  SET( "Description" = 'DESCRIPCION FAM CORTA', "ui_mapping_text" = 'CATFAMTB.FADESCOR') ,
+ FANOMIMG VARCHAR(60)  SET( "Description" = 'NOMBRE IMAGEN', "ui_mapping_text" = 'CATFAMTB.FANOMIMG') ,
+ FAORDTOP DECIMAL(5, 0)  SET( "Description" = 'ORDEN PARA MOSTRAR EN WEB', "ui_mapping_text" = 'CATFAMTB.FAORDTOP') ,
+ FAUSEING VARCHAR(10)  SET( "Description" = 'USUARIO INGRESO MANTENIMIENTO', "ui_mapping_text" = 'CATFAMTB.FAUSEING') ,
+ FAFECING DATETIME(9)  SET( "Description" = 'FECHA INGRESO MANTENIMIENT0', "ui_mapping_text" = 'CATFAMTB.FAFECING') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CATFAMTB.FACODUNI, CATFAMTB.FADESCRI, CATFAMTB.FADESCOR, CATFAMTB.FANOMIMG, CATFAMTB.FAORDTOP, CATFAMTB.FAUSEING, CATFAMTB.FAFECING, sysdate() FROM CATFAMTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'CATFAMTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2309', "y" = '-517')
+GUID::'f5b5b171-b5f1-4de0-bfe7-53db02177dfc' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATFAMTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 24 17:31:39 2022', "ActaValue_3" = 'Mon Oct 24 17:45:56 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CATSFMTB::'ba924961-b102-4fd5-9eb8-7e7517f64fe2'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '531', "y" = '-934')
+GUID::'6d83cac8-a151-45ff-a93f-29c8cafd90c7' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.CATSFMTB OUTPUT(CATSFMTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CATSFMTB', "x" = '1251', "y" = '-903')
+GUID::'fdf86750-cf22-4079-b3d8-c7ad818c4bad' CREATE VIEW Query( SFCODUNI VARCHAR(5)  KEY  SET( "Description" = 'ID UNICO', "ui_mapping_text" = 'CATSFMTB.SFCODUNI') ,
+ SFDESCOR VARCHAR(20)  SET( "Description" = 'DESCRIPCION CORTA', "ui_mapping_text" = 'CATSFMTB.SFDESCOR') ,
+ SFDESCRI VARCHAR(60)  SET( "Description" = 'DESCRIPCION SUBFAMILIA', "ui_mapping_text" = 'CATSFMTB.SFDESCRI') ,
+ SFDISECO VARCHAR(1)  SET( "Description" = 'DISPONIBLE PARA ECOMMERCE', "ui_mapping_text" = 'CATSFMTB.SFDISECO') ,
+ SFDISALM VARCHAR(1)  SET( "Description" = 'DISPONIBLE PARA ALMACEN', "ui_mapping_text" = 'CATSFMTB.SFDISALM') ,
+ SFVTASIS VARCHAR(1)  SET( "Description" = 'VENTA ASISTIDA', "ui_mapping_text" = 'CATSFMTB.SFVTASIS') ,
+ SFNOMIMG VARCHAR(60)  SET( "Description" = 'NOMBRE IMAGEN', "ui_mapping_text" = 'CATSFMTB.SFNOMIMG') ,
+ SFORDTOP DECIMAL(5, 0)  SET( "Description" = 'ORDEN PARA MOSTRAR EN WEB', "ui_mapping_text" = 'CATSFMTB.SFORDTOP') ,
+ SFMAXVTA DECIMAL(5, 0)  SET( "Description" = 'MAXIMO DE VENTA', "ui_mapping_text" = 'CATSFMTB.SFMAXVTA') ,
+ SFUSEING VARCHAR(10)  SET( "Description" = 'USUARIO INGRESA MODIFICA', "ui_mapping_text" = 'CATSFMTB.SFUSEING') ,
+ SFFECING DATETIME(9)  SET( "Description" = 'FECHA HORA INGRESA MODIFICA', "ui_mapping_text" = 'CATSFMTB.SFFECING') ,
+ SFUSECAM VARCHAR(10)  SET( "Description" = 'USUARIO INGRESA MODIFICA', "ui_mapping_text" = 'CATSFMTB.SFUSECAM') ,
+ SFFECCAM DATETIME(9)  SET( "Description" = 'FECHA HORA INGRESA MODIFICA', "ui_mapping_text" = 'CATSFMTB.SFFECCAM') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CATSFMTB.SFCODUNI, CATSFMTB.SFDESCOR, CATSFMTB.SFDESCRI, CATSFMTB.SFDISECO, CATSFMTB.SFDISALM, CATSFMTB.SFVTASIS, CATSFMTB.SFNOMIMG, CATSFMTB.SFORDTOP, CATSFMTB.SFMAXVTA, CATSFMTB.SFUSEING, CATSFMTB.SFFECING, CATSFMTB.SFUSECAM, CATSFMTB.SFFECCAM, sysdate() FROM CATSFMTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'CATSFMTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2128', "y" = '-833')
+GUID::'10cbc5eb-5d12-4c86-9a6a-f4830851e9f5' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CATSFMTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Nov  1 15:11:30 2022', "ActaValue_3" = 'Wed Nov  9 15:47:08 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_GRUPOS::'571e3f85-f85e-43f5-a176-68f20809d68c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '36', "ui_display_name" = 'SQLSV', "x" = '356', "y" = '-846')
+GUID::'5f0d909f-583a-430f-b68a-78fb000bfd9c' CALL TRANSFORM SQL() OUTPUT(SQLSV( CODGRU VARCHAR(2) ,
+ NOMGRU VARCHAR(30) ,
+ UNVGRU DECIMAL(9, 0) ,
+ UNDGRU DECIMAL(9, 0) ,
+ VTBGRU DECIMAL(9, 2) ,
+ DESGRU DECIMAL(9, 2) ,
+ DEVGRU DECIMAL(9, 2) ,
+ COVGRU DECIMAL(9, 2) ,
+ CDEGRU DECIMAL(9, 2) ,
+ INVGRU DECIMAL(9, 2) ,
+ INVGR1 DECIMAL(9, 2) ,
+ INVGR2 DECIMAL(9, 2) ,
+ INVGR3 DECIMAL(9, 2) ,
+ INVGR4 DECIMAL(9, 2) ,
+ INVGR5 DECIMAL(9, 2) ,
+ INVGR6 DECIMAL(9, 2) ,
+ INVGR7 DECIMAL(9, 2) ,
+ INVGR8 DECIMAL(9, 2) ,
+ INVGR9 DECIMAL(9, 2) ,
+ INVG10 DECIMAL(9, 2) ,
+ INVG21 DECIMAL(9, 2) ,
+ INVG22 DECIMAL(9, 2) ,
+ INVG23 DECIMAL(9, 2) ,
+ INVG24 DECIMAL(9, 2) ,
+ INVG25 DECIMAL(9, 2) ,
+ INVG26 DECIMAL(9, 2) ,
+ INVG27 DECIMAL(9, 2) ,
+ INVG28 DECIMAL(9, 2) ,
+ INVG29 DECIMAL(9, 2) ,
+ INVG30 DECIMAL(9, 2) ,
+ INVG31 DECIMAL(9, 2) ,
+ INVG32 DECIMAL(9, 2) ,
+ INVG33 DECIMAL(9, 2) ,
+ INVG34 DECIMAL(9, 2) ,
+ INVG35 DECIMAL(9, 2) ,
+ INVG36 DECIMAL(9, 2) ,
+ INVG37 DECIMAL(9, 2) ,
+ INVG38 DECIMAL(9, 2) ,
+ INVG39 DECIMAL(9, 2) ,
+ INVG40 DECIMAL(9, 2) ,
+ INVG41 DECIMAL(9, 2) ,
+ INVG42 DECIMAL(9, 2) ,
+ INVG43 DECIMAL(9, 2) ,
+ INVG44 DECIMAL(9, 2) ,
+ INVG45 DECIMAL(9, 2) ,
+ INVG46 DECIMAL(9, 2) ,
+ INVG47 DECIMAL(9, 2) ,
+ INVG48 DECIMAL(9, 2) ,
+ INVG49 DECIMAL(9, 2) ,
+ INVG50 DECIMAL(9, 2) ,
+ ITEMGR DECIMAL(7, 0) ,
+ INVG51 DECIMAL(13, 2) ,
+ INVG52 DECIMAL(13, 2) ,
+ INVG53 DECIMAL(13, 2) ,
+ INVG54 DECIMAL(13, 2) ,
+ INVG55 DECIMAL(13, 2) ,
+ INVG56 DECIMAL(13, 2) ,
+ INVG57 DECIMAL(13, 2) ,
+ INVG58 DECIMAL(13, 2) ,
+ INVG59 DECIMAL(13, 2) ,
+ INVG60 DECIMAL(13, 2) ,
+ INVG61 DECIMAL(13, 2) ,
+ INVG62 DECIMAL(13, 2) ,
+ INVG63 DECIMAL(13, 2) ,
+ INVG64 DECIMAL(13, 2) ,
+ INVG65 DECIMAL(13, 2) ,
+ INVG66 DECIMAL(13, 2) ,
+ INVG67 DECIMAL(13, 2) ,
+ INVG68 DECIMAL(13, 2) ,
+ INVG69 DECIMAL(13, 2) ,
+ INVG70 DECIMAL(13, 2) ,
+ INVG71 DECIMAL(13, 2) ,
+ INVG72 DECIMAL(13, 2) ,
+ INVG73 DECIMAL(13, 2) ,
+ INVG74 DECIMAL(13, 2) ,
+ INVG75 DECIMAL(13, 2) ,
+ INVG76 DECIMAL(13, 2) ,
+ INVG77 DECIMAL(13, 2) ,
+ INVG78 DECIMAL(13, 2) ,
+ INVG79 DECIMAL(13, 2) ,
+ INVG80 DECIMAL(13, 2) ,
+ INVG81 DECIMAL(13, 2) ,
+ INVG82 DECIMAL(13, 2) ,
+ INVG83 DECIMAL(13, 2) ,
+ INVG84 DECIMAL(13, 2) ,
+ INVG85 DECIMAL(13, 2) ,
+ INVG86 DECIMAL(13, 2) ,
+ INVG87 DECIMAL(13, 2) ,
+ INVG88 DECIMAL(13, 2) ,
+ INVG89 DECIMAL(13, 2) ,
+ INVG90 DECIMAL(13, 2) ,
+ INVG91 DECIMAL(13, 2) ,
+ INVG92 DECIMAL(13, 2) ,
+ INVG93 DECIMAL(13, 2) ,
+ INVG94 DECIMAL(13, 2) ,
+ INVG95 DECIMAL(13, 2) ,
+ INVG96 DECIMAL(13, 2) ,
+ INVG97 DECIMAL(13, 2) ,
+ INVG98 DECIMAL(13, 2) ,
+ ID_PAIS INT  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select CODGRU,NOMGRU,UNVGRU,UNDGRU,VTBGRU,DESGRU,DEVGRU,COVGRU,CDEGRU,INVGRU,INVGR1,INVGR2&#xD;&#xA;,INVGR3&#x9;,INVGR4&#x9;,INVGR5&#x9;,INVGR6&#x9;,INVGR7&#x9;,INVGR8&#x9;,INVGR9&#x9;,INVG10&#x9;,INVG21&#x9;,INVG22&#x9;,INVG23&#x9;,INVG24&#x9;,INVG25&#x9;,INVG26&#x9;,INVG27&#x9;,INVG28&#x9;,INVG29&#x9;,INVG30&#x9;,INVG31&#x9;,INVG32&#xD;&#xA;,INVG33&#x9;,INVG34&#x9;,INVG35&#x9;,INVG36&#x9;,INVG37&#x9;,INVG38&#x9;,INVG39&#x9;,INVG40&#x9;,INVG41&#x9;,INVG42&#x9;,INVG43&#x9;,INVG44&#x9;,INVG45&#x9;,INVG46&#x9;,INVG47&#x9;,INVG48&#x9;,INVG49&#x9;,INVG50&#x9;,ITEMGR&#x9;,INVG51&#xD;&#xA;,INVG52&#x9;,INVG53&#x9;,INVG54&#x9;,INVG55&#x9;,INVG56&#x9;,INVG57&#x9;,INVG58&#x9;,INVG59&#x9;,INVG60&#x9;,INVG61&#x9;,INVG62&#x9;,INVG63&#x9;,INVG64&#x9;,INVG65&#x9;,INVG66&#x9;,INVG67&#x9;,INVG68&#x9;,INVG69&#x9;,INVG70&#x9;,INVG71&#xD;&#xA;,INVG72&#x9;,INVG73&#x9;,INVG74&#x9;,INVG75&#x9;,INVG76&#x9;,INVG77&#x9;,INVG78&#x9;,INVG79&#x9;,INVG80&#x9;,INVG81&#x9;,INVG82&#x9;,INVG83&#x9;,INVG84&#x9;,INVG85&#x9;,INVG86&#x9;,INVG87&#x9;,INVG88&#x9;,INVG89&#x9;,INVG90&#x9;,INVG91&#xD;&#xA;,INVG92&#x9;,INVG93&#x9;,INVG94&#x9;,INVG95&#x9;,INVG96&#x9;,INVG97&#x9;,INVG98&#x9;&#xD;&#xA;,1 ID_PAIS&#xD;&#xA;FROM NEWINV.GRUPOS&#xD;&#xA;UNION all &#xD;&#xA;Select CODGRU,NOMGRU,UNVGRU,UNDGRU,VTBGRU,DESGRU,DEVGRU,COVGRU,CDEGRU,INVGRU,INVGR1,INVGR2&#xD;&#xA;,INVGR3&#x9;,INVGR4&#x9;,INVGR5&#x9;,INVGR6&#x9;,INVGR7&#x9;,INVGR8&#x9;,INVGR9&#x9;,INVG10&#x9;,INVG21&#x9;,INVG22&#x9;,INVG23&#x9;,INVG24&#x9;,INVG25&#x9;,INVG26&#x9;,INVG27&#x9;,INVG28&#x9;,INVG29&#x9;,INVG30&#x9;,INVG31&#x9;,INVG32&#xD;&#xA;,INVG33&#x9;,INVG34&#x9;,INVG35&#x9;,INVG36&#x9;,INVG37&#x9;,INVG38&#x9;,INVG39&#x9;,INVG40&#x9;,INVG41&#x9;,INVG42&#x9;,INVG43&#x9;,INVG44&#x9;,INVG45&#x9;,INVG46&#x9;,INVG47&#x9;,INVG48&#x9;,INVG49&#x9;,INVG50&#x9;,ITEMGR&#x9;,0 INVG51&#xD;&#xA;,0 INVG52&#x9;,0 INVG53&#x9;,0 INVG54&#x9;,0 INVG55&#x9;,0 INVG56&#x9;,0 INVG57&#x9;,0 INVG58&#x9;,0 INVG59&#x9;,0 INVG60&#x9;,0 INVG61&#x9;,0 INVG62&#x9;,0 INVG63&#x9;,0 INVG64&#x9;,0 INVG65&#x9;,0 INVG66&#x9;,0 INVG67&#x9;,0 INVG68&#x9;,0 INVG69&#x9;,0 INVG70&#x9;,0 INVG71&#xD;&#xA;,0 INVG72&#x9;,0 INVG73&#x9;,0 INVG74&#x9;,0 INVG75&#x9;,0 INVG76&#x9;,0 INVG77&#x9;,0 INVG78&#x9;,0 INVG79&#x9;,0 INVG80&#x9;,0 INVG81&#x9;,0 INVG82&#x9;,0 INVG83&#x9;,0 INVG84&#x9;,0 INVG85&#x9;,0 INVG86&#x9;,0 INVG87&#x9;,0 INVG88&#x9;,0 INVG89&#x9;,0 INVG90&#x9;,0 INVG91&#xD;&#xA;,0 INVG92&#x9;,0 INVG93&#x9;,0 INVG94&#x9;,0 INVG95&#x9;,0 INVG96&#x9;,0 INVG97&#x9;,0 INVG98&#x9;&#xD;&#xA;,2 ID_PAIS&#xD;&#xA;FROM NEWINV.GRUPOS  </sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '36', "ui_acta_from_schema_0" = 'SQLSV', "x" = '1287', "y" = '-787')
+GUID::'c03bbbc5-8b2d-419f-9103-90c007759522' CREATE VIEW Query( CODGRU VARCHAR(2)  SET( "ui_mapping_text" = 'SQLSV.CODGRU') ,
+ NOMGRU VARCHAR(30)  SET( "ui_mapping_text" = 'SQLSV.NOMGRU') ,
+ UNVGRU DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQLSV.UNVGRU') ,
+ UNDGRU DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQLSV.UNDGRU') ,
+ VTBGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.VTBGRU') ,
+ DESGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.DESGRU') ,
+ DEVGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.DEVGRU') ,
+ COVGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.COVGRU') ,
+ CDEGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.CDEGRU') ,
+ INVGRU DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGRU') ,
+ INVGR1 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR1') ,
+ INVGR2 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR2') ,
+ INVGR3 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR3') ,
+ INVGR4 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR4') ,
+ INVGR5 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR5') ,
+ INVGR6 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR6') ,
+ INVGR7 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR7') ,
+ INVGR8 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR8') ,
+ INVGR9 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVGR9') ,
+ INVG10 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG10') ,
+ INVG21 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG21') ,
+ INVG22 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG22') ,
+ INVG23 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG23') ,
+ INVG24 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG24') ,
+ INVG25 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG25') ,
+ INVG26 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG26') ,
+ INVG27 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG27') ,
+ INVG28 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG28') ,
+ INVG29 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG29') ,
+ INVG30 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG30') ,
+ INVG31 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG31') ,
+ INVG32 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG32') ,
+ INVG33 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG33') ,
+ INVG34 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG34') ,
+ INVG35 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG35') ,
+ INVG36 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG36') ,
+ INVG37 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG37') ,
+ INVG38 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG38') ,
+ INVG39 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG39') ,
+ INVG40 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG40') ,
+ INVG41 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG41') ,
+ INVG42 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG42') ,
+ INVG43 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG43') ,
+ INVG44 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG44') ,
+ INVG45 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG45') ,
+ INVG46 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG46') ,
+ INVG47 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG47') ,
+ INVG48 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG48') ,
+ INVG49 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG49') ,
+ INVG50 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG50') ,
+ ITEMGR DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQLSV.ITEMGR') ,
+ INVG51 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG51') ,
+ INVG52 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG52') ,
+ INVG53 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG53') ,
+ INVG54 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG54') ,
+ INVG55 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG55') ,
+ INVG56 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG56') ,
+ INVG57 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG57') ,
+ INVG58 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG58') ,
+ INVG59 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG59') ,
+ INVG60 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG60') ,
+ INVG61 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG61') ,
+ INVG62 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG62') ,
+ INVG63 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG63') ,
+ INVG64 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG64') ,
+ INVG65 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG65') ,
+ INVG66 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG66') ,
+ INVG67 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG67') ,
+ INVG68 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG68') ,
+ INVG69 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG69') ,
+ INVG70 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG70') ,
+ INVG71 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG71') ,
+ INVG72 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG72') ,
+ INVG73 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG73') ,
+ INVG74 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG74') ,
+ INVG75 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG75') ,
+ INVG76 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG76') ,
+ INVG77 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG77') ,
+ INVG78 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG78') ,
+ INVG79 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG79') ,
+ INVG80 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG80') ,
+ INVG81 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG81') ,
+ INVG82 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG82') ,
+ INVG83 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG83') ,
+ INVG84 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG84') ,
+ INVG85 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG85') ,
+ INVG86 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG86') ,
+ INVG87 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG87') ,
+ INVG88 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG88') ,
+ INVG89 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG89') ,
+ INVG90 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG90') ,
+ INVG91 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG91') ,
+ INVG92 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG92') ,
+ INVG93 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG93') ,
+ INVG94 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG94') ,
+ INVG95 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG95') ,
+ INVG96 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG96') ,
+ INVG97 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG97') ,
+ INVG98 DECIMAL(13, 2)  SET( "ui_mapping_text" = 'SQLSV.INVG98') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'SQLSV.ID_PAIS') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT SQLSV.CODGRU, SQLSV.NOMGRU, SQLSV.UNVGRU, SQLSV.UNDGRU, SQLSV.VTBGRU, SQLSV.DESGRU, SQLSV.DEVGRU, SQLSV.COVGRU, SQLSV.CDEGRU, SQLSV.INVGRU, SQLSV.INVGR1, SQLSV.INVGR2, SQLSV.INVGR3, SQLSV.INVGR4, SQLSV.INVGR5, SQLSV.INVGR6, SQLSV.INVGR7, SQLSV.INVGR8, SQLSV.INVGR9, SQLSV.INVG10, SQLSV.INVG21, SQLSV.INVG22, SQLSV.INVG23, SQLSV.INVG24, SQLSV.INVG25, SQLSV.INVG26, SQLSV.INVG27, SQLSV.INVG28, SQLSV.INVG29, SQLSV.INVG30, SQLSV.INVG31, SQLSV.INVG32, SQLSV.INVG33, SQLSV.INVG34, SQLSV.INVG35, SQLSV.INVG36, SQLSV.INVG37, SQLSV.INVG38, SQLSV.INVG39, SQLSV.INVG40, SQLSV.INVG41, SQLSV.INVG42, SQLSV.INVG43, SQLSV.INVG44, SQLSV.INVG45, SQLSV.INVG46, SQLSV.INVG47, SQLSV.INVG48, SQLSV.INVG49, SQLSV.INVG50, SQLSV.ITEMGR, SQLSV.INVG51, SQLSV.INVG52, SQLSV.INVG53, SQLSV.INVG54, SQLSV.INVG55, SQLSV.INVG56, SQLSV.INVG57, SQLSV.INVG58, SQLSV.INVG59, SQLSV.INVG60, SQLSV.INVG61, SQLSV.INVG62, SQLSV.INVG63, SQLSV.INVG64, SQLSV.INVG65, SQLSV.INVG66, SQLSV.INVG67, SQLSV.INVG68, SQLSV.INVG69, SQLSV.INVG70, SQLSV.INVG71, SQLSV.INVG72, SQLSV.INVG73, SQLSV.INVG74, SQLSV.INVG75, SQLSV.INVG76, SQLSV.INVG77, SQLSV.INVG78, SQLSV.INVG79, SQLSV.INVG80, SQLSV.INVG81, SQLSV.INVG82, SQLSV.INVG83, SQLSV.INVG84, SQLSV.INVG85, SQLSV.INVG86, SQLSV.INVG87, SQLSV.INVG88, SQLSV.INVG89, SQLSV.INVG90, SQLSV.INVG91, SQLSV.INVG92, SQLSV.INVG93, SQLSV.INVG94, SQLSV.INVG95, SQLSV.INVG96, SQLSV.INVG97, SQLSV.INVG98, SQLSV.ID_PAIS, sysdate() FROM SQLSV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '36', "ui_display_name" = 'GRUPOS(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2389', "y" = '-721')
+GUID::'6bc44084-c245-4b3d-aba3-79983362ad6b' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.GRUPOS INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 31 10:59:44 2022', "ActaValue_3" = 'Wed Nov  9 15:46:38 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_MAEPRODTB::'9eba1006-dfdb-4caf-8674-3216066cc37a'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '591', "y" = '-815')
+GUID::'6c44bf86-9909-4121-9f81-e622bd3a99ce' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.MAEPRODTB OUTPUT(MAEPRODTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'MAEPRODTB', "x" = '1519', "y" = '-731')
+GUID::'7887b76c-e7aa-4b40-88e7-d2d9bd7a7833' CREATE VIEW Query( SRPROCOD VARCHAR(20)  KEY  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'MAEPRODTB.SRPROCOD') ,
+ SRPROCFS DECIMAL(5, 0)  SET( "Description" = 'ID CAT/FAM/SUN FAM', "ui_mapping_text" = 'MAEPRODTB.SRPROCFS') ,
+ SRPRODCR VARCHAR(20)  SET( "Description" = 'DESCRIPCION CORTA', "ui_mapping_text" = 'MAEPRODTB.SRPRODCR') ,
+ SRPRODES VARCHAR(100)  SET( "Description" = 'DESCRIPCION', "ui_mapping_text" = 'MAEPRODTB.SRPRODES') ,
+ SRPROSND VARCHAR(20)  SET( "Description" = 'SONIDO', "ui_mapping_text" = 'MAEPRODTB.SRPROSND') ,
+ SRPROMIC DECIMAL(5, 0)  SET( "Description" = 'MINIMO DE COMPRA', "ui_mapping_text" = 'MAEPRODTB.SRPROMIC') ,
+ SRPROMAV DECIMAL(5, 0)  SET( "Description" = 'MAXIMO DE COMPRA', "ui_mapping_text" = 'MAEPRODTB.SRPROMAV') ,
+ SRPROMUC DECIMAL(5, 0)  SET( "Description" = 'MULTIPLO DE COMPRA', "ui_mapping_text" = 'MAEPRODTB.SRPROMUC') ,
+ SRPRIDSP DECIMAL(5, 0)  SET( "Description" = 'ORDEN DE DESPLIEGUE EN WEB', "ui_mapping_text" = 'MAEPRODTB.SRPRIDSP') ,
+ SRPROSTS VARCHAR(1)  SET( "Description" = 'ESTATUS', "ui_mapping_text" = 'MAEPRODTB.SRPROSTS') ,
+ SRPROBAU VARCHAR(1)  SET( "Description" = 'ESTATUS BLOQUEO AUTOMATICO', "ui_mapping_text" = 'MAEPRODTB.SRPROBAU') ,
+ SRPRODBA VARCHAR(100)  SET( "Description" = 'DESTALLE BLOQUEO AUTOMATICO', "ui_mapping_text" = 'MAEPRODTB.SRPRODBA') ,
+ SRUSUING VARCHAR(10)  SET( "Description" = 'USUARIO INGRESA REGISTRO', "ui_mapping_text" = 'MAEPRODTB.SRUSUING') ,
+ SRFECING DATETIME(9)  SET( "Description" = 'FECHA HORA INGRESO', "ui_mapping_text" = 'MAEPRODTB.SRFECING') ,
+ SRUSUCAM VARCHAR(10)  SET( "Description" = 'USUARIO MODIFICA REGISTRO', "ui_mapping_text" = 'MAEPRODTB.SRUSUCAM') ,
+ SRFECCAM DATETIME(9)  SET( "Description" = 'FECHA HORA MODIFICACION', "ui_mapping_text" = 'MAEPRODTB.SRFECCAM') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT MAEPRODTB.SRPROCOD, MAEPRODTB.SRPROCFS, MAEPRODTB.SRPRODCR, MAEPRODTB.SRPRODES, MAEPRODTB.SRPROSND, MAEPRODTB.SRPROMIC, MAEPRODTB.SRPROMAV, MAEPRODTB.SRPROMUC, MAEPRODTB.SRPRIDSP, MAEPRODTB.SRPROSTS, MAEPRODTB.SRPROBAU, MAEPRODTB.SRPRODBA, MAEPRODTB.SRUSUING, MAEPRODTB.SRFECING, MAEPRODTB.SRUSUCAM, MAEPRODTB.SRFECCAM, sysdate() FROM MAEPRODTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'MAEPRODTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2458', "y" = '-629')
+GUID::'10464205-49c9-49bb-8ce0-7965db97ad14' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAEPRODTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 24 17:45:28 2022', "ActaValue_3" = 'Mon Oct 24 17:47:32 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_RELCFSTB::'7fdc2ecb-a2e8-405c-8b8a-d6c808ab1aa2'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>381</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '538', "y" = '-1028')
+GUID::'23384bf4-5581-40d2-9b65-5585f2725e63' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.RELCFSTB OUTPUT(RELCFSTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'RELCFSTB', "x" = '1453', "y" = '-956')
+GUID::'c7a4f752-3950-4265-bb11-7b3d24f8c00c' CREATE VIEW Query( IDRELCFS INT  SET( "Description" = 'CODIGO RELACION', "ui_mapping_text" = 'RELCFSTB.IDRELCFS') ,
+ IDCODCAT VARCHAR(5)  KEY  SET( "Description" = 'CODIGO CATEGORIA', "ui_mapping_text" = 'RELCFSTB.IDCODCAT') ,
+ IDCODFAM VARCHAR(5)  KEY  SET( "Description" = 'CODIGO FAMILIA', "ui_mapping_text" = 'RELCFSTB.IDCODFAM') ,
+ IDCODSFM VARCHAR(5)  KEY  SET( "Description" = 'CODIGO SUB FAMILIA', "ui_mapping_text" = 'RELCFSTB.IDCODSFM') ,
+ IDSTATUS VARCHAR(1)  SET( "Description" = 'ESTATUS', "ui_mapping_text" = 'RELCFSTB.IDSTATUS') ,
+ IDSECUEN DECIMAL(6, 0)  SET( "Description" = 'ULTIMA SECUENCIA', "ui_mapping_text" = 'RELCFSTB.IDSECUEN') ,
+ SRUSUING VARCHAR(10)  SET( "Description" = 'USUARIO INGRESA REGISTRO', "ui_mapping_text" = 'RELCFSTB.SRUSUING') ,
+ SRFECING DATETIME(9)  SET( "Description" = 'FECHA HORA INGRESO', "ui_mapping_text" = 'RELCFSTB.SRFECING') ,
+ SRUSUCAM VARCHAR(10)  SET( "Description" = 'USUARIO MODIFICA REGISTRO', "ui_mapping_text" = 'RELCFSTB.SRUSUCAM') ,
+ SRFECCAM DATETIME(9)  SET( "Description" = 'FECHA HORA MODIFICACION', "ui_mapping_text" = 'RELCFSTB.SRFECCAM') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT RELCFSTB.IDRELCFS, RELCFSTB.IDCODCAT, RELCFSTB.IDCODFAM, RELCFSTB.IDCODSFM, RELCFSTB.IDSTATUS, RELCFSTB.IDSECUEN, RELCFSTB.SRUSUING, RELCFSTB.SRFECING, RELCFSTB.SRUSUCAM, RELCFSTB.SRFECCAM, sysdate() FROM RELCFSTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>425</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'RELCFSTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2346', "y" = '-888')
+GUID::'86dd1d35-dc7c-49d7-830b-f5afc9cc60d2' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.RELCFSTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Oct 31 10:35:04 2022', "ActaValue_3" = 'Mon Oct 31 10:45:14 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_RELPRCSRTB::'b5c54e9f-acc4-4847-8f8d-1efdf5f37806'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>381</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '616', "y" = '-844')
+GUID::'521c8ef9-b731-409e-b9f0-daa908e7e0ca' READ TABLE DS_DB2_GER_VTAS.SRWEBPRO.RELPRCSRTB OUTPUT(RELPRCSRTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'RELPRCSRTB', "x" = '1338', "y" = '-822')
+GUID::'34711b6e-df9e-4e8f-904b-cd99adefcd62' CREATE VIEW Query( SRIDPROD INT  SET( "Description" = 'CODIGO IDENTIDAD PRODUCTO', "ui_mapping_text" = 'RELPRCSRTB.SRIDPROD') ,
+ SRPROCOD VARCHAR(20)  KEY  SET( "Description" = 'CODIGO PRODUCTO', "ui_mapping_text" = 'RELPRCSRTB.SRPROCOD') ,
+ SRCODSRP VARCHAR(17)  KEY  SET( "Description" = 'CODIGO PRODUCTO SR', "ui_mapping_text" = 'RELPRCSRTB.SRCODSRP') ,
+ SRPROEXL VARCHAR(1)  SET( "Description" = 'EXISTENCIA LIMITADA', "ui_mapping_text" = 'RELPRCSRTB.SRPROEXL') ,
+ SRPROURL VARCHAR(100)  SET( "Description" = 'WEB DEL PRODUCTO', "ui_mapping_text" = 'RELPRCSRTB.SRPROURL') ,
+ SRPROSTP VARCHAR(1)  SET( "Description" = 'ESTATUS PRODUCTO', "ui_mapping_text" = 'RELPRCSRTB.SRPROSTP') ,
+ SRUSUING VARCHAR(10)  SET( "Description" = 'USUARIO INGRESA REGISTRO', "ui_mapping_text" = 'RELPRCSRTB.SRUSUING') ,
+ SRFECING DATETIME(9)  SET( "Description" = 'FECHA HORA INGRESO', "ui_mapping_text" = 'RELPRCSRTB.SRFECING') ,
+ SRUSUCAM VARCHAR(10)  SET( "Description" = 'USUARIO MODIFICA REGISTRO', "ui_mapping_text" = 'RELPRCSRTB.SRUSUCAM') ,
+ SRFECCAM DATETIME(9)  SET( "Description" = 'FECHA HORA MODIFICACION', "ui_mapping_text" = 'RELPRCSRTB.SRFECCAM') ,
+ SROBSECMFLAG VARCHAR(1)  SET( "ui_mapping_text" = 'RELPRCSRTB.SROBSECMFLAG') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT RELPRCSRTB.SRIDPROD, RELPRCSRTB.SRPROCOD, RELPRCSRTB.SRCODSRP, RELPRCSRTB.SRPROEXL, RELPRCSRTB.SRPROURL, RELPRCSRTB.SRPROSTP, RELPRCSRTB.SRUSUING, RELPRCSRTB.SRFECING, RELPRCSRTB.SRUSUCAM, RELPRCSRTB.SRFECCAM, RELPRCSRTB.SROBSECMFLAG, sysdate() FROM RELPRCSRTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'RELPRCSRTB(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2274', "y" = '-798')
+GUID::'1e449814-3c45-4832-94fd-2b4eb6337925' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.RELPRCSRTB INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Nov  4 09:52:14 2022', "ActaValue_3" = 'Wed Nov  9 15:47:39 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_SGRUPOS::'c926bf81-170d-4a6f-8385-4a29680f8bb9'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQLSV&HN', "x" = '1453', "y" = '-553')
+GUID::'8414913e-8f8c-4a78-a3c7-b100abe80282' CREATE VIEW Query( CODGRU VARCHAR(2)  SET( "Description" = 'GRUPO', "ui_mapping_text" = '"SQLSV&HN".CODGRU') ,
+ CODSUB VARCHAR(2)  SET( "Description" = 'SUBGRUPO', "ui_mapping_text" = '"SQLSV&HN".CODSUB') ,
+ NOMSG VARCHAR(30)  SET( "Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = '"SQLSV&HN".NOMSG') ,
+ DESSUG VARCHAR(20)  SET( "Description" = 'DESCRIPC.SUGERIDA', "ui_mapping_text" = '"SQLSV&HN".DESSUG') ,
+ CANSUM VARCHAR(1)  SET( "Description" = 'CANT. DE SUMINIS', "ui_mapping_text" = '"SQLSV&HN".CANSUM') ,
+ SUMIN1 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.1', "ui_mapping_text" = '"SQLSV&HN".SUMIN1') ,
+ SUMIN2 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.2', "ui_mapping_text" = '"SQLSV&HN".SUMIN2') ,
+ SUMIN3 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.3', "ui_mapping_text" = '"SQLSV&HN".SUMIN3') ,
+ SUMIN4 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.4', "ui_mapping_text" = '"SQLSV&HN".SUMIN4') ,
+ SUMIN5 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.5', "ui_mapping_text" = '"SQLSV&HN".SUMIN5') ,
+ SUMIN6 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.6', "ui_mapping_text" = '"SQLSV&HN".SUMIN6') ,
+ SUMIN7 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.7', "ui_mapping_text" = '"SQLSV&HN".SUMIN7') ,
+ SUMIN8 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.8', "ui_mapping_text" = '"SQLSV&HN".SUMIN8') ,
+ SUMIN9 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINIS.9', "ui_mapping_text" = '"SQLSV&HN".SUMIN9') ,
+ SUMI10 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.10', "ui_mapping_text" = '"SQLSV&HN".SUMI10') ,
+ SUMI11 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.11', "ui_mapping_text" = '"SQLSV&HN".SUMI11') ,
+ SUMI12 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.12', "ui_mapping_text" = '"SQLSV&HN".SUMI12') ,
+ SUMI13 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.13', "ui_mapping_text" = '"SQLSV&HN".SUMI13') ,
+ SUMI14 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.14', "ui_mapping_text" = '"SQLSV&HN".SUMI14') ,
+ SUMI15 VARCHAR(3)  SET( "Description" = 'CODIGO SUMINI.15', "ui_mapping_text" = '"SQLSV&HN".SUMI15') ,
+ UNVSG DECIMAL(9, 0)  SET( "Description" = 'UNIDADES VENDIDAS', "ui_mapping_text" = '"SQLSV&HN".UNVSG') ,
+ UNDSG DECIMAL(9, 0)  SET( "Description" = 'UNIDADES DEVUELTAS', "ui_mapping_text" = '"SQLSV&HN".UNDSG') ,
+ VTBSG DECIMAL(9, 2)  SET( "Description" = 'VENTAS BRUTAS', "ui_mapping_text" = '"SQLSV&HN".VTBSG') ,
+ DESSG DECIMAL(9, 2)  SET( "Description" = 'DESCUENTOS', "ui_mapping_text" = '"SQLSV&HN".DESSG') ,
+ DEVSG DECIMAL(9, 2)  SET( "Description" = 'DEVOLUCION', "ui_mapping_text" = '"SQLSV&HN".DEVSG') ,
+ COVSG DECIMAL(9, 2)  SET( "Description" = 'COSTO DE VENTA', "ui_mapping_text" = '"SQLSV&HN".COVSG') ,
+ COSDSG DECIMAL(9, 2)  SET( "Description" = 'COSTO DE DEVOLUCION', "ui_mapping_text" = '"SQLSV&HN".COSDSG') ,
+ CODTSG DECIMAL(9, 2)  SET( "Description" = 'COSTOS DETERIORO', "ui_mapping_text" = '"SQLSV&HN".CODTSG') ,
+ INVSG DECIMAL(9, 2)  SET( "Description" = 'INVERSION SUBGPO', "ui_mapping_text" = '"SQLSV&HN".INVSG') ,
+ VTNACS DECIMAL(9, 2)  SET( "Description" = 'VTA NETA ACUMULADA', "ui_mapping_text" = '"SQLSV&HN".VTNACS') ,
+ COVTAS DECIMAL(9, 2)  SET( "Description" = 'COSTO VTA ACUMULADA', "ui_mapping_text" = '"SQLSV&HN".COVTAS') ,
+ CODVAS DECIMAL(9, 2)  SET( "Description" = 'COSTO DEV. ACUMULADA', "ui_mapping_text" = '"SQLSV&HN".CODVAS') ,
+ CODTAS DECIMAL(9, 2)  SET( "Description" = 'COSTO DET. ACUMULADA', "ui_mapping_text" = '"SQLSV&HN".CODTAS') ,
+ COFIAS DECIMAL(9, 2)  SET( "Description" = 'COSTO INV. FISICO ACUM.', "ui_mapping_text" = '"SQLSV&HN".COFIAS') ,
+ PERCAT VARCHAR(1)  SET( "Description" = 'ES DE CAT SI=1 NO=0', "ui_mapping_text" = '"SQLSV&HN".PERCAT') ,
+ FECLIS VARCHAR(8)  SET( "Description" = 'FECHA LISTA', "ui_mapping_text" = '"SQLSV&HN".FECLIS') ,
+ NUMLIS DECIMAL(9, 0)  SET( "Description" = 'NUMERO LISTA', "ui_mapping_text" = '"SQLSV&HN".NUMLIS') ,
+ FELISA VARCHAR(8)  SET( "Description" = 'F.LISTA ANTERIOR', "ui_mapping_text" = '"SQLSV&HN".FELISA') ,
+ NULISA DECIMAL(9, 0)  SET( "Description" = 'NUM.LISTA ANTER', "ui_mapping_text" = '"SQLSV&HN".NULISA') ,
+ FORCAR VARCHAR(20)  SET( "Description" = 'FORMATO CARACTER', "ui_mapping_text" = '"SQLSV&HN".FORCAR') ,
+ INVER1 DECIMAL(9, 2)  SET( "Description" = 'INVER LC', "ui_mapping_text" = '"SQLSV&HN".INVER1') ,
+ INVER2 DECIMAL(9, 2)  SET( "Description" = 'INVER LG', "ui_mapping_text" = '"SQLSV&HN".INVER2') ,
+ INVER3 DECIMAL(9, 2)  SET( "Description" = 'INVER ST', "ui_mapping_text" = '"SQLSV&HN".INVER3') ,
+ INVER4 DECIMAL(9, 2)  SET( "Description" = 'INVER SM', "ui_mapping_text" = '"SQLSV&HN".INVER4') ,
+ INVER5 DECIMAL(9, 2)  SET( "Description" = 'INVER LV', "ui_mapping_text" = '"SQLSV&HN".INVER5') ,
+ INVER6 DECIMAL(9, 2)  SET( "Description" = 'INVER CO', "ui_mapping_text" = '"SQLSV&HN".INVER6') ,
+ INVER7 DECIMAL(9, 2)  SET( "Description" = 'INVER SA', "ui_mapping_text" = '"SQLSV&HN".INVER7') ,
+ INVER8 DECIMAL(9, 2)  SET( "Description" = 'INVER SG', "ui_mapping_text" = '"SQLSV&HN".INVER8') ,
+ INVER9 DECIMAL(9, 2)  SET( "Description" = 'INVER SO', "ui_mapping_text" = '"SQLSV&HN".INVER9') ,
+ INVE10 DECIMAL(9, 2)  SET( "Description" = 'INVER BO', "ui_mapping_text" = '"SQLSV&HN".INVE10') ,
+ INVE21 DECIMAL(9, 2)  SET( "Description" = 'INVER 21', "ui_mapping_text" = '"SQLSV&HN".INVE21') ,
+ INVE22 DECIMAL(9, 2)  SET( "Description" = 'INVER 22', "ui_mapping_text" = '"SQLSV&HN".INVE22') ,
+ INVE23 DECIMAL(9, 2)  SET( "Description" = 'INVER 23', "ui_mapping_text" = '"SQLSV&HN".INVE23') ,
+ INVE24 DECIMAL(9, 2)  SET( "Description" = 'INVER 24', "ui_mapping_text" = '"SQLSV&HN".INVE24') ,
+ INVE25 DECIMAL(9, 2)  SET( "Description" = 'INVER 25', "ui_mapping_text" = '"SQLSV&HN".INVE25') ,
+ INVE26 DECIMAL(9, 2)  SET( "Description" = 'INVER 26', "ui_mapping_text" = '"SQLSV&HN".INVE26') ,
+ INVE27 DECIMAL(9, 2)  SET( "Description" = 'INVER 27', "ui_mapping_text" = '"SQLSV&HN".INVE27') ,
+ INVE28 DECIMAL(9, 2)  SET( "Description" = 'INVER 28', "ui_mapping_text" = '"SQLSV&HN".INVE28') ,
+ INVE29 DECIMAL(9, 2)  SET( "Description" = 'INVER 29', "ui_mapping_text" = '"SQLSV&HN".INVE29') ,
+ INVE30 DECIMAL(9, 2)  SET( "Description" = 'INVER 30', "ui_mapping_text" = '"SQLSV&HN".INVE30') ,
+ INVE31 DECIMAL(9, 2)  SET( "Description" = 'INVER 31', "ui_mapping_text" = '"SQLSV&HN".INVE31') ,
+ INVE32 DECIMAL(9, 2)  SET( "Description" = 'INVER 32', "ui_mapping_text" = '"SQLSV&HN".INVE32') ,
+ INVE33 DECIMAL(9, 2)  SET( "Description" = 'INVER 33', "ui_mapping_text" = '"SQLSV&HN".INVE33') ,
+ INVE34 DECIMAL(9, 2)  SET( "Description" = 'INVER 34', "ui_mapping_text" = '"SQLSV&HN".INVE34') ,
+ INVE35 DECIMAL(9, 2)  SET( "Description" = 'INVER 35', "ui_mapping_text" = '"SQLSV&HN".INVE35') ,
+ INVE36 DECIMAL(9, 2)  SET( "Description" = 'INVER 36', "ui_mapping_text" = '"SQLSV&HN".INVE36') ,
+ INVE37 DECIMAL(9, 2)  SET( "Description" = 'INVER 37', "ui_mapping_text" = '"SQLSV&HN".INVE37') ,
+ INVE38 DECIMAL(9, 2)  SET( "Description" = 'INVER 38', "ui_mapping_text" = '"SQLSV&HN".INVE38') ,
+ INVE39 DECIMAL(9, 2)  SET( "Description" = 'INVER 39', "ui_mapping_text" = '"SQLSV&HN".INVE39') ,
+ INVE40 DECIMAL(9, 2)  SET( "Description" = 'INVER 40', "ui_mapping_text" = '"SQLSV&HN".INVE40') ,
+ INVE41 DECIMAL(9, 2)  SET( "Description" = 'INVER 41', "ui_mapping_text" = '"SQLSV&HN".INVE41') ,
+ INVE42 DECIMAL(9, 2)  SET( "Description" = 'INVER 42', "ui_mapping_text" = '"SQLSV&HN".INVE42') ,
+ INVE43 DECIMAL(9, 2)  SET( "Description" = 'INVER 43', "ui_mapping_text" = '"SQLSV&HN".INVE43') ,
+ INVE44 DECIMAL(9, 2)  SET( "Description" = 'INVER 44', "ui_mapping_text" = '"SQLSV&HN".INVE44') ,
+ INVE45 DECIMAL(9, 2)  SET( "Description" = 'INVER 45', "ui_mapping_text" = '"SQLSV&HN".INVE45') ,
+ INVE46 DECIMAL(9, 2)  SET( "Description" = 'INVER 46', "ui_mapping_text" = '"SQLSV&HN".INVE46') ,
+ INVE47 DECIMAL(9, 2)  SET( "Description" = 'INVER 47', "ui_mapping_text" = '"SQLSV&HN".INVE47') ,
+ INVE48 DECIMAL(9, 2)  SET( "Description" = 'INVER 48', "ui_mapping_text" = '"SQLSV&HN".INVE48') ,
+ INVE49 DECIMAL(9, 2)  SET( "Description" = 'INVER 49', "ui_mapping_text" = '"SQLSV&HN".INVE49') ,
+ INVE50 DECIMAL(9, 2)  SET( "Description" = 'INVER 50', "ui_mapping_text" = '"SQLSV&HN".INVE50') ,
+ RDCARO DECIMAL(7, 0)  SET( "Description" = 'RANGO DESDE CAT.ROT', "ui_mapping_text" = '"SQLSV&HN".RDCARO') ,
+ RHCARO DECIMAL(7, 0)  SET( "Description" = 'RANGO HASTA CAT.ROT', "ui_mapping_text" = '"SQLSV&HN".RHCARO') ,
+ ITEMSG DECIMAL(5, 0)  SET( "Description" = 'ITEMS EN SGPO', "ui_mapping_text" = '"SQLSV&HN".ITEMSG') ,
+ INVE51 DECIMAL(9, 2)  SET( "Description" = 'INVER 51', "ui_mapping_text" = '"SQLSV&HN".INVE51') ,
+ INVE52 DECIMAL(9, 2)  SET( "Description" = 'INVER 52', "ui_mapping_text" = '"SQLSV&HN".INVE52') ,
+ INVE53 DECIMAL(9, 2)  SET( "Description" = 'INVER 53', "ui_mapping_text" = '"SQLSV&HN".INVE53') ,
+ INVE54 DECIMAL(9, 2)  SET( "Description" = 'INVER 54', "ui_mapping_text" = '"SQLSV&HN".INVE54') ,
+ INVE55 DECIMAL(9, 2)  SET( "Description" = 'INVER 55', "ui_mapping_text" = '"SQLSV&HN".INVE55') ,
+ INVE56 DECIMAL(9, 2)  SET( "Description" = 'INVER 56', "ui_mapping_text" = '"SQLSV&HN".INVE56') ,
+ INVE57 DECIMAL(9, 2)  SET( "Description" = 'INVER 57', "ui_mapping_text" = '"SQLSV&HN".INVE57') ,
+ INVE58 DECIMAL(9, 2)  SET( "Description" = 'INVER 58', "ui_mapping_text" = '"SQLSV&HN".INVE58') ,
+ INVE59 DECIMAL(9, 2)  SET( "Description" = 'INVER 59', "ui_mapping_text" = '"SQLSV&HN".INVE59') ,
+ INVE60 DECIMAL(9, 2)  SET( "Description" = 'INVER 60', "ui_mapping_text" = '"SQLSV&HN".INVE60') ,
+ INVE61 DECIMAL(9, 2)  SET( "Description" = 'INVER 61', "ui_mapping_text" = '"SQLSV&HN".INVE61') ,
+ INVE62 DECIMAL(9, 2)  SET( "Description" = 'INVER 62', "ui_mapping_text" = '"SQLSV&HN".INVE62') ,
+ INVE63 DECIMAL(9, 2)  SET( "Description" = 'INVER 63', "ui_mapping_text" = '"SQLSV&HN".INVE63') ,
+ INVE64 DECIMAL(9, 2)  SET( "Description" = 'INVER 64', "ui_mapping_text" = '"SQLSV&HN".INVE64') ,
+ INVE65 DECIMAL(9, 2)  SET( "Description" = 'INVER 65', "ui_mapping_text" = '"SQLSV&HN".INVE65') ,
+ INVE66 DECIMAL(9, 2)  SET( "Description" = 'INVER 66', "ui_mapping_text" = '"SQLSV&HN".INVE66') ,
+ INVE67 DECIMAL(9, 2)  SET( "Description" = 'INVER 67', "ui_mapping_text" = '"SQLSV&HN".INVE67') ,
+ INVE68 DECIMAL(9, 2)  SET( "Description" = 'INVER 68', "ui_mapping_text" = '"SQLSV&HN".INVE68') ,
+ INVE69 DECIMAL(9, 2)  SET( "Description" = 'INVER 69', "ui_mapping_text" = '"SQLSV&HN".INVE69') ,
+ INVE70 DECIMAL(9, 2)  SET( "Description" = 'INVER 70', "ui_mapping_text" = '"SQLSV&HN".INVE70') ,
+ INVE71 DECIMAL(9, 2)  SET( "Description" = 'INVER 71', "ui_mapping_text" = '"SQLSV&HN".INVE71') ,
+ INVE72 DECIMAL(9, 2)  SET( "Description" = 'INVER 72', "ui_mapping_text" = '"SQLSV&HN".INVE72') ,
+ INVE73 DECIMAL(9, 2)  SET( "Description" = 'INVER 73', "ui_mapping_text" = '"SQLSV&HN".INVE73') ,
+ INVE74 DECIMAL(9, 2)  SET( "Description" = 'INVER 74', "ui_mapping_text" = '"SQLSV&HN".INVE74') ,
+ INVE75 DECIMAL(9, 2)  SET( "Description" = 'INVER 75', "ui_mapping_text" = '"SQLSV&HN".INVE75') ,
+ INVE76 DECIMAL(9, 2)  SET( "Description" = 'INVER 76', "ui_mapping_text" = '"SQLSV&HN".INVE76') ,
+ INVE77 DECIMAL(9, 2)  SET( "Description" = 'INVER 77', "ui_mapping_text" = '"SQLSV&HN".INVE77') ,
+ INVE78 DECIMAL(9, 2)  SET( "Description" = 'INVER 78', "ui_mapping_text" = '"SQLSV&HN".INVE78') ,
+ INVE79 DECIMAL(9, 2)  SET( "Description" = 'INVER 79', "ui_mapping_text" = '"SQLSV&HN".INVE79') ,
+ INVE80 DECIMAL(9, 2)  SET( "Description" = 'INVER 80', "ui_mapping_text" = '"SQLSV&HN".INVE80') ,
+ INVE81 DECIMAL(9, 2)  SET( "Description" = 'INVER 81', "ui_mapping_text" = '"SQLSV&HN".INVE81') ,
+ INVE82 DECIMAL(9, 2)  SET( "Description" = 'INVER 82', "ui_mapping_text" = '"SQLSV&HN".INVE82') ,
+ INVE83 DECIMAL(9, 2)  SET( "Description" = 'INVER 83', "ui_mapping_text" = '"SQLSV&HN".INVE83') ,
+ INVE84 DECIMAL(9, 2)  SET( "Description" = 'INVER 84', "ui_mapping_text" = '"SQLSV&HN".INVE84') ,
+ INVE85 DECIMAL(9, 2)  SET( "Description" = 'INVER 85', "ui_mapping_text" = '"SQLSV&HN".INVE85') ,
+ INVE86 DECIMAL(9, 2)  SET( "Description" = 'INVER 86', "ui_mapping_text" = '"SQLSV&HN".INVE86') ,
+ INVE87 DECIMAL(9, 2)  SET( "Description" = 'INVER 87', "ui_mapping_text" = '"SQLSV&HN".INVE87') ,
+ INVE88 DECIMAL(9, 2)  SET( "Description" = 'INVER 88', "ui_mapping_text" = '"SQLSV&HN".INVE88') ,
+ INVE89 DECIMAL(9, 2)  SET( "Description" = 'INVER 89', "ui_mapping_text" = '"SQLSV&HN".INVE89') ,
+ INVE90 DECIMAL(9, 2)  SET( "Description" = 'INVER 90', "ui_mapping_text" = '"SQLSV&HN".INVE90') ,
+ INVE91 DECIMAL(9, 2)  SET( "Description" = 'INVER 91', "ui_mapping_text" = '"SQLSV&HN".INVE91') ,
+ INVE92 DECIMAL(9, 2)  SET( "Description" = 'INVER 92', "ui_mapping_text" = '"SQLSV&HN".INVE92') ,
+ INVE93 DECIMAL(9, 2)  SET( "Description" = 'INVER 93', "ui_mapping_text" = '"SQLSV&HN".INVE93') ,
+ INVE94 DECIMAL(9, 2)  SET( "Description" = 'INVER 94', "ui_mapping_text" = '"SQLSV&HN".INVE94') ,
+ INVE95 DECIMAL(9, 2)  SET( "Description" = 'INVER 95', "ui_mapping_text" = '"SQLSV&HN".INVE95') ,
+ INVE96 DECIMAL(9, 2)  SET( "Description" = 'INVER 96', "ui_mapping_text" = '"SQLSV&HN".INVE96') ,
+ INVE97 DECIMAL(9, 2)  SET( "Description" = 'INVER 97', "ui_mapping_text" = '"SQLSV&HN".INVE97') ,
+ INVE98 DECIMAL(9, 2)  SET( "Description" = 'INVER 98', "ui_mapping_text" = '"SQLSV&HN".INVE98') ,
+ id_pais INT  SET( "ui_mapping_text" = '"SQLSV&HN".ID_PAIS') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT "SQLSV&HN".CODGRU, "SQLSV&HN".CODSUB, "SQLSV&HN".NOMSG, "SQLSV&HN".DESSUG, "SQLSV&HN".CANSUM, "SQLSV&HN".SUMIN1, "SQLSV&HN".SUMIN2, "SQLSV&HN".SUMIN3, "SQLSV&HN".SUMIN4, "SQLSV&HN".SUMIN5, "SQLSV&HN".SUMIN6, "SQLSV&HN".SUMIN7, "SQLSV&HN".SUMIN8, "SQLSV&HN".SUMIN9, "SQLSV&HN".SUMI10, "SQLSV&HN".SUMI11, "SQLSV&HN".SUMI12, "SQLSV&HN".SUMI13, "SQLSV&HN".SUMI14, "SQLSV&HN".SUMI15, "SQLSV&HN".UNVSG, "SQLSV&HN".UNDSG, "SQLSV&HN".VTBSG, "SQLSV&HN".DESSG, "SQLSV&HN".DEVSG, "SQLSV&HN".COVSG, "SQLSV&HN".COSDSG, "SQLSV&HN".CODTSG, "SQLSV&HN".INVSG, "SQLSV&HN".VTNACS, "SQLSV&HN".COVTAS, "SQLSV&HN".CODVAS, "SQLSV&HN".CODTAS, "SQLSV&HN".COFIAS, "SQLSV&HN".PERCAT, "SQLSV&HN".FECLIS, "SQLSV&HN".NUMLIS, "SQLSV&HN".FELISA, "SQLSV&HN".NULISA, "SQLSV&HN".FORCAR, "SQLSV&HN".INVER1, "SQLSV&HN".INVER2, "SQLSV&HN".INVER3, "SQLSV&HN".INVER4, "SQLSV&HN".INVER5, "SQLSV&HN".INVER6, "SQLSV&HN".INVER7, "SQLSV&HN".INVER8, "SQLSV&HN".INVER9, "SQLSV&HN".INVE10, "SQLSV&HN".INVE21, "SQLSV&HN".INVE22, "SQLSV&HN".INVE23, "SQLSV&HN".INVE24, "SQLSV&HN".INVE25, "SQLSV&HN".INVE26, "SQLSV&HN".INVE27, "SQLSV&HN".INVE28, "SQLSV&HN".INVE29, "SQLSV&HN".INVE30, "SQLSV&HN".INVE31, "SQLSV&HN".INVE32, "SQLSV&HN".INVE33, "SQLSV&HN".INVE34, "SQLSV&HN".INVE35, "SQLSV&HN".INVE36, "SQLSV&HN".INVE37, "SQLSV&HN".INVE38, "SQLSV&HN".INVE39, "SQLSV&HN".INVE40, "SQLSV&HN".INVE41, "SQLSV&HN".INVE42, "SQLSV&HN".INVE43, "SQLSV&HN".INVE44, "SQLSV&HN".INVE45, "SQLSV&HN".INVE46, "SQLSV&HN".INVE47, "SQLSV&HN".INVE48, "SQLSV&HN".INVE49, "SQLSV&HN".INVE50, "SQLSV&HN".RDCARO, "SQLSV&HN".RHCARO, "SQLSV&HN".ITEMSG, "SQLSV&HN".INVE51, "SQLSV&HN".INVE52, "SQLSV&HN".INVE53, "SQLSV&HN".INVE54, "SQLSV&HN".INVE55, "SQLSV&HN".INVE56, "SQLSV&HN".INVE57, "SQLSV&HN".INVE58, "SQLSV&HN".INVE59, "SQLSV&HN".INVE60, "SQLSV&HN".INVE61, "SQLSV&HN".INVE62, "SQLSV&HN".INVE63, "SQLSV&HN".INVE64, "SQLSV&HN".INVE65, "SQLSV&HN".INVE66, "SQLSV&HN".INVE67, "SQLSV&HN".INVE68, "SQLSV&HN".INVE69, "SQLSV&HN".INVE70, "SQLSV&HN".INVE71, "SQLSV&HN".INVE72, "SQLSV&HN".INVE73, "SQLSV&HN".INVE74, "SQLSV&HN".INVE75, "SQLSV&HN".INVE76, "SQLSV&HN".INVE77, "SQLSV&HN".INVE78, "SQLSV&HN".INVE79, "SQLSV&HN".INVE80, "SQLSV&HN".INVE81, "SQLSV&HN".INVE82, "SQLSV&HN".INVE83, "SQLSV&HN".INVE84, "SQLSV&HN".INVE85, "SQLSV&HN".INVE86, "SQLSV&HN".INVE87, "SQLSV&HN".INVE88, "SQLSV&HN".INVE89, "SQLSV&HN".INVE90, "SQLSV&HN".INVE91, "SQLSV&HN".INVE92, "SQLSV&HN".INVE93, "SQLSV&HN".INVE94, "SQLSV&HN".INVE95, "SQLSV&HN".INVE96, "SQLSV&HN".INVE97, "SQLSV&HN".INVE98, "SQLSV&HN".ID_PAIS, sysdate() FROM "SQLSV&HN" 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQLSV&HN', "x" = '606', "y" = '-587')
+GUID::'2d74cfec-1ff1-4c8d-8102-b0c0dd5afa92' CALL TRANSFORM SQL() OUTPUT("SQLSV&HN"( CODGRU VARCHAR(2) ,
+ CODSUB VARCHAR(2) ,
+ NOMSG VARCHAR(30) ,
+ DESSUG VARCHAR(20) ,
+ CANSUM VARCHAR(1) ,
+ SUMIN1 VARCHAR(3) ,
+ SUMIN2 VARCHAR(3) ,
+ SUMIN3 VARCHAR(3) ,
+ SUMIN4 VARCHAR(3) ,
+ SUMIN5 VARCHAR(3) ,
+ SUMIN6 VARCHAR(3) ,
+ SUMIN7 VARCHAR(3) ,
+ SUMIN8 VARCHAR(3) ,
+ SUMIN9 VARCHAR(3) ,
+ SUMI10 VARCHAR(3) ,
+ SUMI11 VARCHAR(3) ,
+ SUMI12 VARCHAR(3) ,
+ SUMI13 VARCHAR(3) ,
+ SUMI14 VARCHAR(3) ,
+ SUMI15 VARCHAR(3) ,
+ UNVSG DECIMAL(9, 0) ,
+ UNDSG DECIMAL(9, 0) ,
+ VTBSG DECIMAL(9, 2) ,
+ DESSG DECIMAL(9, 2) ,
+ DEVSG DECIMAL(9, 2) ,
+ COVSG DECIMAL(9, 2) ,
+ COSDSG DECIMAL(9, 2) ,
+ CODTSG DECIMAL(9, 2) ,
+ INVSG DECIMAL(9, 2) ,
+ VTNACS DECIMAL(9, 2) ,
+ COVTAS DECIMAL(9, 2) ,
+ CODVAS DECIMAL(9, 2) ,
+ CODTAS DECIMAL(9, 2) ,
+ COFIAS DECIMAL(9, 2) ,
+ PERCAT VARCHAR(1) ,
+ FECLIS VARCHAR(8) ,
+ NUMLIS DECIMAL(9, 0) ,
+ FELISA VARCHAR(8) ,
+ NULISA DECIMAL(9, 0) ,
+ FORCAR VARCHAR(20) ,
+ INVER1 DECIMAL(9, 2) ,
+ INVER2 DECIMAL(9, 2) ,
+ INVER3 DECIMAL(9, 2) ,
+ INVER4 DECIMAL(9, 2) ,
+ INVER5 DECIMAL(9, 2) ,
+ INVER6 DECIMAL(9, 2) ,
+ INVER7 DECIMAL(9, 2) ,
+ INVER8 DECIMAL(9, 2) ,
+ INVER9 DECIMAL(9, 2) ,
+ INVE10 DECIMAL(9, 2) ,
+ INVE21 DECIMAL(9, 2) ,
+ INVE22 DECIMAL(9, 2) ,
+ INVE23 DECIMAL(9, 2) ,
+ INVE24 DECIMAL(9, 2) ,
+ INVE25 DECIMAL(9, 2) ,
+ INVE26 DECIMAL(9, 2) ,
+ INVE27 DECIMAL(9, 2) ,
+ INVE28 DECIMAL(9, 2) ,
+ INVE29 DECIMAL(9, 2) ,
+ INVE30 DECIMAL(9, 2) ,
+ INVE31 DECIMAL(9, 2) ,
+ INVE32 DECIMAL(9, 2) ,
+ INVE33 DECIMAL(9, 2) ,
+ INVE34 DECIMAL(9, 2) ,
+ INVE35 DECIMAL(9, 2) ,
+ INVE36 DECIMAL(9, 2) ,
+ INVE37 DECIMAL(9, 2) ,
+ INVE38 DECIMAL(9, 2) ,
+ INVE39 DECIMAL(9, 2) ,
+ INVE40 DECIMAL(9, 2) ,
+ INVE41 DECIMAL(9, 2) ,
+ INVE42 DECIMAL(9, 2) ,
+ INVE43 DECIMAL(9, 2) ,
+ INVE44 DECIMAL(9, 2) ,
+ INVE45 DECIMAL(9, 2) ,
+ INVE46 DECIMAL(9, 2) ,
+ INVE47 DECIMAL(9, 2) ,
+ INVE48 DECIMAL(9, 2) ,
+ INVE49 DECIMAL(9, 2) ,
+ INVE50 DECIMAL(9, 2) ,
+ RDCARO DECIMAL(7, 0) ,
+ RHCARO DECIMAL(7, 0) ,
+ ITEMSG DECIMAL(5, 0) ,
+ INVE51 DECIMAL(13, 2) ,
+ INVE52 DECIMAL(13, 2) ,
+ INVE53 DECIMAL(13, 2) ,
+ INVE54 DECIMAL(13, 2) ,
+ INVE55 DECIMAL(13, 2) ,
+ INVE56 DECIMAL(13, 2) ,
+ INVE57 DECIMAL(13, 2) ,
+ INVE58 DECIMAL(13, 2) ,
+ INVE59 DECIMAL(13, 2) ,
+ INVE60 DECIMAL(13, 2) ,
+ INVE61 DECIMAL(13, 2) ,
+ INVE62 DECIMAL(13, 2) ,
+ INVE63 DECIMAL(13, 2) ,
+ INVE64 DECIMAL(13, 2) ,
+ INVE65 DECIMAL(13, 2) ,
+ INVE66 DECIMAL(13, 2) ,
+ INVE67 DECIMAL(13, 2) ,
+ INVE68 DECIMAL(13, 2) ,
+ INVE69 DECIMAL(13, 2) ,
+ INVE70 DECIMAL(13, 2) ,
+ INVE71 DECIMAL(13, 2) ,
+ INVE72 DECIMAL(13, 2) ,
+ INVE73 DECIMAL(13, 2) ,
+ INVE74 DECIMAL(13, 2) ,
+ INVE75 DECIMAL(13, 2) ,
+ INVE76 DECIMAL(13, 2) ,
+ INVE77 DECIMAL(13, 2) ,
+ INVE78 DECIMAL(13, 2) ,
+ INVE79 DECIMAL(13, 2) ,
+ INVE80 DECIMAL(13, 2) ,
+ INVE81 DECIMAL(13, 2) ,
+ INVE82 DECIMAL(13, 2) ,
+ INVE83 DECIMAL(13, 2) ,
+ INVE84 DECIMAL(13, 2) ,
+ INVE85 DECIMAL(13, 2) ,
+ INVE86 DECIMAL(13, 2) ,
+ INVE87 DECIMAL(13, 2) ,
+ INVE88 DECIMAL(13, 2) ,
+ INVE89 DECIMAL(13, 2) ,
+ INVE90 DECIMAL(13, 2) ,
+ INVE91 DECIMAL(13, 2) ,
+ INVE92 DECIMAL(13, 2) ,
+ INVE93 DECIMAL(13, 2) ,
+ INVE94 DECIMAL(13, 2) ,
+ INVE95 DECIMAL(13, 2) ,
+ INVE96 DECIMAL(13, 2) ,
+ INVE97 DECIMAL(13, 2) ,
+ INVE98 DECIMAL(13, 2) ,
+ ID_PAIS INT  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select CODGRU,CODSUB,NOMSG,DESSUG&#xD;&#xA;,CANSUM&#x9;,SUMIN1&#x9;,SUMIN2&#x9;,SUMIN3&#x9;,SUMIN4&#x9;,SUMIN5&#x9;,SUMIN6&#x9;,SUMIN7&#x9;,SUMIN8&#x9;,SUMIN9&#x9;,SUMI10&#x9;,SUMI11&#x9;,SUMI12&#x9;,SUMI13&#x9;,SUMI14&#xD;&#xA;,SUMI15&#x9;,UNVSG&#x9;,UNDSG&#x9;,VTBSG&#x9;,DESSG&#x9;,DEVSG&#x9;,COVSG&#x9;,COSDSG&#x9;,CODTSG&#x9;,INVSG&#x9;,VTNACS&#x9;,COVTAS&#x9;,CODVAS&#x9;,CODTAS&#x9;,COFIAS&#xD;&#xA;,PERCAT&#x9;,FECLIS&#x9;,NUMLIS&#x9;,FELISA&#x9;,NULISA&#x9;,FORCAR&#x9;,INVER1&#x9;,INVER2&#x9;,INVER3&#x9;,INVER4&#x9;,INVER5&#x9;,INVER6&#x9;,INVER7&#x9;,INVER8&#x9;,INVER9&#xD;&#xA;,INVE10&#x9;,INVE21&#x9;,INVE22&#x9;,INVE23&#x9;,INVE24&#x9;,INVE25&#x9;,INVE26&#x9;,INVE27&#x9;,INVE28&#x9;,INVE29&#x9;,INVE30&#x9;,INVE31&#x9;,INVE32&#x9;,INVE33&#x9;,INVE34&#xD;&#xA;,INVE35&#x9;,INVE36&#x9;,INVE37&#x9;,INVE38&#x9;,INVE39&#x9;,INVE40&#x9;,INVE41&#x9;,INVE42&#x9;,INVE43&#x9;,INVE44&#x9;,INVE45&#x9;,INVE46&#x9;,INVE47&#x9;,INVE48&#x9;,INVE49&#xD;&#xA;,INVE50&#x9;,RDCARO&#x9;,RHCARO&#x9;,ITEMSG&#x9;,INVE51&#x9;,INVE52&#x9;,INVE53&#x9;,INVE54&#x9;,INVE55&#x9;,INVE56&#x9;,INVE57&#x9;,INVE58&#x9;,INVE59&#x9;,INVE60&#x9;,INVE61&#xD;&#xA;,INVE62&#x9;,INVE63&#x9;,INVE64&#x9;,INVE65&#x9;,INVE66&#x9;,INVE67&#x9;,INVE68&#x9;,INVE69&#x9;,INVE70&#x9;,INVE71&#x9;,INVE72&#x9;,INVE73&#x9;,INVE74&#x9;,INVE75&#x9;,INVE76&#xD;&#xA;,INVE77&#x9;,INVE78&#x9;,INVE79&#x9;,INVE80&#x9;,INVE81&#x9;,INVE82&#x9;,INVE83&#x9;,INVE84&#x9;,INVE85&#x9;,INVE86&#x9;,INVE87&#x9;,INVE88&#x9;,INVE89&#x9;,INVE90&#x9;,INVE91&#xD;&#xA;,INVE92&#x9;,INVE93&#x9;,INVE94&#x9;,INVE95&#x9;,INVE96&#x9;,INVE97&#x9;,INVE98&#x9;, 1 id_pais&#xD;&#xA;from NEWINV.SGRUPOS&#xD;&#xA;UNION ALL&#xD;&#xA;Select CODGRU,CODSUB,NOMSG,DESSUG&#xD;&#xA;,CANSUM&#x9;,SUMIN1&#x9;,SUMIN2&#x9;,SUMIN3&#x9;,SUMIN4&#x9;,SUMIN5&#x9;,SUMIN6&#x9;,SUMIN7&#x9;,SUMIN8&#x9;,SUMIN9&#x9;,SUMI10&#x9;,SUMI11&#x9;,SUMI12&#x9;,SUMI13&#x9;,SUMI14&#xD;&#xA;,SUMI15&#x9;,UNVSG&#x9;,UNDSG&#x9;,VTBSG&#x9;,DESSG&#x9;,DEVSG&#x9;,COVSG&#x9;,COSDSG&#x9;,CODTSG&#x9;,INVSG&#x9;,VTNACS&#x9;,COVTAS&#x9;,CODVAS&#x9;,CODTAS&#x9;,COFIAS&#xD;&#xA;,PERCAT&#x9;,FECLIS&#x9;,NUMLIS&#x9;,FELISA&#x9;,NULISA&#x9;,FORCAR&#x9;,INVER1&#x9;,INVER2&#x9;,INVER3&#x9;,INVER4&#x9;,INVER5&#x9;,INVER6&#x9;,INVER7&#x9;,INVER8&#x9;,INVER9&#xD;&#xA;,INVE10&#x9;,INVE21&#x9;,INVE22&#x9;,INVE23&#x9;,INVE24&#x9;,INVE25&#x9;,INVE26&#x9;,INVE27&#x9;,INVE28&#x9;,INVE29&#x9;,INVE30&#x9;,INVE31&#x9;,INVE32&#x9;,INVE33&#x9;,INVE34&#xD;&#xA;,INVE35&#x9;,INVE36&#x9;,INVE37&#x9;,INVE38&#x9;,INVE39&#x9;,INVE40&#x9;,INVE41&#x9;,INVE42&#x9;,INVE43&#x9;,INVE44&#x9;,INVE45&#x9;,INVE46&#x9;,INVE47&#x9;,INVE48&#x9;,INVE49&#xD;&#xA;,INVE50&#x9;,RDCARO&#x9;,RHCARO&#x9;,ITEMSG&#x9;,0 INVE51&#x9;,   0 INVE52&#x9;,0 INVE53&#x9;,0 INVE54&#x9;,0 INVE55&#x9;,0 INVE56&#x9;,0 INVE57&#x9;,0 INVE58&#x9;,0 INVE59&#x9;,0 INVE60&#x9;,0 INVE61&#xD;&#xA;,0 INVE62&#x9;,0 INVE63&#x9;,0 INVE64&#x9;,0 INVE65&#x9;,0 INVE66&#x9;,0 INVE67&#x9;,0 INVE68&#x9;,0 INVE69&#x9;,0 INVE70&#x9;,0 INVE71&#x9;,0 INVE72&#x9;,0 INVE73&#x9;,0 INVE74&#x9;,0 INVE75&#x9;,0 INVE76&#xD;&#xA;,0 INVE77&#x9;,0 INVE78&#x9;,0 INVE79&#x9;,0 INVE80&#x9;,0 INVE81&#x9;,0 INVE82&#x9;,0 INVE83&#x9;,0 INVE84&#x9;,0 INVE85&#x9;,0 INVE86&#x9;,0 INVE87&#x9;,0 INVE88&#x9;,0 INVE89&#x9;,0 INVE90&#x9;,0 INVE91&#xD;&#xA;,0 INVE92&#x9;,0 INVE93&#x9;,0 INVE94&#x9;,0 INVE95&#x9;,0 INVE96&#x9;,0 INVE97&#x9;,0 INVE98&#x9;, 2 id_pais&#xD;&#xA;from PHNINV.SGRUPOS&#xD;&#xA;</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SGRUPOS(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2327', "y" = '-513')
+GUID::'54d7d514-4fde-421c-bb57-ac89fb5547f1' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SGRUPOS INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

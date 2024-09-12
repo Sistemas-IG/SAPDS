@@ -1,0 +1,681 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E81565F77869E27D3460D18FD1E670383398C9E3850848754F403A511F0E91B5D4A54A78D4D6B4A0613B87E17DC3FD98</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E80D6ADD32D4C7429B32B7AB954B41D6F4E54BA08E98BFE41F86F2E01286468020DEECB6607CD993A7342E45C5A5</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E87AFDB8F8717CFC1E627C22F815060F7D8802A460D30F3644A5E007FA75FB8709824CD065FCADE3EFC1D71DAD8D</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E83ECEF1289C3EAE104D5A29F88B8EE045B6426FB074D01E0F79BD8AA8C16CD5032DE870D401EE1B54D533C936C0E1D15CB35AF8629C3A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue May 30 17:09:43 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Tue May 30 17:32:17 2023' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Fri Jun  2 09:11:10 2023' , 
+ActaName_10 = 'RTotal_Number_Of_Rows_Processed',ActaValue_10 = '11041965' , 
+ActaName_11 = 'RNumber_Of_Rows_Rejected',ActaValue_11 = '0' , 
+ActaName_12 = 'RNumber_Of_Inserts',ActaValue_12 = '11041965' , 
+ActaName_13 = 'RNumber_Of_Updates',ActaValue_13 = '0' , 
+ActaName_14 = 'RNumber_Of_Deletes',ActaValue_14 = '0' , 
+ActaName_15 = 'RElapsed_Time_For_Load',ActaValue_15 = '22 Minutes and 15 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.EUDISC01(PAISDC VARCHAR(3)  NOT NULL , 
+CIASDC VARCHAR(3)  NOT NULL , 
+CDDIDC VARCHAR(2)  NOT NULL , 
+NPEDDC VARCHAR(8)  NOT NULL , 
+ALMADC VARCHAR(2)  NOT NULL , 
+ORBADC DECIMAL(5, 0)  NOT NULL , 
+NODBDC DECIMAL(2, 0)  NOT NULL , 
+ZONADC VARCHAR(2)  NOT NULL , 
+NUMEDC VARCHAR(3)  NOT NULL , 
+LADODC VARCHAR(1)  NOT NULL , 
+MODUDC VARCHAR(3)  NOT NULL , 
+NIVEDC VARCHAR(2)  NOT NULL , 
+POSIDC VARCHAR(2)  NOT NULL , 
+CPSRDC VARCHAR(17)  NOT NULL , 
+CPNFDC VARCHAR(17)  NOT NULL , 
+EQPRDC VARCHAR(2)  NOT NULL , 
+RESEDC VARCHAR(4)  NOT NULL , 
+NCORDC DECIMAL(7, 0)  NOT NULL , 
+QLDIDC DECIMAL(7, 0)  NOT NULL , 
+QPARDC DECIMAL(7, 0)  NOT NULL , 
+QPRVDC DECIMAL(7, 0)  NOT NULL , 
+QPREDC DECIMAL(7, 0)  NOT NULL , 
+QPRTDC DECIMAL(7, 0)  NOT NULL , 
+QDIFDC DECIMAL(7, 0)  NOT NULL , 
+NPREDC VARCHAR(11)  NOT NULL , 
+NCAJDC VARCHAR(7)  NOT NULL , 
+RUBIDC VARCHAR(13)  NOT NULL , 
+STATDC VARCHAR(3)  NOT NULL , 
+FLDIDC DECIMAL(8, 0)  NOT NULL , 
+HLDIDC DECIMAL(6, 0)  NOT NULL , 
+ULDIDC VARCHAR(10)  NOT NULL , 
+DLDIDC VARCHAR(10)  NOT NULL , 
+RLDIDC VARCHAR(10)  NOT NULL , 
+FLPADC DECIMAL(8, 0)  NOT NULL , 
+HLPADC DECIMAL(6, 0)  NOT NULL , 
+ULPADC VARCHAR(10)  NOT NULL , 
+DLPADC VARCHAR(10)  NOT NULL , 
+RLPADC VARCHAR(10)  NOT NULL , 
+FLPCDC DECIMAL(8, 0)  NOT NULL , 
+HLPCDC DECIMAL(6, 0)  NOT NULL , 
+ULPCDC VARCHAR(10)  NOT NULL , 
+DLPCDC VARCHAR(10)  NOT NULL , 
+RLPCDC VARCHAR(10)  NOT NULL , 
+FLPMDC DECIMAL(8, 0)  NOT NULL , 
+HLPMDC DECIMAL(6, 0)  NOT NULL , 
+ULPMDC VARCHAR(10)  NOT NULL , 
+DLPMDC VARCHAR(10)  NOT NULL , 
+RLPMDC VARCHAR(10)  NOT NULL , 
+FLPTDC DECIMAL(8, 0)  NOT NULL , 
+HLPTDC DECIMAL(6, 0)  NOT NULL , 
+ULPTDC VARCHAR(10)  NOT NULL , 
+DLPTDC VARCHAR(10)  NOT NULL , 
+RLPTDC VARCHAR(10)  NOT NULL , 
+FLPRDC DECIMAL(8, 0)  NOT NULL , 
+HLPRDC DECIMAL(6, 0)  NOT NULL , 
+ULPRDC VARCHAR(10)  NOT NULL , 
+DLPRDC VARCHAR(10)  NOT NULL , 
+RLPRDC VARCHAR(10)  NOT NULL , 
+FCLSDC DECIMAL(8, 0)  NOT NULL , 
+HCLSDC DECIMAL(6, 0)  NOT NULL , 
+UCLSDC VARCHAR(10)  NOT NULL , 
+DCLSDC VARCHAR(10)  NOT NULL , 
+RCLSDC VARCHAR(10)  NOT NULL , 
+NENVDC VARCHAR(4)  NOT NULL , 
+NREMDC VARCHAR(6)  NOT NULL , 
+FIL1DC VARCHAR(10)  NOT NULL , 
+FIL2DC VARCHAR(20)  NOT NULL , 
+FIL3DC VARCHAR(30)  NOT NULL , 
+TIPODC VARCHAR(5)  NOT NULL , 
+GRSGDC VARCHAR(4)  NOT NULL , 
+PRIODC VARCHAR(2)  NOT NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Lista de Distribucion                           RH' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue May 30 16:59:54 2023' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.EUDISC01(PAISDC CHAR(3)  NOT NULL  SET("Description" = 'Pias'), 
+CIASDC CHAR(3)  NOT NULL  SET("Description" = 'Cia'), 
+CDDIDC CHAR(2)  NOT NULL  SET("Description" = 'CDD'), 
+NPEDDC CHAR(8)  NOT NULL  SET("Description" = 'Pedido'), 
+ALMADC CHAR(2)  NOT NULL  SET("Description" = 'Alm'), 
+ORBADC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Orden Barrido'), 
+NODBDC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'No.Orden Barrido'), 
+ZONADC CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEDC CHAR(3)  NOT NULL  SET("Description" = 'No.'), 
+LADODC CHAR(1)  NOT NULL  SET("Description" = 'Lado'), 
+MODUDC CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEDC CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIDC CHAR(2)  NOT NULL  SET("Description" = 'Posición'), 
+CPSRDC CHAR(17)  NOT NULL  SET("Description" = 'Código SR'), 
+CPNFDC CHAR(17)  NOT NULL  SET("Description" = 'Código NF'), 
+EQPRDC CHAR(2)  NOT NULL  SET("Description" = 'Equipo Preparacion'), 
+RESEDC CHAR(4)  NOT NULL  SET("Description" = 'Responsable Equipo'), 
+NCORDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+QLDIDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades ListDist'), 
+QPARDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Parciales'), 
+QPRVDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Provisional'), 
+QPREDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Preparación'), 
+QPRTDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades TomadasdePrep'), 
+QDIFDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades UPREDC - UPRTDC'), 
+NPREDC CHAR(11)  NOT NULL  SET("Description" = 'Numero Preparacion'), 
+NCAJDC CHAR(7)  NOT NULL  SET("Description" = 'Numero de Caja'), 
+RUBIDC CHAR(13)  NOT NULL  SET("Description" = 'Ref.Ult. Ubicacion'), 
+STATDC CHAR(3)  NOT NULL  SET("Description" = 'Estatus'), 
+FLDIDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LDist'), 
+HLDIDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LDist'), 
+ULDIDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LDist'), 
+DLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LDist'), 
+RLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LDist'), 
+FLPADC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Abierta'), 
+HLPADC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Abierta'), 
+ULPADC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Abierta'), 
+DLPADC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Abierta'), 
+RLPADC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Abierta'), 
+FLPCDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Cerrada'), 
+HLPCDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Cerrada'), 
+ULPCDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Cerrada'), 
+DLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Cerrada'), 
+RLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Cerrada'), 
+FLPMDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep En Muelle'), 
+HLPMDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep En Muelle'), 
+ULPMDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep En Muelle'), 
+DLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep En Muelle'), 
+RLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep En Muelle'), 
+FLPTDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep EnTránsito'), 
+HLPTDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep EnTránsito'), 
+ULPTDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep EnTránsito'), 
+DLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep EnTránsito'), 
+RLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep EnTránsito'), 
+FLPRDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep RecEnTrans'), 
+HLPRDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep RecEnTráns'), 
+ULPRDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep RecEnTráns'), 
+DLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep RecEnTráns'), 
+RLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep RecEnTráns'), 
+FCLSDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cierre Pedido'), 
+HCLSDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cierre Pedido'), 
+UCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Usr Cierre Pedido'), 
+DCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Dev Cierre Pedido'), 
+RCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Ref Cierre Pedido'), 
+NENVDC CHAR(4)  NOT NULL  SET("Description" = 'No. Envío'), 
+NREMDC CHAR(6)  NOT NULL  SET("Description" = 'No. Remisión'), 
+FIL1DC CHAR(10)  NOT NULL  SET("Description" = 'Filler 1'), 
+FIL2DC CHAR(20)  NOT NULL  SET("Description" = 'Filler 2'), 
+FIL3DC CHAR(30)  NOT NULL  SET("Description" = 'Filler 3'), 
+TIPODC CHAR(5)  NOT NULL  SET("Description" = 'Tipo Proceso'), 
+GRSGDC CHAR(4)  NOT NULL  SET("Description" = 'Grupo-SubGpo'), 
+PRIODC CHAR(2)  NOT NULL  SET("Description" = 'Prioridad U/N')) 
+CREATE_INDEX "NEWINV.EUDISC01" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, PRIODC) 
+CREATE_INDEX "NEWINV.EUDISC02" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC03" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC04" ON (PAISDC, CIASDC, CDDIDC, NPREDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC05" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, CPSRDC, ALMADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC06" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC07" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, CPNFDC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC08" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, CPSRDC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC09" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NPREDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC10" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ORBADC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC11" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, CPSRDC, ALMADC, NPREDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC12" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ALMADC, NPEDDC, NODBDC) 
+CREATE_INDEX "NEWINV.EUDISC13" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC14" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ALMADC, NCORDC) 
+CREATE_INDEX "NEWINV.EUDISC15" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, GRSGDC, CPSRDC, NPREDC, NCAJDC, NENVDC) 
+CREATE_INDEX "NEWINV.EUDISC16" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, GRSGDC, CPSRDC, PRIODC, NPREDC, NCAJDC, NENVDC) 
+CREATE_INDEX "NEWINV.EUDISC18" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ALMADC, TIPODC, NPEDDC, STATDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, NODBDC) 
+CREATE_INDEX "NEWINV.EUDISC20" ON (PAISDC, CIASDC, CDDIDC, TIPODC, CPSRDC, ALMADC, NPEDDC, NPREDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC21" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, ALMADC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC22" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, GRSGDC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC23" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, GRSGDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC24" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, GRSGDC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC25" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC26" ON (PAISDC, CIASDC, CDDIDC, FLDIDC) 
+CREATE_INDEX "NEWINV.EUDISC28" ON (CPSRDC, PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, PRIODC) 
+CREATE_INDEX "NEWINV.EUDISC29" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC30" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC31" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, CPSRDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "NEWINV.EUDISC32" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC33" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC36" ON (PAISDC, CIASDC, CDDIDC, FLDIDC, ALMADC, NPEDDC) 
+CREATE_INDEX "NEWINV.EUDISC37" ON (PAISDC, CIASDC, CDDIDC, TIPODC, FLDIDC, ALMADC, NPEDDC) 
+CREATE_INDEX "NEWINV.EUDISC38" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC) 
+CREATE_INDEX "NEWINV.EUDISC39" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ALMADC, TIPODC, NPEDDC, STATDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, NODBDC) 
+CREATE_INDEX "NEWINV.EUDISC40" ON (PAISDC, CIASDC, CDDIDC, ALMADC, CPSRDC, NPREDC, NPEDDC) 
+CREATE_INDEX "NEWINV.EUDISC41" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ORBADC) 
+CREATE_INDEX "NEWINV.EUDISC43" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC50" ON (CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC60" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NPREDC, NENVDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC66" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NPREDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC67" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC68" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC80" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC, PRIODC) 
+CREATE_INDEX "NEWINV.EUDISC81" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, EQPRDC, RESEDC, NCORDC) 
+CREATE_INDEX "NEWINV.EUDISC82" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC83" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "NEWINV.EUDISC90" ON (NPEDDC, GRSGDC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISC99" ON (CPSRDC, NPREDC) 
+CREATE_INDEX "NEWINV.EUDISC9A" ON (NPEDDC, ALMADC, CPSRDC, RESEDC, NPREDC, NCAJDC, PRIODC) 
+CREATE_INDEX "NEWINV.EUDISCAB" ON (NENVDC, ALMADC, CPSRDC) 
+CREATE_INDEX "NEWINV.EUDISCHN" ON (CPSRDC, NPEDDC) 
+CREATE_INDEX "NEWINV.EUDISCPE" ON (CPSRDC, NPEDDC) 
+CREATE_INDEX "NEWINV.EUDISCX9" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NCAJDC, NPREDC, CPSRDC) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Lista de Distribucion                           RH' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Tue May 30 16:59:57 2023' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.EUDISC01(PAISDC CHAR(3)  NOT NULL  SET("Description" = 'Pias'), 
+CIASDC CHAR(3)  NOT NULL  SET("Description" = 'Cia'), 
+CDDIDC CHAR(2)  NOT NULL  SET("Description" = 'CDD'), 
+NPEDDC CHAR(8)  NOT NULL  SET("Description" = 'Pedido'), 
+ALMADC CHAR(2)  NOT NULL  SET("Description" = 'Alm'), 
+ORBADC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Orden Barrido'), 
+NODBDC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'No.Orden Barrido'), 
+ZONADC CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEDC CHAR(3)  NOT NULL  SET("Description" = 'No.'), 
+LADODC CHAR(1)  NOT NULL  SET("Description" = 'Lado'), 
+MODUDC CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEDC CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIDC CHAR(2)  NOT NULL  SET("Description" = 'Posición'), 
+CPSRDC CHAR(17)  NOT NULL  SET("Description" = 'Código SR'), 
+CPNFDC CHAR(17)  NOT NULL  SET("Description" = 'Código NF'), 
+EQPRDC CHAR(2)  NOT NULL  SET("Description" = 'Equipo Preparacion'), 
+RESEDC CHAR(4)  NOT NULL  SET("Description" = 'Responsable Equipo'), 
+NCORDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+QLDIDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades ListDist'), 
+QPARDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Parciales'), 
+QPRVDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Provisional'), 
+QPREDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Preparación'), 
+QPRTDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades TomadasdePrep'), 
+QDIFDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades UPREDC - UPRTDC'), 
+NPREDC CHAR(11)  NOT NULL  SET("Description" = 'Numero Preparacion'), 
+NCAJDC CHAR(7)  NOT NULL  SET("Description" = 'Numero de Caja'), 
+RUBIDC CHAR(13)  NOT NULL  SET("Description" = 'Ref.Ult. Ubicacion'), 
+STATDC CHAR(3)  NOT NULL  SET("Description" = 'Estatus'), 
+FLDIDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LDist'), 
+HLDIDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LDist'), 
+ULDIDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LDist'), 
+DLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LDist'), 
+RLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LDist'), 
+FLPADC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Abierta'), 
+HLPADC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Abierta'), 
+ULPADC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Abierta'), 
+DLPADC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Abierta'), 
+RLPADC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Abierta'), 
+FLPCDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Cerrada'), 
+HLPCDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Cerrada'), 
+ULPCDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Cerrada'), 
+DLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Cerrada'), 
+RLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Cerrada'), 
+FLPMDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep En Muelle'), 
+HLPMDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep En Muelle'), 
+ULPMDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep En Muelle'), 
+DLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep En Muelle'), 
+RLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep En Muelle'), 
+FLPTDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep EnTránsito'), 
+HLPTDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep EnTránsito'), 
+ULPTDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep EnTránsito'), 
+DLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep EnTránsito'), 
+RLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep EnTránsito'), 
+FLPRDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep RecEnTrans'), 
+HLPRDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep RecEnTráns'), 
+ULPRDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep RecEnTráns'), 
+DLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep RecEnTráns'), 
+RLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep RecEnTráns'), 
+FCLSDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cierre Pedido'), 
+HCLSDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cierre Pedido'), 
+UCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Usr Cierre Pedido'), 
+DCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Dev Cierre Pedido'), 
+RCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Ref Cierre Pedido'), 
+NENVDC CHAR(4)  NOT NULL  SET("Description" = 'No. Envío'), 
+NREMDC CHAR(6)  NOT NULL  SET("Description" = 'No. Remisión'), 
+FIL1DC CHAR(10)  NOT NULL  SET("Description" = 'Filler 1'), 
+FIL2DC CHAR(20)  NOT NULL  SET("Description" = 'Filler 2'), 
+FIL3DC CHAR(30)  NOT NULL  SET("Description" = 'Filler 3'), 
+TIPODC CHAR(5)  NOT NULL  SET("Description" = 'Tipo Proceso'), 
+GRSGDC CHAR(4)  NOT NULL  SET("Description" = 'Grupo-SubGpo'), 
+PRIODC CHAR(2)  NOT NULL  SET("Description" = 'Prioridad U/N')) 
+CREATE_INDEX "PHNINV.EUDISC01" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, PRIODC) 
+CREATE_INDEX "PHNINV.EUDISC02" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC03" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC04" ON (PAISDC, CIASDC, CDDIDC, NPREDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC05" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, CPSRDC, ALMADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC06" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC07" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, CPNFDC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC08" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, CPSRDC, NODBDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC09" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NPREDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC10" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ORBADC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC11" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, CPSRDC, ALMADC, NPREDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC12" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ALMADC, NPEDDC, NODBDC) 
+CREATE_INDEX "PHNINV.EUDISC13" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC14" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, ALMADC, NCORDC) 
+CREATE_INDEX "PHNINV.EUDISC15" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, GRSGDC, CPSRDC, NPREDC, NCAJDC, NENVDC) 
+CREATE_INDEX "PHNINV.EUDISC16" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, GRSGDC, CPSRDC, PRIODC, NPREDC, NCAJDC, NENVDC) 
+CREATE_INDEX "PHNINV.EUDISC17" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, NPREDC, NENVDC, NCAJDC, GRSGDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC18" ON (PAISDC, CIASDC, CDDIDC, CPSRDC, ALMADC, TIPODC, NPEDDC, STATDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, NODBDC) 
+CREATE_INDEX "PHNINV.EUDISC19" ON (PAISDC, CIASDC, CDDIDC, NPREDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC20" ON (PAISDC, CIASDC, CDDIDC, TIPODC, CPSRDC, ALMADC, NPEDDC, NPREDC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC21" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, ALMADC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC22" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, GRSGDC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC23" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, GRSGDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC25" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, EQPRDC, RESEDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC26" ON (PAISDC, CIASDC, CDDIDC, FLDIDC) 
+CREATE_INDEX "PHNINV.EUDISC29" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC30" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC31" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, PRIODC, CPSRDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC) 
+CREATE_INDEX "PHNINV.EUDISC32" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, NCAJDC, NPREDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC33" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC34" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, EQPRDC, RESEDC, NPREDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC36" ON (PAISDC, CIASDC, CDDIDC, FLDIDC, ALMADC, NPEDDC) 
+CREATE_INDEX "PHNINV.EUDISC38" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC) 
+CREATE_INDEX "PHNINV.EUDISC40" ON (PAISDC, CIASDC, CDDIDC, ALMADC, CPSRDC, NPREDC, NPEDDC) 
+CREATE_INDEX "PHNINV.EUDISC41" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ORBADC) 
+CREATE_INDEX "PHNINV.EUDISC43" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, PRIODC, EQPRDC, RESEDC, NCORDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC60" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NPREDC, NENVDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC66" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NPREDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC67" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC68" ON (PAISDC, CIASDC, CDDIDC, ALMADC, NPEDDC, NCAJDC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISC80" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC, PRIODC) 
+CREATE_INDEX "PHNINV.EUDISC81" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ALMADC, EQPRDC, RESEDC, NCORDC) 
+CREATE_INDEX "PHNINV.EUDISC82" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, EQPRDC, RESEDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC83" ON (PAISDC, CIASDC, CDDIDC, NPEDDC, ORBADC, ZONADC, NUMEDC, LADODC, MODUDC, NIVEDC, POSIDC, CPSRDC, ALMADC) 
+CREATE_INDEX "PHNINV.EUDISC99" ON (CPSRDC, NPREDC) 
+CREATE_INDEX "PHNINV.EUDISC9A" ON (NPEDDC, ALMADC, CPSRDC, RESEDC, NPREDC, NCAJDC, PRIODC) 
+CREATE_INDEX "PHNINV.EUDISCAB" ON (NENVDC, ALMADC, CPSRDC) 
+CREATE_INDEX "PHNINV.EUDISCHN" ON (CPSRDC, NPEDDC) 
+CREATE_INDEX "PHNINV.EUDISCPE" ON (CPSRDC, NPEDDC) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May 30 17:09:42 2023', "ActaValue_3" = 'Fri Jun  2 09:11:51 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_EUDISC01::'1fc3c7b3-8b79-4065-9055-619dffa0e599'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '552', "y" = '-668')
+GUID::'2bffaca6-b629-4b75-a0be-62c513e6c705' READ TABLE DS_DB2_GER_VTAS.NEWINV.EUDISC01 OUTPUT(EUDISC01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '549', "y" = '-1288')
+GUID::'f9b6d61f-f177-4b02-a9a6-0d2d9ee31b28' READ TABLE DS_DB2_GER_VTAS.PHNINV.EUDISC01 OUTPUT(EUDISC01_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'EUDISC01', "ui_display_name" = 'QRY_SV', "x" = '962', "y" = '-669')
+GUID::'e97e80a5-f12b-4b67-8113-2b90e9dcc5df' CREATE VIEW QRY_SV( PAISDC VARCHAR(3)  SET( "Description" = 'Pias', "ui_mapping_text" = 'EUDISC01.PAISDC') ,
+ CIASDC VARCHAR(3)  SET( "Description" = 'Cia', "ui_mapping_text" = 'EUDISC01.CIASDC') ,
+ CDDIDC VARCHAR(2)  SET( "Description" = 'CDD', "ui_mapping_text" = 'EUDISC01.CDDIDC') ,
+ NPEDDC VARCHAR(8)  SET( "Description" = 'Pedido', "ui_mapping_text" = 'EUDISC01.NPEDDC') ,
+ ALMADC VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'EUDISC01.ALMADC') ,
+ ORBADC DECIMAL(5, 0)  SET( "Description" = 'Orden Barrido', "ui_mapping_text" = 'EUDISC01.ORBADC') ,
+ NODBDC DECIMAL(2, 0)  SET( "Description" = 'No.Orden Barrido', "ui_mapping_text" = 'EUDISC01.NODBDC') ,
+ ZONADC VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'EUDISC01.ZONADC') ,
+ NUMEDC VARCHAR(3)  SET( "Description" = 'No.', "ui_mapping_text" = 'EUDISC01.NUMEDC') ,
+ LADODC VARCHAR(1)  SET( "Description" = 'Lado', "ui_mapping_text" = 'EUDISC01.LADODC') ,
+ MODUDC VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'EUDISC01.MODUDC') ,
+ NIVEDC VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'EUDISC01.NIVEDC') ,
+ POSIDC VARCHAR(2)  SET( "Description" = 'Posición', "ui_mapping_text" = 'EUDISC01.POSIDC') ,
+ CPSRDC VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'EUDISC01.CPSRDC') ,
+ CPNFDC VARCHAR(17)  SET( "Description" = 'Código NF', "ui_mapping_text" = 'EUDISC01.CPNFDC') ,
+ EQPRDC VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'EUDISC01.EQPRDC') ,
+ RESEDC VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'EUDISC01.RESEDC') ,
+ NCORDC DECIMAL(7, 0)  SET( "Description" = 'No. Correlativo', "ui_mapping_text" = 'EUDISC01.NCORDC') ,
+ QLDIDC DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'EUDISC01.QLDIDC') ,
+ QPARDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'EUDISC01.QPARDC') ,
+ QPRVDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'EUDISC01.QPRVDC') ,
+ QPREDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'EUDISC01.QPREDC') ,
+ QPRTDC DECIMAL(7, 0)  SET( "Description" = 'Unidades TomadasdePrep', "ui_mapping_text" = 'EUDISC01.QPRTDC') ,
+ QDIFDC DECIMAL(7, 0)  SET( "Description" = 'Unidades UPREDC - UPRTDC', "ui_mapping_text" = 'EUDISC01.QDIFDC') ,
+ NPREDC VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'EUDISC01.NPREDC') ,
+ NCAJDC VARCHAR(7)  SET( "Description" = 'Numero de Caja', "ui_mapping_text" = 'EUDISC01.NCAJDC') ,
+ RUBIDC VARCHAR(13)  SET( "Description" = 'Ref.Ult. Ubicacion', "ui_mapping_text" = 'EUDISC01.RUBIDC') ,
+ STATDC VARCHAR(3)  SET( "Description" = 'Estatus', "ui_mapping_text" = 'EUDISC01.STATDC') ,
+ FLDIDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LDist', "ui_mapping_text" = 'EUDISC01.FLDIDC') ,
+ HLDIDC DECIMAL(6, 0)  SET( "Description" = 'Hora LDist', "ui_mapping_text" = 'EUDISC01.HLDIDC') ,
+ ULDIDC VARCHAR(10)  SET( "Description" = 'Usr LDist', "ui_mapping_text" = 'EUDISC01.ULDIDC') ,
+ DLDIDC VARCHAR(10)  SET( "Description" = 'Dev LDist', "ui_mapping_text" = 'EUDISC01.DLDIDC') ,
+ RLDIDC VARCHAR(10)  SET( "Description" = 'Ref LDist', "ui_mapping_text" = 'EUDISC01.RLDIDC') ,
+ FLPADC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Abierta', "ui_mapping_text" = 'EUDISC01.FLPADC') ,
+ HLPADC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Abierta', "ui_mapping_text" = 'EUDISC01.HLPADC') ,
+ ULPADC VARCHAR(10)  SET( "Description" = 'Usr LPrep Abierta', "ui_mapping_text" = 'EUDISC01.ULPADC') ,
+ DLPADC VARCHAR(10)  SET( "Description" = 'Dev LPrep Abierta', "ui_mapping_text" = 'EUDISC01.DLPADC') ,
+ RLPADC VARCHAR(10)  SET( "Description" = 'Ref LPrep Abierta', "ui_mapping_text" = 'EUDISC01.RLPADC') ,
+ FLPCDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Cerrada', "ui_mapping_text" = 'EUDISC01.FLPCDC') ,
+ HLPCDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Cerrada', "ui_mapping_text" = 'EUDISC01.HLPCDC') ,
+ ULPCDC VARCHAR(10)  SET( "Description" = 'Usr LPrep Cerrada', "ui_mapping_text" = 'EUDISC01.ULPCDC') ,
+ DLPCDC VARCHAR(10)  SET( "Description" = 'Dev LPrep Cerrada', "ui_mapping_text" = 'EUDISC01.DLPCDC') ,
+ RLPCDC VARCHAR(10)  SET( "Description" = 'Ref LPrep Cerrada', "ui_mapping_text" = 'EUDISC01.RLPCDC') ,
+ FLPMDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep En Muelle', "ui_mapping_text" = 'EUDISC01.FLPMDC') ,
+ HLPMDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep En Muelle', "ui_mapping_text" = 'EUDISC01.HLPMDC') ,
+ ULPMDC VARCHAR(10)  SET( "Description" = 'Usr LPrep En Muelle', "ui_mapping_text" = 'EUDISC01.ULPMDC') ,
+ DLPMDC VARCHAR(10)  SET( "Description" = 'Dev LPrep En Muelle', "ui_mapping_text" = 'EUDISC01.DLPMDC') ,
+ RLPMDC VARCHAR(10)  SET( "Description" = 'Ref LPrep En Muelle', "ui_mapping_text" = 'EUDISC01.RLPMDC') ,
+ FLPTDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01.FLPTDC') ,
+ HLPTDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01.HLPTDC') ,
+ ULPTDC VARCHAR(10)  SET( "Description" = 'Usr LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01.ULPTDC') ,
+ DLPTDC VARCHAR(10)  SET( "Description" = 'Dev LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01.DLPTDC') ,
+ RLPTDC VARCHAR(10)  SET( "Description" = 'Ref LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01.RLPTDC') ,
+ FLPRDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep RecEnTrans', "ui_mapping_text" = 'EUDISC01.FLPRDC') ,
+ HLPRDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01.HLPRDC') ,
+ ULPRDC VARCHAR(10)  SET( "Description" = 'Usr LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01.ULPRDC') ,
+ DLPRDC VARCHAR(10)  SET( "Description" = 'Dev LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01.DLPRDC') ,
+ RLPRDC VARCHAR(10)  SET( "Description" = 'Ref LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01.RLPRDC') ,
+ FCLSDC DECIMAL(8, 0)  SET( "Description" = 'Fecha Cierre Pedido', "ui_mapping_text" = 'EUDISC01.FCLSDC') ,
+ HCLSDC DECIMAL(6, 0)  SET( "Description" = 'Hora Cierre Pedido', "ui_mapping_text" = 'EUDISC01.HCLSDC') ,
+ UCLSDC VARCHAR(10)  SET( "Description" = 'Usr Cierre Pedido', "ui_mapping_text" = 'EUDISC01.UCLSDC') ,
+ DCLSDC VARCHAR(10)  SET( "Description" = 'Dev Cierre Pedido', "ui_mapping_text" = 'EUDISC01.DCLSDC') ,
+ RCLSDC VARCHAR(10)  SET( "Description" = 'Ref Cierre Pedido', "ui_mapping_text" = 'EUDISC01.RCLSDC') ,
+ NENVDC VARCHAR(4)  SET( "Description" = 'No. Envío', "ui_mapping_text" = 'EUDISC01.NENVDC') ,
+ NREMDC VARCHAR(6)  SET( "Description" = 'No. Remisión', "ui_mapping_text" = 'EUDISC01.NREMDC') ,
+ FIL1DC VARCHAR(10)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'EUDISC01.FIL1DC') ,
+ FIL2DC VARCHAR(20)  SET( "Description" = 'Filler 2', "ui_mapping_text" = 'EUDISC01.FIL2DC') ,
+ FIL3DC VARCHAR(30)  SET( "Description" = 'Filler 3', "ui_mapping_text" = 'EUDISC01.FIL3DC') ,
+ TIPODC VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'EUDISC01.TIPODC') ,
+ GRSGDC VARCHAR(4)  SET( "Description" = 'Grupo-SubGpo', "ui_mapping_text" = 'EUDISC01.GRSGDC') ,
+ PRIODC VARCHAR(2)  SET( "Description" = 'Prioridad U/N', "ui_mapping_text" = 'EUDISC01.PRIODC')  )
+ AS
+SELECT EUDISC01.PAISDC, EUDISC01.CIASDC, EUDISC01.CDDIDC, EUDISC01.NPEDDC, EUDISC01.ALMADC, EUDISC01.ORBADC, EUDISC01.NODBDC, EUDISC01.ZONADC, EUDISC01.NUMEDC, EUDISC01.LADODC, EUDISC01.MODUDC, EUDISC01.NIVEDC, EUDISC01.POSIDC, EUDISC01.CPSRDC, EUDISC01.CPNFDC, EUDISC01.EQPRDC, EUDISC01.RESEDC, EUDISC01.NCORDC, EUDISC01.QLDIDC, EUDISC01.QPARDC, EUDISC01.QPRVDC, EUDISC01.QPREDC, EUDISC01.QPRTDC, EUDISC01.QDIFDC, EUDISC01.NPREDC, EUDISC01.NCAJDC, EUDISC01.RUBIDC, EUDISC01.STATDC, EUDISC01.FLDIDC, EUDISC01.HLDIDC, EUDISC01.ULDIDC, EUDISC01.DLDIDC, EUDISC01.RLDIDC, EUDISC01.FLPADC, EUDISC01.HLPADC, EUDISC01.ULPADC, EUDISC01.DLPADC, EUDISC01.RLPADC, EUDISC01.FLPCDC, EUDISC01.HLPCDC, EUDISC01.ULPCDC, EUDISC01.DLPCDC, EUDISC01.RLPCDC, EUDISC01.FLPMDC, EUDISC01.HLPMDC, EUDISC01.ULPMDC, EUDISC01.DLPMDC, EUDISC01.RLPMDC, EUDISC01.FLPTDC, EUDISC01.HLPTDC, EUDISC01.ULPTDC, EUDISC01.DLPTDC, EUDISC01.RLPTDC, EUDISC01.FLPRDC, EUDISC01.HLPRDC, EUDISC01.ULPRDC, EUDISC01.DLPRDC, EUDISC01.RLPRDC, EUDISC01.FCLSDC, EUDISC01.HCLSDC, EUDISC01.UCLSDC, EUDISC01.DCLSDC, EUDISC01.RCLSDC, EUDISC01.NENVDC, EUDISC01.NREMDC, EUDISC01.FIL1DC, EUDISC01.FIL2DC, EUDISC01.FIL3DC, EUDISC01.TIPODC, EUDISC01.GRSGDC, EUDISC01.PRIODC FROM EUDISC01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'EUDISC01_1', "ui_display_name" = 'QRY_HN', "x" = '954', "y" = '-1289')
+GUID::'001901c6-a99f-496a-8fa1-540d6686e089' CREATE VIEW QRY_HN( PAISDC VARCHAR(3)  SET( "Description" = 'Pias', "ui_mapping_text" = 'EUDISC01_1.PAISDC') ,
+ CIASDC VARCHAR(3)  SET( "Description" = 'Cia', "ui_mapping_text" = 'EUDISC01_1.CIASDC') ,
+ CDDIDC VARCHAR(2)  SET( "Description" = 'CDD', "ui_mapping_text" = 'EUDISC01_1.CDDIDC') ,
+ NPEDDC VARCHAR(8)  SET( "Description" = 'Pedido', "ui_mapping_text" = 'EUDISC01_1.NPEDDC') ,
+ ALMADC VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'EUDISC01_1.ALMADC') ,
+ ORBADC DECIMAL(5, 0)  SET( "Description" = 'Orden Barrido', "ui_mapping_text" = 'EUDISC01_1.ORBADC') ,
+ NODBDC DECIMAL(2, 0)  SET( "Description" = 'No.Orden Barrido', "ui_mapping_text" = 'EUDISC01_1.NODBDC') ,
+ ZONADC VARCHAR(2)  SET( "Description" = 'Zona', "ui_mapping_text" = 'EUDISC01_1.ZONADC') ,
+ NUMEDC VARCHAR(3)  SET( "Description" = 'No.', "ui_mapping_text" = 'EUDISC01_1.NUMEDC') ,
+ LADODC VARCHAR(1)  SET( "Description" = 'Lado', "ui_mapping_text" = 'EUDISC01_1.LADODC') ,
+ MODUDC VARCHAR(3)  SET( "Description" = 'Modulo', "ui_mapping_text" = 'EUDISC01_1.MODUDC') ,
+ NIVEDC VARCHAR(2)  SET( "Description" = 'Nivel', "ui_mapping_text" = 'EUDISC01_1.NIVEDC') ,
+ POSIDC VARCHAR(2)  SET( "Description" = 'Posición', "ui_mapping_text" = 'EUDISC01_1.POSIDC') ,
+ CPSRDC VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'EUDISC01_1.CPSRDC') ,
+ CPNFDC VARCHAR(17)  SET( "Description" = 'Código NF', "ui_mapping_text" = 'EUDISC01_1.CPNFDC') ,
+ EQPRDC VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'EUDISC01_1.EQPRDC') ,
+ RESEDC VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'EUDISC01_1.RESEDC') ,
+ NCORDC DECIMAL(7, 0)  SET( "Description" = 'No. Correlativo', "ui_mapping_text" = 'EUDISC01_1.NCORDC') ,
+ QLDIDC DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'EUDISC01_1.QLDIDC') ,
+ QPARDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'EUDISC01_1.QPARDC') ,
+ QPRVDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'EUDISC01_1.QPRVDC') ,
+ QPREDC DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'EUDISC01_1.QPREDC') ,
+ QPRTDC DECIMAL(7, 0)  SET( "Description" = 'Unidades TomadasdePrep', "ui_mapping_text" = 'EUDISC01_1.QPRTDC') ,
+ QDIFDC DECIMAL(7, 0)  SET( "Description" = 'Unidades UPREDC - UPRTDC', "ui_mapping_text" = 'EUDISC01_1.QDIFDC') ,
+ NPREDC VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'EUDISC01_1.NPREDC') ,
+ NCAJDC VARCHAR(7)  SET( "Description" = 'Numero de Caja', "ui_mapping_text" = 'EUDISC01_1.NCAJDC') ,
+ RUBIDC VARCHAR(13)  SET( "Description" = 'Ref.Ult. Ubicacion', "ui_mapping_text" = 'EUDISC01_1.RUBIDC') ,
+ STATDC VARCHAR(3)  SET( "Description" = 'Estatus', "ui_mapping_text" = 'EUDISC01_1.STATDC') ,
+ FLDIDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LDist', "ui_mapping_text" = 'EUDISC01_1.FLDIDC') ,
+ HLDIDC DECIMAL(6, 0)  SET( "Description" = 'Hora LDist', "ui_mapping_text" = 'EUDISC01_1.HLDIDC') ,
+ ULDIDC VARCHAR(10)  SET( "Description" = 'Usr LDist', "ui_mapping_text" = 'EUDISC01_1.ULDIDC') ,
+ DLDIDC VARCHAR(10)  SET( "Description" = 'Dev LDist', "ui_mapping_text" = 'EUDISC01_1.DLDIDC') ,
+ RLDIDC VARCHAR(10)  SET( "Description" = 'Ref LDist', "ui_mapping_text" = 'EUDISC01_1.RLDIDC') ,
+ FLPADC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Abierta', "ui_mapping_text" = 'EUDISC01_1.FLPADC') ,
+ HLPADC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Abierta', "ui_mapping_text" = 'EUDISC01_1.HLPADC') ,
+ ULPADC VARCHAR(10)  SET( "Description" = 'Usr LPrep Abierta', "ui_mapping_text" = 'EUDISC01_1.ULPADC') ,
+ DLPADC VARCHAR(10)  SET( "Description" = 'Dev LPrep Abierta', "ui_mapping_text" = 'EUDISC01_1.DLPADC') ,
+ RLPADC VARCHAR(10)  SET( "Description" = 'Ref LPrep Abierta', "ui_mapping_text" = 'EUDISC01_1.RLPADC') ,
+ FLPCDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Cerrada', "ui_mapping_text" = 'EUDISC01_1.FLPCDC') ,
+ HLPCDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Cerrada', "ui_mapping_text" = 'EUDISC01_1.HLPCDC') ,
+ ULPCDC VARCHAR(10)  SET( "Description" = 'Usr LPrep Cerrada', "ui_mapping_text" = 'EUDISC01_1.ULPCDC') ,
+ DLPCDC VARCHAR(10)  SET( "Description" = 'Dev LPrep Cerrada', "ui_mapping_text" = 'EUDISC01_1.DLPCDC') ,
+ RLPCDC VARCHAR(10)  SET( "Description" = 'Ref LPrep Cerrada', "ui_mapping_text" = 'EUDISC01_1.RLPCDC') ,
+ FLPMDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep En Muelle', "ui_mapping_text" = 'EUDISC01_1.FLPMDC') ,
+ HLPMDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep En Muelle', "ui_mapping_text" = 'EUDISC01_1.HLPMDC') ,
+ ULPMDC VARCHAR(10)  SET( "Description" = 'Usr LPrep En Muelle', "ui_mapping_text" = 'EUDISC01_1.ULPMDC') ,
+ DLPMDC VARCHAR(10)  SET( "Description" = 'Dev LPrep En Muelle', "ui_mapping_text" = 'EUDISC01_1.DLPMDC') ,
+ RLPMDC VARCHAR(10)  SET( "Description" = 'Ref LPrep En Muelle', "ui_mapping_text" = 'EUDISC01_1.RLPMDC') ,
+ FLPTDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01_1.FLPTDC') ,
+ HLPTDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01_1.HLPTDC') ,
+ ULPTDC VARCHAR(10)  SET( "Description" = 'Usr LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01_1.ULPTDC') ,
+ DLPTDC VARCHAR(10)  SET( "Description" = 'Dev LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01_1.DLPTDC') ,
+ RLPTDC VARCHAR(10)  SET( "Description" = 'Ref LPrep EnTránsito', "ui_mapping_text" = 'EUDISC01_1.RLPTDC') ,
+ FLPRDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep RecEnTrans', "ui_mapping_text" = 'EUDISC01_1.FLPRDC') ,
+ HLPRDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01_1.HLPRDC') ,
+ ULPRDC VARCHAR(10)  SET( "Description" = 'Usr LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01_1.ULPRDC') ,
+ DLPRDC VARCHAR(10)  SET( "Description" = 'Dev LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01_1.DLPRDC') ,
+ RLPRDC VARCHAR(10)  SET( "Description" = 'Ref LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC01_1.RLPRDC') ,
+ FCLSDC DECIMAL(8, 0)  SET( "Description" = 'Fecha Cierre Pedido', "ui_mapping_text" = 'EUDISC01_1.FCLSDC') ,
+ HCLSDC DECIMAL(6, 0)  SET( "Description" = 'Hora Cierre Pedido', "ui_mapping_text" = 'EUDISC01_1.HCLSDC') ,
+ UCLSDC VARCHAR(10)  SET( "Description" = 'Usr Cierre Pedido', "ui_mapping_text" = 'EUDISC01_1.UCLSDC') ,
+ DCLSDC VARCHAR(10)  SET( "Description" = 'Dev Cierre Pedido', "ui_mapping_text" = 'EUDISC01_1.DCLSDC') ,
+ RCLSDC VARCHAR(10)  SET( "Description" = 'Ref Cierre Pedido', "ui_mapping_text" = 'EUDISC01_1.RCLSDC') ,
+ NENVDC VARCHAR(4)  SET( "Description" = 'No. Envío', "ui_mapping_text" = 'EUDISC01_1.NENVDC') ,
+ NREMDC VARCHAR(6)  SET( "Description" = 'No. Remisión', "ui_mapping_text" = 'EUDISC01_1.NREMDC') ,
+ FIL1DC VARCHAR(10)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'EUDISC01_1.FIL1DC') ,
+ FIL2DC VARCHAR(20)  SET( "Description" = 'Filler 2', "ui_mapping_text" = 'EUDISC01_1.FIL2DC') ,
+ FIL3DC VARCHAR(30)  SET( "Description" = 'Filler 3', "ui_mapping_text" = 'EUDISC01_1.FIL3DC') ,
+ TIPODC VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'EUDISC01_1.TIPODC') ,
+ GRSGDC VARCHAR(4)  SET( "Description" = 'Grupo-SubGpo', "ui_mapping_text" = 'EUDISC01_1.GRSGDC') ,
+ PRIODC VARCHAR(2)  SET( "Description" = 'Prioridad U/N', "ui_mapping_text" = 'EUDISC01_1.PRIODC')  )
+ AS
+SELECT EUDISC01_1.PAISDC, EUDISC01_1.CIASDC, EUDISC01_1.CDDIDC, EUDISC01_1.NPEDDC, EUDISC01_1.ALMADC, EUDISC01_1.ORBADC, EUDISC01_1.NODBDC, EUDISC01_1.ZONADC, EUDISC01_1.NUMEDC, EUDISC01_1.LADODC, EUDISC01_1.MODUDC, EUDISC01_1.NIVEDC, EUDISC01_1.POSIDC, EUDISC01_1.CPSRDC, EUDISC01_1.CPNFDC, EUDISC01_1.EQPRDC, EUDISC01_1.RESEDC, EUDISC01_1.NCORDC, EUDISC01_1.QLDIDC, EUDISC01_1.QPARDC, EUDISC01_1.QPRVDC, EUDISC01_1.QPREDC, EUDISC01_1.QPRTDC, EUDISC01_1.QDIFDC, EUDISC01_1.NPREDC, EUDISC01_1.NCAJDC, EUDISC01_1.RUBIDC, EUDISC01_1.STATDC, EUDISC01_1.FLDIDC, EUDISC01_1.HLDIDC, EUDISC01_1.ULDIDC, EUDISC01_1.DLDIDC, EUDISC01_1.RLDIDC, EUDISC01_1.FLPADC, EUDISC01_1.HLPADC, EUDISC01_1.ULPADC, EUDISC01_1.DLPADC, EUDISC01_1.RLPADC, EUDISC01_1.FLPCDC, EUDISC01_1.HLPCDC, EUDISC01_1.ULPCDC, EUDISC01_1.DLPCDC, EUDISC01_1.RLPCDC, EUDISC01_1.FLPMDC, EUDISC01_1.HLPMDC, EUDISC01_1.ULPMDC, EUDISC01_1.DLPMDC, EUDISC01_1.RLPMDC, EUDISC01_1.FLPTDC, EUDISC01_1.HLPTDC, EUDISC01_1.ULPTDC, EUDISC01_1.DLPTDC, EUDISC01_1.RLPTDC, EUDISC01_1.FLPRDC, EUDISC01_1.HLPRDC, EUDISC01_1.ULPRDC, EUDISC01_1.DLPRDC, EUDISC01_1.RLPRDC, EUDISC01_1.FCLSDC, EUDISC01_1.HCLSDC, EUDISC01_1.UCLSDC, EUDISC01_1.DCLSDC, EUDISC01_1.RCLSDC, EUDISC01_1.NENVDC, EUDISC01_1.NREMDC, EUDISC01_1.FIL1DC, EUDISC01_1.FIL2DC, EUDISC01_1.FIL3DC, EUDISC01_1.TIPODC, EUDISC01_1.GRSGDC, EUDISC01_1.PRIODC FROM EUDISC01_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1408', "y" = '-981')
+GUID::'ef39d81c-cf42-4ed6-b127-24ca88446477' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'EUDISC01(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2139', "y" = '-982')
+GUID::'620ba2a7-e292-4cb5-9f0a-56adba0131d2' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.EUDISC01 INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Audit" = '<?xml version="1.0" encoding="UTF-8"?>
+<Audit>
+<AuditObjects>
+</AuditObjects>
+<AuditRules>
+</AuditRules>
+<Notifications>
+<RaiseException Enabled="true" >
+</RaiseException>
+<Mail Enabled="false" ></Mail>
+<Script Enabled="false" ></Script>
+</Notifications>
+</Audit>
+', "Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

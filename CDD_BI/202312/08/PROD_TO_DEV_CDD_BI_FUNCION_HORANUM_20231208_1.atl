@@ -1,0 +1,26 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos de hora a varchar', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 08:46:26 2021', "ActaValue_7" = 'Fri Dec  8 14:40:44 2023', "InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '45', "ui_script_text" = '$horaNum = lpad(cast($PR_HoraNum, \'varchar(6)\'),6,\'0\');
+$horaVarchar = ifthenelse(length( $horaNum ) = 6, 
+substr($horaNum,1,2)||\':\'|| substr($horaNum,3,2)||\':\'|| substr($horaNum,5,2), 
+\'00:00:00\');
+
+$horaVarchar = 
+ifthenelse(cast(substr( $horaVarchar,1,2),\'INT\') <= 23 and cast(substr( $horaVarchar,4,2),\'INT\') <= 59 and cast(substr( $horaVarchar,7,2),\'INT\') <= 59, $horaVarchar,\'00:00:00\'); 
+
+Return $horaVarchar;
+
+
+
+', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Hora_num_a_varchar($PR_HoraNum DECIMAL(8, 0)  IN )
+RETURNS  VARCHAR(8) 
+DECLARE
+     $horaNum VARCHAR(6) ;
+     $horaVarchar VARCHAR(8) ;
+BEGIN
+$horaNum = lpad(cast($PR_HoraNum, 'varchar(6)'), 6, '0');$horaVarchar = ifthenelse((length($horaNum) = 6), ((((substr($horaNum, 1, 2) || ':') || substr($horaNum, 3, 2)) || ':') || substr($horaNum, 5, 2)), '00:00:00');$horaVarchar = ifthenelse((((cast(substr($horaVarchar, 1, 2), 'INT') <= 23) AND
+   (cast(substr($horaVarchar, 4, 2), 'INT') <= 59)) AND
+   (cast(substr($horaVarchar, 7, 2), 'INT') <= 59)), $horaVarchar, '00:00:00');RETURN $horaVarchar;
+END

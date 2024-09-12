@@ -1,0 +1,78 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 18 12:18:34 2022', "ActaValue_3" = 'Tue Oct 18 12:19:00 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWHFRAMEWORK::'f026d4c5-6f4d-4f63-9bed-a68db3c7d05c' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8F1E5B9AE388C794A5B2DB07FA7284CEF0FA726CB0AF05DE5530A43293B0B55205EEE29BF7F5B5FBD7D854D3B70</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E80820A90FC85B80E2D596B9EDBFB1E5E69DA8CC7F7EDBE361E981573A7FE41AFB2740CB01BE41C21FC9276323B2</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8A76BCC06F4E28899647DE6387842EF82257B0B8A19033728B67D7964CEAB463A49D21D07D05F5DE2E270A284647946D2701BCB5DDAD9</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_FRAMEWORK</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWHFRAMEWORK', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Sep  8 16:47:01 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN DF_Load_STG::'a2296b84-b334-48a9-93de-34e781ed31a2'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script2058', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\ExecuteServiceDesk_Bat.py\',
+	 0
+)
+;', "x" = '702', "y" = '-458')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\ExecuteServiceDesk_Bat.py', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Sep  8 16:23:56 2023', "ActaValue_3" = 'Fri Sep  8 16:47:01 2023', "x" = '-1', "y" = '-1')
+CREATE SESSION JB_Load_ServiceDesk::'3141d53a-c2e5-4294-8779-e4ded7977dc2'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>272</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '747', "y" = '-432')
+CALL PLAN DF_Load_STG::'a2296b84-b334-48a9-93de-34e781ed31a2'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>269</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1409', "y" = '-432')
+CALL PLAN WF_Load_DW::'a0eda753-e82f-44a9-8ca6-b2a4c8b087cf'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '3141d53a-c2e5-4294-8779-e4ded7977dc2', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'JB_Load_ServiceDesk', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_Fact::'d723d7d0-1f27-48ec-9180-ea2ad9e2a62e'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'FACT_SD_REQUEST', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\',\'exec fwk.sp_FACT_SD_REQUEST\');', "x" = '761', "y" = '-501')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'exec fwk.sp_FACT_SD_REQUEST');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_Load_DW::'a0eda753-e82f-44a9-8ca6-b2a4c8b087cf'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>232</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '836', "y" = '-476')
+CALL PLAN WF_Lookup::'7c07f975-81ef-4143-a1bd-116496a457cd'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1387', "y" = '-476')
+CALL PLAN WF_Fact::'d723d7d0-1f27-48ec-9180-ea2ad9e2a62e'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_Lookup::'7c07f975-81ef-4143-a1bd-116496a457cd'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>232</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'l_technician', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\',\'EXEC fwk.sp_lookup_sd_technician\');', "x" = '703', "y" = '-338')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'EXEC fwk.sp_lookup_sd_technician');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

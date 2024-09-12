@@ -1,0 +1,349 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_CDD::'181e01b3-b26f-4d86-b545-f09f757d9872' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8CCB8160FFAB4E52406BA893530703655F3CF0753084638D97F6EDC98EA3CE12BC31D1E43210BC614C2B46BA4DFAD4F</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_CDD', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 26 11:03:49 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI::'5de09bd1-a168-4f49-b162-dfe39041c404' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E82D872C40BB608B76623A63F731115B3C8731C170E9D5A96C458B3CF5E5C7650C6267F6D5EE6AFB28B0E09D8A7D</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E87F81B9A0E996801A8C275E9D18E85401ED0F3C6F81D15DC21314D9E5B6F2022CC0F041B1765FCF0C4C2AA9028D</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8C4A99F46B19C9BC883D803F2301E201FC0A84A6D53FBD08D53B731380136A3E9083557FF1DBDC220447C75A221617D601DABEA4FCF20</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '44126' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RDatabase_Object_Type',ActaValue_3 = 'TABLE' , 
+ActaName_4 = 'RTable_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RDescription',ActaValue_5 = '' , 
+ActaName_6 = 'REstimated_Row_Count',ActaValue_6 = '50000' , 
+ActaName_7 = 'RSavedAfterCheckOut',ActaValue_7 = 'YES' , 
+ActaName_8 = 'RLoader_Is_Template_Table',ActaValue_8 = 'no' , 
+ActaName_9 = 'RDate_created',ActaValue_9 = 'Tue Apr 30 11:45:56 2024' , 
+ActaName_10 = 'RDate_last_loaded',ActaValue_10 = 'Fri Jun  7 15:14:59 2024' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '44126' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '2 Seconds' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE01_V2(STATDI VARCHAR(2)  NULL , 
+TDOCDI VARCHAR(5)  NULL , 
+ALORDI VARCHAR(2)  NULL , 
+ALDEDI VARCHAR(2)  NULL , 
+NDOCDI VARCHAR(8)  NULL , 
+NPREDI VARCHAR(13)  NULL , 
+NCAJDI VARCHAR(7)  NULL , 
+CODPDI VARCHAR(17)  NULL , 
+UNDODI DECIMAL(7, 0)  NULL , 
+UNREDI DECIMAL(7, 0)  NULL , 
+UNDIDI DECIMAL(7, 0)  NULL , 
+NENVDI VARCHAR(6)  NULL , 
+FENVDI DECIMAL(8, 0)  NULL , 
+HENVDI DECIMAL(6, 0)  NULL , 
+UENVDI VARCHAR(10)  NULL , 
+TERRDI VARCHAR(1)  NULL , 
+FLDIDI DECIMAL(8, 0)  NULL , 
+HLDIDI DECIMAL(6, 0)  NULL , 
+ULDIDI VARCHAR(10)  NULL , 
+FLPADI DECIMAL(8, 0)  NULL , 
+HLPADI DECIMAL(6, 0)  NULL , 
+ULPADI VARCHAR(10)  NULL , 
+FE01DI DECIMAL(8, 0)  NULL , 
+HO01DI DECIMAL(6, 0)  NULL , 
+US01DI VARCHAR(10)  NULL , 
+FE02DI DECIMAL(8, 0)  NULL , 
+HO02DI DECIMAL(6, 0)  NULL , 
+US02DI VARCHAR(10)  NULL , 
+FE03DI DECIMAL(8, 0)  NULL , 
+HO03DI DECIMAL(6, 0)  NULL , 
+US03DI VARCHAR(10)  NULL , 
+FE04DI DECIMAL(8, 0)  NULL , 
+HO04DI DECIMAL(6, 0)  NULL , 
+US04DI VARCHAR(10)  NULL , 
+FE05DI DECIMAL(8, 0)  NULL , 
+HO05DI DECIMAL(6, 0)  NULL , 
+US05DI VARCHAR(10)  NULL , 
+FE06DI DECIMAL(8, 0)  NULL , 
+HO06DI DECIMAL(6, 0)  NULL , 
+US06DI VARCHAR(10)  NULL , 
+OBS1DI VARCHAR(40)  NULL , 
+OBS2DI VARCHAR(40)  NULL , 
+OBS3DI VARCHAR(40)  NULL , 
+OBS4DI VARCHAR(40)  NULL , 
+CODIDI VARCHAR(4)  NULL , 
+COPADI VARCHAR(4)  NULL , 
+UBICDI VARCHAR(13)  NULL , 
+CATCDI VARCHAR(2)  NULL , 
+FE07DI DECIMAL(8, 0)  NULL , 
+HO07DI DECIMAL(6, 0)  NULL , 
+US07DI VARCHAR(10)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Apr 30 11:32:16 2024', "ActaValue_3" = 'Tue Apr 30 11:55:24 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION CDD_BI_Faltantes::'b3f80c9a-5e10-4a8b-8fda-99b5562f029e'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1247', "y" = '-497')
+CALL PLAN WF_CRG_TABLA_RADIFE01_V2::'857a2278-beba-48f8-986d-1b279ee09918'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'b3f80c9a-5e10-4a8b-8fda-99b5562f029e', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'CDD_BI_Faltantes', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Apr 30 11:55:23 2024', "ActaValue_3" = 'Fri Jun  7 15:14:43 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_RADIFE01_V2::'43a64f72-d8fe-4c67-888f-4b49561936cd'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>306</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '54', "ui_display_name" = 'SQL_RADIFE01_V2', "x" = '579', "y" = '-703')
+GUID::'da70e1d9-a8df-43fb-a3d0-3dfbc0ab37a8' CALL TRANSFORM SQL() OUTPUT(SQL_RADIFE01_V2_1( STATDI VARCHAR(2) ,
+ TDOCDI VARCHAR(5) ,
+ ALORDI VARCHAR(2) ,
+ ALDEDI VARCHAR(2) ,
+ NDOCDI VARCHAR(8) ,
+ NPREDI VARCHAR(13) ,
+ NCAJDI VARCHAR(7) ,
+ CODPDI VARCHAR(17) ,
+ UNDODI DECIMAL(7, 0) ,
+ UNREDI DECIMAL(7, 0) ,
+ UNDIDI DECIMAL(7, 0) ,
+ NENVDI VARCHAR(6) ,
+ FENVDI DECIMAL(8, 0) ,
+ HENVDI DECIMAL(6, 0) ,
+ UENVDI VARCHAR(10) ,
+ TERRDI VARCHAR(1) ,
+ FLDIDI DECIMAL(8, 0) ,
+ HLDIDI DECIMAL(6, 0) ,
+ ULDIDI VARCHAR(10) ,
+ FLPADI DECIMAL(8, 0) ,
+ HLPADI DECIMAL(6, 0) ,
+ ULPADI VARCHAR(10) ,
+ FE01DI DECIMAL(8, 0) ,
+ HO01DI DECIMAL(6, 0) ,
+ US01DI VARCHAR(10) ,
+ FE02DI DECIMAL(8, 0) ,
+ HO02DI DECIMAL(6, 0) ,
+ US02DI VARCHAR(10) ,
+ FE03DI DECIMAL(8, 0) ,
+ HO03DI DECIMAL(6, 0) ,
+ US03DI VARCHAR(10) ,
+ FE04DI DECIMAL(8, 0) ,
+ HO04DI DECIMAL(6, 0) ,
+ US04DI VARCHAR(10) ,
+ FE05DI DECIMAL(8, 0) ,
+ HO05DI DECIMAL(6, 0) ,
+ US05DI VARCHAR(10) ,
+ FE06DI DECIMAL(8, 0) ,
+ HO06DI DECIMAL(6, 0) ,
+ US06DI VARCHAR(10) ,
+ OBS1DI VARCHAR(40) ,
+ OBS2DI VARCHAR(40) ,
+ OBS3DI VARCHAR(40) ,
+ OBS4DI VARCHAR(40) ,
+ CODIDI VARCHAR(4) ,
+ COPADI VARCHAR(4) ,
+ UBICDI VARCHAR(13) ,
+ CATCDI VARCHAR(2) ,
+ FE07DI DECIMAL(8, 0) ,
+ HO07DI DECIMAL(6, 0) ,
+ US07DI VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_CDD', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT * FROM NEWINV.RADIFE01  </sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '83', "ui_acta_from_schema_0" = 'SQL_RADIFE01_V2_1', "ui_display_name" = 'Query_RADIFE01_V2', "x" = '1021', "y" = '-703')
+GUID::'db3f607b-fd5c-45e7-8670-1f62681cd3ed' CREATE VIEW Query_RADIFE01_V2( STATDI VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.STATDI') ,
+ TDOCDI VARCHAR(5)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.TDOCDI') ,
+ ALORDI VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.ALORDI') ,
+ ALDEDI VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.ALDEDI') ,
+ NDOCDI VARCHAR(8)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.NDOCDI') ,
+ NPREDI VARCHAR(13)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.NPREDI') ,
+ NCAJDI VARCHAR(7)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.NCAJDI') ,
+ CODPDI VARCHAR(17)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.CODPDI') ,
+ UNDODI DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.UNDODI') ,
+ UNREDI DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.UNREDI') ,
+ UNDIDI DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.UNDIDI') ,
+ NENVDI VARCHAR(6)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.NENVDI') ,
+ FENVDI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FENVDI') ,
+ HENVDI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HENVDI') ,
+ UENVDI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.UENVDI') ,
+ TERRDI VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.TERRDI') ,
+ FLDIDI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FLDIDI') ,
+ HLDIDI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HLDIDI') ,
+ ULDIDI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.ULDIDI') ,
+ FLPADI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FLPADI') ,
+ HLPADI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HLPADI') ,
+ ULPADI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.ULPADI') ,
+ FE01DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE01DI') ,
+ HO01DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO01DI') ,
+ US01DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US01DI') ,
+ FE02DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE02DI') ,
+ HO02DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO02DI') ,
+ US02DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US02DI') ,
+ FE03DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE03DI') ,
+ HO03DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO03DI') ,
+ US03DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US03DI') ,
+ FE04DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE04DI') ,
+ HO04DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO04DI') ,
+ US04DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US04DI') ,
+ FE05DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE05DI') ,
+ HO05DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO05DI') ,
+ US05DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US05DI') ,
+ FE06DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE06DI') ,
+ HO06DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO06DI') ,
+ US06DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US06DI') ,
+ OBS1DI VARCHAR(40)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.OBS1DI') ,
+ OBS2DI VARCHAR(40)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.OBS2DI') ,
+ OBS3DI VARCHAR(40)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.OBS3DI') ,
+ OBS4DI VARCHAR(40)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.OBS4DI') ,
+ CODIDI VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.CODIDI') ,
+ COPADI VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.COPADI') ,
+ UBICDI VARCHAR(13)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.UBICDI') ,
+ CATCDI VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.CATCDI') ,
+ FE07DI DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.FE07DI') ,
+ HO07DI DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.HO07DI') ,
+ US07DI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_RADIFE01_V2_1.US07DI')  )
+ AS
+SELECT SQL_RADIFE01_V2_1.STATDI, SQL_RADIFE01_V2_1.TDOCDI, SQL_RADIFE01_V2_1.ALORDI, SQL_RADIFE01_V2_1.ALDEDI, SQL_RADIFE01_V2_1.NDOCDI, SQL_RADIFE01_V2_1.NPREDI, SQL_RADIFE01_V2_1.NCAJDI, SQL_RADIFE01_V2_1.CODPDI, SQL_RADIFE01_V2_1.UNDODI, SQL_RADIFE01_V2_1.UNREDI, SQL_RADIFE01_V2_1.UNDIDI, SQL_RADIFE01_V2_1.NENVDI, SQL_RADIFE01_V2_1.FENVDI, SQL_RADIFE01_V2_1.HENVDI, SQL_RADIFE01_V2_1.UENVDI, SQL_RADIFE01_V2_1.TERRDI, SQL_RADIFE01_V2_1.FLDIDI, SQL_RADIFE01_V2_1.HLDIDI, SQL_RADIFE01_V2_1.ULDIDI, SQL_RADIFE01_V2_1.FLPADI, SQL_RADIFE01_V2_1.HLPADI, SQL_RADIFE01_V2_1.ULPADI, SQL_RADIFE01_V2_1.FE01DI, SQL_RADIFE01_V2_1.HO01DI, SQL_RADIFE01_V2_1.US01DI, SQL_RADIFE01_V2_1.FE02DI, SQL_RADIFE01_V2_1.HO02DI, SQL_RADIFE01_V2_1.US02DI, SQL_RADIFE01_V2_1.FE03DI, SQL_RADIFE01_V2_1.HO03DI, SQL_RADIFE01_V2_1.US03DI, SQL_RADIFE01_V2_1.FE04DI, SQL_RADIFE01_V2_1.HO04DI, SQL_RADIFE01_V2_1.US04DI, SQL_RADIFE01_V2_1.FE05DI, SQL_RADIFE01_V2_1.HO05DI, SQL_RADIFE01_V2_1.US05DI, SQL_RADIFE01_V2_1.FE06DI, SQL_RADIFE01_V2_1.HO06DI, SQL_RADIFE01_V2_1.US06DI, SQL_RADIFE01_V2_1.OBS1DI, SQL_RADIFE01_V2_1.OBS2DI, SQL_RADIFE01_V2_1.OBS3DI, SQL_RADIFE01_V2_1.OBS4DI, SQL_RADIFE01_V2_1.CODIDI, SQL_RADIFE01_V2_1.COPADI, SQL_RADIFE01_V2_1.UBICDI, SQL_RADIFE01_V2_1.CATCDI, SQL_RADIFE01_V2_1.FE07DI, SQL_RADIFE01_V2_1.HO07DI, SQL_RADIFE01_V2_1.US07DI FROM SQL_RADIFE01_V2_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '52', "x" = '2219', "y" = '-713')
+GUID::'f7099cd6-e13b-476e-ba4d-6ed27422e0ee' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE01_V2 INPUT(Query_RADIFE01_V2)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_TABLA_RADIFE01_V2::'857a2278-beba-48f8-986d-1b279ee09918'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1506', "y" = '-603')
+CALL DATAFLOW DF_CRG_RADIFE01_V2::'43a64f72-d8fe-4c67-888f-4b49561936cd'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

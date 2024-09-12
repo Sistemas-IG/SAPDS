@@ -1,0 +1,1563 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Dec 22 00:24:35 2020', "ActaValue_3" = 'Thu Jan 07 10:46:43 2021', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_CDD_BI::'409e7e70-deb6-470c-8736-7b55bbdb5f9d' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>CDD_BI</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8CADAA3E6A28822CCC57F0BBE1B67BA1C99EBAE07960B962A5BFB1A419B35FAAAEC5F920FE6FF91745EDD927EAAEBA8626785998745DB</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_CDD_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 26 11:03:49 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI::'5de09bd1-a168-4f49-b162-dfe39041c404' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E84DD1C197B4F01F35DCE7B1F5D6AF86EE85D680D4474C8B3F164667558D3AB7928CC603F9F2C665D29BF9795E64</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8BC2FAFE3401127433D31CF047459429074632989347D9CF2DA29D360957864DEE3B26D5D910C9BF7F362E1CB1A</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E805BFA1FFB1318B05CF018B12DD2533BD751C646926DA9C54DB57DC031294165D263122DE82A3375423CB5CA76E5ED7A0DE4180277CB8</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:00:52 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '191' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RDatabase_Object_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RTable_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RDescription',ActaValue_6 = '' , 
+ActaName_7 = 'REstimated_Row_Count',ActaValue_7 = '50000' , 
+ActaName_8 = 'RLoader_Is_Template_Table',ActaValue_8 = 'yes' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RDate_modified',ActaValue_10 = 'Thu Jan 26 16:28:10 2023' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '191' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '1 Seconds' )
+CREATE TABLE DS_CDD_BI.dbo.EUSTAT(TIPOST VARCHAR(5)  NULL  SET("Description" = 'Codigo Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPOST'), 
+CODIST VARCHAR(3)  NULL  SET("Description" = 'Codigo Status', "ui_mapping_text" = 'EUSTAT01.CODIST'), 
+TIPDST VARCHAR(20)  NULL  SET("Description" = 'Descripcion Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPDST'), 
+DESCST VARCHAR(35)  NULL  SET("Description" = 'Descripcion Status', "ui_mapping_text" = 'EUSTAT01.DESCST'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUSTAT01.TIPOST))||ltrim_blanks(rtrim_blanks(EUSTAT01.CODIST))'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT01.CODIST || \' - \' || EUSTAT01.DESCST')) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:09:39 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '94303' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '94303' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '6 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed Jan 25 11:49:43 2023' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Thu Jan 26 16:28:10 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RACAPE(ID_PAIS INT  NULL  SET("ui_mapping_text" = 'CAST(QRY_TMP.PAIS,\'INT\')'), 
+COMPANIA VARCHAR(3)  NULL  SET("Description" = 'Compania', "ui_mapping_text" = 'QRY_TMP.CIASPE'), 
+DOCUMENTO VARCHAR(8)  NULL  SET("Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO'), 
+TIPO_DOCUMENTO VARCHAR(5)  NULL  SET("Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_TMP.TIPOPE'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))'), 
+ALMACEN_ORIGEN VARCHAR(2)  NULL  SET("Description" = 'Alm Origen', "ui_mapping_text" = 'QRY_TMP.ALORPE'), 
+ALMACEN_DESTINO VARCHAR(2)  NULL  SET("Description" = 'Alm Destino', "ui_mapping_text" = 'QRY_TMP.ALDEPE'), 
+ITEMS_ENVIADOS DECIMAL(5, 0)  NULL  SET("Description" = 'Total Items Enviados', "ui_mapping_text" = 'QRY_TMP.ITEMS_ENVIADOS'), 
+UNIDADES_ENVIADAS DECIMAL(7, 0)  NULL  SET("Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_ENVIADAS'), 
+ITEMS_RECIBIDOS DECIMAL(5, 0)  NULL  SET("Description" = 'Total Items Recibidos', "ui_mapping_text" = 'QRY_TMP.ITEMS_RECIBIDOS'), 
+UNIDADES_RECIBIDAS DECIMAL(7, 0)  NULL  SET("Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS'), 
+FECHA_CREACION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Creacion ,QRY_TMP.Hora_Creacion )'), 
+USUARIO_CREACION VARCHAR(10)  NULL  SET("Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_TMP.Usuario_Creacion'), 
+FECHA_REC_EN_TRAN DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Rec_en_Tran ,QRY_TMP.Hora_Rec_en_Tran )'), 
+USUARIO_REC_EN_TRAN VARCHAR(10)  NULL  SET("Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_TMP.Usuario_Rec_en_Tran'), 
+FECHA_INICIO_RECEPCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Inicio_Recepcion,QRY_TMP.Hora_Inicio_Recepcion )'), 
+USUARIO_INICIO_RECEPCION VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_TMP.Usuario_Inicio_Recepcion'), 
+FECHA_FIN_RECEPCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Fin_Recepcion,QRY_TMP.Hora_Fin_Recepcion)'), 
+USUARIO_FIN_RECEPCION VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_TMP.Usuario_Fin_Recepcion'), 
+FECHA_FALTANTES_SOBRANTES DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Faltantes_Sobrantes,QRY_TMP.Hora_Faltantes_Sobrantes)'), 
+USUARIO_FALTANTES_SOBRANTES VARCHAR(10)  NULL  SET("Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Faltantes_Sobrantes'), 
+FECHA_CERRADO DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Cerrado ,QRY_TMP.Hora_Cerrado )'), 
+USUARIO_CERRADO VARCHAR(10)  NULL  SET("Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Cerrado'), 
+FECHA_TRASLADO_AUDITORIA DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Traslado_Auditoria,QRY_TMP.Hora_Traslado_Auditoria)'), 
+USUARIO_TRASLADO_AUDITORIA VARCHAR(10)  NULL  SET("Description" = 'Proc4 Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Traslado_Auditoria'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime(QRY_TEMP_RACAPE_SV.fecha_trans,QRY_TEMP_RACAPE_SV.hora_trans)'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:00:21 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '34164' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '34164' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '2 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Thu Jan 26 11:31:43 2023' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Thu Jan 26 16:28:11 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RACAPE08(STATPE VARCHAR(3)  NULL  SET("Description" = 'Status', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.STATPE'), 
+PAISPE VARCHAR(3)  NULL  SET("Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.PAISPE'), 
+CIASPE VARCHAR(3)  NULL  SET("Description" = 'Compania', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.CIASPE'), 
+ALORPE VARCHAR(2)  NULL  SET("Description" = 'Alm Origen', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.ALORPE'), 
+ALDEPE VARCHAR(2)  NULL  SET("Description" = 'Alm Destino', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.ALDEPE'), 
+NDOCPE VARCHAR(8)  NULL  SET("Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.NDOCPE'), 
+IENVPE DECIMAL(5, 0)  NULL  SET("Description" = 'Total Items Enviados', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.IENVPE'), 
+UENVPE DECIMAL(7, 0)  NULL  SET("Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.UENVPE'), 
+IRECPE DECIMAL(5, 0)  NULL  SET("Description" = 'Total Items Recibidos', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.IRECPE'), 
+URECPE DECIMAL(7, 0)  NULL  SET("Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.URECPE'), 
+NCORPE DECIMAL(5, 0)  NULL  SET("Description" = 'Control Ult CorrDet', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.NCORPE'), 
+FEETPE DECIMAL(8, 0)  NULL  SET("Description" = 'EnTransito Fecha Crear', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEETPE'), 
+HOETPE DECIMAL(6, 0)  NULL  SET("Description" = 'EnTransito Hora Crear', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOETPE'), 
+USETPE VARCHAR(10)  NULL  SET("Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USETPE'), 
+REETPE VARCHAR(10)  NULL  SET("Description" = 'EnTransito Ref Crear', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REETPE'), 
+DEETPE VARCHAR(10)  NULL  SET("Description" = 'EnTransito Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEETPE'), 
+FEREPE DECIMAL(8, 0)  NULL  SET("Description" = 'RecEnTran Fecha Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEREPE'), 
+HOREPE DECIMAL(6, 0)  NULL  SET("Description" = 'RecEnTran Hora Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOREPE'), 
+USREPE VARCHAR(10)  NULL  SET("Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USREPE'), 
+REREPE VARCHAR(10)  NULL  SET("Description" = 'RecEnTran Ref Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REREPE'), 
+DEREPE VARCHAR(10)  NULL  SET("Description" = 'RecEnTrans Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEREPE'), 
+FEIRPE DECIMAL(8, 0)  NULL  SET("Description" = 'Recepción Fecha Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEIRPE'), 
+HOIRPE DECIMAL(6, 0)  NULL  SET("Description" = 'Recepción Hora Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOIRPE'), 
+USIRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USIRPE'), 
+REIRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Ref Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REIRPE'), 
+DEIRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Disp Inicio', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEIRPE'), 
+FEFRPE DECIMAL(8, 0)  NULL  SET("Description" = 'Recepción Fecha Fin', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEFRPE'), 
+HOFRPE DECIMAL(6, 0)  NULL  SET("Description" = 'Recepción Hora Fin', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOFRPE'), 
+USFRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USFRPE'), 
+REFRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Ref Fin', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REFRPE'), 
+DEFRPE VARCHAR(10)  NULL  SET("Description" = 'Recepción Disp Fin', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEFRPE'), 
+FEFSPE DECIMAL(8, 0)  NULL  SET("Description" = 'FaltSobr Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEFSPE'), 
+HOFSPE DECIMAL(6, 0)  NULL  SET("Description" = 'FaltSobr Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOFSPE'), 
+USFSPE VARCHAR(10)  NULL  SET("Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USFSPE'), 
+REFSPE VARCHAR(10)  NULL  SET("Description" = 'FaltSobr Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REFSPE'), 
+DEFSPE VARCHAR(10)  NULL  SET("Description" = 'FaltSobr Disp', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEFSPE'), 
+FECEPE DECIMAL(8, 0)  NULL  SET("Description" = 'Cerrado Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FECEPE'), 
+HOCEPE DECIMAL(6, 0)  NULL  SET("Description" = 'Cerrado Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOCEPE'), 
+USCEPE VARCHAR(10)  NULL  SET("Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USCEPE'), 
+RECEPE VARCHAR(10)  NULL  SET("Description" = 'Cerrado Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.RECEPE'), 
+DECEPE VARCHAR(10)  NULL  SET("Description" = 'Cerrado Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DECEPE'), 
+FEP1PE DECIMAL(8, 0)  NULL  SET("Description" = 'Proc1 Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEP1PE'), 
+HOP1PE DECIMAL(6, 0)  NULL  SET("Description" = 'Proc1 Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOP1PE'), 
+USP1PE VARCHAR(10)  NULL  SET("Description" = 'Proc1 Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USP1PE'), 
+REP1PE VARCHAR(10)  NULL  SET("Description" = 'Proc1 Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REP1PE'), 
+DEP1PE VARCHAR(10)  NULL  SET("Description" = 'Proc1 Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEP1PE'), 
+FEP2PE DECIMAL(8, 0)  NULL  SET("Description" = 'Proc2 Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEP2PE'), 
+HOP2PE DECIMAL(6, 0)  NULL  SET("Description" = 'Proc2 Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOP2PE'), 
+USP2PE VARCHAR(10)  NULL  SET("Description" = 'Proc2 Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USP2PE'), 
+REP2PE VARCHAR(10)  NULL  SET("Description" = 'Proc2 Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REP2PE'), 
+DEP2PE VARCHAR(10)  NULL  SET("Description" = 'Proc2 Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEP2PE'), 
+FEP3PE DECIMAL(8, 0)  NULL  SET("Description" = 'Proc3 Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEP3PE'), 
+HOP3PE DECIMAL(6, 0)  NULL  SET("Description" = 'Proc3 Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOP3PE'), 
+USP3PE VARCHAR(10)  NULL  SET("Description" = 'Proc3 Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USP3PE'), 
+REP3PE VARCHAR(10)  NULL  SET("Description" = 'Proc3 Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REP3PE'), 
+DEP3PE VARCHAR(10)  NULL  SET("Description" = 'Proc3 Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEP3PE'), 
+FEP4PE DECIMAL(8, 0)  NULL  SET("Description" = 'Proc4 Fecha', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.FEP4PE'), 
+HOP4PE DECIMAL(6, 0)  NULL  SET("Description" = 'Proc4 Hora', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.HOP4PE'), 
+USP4PE VARCHAR(10)  NULL  SET("Description" = 'Proc4 Usr', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.USP4PE'), 
+REP4PE VARCHAR(10)  NULL  SET("Description" = 'Proc4 Ref', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.REP4PE'), 
+DEP4PE VARCHAR(10)  NULL  SET("Description" = 'Proc4 Dispositivo', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.DEP4PE'), 
+TIPOPE VARCHAR(5)  NULL  SET("Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.TIPOPE'), 
+OBS1CP VARCHAR(30)  NULL  SET("Description" = 'Observ 1', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.OBS1CP'), 
+OBS2CP VARCHAR(30)  NULL  SET("Description" = 'Observ 2', "ui_mapping_text" = 'QRY_TEMP_RACAPE_SV.OBS2CP'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime(QRY_TEMP_RACAPE_SV.fecha_trans,QRY_TEMP_RACAPE_SV.hora_trans)'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:09:33 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '19761' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '19761' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '4 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'yes' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Tue Feb  7 17:18:10 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE(ID_PAIS INT  NULL  SET("ui_mapping_text" = '1'), 
+TIPO_DOCUMENTO VARCHAR(5)  NULL  SET("Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_TMP.TIPO_DOCUMENTO'), 
+DOCUMENTO VARCHAR(8)  NULL  SET("Description" = 'No.Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO'), 
+ID_STATUS VARCHAR(7)  NULL  SET("ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))'), 
+ALMACEN_ORIGEN VARCHAR(2)  NULL  SET("Description" = 'Almacen Origen', "ui_mapping_text" = 'QRY_TMP.ALMACEN_ORIGEN'), 
+ALMACEN_DESTINO VARCHAR(2)  NULL  SET("Description" = 'Almacen Destino', "ui_mapping_text" = 'QRY_TMP.ALMACEN_DESTINO'), 
+PREPARACION VARCHAR(13)  NULL  SET("Description" = 'NPreparación', "ui_mapping_text" = 'QRY_TMP.PREPARACION'), 
+CAJA VARCHAR(7)  NULL  SET("Description" = 'No.Caja', "ui_mapping_text" = 'QRY_TMP.CAJA'), 
+CODIGO VARCHAR(17)  NULL  SET("Description" = 'Cod.Producto', "ui_mapping_text" = 'QRY_TMP.CODIGO'), 
+UNIDADES_DOCUMENTO DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Documento', "ui_mapping_text" = 'QRY_TMP.UNIDADES_DOCUMENTO'), 
+UNIDADES_RECIBIDAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS'), 
+UNIDADES_DIFERENCIAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Diferencias', "ui_mapping_text" = 'QRY_TMP.UNIDADES_DIFERENCIAS'), 
+UBICACION VARCHAR(13)  NULL  SET("Description" = 'UBICACION', "ui_mapping_text" = 'QRY_TMP.UBICACION'), 
+ENVIO VARCHAR(6)  NULL  SET("Description" = 'No. EnvioxCargo', "ui_mapping_text" = 'QRY_TMP.ENVIO'), 
+FECHA_ENVIO DATETIME(9)  NULL  SET("Description" = 'Fecha EnvioxCargo', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_ENVIO,QRY_TMP.HORA_ENVIO)'), 
+USUARIO_ENVIO VARCHAR(10)  NULL  SET("Description" = 'Usuario EnvioxCargo', "ui_mapping_text" = 'QRY_TMP.USUARIO_ENVIO'), 
+TIPO_ERROR VARCHAR(1)  NULL  SET("Description" = 'Tipo Error', "ui_mapping_text" = 'QRY_TMP.TIPO_ERROR'), 
+FECHA_LISTA_DIST DATETIME(9)  NULL  SET("Description" = 'Fecha Lista de Distribucion', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_LISTA_DIST,QRY_TMP.HORA_LISTA_DIST)'), 
+USUARIO_LISTA_DIST VARCHAR(10)  NULL  SET("Description" = 'UserLDist', "ui_mapping_text" = 'QRY_TMP.USUARIO_LISTA_DIST'), 
+CODIGO_USUARIO_LISTA VARCHAR(4)  NULL  SET("Description" = 'Codigo UserLDist', "ui_mapping_text" = 'QRY_TMP.CODIGO_USUARIO_LISTA'), 
+FECHA_PREP_ABIERTA DATETIME(9)  NULL  SET("Description" = 'Fecha LPrepAbierta', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_PREP_ABIERTA,QRY_TMP.HORA_PREP_ABIERTA)'), 
+USUARIO_PREP_ABIERTA VARCHAR(10)  NULL  SET("Description" = 'Pickeo UserLPrepAbierta', "ui_mapping_text" = 'QRY_TMP.USUARIO_PREP_ABIERTA'), 
+CODIGO_USUARIO_PREP VARCHAR(4)  NULL  SET("Description" = 'Codigo UserLPrepAbierta', "ui_mapping_text" = 'QRY_TMP.CODIGO_USUARIO_PREP'), 
+FECHA_PENDIENTE DATETIME(9)  NULL  SET("Description" = 'Fecha Status 01', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_PENDIENTE,QRY_TMP.HORA_PENDIENTE)'), 
+USUARIO_PENDIENTE VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 01', "ui_mapping_text" = 'QRY_TMP.USUARIO_PENDIENTE'), 
+FECHA_ENTERADO DATETIME(9)  NULL  SET("Description" = 'Fecha Status 02', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_ENTERADO,QRY_TMP.HORA_ENTERADO)'), 
+USUARIO_ENTERADO VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 02', "ui_mapping_text" = 'QRY_TMP.USUARIO_ENTERADO'), 
+FECHA_NO_SOLUCIONADO DATETIME(9)  NULL  SET("Description" = 'Fecha Status 03', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_NO_SOLUC,QRY_TMP.HORA_NO_SOLUC)'), 
+USUARIO_NO_SOLUCIONADO VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 03', "ui_mapping_text" = 'QRY_TMP.USUARIO_NO_SOLUC'), 
+FECHA_SOLUCION_PARCIAL DATETIME(9)  NULL  SET("Description" = 'Fecha Status 04', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_PARCIAL,QRY_TMP.HORA_SOLUC_PARCIAL)'), 
+USUARIO_SOLUCION_PARCIAL VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 04', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_PARCIAL'), 
+FECHA_SOLUCION_MANUAL DATETIME(9)  NULL  SET("Description" = 'Fecha Status 05', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_MANUAL,QRY_TMP.HORA_SOLUC_MANUAL)'), 
+USUARIO_SOLUCION_MANUAL VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 05', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_MANUAL'), 
+FECHA_SOLUCION_AUTO DATETIME(9)  NULL  SET("Description" = 'Fecha Status 06', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_AUTO,QRY_TMP.HORA_SOLUC_AUTO )'), 
+USUARIO_SOLUCION_AUTO VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 06', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_AUTO'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:00:20 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '28477' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '28477' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '1 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Thu Jan 26 11:31:57 2023' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Thu Jan 26 16:28:12 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE01(STATDI VARCHAR(2)  NULL  SET("Description" = 'Status', "ui_mapping_text" = 'RADIFE01.STATDI'), 
+TDOCDI VARCHAR(5)  NULL  SET("Description" = 'Tipo Documento', "ui_mapping_text" = 'RADIFE01.TDOCDI'), 
+ALORDI VARCHAR(2)  NULL  SET("Description" = 'Almacen Origen', "ui_mapping_text" = 'RADIFE01.ALORDI'), 
+ALDEDI VARCHAR(2)  NULL  SET("Description" = 'Almacen Destino', "ui_mapping_text" = 'RADIFE01.ALDEDI'), 
+NDOCDI VARCHAR(8)  NULL  SET("Description" = 'No.Documento', "ui_mapping_text" = 'RADIFE01.NDOCDI'), 
+NPREDI VARCHAR(13)  NULL  SET("Description" = 'NPreparación', "ui_mapping_text" = 'RADIFE01.NPREDI'), 
+NCAJDI VARCHAR(7)  NULL  SET("Description" = 'No.Caja', "ui_mapping_text" = 'RADIFE01.NCAJDI'), 
+CODPDI VARCHAR(17)  NULL  SET("Description" = 'Cod.Producto', "ui_mapping_text" = 'RADIFE01.CODPDI'), 
+UNDODI DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Documento', "ui_mapping_text" = 'RADIFE01.UNDODI'), 
+UNREDI DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Recibidas', "ui_mapping_text" = 'RADIFE01.UNREDI'), 
+UNDIDI DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Diferencias', "ui_mapping_text" = 'RADIFE01.UNDIDI'), 
+NENVDI VARCHAR(6)  NULL  SET("Description" = 'No. EnvioxCargo', "ui_mapping_text" = 'RADIFE01.NENVDI'), 
+FENVDI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha EnvioxCargo', "ui_mapping_text" = 'RADIFE01.FENVDI'), 
+HENVDI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora EnvioxCargo', "ui_mapping_text" = 'RADIFE01.HENVDI'), 
+UENVDI VARCHAR(10)  NULL  SET("Description" = 'Usuario EnvioxCargo', "ui_mapping_text" = 'RADIFE01.UENVDI'), 
+TERRDI VARCHAR(1)  NULL  SET("Description" = 'Tipo Error', "ui_mapping_text" = 'RADIFE01.TERRDI'), 
+FLDIDI DECIMAL(8, 0)  NULL  SET("Description" = 'FechaLDist', "ui_mapping_text" = 'RADIFE01.FLDIDI'), 
+HLDIDI DECIMAL(6, 0)  NULL  SET("Description" = 'HoraLDist', "ui_mapping_text" = 'RADIFE01.HLDIDI'), 
+ULDIDI VARCHAR(10)  NULL  SET("Description" = 'UserLDist', "ui_mapping_text" = 'RADIFE01.ULDIDI'), 
+FLPADI DECIMAL(8, 0)  NULL  SET("Description" = 'Pickeo FechaLPrepAbierta', "ui_mapping_text" = 'RADIFE01.FLPADI'), 
+HLPADI DECIMAL(6, 0)  NULL  SET("Description" = 'Pickeo HoraLPrepAbierta', "ui_mapping_text" = 'RADIFE01.HLPADI'), 
+ULPADI VARCHAR(10)  NULL  SET("Description" = 'Pickeo UserLPrepAbierta', "ui_mapping_text" = 'RADIFE01.ULPADI'), 
+FE01DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 01', "ui_mapping_text" = 'RADIFE01.FE01DI'), 
+HO01DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 01', "ui_mapping_text" = 'RADIFE01.HO01DI'), 
+US01DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 01', "ui_mapping_text" = 'RADIFE01.US01DI'), 
+FE02DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 02', "ui_mapping_text" = 'RADIFE01.FE02DI'), 
+HO02DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 02', "ui_mapping_text" = 'RADIFE01.HO02DI'), 
+US02DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 02', "ui_mapping_text" = 'RADIFE01.US02DI'), 
+FE03DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 03', "ui_mapping_text" = 'RADIFE01.FE03DI'), 
+HO03DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 03', "ui_mapping_text" = 'RADIFE01.HO03DI'), 
+US03DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 03', "ui_mapping_text" = 'RADIFE01.US03DI'), 
+FE04DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 04', "ui_mapping_text" = 'RADIFE01.FE04DI'), 
+HO04DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 04', "ui_mapping_text" = 'RADIFE01.HO04DI'), 
+US04DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 04', "ui_mapping_text" = 'RADIFE01.US04DI'), 
+FE05DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 05', "ui_mapping_text" = 'RADIFE01.FE05DI'), 
+HO05DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 05', "ui_mapping_text" = 'RADIFE01.HO05DI'), 
+US05DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 05', "ui_mapping_text" = 'RADIFE01.US05DI'), 
+FE06DI DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Status 06', "ui_mapping_text" = 'RADIFE01.FE06DI'), 
+HO06DI DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Status 06', "ui_mapping_text" = 'RADIFE01.HO06DI'), 
+US06DI VARCHAR(10)  NULL  SET("Description" = 'Usuario Status 06', "ui_mapping_text" = 'RADIFE01.US06DI'), 
+OBS1DI VARCHAR(40)  NULL  SET("Description" = 'Observacion 1', "ui_mapping_text" = 'RADIFE01.OBS1DI'), 
+OBS2DI VARCHAR(40)  NULL  SET("Description" = 'Observacion 2', "ui_mapping_text" = 'RADIFE01.OBS2DI'), 
+OBS3DI VARCHAR(40)  NULL  SET("Description" = 'Observacion 3', "ui_mapping_text" = 'RADIFE01.OBS3DI'), 
+OBS4DI VARCHAR(40)  NULL  SET("Description" = 'Observacion 4', "ui_mapping_text" = 'RADIFE01.OBS4DI'), 
+CODIDI VARCHAR(4)  NULL  SET("Description" = 'Codigo UserLDist', "ui_mapping_text" = 'RADIFE01.CODIDI'), 
+COPADI VARCHAR(4)  NULL  SET("Description" = 'Codigo UserLPrepAbierta', "ui_mapping_text" = 'RADIFE01.COPADI'), 
+UBICDI VARCHAR(13)  NULL  SET("Description" = 'UBICACION', "ui_mapping_text" = 'RADIFE01.UBICDI')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:10:29 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '575641' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '575641' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '23 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed Jan 25 12:33:22 2023' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Thu Jan 26 16:28:13 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RAFASO(ID_PAIS INT  NULL  SET("Description" = 'ID de Pais', "ui_mapping_text" = 'CAST(QRY_TMP.ID_PAIS,\'INT\')'), 
+COMPAÑIA VARCHAR(3)  NULL  SET("Description" = 'Compania', "ui_mapping_text" = 'QRY_TMP.COMPAÑIA'), 
+TIPO_DOCUMENTO VARCHAR(5)  NULL  SET("Description" = 'Tipo de Documento', "ui_mapping_text" = 'QRY_TMP.TIPO_DOCUMENTO'), 
+DOCUMENTO VARCHAR(8)  NULL  SET("Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO'), 
+ID_STATUS VARCHAR(8)  NULL  SET("Description" = 'ID de Status', "ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))'), 
+ALMACEN_ORIGEN VARCHAR(2)  NULL  SET("Description" = 'Almacén Origen', "ui_mapping_text" = 'QRY_TMP.ALMACEN_ORIGEN'), 
+ALMACEN_DESTINO VARCHAR(2)  NULL  SET("Description" = 'Almacén Destino', "ui_mapping_text" = 'QRY_TMP.ALMACEN_DESTINO'), 
+ENVIO VARCHAR(4)  NULL  SET("Description" = 'Numero de Envio', "ui_mapping_text" = 'QRY_TMP.ENVIO'), 
+REMISION VARCHAR(6)  NULL  SET("Description" = 'Numero de Remision', "ui_mapping_text" = 'QRY_TMP.REMISION'), 
+PREPARACION VARCHAR(13)  NULL  SET("Description" = 'NPreparación Referencia', "ui_mapping_text" = 'QRY_TMP.PREPARACION'), 
+CAJA VARCHAR(7)  NULL  SET("Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'QRY_TMP.CAJA'), 
+CODIGO VARCHAR(17)  NULL  SET("Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_TMP.CODIGO'), 
+UNIDADES_TRANSITO DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_TMP.UNIDADES_TRANSITO'), 
+UNIDADES_RECIBIDAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS'), 
+UNIDADES_AVERIAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_TMP.UNIDADES_AVERIAS'), 
+FECHA_CREACION DATETIME(9)  NULL  SET("Description" = 'Fecha de Creacion', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Creacion ,QRY_TMP.Hora_Creacion )'), 
+USUARIO_CREACION VARCHAR(10)  NULL  SET("Description" = 'Usuario Creación', "ui_mapping_text" = 'QRY_TMP.Usuario_Creacion'), 
+FECHA_CIERRE DATETIME(9)  NULL  SET("Description" = 'Fecha de Cierre', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Cierre ,QRY_TMP.Hora_Cierre)'), 
+USUARIO_CIERRE VARCHAR(10)  NULL  SET("Description" = 'Usuario Cierre', "ui_mapping_text" = 'QRY_TMP.Usuario_Cierre'), 
+APLICA_AJUSTE VARCHAR(1)  NULL  SET("Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'QRY_TMP.APLICA_AJUSTE'), 
+FECHA_TRANSACCION DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2'), 
+FECHA_DWH_CRG DATETIME(9)  NULL  SET("Description" = 'Fecha de Carga', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:00:24 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '134519' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '134519' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '5 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Thu Jan 26 11:32:17 2023' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Thu Jan 26 16:28:13 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.RAFASO01(PAISFS VARCHAR(3)  NULL  SET("Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.PAISFS'), 
+CIASFS VARCHAR(3)  NULL  SET("Description" = 'Compania', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.CIASFS'), 
+ALORFS VARCHAR(2)  NULL  SET("Description" = 'Almacén Origen', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.ALORFS'), 
+ALDEFS VARCHAR(2)  NULL  SET("Description" = 'Almacén Destino', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.ALDEFS'), 
+NDOCFS VARCHAR(8)  NULL  SET("Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.NDOCFS'), 
+NPREFS VARCHAR(13)  NULL  SET("Description" = 'NPreparación Referencia', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.NPREFS'), 
+NCAJFS VARCHAR(7)  NULL  SET("Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.NCAJFS'), 
+CPSRFS VARCHAR(17)  NULL  SET("Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.CPSRFS'), 
+STATFS VARCHAR(3)  NULL  SET("Description" = 'Status', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.STATFS'), 
+TIPDFS VARCHAR(5)  NULL  SET("Description" = 'Tipo de Documento', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.TIPDFS'), 
+NENVFS VARCHAR(4)  NULL  SET("Description" = 'Numero de Envio', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.NENVFS'), 
+NREMFS VARCHAR(6)  NULL  SET("Description" = 'Numero de Remision', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.NREMFS'), 
+UNENFS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.UNENFS'), 
+UNREFS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.UNREFS'), 
+UNAVFS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.UNAVFS'), 
+FECRFS DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.FECRFS'), 
+HOCRFS DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.HOCRFS'), 
+USCRFS VARCHAR(10)  NULL  SET("Description" = 'Usuario Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.USCRFS'), 
+RECRFS VARCHAR(10)  NULL  SET("Description" = 'Ref Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.RECRFS'), 
+DECRFS VARCHAR(10)  NULL  SET("Description" = 'Dev Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.DECRFS'), 
+FECIFS DECIMAL(8, 0)  NULL  SET("Description" = 'Fecha Cierre', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.FECIFS'), 
+HOCIFS DECIMAL(6, 0)  NULL  SET("Description" = 'Hora Cierre', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.HOCIFS'), 
+USCIFS VARCHAR(10)  NULL  SET("Description" = 'Usuario Cierre', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.USCIFS'), 
+RECIFS VARCHAR(10)  NULL  SET("Description" = 'Ref Cierre', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.RECIFS'), 
+DECIFS VARCHAR(10)  NULL  SET("Description" = 'Dev Creación', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.DECIFS'), 
+PASOFS VARCHAR(1)  NULL  SET("Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'QRY_TEMP_RAFASO_SV.PASOFS'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Fecha_Datetime(QRY_TEMP_RAFASO_SV.fecha_trans,QRY_TEMP_RAFASO_SV.hora_trans)'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Feb 21 13:27:36 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '533665' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '533665' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '16 Minutes and 44 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Tue Jan 24 09:14:14 2023' , 
+ActaName_15 = 'RDate_created',ActaValue_15 = 'Thu Jan 26 16:28:14 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.SUMARIA_TRANSITOS(ID_PAIS INT  NULL  SET("ui_mapping_text" = 'QRY_PREVIO.ID_PAIS'), 
+TIPO_DOCUMENTO VARCHAR(5)  NULL  SET("Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_PREVIO.TIPO_DOCUMENTO'), 
+DOCUMENTO VARCHAR(8)  NULL  SET("Description" = 'No. Documento', "ui_mapping_text" = 'QRY_PREVIO.DOCUMENTO'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'QRY_PREVIO.ID_STATUS'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'QRY_PREVIO.STATUS'), 
+ALMACEN_ORIGEN VARCHAR(2)  NULL  SET("Description" = 'Alm Origen', "ui_mapping_text" = 'QRY_PREVIO.ALMACEN_ORIGEN'), 
+ALMACEN_DESTINO VARCHAR(2)  NULL  SET("Description" = 'Alm Destino', "ui_mapping_text" = 'QRY_PREVIO.ALMACEN_DESTINO'), 
+CODIGO VARCHAR(17)  NULL  SET("Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_PREVIO.CODIGO'), 
+UNIDADES_TRANSITO DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_TRANSITO'), 
+UNIDADES_RECIBIDAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_RECIBIDAS'), 
+UNIDADES_AVERIAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_AVERIAS'), 
+FECHA_EN_TRANSITO DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_EN_TRANSITO'), 
+USUARIO_EN_TRANSITO VARCHAR(10)  NULL  SET("Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_EN_TRANSITO'), 
+FECHA_REC_EN_TRAN DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_REC_EN_TRAN'), 
+USUARIO_REC_EN_TRAN VARCHAR(10)  NULL  SET("Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_REC_EN_TRAN'), 
+FECHA_INICIO_RECEPCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_INICIO_RECEPCION'), 
+USUARIO_INICIO_RECEPCION VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_INICIO_RECEPCION'), 
+FECHA_FIN_RECEPCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_FIN_RECEPCION'), 
+USUARIO_FIN_RECEPCION VARCHAR(10)  NULL  SET("Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_FIN_RECEPCION'), 
+FECHA_FALTANTES_SOBRANTES DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_FALTANTES_SOBRANTES'), 
+USUARIO_FALTANTES_SOBRANTES VARCHAR(10)  NULL  SET("Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_FALTANTES_SOBRANTES'), 
+FECHA_CERRADO DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_CERRADO'), 
+USUARIO_CERRADO VARCHAR(10)  NULL  SET("Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_CERRADO'), 
+FECHA_TRASLADO_AUDITORIA DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2'), 
+USUARIO_TRASLADO_AUDITORIA VARCHAR(10)  NULL  SET("Description" = 'Proc4 Usr', "ui_mapping_text" = 'RACAPE08.USP4PE'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )')) 
+SET("db_alias_name" = 'DBO')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Dec 12 11:35:53 2022', "ActaValue_3" = 'Thu Jan 26 12:29:49 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_RACAPE_CRG::'3211afa7-dd04-4fb2-a6f8-a32cc5d93a87'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '192', "Output_Width_Mapping" = '85', "Output_Width_Name" = '337', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_TMP', "x" = '2213', "y" = '-1026')
+GUID::'4fece00d-aaa3-4138-bf85-619b60da7d1a' CREATE VIEW QRY_TMP( TIPO_STATUS VARCHAR(5)  SET( "ui_mapping_text" = '\'RACAP\'') ,
+ STATUS VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'Merge.STATPE') ,
+ PAIS VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'Merge.PAISPE') ,
+ CIASPE VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'Merge.CIASPE') ,
+ ALORPE VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'Merge.ALORPE') ,
+ ALDEPE VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'Merge.ALDEPE') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'Merge.NDOCPE') ,
+ ITEMS_ENVIADOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Enviados', "ui_mapping_text" = 'Merge.IENVPE') ,
+ UNIDADES_ENVIADAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'Merge.UENVPE') ,
+ ITEMS_RECIBIDOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Recibidos', "ui_mapping_text" = 'Merge.IRECPE') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'Merge.URECPE') ,
+ NCORPE DECIMAL(5, 0)  SET( "Description" = 'Control Ult CorrDet', "ui_mapping_text" = 'Merge.NCORPE') ,
+ Fecha_Creacion VARCHAR(8)  SET( "Description" = 'EnTransito Fecha Crear', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEETPE)') ,
+ Hora_Creacion VARCHAR(8)  SET( "Description" = 'EnTransito Hora Crear', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOETPE)') ,
+ Usuario_Creacion VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'Merge.USETPE') ,
+ Fecha_Rec_en_Tran VARCHAR(8)  SET( "Description" = 'RecEnTran Fecha Inicio', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEREPE)') ,
+ Hora_Rec_en_Tran VARCHAR(8)  SET( "Description" = 'RecEnTran Hora Inicio', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOREPE)') ,
+ Usuario_Rec_en_Tran VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'Merge.USREPE') ,
+ Fecha_Inicio_Recepcion VARCHAR(8)  SET( "Description" = 'Recepción Fecha Inicio', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEIRPE)') ,
+ Hora_Inicio_Recepcion VARCHAR(8)  SET( "Description" = 'Recepción Hora Inicio', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOIRPE)') ,
+ Usuario_Inicio_Recepcion VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'Merge.USIRPE') ,
+ Fecha_Fin_Recepcion VARCHAR(8)  SET( "Description" = 'Recepción Fecha Fin', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEFRPE)') ,
+ Hora_Fin_Recepcion VARCHAR(8)  SET( "Description" = 'Recepción Hora Fin', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOFRPE)') ,
+ Usuario_Fin_Recepcion VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'Merge.USFRPE') ,
+ Fecha_Faltantes_Sobrantes VARCHAR(8)  SET( "Description" = 'FaltSobr Fecha', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEFSPE)') ,
+ Hora_Faltantes_Sobrantes VARCHAR(8)  SET( "Description" = 'FaltSobr Hora', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOFSPE)') ,
+ Usuario_Faltantes_Sobrantes VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'Merge.USFSPE') ,
+ Fecha_Cerrado VARCHAR(8)  SET( "Description" = 'Cerrado Fecha', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FECEPE)') ,
+ Hora_Cerrado VARCHAR(8)  SET( "Description" = 'Cerrado Hora', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOCEPE)') ,
+ Usuario_Cerrado VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'Merge.USCEPE') ,
+ Fecha_Traslado_Auditoria VARCHAR(8)  SET( "Description" = 'Proc4 Fecha', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FEP4PE)') ,
+ Hora_Traslado_Auditoria VARCHAR(8)  SET( "Description" = 'Proc4 Hora', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOP4PE)') ,
+ Usuario_Traslado_Auditoria VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'Merge.USP4PE') ,
+ TIPOPE VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'Merge.TIPOPE') ,
+ OBS1CP VARCHAR(30)  SET( "Description" = 'Observ 1', "ui_mapping_text" = 'Merge.OBS1CP') ,
+ OBS2CP VARCHAR(30)  SET( "Description" = 'Observ 2', "ui_mapping_text" = 'Merge.OBS2CP') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_TRANSACCION')  )
+ AS
+SELECT 'RACAP', Merge.STATPE, Merge.PAISPE, Merge.CIASPE, Merge.ALORPE, Merge.ALDEPE, Merge.NDOCPE, Merge.IENVPE, Merge.UENVPE, Merge.IRECPE, Merge.URECPE, Merge.NCORPE, fecha_num_a_varchar(Merge.FEETPE), hora_num_a_varchar(Merge.HOETPE), Merge.USETPE, fecha_num_a_varchar(Merge.FEREPE), hora_num_a_varchar(Merge.HOREPE), Merge.USREPE, fecha_num_a_varchar(Merge.FEIRPE), hora_num_a_varchar(Merge.HOIRPE), Merge.USIRPE, fecha_num_a_varchar(Merge.FEFRPE), hora_num_a_varchar(Merge.HOFRPE), Merge.USFRPE, fecha_num_a_varchar(Merge.FEFSPE), hora_num_a_varchar(Merge.HOFSPE), Merge.USFSPE, fecha_num_a_varchar(Merge.FECEPE), hora_num_a_varchar(Merge.HOCEPE), Merge.USCEPE, fecha_num_a_varchar(Merge.FEP4PE), hora_num_a_varchar(Merge.HOP4PE), Merge.USP4PE, Merge.TIPOPE, Merge.OBS1CP, Merge.OBS2CP, Merge.FECHA_TRANSACCION FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'QRY_TMP', "ui_display_name" = 'QRY_CRG', "ui_where_text" = 'QRY_TMP.Fecha_Creacion >= \'20201101\'', "x" = '2863', "y" = '-1025')
+GUID::'27e57e86-bc62-4f33-8f49-ec88d2473bff' CREATE VIEW QRY_CRG( ID_PAIS INT  SET( "ui_mapping_text" = 'CAST(QRY_TMP.PAIS,\'INT\')') ,
+ COMPANIA VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'QRY_TMP.CIASPE') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_TMP.TIPOPE') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'QRY_TMP.ALORPE') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'QRY_TMP.ALDEPE') ,
+ ITEMS_ENVIADOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Enviados', "ui_mapping_text" = 'QRY_TMP.ITEMS_ENVIADOS') ,
+ UNIDADES_ENVIADAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_ENVIADAS') ,
+ ITEMS_RECIBIDOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Recibidos', "ui_mapping_text" = 'QRY_TMP.ITEMS_RECIBIDOS') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS') ,
+ FECHA_CREACION DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Creacion ,QRY_TMP.Hora_Creacion )') ,
+ Usuario_Creacion VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_TMP.Usuario_Creacion') ,
+ FECHA_REC_EN_TRAN DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Rec_en_Tran ,QRY_TMP.Hora_Rec_en_Tran )') ,
+ Usuario_Rec_en_Tran VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_TMP.Usuario_Rec_en_Tran') ,
+ FECHA_INICIO_RECEPCION DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Inicio_Recepcion,QRY_TMP.Hora_Inicio_Recepcion )') ,
+ Usuario_Inicio_Recepcion VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_TMP.Usuario_Inicio_Recepcion') ,
+ FECHA_FIN_RECEPCION DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Fin_Recepcion,QRY_TMP.Hora_Fin_Recepcion)') ,
+ Usuario_Fin_Recepcion VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_TMP.Usuario_Fin_Recepcion') ,
+ FECHA_FALTANTES_SOBRANTES DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Faltantes_Sobrantes,QRY_TMP.Hora_Faltantes_Sobrantes)') ,
+ Usuario_Faltantes_Sobrantes VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Faltantes_Sobrantes') ,
+ FECHA_CERRADO DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Cerrado ,QRY_TMP.Hora_Cerrado )') ,
+ Usuario_Cerrado VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Cerrado') ,
+ FECHA_TRASLADO_AUDITORIA DATETIME(9)  SET( "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Traslado_Auditoria,QRY_TMP.Hora_Traslado_Auditoria)') ,
+ Usuario_Traslado_Auditoria VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'QRY_TMP.Usuario_Traslado_Auditoria') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_TMP.FECHA_TRANSACCION') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT cast(QRY_TMP.PAIS, 'INT'), QRY_TMP.CIASPE, QRY_TMP.DOCUMENTO, QRY_TMP.TIPOPE, (QRY_TMP.TIPO_STATUS || ltrim_blanks(rtrim_blanks(QRY_TMP.Status))), QRY_TMP.ALORPE, QRY_TMP.ALDEPE, QRY_TMP.ITEMS_ENVIADOS, QRY_TMP.UNIDADES_ENVIADAS, QRY_TMP.ITEMS_RECIBIDOS, QRY_TMP.UNIDADES_RECIBIDAS, fecha_datetime_stage(QRY_TMP.Fecha_Creacion, QRY_TMP.Hora_Creacion), QRY_TMP.Usuario_Creacion, fecha_datetime_stage(QRY_TMP.Fecha_Rec_en_Tran, QRY_TMP.Hora_Rec_en_Tran), QRY_TMP.Usuario_Rec_en_Tran, fecha_datetime_stage(QRY_TMP.Fecha_Inicio_Recepcion, QRY_TMP.Hora_Inicio_Recepcion), QRY_TMP.Usuario_Inicio_Recepcion, fecha_datetime_stage(QRY_TMP.Fecha_Fin_Recepcion, QRY_TMP.Hora_Fin_Recepcion), QRY_TMP.Usuario_Fin_Recepcion, fecha_datetime_stage(QRY_TMP.Fecha_Faltantes_Sobrantes, QRY_TMP.Hora_Faltantes_Sobrantes), QRY_TMP.Usuario_Faltantes_Sobrantes, fecha_datetime_stage(QRY_TMP.Fecha_Cerrado, QRY_TMP.Hora_Cerrado), QRY_TMP.Usuario_Cerrado, fecha_datetime_stage(QRY_TMP.Fecha_Traslado_Auditoria, QRY_TMP.Hora_Traslado_Auditoria), QRY_TMP.Usuario_Traslado_Auditoria, QRY_TMP.FECHA_TRANSACCION, sysdate() FROM QRY_TMP  WHERE (QRY_TMP.Fecha_Creacion >= '20201101')
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>313</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'RACAPE08', "ui_display_name" = 'QRY_RACAPE08', "x" = '933', "y" = '-550')
+GUID::'c05561b4-2327-4025-b884-282bf9942930' CREATE VIEW QRY_RACAPE08( STATPE VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'RACAPE08.STATPE') ,
+ PAISPE VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'RACAPE08.PAISPE') ,
+ CIASPE VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'RACAPE08.CIASPE') ,
+ ALORPE VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'RACAPE08.ALORPE') ,
+ ALDEPE VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'RACAPE08.ALDEPE') ,
+ NDOCPE VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'RACAPE08.NDOCPE') ,
+ IENVPE DECIMAL(5, 0)  SET( "Description" = 'Total Items Enviados', "ui_mapping_text" = 'RACAPE08.IENVPE') ,
+ UENVPE DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'RACAPE08.UENVPE') ,
+ IRECPE DECIMAL(5, 0)  SET( "Description" = 'Total Items Recibidos', "ui_mapping_text" = 'RACAPE08.IRECPE') ,
+ URECPE DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'RACAPE08.URECPE') ,
+ NCORPE DECIMAL(5, 0)  SET( "Description" = 'Control Ult CorrDet', "ui_mapping_text" = 'RACAPE08.NCORPE') ,
+ FEETPE DECIMAL(8, 0)  SET( "Description" = 'EnTransito Fecha Crear', "ui_mapping_text" = 'RACAPE08.FEETPE') ,
+ HOETPE DECIMAL(6, 0)  SET( "Description" = 'EnTransito Hora Crear', "ui_mapping_text" = 'RACAPE08.HOETPE') ,
+ USETPE VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'RACAPE08.USETPE') ,
+ REETPE VARCHAR(10)  SET( "Description" = 'EnTransito Ref Crear', "ui_mapping_text" = 'RACAPE08.REETPE') ,
+ DEETPE VARCHAR(10)  SET( "Description" = 'EnTransito Dispositivo', "ui_mapping_text" = 'RACAPE08.DEETPE') ,
+ FEREPE DECIMAL(8, 0)  SET( "Description" = 'RecEnTran Fecha Inicio', "ui_mapping_text" = 'RACAPE08.FEREPE') ,
+ HOREPE DECIMAL(6, 0)  SET( "Description" = 'RecEnTran Hora Inicio', "ui_mapping_text" = 'RACAPE08.HOREPE') ,
+ USREPE VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'RACAPE08.USREPE') ,
+ REREPE VARCHAR(10)  SET( "Description" = 'RecEnTran Ref Inicio', "ui_mapping_text" = 'RACAPE08.REREPE') ,
+ DEREPE VARCHAR(10)  SET( "Description" = 'RecEnTrans Dispositivo', "ui_mapping_text" = 'RACAPE08.DEREPE') ,
+ FEIRPE DECIMAL(8, 0)  SET( "Description" = 'Recepción Fecha Inicio', "ui_mapping_text" = 'RACAPE08.FEIRPE') ,
+ HOIRPE DECIMAL(6, 0)  SET( "Description" = 'Recepción Hora Inicio', "ui_mapping_text" = 'RACAPE08.HOIRPE') ,
+ USIRPE VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'RACAPE08.USIRPE') ,
+ REIRPE VARCHAR(10)  SET( "Description" = 'Recepción Ref Inicio', "ui_mapping_text" = 'RACAPE08.REIRPE') ,
+ DEIRPE VARCHAR(10)  SET( "Description" = 'Recepción Disp Inicio', "ui_mapping_text" = 'RACAPE08.DEIRPE') ,
+ FEFRPE DECIMAL(8, 0)  SET( "Description" = 'Recepción Fecha Fin', "ui_mapping_text" = 'RACAPE08.FEFRPE') ,
+ HOFRPE DECIMAL(6, 0)  SET( "Description" = 'Recepción Hora Fin', "ui_mapping_text" = 'RACAPE08.HOFRPE') ,
+ USFRPE VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'RACAPE08.USFRPE') ,
+ REFRPE VARCHAR(10)  SET( "Description" = 'Recepción Ref Fin', "ui_mapping_text" = 'RACAPE08.REFRPE') ,
+ DEFRPE VARCHAR(10)  SET( "Description" = 'Recepción Disp Fin', "ui_mapping_text" = 'RACAPE08.DEFRPE') ,
+ FEFSPE DECIMAL(8, 0)  SET( "Description" = 'FaltSobr Fecha', "ui_mapping_text" = 'RACAPE08.FEFSPE') ,
+ HOFSPE DECIMAL(6, 0)  SET( "Description" = 'FaltSobr Hora', "ui_mapping_text" = 'RACAPE08.HOFSPE') ,
+ USFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'RACAPE08.USFSPE') ,
+ REFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Ref', "ui_mapping_text" = 'RACAPE08.REFSPE') ,
+ DEFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Disp', "ui_mapping_text" = 'RACAPE08.DEFSPE') ,
+ FECEPE DECIMAL(8, 0)  SET( "Description" = 'Cerrado Fecha', "ui_mapping_text" = 'RACAPE08.FECEPE') ,
+ HOCEPE DECIMAL(6, 0)  SET( "Description" = 'Cerrado Hora', "ui_mapping_text" = 'RACAPE08.HOCEPE') ,
+ USCEPE VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'RACAPE08.USCEPE') ,
+ RECEPE VARCHAR(10)  SET( "Description" = 'Cerrado Ref', "ui_mapping_text" = 'RACAPE08.RECEPE') ,
+ DECEPE VARCHAR(10)  SET( "Description" = 'Cerrado Dispositivo', "ui_mapping_text" = 'RACAPE08.DECEPE') ,
+ FEP1PE DECIMAL(8, 0)  SET( "Description" = 'Proc1 Fecha', "ui_mapping_text" = 'RACAPE08.FEP1PE') ,
+ HOP1PE DECIMAL(6, 0)  SET( "Description" = 'Proc1 Hora', "ui_mapping_text" = 'RACAPE08.HOP1PE') ,
+ USP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Usr', "ui_mapping_text" = 'RACAPE08.USP1PE') ,
+ REP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Ref', "ui_mapping_text" = 'RACAPE08.REP1PE') ,
+ DEP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Dispositivo', "ui_mapping_text" = 'RACAPE08.DEP1PE') ,
+ FEP2PE DECIMAL(8, 0)  SET( "Description" = 'Proc2 Fecha', "ui_mapping_text" = 'RACAPE08.FEP2PE') ,
+ HOP2PE DECIMAL(6, 0)  SET( "Description" = 'Proc2 Hora', "ui_mapping_text" = 'RACAPE08.HOP2PE') ,
+ USP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Usr', "ui_mapping_text" = 'RACAPE08.USP2PE') ,
+ REP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Ref', "ui_mapping_text" = 'RACAPE08.REP2PE') ,
+ DEP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Dispositivo', "ui_mapping_text" = 'RACAPE08.DEP2PE') ,
+ FEP3PE DECIMAL(8, 0)  SET( "Description" = 'Proc3 Fecha', "ui_mapping_text" = 'RACAPE08.FEP3PE') ,
+ HOP3PE DECIMAL(6, 0)  SET( "Description" = 'Proc3 Hora', "ui_mapping_text" = 'RACAPE08.HOP3PE') ,
+ USP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Usr', "ui_mapping_text" = 'RACAPE08.USP3PE') ,
+ REP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Ref', "ui_mapping_text" = 'RACAPE08.REP3PE') ,
+ DEP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Dispositivo', "ui_mapping_text" = 'RACAPE08.DEP3PE') ,
+ FEP4PE DECIMAL(8, 0)  SET( "Description" = 'Proc4 Fecha', "ui_mapping_text" = 'RACAPE08.FEP4PE') ,
+ HOP4PE DECIMAL(6, 0)  SET( "Description" = 'Proc4 Hora', "ui_mapping_text" = 'RACAPE08.HOP4PE') ,
+ USP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'RACAPE08.USP4PE') ,
+ REP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Ref', "ui_mapping_text" = 'RACAPE08.REP4PE') ,
+ DEP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Dispositivo', "ui_mapping_text" = 'RACAPE08.DEP4PE') ,
+ TIPOPE VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'RACAPE08.TIPOPE') ,
+ OBS1CP VARCHAR(30)  SET( "Description" = 'Observ 1', "ui_mapping_text" = 'RACAPE08.OBS1CP') ,
+ OBS2CP VARCHAR(30)  SET( "Description" = 'Observ 2', "ui_mapping_text" = 'RACAPE08.OBS2CP') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE08.FECHA_TRANSACCION')  )
+ AS
+SELECT RACAPE08.STATPE, RACAPE08.PAISPE, RACAPE08.CIASPE, RACAPE08.ALORPE, RACAPE08.ALDEPE, RACAPE08.NDOCPE, RACAPE08.IENVPE, RACAPE08.UENVPE, RACAPE08.IRECPE, RACAPE08.URECPE, RACAPE08.NCORPE, RACAPE08.FEETPE, RACAPE08.HOETPE, RACAPE08.USETPE, RACAPE08.REETPE, RACAPE08.DEETPE, RACAPE08.FEREPE, RACAPE08.HOREPE, RACAPE08.USREPE, RACAPE08.REREPE, RACAPE08.DEREPE, RACAPE08.FEIRPE, RACAPE08.HOIRPE, RACAPE08.USIRPE, RACAPE08.REIRPE, RACAPE08.DEIRPE, RACAPE08.FEFRPE, RACAPE08.HOFRPE, RACAPE08.USFRPE, RACAPE08.REFRPE, RACAPE08.DEFRPE, RACAPE08.FEFSPE, RACAPE08.HOFSPE, RACAPE08.USFSPE, RACAPE08.REFSPE, RACAPE08.DEFSPE, RACAPE08.FECEPE, RACAPE08.HOCEPE, RACAPE08.USCEPE, RACAPE08.RECEPE, RACAPE08.DECEPE, RACAPE08.FEP1PE, RACAPE08.HOP1PE, RACAPE08.USP1PE, RACAPE08.REP1PE, RACAPE08.DEP1PE, RACAPE08.FEP2PE, RACAPE08.HOP2PE, RACAPE08.USP2PE, RACAPE08.REP2PE, RACAPE08.DEP2PE, RACAPE08.FEP3PE, RACAPE08.HOP3PE, RACAPE08.USP3PE, RACAPE08.REP3PE, RACAPE08.DEP3PE, RACAPE08.FEP4PE, RACAPE08.HOP4PE, RACAPE08.USP4PE, RACAPE08.REP4PE, RACAPE08.DEP4PE, RACAPE08.TIPOPE, RACAPE08.OBS1CP, RACAPE08.OBS2CP, RACAPE08.FECHA_TRANSACCION FROM RACAPE08 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>316</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'SQL_RACAPH08_SV', "ui_display_name" = 'QRY_RACAPH08', "x" = '943', "y" = '-1533')
+GUID::'8516862d-ba5e-435f-8e5e-989757245f2a' CREATE VIEW QRY_RACAPH08( STATPE VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'SQL_RACAPH08_SV.STATPE') ,
+ PAISPE VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'SQL_RACAPH08_SV.PAISPE') ,
+ CIASPE VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'SQL_RACAPH08_SV.CIASPE') ,
+ ALORPE VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'SQL_RACAPH08_SV.ALORPE') ,
+ ALDEPE VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'SQL_RACAPH08_SV.ALDEPE') ,
+ NDOCPE VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'SQL_RACAPH08_SV.NDOCPE') ,
+ IENVPE DECIMAL(5, 0)  SET( "Description" = 'Total Items Enviados', "ui_mapping_text" = 'SQL_RACAPH08_SV.IENVPE') ,
+ UENVPE DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'SQL_RACAPH08_SV.UENVPE') ,
+ IRECPE DECIMAL(5, 0)  SET( "Description" = 'Total Items Recibidos', "ui_mapping_text" = 'SQL_RACAPH08_SV.IRECPE') ,
+ URECPE DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'SQL_RACAPH08_SV.URECPE') ,
+ NCORPE DECIMAL(5, 0)  SET( "Description" = 'Control Ult CorrDet', "ui_mapping_text" = 'SQL_RACAPH08_SV.NCORPE') ,
+ FEETPE DECIMAL(8, 0)  SET( "Description" = 'EnTransito Fecha Crear', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEETPE') ,
+ HOETPE DECIMAL(6, 0)  SET( "Description" = 'EnTransito Hora Crear', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOETPE') ,
+ USETPE VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'SQL_RACAPH08_SV.USETPE') ,
+ REETPE VARCHAR(10)  SET( "Description" = 'EnTransito Ref Crear', "ui_mapping_text" = 'SQL_RACAPH08_SV.REETPE') ,
+ DEETPE VARCHAR(10)  SET( "Description" = 'EnTransito Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEETPE') ,
+ FEREPE DECIMAL(8, 0)  SET( "Description" = 'RecEnTran Fecha Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEREPE') ,
+ HOREPE DECIMAL(6, 0)  SET( "Description" = 'RecEnTran Hora Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOREPE') ,
+ USREPE VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.USREPE') ,
+ REREPE VARCHAR(10)  SET( "Description" = 'RecEnTran Ref Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.REREPE') ,
+ DEREPE VARCHAR(10)  SET( "Description" = 'RecEnTrans Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEREPE') ,
+ FEIRPE DECIMAL(8, 0)  SET( "Description" = 'Recepción Fecha Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEIRPE') ,
+ HOIRPE DECIMAL(6, 0)  SET( "Description" = 'Recepción Hora Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOIRPE') ,
+ USIRPE VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.USIRPE') ,
+ REIRPE VARCHAR(10)  SET( "Description" = 'Recepción Ref Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.REIRPE') ,
+ DEIRPE VARCHAR(10)  SET( "Description" = 'Recepción Disp Inicio', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEIRPE') ,
+ FEFRPE DECIMAL(8, 0)  SET( "Description" = 'Recepción Fecha Fin', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEFRPE') ,
+ HOFRPE DECIMAL(6, 0)  SET( "Description" = 'Recepción Hora Fin', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOFRPE') ,
+ USFRPE VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'SQL_RACAPH08_SV.USFRPE') ,
+ REFRPE VARCHAR(10)  SET( "Description" = 'Recepción Ref Fin', "ui_mapping_text" = 'SQL_RACAPH08_SV.REFRPE') ,
+ DEFRPE VARCHAR(10)  SET( "Description" = 'Recepción Disp Fin', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEFRPE') ,
+ FEFSPE DECIMAL(8, 0)  SET( "Description" = 'FaltSobr Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEFSPE') ,
+ HOFSPE DECIMAL(6, 0)  SET( "Description" = 'FaltSobr Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOFSPE') ,
+ USFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USFSPE') ,
+ REFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.REFSPE') ,
+ DEFSPE VARCHAR(10)  SET( "Description" = 'FaltSobr Disp', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEFSPE') ,
+ FECEPE DECIMAL(8, 0)  SET( "Description" = 'Cerrado Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FECEPE') ,
+ HOCEPE DECIMAL(6, 0)  SET( "Description" = 'Cerrado Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOCEPE') ,
+ USCEPE VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USCEPE') ,
+ RECEPE VARCHAR(10)  SET( "Description" = 'Cerrado Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.RECEPE') ,
+ DECEPE VARCHAR(10)  SET( "Description" = 'Cerrado Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DECEPE') ,
+ FEP1PE DECIMAL(8, 0)  SET( "Description" = 'Proc1 Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEP1PE') ,
+ HOP1PE DECIMAL(6, 0)  SET( "Description" = 'Proc1 Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOP1PE') ,
+ USP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USP1PE') ,
+ REP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.REP1PE') ,
+ DEP1PE VARCHAR(10)  SET( "Description" = 'Proc1 Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEP1PE') ,
+ FEP2PE DECIMAL(8, 0)  SET( "Description" = 'Proc2 Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEP2PE') ,
+ HOP2PE DECIMAL(6, 0)  SET( "Description" = 'Proc2 Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOP2PE') ,
+ USP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USP2PE') ,
+ REP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.REP2PE') ,
+ DEP2PE VARCHAR(10)  SET( "Description" = 'Proc2 Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEP2PE') ,
+ FEP3PE DECIMAL(8, 0)  SET( "Description" = 'Proc3 Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEP3PE') ,
+ HOP3PE DECIMAL(6, 0)  SET( "Description" = 'Proc3 Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOP3PE') ,
+ USP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USP3PE') ,
+ REP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.REP3PE') ,
+ DEP3PE VARCHAR(10)  SET( "Description" = 'Proc3 Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEP3PE') ,
+ FEP4PE DECIMAL(8, 0)  SET( "Description" = 'Proc4 Fecha', "ui_mapping_text" = 'SQL_RACAPH08_SV.FEP4PE') ,
+ HOP4PE DECIMAL(6, 0)  SET( "Description" = 'Proc4 Hora', "ui_mapping_text" = 'SQL_RACAPH08_SV.HOP4PE') ,
+ USP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'SQL_RACAPH08_SV.USP4PE') ,
+ REP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Ref', "ui_mapping_text" = 'SQL_RACAPH08_SV.REP4PE') ,
+ DEP4PE VARCHAR(10)  SET( "Description" = 'Proc4 Dispositivo', "ui_mapping_text" = 'SQL_RACAPH08_SV.DEP4PE') ,
+ TIPOPE VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'SQL_RACAPH08_SV.TIPOPE') ,
+ OBS1CP VARCHAR(30)  SET( "Description" = 'Observ 1', "ui_mapping_text" = 'SQL_RACAPH08_SV.OBS1CP') ,
+ OBS2CP VARCHAR(30)  SET( "Description" = 'Observ 2', "ui_mapping_text" = 'SQL_RACAPH08_SV.OBS2CP') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'SQL_RACAPH08_SV.FECHA_TRANSACCION')  )
+ AS
+SELECT SQL_RACAPH08_SV.STATPE, SQL_RACAPH08_SV.PAISPE, SQL_RACAPH08_SV.CIASPE, SQL_RACAPH08_SV.ALORPE, SQL_RACAPH08_SV.ALDEPE, SQL_RACAPH08_SV.NDOCPE, SQL_RACAPH08_SV.IENVPE, SQL_RACAPH08_SV.UENVPE, SQL_RACAPH08_SV.IRECPE, SQL_RACAPH08_SV.URECPE, SQL_RACAPH08_SV.NCORPE, SQL_RACAPH08_SV.FEETPE, SQL_RACAPH08_SV.HOETPE, SQL_RACAPH08_SV.USETPE, SQL_RACAPH08_SV.REETPE, SQL_RACAPH08_SV.DEETPE, SQL_RACAPH08_SV.FEREPE, SQL_RACAPH08_SV.HOREPE, SQL_RACAPH08_SV.USREPE, SQL_RACAPH08_SV.REREPE, SQL_RACAPH08_SV.DEREPE, SQL_RACAPH08_SV.FEIRPE, SQL_RACAPH08_SV.HOIRPE, SQL_RACAPH08_SV.USIRPE, SQL_RACAPH08_SV.REIRPE, SQL_RACAPH08_SV.DEIRPE, SQL_RACAPH08_SV.FEFRPE, SQL_RACAPH08_SV.HOFRPE, SQL_RACAPH08_SV.USFRPE, SQL_RACAPH08_SV.REFRPE, SQL_RACAPH08_SV.DEFRPE, SQL_RACAPH08_SV.FEFSPE, SQL_RACAPH08_SV.HOFSPE, SQL_RACAPH08_SV.USFSPE, SQL_RACAPH08_SV.REFSPE, SQL_RACAPH08_SV.DEFSPE, SQL_RACAPH08_SV.FECEPE, SQL_RACAPH08_SV.HOCEPE, SQL_RACAPH08_SV.USCEPE, SQL_RACAPH08_SV.RECEPE, SQL_RACAPH08_SV.DECEPE, SQL_RACAPH08_SV.FEP1PE, SQL_RACAPH08_SV.HOP1PE, SQL_RACAPH08_SV.USP1PE, SQL_RACAPH08_SV.REP1PE, SQL_RACAPH08_SV.DEP1PE, SQL_RACAPH08_SV.FEP2PE, SQL_RACAPH08_SV.HOP2PE, SQL_RACAPH08_SV.USP2PE, SQL_RACAPH08_SV.REP2PE, SQL_RACAPH08_SV.DEP2PE, SQL_RACAPH08_SV.FEP3PE, SQL_RACAPH08_SV.HOP3PE, SQL_RACAPH08_SV.USP3PE, SQL_RACAPH08_SV.REP3PE, SQL_RACAPH08_SV.DEP3PE, SQL_RACAPH08_SV.FEP4PE, SQL_RACAPH08_SV.HOP4PE, SQL_RACAPH08_SV.USP4PE, SQL_RACAPH08_SV.REP4PE, SQL_RACAPH08_SV.DEP4PE, SQL_RACAPH08_SV.TIPOPE, SQL_RACAPH08_SV.OBS1CP, SQL_RACAPH08_SV.OBS2CP, SQL_RACAPH08_SV.FECHA_TRANSACCION FROM SQL_RACAPH08_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '50', "x" = '1572', "y" = '-1025')
+GUID::'f2ec4b01-99a0-451e-ac99-db5f641d65bc' CALL TRANSFORM Merge() INPUT(QRY_RACAPE08, QRY_RACAPH08) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_display_name" = 'RACAPE(DS_SQL_SERVER_CDD_BI.DBO)', "x" = '3510', "y" = '-1025')
+GUID::'58e5982d-4116-4c62-9c67-42702c8d2ebc' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.RACAPE INPUT(QRY_CRG)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_CDD_BI_DBO_RACAPE.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '432', "y" = '-551')
+GUID::'7cb20c21-83c1-4fde-bf67-bdaef8264546' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.RACAPE08 OUTPUT(RACAPE08)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>331</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_RACAPH08_SV', "x" = '398', "y" = '-1533')
+GUID::'76c2f60e-9ad8-4239-993c-35f666785c88' CALL TRANSFORM SQL() OUTPUT(SQL_RACAPH08_SV( STATPE VARCHAR(3) ,
+ PAISPE VARCHAR(3) ,
+ CIASPE VARCHAR(3) ,
+ ALORPE VARCHAR(2) ,
+ ALDEPE VARCHAR(2) ,
+ NDOCPE VARCHAR(8) ,
+ IENVPE DECIMAL(5, 0) ,
+ UENVPE DECIMAL(7, 0) ,
+ IRECPE DECIMAL(5, 0) ,
+ URECPE DECIMAL(7, 0) ,
+ NCORPE DECIMAL(5, 0) ,
+ FEETPE DECIMAL(8, 0) ,
+ HOETPE DECIMAL(6, 0) ,
+ USETPE VARCHAR(10) ,
+ REETPE VARCHAR(10) ,
+ DEETPE VARCHAR(10) ,
+ FEREPE DECIMAL(8, 0) ,
+ HOREPE DECIMAL(6, 0) ,
+ USREPE VARCHAR(10) ,
+ REREPE VARCHAR(10) ,
+ DEREPE VARCHAR(10) ,
+ FEIRPE DECIMAL(8, 0) ,
+ HOIRPE DECIMAL(6, 0) ,
+ USIRPE VARCHAR(10) ,
+ REIRPE VARCHAR(10) ,
+ DEIRPE VARCHAR(10) ,
+ FEFRPE DECIMAL(8, 0) ,
+ HOFRPE DECIMAL(6, 0) ,
+ USFRPE VARCHAR(10) ,
+ REFRPE VARCHAR(10) ,
+ DEFRPE VARCHAR(10) ,
+ FEFSPE DECIMAL(8, 0) ,
+ HOFSPE DECIMAL(6, 0) ,
+ USFSPE VARCHAR(10) ,
+ REFSPE VARCHAR(10) ,
+ DEFSPE VARCHAR(10) ,
+ FECEPE DECIMAL(8, 0) ,
+ HOCEPE DECIMAL(6, 0) ,
+ USCEPE VARCHAR(10) ,
+ RECEPE VARCHAR(10) ,
+ DECEPE VARCHAR(10) ,
+ FEP1PE DECIMAL(8, 0) ,
+ HOP1PE DECIMAL(6, 0) ,
+ USP1PE VARCHAR(10) ,
+ REP1PE VARCHAR(10) ,
+ DEP1PE VARCHAR(10) ,
+ FEP2PE DECIMAL(8, 0) ,
+ HOP2PE DECIMAL(6, 0) ,
+ USP2PE VARCHAR(10) ,
+ REP2PE VARCHAR(10) ,
+ DEP2PE VARCHAR(10) ,
+ FEP3PE DECIMAL(8, 0) ,
+ HOP3PE DECIMAL(6, 0) ,
+ USP3PE VARCHAR(10) ,
+ REP3PE VARCHAR(10) ,
+ DEP3PE VARCHAR(10) ,
+ FEP4PE DECIMAL(8, 0) ,
+ HOP4PE DECIMAL(6, 0) ,
+ USP4PE VARCHAR(10) ,
+ REP4PE VARCHAR(10) ,
+ DEP4PE VARCHAR(10) ,
+ TIPOPE VARCHAR(5) ,
+ OBS1CP VARCHAR(30) ,
+ OBS2CP VARCHAR(30) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '3000', "cache" = 'no', "database_datastore" = 'DS_SQL_SERVER_CDD_BI', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<sql_text>SELECT * FROM CDD_BI.DBO.RACAPH08 WHERE FECHA_TRANSACCION &gt;= FORMAT(DATEADD(MONTH,-2,GETDATE()), \'yyyyMMdd\')</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ANNOTATION_0" = 'ALGUICOMMENT( x = \'1809\', y = \'-1183\',ObjectDesc=\'FECHA ENVIO genera error, se sustituye con sysdate()\',UI_DATA_XML=\'<UIDATA><MAINICON><LOCATION><X>-1809</X><Y>1183</Y></LOCATION><SIZE><CX>0</CX><CY>0</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>200</CY></SIZE><VISIBLE>1</VISIBLE></DESCRIPTION></UIDATA>\' )
+', "ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Jan 26 16:28:14 2023', "ActaValue_3" = 'Tue Feb  7 17:14:44 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_RADIFE_CRG::'d5dc1c34-8a61-4fe7-a781-97ba6d4f7236'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'RADIFE01', "ui_display_name" = 'QRY_TMP', "x" = '1196', "y" = '-901')
+GUID::'1c14badc-3db2-4277-baf2-86e4959da3ad' CREATE VIEW QRY_TMP( TIPO_STATUS VARCHAR(5)  SET( "ui_mapping_text" = '\'RADIF\'') ,
+ STATUS VARCHAR(2)  SET( "Description" = 'Status', "ui_mapping_text" = 'RADIFE01.STATDI') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'RADIFE01.TDOCDI') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No.Documento', "ui_mapping_text" = 'RADIFE01.NDOCDI') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacen Origen', "ui_mapping_text" = 'RADIFE01.ALORDI') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacen Destino', "ui_mapping_text" = 'RADIFE01.ALDEDI') ,
+ PREPARACION VARCHAR(13)  SET( "Description" = 'NPreparación', "ui_mapping_text" = 'RADIFE01.NPREDI') ,
+ CAJA VARCHAR(7)  SET( "Description" = 'No.Caja', "ui_mapping_text" = 'RADIFE01.NCAJDI') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'Cod.Producto', "ui_mapping_text" = 'RADIFE01.CODPDI') ,
+ UNIDADES_DOCUMENTO DECIMAL(7, 0)  SET( "Description" = 'Unidades Documento', "ui_mapping_text" = 'RADIFE01.UNDODI') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'RADIFE01.UNREDI') ,
+ UNIDADES_DIFERENCIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Diferencias', "ui_mapping_text" = 'RADIFE01.UNDIDI') ,
+ UBICACION VARCHAR(13)  SET( "Description" = 'UBICACION', "ui_mapping_text" = 'RADIFE01.UBICDI') ,
+ ENVIO VARCHAR(6)  SET( "Description" = 'No. EnvioxCargo', "ui_mapping_text" = 'RADIFE01.NENVDI') ,
+ FECHA_ENVIO VARCHAR(8)  SET( "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FENVDI)') ,
+ HORA_ENVIO VARCHAR(8)  SET( "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HENVDI)') ,
+ USUARIO_ENVIO VARCHAR(10)  SET( "Description" = 'Usuario EnvioxCargo', "ui_mapping_text" = 'RADIFE01.UENVDI') ,
+ TIPO_ERROR VARCHAR(1)  SET( "Description" = 'Tipo Error', "ui_mapping_text" = 'RADIFE01.TERRDI') ,
+ FECHA_LISTA_DIST VARCHAR(8)  SET( "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FLDIDI)') ,
+ HORA_LISTA_DIST VARCHAR(8)  SET( "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HLDIDI)') ,
+ USUARIO_LISTA_DIST VARCHAR(10)  SET( "Description" = 'UserLDist', "ui_mapping_text" = 'RADIFE01.ULDIDI') ,
+ CODIGO_USUARIO_LISTA VARCHAR(4)  SET( "Description" = 'Codigo UserLDist', "ui_mapping_text" = 'RADIFE01.CODIDI') ,
+ FECHA_PREP_ABIERTA VARCHAR(8)  SET( "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FLPADI)') ,
+ HORA_PREP_ABIERTA VARCHAR(8)  SET( "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HLPADI)') ,
+ USUARIO_PREP_ABIERTA VARCHAR(10)  SET( "Description" = 'Pickeo UserLPrepAbierta', "ui_mapping_text" = 'RADIFE01.ULPADI') ,
+ CODIGO_USUARIO_PREP VARCHAR(4)  SET( "Description" = 'Codigo UserLPrepAbierta', "ui_mapping_text" = 'RADIFE01.COPADI') ,
+ FECHA_PENDIENTE VARCHAR(8)  SET( "Description" = 'Fecha Status 01', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE01DI)') ,
+ HORA_PENDIENTE VARCHAR(8)  SET( "Description" = 'Hora Status 01', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO01DI)') ,
+ USUARIO_PENDIENTE VARCHAR(10)  SET( "Description" = 'Usuario Status 01', "ui_mapping_text" = 'RADIFE01.US01DI') ,
+ FECHA_ENTERADO VARCHAR(8)  SET( "Description" = 'Fecha Status 02', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE02DI)') ,
+ HORA_ENTERADO VARCHAR(8)  SET( "Description" = 'Hora Status 02', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO02DI)') ,
+ USUARIO_ENTERADO VARCHAR(10)  SET( "Description" = 'Usuario Status 02', "ui_mapping_text" = 'RADIFE01.US02DI') ,
+ FECHA_NO_SOLUC VARCHAR(8)  SET( "Description" = 'Fecha Status 03', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE03DI)') ,
+ HORA_NO_SOLUC VARCHAR(8)  SET( "Description" = 'Hora Status 03', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO03DI)') ,
+ USUARIO_NO_SOLUC VARCHAR(10)  SET( "Description" = 'Usuario Status 03', "ui_mapping_text" = 'RADIFE01.US03DI') ,
+ FECHA_SOLUC_PARCIAL VARCHAR(8)  SET( "Description" = 'Fecha Status 04', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE04DI)') ,
+ HORA_SOLUC_PARCIAL VARCHAR(8)  SET( "Description" = 'Hora Status 04', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO04DI)') ,
+ USUARIO_SOLUC_PARCIAL VARCHAR(10)  SET( "Description" = 'Usuario Status 04', "ui_mapping_text" = 'RADIFE01.US04DI') ,
+ FECHA_SOLUC_MANUAL VARCHAR(8)  SET( "Description" = 'Fecha Status 05', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE05DI)') ,
+ HORA_SOLUC_MANUAL VARCHAR(8)  SET( "Description" = 'Hora Status 05', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO05DI)') ,
+ USUARIO_SOLUC_MANUAL VARCHAR(10)  SET( "Description" = 'Usuario Status 05', "ui_mapping_text" = 'RADIFE01.US05DI') ,
+ FECHA_SOLUC_AUTO VARCHAR(8)  SET( "Description" = 'Fecha Status 06', "ui_mapping_text" = 'Fecha_num_a_varchar(RADIFE01.FE06DI)') ,
+ HORA_SOLUC_AUTO VARCHAR(8)  SET( "Description" = 'Hora Status 06', "ui_mapping_text" = 'Hora_num_a_varchar(RADIFE01.HO06DI)') ,
+ USUARIO_SOLUC_AUTO VARCHAR(10)  SET( "Description" = 'Usuario Status 06', "ui_mapping_text" = 'RADIFE01.US06DI')  )
+ AS
+SELECT 'RADIF', RADIFE01.STATDI, RADIFE01.TDOCDI, RADIFE01.NDOCDI, RADIFE01.ALORDI, RADIFE01.ALDEDI, RADIFE01.NPREDI, RADIFE01.NCAJDI, RADIFE01.CODPDI, RADIFE01.UNDODI, RADIFE01.UNREDI, RADIFE01.UNDIDI, RADIFE01.UBICDI, RADIFE01.NENVDI, fecha_num_a_varchar(RADIFE01.FENVDI), hora_num_a_varchar(RADIFE01.HENVDI), RADIFE01.UENVDI, RADIFE01.TERRDI, fecha_num_a_varchar(RADIFE01.FLDIDI), hora_num_a_varchar(RADIFE01.HLDIDI), RADIFE01.ULDIDI, RADIFE01.CODIDI, fecha_num_a_varchar(RADIFE01.FLPADI), hora_num_a_varchar(RADIFE01.HLPADI), RADIFE01.ULPADI, RADIFE01.COPADI, fecha_num_a_varchar(RADIFE01.FE01DI), hora_num_a_varchar(RADIFE01.HO01DI), RADIFE01.US01DI, fecha_num_a_varchar(RADIFE01.FE02DI), hora_num_a_varchar(RADIFE01.HO02DI), RADIFE01.US02DI, fecha_num_a_varchar(RADIFE01.FE03DI), hora_num_a_varchar(RADIFE01.HO03DI), RADIFE01.US03DI, fecha_num_a_varchar(RADIFE01.FE04DI), hora_num_a_varchar(RADIFE01.HO04DI), RADIFE01.US04DI, fecha_num_a_varchar(RADIFE01.FE05DI), hora_num_a_varchar(RADIFE01.HO05DI), RADIFE01.US05DI, fecha_num_a_varchar(RADIFE01.FE06DI), hora_num_a_varchar(RADIFE01.HO06DI), RADIFE01.US06DI FROM RADIFE01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Name" = '263', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'QRY_TMP', "ui_display_name" = 'QRY_CRG', "ui_where_text" = 'QRY_TMP.FECHA_ENVIO >= \'20201101\'', "x" = '1887', "y" = '-901')
+GUID::'9c69fc64-f13e-48a3-9241-a37a2378249e' CREATE VIEW QRY_CRG( ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_TMP.TIPO_DOCUMENTO') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No.Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO') ,
+ ID_STATUS VARCHAR(7)  SET( "ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacen Origen', "ui_mapping_text" = 'QRY_TMP.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacen Destino', "ui_mapping_text" = 'QRY_TMP.ALMACEN_DESTINO') ,
+ PREPARACION VARCHAR(13)  SET( "Description" = 'NPreparación', "ui_mapping_text" = 'QRY_TMP.PREPARACION') ,
+ CAJA VARCHAR(7)  SET( "Description" = 'No.Caja', "ui_mapping_text" = 'QRY_TMP.CAJA') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'Cod.Producto', "ui_mapping_text" = 'QRY_TMP.CODIGO') ,
+ UNIDADES_DOCUMENTO DECIMAL(7, 0)  SET( "Description" = 'Unidades Documento', "ui_mapping_text" = 'QRY_TMP.UNIDADES_DOCUMENTO') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS') ,
+ UNIDADES_DIFERENCIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Diferencias', "ui_mapping_text" = 'QRY_TMP.UNIDADES_DIFERENCIAS') ,
+ UBICACION VARCHAR(13)  SET( "Description" = 'UBICACION', "ui_mapping_text" = 'QRY_TMP.UBICACION') ,
+ ENVIO VARCHAR(6)  SET( "Description" = 'No. EnvioxCargo', "ui_mapping_text" = 'QRY_TMP.ENVIO') ,
+ FECHA_ENVIO DATETIME(9)  SET( "Description" = 'Fecha EnvioxCargo', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_ENVIO,QRY_TMP.HORA_ENVIO)') ,
+ USUARIO_ENVIO VARCHAR(10)  SET( "Description" = 'Usuario EnvioxCargo', "ui_mapping_text" = 'QRY_TMP.USUARIO_ENVIO') ,
+ TIPO_ERROR VARCHAR(1)  SET( "Description" = 'Tipo Error', "ui_mapping_text" = 'QRY_TMP.TIPO_ERROR') ,
+ FECHA_LISTA_DIST DATETIME(9)  SET( "Description" = 'Fecha Lista de Distribucion', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_LISTA_DIST,QRY_TMP.HORA_LISTA_DIST)') ,
+ USUARIO_LISTA_DIST VARCHAR(10)  SET( "Description" = 'UserLDist', "ui_mapping_text" = 'QRY_TMP.USUARIO_LISTA_DIST') ,
+ CODIGO_USUARIO_LISTA VARCHAR(4)  SET( "Description" = 'Codigo UserLDist', "ui_mapping_text" = 'QRY_TMP.CODIGO_USUARIO_LISTA') ,
+ FECHA_PREP_ABIERTA DATETIME(9)  SET( "Description" = 'Fecha LPrepAbierta', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_PREP_ABIERTA,QRY_TMP.HORA_PREP_ABIERTA)') ,
+ USUARIO_PREP_ABIERTA VARCHAR(10)  SET( "Description" = 'Pickeo UserLPrepAbierta', "ui_mapping_text" = 'QRY_TMP.USUARIO_PREP_ABIERTA') ,
+ CODIGO_USUARIO_PREP VARCHAR(4)  SET( "Description" = 'Codigo UserLPrepAbierta', "ui_mapping_text" = 'QRY_TMP.CODIGO_USUARIO_PREP') ,
+ FECHA_PENDIENTE DATETIME(9)  SET( "Description" = 'Fecha Status 01', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_PENDIENTE,QRY_TMP.HORA_PENDIENTE)') ,
+ USUARIO_PENDIENTE VARCHAR(10)  SET( "Description" = 'Usuario Status 01', "ui_mapping_text" = 'QRY_TMP.USUARIO_PENDIENTE') ,
+ FECHA_ENTERADO DATETIME(9)  SET( "Description" = 'Fecha Status 02', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_ENTERADO,QRY_TMP.HORA_ENTERADO)') ,
+ USUARIO_ENTERADO VARCHAR(10)  SET( "Description" = 'Usuario Status 02', "ui_mapping_text" = 'QRY_TMP.USUARIO_ENTERADO') ,
+ FECHA_NO_SOLUCIONADO DATETIME(9)  SET( "Description" = 'Fecha Status 03', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_NO_SOLUC,QRY_TMP.HORA_NO_SOLUC)') ,
+ USUARIO_NO_SOLUCIONADO VARCHAR(10)  SET( "Description" = 'Usuario Status 03', "ui_mapping_text" = 'QRY_TMP.USUARIO_NO_SOLUC') ,
+ FECHA_SOLUCION_PARCIAL DATETIME(9)  SET( "Description" = 'Fecha Status 04', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_PARCIAL,QRY_TMP.HORA_SOLUC_PARCIAL)') ,
+ USUARIO_SOLUCION_PARCIAL VARCHAR(10)  SET( "Description" = 'Usuario Status 04', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_PARCIAL') ,
+ FECHA_SOLUCION_MANUAL DATETIME(9)  SET( "Description" = 'Fecha Status 05', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_MANUAL,QRY_TMP.HORA_SOLUC_MANUAL)') ,
+ USUARIO_SOLUCION_MANUAL VARCHAR(10)  SET( "Description" = 'Usuario Status 05', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_MANUAL') ,
+ FECHA_SOLUCION_AUTO DATETIME(9)  SET( "Description" = 'Fecha Status 06', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.FECHA_SOLUC_AUTO,QRY_TMP.HORA_SOLUC_AUTO )') ,
+ USUARIO_SOLUCION_AUTO VARCHAR(10)  SET( "Description" = 'Usuario Status 06', "ui_mapping_text" = 'QRY_TMP.USUARIO_SOLUC_AUTO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT 1, QRY_TMP.TIPO_DOCUMENTO, QRY_TMP.DOCUMENTO, (QRY_TMP.TIPO_STATUS || ltrim_blanks(rtrim_blanks(QRY_TMP.Status))), QRY_TMP.ALMACEN_ORIGEN, QRY_TMP.ALMACEN_DESTINO, QRY_TMP.PREPARACION, QRY_TMP.CAJA, QRY_TMP.CODIGO, QRY_TMP.UNIDADES_DOCUMENTO, QRY_TMP.UNIDADES_RECIBIDAS, QRY_TMP.UNIDADES_DIFERENCIAS, QRY_TMP.UBICACION, QRY_TMP.ENVIO, fecha_datetime_stage(QRY_TMP.FECHA_ENVIO, QRY_TMP.HORA_ENVIO), QRY_TMP.USUARIO_ENVIO, QRY_TMP.TIPO_ERROR, fecha_datetime_stage(QRY_TMP.FECHA_LISTA_DIST, QRY_TMP.HORA_LISTA_DIST), QRY_TMP.USUARIO_LISTA_DIST, QRY_TMP.CODIGO_USUARIO_LISTA, fecha_datetime_stage(QRY_TMP.FECHA_PREP_ABIERTA, QRY_TMP.HORA_PREP_ABIERTA), QRY_TMP.USUARIO_PREP_ABIERTA, QRY_TMP.CODIGO_USUARIO_PREP, fecha_datetime_stage(QRY_TMP.FECHA_PENDIENTE, QRY_TMP.HORA_PENDIENTE), QRY_TMP.USUARIO_PENDIENTE, fecha_datetime_stage(QRY_TMP.FECHA_ENTERADO, QRY_TMP.HORA_ENTERADO), QRY_TMP.USUARIO_ENTERADO, fecha_datetime_stage(QRY_TMP.FECHA_NO_SOLUC, QRY_TMP.HORA_NO_SOLUC), QRY_TMP.USUARIO_NO_SOLUC, fecha_datetime_stage(QRY_TMP.FECHA_SOLUC_PARCIAL, QRY_TMP.HORA_SOLUC_PARCIAL), QRY_TMP.USUARIO_SOLUC_PARCIAL, fecha_datetime_stage(QRY_TMP.FECHA_SOLUC_MANUAL, QRY_TMP.HORA_SOLUC_MANUAL), QRY_TMP.USUARIO_SOLUC_MANUAL, fecha_datetime_stage(QRY_TMP.FECHA_SOLUC_AUTO, QRY_TMP.HORA_SOLUC_AUTO), QRY_TMP.USUARIO_SOLUC_AUTO, sysdate() FROM QRY_TMP  WHERE (QRY_TMP.FECHA_ENVIO >= '20201101')
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '2602', "y" = '-901')
+GUID::'ac5a3649-a16a-45a4-9f3b-f4173c7bb14f' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE INPUT(QRY_CRG)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '556', "y" = '-900')
+GUID::'d131eaf2-0686-4bc2-a4ab-dbc4773db802' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.RADIFE01 OUTPUT(RADIFE01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Dec 16 16:44:38 2022', "ActaValue_3" = 'Thu Jan 26 13:34:50 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_RAFASO_CRG::'71d9f87d-0605-4000-bf10-c35c4ec386ad'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>319</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'RAFASO01', "ui_display_name" = 'QRY_RAFASO01', "x" = '1092', "y" = '-703')
+GUID::'ddbeb915-5f3b-42d4-9712-727a28b6b653' CREATE VIEW QRY_RAFASO01( PAISFS VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'RAFASO01.PAISFS') ,
+ CIASFS VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'RAFASO01.CIASFS') ,
+ ALORFS VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'RAFASO01.ALORFS') ,
+ ALDEFS VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'RAFASO01.ALDEFS') ,
+ NDOCFS VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'RAFASO01.NDOCFS') ,
+ NPREFS VARCHAR(13)  SET( "Description" = 'NPreparación Referencia', "ui_mapping_text" = 'RAFASO01.NPREFS') ,
+ NCAJFS VARCHAR(7)  SET( "Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'RAFASO01.NCAJFS') ,
+ CPSRFS VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'RAFASO01.CPSRFS') ,
+ STATFS VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'RAFASO01.STATFS') ,
+ TIPDFS VARCHAR(5)  SET( "Description" = 'Tipo de Documento', "ui_mapping_text" = 'RAFASO01.TIPDFS') ,
+ NENVFS VARCHAR(4)  SET( "Description" = 'Numero de Envio', "ui_mapping_text" = 'RAFASO01.NENVFS') ,
+ NREMFS VARCHAR(6)  SET( "Description" = 'Numero de Remision', "ui_mapping_text" = 'RAFASO01.NREMFS') ,
+ UNENFS DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'RAFASO01.UNENFS') ,
+ UNREFS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'RAFASO01.UNREFS') ,
+ UNAVFS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'RAFASO01.UNAVFS') ,
+ FECRFS DECIMAL(8, 0)  SET( "Description" = 'Fecha Creación', "ui_mapping_text" = 'RAFASO01.FECRFS') ,
+ HOCRFS DECIMAL(6, 0)  SET( "Description" = 'Hora Creación', "ui_mapping_text" = 'RAFASO01.HOCRFS') ,
+ USCRFS VARCHAR(10)  SET( "Description" = 'Usuario Creación', "ui_mapping_text" = 'RAFASO01.USCRFS') ,
+ RECRFS VARCHAR(10)  SET( "Description" = 'Ref Creación', "ui_mapping_text" = 'RAFASO01.RECRFS') ,
+ DECRFS VARCHAR(10)  SET( "Description" = 'Dev Creación', "ui_mapping_text" = 'RAFASO01.DECRFS') ,
+ FECIFS DECIMAL(8, 0)  SET( "Description" = 'Fecha Cierre', "ui_mapping_text" = 'RAFASO01.FECIFS') ,
+ HOCIFS DECIMAL(6, 0)  SET( "Description" = 'Hora Cierre', "ui_mapping_text" = 'RAFASO01.HOCIFS') ,
+ USCIFS VARCHAR(10)  SET( "Description" = 'Usuario Cierre', "ui_mapping_text" = 'RAFASO01.USCIFS') ,
+ RECIFS VARCHAR(10)  SET( "Description" = 'Ref Cierre', "ui_mapping_text" = 'RAFASO01.RECIFS') ,
+ DECIFS VARCHAR(10)  SET( "Description" = 'Dev Creación', "ui_mapping_text" = 'RAFASO01.DECIFS') ,
+ PASOFS VARCHAR(1)  SET( "Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'RAFASO01.PASOFS') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RAFASO01.FECHA_TRANSACCION')  )
+ AS
+SELECT RAFASO01.PAISFS, RAFASO01.CIASFS, RAFASO01.ALORFS, RAFASO01.ALDEFS, RAFASO01.NDOCFS, RAFASO01.NPREFS, RAFASO01.NCAJFS, RAFASO01.CPSRFS, RAFASO01.STATFS, RAFASO01.TIPDFS, RAFASO01.NENVFS, RAFASO01.NREMFS, RAFASO01.UNENFS, RAFASO01.UNREFS, RAFASO01.UNAVFS, RAFASO01.FECRFS, RAFASO01.HOCRFS, RAFASO01.USCRFS, RAFASO01.RECRFS, RAFASO01.DECRFS, RAFASO01.FECIFS, RAFASO01.HOCIFS, RAFASO01.USCIFS, RAFASO01.RECIFS, RAFASO01.DECIFS, RAFASO01.PASOFS, RAFASO01.FECHA_TRANSACCION FROM RAFASO01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>316</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SQL_RAFASH01_SV', "ui_display_name" = 'QRY_RAFASH01', "x" = '1108', "y" = '-1542')
+GUID::'dbf7dc37-928b-465a-9d63-fbdb826d4ae4' CREATE VIEW QRY_RAFASH01( PAISFS VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'SQL_RAFASH01_SV.PAISFS') ,
+ CIASFS VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'SQL_RAFASH01_SV.CIASFS') ,
+ ALORFS VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'SQL_RAFASH01_SV.ALORFS') ,
+ ALDEFS VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'SQL_RAFASH01_SV.ALDEFS') ,
+ NDOCFS VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'SQL_RAFASH01_SV.NDOCFS') ,
+ NPREFS VARCHAR(13)  SET( "Description" = 'NPreparación Referencia', "ui_mapping_text" = 'SQL_RAFASH01_SV.NPREFS') ,
+ NCAJFS VARCHAR(7)  SET( "Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'SQL_RAFASH01_SV.NCAJFS') ,
+ CPSRFS VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'SQL_RAFASH01_SV.CPSRFS') ,
+ STATFS VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'SQL_RAFASH01_SV.STATFS') ,
+ TIPDFS VARCHAR(5)  SET( "Description" = 'Tipo de Documento', "ui_mapping_text" = 'SQL_RAFASH01_SV.TIPDFS') ,
+ NENVFS VARCHAR(4)  SET( "Description" = 'Numero de Envio', "ui_mapping_text" = 'SQL_RAFASH01_SV.NENVFS') ,
+ NREMFS VARCHAR(6)  SET( "Description" = 'Numero de Remision', "ui_mapping_text" = 'SQL_RAFASH01_SV.NREMFS') ,
+ UNENFS DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'SQL_RAFASH01_SV.UNENFS') ,
+ UNREFS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'SQL_RAFASH01_SV.UNREFS') ,
+ UNAVFS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'SQL_RAFASH01_SV.UNAVFS') ,
+ FECRFS DECIMAL(8, 0)  SET( "Description" = 'Fecha Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.FECRFS') ,
+ HOCRFS DECIMAL(6, 0)  SET( "Description" = 'Hora Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.HOCRFS') ,
+ USCRFS VARCHAR(10)  SET( "Description" = 'Usuario Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.USCRFS') ,
+ RECRFS VARCHAR(10)  SET( "Description" = 'Ref Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.RECRFS') ,
+ DECRFS VARCHAR(10)  SET( "Description" = 'Dev Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.DECRFS') ,
+ FECIFS DECIMAL(8, 0)  SET( "Description" = 'Fecha Cierre', "ui_mapping_text" = 'SQL_RAFASH01_SV.FECIFS') ,
+ HOCIFS DECIMAL(6, 0)  SET( "Description" = 'Hora Cierre', "ui_mapping_text" = 'SQL_RAFASH01_SV.HOCIFS') ,
+ USCIFS VARCHAR(10)  SET( "Description" = 'Usuario Cierre', "ui_mapping_text" = 'SQL_RAFASH01_SV.USCIFS') ,
+ RECIFS VARCHAR(10)  SET( "Description" = 'Ref Cierre', "ui_mapping_text" = 'SQL_RAFASH01_SV.RECIFS') ,
+ DECIFS VARCHAR(10)  SET( "Description" = 'Dev Creación', "ui_mapping_text" = 'SQL_RAFASH01_SV.DECIFS') ,
+ PASOFS VARCHAR(1)  SET( "Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'SQL_RAFASH01_SV.PASOFS') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'SQL_RAFASH01_SV.FECHA_TRANSACCION')  )
+ AS
+SELECT SQL_RAFASH01_SV.PAISFS, SQL_RAFASH01_SV.CIASFS, SQL_RAFASH01_SV.ALORFS, SQL_RAFASH01_SV.ALDEFS, SQL_RAFASH01_SV.NDOCFS, SQL_RAFASH01_SV.NPREFS, SQL_RAFASH01_SV.NCAJFS, SQL_RAFASH01_SV.CPSRFS, SQL_RAFASH01_SV.STATFS, SQL_RAFASH01_SV.TIPDFS, SQL_RAFASH01_SV.NENVFS, SQL_RAFASH01_SV.NREMFS, SQL_RAFASH01_SV.UNENFS, SQL_RAFASH01_SV.UNREFS, SQL_RAFASH01_SV.UNAVFS, SQL_RAFASH01_SV.FECRFS, SQL_RAFASH01_SV.HOCRFS, SQL_RAFASH01_SV.USCRFS, SQL_RAFASH01_SV.RECRFS, SQL_RAFASH01_SV.DECRFS, SQL_RAFASH01_SV.FECIFS, SQL_RAFASH01_SV.HOCIFS, SQL_RAFASH01_SV.USCIFS, SQL_RAFASH01_SV.RECIFS, SQL_RAFASH01_SV.DECIFS, SQL_RAFASH01_SV.PASOFS, SQL_RAFASH01_SV.FECHA_TRANSACCION FROM SQL_RAFASH01_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '1628', "y" = '-1127')
+GUID::'6a55c3e6-bbd9-4067-8f83-0ff9afb2cd98' CALL TRANSFORM Merge() INPUT(QRY_RAFASH01, QRY_RAFASO01) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_TMP', "x" = '2157', "y" = '-1129')
+GUID::'928cb56c-8415-4723-a51a-764decb216c3' CREATE VIEW QRY_TMP( ID_PAIS VARCHAR(3)  SET( "Description" = 'Pais', "ui_mapping_text" = 'Merge.PAISFS') ,
+ COMPAÑIA VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'Merge.CIASFS') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo de Documento', "ui_mapping_text" = 'Merge.TIPDFS') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'Merge.NDOCFS') ,
+ TIPO_STATUS VARCHAR(5)  SET( "ui_mapping_text" = '\'RACAP\'') ,
+ STATUS VARCHAR(3)  SET( "Description" = 'Status', "ui_mapping_text" = 'Merge.STATFS') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'Merge.ALORFS') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'Merge.ALDEFS') ,
+ PREPARACION VARCHAR(13)  SET( "Description" = 'NPreparación Referencia', "ui_mapping_text" = 'Merge.NPREFS') ,
+ CAJA VARCHAR(7)  SET( "Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'Merge.NCAJFS') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'Merge.CPSRFS') ,
+ ENVIO VARCHAR(4)  SET( "Description" = 'Numero de Envio', "ui_mapping_text" = 'Merge.NENVFS') ,
+ REMISION VARCHAR(6)  SET( "Description" = 'Numero de Remision', "ui_mapping_text" = 'Merge.NREMFS') ,
+ UNIDADES_TRANSITO DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'Merge.UNENFS') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'Merge.UNREFS') ,
+ UNIDADES_AVERIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'Merge.UNAVFS') ,
+ Fecha_Creacion VARCHAR(8)  SET( "Description" = 'Fecha Creación', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FECRFS)') ,
+ Hora_Creacion VARCHAR(8)  SET( "Description" = 'Hora Creación', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOCRFS)') ,
+ Usuario_Creacion VARCHAR(10)  SET( "Description" = 'Usuario Creación', "ui_mapping_text" = 'Merge.USCRFS') ,
+ Fecha_Cierre VARCHAR(8)  SET( "Description" = 'Fecha Cierre', "ui_mapping_text" = 'Fecha_num_a_varchar(Merge.FECIFS)') ,
+ Hora_Cierre VARCHAR(8)  SET( "Description" = 'Hora Cierre', "ui_mapping_text" = 'Hora_num_a_varchar(Merge.HOCIFS)') ,
+ Usuario_Cierre VARCHAR(10)  SET( "Description" = 'Usuario Cierre', "ui_mapping_text" = 'Merge.USCIFS') ,
+ APLICA_AJUSTE VARCHAR(1)  SET( "Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'Merge.PASOFS') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_TRANSACCION')  )
+ AS
+SELECT Merge.PAISFS, Merge.CIASFS, Merge.TIPDFS, Merge.NDOCFS, 'RACAP', Merge.STATFS, Merge.ALORFS, Merge.ALDEFS, Merge.NPREFS, Merge.NCAJFS, Merge.CPSRFS, Merge.NENVFS, Merge.NREMFS, Merge.UNENFS, Merge.UNREFS, Merge.UNAVFS, fecha_num_a_varchar(Merge.FECRFS), hora_num_a_varchar(Merge.HOCRFS), Merge.USCRFS, fecha_num_a_varchar(Merge.FECIFS), hora_num_a_varchar(Merge.HOCIFS), Merge.USCIFS, Merge.PASOFS, Merge.FECHA_TRANSACCION FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'QRY_TMP', "ui_display_name" = 'QRY_CRG', "ui_where_text" = 'QRY_TMP.Fecha_Creacion >= \'20201101\'', "x" = '2714', "y" = '-1127')
+GUID::'f04713d4-21f7-4e2a-a882-d58002550332' CREATE VIEW QRY_CRG( ID_PAIS INT  SET( "Description" = 'ID de Pais', "ui_mapping_text" = 'CAST(QRY_TMP.ID_PAIS,\'INT\')') ,
+ COMPAÑIA VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'QRY_TMP.COMPAÑIA') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo de Documento', "ui_mapping_text" = 'QRY_TMP.TIPO_DOCUMENTO') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'QRY_TMP.DOCUMENTO') ,
+ ID_STATUS VARCHAR(8)  SET( "Description" = 'ID de Status', "ui_mapping_text" = 'QRY_TMP.TIPO_STATUS||ltrim_blanks(rtrim_blanks(QRY_TMP.Status))') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'QRY_TMP.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'QRY_TMP.ALMACEN_DESTINO') ,
+ ENVIO VARCHAR(4)  SET( "Description" = 'Numero de Envio', "ui_mapping_text" = 'QRY_TMP.ENVIO') ,
+ REMISION VARCHAR(6)  SET( "Description" = 'Numero de Remision', "ui_mapping_text" = 'QRY_TMP.REMISION') ,
+ PREPARACION VARCHAR(13)  SET( "Description" = 'NPreparación Referencia', "ui_mapping_text" = 'QRY_TMP.PREPARACION') ,
+ CAJA VARCHAR(7)  SET( "Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'QRY_TMP.CAJA') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_TMP.CODIGO') ,
+ UNIDADES_TRANSITO DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_TMP.UNIDADES_TRANSITO') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_TMP.UNIDADES_RECIBIDAS') ,
+ UNIDADES_AVERIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_TMP.UNIDADES_AVERIAS') ,
+ FECHA_CREACION DATETIME(9)  SET( "Description" = 'Fecha de Creacion', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Creacion ,QRY_TMP.Hora_Creacion )') ,
+ USUARIO_CREACION VARCHAR(10)  SET( "Description" = 'Usuario Creación', "ui_mapping_text" = 'QRY_TMP.Usuario_Creacion') ,
+ FECHA_CIERRE DATETIME(9)  SET( "Description" = 'Fecha de Cierre', "ui_mapping_text" = 'Fecha_Datetime_Stage(QRY_TMP.Fecha_Cierre ,QRY_TMP.Hora_Cierre)') ,
+ USUARIO_CIERRE VARCHAR(10)  SET( "Description" = 'Usuario Cierre', "ui_mapping_text" = 'QRY_TMP.Usuario_Cierre') ,
+ APLICA_AJUSTE VARCHAR(1)  SET( "Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'QRY_TMP.APLICA_AJUSTE') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_TMP.FECHA_TRANSACCION') ,
+ FECHA_DWH_CRG DATETIME(9)  SET( "Description" = 'Fecha de Carga', "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT cast(QRY_TMP.ID_PAIS, 'INT'), QRY_TMP.COMPAÑIA, QRY_TMP.TIPO_DOCUMENTO, QRY_TMP.DOCUMENTO, (QRY_TMP.TIPO_STATUS || ltrim_blanks(rtrim_blanks(QRY_TMP.Status))), QRY_TMP.ALMACEN_ORIGEN, QRY_TMP.ALMACEN_DESTINO, QRY_TMP.ENVIO, QRY_TMP.REMISION, QRY_TMP.PREPARACION, QRY_TMP.CAJA, QRY_TMP.CODIGO, QRY_TMP.UNIDADES_TRANSITO, QRY_TMP.UNIDADES_RECIBIDAS, QRY_TMP.UNIDADES_AVERIAS, fecha_datetime_stage(QRY_TMP.Fecha_Creacion, QRY_TMP.Hora_Creacion), QRY_TMP.Usuario_Creacion, fecha_datetime_stage(QRY_TMP.Fecha_Cierre, QRY_TMP.Hora_Cierre), QRY_TMP.Usuario_Cierre, QRY_TMP.APLICA_AJUSTE, QRY_TMP.FECHA_TRANSACCION, sysdate() FROM QRY_TMP  WHERE (QRY_TMP.Fecha_Creacion >= '20201101')
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_display_name" = 'RAFASO(DS_SQL_SERVER_CDD_BI.DBO)', "x" = '3289', "y" = '-1129')
+GUID::'20e834d7-810a-40b3-8c8e-8c7f17daf7f3' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.RAFASO INPUT(QRY_CRG)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_CDD_BI_DBO_RAFASO.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '534', "y" = '-703')
+GUID::'ab01741b-b2d4-4579-a67b-13fc5c5e940e' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.RAFASO01 OUTPUT(RAFASO01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>331</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_RAFASH01_SV', "x" = '532', "y" = '-1540')
+GUID::'52dfe66b-b27c-4f0f-9901-8304921b0058' CALL TRANSFORM SQL() OUTPUT(SQL_RAFASH01_SV( PAISFS VARCHAR(3) ,
+ CIASFS VARCHAR(3) ,
+ ALORFS VARCHAR(2) ,
+ ALDEFS VARCHAR(2) ,
+ NDOCFS VARCHAR(8) ,
+ NPREFS VARCHAR(13) ,
+ NCAJFS VARCHAR(7) ,
+ CPSRFS VARCHAR(17) ,
+ STATFS VARCHAR(3) ,
+ TIPDFS VARCHAR(5) ,
+ NENVFS VARCHAR(4) ,
+ NREMFS VARCHAR(6) ,
+ UNENFS DECIMAL(7, 0) ,
+ UNREFS DECIMAL(7, 0) ,
+ UNAVFS DECIMAL(7, 0) ,
+ FECRFS DECIMAL(8, 0) ,
+ HOCRFS DECIMAL(6, 0) ,
+ USCRFS VARCHAR(10) ,
+ RECRFS VARCHAR(10) ,
+ DECRFS VARCHAR(10) ,
+ FECIFS DECIMAL(8, 0) ,
+ HOCIFS DECIMAL(6, 0) ,
+ USCIFS VARCHAR(10) ,
+ RECIFS VARCHAR(10) ,
+ DECIFS VARCHAR(10) ,
+ PASOFS VARCHAR(1) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '3000', "cache" = 'no', "database_datastore" = 'DS_SQL_SERVER_CDD_BI', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<sql_text>SELECT * FROM CDD_BI.DBO.RAFASH01 WHERE FECHA_TRANSACCION &gt;= FORMAT(DATEADD(MONTH,-2,GETDATE()), \'yyyyMMdd\')</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Dec 13 15:26:41 2022', "ActaValue_3" = 'Thu Jan 26 15:45:06 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_SUMARIA_TRANSITOS::'1c3d9411-2a9b-491c-b1a8-5184fc71921f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '463', "Output_Width_Name" = '332', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>260</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'QRY_FILTRO_RAFASO', "ui_acta_from_schema_1" = 'EUSTAT', "ui_acta_from_schema_2" = 'QRY_FILTRO_RACAPE', "ui_display_name" = 'QRY_PREVIO', "x" = '1787', "y" = '-1092')
+GUID::'830f8a3f-ae05-4861-8091-d3c96da9a142' CREATE VIEW QRY_PREVIO( ID_PAIS INT  SET( "ui_mapping_text" = 'QRY_FILTRO_RACAPE.ID_PAIS') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.TIPO_DOCUMENTO') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.DOCUMENTO') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_FILTRO_RACAPE.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT.STATUS') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.ALMACEN_DESTINO') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_FILTRO_RAFASO.CODIGO') ,
+ UNIDADES_TRANSITO DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_FILTRO_RAFASO.UNIDADES_TRANSITO') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.UNIDADES_RECIBIDAS') ,
+ UNIDADES_AVERIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_FILTRO_RAFASO.UNIDADES_AVERIAS') ,
+ FECHA_EN_TRANSITO DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_CREACION') ,
+ USUARIO_EN_TRANSITO VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_CREACION') ,
+ FECHA_REC_EN_TRAN DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_REC_EN_TRAN') ,
+ USUARIO_REC_EN_TRAN VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_REC_EN_TRAN') ,
+ FECHA_INICIO_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_INICIO_RECEPCION') ,
+ USUARIO_INICIO_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_INICIO_RECEPCION') ,
+ FECHA_FIN_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_FIN_RECEPCION') ,
+ USUARIO_FIN_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_FIN_RECEPCION') ,
+ FECHA_FALTANTES_SOBRANTES DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_FALTANTES_SOBRANTES') ,
+ USUARIO_FALTANTES_SOBRANTES VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_FALTANTES_SOBRANTES') ,
+ FECHA_CERRADO DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_CERRADO') ,
+ USUARIO_CERRADO VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_CERRADO') ,
+ FECHA_TRASLADO_AUDITORIA DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.FECHA_TRASLADO_AUDITORIA') ,
+ USUARIO_TRASLADO_AUDITORIA VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'QRY_FILTRO_RACAPE.USUARIO_TRASLADO_AUDITORIA')  )
+ AS
+SELECT QRY_FILTRO_RACAPE.ID_PAIS, QRY_FILTRO_RACAPE.TIPO_DOCUMENTO, QRY_FILTRO_RACAPE.DOCUMENTO, QRY_FILTRO_RACAPE.ID_STATUS, EUSTAT.STATUS, QRY_FILTRO_RACAPE.ALMACEN_ORIGEN, QRY_FILTRO_RACAPE.ALMACEN_DESTINO, QRY_FILTRO_RAFASO.CODIGO, QRY_FILTRO_RAFASO.UNIDADES_TRANSITO, QRY_FILTRO_RACAPE.UNIDADES_RECIBIDAS, QRY_FILTRO_RAFASO.UNIDADES_AVERIAS, QRY_FILTRO_RACAPE.FECHA_CREACION, QRY_FILTRO_RACAPE.USUARIO_CREACION, QRY_FILTRO_RACAPE.FECHA_REC_EN_TRAN, QRY_FILTRO_RACAPE.USUARIO_REC_EN_TRAN, QRY_FILTRO_RACAPE.FECHA_INICIO_RECEPCION, QRY_FILTRO_RACAPE.USUARIO_INICIO_RECEPCION, QRY_FILTRO_RACAPE.FECHA_FIN_RECEPCION, QRY_FILTRO_RACAPE.USUARIO_FIN_RECEPCION, QRY_FILTRO_RACAPE.FECHA_FALTANTES_SOBRANTES, QRY_FILTRO_RACAPE.USUARIO_FALTANTES_SOBRANTES, QRY_FILTRO_RACAPE.FECHA_CERRADO, QRY_FILTRO_RACAPE.USUARIO_CERRADO, QRY_FILTRO_RACAPE.FECHA_TRASLADO_AUDITORIA, QRY_FILTRO_RACAPE.USUARIO_TRASLADO_AUDITORIA FROM (QRY_FILTRO_RACAPE  __SAP_LEFT_OUTER_JOIN EUSTAT  ON (QRY_FILTRO_RACAPE.ID_STATUS = EUSTAT.ID_STATUS)SET("ui_on_text" = 'QRY_FILTRO_RACAPE.ID_STATUS = EUSTAT.ID_STATUS ')
+) __SAP_INNER_JOIN QRY_FILTRO_RAFASO  ON ((((QRY_FILTRO_RAFASO.ID_PAIS = QRY_FILTRO_RACAPE.ID_PAIS) AND
+   (QRY_FILTRO_RAFASO.DOCUMENTO = QRY_FILTRO_RACAPE.DOCUMENTO)) AND
+   (QRY_FILTRO_RAFASO.ALMACEN_ORIGEN = QRY_FILTRO_RACAPE.ALMACEN_ORIGEN)) AND
+   (QRY_FILTRO_RAFASO.ALMACEN_DESTINO = QRY_FILTRO_RACAPE.ALMACEN_DESTINO))SET("ui_on_text" = 'QRY_FILTRO_RAFASO.ID_PAIS = QRY_FILTRO_RACAPE.ID_PAIS AND 
+QRY_FILTRO_RAFASO.DOCUMENTO = QRY_FILTRO_RACAPE.DOCUMENTO AND 
+QRY_FILTRO_RAFASO.ALMACEN_ORIGEN = QRY_FILTRO_RACAPE.ALMACEN_ORIGEN AND 
+QRY_FILTRO_RAFASO.ALMACEN_DESTINO = QRY_FILTRO_RACAPE.ALMACEN_DESTINO')
+
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>359</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1140', "y" = '-673')
+GUID::'8f0c281b-7b7a-4667-8fd3-054a4adea551' READ TABLE DS_CDD_BI.dbo.EUSTAT OUTPUT(EUSTAT)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '396', "Output_Width_Name" = '332', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_acta_from_schema_0" = 'QRY_PREVIO', "ui_display_name" = 'QRY_SUMARIA_TRANSITOS', "x" = '2274', "y" = '-1092')
+GUID::'78331c57-5ba4-4b77-95ab-c42ca8a7d35e' CREATE VIEW QRY_SUMARIA_TRANSITOS( ID_PAIS INT  SET( "ui_mapping_text" = 'QRY_PREVIO.ID_PAIS') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'QRY_PREVIO.TIPO_DOCUMENTO') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'QRY_PREVIO.DOCUMENTO') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_PREVIO.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'QRY_PREVIO.STATUS') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'QRY_PREVIO.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'QRY_PREVIO.ALMACEN_DESTINO') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'QRY_PREVIO.CODIGO') ,
+ UNIDADES_TRANSITO DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_TRANSITO') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_RECIBIDAS') ,
+ UNIDADES_AVERIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'QRY_PREVIO.UNIDADES_AVERIAS') ,
+ FECHA_EN_TRANSITO DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_EN_TRANSITO') ,
+ USUARIO_EN_TRANSITO VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_EN_TRANSITO') ,
+ FECHA_REC_EN_TRAN DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_REC_EN_TRAN') ,
+ USUARIO_REC_EN_TRAN VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_REC_EN_TRAN') ,
+ FECHA_INICIO_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_INICIO_RECEPCION') ,
+ USUARIO_INICIO_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_INICIO_RECEPCION') ,
+ FECHA_FIN_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_FIN_RECEPCION') ,
+ USUARIO_FIN_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_FIN_RECEPCION') ,
+ FECHA_FALTANTES_SOBRANTES DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_FALTANTES_SOBRANTES') ,
+ USUARIO_FALTANTES_SOBRANTES VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_FALTANTES_SOBRANTES') ,
+ FECHA_CERRADO DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_CERRADO') ,
+ USUARIO_CERRADO VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_CERRADO') ,
+ FECHA_TRASLADO_AUDITORIA DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'QRY_PREVIO.FECHA_TRASLADO_AUDITORIA') ,
+ USUARIO_TRASLADO_AUDITORIA VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'QRY_PREVIO.USUARIO_TRASLADO_AUDITORIA') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT QRY_PREVIO.ID_PAIS, QRY_PREVIO.TIPO_DOCUMENTO, QRY_PREVIO.DOCUMENTO, QRY_PREVIO.ID_STATUS, QRY_PREVIO.STATUS, QRY_PREVIO.ALMACEN_ORIGEN, QRY_PREVIO.ALMACEN_DESTINO, QRY_PREVIO.CODIGO, QRY_PREVIO.UNIDADES_TRANSITO, QRY_PREVIO.UNIDADES_RECIBIDAS, QRY_PREVIO.UNIDADES_AVERIAS, QRY_PREVIO.FECHA_EN_TRANSITO, QRY_PREVIO.USUARIO_EN_TRANSITO, QRY_PREVIO.FECHA_REC_EN_TRAN, QRY_PREVIO.USUARIO_REC_EN_TRAN, QRY_PREVIO.FECHA_INICIO_RECEPCION, QRY_PREVIO.USUARIO_INICIO_RECEPCION, QRY_PREVIO.FECHA_FIN_RECEPCION, QRY_PREVIO.USUARIO_FIN_RECEPCION, QRY_PREVIO.FECHA_FALTANTES_SOBRANTES, QRY_PREVIO.USUARIO_FALTANTES_SOBRANTES, QRY_PREVIO.FECHA_CERRADO, QRY_PREVIO.USUARIO_CERRADO, QRY_PREVIO.FECHA_TRASLADO_AUDITORIA, QRY_PREVIO.USUARIO_TRASLADO_AUDITORIA, sysdate() FROM QRY_PREVIO 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_display_name" = 'SUMARIA_TRANSITOS(DS_SQL_SERVER_CDD_BI.DBO)', "x" = '2830', "y" = '-1092')
+GUID::'00804d40-ec8c-4cbb-931c-d40dc42b22ca' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.SUMARIA_TRANSITOS INPUT(QRY_SUMARIA_TRANSITOS)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>5000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_CDD_BI_DBO_SUMARIA_TRANSITOS.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '521', "y" = '-1091')
+GUID::'3ca816ed-a95d-49cc-bfc4-a55c35930537' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.RACAPE OUTPUT(RACAPE)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '538', "y" = '-1513')
+GUID::'15fd5df2-ed4d-41d5-8dbc-9559fab05960' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.RAFASO OUTPUT(RAFASO)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'RACAPE', "ui_display_name" = 'QRY_FILTRO_RACAPE', "ui_where_text" = 'RACAPE.FECHA_TRANSACCION >= add_months( sysdate( ),-2)
+', "x" = '1093', "y" = '-1091')
+GUID::'5a4afc79-bbe2-40d7-bce3-d4861d4d7b0a' CREATE VIEW QRY_FILTRO_RACAPE( ID_PAIS INT  SET( "ui_mapping_text" = 'RACAPE.ID_PAIS') ,
+ COMPANIA VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'RACAPE.COMPANIA') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'RACAPE.DOCUMENTO') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo Documento', "ui_mapping_text" = 'RACAPE.TIPO_DOCUMENTO') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'RACAPE.ID_STATUS') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Alm Origen', "ui_mapping_text" = 'RACAPE.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Alm Destino', "ui_mapping_text" = 'RACAPE.ALMACEN_DESTINO') ,
+ ITEMS_ENVIADOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Enviados', "ui_mapping_text" = 'RACAPE.ITEMS_ENVIADOS') ,
+ UNIDADES_ENVIADAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Enviadas', "ui_mapping_text" = 'RACAPE.UNIDADES_ENVIADAS') ,
+ ITEMS_RECIBIDOS DECIMAL(5, 0)  SET( "Description" = 'Total Items Recibidos', "ui_mapping_text" = 'RACAPE.ITEMS_RECIBIDOS') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Total Unidades Recibidas', "ui_mapping_text" = 'RACAPE.UNIDADES_RECIBIDAS') ,
+ FECHA_CREACION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_CREACION') ,
+ USUARIO_CREACION VARCHAR(10)  SET( "Description" = 'EnTransito Usr Crear', "ui_mapping_text" = 'RACAPE.USUARIO_CREACION') ,
+ FECHA_REC_EN_TRAN DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_REC_EN_TRAN') ,
+ USUARIO_REC_EN_TRAN VARCHAR(10)  SET( "Description" = 'RecEnTran Usr Inicio', "ui_mapping_text" = 'RACAPE.USUARIO_REC_EN_TRAN') ,
+ FECHA_INICIO_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_INICIO_RECEPCION') ,
+ USUARIO_INICIO_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Inicio', "ui_mapping_text" = 'RACAPE.USUARIO_INICIO_RECEPCION') ,
+ FECHA_FIN_RECEPCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_FIN_RECEPCION') ,
+ USUARIO_FIN_RECEPCION VARCHAR(10)  SET( "Description" = 'Recepción Usr Fin', "ui_mapping_text" = 'RACAPE.USUARIO_FIN_RECEPCION') ,
+ FECHA_FALTANTES_SOBRANTES DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_FALTANTES_SOBRANTES') ,
+ USUARIO_FALTANTES_SOBRANTES VARCHAR(10)  SET( "Description" = 'FaltSobr Usr', "ui_mapping_text" = 'RACAPE.USUARIO_FALTANTES_SOBRANTES') ,
+ FECHA_CERRADO DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_CERRADO') ,
+ USUARIO_CERRADO VARCHAR(10)  SET( "Description" = 'Cerrado Usr', "ui_mapping_text" = 'RACAPE.USUARIO_CERRADO') ,
+ FECHA_TRASLADO_AUDITORIA DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_TRASLADO_AUDITORIA') ,
+ USUARIO_TRASLADO_AUDITORIA VARCHAR(10)  SET( "Description" = 'Proc4 Usr', "ui_mapping_text" = 'RACAPE.USUARIO_TRASLADO_AUDITORIA') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_TRANSACCION') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RACAPE.FECHA_CARGA_DWH')  )
+ AS
+SELECT RACAPE.ID_PAIS, RACAPE.COMPANIA, RACAPE.DOCUMENTO, RACAPE.TIPO_DOCUMENTO, RACAPE.ID_STATUS, RACAPE.ALMACEN_ORIGEN, RACAPE.ALMACEN_DESTINO, RACAPE.ITEMS_ENVIADOS, RACAPE.UNIDADES_ENVIADAS, RACAPE.ITEMS_RECIBIDOS, RACAPE.UNIDADES_RECIBIDAS, RACAPE.FECHA_CREACION, RACAPE.USUARIO_CREACION, RACAPE.FECHA_REC_EN_TRAN, RACAPE.USUARIO_REC_EN_TRAN, RACAPE.FECHA_INICIO_RECEPCION, RACAPE.USUARIO_INICIO_RECEPCION, RACAPE.FECHA_FIN_RECEPCION, RACAPE.USUARIO_FIN_RECEPCION, RACAPE.FECHA_FALTANTES_SOBRANTES, RACAPE.USUARIO_FALTANTES_SOBRANTES, RACAPE.FECHA_CERRADO, RACAPE.USUARIO_CERRADO, RACAPE.FECHA_TRASLADO_AUDITORIA, RACAPE.USUARIO_TRASLADO_AUDITORIA, RACAPE.FECHA_TRANSACCION, RACAPE.FECHA_CARGA_DWH FROM RACAPE  WHERE (RACAPE.FECHA_TRANSACCION >= add_months(sysdate(), -2));
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'RAFASO', "ui_display_name" = 'QRY_FILTRO_RAFASO', "ui_where_text" = 'RAFASO.FECHA_TRANSACCION >= add_months( sysdate( ),-2)
+', "x" = '1099', "y" = '-1512')
+GUID::'c336a445-d0b5-498f-a19a-63e0725a7a2d' CREATE VIEW QRY_FILTRO_RAFASO( ID_PAIS INT  SET( "Description" = 'ID de Pais', "ui_mapping_text" = 'RAFASO.ID_PAIS') ,
+ COMPAÑIA VARCHAR(3)  SET( "Description" = 'Compania', "ui_mapping_text" = 'RAFASO.COMPAÑIA') ,
+ TIPO_DOCUMENTO VARCHAR(5)  SET( "Description" = 'Tipo de Documento', "ui_mapping_text" = 'RAFASO.TIPO_DOCUMENTO') ,
+ DOCUMENTO VARCHAR(8)  SET( "Description" = 'No. Documento', "ui_mapping_text" = 'RAFASO.DOCUMENTO') ,
+ ID_STATUS VARCHAR(8)  SET( "Description" = 'ID de Status', "ui_mapping_text" = 'RAFASO.ID_STATUS') ,
+ ALMACEN_ORIGEN VARCHAR(2)  SET( "Description" = 'Almacén Origen', "ui_mapping_text" = 'RAFASO.ALMACEN_ORIGEN') ,
+ ALMACEN_DESTINO VARCHAR(2)  SET( "Description" = 'Almacén Destino', "ui_mapping_text" = 'RAFASO.ALMACEN_DESTINO') ,
+ ENVIO VARCHAR(4)  SET( "Description" = 'Numero de Envio', "ui_mapping_text" = 'RAFASO.ENVIO') ,
+ REMISION VARCHAR(6)  SET( "Description" = 'Numero de Remision', "ui_mapping_text" = 'RAFASO.REMISION') ,
+ PREPARACION VARCHAR(13)  SET( "Description" = 'NPreparación Referencia', "ui_mapping_text" = 'RAFASO.PREPARACION') ,
+ CAJA VARCHAR(7)  SET( "Description" = 'No.Caja ListPrep', "ui_mapping_text" = 'RAFASO.CAJA') ,
+ CODIGO VARCHAR(17)  SET( "Description" = 'CodProd SuperRep', "ui_mapping_text" = 'RAFASO.CODIGO') ,
+ UNIDADES_TRANSITO DECIMAL(7, 0)  SET( "Description" = 'Unidades EnTransito', "ui_mapping_text" = 'RAFASO.UNIDADES_TRANSITO') ,
+ UNIDADES_RECIBIDAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Recibidas', "ui_mapping_text" = 'RAFASO.UNIDADES_RECIBIDAS') ,
+ UNIDADES_AVERIAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Averias', "ui_mapping_text" = 'RAFASO.UNIDADES_AVERIAS') ,
+ FECHA_CREACION DATETIME(9)  SET( "Description" = 'Fecha de Creacion', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RAFASO.FECHA_CREACION') ,
+ USUARIO_CREACION VARCHAR(10)  SET( "Description" = 'Usuario Creación', "ui_mapping_text" = 'RAFASO.USUARIO_CREACION') ,
+ FECHA_CIERRE DATETIME(9)  SET( "Description" = 'Fecha de Cierre', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RAFASO.FECHA_CIERRE') ,
+ USUARIO_CIERRE VARCHAR(10)  SET( "Description" = 'Usuario Cierre', "ui_mapping_text" = 'RAFASO.USUARIO_CIERRE') ,
+ APLICA_AJUSTE VARCHAR(1)  SET( "Description" = 'Aplicar Ajustes', "ui_mapping_text" = 'RAFASO.APLICA_AJUSTE') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RAFASO.FECHA_TRANSACCION') ,
+ FECHA_DWH_CRG DATETIME(9)  SET( "Description" = 'Fecha de Carga', "Native Type" = 'DATETIME2', "ui_mapping_text" = 'RAFASO.FECHA_DWH_CRG')  )
+ AS
+SELECT RAFASO.ID_PAIS, RAFASO.COMPAÑIA, RAFASO.TIPO_DOCUMENTO, RAFASO.DOCUMENTO, RAFASO.ID_STATUS, RAFASO.ALMACEN_ORIGEN, RAFASO.ALMACEN_DESTINO, RAFASO.ENVIO, RAFASO.REMISION, RAFASO.PREPARACION, RAFASO.CAJA, RAFASO.CODIGO, RAFASO.UNIDADES_TRANSITO, RAFASO.UNIDADES_RECIBIDAS, RAFASO.UNIDADES_AVERIAS, RAFASO.FECHA_CREACION, RAFASO.USUARIO_CREACION, RAFASO.FECHA_CIERRE, RAFASO.USUARIO_CIERRE, RAFASO.APLICA_AJUSTE, RAFASO.FECHA_TRANSACCION, RAFASO.FECHA_DWH_CRG FROM RAFASO  WHERE (RAFASO.FECHA_TRANSACCION >= add_months(sysdate(), -2));
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos varchar de fecha y hora a datetime', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Fri Sep 23 11:48:03 2022', "ActaValue_7" = 'Fri Sep 23 15:16:28 2022', "InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '65', "ui_script_text" = '$fechaVarchar = $PR_FechaVarchar;
+$horaVarchar = $PR_HoraVarchar;
+
+
+$fechaInicial = \'20000101\';
+$fechaFinal = \'20991231\'; 
+$FechaHora = NULL;
+
+try
+	begin
+	    if($fechaVarchar >= $fechaInicial and $fechaVarchar <= $fechaFinal )
+          begin
+             $FechaHora = to_date($fechaVarchar || \' \' || $horaVarchar, \'yyyymmdd hh24:mi:ss\' );
+          end
+
+	end
+catch ( all )
+	begin
+	   sysdate( ); 	
+	end
+
+end_try
+
+
+Return $FechaHora;', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Fecha_Datetime_Stage($PR_FechaVarchar VARCHAR(8)  IN, $PR_HoraVarchar VARCHAR(8)  IN )
+RETURNS  DATETIME(9) 
+DECLARE
+     $FechaHora DATETIME(9) ;
+     $fechaVarchar VARCHAR(8) ;
+     $horaVarchar VARCHAR(8) ;
+     $fechaInicial VARCHAR(8) ;
+     $fechaFinal VARCHAR(8) ;
+BEGIN
+$fechaVarchar = $PR_FechaVarchar;$horaVarchar = $PR_HoraVarchar;$fechaInicial = '20000101';$fechaFinal = '20991231';$FechaHora =  NULL ;TRY
+BEGIN
+IF ((($fechaVarchar >= $fechaInicial) AND
+   ($fechaVarchar <= $fechaFinal)) )
+BEGIN
+$FechaHora = to_date((($fechaVarchar || ' ') || $horaVarchar), 'yyyymmdd hh24:mi:ss');END
+END
+CATCH (210101)
+BEGIN
+sysdate();END
+
+END_TRY
+RETURN $FechaHora;
+END
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos de fecha en formato de numero a varchar', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 08:35:55 2021', "ActaValue_7" = 'Wed Dec  7 17:51:55 2022', "InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '44', "ui_script_text" = '$fechaNum = $PR_FechaNum;
+$fechaVarchar = ifthenelse(($fechaNum <> 0 AND length($fechaNum) = 8), cast($fechaNum ,\'varchar(8)\'), \'19000101\');
+Return $fechaVarchar;', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Fecha_num_a_varchar($PR_FechaNum DECIMAL(8, 0)  IN )
+RETURNS  VARCHAR(8) 
+DECLARE
+     $fechaNum DECIMAL(8, 0) ;
+     $fechaVarchar VARCHAR(8) ;
+BEGIN
+$fechaNum = $PR_FechaNum;$fechaVarchar = ifthenelse((($fechaNum != 0) AND
+   (length($fechaNum) = 8)), cast($fechaNum, 'varchar(8)'), '19000101');RETURN $fechaVarchar;
+END
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos de hora a varchar', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 08:46:26 2021', "ActaValue_7" = 'Tue Jan 24 15:16:07 2023', "InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '65', "ui_script_text" = '$horaNum = lpad(cast($PR_HoraNum, \'varchar(6)\'),6,\'0\');
+$horaVarchar = ifthenelse(length( $horaNum ) = 6, 
+substr($horaNum,1,2)||\':\'|| substr($horaNum,3,2)||\':\'|| substr($horaNum,5,2), 
+\'00:00:00\');
+$horaVarchar = 
+ifthenelse(cast(substr( $horaVarchar,1,2),\'INT\') <= 23 ,
+ifthenelse(cast(substr( $horaVarchar,4,2),\'INT\') <= 59, 
+ifthenelse(cast(substr( $horaVarchar,7,2),\'INT\') <= 59, $horaVarchar,\'00:00:00\'),\'00:00:00\'),\'00:00:00\'); 
+
+Return $horaVarchar;
+
+
+', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Hora_num_a_varchar($PR_HoraNum DECIMAL(8, 0)  IN )
+RETURNS  VARCHAR(8) 
+DECLARE
+     $horaNum DECIMAL(8, 0) ;
+     $horaVarchar VARCHAR(8) ;
+BEGIN
+$horaNum = lpad(cast($PR_HoraNum, 'varchar(6)'), 6, '0');$horaVarchar = ifthenelse((length($horaNum) = 6), ((((substr($horaNum, 1, 2) || ':') || substr($horaNum, 3, 2)) || ':') || substr($horaNum, 5, 2)), '00:00:00');$horaVarchar = ifthenelse((cast(substr($horaVarchar, 1, 2), 'INT') <= 23), ifthenelse((cast(substr($horaVarchar, 4, 2), 'INT') <= 59), ifthenelse((cast(substr($horaVarchar, 7, 2), 'INT') <= 59), $horaVarchar, '00:00:00'), '00:00:00'), '00:00:00');RETURN $horaVarchar;
+END
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Dec 20 15:43:44 2022', "ActaValue_3" = 'Wed Jan 25 11:08:46 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STAGE_RACAPE_SV::'b947fe3d-0ca4-466c-a63e-383bd2b56b24'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_DELETE_RACAPE_SV', "ui_script_text" = 'PRINT(\'################################--> ELIMINACION DE REGISTROS EN RACAPE SV  <--################################\');
+
+SQL(\'DS_SQL_SERVER_CDD_BI\',\'DELETE FROM CDD_BI.DBO.RACAPE WHERE FECHA_TRANSACCION >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \\\'yyyyMMdd\\\')\');
+
+', "x" = '1181', "y" = '-910')
+BEGIN_SCRIPT
+print('################################--> ELIMINACION DE REGISTROS EN RACAPE SV  <--################################');sql('DS_SQL_SERVER_CDD_BI', 'DELETE FROM CDD_BI.DBO.RACAPE WHERE FECHA_TRANSACCION >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \'yyyyMMdd\')');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1936', "y" = '-911')
+CALL DATAFLOW DF_RACAPE_CRG::'3211afa7-dd04-4fb2-a6f8-a32cc5d93a87'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STAGE_RADIFE_SV::'3287d977-aea4-491c-850d-e89cfb8c98e8'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>313</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1397', "y" = '-1063')
+CALL DATAFLOW DF_RADIFE_CRG::'d5dc1c34-8a61-4fe7-a781-97ba6d4f7236'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jan 24 15:31:06 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STAGE_RAFASO_SV::'53b00466-412e-4cad-ba6c-7483aa4c8cd5'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_DELETE_RAFASO_SV', "ui_script_text" = 'PRINT(\'################################--> ELIMINACION DE REGISTROS EN RAFASO SV  <--################################\');
+
+SQL(\'DS_SQL_SERVER_CDD_BI\',\'DELETE FROM CDD_BI.DBO.RAFASO WHERE FECHA_TRANSACCION >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \\\'yyyyMMdd\\\')\');', "x" = '1251', "y" = '-1114')
+BEGIN_SCRIPT
+print('################################--> ELIMINACION DE REGISTROS EN RAFASO SV  <--################################');sql('DS_SQL_SERVER_CDD_BI', 'DELETE FROM CDD_BI.DBO.RAFASO WHERE FECHA_TRANSACCION >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \'yyyyMMdd\')');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>338</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1920', "y" = '-1113')
+CALL DATAFLOW DF_RAFASO_CRG::'71d9f87d-0605-4000-bf10-c35c4ec386ad'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jan 24 15:31:06 2023', "ActaValue_3" = 'Wed Jan 25 14:44:00 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_SUMARIA_TRANSITOS_SV::'d373f74c-4e06-4a0e-8b44-9e39f21dbd1c'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>425</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_DELETE_SUMARIA_TRANSITOS_SV', "ui_script_text" = 'PRINT(\'################################--> ELIMINACION DE REGISTROS EN SUMARIA TRANSITOS SV <--################################\');
+
+SQL(\'DS_SQL_SERVER_CDD_BI\',\'DELETE FROM CDD_BI.DBO.SUMARIA_TRANSITOS WHERE FECHA_EN_TRANSITO >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \\\'yyyyMMdd\\\')\');
+', "x" = '1025', "y" = '-907')
+BEGIN_SCRIPT
+print('################################--> ELIMINACION DE REGISTROS EN SUMARIA TRANSITOS SV <--################################');sql('DS_SQL_SERVER_CDD_BI', 'DELETE FROM CDD_BI.DBO.SUMARIA_TRANSITOS WHERE FECHA_EN_TRANSITO >= FORMAT(DATEADD(MONTH,-2,GETDATE()), \'yyyyMMdd\')');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1721', "y" = '-907')
+CALL DATAFLOW DF_SUMARIA_TRANSITOS::'1c3d9411-2a9b-491c-b1a8-5184fc71921f'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Jan 26 16:28:16 2023', "ActaValue_3" = 'Tue Feb  7 17:14:46 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_POST_STAGE_SUMARIA_TRANSITOS_SV::'f968bc1c-74c9-4b55-8863-1a2ef0f7c753'( )
+BEGIN
+PARALLEL
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>460</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '406', "y" = '-507')
+CALL PLAN WF_CRG_STAGE_RACAPE_SV::'b947fe3d-0ca4-466c-a63e-383bd2b56b24'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1058', "y" = '-548')
+CALL PLAN WF_CRG_STAGE_RADIFE_SV::'3287d977-aea4-491c-850d-e89cfb8c98e8'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>457</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1692', "y" = '-535')
+CALL PLAN WF_CRG_STAGE_RAFASO_SV::'53b00466-412e-4cad-ba6c-7483aa4c8cd5'();
+END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Jan 26 16:28:16 2023', "ActaValue_3" = 'Tue Feb  7 17:14:46 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_SUMARIA_TRANSITO_SV::'82d44420-6c09-4898-b856-bb746fb2f26b'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1183', "y" = '-861')
+CALL PLAN WF_POST_STAGE_SUMARIA_TRANSITOS_SV::'f968bc1c-74c9-4b55-8863-1a2ef0f7c753'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1935', "y" = '-861')
+CALL PLAN WF_CRG_SUMARIA_TRANSITOS_SV::'d373f74c-4e06-4a0e-8b44-9e39f21dbd1c'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

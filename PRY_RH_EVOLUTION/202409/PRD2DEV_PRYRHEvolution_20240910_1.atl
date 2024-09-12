@@ -1,0 +1,1370 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep 27 09:28:06 2023', "ActaValue_3" = 'Wed Sep 27 09:28:11 2023', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_AZURE_EVOLUTION::'529c947c-5ce7-4431-baf5-383f2720cfba' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E816B2AFF6249E48CD8FB6C1D21EFCD79EA21EC280F9B9C27EF27F489DA8703A87DC317693B09A398881E40D92A5</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E881BE38761C7F0E71EBBFD4D0658FCC8BA072D026FE4B953128037948D8BDAA4C33E41398E7AD2854902461BB2C</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>Azure VM</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E81B1937392712495D3F72F2813C69D610150A7946C2F65F3483445B043B80EEDBF8BEC0CC9CC7D6DBA7845660B3404F4C0CC6</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>db-evolution-01</sql_server_database>
+<sql_server_dataserver>srvevolution.database.windows.net</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>DbUserBi</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_AZURE_EVOLUTION', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8684CE96A9FB65BE82ECC90538E73E47D85D661ED0B94AAF059695E21391068E97024192559E2227500037548CBD0C6</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_EVOLUTION::'538a7dcd-46e9-4fea-9963-f8e78b8d3ff9' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E813E13B71DCA14FDAC3908C15A9B0F1D365A9191C25F27442320914FDD33853A1B6851153A75F8AD90CDB63E04F</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8EFA9C5D16CB62B1FEEF04208EF8A831D78F8EDAD384CB4ACB1E3F260CFF428DDF2EEB840AB7C461034C6C648CF</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E84CAEA8B6BEEB62D7EC957FEF7532944A0BE4BE7A3F7ABFC02FAA7414B56368A5FC223B7EB98757B601ECE5FB67E2457C1D294FF085F5</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_EVOLUTION</sql_server_database>
+<sql_server_dataserver>datawarehouse.superrepuestos.domain</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '305' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '305' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Tue Mar 19 10:59:52 2024' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Tue Sep  3 14:44:54 2024' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_AZURE_EVOLUTION.dbo.com_interfaz_comision(com_codpai VARCHAR(10)  NOT NULL , 
+com_codmoneda VARCHAR(2)  NOT NULL , 
+com_codigo_empleado VARCHAR(100)  NOT NULL , 
+com_codComercialEmp VARCHAR(4)  NOT NULL , 
+com_mes INT  NOT NULL , 
+com_anio INT  NOT NULL , 
+com_fechaEnvioInformacion DATETIME(3)  NOT NULL , 
+com_valor DECIMAL(19, 4)  NOT NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Mar 19 10:59:52 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Sun Sep  8 00:00:30 2024' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '531' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '531' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_AZURE_EVOLUTION.dbo.des_interfaz_Descuentos(des_codPais VARCHAR(3)  NOT NULL , 
+des_codEmp VARCHAR(10)  NOT NULL , 
+des_codInstitucion INT  NOT NULL , 
+des_codDescuento INT  NOT NULL , 
+des_refPrestamo VARCHAR(15)  NOT NULL , 
+des_vlrCuota DECIMAL(19, 4)  NOT NULL , 
+des_cuoOriginales INT  NOT NULL , 
+des_cuoDescontadas INT  NOT NULL , 
+des_vlrOriginal DECIMAL(19, 4)  NOT NULL , 
+des_vlrAcumDescontado DECIMAL(19, 4)  NOT NULL , 
+des_codPrioDescuento INT  NOT NULL , 
+des_fecIniDescuento INT  NOT NULL , 
+des_fecUltDescuento INT  NOT NULL , 
+des_fecFinDescuento INT  NOT NULL , 
+des_CodPropCuota INT  NOT NULL , 
+des_CodAuxiliar INT  NOT NULL , 
+des_CodAlmacen INT  NOT NULL , 
+des_numDocumento INT  NOT NULL , 
+des_fecDocumento INT  NOT NULL , 
+des_horaSistema INT  NOT NULL , 
+des_codTransaccion INT  NOT NULL , 
+des_ultMesAnioPagado INT  NOT NULL , 
+des_codEstado VARCHAR(1)  NOT NULL , 
+des_codOpcionGrabar INT  NOT NULL , 
+des_codPaisCont INT  NOT NULL , 
+des_codCompania INT  NOT NULL , 
+des_fecPartida INT  NOT NULL , 
+des_numPartida INT  NOT NULL , 
+des_correPartida INT  NOT NULL , 
+des_fecCreacion INT  NOT NULL , 
+des_horaCreacion INT  NOT NULL , 
+des_fecEnvioInformacion DATETIME(3)  NOT NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Definición de la información general del expediente de un empleado o candidato a empleado.' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed May 22 15:11:49 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_AZURE_EVOLUTION.exp.exp_expedientes(exp_codigo INT  KEY  NOT NULL  SET("Description" = 'Código de expediente autogenerado.', "Identity" = 'TRUE'), 
+exp_permite_recontratacion INT  NOT NULL  SET("Description" = 'Indica si al expediente se le podrá recontratar'), 
+exp_codigo_alternativo VARCHAR(36)  NOT NULL  SET("Description" = 'Código alternativo único para el expediente. Utilizado para unificar un código único para un expediente de cara al usuario'), 
+exp_primer_ape VARCHAR(50)  NOT NULL  SET("Description" = 'Primer apellido del empleado'), 
+exp_segundo_ape VARCHAR(50)  NULL  SET("Description" = 'Segundo apellido del empleado'), 
+exp_apellido_cas VARCHAR(50)  NULL  SET("Description" = 'Apellido de casada de la empleada.  Sólo debe llevar valor cuando el sexo es Femenino y el estado civil no es soltero.'), 
+exp_primer_nom VARCHAR(50)  NOT NULL  SET("Description" = 'Primer nombre del empleado'), 
+exp_segundo_nom VARCHAR(50)  NULL  SET("Description" = 'Segundo nombre del empleado'), 
+exp_otros_nom VARCHAR(100)  NULL  SET("Description" = 'Tercer y otros nombres del empleado'), 
+exp_nombre_usual VARCHAR(250)  NULL  SET("Description" = 'Nombre con el que es conocida usualmente la persona'), 
+exp_codpai_nacionalidad VARCHAR(2)  NULL  SET("Description" = 'Código del país de la nacionalidad del empleado'), 
+exp_codpai_nacimiento VARCHAR(2)  NULL  SET("Description" = 'Código del país donde nació la persona'), 
+exp_codtip INT  NULL  SET("Description" = 'Código del título personal que utiliza el expediente'), 
+exp_sexo VARCHAR(1)  NOT NULL  SET("Description" = 'Género o sexo del empleado: F=Femenino, M=Masculino'), 
+exp_edad INT  NULL  SET("Description" = 'Edad actual de la persona'), 
+exp_profesion VARCHAR(100)  NOT NULL  SET("Description" = 'Descripción de la profesión del empleado'), 
+exp_estado_civil VARCHAR(1)  NOT NULL  SET("Description" = 'Estado civil del empleado: S=Soltero C=Casado'), 
+exp_fecha_nac DATETIME(3)  NOT NULL  SET("Description" = 'Fecha de nacimiento del empleado'), 
+exp_codmun_nac INT  NULL  SET("Description" = 'Código del departamento de nacimiento del empleado'), 
+exp_coddep_nac INT  NULL  SET("Description" = 'Código del departamento donde nació la persona'), 
+exp_lugar_nac INT  NULL  SET("Description" = 'Lugar de nacimiento del empleado'), 
+exp_email VARCHAR(100)  NULL  SET("Description" = 'Correo electrónico del expediente del empleado'), 
+exp_email_interno VARCHAR(100)  NULL  SET("Description" = 'Correo electrónico interno de la persona'), 
+exp_telefono_movil VARCHAR(20)  NULL  SET("Description" = 'Número de teléfono móvil de la persona'), 
+exp_telefono_interno VARCHAR(20)  NULL  SET("Description" = 'Número de teléfono móvil interno de la persona'), 
+exp_codupf VARCHAR(36)  NULL  SET("Description" = 'Código del archivo de la foto del expediente de la persona'), 
+exp_apellidos_nombres VARCHAR(258)  NULL  SET("Description" = 'Apellidos y nombres del empleado.  (Campo calculado)'), 
+exp_nombres_apellidos VARCHAR(257)  NULL  SET("Description" = 'Nombres y apellidos del empleado (Calculado)'), 
+exp_observaciones VARCHAR(4000)  NULL  SET("Description" = 'Observaciones adicionales del expediente'), 
+exp_codpai_digita VARCHAR(2)  NULL  SET("Description" = 'Código del país donde se digitó el expediente'), 
+exp_property_bag_data LONG  NULL  SET("Description" = 'Data de los campos adicionales', "Long Type" = 'NCLOB', "Native Type" = 'xml'), 
+exp_usuario_grabacion VARCHAR(50)  NULL  SET("Description" = 'Usuario que creó el registro'), 
+exp_fecha_grabacion DATETIME(3)  NULL  SET("Description" = 'Fecha en que se creó el registro'), 
+exp_usuario_modificacion VARCHAR(50)  NULL  SET("Description" = 'Usuario que modificó el registro la última vez'), 
+exp_fecha_modificacion DATETIME(3)  NULL  SET("Description" = 'Fecha en que se modificó por última vez'), 
+exp_letra_indice VARCHAR(2)  NOT NULL  SET("Description" = 'Primera letral del primer apellido del expediente del empleado o candidato.  Utilizado en el módulo de expedientes para ordenar los expedientes en orden alfabético.')) 
+PRIMARY KEY (exp_codigo) 
+CREATE_INDEX EXP_EXPEDIENTES_CODIGO_INCLUDE_CODIGO_ALTERNATIVO_APELLIDOS_NOMBRES ON (exp_codigo) 
+CREATE_INDEX IX_EXP_EXP_CODIGO_ALTERNATIVO ON (exp_codigo_alternativo) 
+CREATE_INDEX PK_EXP_EXPEDIENTE ON (exp_codigo) PRIMARY 
+SET("db_alias_name" = 'EXP')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '2929' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '2929' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '25 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'yes' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed May 22 15:23:36 2024' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Mon Sep  9 18:00:56 2024' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed May 22 15:23:36 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.EXP_EXPEDIENTES(EXP_CODIGO INT  KEY  NOT NULL  SET("Description" = 'Código de expediente autogenerado.'), 
+EXP_PERMITE_RECONTRATACION INT  NOT NULL  SET("Description" = 'Indica si al expediente se le podrá recontratar'), 
+EXP_CODIGO_ALTERNATIVO VARCHAR(36)  NOT NULL  SET("Description" = 'Código alternativo único para el expediente. Utilizado para unificar un código único para un expediente de cara al usuario'), 
+EXP_PRIMER_APE VARCHAR(50)  NOT NULL  SET("Description" = 'Primer apellido del empleado'), 
+EXP_SEGUNDO_APE VARCHAR(50)  NULL  SET("Description" = 'Segundo apellido del empleado'), 
+EXP_APELLIDO_CAS VARCHAR(50)  NULL  SET("Description" = 'Apellido de casada de la empleada.  Sólo debe llevar valor cuando el sexo es Femenino y el estado civil no es soltero.'), 
+EXP_PRIMER_NOM VARCHAR(50)  NOT NULL  SET("Description" = 'Primer nombre del empleado'), 
+EXP_SEGUNDO_NOM VARCHAR(50)  NULL  SET("Description" = 'Segundo nombre del empleado'), 
+EXP_OTROS_NOM VARCHAR(100)  NULL  SET("Description" = 'Tercer y otros nombres del empleado'), 
+EXP_NOMBRE_USUAL VARCHAR(250)  NULL  SET("Description" = 'Nombre con el que es conocida usualmente la persona'), 
+EXP_CODPAI_NACIONALIDAD VARCHAR(2)  NULL  SET("Description" = 'Código del país de la nacionalidad del empleado'), 
+EXP_CODPAI_NACIMIENTO VARCHAR(2)  NULL  SET("Description" = 'Código del país donde nació la persona'), 
+EXP_CODTIP INT  NULL  SET("Description" = 'Código del título personal que utiliza el expediente'), 
+EXP_SEXO VARCHAR(1)  NOT NULL  SET("Description" = 'Género o sexo del empleado: F=Femenino, M=Masculino'), 
+EXP_EDAD INT  NULL  SET("Description" = 'Edad actual de la persona'), 
+EXP_PROFESION VARCHAR(100)  NOT NULL  SET("Description" = 'Descripción de la profesión del empleado'), 
+EXP_ESTADO_CIVIL VARCHAR(1)  NOT NULL  SET("Description" = 'Estado civil del empleado: S=Soltero C=Casado'), 
+EXP_FECHA_NAC DATETIME(3)  NOT NULL  SET("Description" = 'Fecha de nacimiento del empleado', "Native Type" = 'DATETIME2'), 
+EXP_CODMUN_NAC INT  NULL  SET("Description" = 'Código del departamento de nacimiento del empleado'), 
+EXP_CODDEP_NAC INT  NULL  SET("Description" = 'Código del departamento donde nació la persona'), 
+EXP_LUGAR_NAC INT  NULL  SET("Description" = 'Lugar de nacimiento del empleado'), 
+EXP_EMAIL VARCHAR(100)  NULL  SET("Description" = 'Correo electrónico del expediente del empleado'), 
+EXP_EMAIL_INTERNO VARCHAR(100)  NULL  SET("Description" = 'Correo electrónico interno de la persona'), 
+EXP_TELEFONO_MOVIL VARCHAR(20)  NULL  SET("Description" = 'Número de teléfono móvil de la persona'), 
+EXP_TELEFONO_INTERNO VARCHAR(20)  NULL  SET("Description" = 'Número de teléfono móvil interno de la persona'), 
+EXP_CODUPF VARCHAR(36)  NULL  SET("Description" = 'Código del archivo de la foto del expediente de la persona'), 
+EXP_APELLIDOS_NOMBRES VARCHAR(258)  NULL  SET("Description" = 'Apellidos y nombres del empleado.  (Campo calculado)'), 
+EXP_NOMBRES_APELLIDOS VARCHAR(257)  NULL  SET("Description" = 'Nombres y apellidos del empleado (Calculado)'), 
+EXP_OBSERVACIONES VARCHAR(4000)  NULL  SET("Description" = 'Observaciones adicionales del expediente'), 
+EXP_CODPAI_DIGITA VARCHAR(2)  NULL  SET("Description" = 'Código del país donde se digitó el expediente'), 
+EXP_PROPERTY_BAG_DATA LONG  NULL  SET("Description" = 'Data de los campos adicionales', "Long Type" = 'NCLOB', "Native Type" = 'xml'), 
+EXP_USUARIO_GRABACION VARCHAR(50)  NULL  SET("Description" = 'Usuario que creó el registro'), 
+EXP_FECHA_GRABACION DATETIME(3)  NULL  SET("Description" = 'Fecha en que se creó el registro', "Native Type" = 'DATETIME2'), 
+EXP_USUARIO_MODIFICACION VARCHAR(50)  NULL  SET("Description" = 'Usuario que modificó el registro la última vez'), 
+EXP_FECHA_MODIFICACION DATETIME(3)  NULL  SET("Description" = 'Fecha en que se modificó por última vez', "Native Type" = 'DATETIME2'), 
+EXP_LETRA_INDICE VARCHAR(2)  NOT NULL  SET("Description" = 'Primera letral del primer apellido del expediente del empleado o candidato.  Utilizado en el módulo de expedientes para ordenar los expedientes en orden alfabético.'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+PRIMARY KEY (EXP_CODIGO) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Mar 19 10:59:52 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_AZURE_EVOLUTION.fwk.Hist_Logs(date_id DATETIME(3)  NULL , 
+code_param INT  NOT NULL  SET("Identity" = 'TRUE'), 
+name_param VARCHAR(8000)  NULL , 
+value INT  NULL ) 
+SET("db_alias_name" = 'FWK')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Sep 10 09:15:15 2024' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '71' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '71' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Thu Feb 29 09:07:46 2024' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue Mar 19 10:59:52 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.HIST_LOGS(DATE_ID DATETIME(3)  NULL  SET("Native Type" = 'DATETIME2'), 
+CODE_PARAM INT  NOT NULL , 
+NAME_PARAM VARCHAR(8000)  NULL , 
+VALUE INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed May 22 12:07:28 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_AZURE_EVOLUTION.sv.ide_identificacion_exp_v(ide_codexp INT  NOT NULL , 
+ide_cip VARCHAR(30)  NULL , 
+ide_cip_fecha DATETIME(3)  NULL , 
+ide_cip_fecha_vencimiento DATETIME(3)  NULL , 
+ide_cip_codpai VARCHAR(2)  NULL , 
+ide_cip_coddep INT  NULL , 
+ide_cip_codmun INT  NULL , 
+ide_isss VARCHAR(30)  NULL , 
+ide_nit VARCHAR(30)  NULL , 
+ide_nup VARCHAR(30)  NULL , 
+ide_codafp INT  NULL , 
+ide_pasaporte VARCHAR(30)  NULL , 
+ide_vencimiento_pasaporte DATETIME(3)  NULL , 
+ide_residente VARCHAR(30)  NULL , 
+ide_residente_vence DATETIME(3)  NULL , 
+ide_nombre_cip VARCHAR(150)  NULL , 
+ide_nombre_afp VARCHAR(150)  NULL , 
+ide_nombre_isss VARCHAR(150)  NULL , 
+ide_nombre_nit VARCHAR(150)  NULL ) 
+SET("db_alias_name" = 'SV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Mon Sep  9 18:00:20 2024' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '2908' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '2908' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '0 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'yes' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Wed May 22 14:03:13 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.IDE_IDENTIFICACION_EXP_V(IDE_CODEXP INT  NOT NULL , 
+IDE_CIP VARCHAR(30)  NULL , 
+IDE_CIP_FECHA DATETIME(3)  NULL  SET("Native Type" = 'DATETIME2'), 
+IDE_CIP_FECHA_VENCIMIENTO DATETIME(3)  NULL  SET("Native Type" = 'DATETIME2'), 
+IDE_CIP_CODPAI VARCHAR(2)  NULL , 
+IDE_CIP_CODDEP INT  NULL , 
+IDE_CIP_CODMUN INT  NULL , 
+IDE_ISSS VARCHAR(30)  NULL , 
+IDE_NIT VARCHAR(30)  NULL , 
+IDE_NUP VARCHAR(30)  NULL , 
+IDE_CODAFP INT  NULL , 
+IDE_PASAPORTE VARCHAR(30)  NULL , 
+IDE_VENCIMIENTO_PASAPORTE DATETIME(3)  NULL  SET("Native Type" = 'DATETIME2'), 
+IDE_RESIDENTE VARCHAR(30)  NULL , 
+IDE_RESIDENTE_VENCE DATETIME(3)  NULL  SET("Native Type" = 'DATETIME2'), 
+IDE_NOMBRE_CIP VARCHAR(150)  NULL , 
+IDE_NOMBRE_AFP VARCHAR(150)  NULL , 
+IDE_NOMBRE_ISSS VARCHAR(150)  NULL , 
+IDE_NOMBRE_NIT VARCHAR(150)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Tue Sep  3 14:44:48 2024' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '305' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '305' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed Oct  4 14:36:48 2023' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue Mar 19 10:59:52 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTCOMTB(CODPAI VARCHAR(10)  NULL , 
+CODMONCOM VARCHAR(3)  NULL , 
+CODEMP VARCHAR(100)  NULL , 
+CODCOMEMP VARCHAR(10)  NULL , 
+MESPCOM DECIMAL(2, 0)  NULL , 
+ANIOPCOM DECIMAL(4, 0)  NULL , 
+FECENVINF DATETIME(6)  NULL  SET("Native Type" = 'DATETIME2'), 
+VALORCOM DECIMAL(7, 2)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Thu Oct 19 11:07:41 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Sun Sep  8 00:00:22 2024' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '531' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '531' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '0 Seconds' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue Mar 19 10:59:52 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTDESTB(CODPAI VARCHAR(3)  NULL , 
+CODEMP VARCHAR(10)  NULL , 
+CODINS DECIMAL(3, 0)  NULL , 
+CODDES DECIMAL(3, 0)  NULL , 
+REFPRE VARCHAR(15)  NULL , 
+VLRCUO DECIMAL(11, 2)  NULL , 
+CUOORI DECIMAL(3, 0)  NULL , 
+CUODES DECIMAL(3, 0)  NULL , 
+VLRORI DECIMAL(11, 2)  NULL , 
+VLRACU DECIMAL(11, 2)  NULL , 
+CODPRI DECIMAL(2, 0)  NULL , 
+FECIND DECIMAL(8, 0)  NULL , 
+FECULD DECIMAL(8, 0)  NULL , 
+FECFID DECIMAL(8, 0)  NULL , 
+PRICUO DECIMAL(1, 0)  NULL , 
+CODAUX DECIMAL(2, 0)  NULL , 
+CODALM DECIMAL(5, 0)  NULL , 
+NUMDOC DECIMAL(9, 0)  NULL , 
+FECDOC DECIMAL(8, 0)  NULL , 
+HORSIS DECIMAL(6, 0)  NULL , 
+CODTRA DECIMAL(3, 0)  NULL , 
+ULTMAP DECIMAL(6, 0)  NULL , 
+CODSTA VARCHAR(1)  NULL , 
+OPCGRA DECIMAL(1, 0)  NULL , 
+PAICON DECIMAL(3, 0)  NULL , 
+CODCOM DECIMAL(3, 0)  NULL , 
+FECPAR DECIMAL(8, 0)  NULL , 
+NUMPAR DECIMAL(8, 0)  NULL , 
+CORPAR DECIMAL(5, 0)  NULL , 
+FECCRE DECIMAL(8, 0)  NULL , 
+HORCRE DECIMAL(6, 0)  NULL , 
+FECINF DATETIME(6)  NULL  SET("Native Type" = 'DATETIME2'), 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'STG')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May 22 12:10:27 2024', "ActaValue_3" = 'Wed May 22 12:10:52 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION Azure_InformacionEmpleado::'dd14ae59-dee2-4bd1-a88e-3ab7d1d1d3c8'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1122', "y" = '-741')
+CALL DATAFLOW DF_CRG_STG_AZU2STG_ide_identificacion_exp_v::'3124c2f0-6f08-449d-9168-d5947f286905'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1975', "y" = '-743')
+CALL DATAFLOW DF_CRG_STG_AAZU2STG_exp_expedientes::'5376f56f-92f1-469c-85fc-f5b916bdef5f'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'dd14ae59-dee2-4bd1-a88e-3ab7d1d1d3c8', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'Azure_InformacionEmpleado', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Thu Jan 11 16:36:14 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION COCDETPRD::'30e38a3c-9bca-47cf-a53c-ae88b532da84'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '281', "y" = '-229')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark Conta Cerrada - Detalle #####################################\');
+print(\'##########################################################################################################################\');', "x" = '628', "y" = '-308')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark Conta Cerrada - Detalle #####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Conta Cerrada Cabecera', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteContaCerradaDetalleCont.py\',
+	 0
+)
+;', "x" = '991', "y" = '-455')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteContaCerradaDetalleCont.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark Conta Cerrada - Detalle  #####################################\');
+print(\'##########################################################################################################################\');', "x" = '1373', "y" = '-560')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark Conta Cerrada - Detalle  #####################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1737', "y" = '-692')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '30e38a3c-9bca-47cf-a53c-ae88b532da84', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'COCDETPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Thu Jan 11 16:36:14 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION COCECAPRD::'afe9e329-7aff-4526-b0b3-0f47ed392c7d'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '346', "y" = '-169')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark Conta Cerrada - Cabecera #####################################\');
+print(\'##########################################################################################################################\');', "x" = '693', "y" = '-248')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark Conta Cerrada - Cabecera #####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Conta Cerrada Cabecera', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteContaCerradaCabeceraCont.py\',
+	 0
+)
+;', "x" = '1056', "y" = '-395')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteContaCerradaCabeceraCont.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark Conta Cerrada - Cabecera #####################################\');
+print(\'##########################################################################################################################\');', "x" = '1438', "y" = '-500')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark Conta Cerrada - Cabecera #####################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1802', "y" = '-632')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'afe9e329-7aff-4526-b0b3-0f47ed392c7d', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'COCECAPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Thu Jan 11 17:40:21 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION COMISIPRD::'6c67de2f-8031-4e66-a822-a40c172344b3'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '500', "y" = '-544')
+CALL DATAFLOW DF_CRG_STG_AS2STG_PDINTCOMTB::'8f7781a9-0e63-49f2-8cbb-84dfcd086cdc'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1469', "y" = '-547')
+CALL DATAFLOW DF_CRG_STG_STG2AZU_PDINTCOMTB::'301bcf35-538c-433a-ad2f-4b4f4d655ee3'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '6c67de2f-8031-4e66-a822-a40c172344b3', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'COMISIPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Thu Jan 11 16:36:14 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION CREDESPRD::'81e0821f-7e11-4b33-ade0-e2528f180166'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '838', "y" = '-647')
+CALL DATAFLOW DF_CRG_STG_AS2STG_PDINTDESTB::'894cf805-a31a-4a36-81b5-9b7a906d1721'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2028', "y" = '-619')
+CALL DATAFLOW DF_CRG_STG_STG2AZU_PDINTDESTB::'504480f5-c0b2-4197-84c4-7e2423c4cb7f'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '81e0821f-7e11-4b33-ade0-e2528f180166', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'CREDESPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Thu Jan 11 16:36:14 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION CREMOVPRD::'28710067-d86f-4b06-8bfe-b33f47447cd4'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '316', "y" = '-279')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark Credito Movimientos #####################################\');
+print(\'##########################################################################################################################\');', "x" = '663', "y" = '-345')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark Credito Movimientos #####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>344</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Credito Movimientos', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteMovimientosCreditos.py\',
+	 0
+)
+;', "x" = '1026', "y" = '-492')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteMovimientosCreditos.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark Credito Movimientos  #####################################\');
+print(\'##########################################################################################################################\');', "x" = '1408', "y" = '-597')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark Credito Movimientos  #####################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1772', "y" = '-729')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '28710067-d86f-4b06-8bfe-b33f47447cd4', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'CREMOVPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_AAZU2STG_exp_expedientes::'5376f56f-92f1-469c-85fc-f5b916bdef5f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>356</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '56', "x" = '638', "y" = '-522')
+GUID::'ee0427a4-13a4-4a45-9d18-ffda08291436' READ TABLE DS_AZURE_EVOLUTION.EXP.EXP_EXPEDIENTES OUTPUT(EXP_EXPEDIENTES)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_AZURE_EVOLUTION', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>400</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '56', "x" = '2130', "y" = '-532')
+GUID::'fff78ae1-0853-4bc1-8456-9ae6d93ae2d6' LOAD TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.EXP_EXPEDIENTES INPUT(Query)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '56', "ui_acta_from_schema_0" = 'EXP_EXPEDIENTES', "x" = '1330', "y" = '-660')
+GUID::'03f55230-b2f6-4276-b2ef-0abfc994bec4' CREATE VIEW Query( EXP_CODIGO INT  KEY  SET( "Description" = 'Código de expediente autogenerado.', "Identity" = 'TRUE', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODIGO') ,
+ EXP_PERMITE_RECONTRATACION INT  SET( "Description" = 'Indica si al expediente se le podrá recontratar', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_PERMITE_RECONTRATACION') ,
+ EXP_CODIGO_ALTERNATIVO VARCHAR(36)  SET( "Description" = 'Código alternativo único para el expediente. Utilizado para unificar un código único para un expediente de cara al usuario', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODIGO_ALTERNATIVO') ,
+ EXP_PRIMER_APE VARCHAR(50)  SET( "Description" = 'Primer apellido del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_PRIMER_APE') ,
+ EXP_SEGUNDO_APE VARCHAR(50)  SET( "Description" = 'Segundo apellido del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_SEGUNDO_APE') ,
+ EXP_APELLIDO_CAS VARCHAR(50)  SET( "Description" = 'Apellido de casada de la empleada.  Sólo debe llevar valor cuando el sexo es Femenino y el estado civil no es soltero.', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_APELLIDO_CAS') ,
+ EXP_PRIMER_NOM VARCHAR(50)  SET( "Description" = 'Primer nombre del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_PRIMER_NOM') ,
+ EXP_SEGUNDO_NOM VARCHAR(50)  SET( "Description" = 'Segundo nombre del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_SEGUNDO_NOM') ,
+ EXP_OTROS_NOM VARCHAR(100)  SET( "Description" = 'Tercer y otros nombres del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_OTROS_NOM') ,
+ EXP_NOMBRE_USUAL VARCHAR(250)  SET( "Description" = 'Nombre con el que es conocida usualmente la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_NOMBRE_USUAL') ,
+ EXP_CODPAI_NACIONALIDAD VARCHAR(2)  SET( "Description" = 'Código del país de la nacionalidad del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODPAI_NACIONALIDAD') ,
+ EXP_CODPAI_NACIMIENTO VARCHAR(2)  SET( "Description" = 'Código del país donde nació la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODPAI_NACIMIENTO') ,
+ EXP_CODTIP INT  SET( "Description" = 'Código del título personal que utiliza el expediente', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODTIP') ,
+ EXP_SEXO VARCHAR(1)  SET( "Description" = 'Género o sexo del empleado: F=Femenino, M=Masculino', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_SEXO') ,
+ EXP_EDAD INT  SET( "Description" = 'Edad actual de la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_EDAD') ,
+ EXP_PROFESION VARCHAR(100)  SET( "Description" = 'Descripción de la profesión del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_PROFESION') ,
+ EXP_ESTADO_CIVIL VARCHAR(1)  SET( "Description" = 'Estado civil del empleado: S=Soltero C=Casado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_ESTADO_CIVIL') ,
+ EXP_FECHA_NAC DATETIME(9)  SET( "Description" = 'Fecha de nacimiento del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_FECHA_NAC') ,
+ EXP_CODMUN_NAC INT  SET( "Description" = 'Código del departamento de nacimiento del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODMUN_NAC') ,
+ EXP_CODDEP_NAC INT  SET( "Description" = 'Código del departamento donde nació la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODDEP_NAC') ,
+ EXP_LUGAR_NAC INT  SET( "Description" = 'Lugar de nacimiento del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_LUGAR_NAC') ,
+ EXP_EMAIL VARCHAR(100)  SET( "Description" = 'Correo electrónico del expediente del empleado', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_EMAIL') ,
+ EXP_EMAIL_INTERNO VARCHAR(100)  SET( "Description" = 'Correo electrónico interno de la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_EMAIL_INTERNO') ,
+ EXP_TELEFONO_MOVIL VARCHAR(20)  SET( "Description" = 'Número de teléfono móvil de la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_TELEFONO_MOVIL') ,
+ EXP_TELEFONO_INTERNO VARCHAR(20)  SET( "Description" = 'Número de teléfono móvil interno de la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_TELEFONO_INTERNO') ,
+ EXP_CODUPF VARCHAR(36)  SET( "Description" = 'Código del archivo de la foto del expediente de la persona', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODUPF') ,
+ EXP_APELLIDOS_NOMBRES VARCHAR(258)  SET( "Description" = 'Apellidos y nombres del empleado.  (Campo calculado)', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_APELLIDOS_NOMBRES') ,
+ EXP_NOMBRES_APELLIDOS VARCHAR(257)  SET( "Description" = 'Nombres y apellidos del empleado (Calculado)', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_NOMBRES_APELLIDOS') ,
+ EXP_OBSERVACIONES VARCHAR(4000)  SET( "Description" = 'Observaciones adicionales del expediente', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_OBSERVACIONES') ,
+ EXP_CODPAI_DIGITA VARCHAR(2)  SET( "Description" = 'Código del país donde se digitó el expediente', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_CODPAI_DIGITA') ,
+ EXP_PROPERTY_BAG_DATA LONG  SET( "Description" = 'Data de los campos adicionales', "Long Type" = 'NCLOB', "Native Type" = 'xml', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_PROPERTY_BAG_DATA') ,
+ EXP_USUARIO_GRABACION VARCHAR(50)  SET( "Description" = 'Usuario que creó el registro', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_USUARIO_GRABACION') ,
+ EXP_FECHA_GRABACION DATETIME(9)  SET( "Description" = 'Fecha en que se creó el registro', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_FECHA_GRABACION') ,
+ EXP_USUARIO_MODIFICACION VARCHAR(50)  SET( "Description" = 'Usuario que modificó el registro la última vez', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_USUARIO_MODIFICACION') ,
+ EXP_FECHA_MODIFICACION DATETIME(9)  SET( "Description" = 'Fecha en que se modificó por última vez', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_FECHA_MODIFICACION') ,
+ EXP_LETRA_INDICE VARCHAR(2)  SET( "Description" = 'Primera letral del primer apellido del expediente del empleado o candidato.  Utilizado en el módulo de expedientes para ordenar los expedientes en orden alfabético.', "ui_mapping_text" = 'EXP_EXPEDIENTES.EXP_LETRA_INDICE') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT EXP_EXPEDIENTES.EXP_CODIGO, EXP_EXPEDIENTES.EXP_PERMITE_RECONTRATACION, EXP_EXPEDIENTES.EXP_CODIGO_ALTERNATIVO, EXP_EXPEDIENTES.EXP_PRIMER_APE, EXP_EXPEDIENTES.EXP_SEGUNDO_APE, EXP_EXPEDIENTES.EXP_APELLIDO_CAS, EXP_EXPEDIENTES.EXP_PRIMER_NOM, EXP_EXPEDIENTES.EXP_SEGUNDO_NOM, EXP_EXPEDIENTES.EXP_OTROS_NOM, EXP_EXPEDIENTES.EXP_NOMBRE_USUAL, EXP_EXPEDIENTES.EXP_CODPAI_NACIONALIDAD, EXP_EXPEDIENTES.EXP_CODPAI_NACIMIENTO, EXP_EXPEDIENTES.EXP_CODTIP, EXP_EXPEDIENTES.EXP_SEXO, EXP_EXPEDIENTES.EXP_EDAD, EXP_EXPEDIENTES.EXP_PROFESION, EXP_EXPEDIENTES.EXP_ESTADO_CIVIL, EXP_EXPEDIENTES.EXP_FECHA_NAC, EXP_EXPEDIENTES.EXP_CODMUN_NAC, EXP_EXPEDIENTES.EXP_CODDEP_NAC, EXP_EXPEDIENTES.EXP_LUGAR_NAC, EXP_EXPEDIENTES.EXP_EMAIL, EXP_EXPEDIENTES.EXP_EMAIL_INTERNO, EXP_EXPEDIENTES.EXP_TELEFONO_MOVIL, EXP_EXPEDIENTES.EXP_TELEFONO_INTERNO, EXP_EXPEDIENTES.EXP_CODUPF, EXP_EXPEDIENTES.EXP_APELLIDOS_NOMBRES, EXP_EXPEDIENTES.EXP_NOMBRES_APELLIDOS, EXP_EXPEDIENTES.EXP_OBSERVACIONES, EXP_EXPEDIENTES.EXP_CODPAI_DIGITA, EXP_EXPEDIENTES.EXP_PROPERTY_BAG_DATA, EXP_EXPEDIENTES.EXP_USUARIO_GRABACION, EXP_EXPEDIENTES.EXP_FECHA_GRABACION, EXP_EXPEDIENTES.EXP_USUARIO_MODIFICACION, EXP_EXPEDIENTES.EXP_FECHA_MODIFICACION, EXP_EXPEDIENTES.EXP_LETRA_INDICE, sysdate() FROM EXP_EXPEDIENTES 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:52 2024', "ActaValue_3" = 'Wed Feb 28 17:07:21 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_AS2STG_PDINTCOMTB::'8f7781a9-0e63-49f2-8cbb-84dfcd086cdc'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>294</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_PDINTCOMTB', "x" = '322', "y" = '-550')
+GUID::'38cfbb65-c1e9-434e-8560-f14bb3315a34' CALL TRANSFORM SQL() OUTPUT(SQL_PDINTCOMTB( CODPAI VARCHAR(10) ,
+ CODMONCOM VARCHAR(3) ,
+ CODEMP VARCHAR(100) ,
+ CODCOMEMP VARCHAR(10) ,
+ MESPCOM DECIMAL(2, 0) ,
+ ANIOPCOM DECIMAL(4, 0) ,
+ FECENVINF DATETIME(9) ,
+ VALORCOM DECIMAL(7, 2)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select * from NEWCTB.PDINTCOMTB</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_PDINTCOMTB', "ui_display_name" = 'QRY_STG', "x" = '815', "y" = '-538')
+GUID::'7180f3c5-2883-4952-b93a-8d2a38658027' CREATE VIEW QRY_STG( CODPAI VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.CODPAI') ,
+ CODMONCOM VARCHAR(3)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.CODMONCOM') ,
+ CODEMP VARCHAR(100)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.CODEMP') ,
+ CODCOMEMP VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.CODCOMEMP') ,
+ MESPCOM DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.MESPCOM') ,
+ ANIOPCOM DECIMAL(4, 0)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.ANIOPCOM') ,
+ FECENVINF DATETIME(9)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.FECENVINF') ,
+ VALORCOM DECIMAL(7, 2)  SET( "ui_mapping_text" = 'SQL_PDINTCOMTB.VALORCOM') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT SQL_PDINTCOMTB.CODPAI, SQL_PDINTCOMTB.CODMONCOM, SQL_PDINTCOMTB.CODEMP, SQL_PDINTCOMTB.CODCOMEMP, SQL_PDINTCOMTB.MESPCOM, SQL_PDINTCOMTB.ANIOPCOM, SQL_PDINTCOMTB.FECENVINF, SQL_PDINTCOMTB.VALORCOM, sysdate() FROM SQL_PDINTCOMTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'PDINTCOMTB(DS_SQL_SERVER_STAGE_EVOLUTION.STG)', "x" = '1380', "y" = '-532')
+GUID::'4e0d5a6f-53f2-4591-ac86-2610f893afc5' LOAD TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTCOMTB INPUT(QRY_STG)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Wed Feb 28 17:07:52 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_AS2STG_PDINTDESTB::'894cf805-a31a-4a36-81b5-9b7a906d1721'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>266</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQLPDINTDESTB', "x" = '724', "y" = '-925')
+GUID::'0ef1b399-3d9c-4e81-b728-2aef2b3901eb' CALL TRANSFORM SQL() OUTPUT(SQLPDINTDESTB( CODPAI VARCHAR(3) ,
+ CODEMP VARCHAR(10) ,
+ CODINS DECIMAL(3, 0) ,
+ CODDES DECIMAL(3, 0) ,
+ REFPRE VARCHAR(15) ,
+ VLRCUO DECIMAL(11, 2) ,
+ CUOORI DECIMAL(3, 0) ,
+ CUODES DECIMAL(3, 0) ,
+ VLRORI DECIMAL(11, 2) ,
+ VLRACU DECIMAL(11, 2) ,
+ CODPRI DECIMAL(2, 0) ,
+ FECIND DECIMAL(8, 0) ,
+ FECULD DECIMAL(8, 0) ,
+ FECFID DECIMAL(8, 0) ,
+ PRICUO DECIMAL(1, 0) ,
+ CODAUX DECIMAL(2, 0) ,
+ CODALM DECIMAL(5, 0) ,
+ NUMDOC DECIMAL(9, 0) ,
+ FECDOC DECIMAL(8, 0) ,
+ HORSIS DECIMAL(6, 0) ,
+ CODTRA DECIMAL(3, 0) ,
+ ULTMAP DECIMAL(6, 0) ,
+ CODSTA VARCHAR(1) ,
+ OPCGRA DECIMAL(1, 0) ,
+ PAICON DECIMAL(3, 0) ,
+ CODCOM DECIMAL(3, 0) ,
+ FECPAR DECIMAL(8, 0) ,
+ NUMPAR DECIMAL(8, 0) ,
+ CORPAR DECIMAL(5, 0) ,
+ FECCRE DECIMAL(8, 0) ,
+ HORCRE DECIMAL(6, 0) ,
+ FECINF DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from newctb.PDINTDESTB</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>316</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQLPDINTDESTB', "ui_display_name" = 'QRYPDINTDESTB', "x" = '1252', "y" = '-1057')
+GUID::'1af15c4d-569d-463a-9929-2786f1eb2cc1' CREATE VIEW QRYPDINTDESTB( CODPAI VARCHAR(3)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODPAI') ,
+ CODEMP VARCHAR(10)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODEMP') ,
+ CODINS DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODINS') ,
+ CODDES DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODDES') ,
+ REFPRE VARCHAR(15)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.REFPRE') ,
+ VLRCUO DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.VLRCUO') ,
+ CUOORI DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CUOORI') ,
+ CUODES DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CUODES') ,
+ VLRORI DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.VLRORI') ,
+ VLRACU DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.VLRACU') ,
+ CODPRI DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODPRI') ,
+ FECIND DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECIND') ,
+ FECULD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECULD') ,
+ FECFID DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECFID') ,
+ PRICUO DECIMAL(1, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.PRICUO') ,
+ CODAUX DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODAUX') ,
+ CODALM DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODALM') ,
+ NUMDOC DECIMAL(9, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.NUMDOC') ,
+ FECDOC DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECDOC') ,
+ HORSIS DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.HORSIS') ,
+ CODTRA DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODTRA') ,
+ ULTMAP DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.ULTMAP') ,
+ CODSTA VARCHAR(1)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODSTA') ,
+ OPCGRA DECIMAL(1, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.OPCGRA') ,
+ PAICON DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.PAICON') ,
+ CODCOM DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CODCOM') ,
+ FECPAR DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECPAR') ,
+ NUMPAR DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.NUMPAR') ,
+ CORPAR DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.CORPAR') ,
+ FECCRE DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECCRE') ,
+ HORCRE DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.HORCRE') ,
+ FECINF DATETIME(9)  SET( "ui_mapping_text" = 'SQLPDINTDESTB.FECINF') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SQLPDINTDESTB.CODPAI, SQLPDINTDESTB.CODEMP, SQLPDINTDESTB.CODINS, SQLPDINTDESTB.CODDES, SQLPDINTDESTB.REFPRE, SQLPDINTDESTB.VLRCUO, SQLPDINTDESTB.CUOORI, SQLPDINTDESTB.CUODES, SQLPDINTDESTB.VLRORI, SQLPDINTDESTB.VLRACU, SQLPDINTDESTB.CODPRI, SQLPDINTDESTB.FECIND, SQLPDINTDESTB.FECULD, SQLPDINTDESTB.FECFID, SQLPDINTDESTB.PRICUO, SQLPDINTDESTB.CODAUX, SQLPDINTDESTB.CODALM, SQLPDINTDESTB.NUMDOC, SQLPDINTDESTB.FECDOC, SQLPDINTDESTB.HORSIS, SQLPDINTDESTB.CODTRA, SQLPDINTDESTB.ULTMAP, SQLPDINTDESTB.CODSTA, SQLPDINTDESTB.OPCGRA, SQLPDINTDESTB.PAICON, SQLPDINTDESTB.CODCOM, SQLPDINTDESTB.FECPAR, SQLPDINTDESTB.NUMPAR, SQLPDINTDESTB.CORPAR, SQLPDINTDESTB.FECCRE, SQLPDINTDESTB.HORCRE, SQLPDINTDESTB.FECINF, sysdate() FROM SQLPDINTDESTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'PDINTDESTB(DS_SQL_SERVER_STAGE_EVOLUTION.STG)', "x" = '1930', "y" = '-901')
+GUID::'67d4ba5c-37bf-4ce7-9769-f0483b3aabb4' LOAD TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTDESTB INPUT(QRYPDINTDESTB)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May 22 12:10:17 2024', "ActaValue_3" = 'Wed May 22 12:10:52 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_AZU2STG_ide_identificacion_exp_v::'3124c2f0-6f08-449d-9168-d5947f286905'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>322</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '706', "y" = '-634')
+GUID::'b391f331-35fb-4f65-b42a-018e43b67a1d' READ TABLE DS_AZURE_EVOLUTION.SV.IDE_IDENTIFICACION_EXP_V OUTPUT(IDE_IDENTIFICACION_EXP_V)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_AZURE_EVOLUTION', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'IDE_IDENTIFICACION_EXP_V', "x" = '1595', "y" = '-732')
+GUID::'9406775e-1c86-4bf3-b69b-68c7ea110f9e' CREATE VIEW Query( IDE_CODEXP INT  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CODEXP') ,
+ IDE_CIP VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP') ,
+ IDE_CIP_FECHA DATETIME(9)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP_FECHA') ,
+ IDE_CIP_FECHA_VENCIMIENTO DATETIME(9)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP_FECHA_VENCIMIENTO') ,
+ IDE_CIP_CODPAI VARCHAR(2)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODPAI') ,
+ IDE_CIP_CODDEP INT  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODDEP') ,
+ IDE_CIP_CODMUN INT  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODMUN') ,
+ IDE_ISSS VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_ISSS') ,
+ IDE_NIT VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NIT') ,
+ IDE_NUP VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NUP') ,
+ IDE_CODAFP INT  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_CODAFP') ,
+ IDE_PASAPORTE VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_PASAPORTE') ,
+ IDE_VENCIMIENTO_PASAPORTE DATETIME(9)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_VENCIMIENTO_PASAPORTE') ,
+ IDE_RESIDENTE VARCHAR(30)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_RESIDENTE') ,
+ IDE_RESIDENTE_VENCE DATETIME(9)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_RESIDENTE_VENCE') ,
+ IDE_NOMBRE_CIP VARCHAR(150)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_CIP') ,
+ IDE_NOMBRE_AFP VARCHAR(150)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_AFP') ,
+ IDE_NOMBRE_ISSS VARCHAR(150)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_ISSS') ,
+ IDE_NOMBRE_NIT VARCHAR(150)  SET( "ui_mapping_text" = 'IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_NIT') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT IDE_IDENTIFICACION_EXP_V.IDE_CODEXP, IDE_IDENTIFICACION_EXP_V.IDE_CIP, IDE_IDENTIFICACION_EXP_V.IDE_CIP_FECHA, IDE_IDENTIFICACION_EXP_V.IDE_CIP_FECHA_VENCIMIENTO, IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODPAI, IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODDEP, IDE_IDENTIFICACION_EXP_V.IDE_CIP_CODMUN, IDE_IDENTIFICACION_EXP_V.IDE_ISSS, IDE_IDENTIFICACION_EXP_V.IDE_NIT, IDE_IDENTIFICACION_EXP_V.IDE_NUP, IDE_IDENTIFICACION_EXP_V.IDE_CODAFP, IDE_IDENTIFICACION_EXP_V.IDE_PASAPORTE, IDE_IDENTIFICACION_EXP_V.IDE_VENCIMIENTO_PASAPORTE, IDE_IDENTIFICACION_EXP_V.IDE_RESIDENTE, IDE_IDENTIFICACION_EXP_V.IDE_RESIDENTE_VENCE, IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_CIP, IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_AFP, IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_ISSS, IDE_IDENTIFICACION_EXP_V.IDE_NOMBRE_NIT, sysdate() FROM IDE_IDENTIFICACION_EXP_V 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '2549', "y" = '-620')
+GUID::'ec738023-08a8-4fb5-97f4-6f9e86f0c7ec' LOAD TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.IDE_IDENTIFICACION_EXP_V INPUT(Query)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Feb 29 08:41:45 2024', "ActaValue_3" = 'Thu Feb 29 08:42:04 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_EVO_Hist_Logs::'976b5665-51ed-4df8-ba6f-2afc7479512a'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>381</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '638', "y" = '-728')
+GUID::'092f32fd-2c55-4b94-993c-57da1f6440b0' READ TABLE DS_AZURE_EVOLUTION.FWK.HIST_LOGS OUTPUT(HIST_LOGS)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_AZURE_EVOLUTION', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'HIST_LOGS', "x" = '1237', "y" = '-701')
+GUID::'d3984b10-3831-4b81-bc53-dec82c48740f' CREATE VIEW Query( DATE_ID DATETIME(9)  SET( "ui_mapping_text" = 'HIST_LOGS.DATE_ID') ,
+ CODE_PARAM INT  SET( "Identity" = 'TRUE', "ui_mapping_text" = 'HIST_LOGS.CODE_PARAM') ,
+ NAME_PARAM VARCHAR(8000)  SET( "ui_mapping_text" = 'HIST_LOGS.NAME_PARAM') ,
+ VALUE INT  SET( "ui_mapping_text" = 'HIST_LOGS.VALUE') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT HIST_LOGS.DATE_ID, HIST_LOGS.CODE_PARAM, HIST_LOGS.NAME_PARAM, HIST_LOGS.VALUE, sysdate() FROM HIST_LOGS 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'HIST_LOGS(DS_SQL_SERVER_STAGE_EVOLUTION.STG)', "x" = '2137', "y" = '-695')
+GUID::'374acbee-2734-436c-81c3-34bfa5a5698e' LOAD TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.HIST_LOGS INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Wed Oct  4 14:47:14 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_STG2AZU_PDINTCOMTB::'301bcf35-538c-433a-ad2f-4b4f4d655ee3'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '225', "y" = '-572')
+GUID::'0bf5c0c2-cb6a-472d-8302-2792fa2ed979' READ TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTCOMTB OUTPUT(PDINTCOMTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '226', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'PDINTCOMTB', "x" = '838', "y" = '-569')
+GUID::'008847de-63a5-42f6-bf34-e615d2fb8f67' CREATE VIEW Query( com_codpai VARCHAR(10)  SET( "ui_mapping_text" = 'PDINTCOMTB.CODPAI') ,
+ com_codmoneda VARCHAR(3)  SET( "ui_mapping_text" = 'PDINTCOMTB.CODMONCOM') ,
+ com_codigo_empleado VARCHAR(100)  SET( "ui_mapping_text" = 'PDINTCOMTB.CODEMP') ,
+ com_codComercialEmp VARCHAR(10)  SET( "ui_mapping_text" = 'PDINTCOMTB.CODCOMEMP') ,
+ com_mes DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDINTCOMTB.MESPCOM') ,
+ com_anio DECIMAL(4, 0)  SET( "ui_mapping_text" = 'PDINTCOMTB.ANIOPCOM') ,
+ com_fechaEnvioInformacion DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'PDINTCOMTB.FECENVINF') ,
+ com_valor DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDINTCOMTB.VALORCOM')  )
+ AS
+SELECT PDINTCOMTB.CODPAI, PDINTCOMTB.CODMONCOM, PDINTCOMTB.CODEMP, PDINTCOMTB.CODCOMEMP, PDINTCOMTB.MESPCOM, PDINTCOMTB.ANIOPCOM, PDINTCOMTB.FECENVINF, PDINTCOMTB.VALORCOM FROM PDINTCOMTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '192', "Output_Width_Type" = '85', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '1734', "y" = '-563')
+GUID::'9cbeee8f-65bb-4151-bb34-0554dec0588f' LOAD TABLE DS_AZURE_EVOLUTION.DBO.COM_INTERFAZ_COMISION INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_AZURE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct 27 17:11:12 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_STG2AZU_PDINTDESTB::'504480f5-c0b2-4197-84c4-7e2423c4cb7f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '366', "y" = '-860')
+GUID::'5a23ab67-8faf-443d-bded-0c9bc10dd557' READ TABLE DS_SQL_SERVER_STAGE_EVOLUTION.STG.PDINTDESTB OUTPUT(PDINTDESTB)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_STAGE_EVOLUTION', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '199', "Output_Width_Name" = '360', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'PDINTDESTB', "x" = '1052', "y" = '-954')
+GUID::'e3e7407a-7f2a-4598-9a9b-c7d45f79539d' CREATE VIEW Query( des_codPais VARCHAR(3)  SET( "ui_mapping_text" = 'PDINTDESTB.CODPAI') ,
+ des_codEmp VARCHAR(10)  SET( "ui_mapping_text" = 'PDINTDESTB.CODEMP') ,
+ des_codInstitucion DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODINS') ,
+ des_codDescuento DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODDES') ,
+ des_refPrestamo VARCHAR(15)  SET( "ui_mapping_text" = 'PDINTDESTB.REFPRE') ,
+ des_vlrCuota DECIMAL(11, 2)  SET( "ui_mapping_text" = 'PDINTDESTB.VLRCUO') ,
+ des_cuoOriginales DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CUOORI') ,
+ des_cuoDescontadas DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CUODES') ,
+ des_vlrOriginal DECIMAL(11, 2)  SET( "ui_mapping_text" = 'PDINTDESTB.VLRORI') ,
+ des_vlrAcumDescontado DECIMAL(11, 2)  SET( "ui_mapping_text" = 'PDINTDESTB.VLRACU') ,
+ des_codPrioDescuento DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODPRI') ,
+ des_fecIniDescuento DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECIND') ,
+ des_fecUltDescuento DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECULD') ,
+ des_fecFinDescuento DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECFID') ,
+ des_CodPropCuota DECIMAL(1, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.PRICUO') ,
+ des_CodAuxiliar DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODAUX') ,
+ des_CodAlmacen DECIMAL(5, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODALM') ,
+ des_numDocumento DECIMAL(9, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.NUMDOC') ,
+ des_fecDocumento DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECDOC') ,
+ des_horaSistema DECIMAL(6, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.HORSIS') ,
+ des_codTransaccion DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODTRA') ,
+ des_ultMesAnioPagado DECIMAL(6, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.ULTMAP') ,
+ des_codEstado VARCHAR(1)  SET( "ui_mapping_text" = 'PDINTDESTB.CODSTA') ,
+ des_codOpcionGrabar DECIMAL(1, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.OPCGRA') ,
+ des_codPaisCont DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.PAICON') ,
+ des_codCompania DECIMAL(3, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CODCOM') ,
+ des_fecPartida DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECPAR') ,
+ des_numPartida DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.NUMPAR') ,
+ des_correPartida DECIMAL(5, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.CORPAR') ,
+ des_fecCreacion DECIMAL(8, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.FECCRE') ,
+ des_horaCreacion DECIMAL(6, 0)  SET( "ui_mapping_text" = 'PDINTDESTB.HORCRE') ,
+ des_fecEnvioInformacion DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'PDINTDESTB.FECINF')  )
+ AS
+SELECT PDINTDESTB.CODPAI, PDINTDESTB.CODEMP, PDINTDESTB.CODINS, PDINTDESTB.CODDES, PDINTDESTB.REFPRE, PDINTDESTB.VLRCUO, PDINTDESTB.CUOORI, PDINTDESTB.CUODES, PDINTDESTB.VLRORI, PDINTDESTB.VLRACU, PDINTDESTB.CODPRI, PDINTDESTB.FECIND, PDINTDESTB.FECULD, PDINTDESTB.FECFID, PDINTDESTB.PRICUO, PDINTDESTB.CODAUX, PDINTDESTB.CODALM, PDINTDESTB.NUMDOC, PDINTDESTB.FECDOC, PDINTDESTB.HORSIS, PDINTDESTB.CODTRA, PDINTDESTB.ULTMAP, PDINTDESTB.CODSTA, PDINTDESTB.OPCGRA, PDINTDESTB.PAICON, PDINTDESTB.CODCOM, PDINTDESTB.FECPAR, PDINTDESTB.NUMPAR, PDINTDESTB.CORPAR, PDINTDESTB.FECCRE, PDINTDESTB.HORCRE, PDINTDESTB.FECINF FROM PDINTDESTB 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '2000', "y" = '-847')
+GUID::'ccfd81dc-31e4-4caa-822e-de77495b5ce2' LOAD TABLE DS_AZURE_EVOLUTION.DBO.DES_INTERFAZ_DESCUENTOS INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_AZURE_EVOLUTION_DBO_DES_INTERFAZ_DESCUENTOS.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_AZURE_EVOLUTION', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Thu Jan 11 17:40:22 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION EXPEMPPRD::'3ecc0a7d-2aa6-4bc3-a0fc-ea10bd32ea66'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '225', "y" = '-257')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark Expediente############## #####################################\');
+print(\'##########################################################################################################################\');', "x" = '572', "y" = '-323')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark Expediente############## #####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Expediente Empleado', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteEvoExp_Bat.py\',
+	 0
+)
+;', "x" = '935', "y" = '-470')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecuteEvoExp_Bat.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark Credito Movimientos  #####################################\');
+print(\'##########################################################################################################################\');', "x" = '1317', "y" = '-575')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark Credito Movimientos  #####################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1681', "y" = '-707')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '3ecc0a7d-2aa6-4bc3-a0fc-ea10bd32ea66', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'EXPEMPPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Thu Mar 14 12:41:11 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION ExecInter_Liquidacion_PRD::'4cc82b73-96d7-4a09-9603-aff55aed3d6a'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1381', "y" = '-547')
+CALL PLAN Exec_Interface_Contable::'34016dca-21bc-4ac5-a5ec-9c2efa574ca1'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '4cc82b73-96d7-4a09-9603-aff55aed3d6a', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'ExecInter_Liquidacion_PRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Tue May 14 15:04:39 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION ExecInterfacesPRD::'a86ac499-d722-4eca-9efa-3de373e28e43'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '474', "y" = '-470')
+CALL PLAN Exec_Interface_Cred::'a90f2ed6-8f9f-421e-983f-9447877d076c'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1111', "y" = '-472')
+CALL PLAN Exec_Interface_Contable::'34016dca-21bc-4ac5-a5ec-9c2efa574ca1'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'a86ac499-d722-4eca-9efa-3de373e28e43', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'ExecInterfacesPRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 28 18:26:05 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN Exec_Interface_Contable::'34016dca-21bc-4ac5-a5ec-9c2efa574ca1'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '331', "y" = '-419')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark - Exec Interface Contable#####################################\');
+print(\'##########################################################################################################################\');', "x" = '678', "y" = '-498')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark - Exec Interface Contable#####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>347</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Interface_Contable', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecInterfaceContable.py\',
+	 0
+)
+;', "x" = '1041', "y" = '-645')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecInterfaceContable.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark - Exec Interface Contable #######################################\');
+print(\'##########################################################################################################################\');', "x" = '1423', "y" = '-750')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark - Exec Interface Contable #######################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1787', "y" = '-882')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 28 18:24:19 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN Exec_Interface_Cred::'a90f2ed6-8f9f-421e-983f-9447877d076c'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Try1123', "x" = '269', "y" = '-228')
+TRY
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Inicio Carga Spark - Exec Interface Creditos ####################################\');
+print(\'##########################################################################################################################\');', "x" = '616', "y" = '-307')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Inicio Carga Spark - Exec Interface Creditos ####################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Interface Creditos', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecInterfaceCreditos.py\',
+	 0
+)
+;', "x" = '979', "y" = '-454')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\Project\\ASEINFO\\ExecInterfaceCreditos.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'######################################## Fin Carga Spark - Exec Interface Creditos #####################################\');
+print(\'##########################################################################################################################\');', "x" = '1361', "y" = '-559')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('######################################## Fin Carga Spark - Exec Interface Creditos #####################################');print('##########################################################################################################################');END
+END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Catch1141', "x" = '1725', "y" = '-691')
+CATCH (210101)
+BEGIN
+END
+
+END_TRY
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Oct  4 13:45:04 2023')
+CREATE __AL_PROJECT PRY_RH_EVOLUTION CREMOVPRD, COCDETPRD, EXPEMPPRD, ExecInter_Liquidacion_PRD, COMISIPRD, CREDESPRD, ExecInterfacesPRD, COCECAPRD, SimulationTriggerExecInterface, Azure_InformacionEmpleado;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Mar 19 10:59:53 2024', "ActaValue_3" = 'Thu Feb 29 08:42:04 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION SimulationTriggerExecInterface::'c08aef7c-e70e-4b8d-89ef-2238b01a738c'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '753', "y" = '-669')
+CALL DATAFLOW DF_CRG_STG_EVO_Hist_Logs::'976b5665-51ed-4df8-ba6f-2afc7479512a'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>260</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'VerificarExec', "ui_script_text" = 'SQL(\'DS_SQL_SERVER_STAGE_EVOLUTION\',\'EXEC	 stg.SP_TriggerInterfaceEVO\');', "x" = '1392', "y" = '-673')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_STAGE_EVOLUTION', 'EXEC	 stg.SP_TriggerInterfaceEVO');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>291</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'UpdateFlagEVO', "ui_script_text" = 'SQL(\'DS_AZURE_EVOLUTION\',\'Update fwk.Hist_Logs set VALUE=0\');', "x" = '2128', "y" = '-657')
+BEGIN_SCRIPT
+sql('DS_AZURE_EVOLUTION', 'Update fwk.Hist_Logs set VALUE=0');END
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'c08aef7c-e70e-4b8d-89ef-2238b01a738c', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'SimulationTriggerExecInterface', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')

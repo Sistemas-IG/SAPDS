@@ -1,0 +1,1184 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Dec 22 00:24:35 2020', "ActaValue_3" = 'Thu Jan 07 10:46:43 2021', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_CDD_BI::'409e7e70-deb6-470c-8736-7b55bbdb5f9d' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>CDD_BI</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8FBC63B1545A25A4FDE849B8806FE52B09AE8943AF8CB8DD1CBCD07D87399F9A9D662FCCF43567E1D62195690D8C17167CD1F79A8A0B6</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_CDD_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_CDD_HN_BI::'23adf7a6-2789-435b-9dff-422c453d63b8' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "db_mssql_change_data_tracking_method" = 'MSSQL_Replication', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>CDD_BI_HN</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E80C734FA20BCAAD888EDFE7823826F70156EDC71B93BDDD8AB7C73900D62835AC854397B90D0B843C9BE2E663DCFB2E05F7F7606004F2</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_CDD_HN_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_CDD::'181e01b3-b26f-4d86-b545-f09f757d9872' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E874C055A6D4FFB9517CF8F1D18A45CE2FB1B7E3E93DBEFC8546EE8CBF7831822F87A6E1E685D479C6026EDD11FA0FB0</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_CDD', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Feb 11 17:09:37 2022', "ActaValue_3" = 'Fri Feb 11 17:10:01 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_CDD_HN::'95f81599-47d6-46b7-9a9e-e9706ca14d4d' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8A9939C39E644396DFE0C523033711DAD45140250096D3628C1665A34825ABB29D93345B6466129A5621F83ABF7ED08</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_CDD_HN', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 26 11:03:49 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI::'5de09bd1-a168-4f49-b162-dfe39041c404' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E833F30DDDB32FBFF01C547288516F352DF851F513E16409102AFCCACC86D6A129A27F16B79445F83D75A51C533E</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8B655C3CB2A6DB9B8064B56AA3A623809DA2DE21289148D55AF05609605A47B485692DC74EB4FC1005144326F9E</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8193C2AF96727A066FDA6CEA0B3E177F94937FA76E410AEF39EE5B2C756D02A76B82EE01423ABE680C521C32D4C54339544956C006248</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "pcache_force_utf16" = 'no');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI_HN::'dd21db5b-db23-4150-ba9c-bd024896e645' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8A8AA1678C903AA4DC0486881BFB32937F1BFD0FB1131F01262A2C7A811C9AB2EB555CEBC9EC58BDB633D4604F8</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8848B716E0880D676778059320513F30642123E1630809988D410C67E20B1E1FE4B7A64C71CA5B2D10456A4DD43</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8477EF1DA81C7A1668E324354C4C18191A475B434227FDD671311C5E7A0B8C734F66C267BC4E0D0728B6FAF44B8C7DA11C5F5AAC04C56</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI_HN</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI_HN', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Feb 03 17:47:49 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Wed Dec  7 17:51:25 2022' )
+CREATE TABLE DS_DB2_CDD.NEWINV.EUDISC72(PAISDC CHAR(3)  NOT NULL  SET("Description" = 'Pias'), 
+CIASDC CHAR(3)  NOT NULL  SET("Description" = 'Cia'), 
+CDDIDC CHAR(2)  NOT NULL  SET("Description" = 'CDD'), 
+NPEDDC CHAR(8)  NOT NULL  SET("Description" = 'Pedido'), 
+ALMADC CHAR(2)  NOT NULL  SET("Description" = 'Alm'), 
+ORBADC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Orden Barrido'), 
+NODBDC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'No.Orden Barrido'), 
+ZONADC CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEDC CHAR(3)  NOT NULL  SET("Description" = 'No.'), 
+LADODC CHAR(1)  NOT NULL  SET("Description" = 'Lado'), 
+MODUDC CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEDC CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIDC CHAR(2)  NOT NULL  SET("Description" = 'Posición'), 
+CPSRDC CHAR(17)  NOT NULL  SET("Description" = 'Código SR'), 
+CPNFDC CHAR(17)  NOT NULL  SET("Description" = 'Código NF'), 
+EQPRDC CHAR(2)  NOT NULL  SET("Description" = 'Equipo Preparacion'), 
+RESEDC CHAR(4)  NOT NULL  SET("Description" = 'Responsable Equipo'), 
+NCORDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+QLDIDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades ListDist'), 
+QPARDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Parciales'), 
+QPRVDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Provisional'), 
+QPREDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Preparación'), 
+QPRTDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades TomadasdePrep'), 
+QDIFDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades UPREDC - UPRTDC'), 
+NPREDC CHAR(11)  NOT NULL  SET("Description" = 'Numero Preparacion'), 
+NCAJDC CHAR(7)  NOT NULL  SET("Description" = 'Numero de Caja'), 
+RUBIDC CHAR(13)  NOT NULL  SET("Description" = 'Ref.Ult. Ubicacion'), 
+STATDC CHAR(3)  NOT NULL  SET("Description" = 'Estatus'), 
+FLDIDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LDist'), 
+HLDIDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LDist'), 
+ULDIDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LDist'), 
+DLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LDist'), 
+RLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LDist'), 
+FLPADC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Abierta'), 
+HLPADC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Abierta'), 
+ULPADC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Abierta'), 
+DLPADC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Abierta'), 
+RLPADC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Abierta'), 
+FLPCDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Cerrada'), 
+HLPCDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Cerrada'), 
+ULPCDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Cerrada'), 
+DLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Cerrada'), 
+RLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Cerrada'), 
+FLPMDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep En Muelle'), 
+HLPMDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep En Muelle'), 
+ULPMDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep En Muelle'), 
+DLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep En Muelle'), 
+RLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep En Muelle'), 
+FLPTDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep EnTránsito'), 
+HLPTDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep EnTránsito'), 
+ULPTDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep EnTránsito'), 
+DLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep EnTránsito'), 
+RLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep EnTránsito'), 
+FLPRDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep RecEnTrans'), 
+HLPRDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep RecEnTráns'), 
+ULPRDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep RecEnTráns'), 
+DLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep RecEnTráns'), 
+RLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep RecEnTráns'), 
+FCLSDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cierre Pedido'), 
+HCLSDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cierre Pedido'), 
+UCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Usr Cierre Pedido'), 
+DCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Dev Cierre Pedido'), 
+RCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Ref Cierre Pedido'), 
+NENVDC CHAR(4)  NOT NULL  SET("Description" = 'No. Envío'), 
+NREMDC CHAR(6)  NOT NULL  SET("Description" = 'No. Remisión'), 
+FIL1DC CHAR(10)  NOT NULL  SET("Description" = 'Filler 1'), 
+FIL2DC CHAR(20)  NOT NULL  SET("Description" = 'Filler 2'), 
+FIL3DC CHAR(30)  NOT NULL  SET("Description" = 'Filler 3'), 
+TIPODC CHAR(5)  NOT NULL  SET("Description" = 'Tipo Proceso'), 
+GRSGDC CHAR(4)  NOT NULL  SET("Description" = 'Grupo-SubGpo'), 
+PRIODC CHAR(2)  NOT NULL  SET("Description" = 'Prioridad U/N')) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Mar 15 18:45:30 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_CDD_HN.PHNINV.EUDISC72(PAISDC CHAR(3)  NOT NULL  SET("Description" = 'Pias'), 
+CIASDC CHAR(3)  NOT NULL  SET("Description" = 'Cia'), 
+CDDIDC CHAR(2)  NOT NULL  SET("Description" = 'CDD'), 
+NPEDDC CHAR(8)  NOT NULL  SET("Description" = 'Pedido'), 
+ALMADC CHAR(2)  NOT NULL  SET("Description" = 'Alm'), 
+ORBADC DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Orden Barrido'), 
+NODBDC DECIMAL(2, 0)  NOT NULL  SET("Description" = 'No.Orden Barrido'), 
+ZONADC CHAR(2)  NOT NULL  SET("Description" = 'Zona'), 
+NUMEDC CHAR(3)  NOT NULL  SET("Description" = 'No.'), 
+LADODC CHAR(1)  NOT NULL  SET("Description" = 'Lado'), 
+MODUDC CHAR(3)  NOT NULL  SET("Description" = 'Modulo'), 
+NIVEDC CHAR(2)  NOT NULL  SET("Description" = 'Nivel'), 
+POSIDC CHAR(2)  NOT NULL  SET("Description" = 'Posición'), 
+CPSRDC CHAR(17)  NOT NULL  SET("Description" = 'Código SR'), 
+CPNFDC CHAR(17)  NOT NULL  SET("Description" = 'Código NF'), 
+EQPRDC CHAR(2)  NOT NULL  SET("Description" = 'Equipo Preparacion'), 
+RESEDC CHAR(4)  NOT NULL  SET("Description" = 'Responsable Equipo'), 
+NCORDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'No. Correlativo'), 
+QLDIDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades ListDist'), 
+QPARDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Parciales'), 
+QPRVDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Provisional'), 
+QPREDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades Preparación'), 
+QPRTDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades TomadasdePrep'), 
+QDIFDC DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Unidades UPREDC - UPRTDC'), 
+NPREDC CHAR(11)  NOT NULL  SET("Description" = 'Numero Preparacion'), 
+NCAJDC CHAR(7)  NOT NULL  SET("Description" = 'Numero de Caja'), 
+RUBIDC CHAR(13)  NOT NULL  SET("Description" = 'Ref.Ult. Ubicacion'), 
+STATDC CHAR(3)  NOT NULL  SET("Description" = 'Estatus'), 
+FLDIDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LDist'), 
+HLDIDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LDist'), 
+ULDIDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LDist'), 
+DLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LDist'), 
+RLDIDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LDist'), 
+FLPADC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Abierta'), 
+HLPADC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Abierta'), 
+ULPADC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Abierta'), 
+DLPADC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Abierta'), 
+RLPADC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Abierta'), 
+FLPCDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep Cerrada'), 
+HLPCDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep Cerrada'), 
+ULPCDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep Cerrada'), 
+DLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep Cerrada'), 
+RLPCDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep Cerrada'), 
+FLPMDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep En Muelle'), 
+HLPMDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep En Muelle'), 
+ULPMDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep En Muelle'), 
+DLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep En Muelle'), 
+RLPMDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep En Muelle'), 
+FLPTDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep EnTránsito'), 
+HLPTDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep EnTránsito'), 
+ULPTDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep EnTránsito'), 
+DLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep EnTránsito'), 
+RLPTDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep EnTránsito'), 
+FLPRDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha LPrep RecEnTrans'), 
+HLPRDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora LPrep RecEnTráns'), 
+ULPRDC CHAR(10)  NOT NULL  SET("Description" = 'Usr LPrep RecEnTráns'), 
+DLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Dev LPrep RecEnTráns'), 
+RLPRDC CHAR(10)  NOT NULL  SET("Description" = 'Ref LPrep RecEnTráns'), 
+FCLSDC DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Cierre Pedido'), 
+HCLSDC DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Cierre Pedido'), 
+UCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Usr Cierre Pedido'), 
+DCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Dev Cierre Pedido'), 
+RCLSDC CHAR(10)  NOT NULL  SET("Description" = 'Ref Cierre Pedido'), 
+NENVDC CHAR(4)  NOT NULL  SET("Description" = 'No. Envío'), 
+NREMDC CHAR(6)  NOT NULL  SET("Description" = 'No. Remisión'), 
+FIL1DC CHAR(10)  NOT NULL  SET("Description" = 'Filler 1'), 
+FIL2DC CHAR(20)  NOT NULL  SET("Description" = 'Filler 2'), 
+FIL3DC CHAR(30)  NOT NULL  SET("Description" = 'Filler 3'), 
+TIPODC CHAR(5)  NOT NULL  SET("Description" = 'Tipo Proceso'), 
+GRSGDC CHAR(4)  NOT NULL  SET("Description" = 'Grupo-SubGpo'), 
+PRIODC CHAR(2)  NOT NULL  SET("Description" = 'Prioridad U/N')) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Mar 14 20:03:03 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.dbo.EUSTAT(TIPOST VARCHAR(5)  NULL , 
+CODIST VARCHAR(3)  NULL , 
+TIPDST VARCHAR(20)  NULL , 
+DESCST VARCHAR(35)  NULL , 
+ID_STATUS VARCHAR(8)  NULL , 
+STATUS VARCHAR(41)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Wed Mar  8 14:45:46 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '191' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RDatabase_Object_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RTable_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RDescription',ActaValue_6 = '' , 
+ActaName_7 = 'REstimated_Row_Count',ActaValue_7 = '50000' , 
+ActaName_8 = 'RLoader_Is_Template_Table',ActaValue_8 = 'yes' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RDate_modified',ActaValue_10 = 'Tue Feb 21 13:59:11 2023' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '191' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '0 Seconds' )
+CREATE TABLE DS_CDD_BI.dbo.EUSTAT(TIPOST VARCHAR(5)  NULL  SET("Description" = 'Codigo Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPOST'), 
+CODIST VARCHAR(3)  NULL  SET("Description" = 'Codigo Status', "ui_mapping_text" = 'EUSTAT01.CODIST'), 
+TIPDST VARCHAR(20)  NULL  SET("Description" = 'Descripcion Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPDST'), 
+DESCST VARCHAR(35)  NULL  SET("Description" = 'Descripcion Status', "ui_mapping_text" = 'EUSTAT01.DESCST'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUSTAT01.TIPOST))||ltrim_blanks(rtrim_blanks(EUSTAT01.CODIST))'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT01.CODIST || \' - \' || EUSTAT01.DESCST')) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Mon Feb 20 11:06:06 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '190' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '190' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '1 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'yes' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Mon Feb 20 12:19:27 2023' )
+CREATE TABLE DS_CDD_HN_BI.dbo.EUSTAT(TIPOST VARCHAR(5)  NULL  SET("Description" = 'Codigo Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPOST'), 
+CODIST VARCHAR(3)  NULL  SET("Description" = 'Codigo Status', "ui_mapping_text" = 'EUSTAT01.CODIST'), 
+TIPDST VARCHAR(20)  NULL  SET("Description" = 'Descripcion Aplicacion', "ui_mapping_text" = 'EUSTAT01.TIPDST'), 
+DESCST VARCHAR(35)  NULL  SET("Description" = 'Descripcion Status', "ui_mapping_text" = 'EUSTAT01.DESCST'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUSTAT01.TIPOST))||ltrim_blanks(rtrim_blanks(EUSTAT01.CODIST))'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT01.CODIST || \' - \' || EUSTAT01.DESCST')) 
+SET("db_alias_name" = 'dbo')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Wed Mar  8 10:00:43 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '181430' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '181430' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '0 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Mon Feb 27 12:33:06 2023' )
+CREATE TABLE DS_CDD_BI.DBO.PRODUCTO(ID_PRODUCTO INT  NULL  SET("Description" = 'Numero de registro en base de datos', "ui_mapping_text" = 'QRY_PREVIO_PROD.ID_PRODUCTO'), 
+ID_PAIS INT  KEY  NULL  SET("Description" = 'ID DE PAIS', "ui_mapping_text" = 'QRY_PREVIO_PROD.ID_PAIS'), 
+CODIGO VARCHAR(17)  KEY  NULL  SET("Description" = 'CODIGO DE PRODUCTO (PK)', "ui_mapping_text" = 'QRY_PREVIO_PROD.CODIGO'), 
+NOMBRE VARCHAR(20)  NULL  SET("Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_PREVIO_PROD.NOMBRE'), 
+ID_GRUPO INT  KEY  NULL  SET("Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TMP.ID_GRUPO'), 
+GRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_PREVIO_PROD.GRUPO'), 
+ID_SGRUPO INT  KEY  NULL  SET("Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TMP.ID_SGRUPO'), 
+SUBGRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_PREVIO_PROD.SUBGRUPO')) 
+PRIMARY KEY (ID_PAIS, CODIGO, ID_GRUPO, ID_SGRUPO) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '180582' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '180582' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '9 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Tue Aug  9 13:37:43 2022' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Mon Feb 27 11:07:57 2023' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Mon Feb 27 12:33:06 2023' )
+CREATE TABLE DS_CDD_HN_BI.DBO.PRODUCTO(ID_PRODUCTO INT  NULL  SET("Description" = 'Numero de registro en base de datos', "ui_mapping_text" = 'QRY_PREVIO_PROD.ID_PRODUCTO'), 
+ID_PAIS INT  KEY  NULL  SET("Description" = 'ID DE PAIS', "ui_mapping_text" = 'QRY_PREVIO_PROD.ID_PAIS'), 
+CODIGO VARCHAR(17)  KEY  NULL  SET("Description" = 'CODIGO DE PRODUCTO (PK)', "ui_mapping_text" = 'QRY_PREVIO_PROD.CODIGO'), 
+NOMBRE VARCHAR(20)  NULL  SET("Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_PREVIO_PROD.NOMBRE'), 
+ID_GRUPO INT  KEY  NULL  SET("Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TMP.ID_GRUPO'), 
+GRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_PREVIO_PROD.GRUPO'), 
+ID_SGRUPO INT  KEY  NULL  SET("Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TMP.ID_SGRUPO'), 
+SUBGRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_PREVIO_PROD.SUBGRUPO')) 
+PRIMARY KEY (ID_PAIS, CODIGO, ID_GRUPO, ID_SGRUPO) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Wed Mar 15 19:01:36 2023' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '109743' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '109743' , 
+ActaName_5 = 'RNumber_Of_Updates',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Deletes',ActaValue_6 = '0' , 
+ActaName_7 = 'RElapsed_Time_For_Load',ActaValue_7 = '9 Seconds' , 
+ActaName_8 = 'RDatabase_Object_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'yes' , 
+ActaName_13 = 'RSavedAfterCheckOut',ActaValue_13 = 'YES' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Wed Mar 15 19:00:55 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI.DBO.SUMARIA_TOMADO_CERO(ID_PAIS INT  NULL  SET("Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_PAIS'), 
+ID_GRUPO INT  NULL  SET("Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_GRUPO'), 
+ID_SGRUPO INT  NULL  SET("Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_SGRUPO'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'EUSTAT.ID_STATUS'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT.STATUS'), 
+FECHA DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'DECODE(Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS NULL, Fecha_Datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR))'), 
+GRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.GRUPO'), 
+SUBGRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.SUBGRUPO'), 
+CODIGO_PRODUCTO VARCHAR(17)  NULL  SET("Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP2_ALM.CODIGO_PRODUCTO'), 
+DESCRIPCION VARCHAR(20)  NULL  SET("Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_TEMP2_ALM.NOMBRE'), 
+UNIDADES_PREPARACION DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP2_ALM.UNIDADES_PREPARACION'), 
+UNIDADES_PROCESADAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS"'), 
+ID_STATUS_CERO VARCHAR(8)  NULL  SET("Description" = 'Filler 1', "ui_mapping_text" = '\'ICERO\'||QRY_TEMP1_ALM.ID_STATUS_2'), 
+STATUS_CERO VARCHAR(41)  NULL  SET("ui_mapping_text" = 'EUSTAT_1.STATUS'), 
+DETALLE_STATUS_CERO VARCHAR(35)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.DETALLE_STATUS_2'), 
+RESPONSABLE VARCHAR(4)  NULL  SET("Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP2_ALM.RESPONSABLE'), 
+REABASTECIMIENTO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.DOCUMENTO'), 
+ALMACEN VARCHAR(2)  NULL  SET("Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP2_ALM.ALMACEN'), 
+PREPARACION VARCHAR(11)  NULL  SET("Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP2_ALM.PREPARACION'), 
+UBICACION VARCHAR(15)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.UBICACION')) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'yes' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Mar 15 19:02:43 2023' )
+CREATE TABLE DS_SQL_SERVER_CDD_BI_HN.DBO.SUMARIA_TOMADO_CERO(ID_PAIS INT  NULL  SET("Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_PAIS'), 
+ID_GRUPO INT  NULL  SET("Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_GRUPO'), 
+ID_SGRUPO INT  NULL  SET("Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_SGRUPO'), 
+ID_STATUS VARCHAR(8)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS'), 
+STATUS VARCHAR(41)  NULL  SET("Description" = 'CODIST + DESCST', "ui_mapping_text" = 'QRY_TEMP2_ALM.STATUS'), 
+FECHA DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'DECODE(Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS NULL, Fecha_Datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR))'), 
+GRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.GRUPO'), 
+SUBGRUPO VARCHAR(30)  NULL  SET("Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.SUBGRUPO'), 
+CODIGO_PRODUCTO VARCHAR(17)  NULL  SET("Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP2_ALM.CODIGO_PRODUCTO'), 
+DESCRIPCION VARCHAR(20)  NULL  SET("Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_TEMP2_ALM.NOMBRE'), 
+UNIDADES_PREPARACION DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP2_ALM.UNIDADES_PREPARACION'), 
+UNIDADES_PROCESADAS DECIMAL(7, 0)  NULL  SET("Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS"'), 
+ID_STATUS_CERO VARCHAR(8)  NULL  SET("Description" = 'Filler 1', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS_2'), 
+STATUS_CERO VARCHAR(41)  NULL  SET("ui_mapping_text" = 'EUSTAT_1.STATUS'), 
+DETALLE_STATUS_CERO VARCHAR(35)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.DETALLE_STATUS_2'), 
+RESPONSABLE VARCHAR(4)  NULL  SET("Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP2_ALM.RESPONSABLE'), 
+REABASTECIMIENTO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.DOCUMENTO'), 
+ALMACEN VARCHAR(2)  NULL  SET("Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP2_ALM.ALMACEN'), 
+PREPARACION VARCHAR(11)  NULL  SET("Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP2_ALM.PREPARACION'), 
+UBICACION VARCHAR(15)  NULL  SET("ui_mapping_text" = 'QRY_TEMP2_ALM.UBICACION')) 
+SET("db_alias_name" = 'DBO')
+;
+ AlGUIComment ("ANNOTATION_0" = 'ALGUICOMMENT( x = \'643\', y = \'-123\',ObjectDesc=\'Esta tabla es referente a lo de los RT y RL es decir Reabastecimientos\',UI_DATA_XML=\'<UIDATA><MAINICON><LOCATION><X>-643</X><Y>123</Y></LOCATION><SIZE><CX>0</CX><CY>0</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>1470</CX><CY>200</CY></SIZE><VISIBLE>1</VISIBLE></DESCRIPTION></UIDATA>\' )
+', "ANNOTATION_1" = 'ALGUICOMMENT( x = \'2919\', y = \'-1818\',ObjectDesc=\'STS(010)-PENDIENTE: FLDIDC,HLDIDC,ULDIDC,DLDIDC
+STS(020)-ABIERTO:  FLPADC,HLPADC,ULPADC,DLPADC,RLPADC 
+STS(030)-CERRADA: FLPCDC, HLPCDC  ,ULPCDC  ,DLPCDC  ,RLPCDC  
+STS(050)-ENTRANSITO: FLPTDC ,HLPTDC ,ULPTDC ,DLPTDC ,RLPTDC
+STS(060):RECENTRANSITO: FLPRDC,HLPRDC,ULPRDC,DLPRDC,RLPRDC
+
+Se agrega  STS(021)
+
+Cuando hay tomado a cero en el campo QPRTDC, el campo QLDIDC tambien se pone a cero, pero el campo QPREDC SI conserva el valor, por lo que para efectos de analisis se utilizara el campo QPREDC como UNIDADES DE LISTA cuando sea status 021 (18-08-2022)
+\',UI_DATA_XML=\'<UIDATA><MAINICON><LOCATION><X>-2919</X><Y>1818</Y></LOCATION><SIZE><CX>0</CX><CY>0</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>1511</CX><CY>761</CY></SIZE><VISIBLE>1</VISIBLE></DESCRIPTION></UIDATA>\' )
+', "ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Mar 15 19:00:51 2023', "ActaValue_3" = 'Wed Mar 15 17:17:24 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_TOMADOS_CERO_HN::'a60d0818-b724-4bdd-8f7d-8a8c4835d83c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '330', "Output_Width_Type" = '145', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'QRY_TEMP1_ALM', "ui_acta_from_schema_1" = 'EUSTAT', "ui_acta_from_schema_2" = 'PRODUCTO', "ui_display_name" = 'QRY_TEMP2_ALM', "ui_where_text" = 'QRY_TEMP1_ALM.STATUS = \'021\'
+', "x" = '1976', "y" = '-1098')
+GUID::'aad57e32-7f94-45f3-9c21-555c8281bd1e' CREATE VIEW QRY_TEMP2_ALM( TIPO_PREPARACION VARCHAR(2)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.TIPO_PREPARACION') ,
+ TIPO_PROCESO VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'QRY_TEMP1_ALM.TIPO_PROCESO') ,
+ ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP1_ALM.ID_PAIS') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'EUSTAT.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT.STATUS') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP1_ALM.ALMACEN') ,
+ DOCUMENTO VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.DOCUMENTO') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP1_ALM.PREPARACION') ,
+ EQUIPO VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'QRY_TEMP1_ALM.EQUIPO') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP1_ALM.RESPONSABLE') ,
+ PICKINGS DECIMAL(5, 0)  SET( "Description" = 'Numero Pickings', "ui_mapping_text" = 'QRY_TEMP1_ALM.PICKINGS') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP1_ALM.CODIGO_PRODUCTO') ,
+ NOMBRE VARCHAR(20)  SET( "Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'PRODUCTO.NOMBRE') ,
+ ID_GRUPO INT  SET( "Description" = 'ID DE GRUPO', "ui_mapping_text" = 'PRODUCTO.ID_GRUPO') ,
+ GRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'PRODUCTO.GRUPO') ,
+ ID_SGRUPO INT  SET( "Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'PRODUCTO.ID_SGRUPO') ,
+ SUBGRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'PRODUCTO.SUBGRUPO') ,
+ ID_STATUS_2 VARCHAR(8)  SET( "Description" = 'Filler 1', "ui_mapping_text" = '\'ICERO\'||QRY_TEMP1_ALM.ID_STATUS_2') ,
+ DETALLE_STATUS_2 VARCHAR(35)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.DETALLE_STATUS_2') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.UBICACION') ,
+ "UNIDADES_LISTA/SOLICITADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'QRY_TEMP1_ALM."UNIDADES_LISTA/SOLICITADAS"') ,
+ UNIDADES_PARCIALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PARCIALES') ,
+ UNIDADES_PROVISIONALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PROVISIONALES') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PREPARACION') ,
+ "UNIDADES_TOMADAS/PROCESADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP1_ALM."UNIDADES_TOMADAS/PROCESADAS"') ,
+ FECHA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.FECHA_INI_VAR') ,
+ HORA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.HORA_INI_VAR') ,
+ FECHA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.FECHA_FIN_VAR') ,
+ HORA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.HORA_FIN_VAR') ,
+ USUARIO VARCHAR(10)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.USUARIO')  )
+ AS
+SELECT QRY_TEMP1_ALM.TIPO_PREPARACION, QRY_TEMP1_ALM.TIPO_PROCESO, QRY_TEMP1_ALM.ID_PAIS, EUSTAT.ID_STATUS, EUSTAT.STATUS, QRY_TEMP1_ALM.ALMACEN, QRY_TEMP1_ALM.DOCUMENTO, QRY_TEMP1_ALM.PREPARACION, QRY_TEMP1_ALM.EQUIPO, QRY_TEMP1_ALM.RESPONSABLE, QRY_TEMP1_ALM.PICKINGS, QRY_TEMP1_ALM.CODIGO_PRODUCTO, PRODUCTO.NOMBRE, PRODUCTO.ID_GRUPO, PRODUCTO.GRUPO, PRODUCTO.ID_SGRUPO, PRODUCTO.SUBGRUPO, ('ICERO' || QRY_TEMP1_ALM.ID_STATUS_2), QRY_TEMP1_ALM.DETALLE_STATUS_2, QRY_TEMP1_ALM.UBICACION, QRY_TEMP1_ALM."UNIDADES_LISTA/SOLICITADAS", QRY_TEMP1_ALM.UNIDADES_PARCIALES, QRY_TEMP1_ALM.UNIDADES_PROVISIONALES, QRY_TEMP1_ALM.UNIDADES_PREPARACION, QRY_TEMP1_ALM."UNIDADES_TOMADAS/PROCESADAS", QRY_TEMP1_ALM.FECHA_INI_VAR, QRY_TEMP1_ALM.HORA_INI_VAR, QRY_TEMP1_ALM.FECHA_FIN_VAR, QRY_TEMP1_ALM.HORA_FIN_VAR, QRY_TEMP1_ALM.USUARIO FROM (QRY_TEMP1_ALM  __SAP_LEFT_OUTER_JOIN PRODUCTO  ON (QRY_TEMP1_ALM.CODIGO_PRODUCTO = PRODUCTO.CODIGO)SET("ui_on_text" = 'QRY_TEMP1_ALM.CODIGO_PRODUCTO = PRODUCTO.CODIGO')
+) __SAP_LEFT_OUTER_JOIN EUSTAT  ON ((QRY_TEMP1_ALM.TIPO_PROCESO = EUSTAT.TIPOST) AND
+   (QRY_TEMP1_ALM.STATUS = EUSTAT.CODIST))SET("ui_on_text" = 'QRY_TEMP1_ALM.TIPO_PROCESO = EUSTAT.TIPOST and 
+QRY_TEMP1_ALM.STATUS = EUSTAT.CODIST ')
+ WHERE (QRY_TEMP1_ALM.STATUS = '021')
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '199', "Input_Width_Name" = '350', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '178', "Output_Width_Name" = '294', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'EUDISC72', "ui_display_name" = 'QRY_TEMP1_ALM', "ui_where_text" = '##(EUDISC72.NPEDDC LIKE \'RT%\' OR EUDISC72.NPEDDC LIKE \'RL%\') AND EUDISC72.STATDC <> \'021\'
+', "x" = '1520', "y" = '-1097')
+GUID::'f0422000-6f10-4a89-b4d8-3f3bab67a84d' CREATE VIEW QRY_TEMP1_ALM( TIPO_PREPARACION VARCHAR(2)  SET( "ui_mapping_text" = 'substr( EUDISC72.NPEDDC, 1, 2)') ,
+ TIPO_PROCESO VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUDISC72.TIPODC))') ,
+ STATUS VARCHAR(3)  SET( "Description" = 'Estatus', "ui_mapping_text" = 'EUDISC72.STATDC') ,
+ ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'cast( EUDISC72.PAISDC, \'INT\')') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'EUDISC72.ALMADC') ,
+ DOCUMENTO VARCHAR(8)  SET( "ui_mapping_text" = 'EUDISC72.NPEDDC') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'EUDISC72.NPREDC') ,
+ EQUIPO VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'EUDISC72.EQPRDC') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'EUDISC72.RESEDC') ,
+ PICKINGS DECIMAL(5, 0)  SET( "Description" = 'Numero Picking', "ui_mapping_text" = '1') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'EUDISC72.CPSRDC') ,
+ "UNIDADES_LISTA/SOLICITADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'decode(EUDISC72.STATDC = \'021\',EUDISC72.QPREDC,EUDISC72.QLDIDC)') ,
+ UNIDADES_PARCIALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'EUDISC72.QPARDC') ,
+ UNIDADES_PROVISIONALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'EUDISC72.QPRVDC') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'EUDISC72.QPREDC') ,
+ "UNIDADES_TOMADAS/PROCESADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'EUDISC72.QPRTDC') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'EUDISC72.ZONADC||EUDISC72.NUMEDC||EUDISC72.LADODC||EUDISC72.MODUDC||EUDISC72.NIVEDC||EUDISC72.POSIDC') ,
+ USUARIO VARCHAR(10)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), EUDISC72.ULDIDC,
+
+(EUDISC72.STATDC = \'020\'), EUDISC72.ULPADC,
+
+(EUDISC72.STATDC = \'021\'), EUDISC72.ULPADC,
+
+(EUDISC72.STATDC = \'030\'), EUDISC72.ULPCDC,
+
+(EUDISC72.STATDC = \'050\'), EUDISC72.ULPCDC,
+
+(EUDISC72.STATDC = \'060\'), EUDISC72.ULPRDC,
+
+\'\')') ,
+ FECHA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'Fecha_num_a_varchar(EUDISC72.FLDIDC)') ,
+ HORA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'Hora_num_a_varchar(EUDISC72.HLDIDC)') ,
+ FECHA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), Fecha_num_a_varchar(EUDISC72.FLDIDC),
+
+(EUDISC72.STATDC = \'020\'), Fecha_num_a_varchar(EUDISC72.FLPADC),
+
+(EUDISC72.STATDC = \'021\'), decode((EUDISC72.FLPCDC is not null), Fecha_num_a_varchar(EUDISC72.FLPCDC),Fecha_num_a_varchar(EUDISC72.FLDIDC)),
+
+(EUDISC72.STATDC = \'030\'), Fecha_num_a_varchar(EUDISC72.FLPCDC),
+
+(EUDISC72.STATDC = \'050\'), Fecha_num_a_varchar(EUDISC72.FLPCDC),
+
+(EUDISC72.STATDC = \'060\'), Fecha_num_a_varchar(EUDISC72.FLPRDC),
+
+\'\')') ,
+ HORA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), Hora_num_a_varchar(EUDISC72.HLDIDC),
+
+(EUDISC72.STATDC = \'020\'), Hora_num_a_varchar(EUDISC72.HLPADC),
+
+(EUDISC72.STATDC = \'021\'), decode((EUDISC72.HLPCDC is not null), Hora_num_a_varchar(EUDISC72.HLPCDC), Hora_num_a_varchar(EUDISC72.HLDIDC)),
+
+(EUDISC72.STATDC = \'030\'), Hora_num_a_varchar(EUDISC72.HLPCDC),
+
+(EUDISC72.STATDC = \'050\'), Hora_num_a_varchar(EUDISC72.HLPCDC),
+
+(EUDISC72.STATDC = \'060\'), Hora_num_a_varchar(EUDISC72.HLPRDC),
+
+\'\')') ,
+ FLDIDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LDist', "ui_mapping_text" = 'EUDISC72.FLDIDC') ,
+ HLDIDC DECIMAL(6, 0)  SET( "Description" = 'Hora LDist', "ui_mapping_text" = 'EUDISC72.HLDIDC') ,
+ ULDIDC VARCHAR(10)  SET( "Description" = 'Usr LDist', "ui_mapping_text" = 'EUDISC72.ULDIDC') ,
+ FLPADC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Abierta', "ui_mapping_text" = 'EUDISC72.FLPADC') ,
+ HLPADC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Abierta', "ui_mapping_text" = 'EUDISC72.HLPADC') ,
+ ULPADC VARCHAR(10)  SET( "Description" = 'Usr LPrep Abierta', "ui_mapping_text" = 'EUDISC72.ULPADC') ,
+ FLPCDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.FLPCDC') ,
+ HLPCDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.HLPCDC') ,
+ ULPCDC VARCHAR(10)  SET( "Description" = 'Usr LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.ULPCDC') ,
+ FLPTDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.FLPTDC') ,
+ HLPTDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.HLPTDC') ,
+ ULPTDC VARCHAR(10)  SET( "Description" = 'Usr LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.ULPTDC') ,
+ FLPRDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep RecEnTrans', "ui_mapping_text" = 'EUDISC72.FLPRDC') ,
+ HLPRDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC72.HLPRDC') ,
+ ULPRDC VARCHAR(10)  SET( "Description" = 'Usr LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC72.ULPRDC') ,
+ ID_STATUS_2 VARCHAR(3)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'Substr(ltrim_blanks(EUDISC72.FIL1DC),1,3)') ,
+ DETALLE_STATUS_2 VARCHAR(35)  SET( "ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUDISC72.FIL1DC))||\' \'||ltrim_blanks(rtrim_blanks(EUDISC72.FIL2DC))')  )
+ AS
+SELECT substr(EUDISC72.NPEDDC, 1, 2), ltrim_blanks(rtrim_blanks(EUDISC72.TIPODC)), EUDISC72.STATDC, cast(EUDISC72.PAISDC, 'INT'), EUDISC72.ALMADC, EUDISC72.NPEDDC, EUDISC72.NPREDC, EUDISC72.EQPRDC, EUDISC72.RESEDC, 1, EUDISC72.CPSRDC, decode((EUDISC72.STATDC = '021'), EUDISC72.QPREDC, EUDISC72.QLDIDC), EUDISC72.QPARDC, EUDISC72.QPRVDC, EUDISC72.QPREDC, EUDISC72.QPRTDC, (((((EUDISC72.ZONADC || EUDISC72.NUMEDC) || EUDISC72.LADODC) || EUDISC72.MODUDC) || EUDISC72.NIVEDC) || EUDISC72.POSIDC), decode((EUDISC72.STATDC = '010'), EUDISC72.ULDIDC, (EUDISC72.STATDC = '020'), EUDISC72.ULPADC, (EUDISC72.STATDC = '021'), EUDISC72.ULPADC, (EUDISC72.STATDC = '030'), EUDISC72.ULPCDC, (EUDISC72.STATDC = '050'), EUDISC72.ULPCDC, (EUDISC72.STATDC = '060'), EUDISC72.ULPRDC, ''), fecha_num_a_varchar(EUDISC72.FLDIDC), hora_num_a_varchar(EUDISC72.HLDIDC), decode((EUDISC72.STATDC = '010'), fecha_num_a_varchar(EUDISC72.FLDIDC), (EUDISC72.STATDC = '020'), fecha_num_a_varchar(EUDISC72.FLPADC), (EUDISC72.STATDC = '021'), decode((EUDISC72.FLPCDC IS NOT  NULL ), fecha_num_a_varchar(EUDISC72.FLPCDC), fecha_num_a_varchar(EUDISC72.FLDIDC)), (EUDISC72.STATDC = '030'), fecha_num_a_varchar(EUDISC72.FLPCDC), (EUDISC72.STATDC = '050'), fecha_num_a_varchar(EUDISC72.FLPCDC), (EUDISC72.STATDC = '060'), fecha_num_a_varchar(EUDISC72.FLPRDC), ''), decode((EUDISC72.STATDC = '010'), hora_num_a_varchar(EUDISC72.HLDIDC), (EUDISC72.STATDC = '020'), hora_num_a_varchar(EUDISC72.HLPADC), (EUDISC72.STATDC = '021'), decode((EUDISC72.HLPCDC IS NOT  NULL ), hora_num_a_varchar(EUDISC72.HLPCDC), hora_num_a_varchar(EUDISC72.HLDIDC)), (EUDISC72.STATDC = '030'), hora_num_a_varchar(EUDISC72.HLPCDC), (EUDISC72.STATDC = '050'), hora_num_a_varchar(EUDISC72.HLPCDC), (EUDISC72.STATDC = '060'), hora_num_a_varchar(EUDISC72.HLPRDC), ''), EUDISC72.FLDIDC, EUDISC72.HLDIDC, EUDISC72.ULDIDC, EUDISC72.FLPADC, EUDISC72.HLPADC, EUDISC72.ULPADC, EUDISC72.FLPCDC, EUDISC72.HLPCDC, EUDISC72.ULPCDC, EUDISC72.FLPTDC, EUDISC72.HLPTDC, EUDISC72.ULPTDC, EUDISC72.FLPRDC, EUDISC72.HLPRDC, EUDISC72.ULPRDC, substr(ltrim_blanks(EUDISC72.FIL1DC), 1, 3), ((ltrim_blanks(rtrim_blanks(EUDISC72.FIL1DC)) || ' ') || ltrim_blanks(rtrim_blanks(EUDISC72.FIL2DC))) FROM EUDISC72 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '157', "Input_Width_Name" = '333', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '202', "Output_Width_Mapping" = '85', "Output_Width_Name" = '330', "Output_Width_Type" = '96', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'QRY_TEMP2_ALM', "ui_acta_from_schema_1" = 'EUSTAT_1', "ui_display_name" = 'QRY_TOMADO_CERO', "x" = '2386', "y" = '-1306')
+GUID::'ee4e8768-ae55-4808-bf48-4df8165fe094' CREATE VIEW QRY_TOMADO_CERO( ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_PAIS') ,
+ ID_GRUPO INT  SET( "Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_GRUPO') ,
+ ID_SGRUPO INT  SET( "Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_SGRUPO') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'QRY_TEMP2_ALM.STATUS') ,
+ FECHA DATETIME(9)  SET( "ui_mapping_text" = 'DECODE(Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS NULL, Fecha_Datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR))') ,
+ GRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.GRUPO') ,
+ SUBGRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.SUBGRUPO') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP2_ALM.CODIGO_PRODUCTO') ,
+ DESCRIPCION VARCHAR(20)  SET( "Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_TEMP2_ALM.NOMBRE') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP2_ALM.UNIDADES_PREPARACION') ,
+ UNIDADES_PROCESADAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS"') ,
+ ID_STATUS_CERO VARCHAR(8)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS_2') ,
+ STATUS_CERO VARCHAR(41)  SET( "ui_mapping_text" = 'EUSTAT_1.STATUS') ,
+ DETALLE_STATUS_CERO VARCHAR(35)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.DETALLE_STATUS_2') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP2_ALM.RESPONSABLE') ,
+ REABASTECIMIENTO VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.DOCUMENTO') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP2_ALM.ALMACEN') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP2_ALM.PREPARACION') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.UBICACION')  )
+ AS
+SELECT QRY_TEMP2_ALM.ID_PAIS, QRY_TEMP2_ALM.ID_GRUPO, QRY_TEMP2_ALM.ID_SGRUPO, QRY_TEMP2_ALM.ID_STATUS, QRY_TEMP2_ALM.STATUS, decode((fecha_datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS  NULL ), fecha_datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), fecha_datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR)), QRY_TEMP2_ALM.GRUPO, QRY_TEMP2_ALM.SUBGRUPO, QRY_TEMP2_ALM.CODIGO_PRODUCTO, QRY_TEMP2_ALM.NOMBRE, QRY_TEMP2_ALM.UNIDADES_PREPARACION, QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS", QRY_TEMP2_ALM.ID_STATUS_2, EUSTAT_1.STATUS, QRY_TEMP2_ALM.DETALLE_STATUS_2, QRY_TEMP2_ALM.RESPONSABLE, QRY_TEMP2_ALM.DOCUMENTO, QRY_TEMP2_ALM.ALMACEN, QRY_TEMP2_ALM.PREPARACION, QRY_TEMP2_ALM.UBICACION FROM QRY_TEMP2_ALM  __SAP_LEFT_OUTER_JOIN EUSTAT_1  ON (QRY_TEMP2_ALM.ID_STATUS_2 = EUSTAT_1.ID_STATUS)SET("ui_on_text" = 'QRY_TEMP2_ALM.ID_STATUS_2 = EUSTAT_1.ID_STATUS')
+
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1049', "y" = '-1097')
+GUID::'9647c9e5-a208-463b-8096-47b6f74626e3' READ TABLE DS_DB2_CDD_HN.PHNINV.EUDISC72 OUTPUT(EUDISC72)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_CDD_HN', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1571', "y" = '-863')
+GUID::'56eba2cf-6313-41ea-bcee-685f3d617ba0' READ TABLE DS_CDD_HN_BI.dbo.EUSTAT OUTPUT(EUSTAT)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_HN_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1568', "y" = '-1353')
+GUID::'558d2f68-08b0-41e1-accb-60cc900438fd' READ TABLE DS_CDD_HN_BI.DBO.PRODUCTO OUTPUT(PRODUCTO)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_HN_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2022', "y" = '-1532')
+GUID::'331ad1ad-0e8f-48df-875e-03dcb6190d6e' READ TABLE DS_CDD_HN_BI.dbo.EUSTAT OUTPUT(EUSTAT_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_HN_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2868', "y" = '-1307')
+GUID::'846bfd97-8b10-42ce-bc67-4ffa3dc9eee7' LOAD TABLE DS_SQL_SERVER_CDD_BI_HN.DBO.SUMARIA_TOMADO_CERO INPUT(QRY_TOMADO_CERO)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_CDD_BI_HN', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ANNOTATION_0" = 'ALGUICOMMENT( x = \'643\', y = \'-123\',ObjectDesc=\'Esta tabla es referente a lo de los RT y RL es decir Reabastecimientos\',UI_DATA_XML=\'<UIDATA><MAINICON><LOCATION><X>-643</X><Y>123</Y></LOCATION><SIZE><CX>0</CX><CY>0</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>1470</CX><CY>200</CY></SIZE><VISIBLE>1</VISIBLE></DESCRIPTION></UIDATA>\' )
+', "ANNOTATION_1" = 'ALGUICOMMENT( x = \'2919\', y = \'-1818\',ObjectDesc=\'STS(010)-PENDIENTE: FLDIDC,HLDIDC,ULDIDC,DLDIDC
+STS(020)-ABIERTO:  FLPADC,HLPADC,ULPADC,DLPADC,RLPADC 
+STS(030)-CERRADA: FLPCDC, HLPCDC  ,ULPCDC  ,DLPCDC  ,RLPCDC  
+STS(050)-ENTRANSITO: FLPTDC ,HLPTDC ,ULPTDC ,DLPTDC ,RLPTDC
+STS(060):RECENTRANSITO: FLPRDC,HLPRDC,ULPRDC,DLPRDC,RLPRDC
+
+Se agrega  STS(021)
+
+Cuando hay tomado a cero en el campo QPRTDC, el campo QLDIDC tambien se pone a cero, pero el campo QPREDC SI conserva el valor, por lo que para efectos de analisis se utilizara el campo QPREDC como UNIDADES DE LISTA cuando sea status 021 (18-08-2022)
+\',UI_DATA_XML=\'<UIDATA><MAINICON><LOCATION><X>-2919</X><Y>1818</Y></LOCATION><SIZE><CX>0</CX><CY>0</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>1511</CX><CY>761</CY></SIZE><VISIBLE>1</VISIBLE></DESCRIPTION></UIDATA>\' )
+', "ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Mar 13 21:47:01 2023', "ActaValue_3" = 'Wed Mar 15 17:17:24 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_TOMADOS_CERO_SV::'1d246644-a29b-4089-9cac-d393c482373d'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '330', "Output_Width_Type" = '145', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'EUSTAT', "ui_acta_from_schema_1" = 'QRY_TEMP1_ALM', "ui_acta_from_schema_2" = 'PRODUCTO', "ui_display_name" = 'QRY_TEMP2_ALM', "ui_where_text" = 'QRY_TEMP1_ALM.STATUS = \'021\'', "x" = '1976', "y" = '-1098')
+GUID::'a4b665e2-d822-4f2c-af0e-3097b265b336' CREATE VIEW QRY_TEMP2_ALM( TIPO_PREPARACION VARCHAR(2)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.TIPO_PREPARACION') ,
+ TIPO_PROCESO VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'QRY_TEMP1_ALM.TIPO_PROCESO') ,
+ ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP1_ALM.ID_PAIS') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'EUSTAT.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'EUSTAT.STATUS') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP1_ALM.ALMACEN') ,
+ DOCUMENTO VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.DOCUMENTO') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP1_ALM.PREPARACION') ,
+ EQUIPO VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'QRY_TEMP1_ALM.EQUIPO') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP1_ALM.RESPONSABLE') ,
+ PICKINGS DECIMAL(5, 0)  SET( "Description" = 'Numero Pickings', "ui_mapping_text" = 'QRY_TEMP1_ALM.PICKINGS') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP1_ALM.CODIGO_PRODUCTO') ,
+ NOMBRE VARCHAR(20)  SET( "Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'PRODUCTO.NOMBRE') ,
+ ID_GRUPO INT  SET( "Description" = 'ID DE GRUPO', "ui_mapping_text" = 'PRODUCTO.ID_GRUPO') ,
+ GRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'PRODUCTO.GRUPO') ,
+ ID_SGRUPO INT  SET( "Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'PRODUCTO.ID_SGRUPO') ,
+ SUBGRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'PRODUCTO.SUBGRUPO') ,
+ ID_STATUS_2 VARCHAR(8)  SET( "Description" = 'Filler 1', "ui_mapping_text" = '\'ICERO\'||QRY_TEMP1_ALM.ID_STATUS_2') ,
+ DETALLE_STATUS_2 VARCHAR(35)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.DETALLE_STATUS_2') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.UBICACION') ,
+ "UNIDADES_LISTA/SOLICITADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'QRY_TEMP1_ALM."UNIDADES_LISTA/SOLICITADAS"') ,
+ UNIDADES_PARCIALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PARCIALES') ,
+ UNIDADES_PROVISIONALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PROVISIONALES') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP1_ALM.UNIDADES_PREPARACION') ,
+ "UNIDADES_TOMADAS/PROCESADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP1_ALM."UNIDADES_TOMADAS/PROCESADAS"') ,
+ FECHA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.FECHA_INI_VAR') ,
+ HORA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.HORA_INI_VAR') ,
+ FECHA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.FECHA_FIN_VAR') ,
+ HORA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.HORA_FIN_VAR') ,
+ USUARIO VARCHAR(10)  SET( "ui_mapping_text" = 'QRY_TEMP1_ALM.USUARIO')  )
+ AS
+SELECT QRY_TEMP1_ALM.TIPO_PREPARACION, QRY_TEMP1_ALM.TIPO_PROCESO, QRY_TEMP1_ALM.ID_PAIS, EUSTAT.ID_STATUS, EUSTAT.STATUS, QRY_TEMP1_ALM.ALMACEN, QRY_TEMP1_ALM.DOCUMENTO, QRY_TEMP1_ALM.PREPARACION, QRY_TEMP1_ALM.EQUIPO, QRY_TEMP1_ALM.RESPONSABLE, QRY_TEMP1_ALM.PICKINGS, QRY_TEMP1_ALM.CODIGO_PRODUCTO, PRODUCTO.NOMBRE, PRODUCTO.ID_GRUPO, PRODUCTO.GRUPO, PRODUCTO.ID_SGRUPO, PRODUCTO.SUBGRUPO, ('ICERO' || QRY_TEMP1_ALM.ID_STATUS_2), QRY_TEMP1_ALM.DETALLE_STATUS_2, QRY_TEMP1_ALM.UBICACION, QRY_TEMP1_ALM."UNIDADES_LISTA/SOLICITADAS", QRY_TEMP1_ALM.UNIDADES_PARCIALES, QRY_TEMP1_ALM.UNIDADES_PROVISIONALES, QRY_TEMP1_ALM.UNIDADES_PREPARACION, QRY_TEMP1_ALM."UNIDADES_TOMADAS/PROCESADAS", QRY_TEMP1_ALM.FECHA_INI_VAR, QRY_TEMP1_ALM.HORA_INI_VAR, QRY_TEMP1_ALM.FECHA_FIN_VAR, QRY_TEMP1_ALM.HORA_FIN_VAR, QRY_TEMP1_ALM.USUARIO FROM (QRY_TEMP1_ALM  __SAP_LEFT_OUTER_JOIN PRODUCTO  ON (QRY_TEMP1_ALM.CODIGO_PRODUCTO = PRODUCTO.CODIGO)SET("ui_on_text" = 'QRY_TEMP1_ALM.CODIGO_PRODUCTO = PRODUCTO.CODIGO')
+) __SAP_LEFT_OUTER_JOIN EUSTAT  ON ((QRY_TEMP1_ALM.TIPO_PROCESO = EUSTAT.TIPOST) AND
+   (QRY_TEMP1_ALM.STATUS = EUSTAT.CODIST))SET("ui_on_text" = 'QRY_TEMP1_ALM.TIPO_PROCESO = EUSTAT.TIPOST and 
+QRY_TEMP1_ALM.STATUS = EUSTAT.CODIST ')
+ WHERE (QRY_TEMP1_ALM.STATUS = '021')
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '199', "Input_Width_Name" = '350', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '178', "Output_Width_Name" = '294', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>332</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'EUDISC72', "ui_display_name" = 'QRY_TEMP1_ALM', "ui_where_text" = '##(EUDISC72.NPEDDC LIKE \'RT%\' OR EUDISC72.NPEDDC LIKE \'RL%\') AND EUDISC72.STATDC <> \'021\'', "x" = '1520', "y" = '-1097')
+GUID::'43fc153b-510c-4c0a-a5f8-187d3f393296' CREATE VIEW QRY_TEMP1_ALM( TIPO_PREPARACION VARCHAR(2)  SET( "ui_mapping_text" = 'substr( EUDISC72.NPEDDC, 1, 2)') ,
+ TIPO_PROCESO VARCHAR(5)  SET( "Description" = 'Tipo Proceso', "ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUDISC72.TIPODC))') ,
+ STATUS VARCHAR(3)  SET( "Description" = 'Estatus', "ui_mapping_text" = 'EUDISC72.STATDC') ,
+ ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'cast( EUDISC72.PAISDC, \'INT\')') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'EUDISC72.ALMADC') ,
+ DOCUMENTO VARCHAR(8)  SET( "ui_mapping_text" = 'EUDISC72.NPEDDC') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'EUDISC72.NPREDC') ,
+ EQUIPO VARCHAR(2)  SET( "Description" = 'Equipo Preparacion', "ui_mapping_text" = 'EUDISC72.EQPRDC') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'EUDISC72.RESEDC') ,
+ PICKINGS DECIMAL(5, 0)  SET( "Description" = 'Numero Picking', "ui_mapping_text" = '1') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'EUDISC72.CPSRDC') ,
+ "UNIDADES_LISTA/SOLICITADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades ListDist', "ui_mapping_text" = 'decode(EUDISC72.STATDC = \'021\',EUDISC72.QPREDC,EUDISC72.QLDIDC)') ,
+ UNIDADES_PARCIALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Parciales', "ui_mapping_text" = 'EUDISC72.QPARDC') ,
+ UNIDADES_PROVISIONALES DECIMAL(7, 0)  SET( "Description" = 'Unidades Provisional', "ui_mapping_text" = 'EUDISC72.QPRVDC') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'EUDISC72.QPREDC') ,
+ "UNIDADES_TOMADAS/PROCESADAS" DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'EUDISC72.QPRTDC') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'EUDISC72.ZONADC||EUDISC72.NUMEDC||EUDISC72.LADODC||EUDISC72.MODUDC||EUDISC72.NIVEDC||EUDISC72.POSIDC') ,
+ USUARIO VARCHAR(10)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), EUDISC72.ULDIDC,
+
+(EUDISC72.STATDC = \'020\'), EUDISC72.ULPADC,
+
+(EUDISC72.STATDC = \'021\'), EUDISC72.ULPADC,
+
+(EUDISC72.STATDC = \'030\'), EUDISC72.ULPCDC,
+
+(EUDISC72.STATDC = \'050\'), EUDISC72.ULPCDC,
+
+(EUDISC72.STATDC = \'060\'), EUDISC72.ULPRDC,
+
+\'\')') ,
+ FECHA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'Fecha_num_a_varchar(EUDISC72.FLDIDC)') ,
+ HORA_INI_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'Hora_num_a_varchar(EUDISC72.HLDIDC)') ,
+ FECHA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), Fecha_num_a_varchar(EUDISC72.FLDIDC),
+
+(EUDISC72.STATDC = \'020\'), Fecha_num_a_varchar(EUDISC72.FLPADC),
+
+(EUDISC72.STATDC = \'021\'), decode((EUDISC72.FLPCDC is not null), Fecha_num_a_varchar(EUDISC72.FLPCDC),Fecha_num_a_varchar(EUDISC72.FLDIDC)),
+
+(EUDISC72.STATDC = \'030\'), Fecha_num_a_varchar(EUDISC72.FLPCDC),
+
+(EUDISC72.STATDC = \'050\'), Fecha_num_a_varchar(EUDISC72.FLPCDC),
+
+(EUDISC72.STATDC = \'060\'), Fecha_num_a_varchar(EUDISC72.FLPRDC),
+
+\'\')') ,
+ HORA_FIN_VAR VARCHAR(8)  SET( "ui_mapping_text" = 'decode ((EUDISC72.STATDC = \'010\'), Hora_num_a_varchar(EUDISC72.HLDIDC),
+
+(EUDISC72.STATDC = \'020\'), Hora_num_a_varchar(EUDISC72.HLPADC),
+
+(EUDISC72.STATDC = \'021\'), decode((EUDISC72.HLPCDC is not null), Hora_num_a_varchar(EUDISC72.HLPCDC), Hora_num_a_varchar(EUDISC72.HLDIDC)),
+
+(EUDISC72.STATDC = \'030\'), Hora_num_a_varchar(EUDISC72.HLPCDC),
+
+(EUDISC72.STATDC = \'050\'), Hora_num_a_varchar(EUDISC72.HLPCDC),
+
+(EUDISC72.STATDC = \'060\'), Hora_num_a_varchar(EUDISC72.HLPRDC),
+
+\'\')') ,
+ FLDIDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LDist', "ui_mapping_text" = 'EUDISC72.FLDIDC') ,
+ HLDIDC DECIMAL(6, 0)  SET( "Description" = 'Hora LDist', "ui_mapping_text" = 'EUDISC72.HLDIDC') ,
+ ULDIDC VARCHAR(10)  SET( "Description" = 'Usr LDist', "ui_mapping_text" = 'EUDISC72.ULDIDC') ,
+ FLPADC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Abierta', "ui_mapping_text" = 'EUDISC72.FLPADC') ,
+ HLPADC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Abierta', "ui_mapping_text" = 'EUDISC72.HLPADC') ,
+ ULPADC VARCHAR(10)  SET( "Description" = 'Usr LPrep Abierta', "ui_mapping_text" = 'EUDISC72.ULPADC') ,
+ FLPCDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.FLPCDC') ,
+ HLPCDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.HLPCDC') ,
+ ULPCDC VARCHAR(10)  SET( "Description" = 'Usr LPrep Cerrada', "ui_mapping_text" = 'EUDISC72.ULPCDC') ,
+ FLPTDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.FLPTDC') ,
+ HLPTDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.HLPTDC') ,
+ ULPTDC VARCHAR(10)  SET( "Description" = 'Usr LPrep EnTránsito', "ui_mapping_text" = 'EUDISC72.ULPTDC') ,
+ FLPRDC DECIMAL(8, 0)  SET( "Description" = 'Fecha LPrep RecEnTrans', "ui_mapping_text" = 'EUDISC72.FLPRDC') ,
+ HLPRDC DECIMAL(6, 0)  SET( "Description" = 'Hora LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC72.HLPRDC') ,
+ ULPRDC VARCHAR(10)  SET( "Description" = 'Usr LPrep RecEnTráns', "ui_mapping_text" = 'EUDISC72.ULPRDC') ,
+ ID_STATUS_2 VARCHAR(3)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'Substr(ltrim_blanks(EUDISC72.FIL1DC),1,3)') ,
+ DETALLE_STATUS_2 VARCHAR(35)  SET( "ui_mapping_text" = 'ltrim_blanks(rtrim_blanks(EUDISC72.FIL1DC))||\' \'||ltrim_blanks(rtrim_blanks(EUDISC72.FIL2DC))')  )
+ AS
+SELECT substr(EUDISC72.NPEDDC, 1, 2), ltrim_blanks(rtrim_blanks(EUDISC72.TIPODC)), EUDISC72.STATDC, cast(EUDISC72.PAISDC, 'INT'), EUDISC72.ALMADC, EUDISC72.NPEDDC, EUDISC72.NPREDC, EUDISC72.EQPRDC, EUDISC72.RESEDC, 1, EUDISC72.CPSRDC, decode((EUDISC72.STATDC = '021'), EUDISC72.QPREDC, EUDISC72.QLDIDC), EUDISC72.QPARDC, EUDISC72.QPRVDC, EUDISC72.QPREDC, EUDISC72.QPRTDC, (((((EUDISC72.ZONADC || EUDISC72.NUMEDC) || EUDISC72.LADODC) || EUDISC72.MODUDC) || EUDISC72.NIVEDC) || EUDISC72.POSIDC), decode((EUDISC72.STATDC = '010'), EUDISC72.ULDIDC, (EUDISC72.STATDC = '020'), EUDISC72.ULPADC, (EUDISC72.STATDC = '021'), EUDISC72.ULPADC, (EUDISC72.STATDC = '030'), EUDISC72.ULPCDC, (EUDISC72.STATDC = '050'), EUDISC72.ULPCDC, (EUDISC72.STATDC = '060'), EUDISC72.ULPRDC, ''), fecha_num_a_varchar(EUDISC72.FLDIDC), hora_num_a_varchar(EUDISC72.HLDIDC), decode((EUDISC72.STATDC = '010'), fecha_num_a_varchar(EUDISC72.FLDIDC), (EUDISC72.STATDC = '020'), fecha_num_a_varchar(EUDISC72.FLPADC), (EUDISC72.STATDC = '021'), decode((EUDISC72.FLPCDC IS NOT  NULL ), fecha_num_a_varchar(EUDISC72.FLPCDC), fecha_num_a_varchar(EUDISC72.FLDIDC)), (EUDISC72.STATDC = '030'), fecha_num_a_varchar(EUDISC72.FLPCDC), (EUDISC72.STATDC = '050'), fecha_num_a_varchar(EUDISC72.FLPCDC), (EUDISC72.STATDC = '060'), fecha_num_a_varchar(EUDISC72.FLPRDC), ''), decode((EUDISC72.STATDC = '010'), hora_num_a_varchar(EUDISC72.HLDIDC), (EUDISC72.STATDC = '020'), hora_num_a_varchar(EUDISC72.HLPADC), (EUDISC72.STATDC = '021'), decode((EUDISC72.HLPCDC IS NOT  NULL ), hora_num_a_varchar(EUDISC72.HLPCDC), hora_num_a_varchar(EUDISC72.HLDIDC)), (EUDISC72.STATDC = '030'), hora_num_a_varchar(EUDISC72.HLPCDC), (EUDISC72.STATDC = '050'), hora_num_a_varchar(EUDISC72.HLPCDC), (EUDISC72.STATDC = '060'), hora_num_a_varchar(EUDISC72.HLPRDC), ''), EUDISC72.FLDIDC, EUDISC72.HLDIDC, EUDISC72.ULDIDC, EUDISC72.FLPADC, EUDISC72.HLPADC, EUDISC72.ULPADC, EUDISC72.FLPCDC, EUDISC72.HLPCDC, EUDISC72.ULPCDC, EUDISC72.FLPTDC, EUDISC72.HLPTDC, EUDISC72.ULPTDC, EUDISC72.FLPRDC, EUDISC72.HLPRDC, EUDISC72.ULPRDC, substr(ltrim_blanks(EUDISC72.FIL1DC), 1, 3), ((ltrim_blanks(rtrim_blanks(EUDISC72.FIL1DC)) || ' ') || ltrim_blanks(rtrim_blanks(EUDISC72.FIL2DC))) FROM EUDISC72 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>359</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '1579', "y" = '-865')
+GUID::'f221a9ef-0a81-4a00-a168-c3c5b7e4cded' READ TABLE DS_CDD_BI.dbo.EUSTAT OUTPUT(EUSTAT)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '1046', "y" = '-1096')
+GUID::'2a3b57e3-fea4-4932-b626-aeb18c36db9a' READ TABLE DS_DB2_CDD.NEWINV.EUDISC72 OUTPUT(EUDISC72)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_CDD', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '50', "x" = '1579', "y" = '-1316')
+GUID::'dddc5d8e-f769-429b-9e17-a8e79592bce3' READ TABLE DS_CDD_BI.DBO.PRODUCTO OUTPUT(PRODUCTO)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '157', "Input_Width_Name" = '333', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '202', "Output_Width_Mapping" = '85', "Output_Width_Name" = '330', "Output_Width_Type" = '96', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'EUSTAT_1', "ui_acta_from_schema_1" = 'QRY_TEMP2_ALM', "ui_display_name" = 'QRY_TOMADO_CERO', "x" = '2386', "y" = '-1306')
+GUID::'65c66617-4e61-4289-8b28-d5fb04aa9d52' CREATE VIEW QRY_TOMADO_CERO( ID_PAIS INT  SET( "Description" = 'Pais', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_PAIS') ,
+ ID_GRUPO INT  SET( "Description" = 'ID DE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_GRUPO') ,
+ ID_SGRUPO INT  SET( "Description" = 'ID DE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_SGRUPO') ,
+ ID_STATUS VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS') ,
+ STATUS VARCHAR(41)  SET( "Description" = 'CODIST + DESCST', "ui_mapping_text" = 'QRY_TEMP2_ALM.STATUS') ,
+ FECHA DATETIME(9)  SET( "ui_mapping_text" = 'DECODE(Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS NULL, Fecha_Datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), Fecha_Datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR))') ,
+ GRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE GRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.GRUPO') ,
+ SUBGRUPO VARCHAR(30)  SET( "Description" = 'NOMBRE SUBGRUPO', "ui_mapping_text" = 'QRY_TEMP2_ALM.SUBGRUPO') ,
+ CODIGO_PRODUCTO VARCHAR(17)  SET( "Description" = 'Código SR', "ui_mapping_text" = 'QRY_TEMP2_ALM.CODIGO_PRODUCTO') ,
+ DESCRIPCION VARCHAR(20)  SET( "Description" = 'NOMBRE DESCRIPTIVO DEL PRODUCTO', "ui_mapping_text" = 'QRY_TEMP2_ALM.NOMBRE') ,
+ UNIDADES_PREPARACION DECIMAL(7, 0)  SET( "Description" = 'Unidades Preparación', "ui_mapping_text" = 'QRY_TEMP2_ALM.UNIDADES_PREPARACION') ,
+ UNIDADES_PROCESADAS DECIMAL(7, 0)  SET( "Description" = 'Unidades Tomadas', "ui_mapping_text" = 'QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS"') ,
+ ID_STATUS_CERO VARCHAR(8)  SET( "Description" = 'Filler 1', "ui_mapping_text" = 'QRY_TEMP2_ALM.ID_STATUS_2') ,
+ STATUS_CERO VARCHAR(41)  SET( "ui_mapping_text" = 'EUSTAT_1.STATUS') ,
+ DETALLE_STATUS_CERO VARCHAR(35)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.DETALLE_STATUS_2') ,
+ RESPONSABLE VARCHAR(4)  SET( "Description" = 'Responsable Equipo', "ui_mapping_text" = 'QRY_TEMP2_ALM.RESPONSABLE') ,
+ REABASTECIMIENTO VARCHAR(8)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.DOCUMENTO') ,
+ ALMACEN VARCHAR(2)  SET( "Description" = 'Alm', "ui_mapping_text" = 'QRY_TEMP2_ALM.ALMACEN') ,
+ PREPARACION VARCHAR(11)  SET( "Description" = 'Numero Preparacion', "ui_mapping_text" = 'QRY_TEMP2_ALM.PREPARACION') ,
+ UBICACION VARCHAR(15)  SET( "ui_mapping_text" = 'QRY_TEMP2_ALM.UBICACION')  )
+ AS
+SELECT QRY_TEMP2_ALM.ID_PAIS, QRY_TEMP2_ALM.ID_GRUPO, QRY_TEMP2_ALM.ID_SGRUPO, QRY_TEMP2_ALM.ID_STATUS, QRY_TEMP2_ALM.STATUS, decode((fecha_datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR) IS  NULL ), fecha_datetime(QRY_TEMP2_ALM.FECHA_INI_VAR, QRY_TEMP2_ALM.HORA_INI_VAR), fecha_datetime(QRY_TEMP2_ALM.FECHA_FIN_VAR, QRY_TEMP2_ALM.HORA_FIN_VAR)), QRY_TEMP2_ALM.GRUPO, QRY_TEMP2_ALM.SUBGRUPO, QRY_TEMP2_ALM.CODIGO_PRODUCTO, QRY_TEMP2_ALM.NOMBRE, QRY_TEMP2_ALM.UNIDADES_PREPARACION, QRY_TEMP2_ALM."UNIDADES_TOMADAS/PROCESADAS", QRY_TEMP2_ALM.ID_STATUS_2, EUSTAT_1.STATUS, QRY_TEMP2_ALM.DETALLE_STATUS_2, QRY_TEMP2_ALM.RESPONSABLE, QRY_TEMP2_ALM.DOCUMENTO, QRY_TEMP2_ALM.ALMACEN, QRY_TEMP2_ALM.PREPARACION, QRY_TEMP2_ALM.UBICACION FROM QRY_TEMP2_ALM  __SAP_LEFT_OUTER_JOIN EUSTAT_1  ON (QRY_TEMP2_ALM.ID_STATUS_2 = EUSTAT_1.ID_STATUS)SET("ui_on_text" = 'QRY_TEMP2_ALM.ID_STATUS_2 = EUSTAT_1.ID_STATUS')
+
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '748', "Output_Width_Type" = '88', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>384</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '2025', "y" = '-1531')
+GUID::'035be105-f694-46eb-a285-0eaa6ac59dd8' READ TABLE DS_SQL_SERVER_CDD_BI.DBO.EUSTAT OUTPUT(EUSTAT_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "x" = '2784', "y" = '-1305')
+GUID::'850b8c74-c449-4cae-938b-11b4678529b2' LOAD TABLE DS_SQL_SERVER_CDD_BI.DBO.SUMARIA_TOMADO_CERO INPUT(QRY_TOMADO_CERO)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_CDD_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos varchar de fecha y hora a datetime', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 11:36:05 2021', "ActaValue_7" = 'Tue Mar 16 09:51:15 2021', "InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '59', "ui_script_text" = '$fechaVarchar = $PR_FechaVarchar;
+$horaVarchar = $PR_HoraVarchar;
+
+
+$fechaInicial = \'20201101\';
+$FechaHora = NULL;
+
+if($fechaVarchar >= $fechaInicial )
+begin
+$FechaHora = to_date($fechaVarchar || \' \' || $horaVarchar, \'yyyymmdd hh24:mi:ss\' );
+end
+
+
+
+Return $FechaHora;', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Fecha_Datetime($PR_FechaVarchar VARCHAR(8)  IN, $PR_HoraVarchar VARCHAR(8)  IN )
+RETURNS  DATETIME(9) 
+DECLARE
+     $FechaHora DATETIME(9) ;
+     $fechaVarchar VARCHAR(8) ;
+     $horaVarchar VARCHAR(8) ;
+     $fechaInicial VARCHAR(8) ;
+BEGIN
+$fechaVarchar = $PR_FechaVarchar;$horaVarchar = $PR_HoraVarchar;$fechaInicial = '20201101';$FechaHora =  NULL ;IF (($fechaVarchar >= $fechaInicial) )
+BEGIN
+$FechaHora = to_date((($fechaVarchar || ' ') || $horaVarchar), 'yyyymmdd hh24:mi:ss');END
+RETURN $FechaHora;
+END
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos de fecha en formato de numero a varchar', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 08:35:55 2021', "ActaValue_7" = 'Wed Dec  7 17:51:55 2022', "InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '44', "ui_script_text" = '$fechaNum = $PR_FechaNum;
+$fechaVarchar = ifthenelse(($fechaNum <> 0 AND length($fechaNum) = 8), cast($fechaNum ,\'varchar(8)\'), \'19000101\');
+Return $fechaVarchar;', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Fecha_num_a_varchar($PR_FechaNum DECIMAL(8, 0)  IN )
+RETURNS  VARCHAR(8) 
+DECLARE
+     $fechaNum DECIMAL(8, 0) ;
+     $fechaVarchar VARCHAR(8) ;
+BEGIN
+$fechaNum = $PR_FechaNum;$fechaVarchar = ifthenelse((($fechaNum != 0) AND
+   (length($fechaNum) = 8)), cast($fechaNum, 'varchar(8)'), '19000101');RETURN $fechaVarchar;
+END
+ AlGUIComment ("ActaName_1" = 'RActa_user_func_category', "ActaName_2" = 'RDescription', "ActaName_3" = 'RParallelizable', "ActaName_4" = 'RisScriptValidationFunction', "ActaName_5" = 'RSavedAfterCheckOut', "ActaName_6" = 'RDate_created', "ActaName_7" = 'RDate_modified', "ActaValue_1" = 'User_Script_Function', "ActaValue_2" = 'Conversion de campos de hora a varchar', "ActaValue_3" = 'no', "ActaValue_4" = 'no', "ActaValue_5" = 'YES', "ActaValue_6" = 'Mon Mar 15 08:46:26 2021', "ActaValue_7" = 'Tue Jan 24 15:16:07 2023', "InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UpperContainer_HeightProp" = '65', "ui_script_text" = '$horaNum = lpad(cast($PR_HoraNum, \'varchar(6)\'),6,\'0\');
+$horaVarchar = ifthenelse(length( $horaNum ) = 6, 
+substr($horaNum,1,2)||\':\'|| substr($horaNum,3,2)||\':\'|| substr($horaNum,5,2), 
+\'00:00:00\');
+$horaVarchar = 
+ifthenelse(cast(substr( $horaVarchar,1,2),\'INT\') <= 23 ,
+ifthenelse(cast(substr( $horaVarchar,4,2),\'INT\') <= 59, 
+ifthenelse(cast(substr( $horaVarchar,7,2),\'INT\') <= 59, $horaVarchar,\'00:00:00\'),\'00:00:00\'),\'00:00:00\'); 
+
+Return $horaVarchar;
+
+
+', "x" = '-1', "y" = '-1')
+CREATE FUNCTION Hora_num_a_varchar($PR_HoraNum DECIMAL(8, 0)  IN )
+RETURNS  VARCHAR(8) 
+DECLARE
+     $horaNum DECIMAL(8, 0) ;
+     $horaVarchar VARCHAR(8) ;
+BEGIN
+$horaNum = lpad(cast($PR_HoraNum, 'varchar(6)'), 6, '0');$horaVarchar = ifthenelse((length($horaNum) = 6), ((((substr($horaNum, 1, 2) || ':') || substr($horaNum, 3, 2)) || ':') || substr($horaNum, 5, 2)), '00:00:00');$horaVarchar = ifthenelse((cast(substr($horaVarchar, 1, 2), 'INT') <= 23), ifthenelse((cast(substr($horaVarchar, 4, 2), 'INT') <= 59), ifthenelse((cast(substr($horaVarchar, 7, 2), 'INT') <= 59), $horaVarchar, '00:00:00'), '00:00:00'), '00:00:00');RETURN $horaVarchar;
+END

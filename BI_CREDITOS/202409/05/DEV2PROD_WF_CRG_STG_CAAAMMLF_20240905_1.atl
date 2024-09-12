@@ -1,0 +1,1781 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon May 09 11:36:59 2016', "ActaValue_3" = 'Mon Aug 29 13:53:04 2016', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2::'e3ea301f-1161-455a-8e6d-2693a76e8eab' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8CCDE182E7D673AD27791E1C985A70824D8A7FBE6DF78744858A5906EFF2D50B109D8941F5A043D2BCF3A812E15EFE4</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E803178E19B69141C05CD6A3389D75B10F9FE50AFE0DC182BF2E16403052F13F914A14B56163302EAC4425C7818C6E31</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E84B5785B41FFFD472CD800913B3BEE15663B3F56A02F9061149E7EADFB74B7231366675572B9E21325E5BBC6827</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E85340600013465E8563F2498DFE078116FDE9F410317138FB58D95F95FA92C7F8BAE2AA3A96F25602ACA7F285C5</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8B653983C49453AC770353038D6F407FDBAFD2BFAEF5A2360607DD7D226D4D9BC69A2EB5E7806F34C52ED52E53CEF58E9CD1B7B0640A2</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May 17 15:59:56 2023', "ActaValue_3" = 'Thu Jul 27 09:59:01 2023', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI_DEV::'20b6c1d2-c9e0-48d9-b67c-c65b1ec918ad' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8C5ACF29558B3AA4A4C7CBBB3153F1DE4C3154B52889E2354D7262EA485194BDA11FDADFAD9363133F43AA47B01</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8FD690FE837D9512A828E0F6D14E6FD501D033B32A47B67ABC6A7E9FF3AA1E4D6C24273DFEA7306D5C6F8D45469</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8781D1DA3F3DC7BE0F5CDD18F558B8719548272FDB2BFE8A557B9897773F3298E4EC5C04B3EE3538A9ED554F2A37DD166E45BCB12</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>perseo.superrepuestos.domain</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI_DEV', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu Sep  5 11:28:37 2024' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '269571' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '269571' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_modified',ActaValue_11 = 'Thu Sep  5 11:11:53 2024' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '8 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CA(TIPOCA VARCHAR(1)  NULL  SET("Description" = 'Cuenta tipo', "ui_mapping_text" = 'CAAAMMLF.TIPOCA'), 
+CODICA VARCHAR(4)  NULL  SET("Description" = 'Cliente', "ui_mapping_text" = 'CAAAMMLF.CODICA'), 
+COMPCA VARCHAR(9)  NULL  SET("Description" = 'Comprobante', "ui_mapping_text" = 'CAAAMMLF.COMPCA'), 
+VALOCA DECIMAL(9, 2)  NULL  SET("Description" = 'Valor', "ui_mapping_text" = 'CAAAMMLF.VALOCA'), 
+COACA VARCHAR(1)  NULL  SET("Description" = 'Cargo o Abono', "ui_mapping_text" = 'CAAAMMLF.COACA'), 
+FECHCA VARCHAR(8)  NULL  SET("Description" = 'Fecha', "ui_mapping_text" = 'CAAAMMLF.FECHCA'), 
+ALMACA VARCHAR(2)  NULL  SET("Description" = 'Almacen', "ui_mapping_text" = 'CAAAMMLF.ALMACA'), 
+ID_PAIS INT  NULL  SET("ui_mapping_text" = '1'), 
+FECHA_CREACION_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Sep  4 14:10:54 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Thu Sep  5 11:28:46 2024' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '221227' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '221227' , 
+ActaName_12 = 'RNumber_Of_Updates',ActaValue_12 = '0' , 
+ActaName_13 = 'RNumber_Of_Deletes',ActaValue_13 = '0' , 
+ActaName_14 = 'RElapsed_Time_For_Load',ActaValue_14 = '3 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI_DEV.DWH.CA(TIPOCA VARCHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA VARCHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA VARCHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA VARCHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA VARCHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA VARCHAR(2)  NOT NULL  SET("Description" = 'Almacen'), 
+ID_PAIS INT  NULL , 
+FECHA_CREACION_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:42 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2301(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2301" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2301" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23019N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23019S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:08 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2301(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2301" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2301" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23019N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23019S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:38 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2302(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2302" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2302" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23029N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23029S" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CEYYMM" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CEYYMM9N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CEYYMM9S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:06 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2302(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2302" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2302" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23029N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23029S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:35 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2303(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2303" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2303" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23039N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23039S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:04 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2303(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2303" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2303" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23039N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23039S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '# 18661 Archivo Historico de Mov.de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:32 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2304(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2304" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2304" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23049N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23049S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:02 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2304(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2304" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2304" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23049N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23049S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:31 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2305(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2305" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2305" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23059N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23059S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:54 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2305(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2305" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2305" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23059N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23059S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:29 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2306(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2306" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2306" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23069N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23069S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:50 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2306(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2306" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2306" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23069N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23069S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:24 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2307(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2307" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2307" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23079N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23079S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:47 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2307(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2307" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2307" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23079N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23079S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:22 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2308(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2308" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2308" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23089N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23089S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:45 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2308(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2308" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2308" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23089N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23089S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:20 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2309(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2309" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2309" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23099N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23099S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:43 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2309(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2309" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2309" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23099N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23099S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:17 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2310(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2310" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CACRED" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE2310" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23109N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23109S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:41 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2310(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2310" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2310" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23109N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23109S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:15 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2311(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2311" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2311" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23119N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23119S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:37 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2311(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2311" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2311" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23119N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23119S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:21:11 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2312(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2312" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2312" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE23129N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE23129S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 14:20:34 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2312(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2312" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2312" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE23129N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE23129S" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.ESTCTAT" ON (TIPOCA, CODICA, FECHCA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:37:48 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2401(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2401" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2401" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24019N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24019S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:23:09 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2401(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2401" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2401" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24019N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24019S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:37:51 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2402(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2402" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2402" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24029N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24029S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:27:11 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2402(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2402" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2402" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24029N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24029S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:37:55 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2403(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2403" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2403" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24039N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24039S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:29:05 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2403(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2403" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2403" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24039N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24039S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:37:59 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2404(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2404" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2404" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24049N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24049S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:29:07 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2404(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2404" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2404" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24049N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24049S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:38:02 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2405(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2405" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2405" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24059N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24059S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:29:10 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2405(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2405" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2405" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24059N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24059S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:38:05 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2406(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2406" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2406" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24069N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24069S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:29:12 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2406(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2406" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2406" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24069N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24069S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:38:10 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2407(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2407" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE2407" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24079N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24079S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:29:59 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2407(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2407" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2407" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24079N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24079S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito    @JP' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:38:13 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CA2408(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "NEWINV.CA2408" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CAAAMMLF" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE2408" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "NEWINV.CE24089N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "NEWINV.CE24089S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Archivo Historico de Movimientos de Credito' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:30:07 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CA2408(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+CREATE_INDEX "PHNINV.CA2408" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE2408" ON (TIPOCA, CODICA, FECHCA) 
+CREATE_INDEX "PHNINV.CE24089N" ON (TIPOCA, CODICA, COMPCA) 
+CREATE_INDEX "PHNINV.CE24089S" ON (TIPOCA, CODICA, COMPCA) 
+SET("db_alias_name" = 'PHNINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Utilizado en Crystal Lic.Yanes                 EDH' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 11:39:42 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.CAAAMMLF(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Utilizado en Crystal Lic.Yanes                 EDH' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Sep  4 10:02:59 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.PHNINV.CAAAMMLF(TIPOCA CHAR(1)  NOT NULL  SET("Description" = 'Cuenta tipo'), 
+CODICA CHAR(4)  NOT NULL  SET("Description" = 'Cliente'), 
+COMPCA CHAR(9)  NOT NULL  SET("Description" = 'Comprobante'), 
+VALOCA DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor'), 
+COACA CHAR(1)  NOT NULL  SET("Description" = 'Cargo o Abono'), 
+FECHCA CHAR(8)  NOT NULL  SET("Description" = 'Fecha'), 
+ALMACA CHAR(2)  NOT NULL  SET("Description" = 'Almacen')) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 15:01:37 2024', "ActaValue_3" = 'Wed Sep  4 16:09:04 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CA_23_HN::'728d798a-7dfe-4e34-bbb4-4a859636cd3c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '152', "y" = '-2')
+GUID::'60c2f3bb-afac-4133-b7f9-fb182c43d93e' READ TABLE DS_DB2.PHNINV.CA2301 OUTPUT(CA2301)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '134', "y" = '-189')
+GUID::'f8e6a062-64e6-442e-9414-fb3ba4579575' READ TABLE DS_DB2.PHNINV.CA2302 OUTPUT(CA2302)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '126', "y" = '-341')
+GUID::'031179a2-9c48-428e-956b-c6f178ed7b95' READ TABLE DS_DB2.PHNINV.CA2303 OUTPUT(CA2303)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '115', "y" = '-629')
+GUID::'ea42b94f-455d-407d-b5ac-8e211165f09e' READ TABLE DS_DB2.PHNINV.CA2304 OUTPUT(CA2304)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '126', "y" = '-826')
+GUID::'26f9992c-09fe-438a-be63-5e27088a8f71' READ TABLE DS_DB2.PHNINV.CA2305 OUTPUT(CA2305)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '119', "y" = '-1076')
+GUID::'838be60f-56c4-4289-ae35-80a2704bb1a6' READ TABLE DS_DB2.PHNINV.CA2306 OUTPUT(CA2306)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '114', "y" = '-1259')
+GUID::'180cf601-dbf1-40ca-911e-ed5089a3325e' READ TABLE DS_DB2.PHNINV.CA2307 OUTPUT(CA2307)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '104', "y" = '-1465')
+GUID::'f524cd2f-bb18-4c81-aab2-47a6c05e8a88' READ TABLE DS_DB2.PHNINV.CA2308 OUTPUT(CA2308)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '108', "y" = '-1668')
+GUID::'28a1e8c5-a02f-43be-b9cf-85b24b148e90' READ TABLE DS_DB2.PHNINV.CA2309 OUTPUT(CA2309)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '98', "y" = '-1841')
+GUID::'c5827a82-cfc5-4329-8996-327f8a162d59' READ TABLE DS_DB2.PHNINV.CA2310 OUTPUT(CA2310)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '95', "y" = '-2031')
+GUID::'e52f505a-1652-44d7-a2d6-a82f9486e69e' READ TABLE DS_DB2.PHNINV.CA2311 OUTPUT(CA2311)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '82', "y" = '-2216')
+GUID::'343f9823-39dd-4ac0-a6cd-ba177f6e91e0' READ TABLE DS_DB2.PHNINV.CA2312 OUTPUT(CA2312)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'Merge_HN', "x" = '972', "y" = '-1059')
+GUID::'b6c19e4e-5218-41af-bb07-ba50c6c9b0d1' CALL TRANSFORM Merge() INPUT(CA2301, CA2302, CA2303, CA2304, CA2305, CA2306, CA2307, CA2308, CA2309, CA2310, CA2311, CA2312) OUTPUT(Merge_HN()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'Merge_HN', "ui_display_name" = 'Query_HN', "x" = '1482', "y" = '-1069')
+GUID::'f4f3dd05-11bd-48ff-b88e-5d4edae1651c' CREATE VIEW Query_HN( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'Merge_HN.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'Merge_HN.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'Merge_HN.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'Merge_HN.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'Merge_HN.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr(Merge_HN.FECHCA, 5, 4) || substr(Merge_HN.FECHCA, 1, 4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'Merge_HN.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Merge_HN.TIPOCA, Merge_HN.CODICA, Merge_HN.COMPCA, Merge_HN.VALOCA, Merge_HN.COACA, (substr(Merge_HN.FECHCA, 5, 4) || substr(Merge_HN.FECHCA, 1, 4)), Merge_HN.ALMACA, 2, sysdate() FROM Merge_HN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "x" = '2072', "y" = '-1066')
+GUID::'14d0aa7d-5cef-4f0b-91d3-af8c4753a345' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CA INPUT(Query_HN)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 14:31:58 2024', "ActaValue_3" = 'Thu Sep  5 11:15:44 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CA_23_SV::'c0f1ff55-2e36-42d6-8012-d85085c823f0'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '635', "y" = '-31')
+GUID::'a1541b0a-c41e-422a-b17f-11a6ed8a23f2' READ TABLE DS_DB2.NEWINV.CA2301 OUTPUT(CA2301)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '228', "y" = '-132')
+GUID::'04e35771-453d-41a2-9c25-4ef409e8681a' READ TABLE DS_DB2.NEWINV.CA2302 OUTPUT(CA2302)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '202', "y" = '-265')
+GUID::'a435e5ce-c51a-4398-8658-478e4b79dcf0' READ TABLE DS_DB2.NEWINV.CA2303 OUTPUT(CA2303)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '194', "y" = '-427')
+GUID::'be729c12-0a8d-4391-8f34-f30b0220a292' READ TABLE DS_DB2.NEWINV.CA2304 OUTPUT(CA2304)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '194', "y" = '-627')
+GUID::'2a26e66d-c8a6-4cf1-8054-1ea14e0f0214' READ TABLE DS_DB2.NEWINV.CA2305 OUTPUT(CA2305)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '184', "y" = '-792')
+GUID::'87c90e2a-73b9-4f51-8d44-4037cfefaaa9' READ TABLE DS_DB2.NEWINV.CA2306 OUTPUT(CA2306)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '191', "y" = '-988')
+GUID::'d340d652-40c8-4e14-8196-3a9a94a4840f' READ TABLE DS_DB2.NEWINV.CA2307 OUTPUT(CA2307)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '206', "y" = '-1185')
+GUID::'c9e71ca2-bca5-46f8-ad99-7bf22e967fb4' READ TABLE DS_DB2.NEWINV.CA2308 OUTPUT(CA2308)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '204', "y" = '-1386')
+GUID::'6b6ee2c5-e163-4256-ae85-73540d23117a' READ TABLE DS_DB2.NEWINV.CA2309 OUTPUT(CA2309)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '197', "y" = '-1569')
+GUID::'ba266435-46eb-418d-915e-036b41b44391' READ TABLE DS_DB2.NEWINV.CA2310 OUTPUT(CA2310)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '171', "y" = '-1762')
+GUID::'49357167-4f8e-4308-b5a3-bfcd10d7f706' READ TABLE DS_DB2.NEWINV.CA2311 OUTPUT(CA2311)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '369', "y" = '-1871')
+GUID::'483d39ad-3cc3-4865-b41d-ce7edad8163d' READ TABLE DS_DB2.NEWINV.CA2312 OUTPUT(CA2312)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'Merge_SV', "x" = '1378', "y" = '-853')
+GUID::'d29971e7-c3e4-4325-bff4-1c2d5a9864dd' CALL TRANSFORM Merge() INPUT(CA2301, CA2302, CA2303, CA2304, CA2305, CA2306, CA2307, CA2308, CA2309, CA2310, CA2311, CA2312) OUTPUT(Merge_SV()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'Merge_SV', "x" = '1699', "y" = '-858')
+GUID::'9f044f94-44fe-40f9-93d8-91e4506b4b8a' CREATE VIEW Query( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'Merge_SV.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'Merge_SV.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'Merge_SV.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'Merge_SV.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'Merge_SV.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr(Merge_SV.FECHCA, 5, 4) || substr(Merge_SV.FECHCA, 1, 4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'Merge_SV.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Merge_SV.TIPOCA, Merge_SV.CODICA, Merge_SV.COMPCA, Merge_SV.VALOCA, Merge_SV.COACA, (substr(Merge_SV.FECHCA, 5, 4) || substr(Merge_SV.FECHCA, 1, 4)), Merge_SV.ALMACA, 1, sysdate() FROM Merge_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "x" = '2118', "y" = '-875')
+GUID::'bd2883a7-4e36-43c0-befd-0167fcabf055' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CA INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 10:32:43 2024', "ActaValue_3" = 'Wed Sep  4 16:17:18 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CA_24_HN::'31f8e658-9c4c-4a01-8074-db2be1a5efb1'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '351', "y" = '-153')
+GUID::'ef77ac2a-e23f-40db-83c9-9870ed2d24c9' READ TABLE DS_DB2.PHNINV.CA2401 OUTPUT(CA2401)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '363', "y" = '-350')
+GUID::'2caba6cb-3fad-4a23-9478-f9042f424cce' READ TABLE DS_DB2.PHNINV.CA2402 OUTPUT(CA2402)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '377', "y" = '-556')
+GUID::'e84f9b98-4f94-4955-b744-22433fb5ac29' READ TABLE DS_DB2.PHNINV.CA2403 OUTPUT(CA2403)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '360', "y" = '-725')
+GUID::'8ca25d73-a988-42ce-9f9f-db1a7090bbf9' READ TABLE DS_DB2.PHNINV.CA2404 OUTPUT(CA2404)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '366', "y" = '-903')
+GUID::'612369f4-5cdb-4604-ad11-4e180a077ab2' READ TABLE DS_DB2.PHNINV.CA2405 OUTPUT(CA2405)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '364', "y" = '-1065')
+GUID::'89403a79-8e06-4c65-adf1-9fbb9822702f' READ TABLE DS_DB2.PHNINV.CA2406 OUTPUT(CA2406)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '388', "y" = '-1268')
+GUID::'4c01e9f2-54a9-40f3-9a0c-939829d35f63' READ TABLE DS_DB2.PHNINV.CA2407 OUTPUT(CA2407)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '377', "y" = '-1445')
+GUID::'38c841d5-c09d-411d-a73a-3eebcc39c7dc' READ TABLE DS_DB2.PHNINV.CA2408 OUTPUT(CA2408)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'Merge_HN', "x" = '1303', "y" = '-885')
+GUID::'ea4fc118-fa21-4fda-8815-09bfdb2b653d' CALL TRANSFORM Merge() INPUT(CA2401, CA2402, CA2403, CA2404, CA2405, CA2406, CA2407, CA2408) OUTPUT(Merge_HN()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'Merge_HN', "ui_display_name" = 'Query_HN', "x" = '1903', "y" = '-910')
+GUID::'435a242d-ad09-4f6a-9c28-50cb4c15b67a' CREATE VIEW Query_HN( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'Merge_HN.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'Merge_HN.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'Merge_HN.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'Merge_HN.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'Merge_HN.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr(Merge_HN.FECHCA,5,4) || substr(Merge_HN.FECHCA,1,4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'Merge_HN.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ FECHA_CREACION_DWH DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Merge_HN.TIPOCA, Merge_HN.CODICA, Merge_HN.COMPCA, Merge_HN.VALOCA, Merge_HN.COACA, (substr(Merge_HN.FECHCA, 5, 4) || substr(Merge_HN.FECHCA, 1, 4)), Merge_HN.ALMACA, 2, sysdate() FROM Merge_HN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "x" = '2432', "y" = '-925')
+GUID::'6791acef-ed45-4bf3-a31b-11cb94ae4f7c' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CA INPUT(Query_HN)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Audit" = '<?xml version="1.0" encoding="UTF-8"?>
+<Audit>
+<AuditObjects>
+</AuditObjects>
+<AuditRules>
+</AuditRules>
+<Notifications>
+<RaiseException Enabled="true" >
+</RaiseException>
+<Mail Enabled="false" ></Mail>
+<Script Enabled="false" ></Script>
+</Notifications>
+</Audit>
+', "Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 11:58:25 2024', "ActaValue_3" = 'Wed Sep  4 16:17:18 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CA_24_SV::'a13f7162-3458-4da2-9445-cfdd74d0f175'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "ui_display_name" = 'Merge_SV', "x" = '1062', "y" = '-747')
+GUID::'68c643f0-9048-4585-9adc-f2abb1d52bdc' CALL TRANSFORM Merge() INPUT(CA2401, CA2402, CA2403, CA2404, CA2405, CA2406, CA2407, CA2408) OUTPUT(Merge_SV()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '295', "y" = '-10')
+GUID::'d81172b2-fcfe-4488-b186-4e6aec324cff' READ TABLE DS_DB2.NEWINV.CA2401 OUTPUT(CA2401)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '282', "y" = '-213')
+GUID::'429f5303-132b-4c58-8b57-fc167deabe1a' READ TABLE DS_DB2.NEWINV.CA2402 OUTPUT(CA2402)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '281', "y" = '-428')
+GUID::'90f1c2a6-48a4-4a73-8145-ed08e8581486' READ TABLE DS_DB2.NEWINV.CA2403 OUTPUT(CA2403)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '288', "y" = '-629')
+GUID::'c165574f-6607-4b44-8ba5-69b971c049a6' READ TABLE DS_DB2.NEWINV.CA2404 OUTPUT(CA2404)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '272', "y" = '-832')
+GUID::'84308a27-402c-47f1-a04b-99b8ef188262' READ TABLE DS_DB2.NEWINV.CA2405 OUTPUT(CA2405)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '273', "y" = '-1035')
+GUID::'a279e59d-493e-4feb-85f6-21c3526c7443' READ TABLE DS_DB2.NEWINV.CA2406 OUTPUT(CA2406)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '267', "y" = '-1225')
+GUID::'aef03795-6a8c-495f-ab8e-f67d573ed2f8' READ TABLE DS_DB2.NEWINV.CA2407 OUTPUT(CA2407)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>378</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '61', "x" = '259', "y" = '-1426')
+GUID::'d2e3e1aa-8d07-43ea-9f1b-a0d4c59800b5' READ TABLE DS_DB2.NEWINV.CA2408 OUTPUT(CA2408)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "ui_acta_from_schema_0" = 'Merge_SV', "ui_display_name" = 'Query_SV', "x" = '1465', "y" = '-755')
+GUID::'528abbc5-cd0f-4737-b9ae-4508d5170873' CREATE VIEW Query_SV( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'Merge_SV.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'Merge_SV.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'Merge_SV.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'Merge_SV.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'Merge_SV.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr(Merge_SV.FECHCA,5,4) || substr( Merge_SV.FECHCA,1,4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'Merge_SV.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT Merge_SV.TIPOCA, Merge_SV.CODICA, Merge_SV.COMPCA, Merge_SV.VALOCA, Merge_SV.COACA, (substr(Merge_SV.FECHCA, 5, 4) || substr(Merge_SV.FECHCA, 1, 4)), Merge_SV.ALMACA, 1, sysdate() FROM Merge_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "x" = '2003', "y" = '-775')
+GUID::'8ea2dfbe-afb8-41cb-abcb-d883b3458532' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CA INPUT(Query_SV)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 10:31:14 2024', "ActaValue_3" = 'Thu Sep  5 11:16:31 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION TEST_CRD::'55393870-5afa-46c2-9167-07b780bf60be'( )
+DECLARE
+     GLOBAL $Fecha_minima VARCHAR(8) ;
+     GLOBAL $Fecha_maxima VARCHAR(8) ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>341</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '581', "y" = '-327')
+CALL PLAN WF_CRG_STG_CA::'1177fdc1-b8dd-4963-89a1-8599b8d14f2e'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>469</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1065', "y" = '-328')
+CALL PLAN WF_CRG_STG_CAAAMMLF::'daa3d915-5cf1-405b-a0d7-519767be4a32'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '55393870-5afa-46c2-9167-07b780bf60be', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'TEST_CRD', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 11:58:26 2024', "ActaValue_3" = 'Wed Sep  4 17:02:37 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_CA::'1177fdc1-b8dd-4963-89a1-8599b8d14f2e'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '646', "y" = '-762')
+CALL DATAFLOW DF_CRG_STG_CA_23_SV::'c0f1ff55-2e36-42d6-8012-d85085c823f0'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1018', "y" = '-756')
+CALL DATAFLOW DF_CRG_STG_CA_23_HN::'728d798a-7dfe-4e34-bbb4-4a859636cd3c'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1411', "y" = '-755')
+CALL DATAFLOW DF_CRG_STG_CA_24_SV::'a13f7162-3458-4da2-9445-cfdd74d0f175'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1987', "y" = '-751')
+CALL DATAFLOW DF_CRG_STG_CA_24_HN::'31f8e658-9c4c-4a01-8074-db2be1a5efb1'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 16:17:18 2024', "ActaValue_3" = 'Thu Sep  5 11:06:27 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_CAAAMMLF::'daa3d915-5cf1-405b-a0d7-519767be4a32'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO', "ui_script_text" = '$Fecha_minima =\'\';
+$Fecha_maxima  =\'\';
+$Fecha_minima = sql(\'DS_DB2_GER_VTAS\', \'select Min(Fechca) from newinv.caaammlf\');
+$Fecha_maxima = sql(\'DS_DB2_GER_VTAS\', \'select Max(Fechca) from newinv.caaammlf\');
+
+#print(\'Fecha Minima: \'|| $Fecha_minima||\' Fecha Maxima: \'|| $Fecha_maxima );
+
+#print(\'Delete from stage_bi.dwh.ca Where id_pais=2 and fechaca between \'|| $Fecha_minima ||\' and \'|| $Fecha_maxima  );
+
+
+sql(\'DS_SQL_SERVER_STAGE_BI_DEV\', \'DELETE FROM STAGE_BI.DWH.CA WHERE FECHCA between \'|| $Fecha_minima || \' and \' || $Fecha_maxima|| \';\');
+
+', "x" = '546', "y" = '-375')
+BEGIN_SCRIPT
+$Fecha_minima = '';$Fecha_maxima = '';$Fecha_minima = sql('DS_DB2_GER_VTAS', 'select Min(Fechca) from newinv.caaammlf');$Fecha_maxima = sql('DS_DB2_GER_VTAS', 'select Max(Fechca) from newinv.caaammlf');sql('DS_SQL_SERVER_STAGE_BI_DEV', (((('DELETE FROM STAGE_BI.DWH.CA WHERE FECHCA between ' || $Fecha_minima) || ' and ') || $Fecha_maxima) || ';'));END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>469</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '930', "y" = '-376')
+CALL DATAFLOW WF_CRG_STG_CAAAMMLF::'42bbeae9-a5b5-4f42-a5cf-4dc2aebcfd14'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Sep  4 16:09:04 2024', "ActaValue_3" = 'Wed Sep  4 16:24:25 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW WF_CRG_STG_CAAAMMLF::'42bbeae9-a5b5-4f42-a5cf-4dc2aebcfd14'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '45', "x" = '240', "y" = '-415')
+GUID::'f139d279-993d-4cdb-957a-2e31ce177b03' READ TABLE DS_DB2.NEWINV.CAAAMMLF OUTPUT(CAAAMMLF)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '45', "x" = '244', "y" = '-777')
+GUID::'4353146e-cfc2-4c1d-98d7-0750ded1ca65' READ TABLE DS_DB2.PHNINV.CAAAMMLF OUTPUT(CAAAMMLF_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "ui_acta_from_schema_0" = 'CAAAMMLF', "ui_display_name" = 'Query_SV', "x" = '731', "y" = '-414')
+GUID::'a0d2003a-4aaa-427f-be03-f2381afa3ad7' CREATE VIEW Query_SV( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'CAAAMMLF.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'CAAAMMLF.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'CAAAMMLF.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'CAAAMMLF.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'CAAAMMLF.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr(CAAAMMLF.FECHCA,5,4) || substr(CAAAMMLF.FECHCA,1,4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'CAAAMMLF.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CAAAMMLF.TIPOCA, CAAAMMLF.CODICA, CAAAMMLF.COMPCA, CAAAMMLF.VALOCA, CAAAMMLF.COACA, (substr(CAAAMMLF.FECHCA, 5, 4) || substr(CAAAMMLF.FECHCA, 1, 4)), CAAAMMLF.ALMACA, 1, sysdate() FROM CAAAMMLF 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "ui_acta_from_schema_0" = 'CAAAMMLF_1', "ui_display_name" = 'Query_HN', "x" = '749', "y" = '-778')
+GUID::'f013947c-0d23-4170-8933-47b368c3524b' CREATE VIEW Query_HN( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'CAAAMMLF_1.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'CAAAMMLF_1.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'CAAAMMLF_1.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'CAAAMMLF_1.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'CAAAMMLF_1.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'substr( CAAAMMLF_1.FECHCA,5,4) || substr( CAAAMMLF_1.FECHCA,1,4)') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'CAAAMMLF_1.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CAAAMMLF_1.TIPOCA, CAAAMMLF_1.CODICA, CAAAMMLF_1.COMPCA, CAAAMMLF_1.VALOCA, CAAAMMLF_1.COACA, (substr(CAAAMMLF_1.FECHCA, 5, 4) || substr(CAAAMMLF_1.FECHCA, 1, 4)), CAAAMMLF_1.ALMACA, 2, sysdate() FROM CAAAMMLF_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '45', "x" = '1213', "y" = '-562')
+GUID::'d980c8a9-0f91-4fd0-a08b-e8d9a811f992' CALL TRANSFORM Merge() INPUT(Query_HN, Query_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "x" = '1941', "y" = '-557')
+GUID::'ec223327-cbf2-4d7c-932e-a520e9f408d2' LOAD TABLE DS_SQL_SERVER_STAGE_BI_DEV.DWH.CA INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI_DEV', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '46', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '45', "ui_acta_from_schema_0" = 'Merge', "x" = '1603', "y" = '-547')
+GUID::'f6bcd83a-534f-4084-9cab-dcc5d4315732' CREATE VIEW Query( TIPOCA VARCHAR(1)  SET( "Description" = 'Cuenta tipo', "ui_mapping_text" = 'Merge.TIPOCA') ,
+ CODICA VARCHAR(4)  SET( "Description" = 'Cliente', "ui_mapping_text" = 'Merge.CODICA') ,
+ COMPCA VARCHAR(9)  SET( "Description" = 'Comprobante', "ui_mapping_text" = 'Merge.COMPCA') ,
+ VALOCA DECIMAL(9, 2)  SET( "Description" = 'Valor', "ui_mapping_text" = 'Merge.VALOCA') ,
+ COACA VARCHAR(1)  SET( "Description" = 'Cargo o Abono', "ui_mapping_text" = 'Merge.COACA') ,
+ FECHCA VARCHAR(8)  SET( "Description" = 'Fecha', "ui_mapping_text" = 'Merge.FECHCA') ,
+ ALMACA VARCHAR(2)  SET( "Description" = 'Almacen', "ui_mapping_text" = 'Merge.ALMACA') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ Fecha_creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.Fecha_creacion_DWH')  )
+ AS
+SELECT Merge.TIPOCA, Merge.CODICA, Merge.COMPCA, Merge.VALOCA, Merge.COACA, Merge.FECHCA, Merge.ALMACA, Merge.ID_PAIS, Merge.Fecha_creacion_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

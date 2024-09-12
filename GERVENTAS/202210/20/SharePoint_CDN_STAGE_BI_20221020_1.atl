@@ -1,0 +1,645 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8A04D9553D992FEFD8CE7A544F6FF86FA34F6B154DAB5410F4779D15ECFF7CEF41CC86309F72C3DB63E6021C525</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E888E0C33639279A39AB1DCA898DCF6E95F99A530FB02031B8AB45A826644B792E052E4CFD18B6B92322BF95496F</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8F14217703D54D7F5E0856A1E511CC147732851342239B3D03A5B503AE06E1069136C263D9581844CD7E1B77F12AAED61C7D68662BAA1</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Oct 14 09:36:02 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '4' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '4' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '0 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Fri Oct 14 09:33:40 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_ARRANQUEDIARIOCOMPLEMENTO("Pedidos en Revisión Física/Military" VARCHAR(255)  NULL , 
+"Personal Ausente" DOUBLE  NULL , 
+"Motivo de Ausencia" VARCHAR(255)  NULL , 
+"Personal en Operaciones" DOUBLE  NULL , 
+CARGO VARCHAR(255)  NULL , 
+"Personal Outsorcing" DOUBLE  NULL , 
+"Personal en Etiquetado" DOUBLE  NULL , 
+F8 VARCHAR(255)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '7907' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '7907' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '1 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Tue Oct 11 15:02:40 2022' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Fri Oct 14 09:35:47 2022' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Tue Oct 11 15:19:45 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_ASISTENCIACDDCOMAYAGUA(CODIGO DOUBLE  NULL , 
+NOMBRE VARCHAR(255)  NULL , 
+FECHA DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+ESTATUS VARCHAR(255)  NULL , 
+"Hora Extra Diurna" DOUBLE  NULL , 
+"Hora Extra Nocturna" DOUBLE  NULL , 
+"Hora Extra Festivos & Domingos" VARCHAR(255)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Oct 14 09:35:51 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '2304' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '2304' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '1 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Tue Oct 11 15:31:11 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_BASEDATOSDIFERENCIAS_RT_RL_PEDIDOSHN("FECHA#" DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+MES VARCHAR(255)  NULL , 
+SEMANA DOUBLE  NULL , 
+"TIPO DE PEDIDO" VARCHAR(255)  NULL , 
+PEDIDO VARCHAR(255)  NULL , 
+ALMACEN VARCHAR(255)  NULL , 
+CODIGO VARCHAR(255)  NULL , 
+DESCRIPCION VARCHAR(255)  NULL , 
+DOC DOUBLE  NULL , 
+SCAN DOUBLE  NULL , 
+DIFERENCIA DOUBLE  NULL , 
+TIPO VARCHAR(255)  NULL , 
+ESTATUS VARCHAR(255)  NULL , 
+OBSERVACION VARCHAR(255)  NULL , 
+"# DE ENVIO SOLUC#" VARCHAR(255)  NULL , 
+"NOMBRE/RESPONSABLE" VARCHAR(255)  NULL , 
+"CODIGO/RESPONSABLE2" DOUBLE  NULL , 
+"FECHA SOLUC#" DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+AUDITOR VARCHAR(255)  NULL , 
+NIVEL VARCHAR(255)  NULL , 
+"COSTO/U" DOUBLE  NULL , 
+"COSTO/TOTAL#" DOUBLE  NULL , 
+"COSTO/TOTAL" DOUBLE  NULL , 
+ALM VARCHAR(255)  NULL , 
+"# AFI" VARCHAR(255)  NULL , 
+UNID VARCHAR(255)  NULL , 
+REFERENCIA VARCHAR(255)  NULL , 
+"FECHA##" DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+"¿AJUSTAR DIF# EN CDN" VARCHAR(255)  NULL , 
+"# AFI  CDN#" VARCHAR(255)  NULL , 
+"UNID/AJUSTAR" VARCHAR(255)  NULL , 
+"AUDITOR#" DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+"OBSERVACION," DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2'), 
+HISTORIAL VARCHAR(255)  NULL , 
+F35 VARCHAR(255)  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Oct 14 09:35:55 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '57' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RDatabase_Object_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RNumber_Of_Inserts',ActaValue_5 = '57' , 
+ActaName_6 = 'RNumber_Of_Updates',ActaValue_6 = '0' , 
+ActaName_7 = 'RNumber_Of_Deletes',ActaValue_7 = '0' , 
+ActaName_8 = 'RElapsed_Time_For_Load',ActaValue_8 = '1 Seconds' , 
+ActaName_9 = 'RTable_Type',ActaValue_9 = 'TABLE' , 
+ActaName_10 = 'RDescription',ActaValue_10 = '' , 
+ActaName_11 = 'REstimated_Row_Count',ActaValue_11 = '50000' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RLoader_Is_Template_Table',ActaValue_13 = 'no' , 
+ActaName_14 = 'RDate_modified',ActaValue_14 = 'Wed Oct 12 14:27:18 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_PLANIFICACION_CUMPLIMIENTO(Fecha DATETIME(3)  NULL , 
+Proceso VARCHAR(255)  NULL , 
+Pedido VARCHAR(255)  NULL , 
+"Hora Inicio" DATETIME(3)  NULL , 
+"Hora Fin Planificada" DATETIME(3)  NULL , 
+"Hora Fin Real" DATETIME(3)  NULL , 
+Responsables DOUBLE  NULL , 
+Semana DOUBLE  NULL , 
+Status VARCHAR(255)  NULL , 
+Cumplimiento DOUBLE  NULL , 
+FECHA_CARGA_DWH DATETIME(3)  NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Fri Oct 14 09:35:58 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '1263' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '1263' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '0 Seconds' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Thu Oct 13 17:19:22 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_REPORTE_PRODUCTIVIDAD("Fecha y Hora Inicio" VARCHAR(255)  NULL , 
+"Fecha y Hora Fin" VARCHAR(255)  NULL , 
+Semana DOUBLE  NULL , 
+Proceso VARCHAR(255)  NULL , 
+Coordinador VARCHAR(255)  NULL , 
+Responsable VARCHAR(255)  NULL , 
+Pedido VARCHAR(255)  NULL , 
+Proveedor VARCHAR(255)  NULL , 
+"Total Items" DOUBLE  NULL , 
+"Total Unidades" DOUBLE  NULL , 
+Tiempo VARCHAR(255)  NULL , 
+"Tiempo según productividad (h)" DOUBLE  NULL , 
+"Tiempo Real" DOUBLE  NULL , 
+Resultado VARCHAR(255)  NULL , 
+"Productividad Esperada" DOUBLE  NULL , 
+"Productividad Real" DOUBLE  NULL , 
+"Acción de Personal" VARCHAR(255)  NULL , 
+FECHA_CARGA_DWH DATETIME(3)  NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+CREATE __BODI_EXCEL DATASTORE SP_CDN_ArranqueDiarioComplemento::'192747d2-8c97-42f4-a6ea-3b9dd8eb2160'("Pedidos en Revisión Física/Military" VARCHAR(255) , "Personal Ausente" DOUBLE , "Motivo de Ausencia" VARCHAR(255) , "Personal en Operaciones" DOUBLE , Cargo VARCHAR(255) , "Personal Outsorcing" DOUBLE , "Personal en Etiquetado" DOUBLE , F8 VARCHAR(255) )
+ SET ("MSExcel_file_dir" = 'C:\\SharePoint', "MSExcel_file_name" = 'ArranqueDiarioComplementoReporte.xlsx', "MSExcel_worksheet" = 'Hoja1', "MSExcel_worksheet_all" = 'yes', "MSExcel_worksheet_is_number" = 'no', "MSExcel_worksheet_use_1row_names" = 'yes', "application_type" = '', "ds_configuration_enabled" = 'no', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>');
+CREATE __BODI_EXCEL DATASTORE SP_CDN_AsistenciaCDDComayagua::'f725ac25-b0a1-4f30-a35b-6ff402a5083d'(CODIGO DOUBLE , NOMBRE VARCHAR(255) , FECHA DATETIME(9) , ESTATUS VARCHAR(255) , "Hora Extra Diurna" DOUBLE , "Hora Extra Nocturna" DOUBLE , "Hora Extra Festivos & Domingos" VARCHAR(255) )
+ SET ("MSExcel_file_dir" = 'C:\\SharePoint', "MSExcel_file_name" = 'AsistenciaCDDComayagua.xlsx', "MSExcel_worksheet" = 'ASISTENCIA CONSOLIDADA', "MSExcel_worksheet_all" = 'yes', "MSExcel_worksheet_is_number" = 'no', "MSExcel_worksheet_use_1row_names" = 'yes', "application_type" = '', "ds_configuration_enabled" = 'no', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>');
+CREATE __BODI_EXCEL DATASTORE SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN::'9f95b3f4-c37d-4954-97f6-e3f2f0b9d234'("FECHA#" DATETIME(9) , MES VARCHAR(255) , SEMANA DOUBLE , "TIPO DE PEDIDO" VARCHAR(255) , PEDIDO VARCHAR(255) , ALMACEN VARCHAR(255) , CODIGO VARCHAR(255) , DESCRIPCION VARCHAR(255) , DOC DOUBLE , SCAN DOUBLE , DIFERENCIA DOUBLE , TIPO VARCHAR(255) , ESTATUS VARCHAR(255) , OBSERVACION VARCHAR(255) , "# DE ENVIO SOLUC#" VARCHAR(255) , "NOMBRE/RESPONSABLE" VARCHAR(255) , "CODIGO/RESPONSABLE2" DOUBLE , "FECHA SOLUC#" DATETIME(9) , AUDITOR VARCHAR(255) , NIVEL VARCHAR(255) , "COSTO/U" DOUBLE , "COSTO/TOTAL#" DOUBLE , "COSTO/TOTAL" DOUBLE , ALM VARCHAR(255) , "# AFI" VARCHAR(255) , UNID VARCHAR(255) , REFERENCIA VARCHAR(255) , "FECHA##" DATETIME(9) , "¿AJUSTAR DIF# EN CDN" VARCHAR(255) , "# AFI  CDN#" VARCHAR(255) , "UNID/AJUSTAR" VARCHAR(255) , "AUDITOR#" DATETIME(9) , "OBSERVACION," DATETIME(9) , HISTORIAL VARCHAR(255) , F35 VARCHAR(255) )
+ SET ("MSExcel_file_dir" = 'C:\\SharePoint', "MSExcel_file_name" = 'BaseDatosDiferencias_RT_RL_PedidosHN.xlsx', "MSExcel_worksheet" = 'base de datos diferencias ', "MSExcel_worksheet_all" = 'yes', "MSExcel_worksheet_is_number" = 'no', "MSExcel_worksheet_use_1row_names" = 'yes', "application_type" = '', "ds_configuration_enabled" = 'no', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Oct 12 09:40:10 2022', "ActaValue_3" = 'Wed Oct 12 10:47:41 2022')
+CREATE __BODI_EXCEL DATASTORE SP_CDN_Planificacion2022_Cumplimiento::'a93988cc-2f0f-4634-8fd8-fce638756e50'(Fecha DATETIME(9) , Proceso VARCHAR(255) , Pedido VARCHAR(255) , "Hora Inicio" DATETIME(9) , "Hora Fin Planificada" DATETIME(9) , "Hora Fin Real" DATETIME(9) , Responsables DOUBLE , Semana DOUBLE , Status VARCHAR(255) , Cumplimiento DOUBLE )
+ SET ("MSExcel_file_dir" = 'C:\\SharePoint', "MSExcel_file_name" = 'Planificacion2022.xlsx', "MSExcel_worksheet" = 'Cumplimiento', "MSExcel_worksheet_all" = 'yes', "MSExcel_worksheet_is_number" = 'no', "MSExcel_worksheet_use_1row_names" = 'yes', "application_type" = '', "ds_configuration_enabled" = 'no', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>');
+CREATE __BODI_EXCEL DATASTORE SP_CDN_Reporte_Productividad::'f4076c59-979d-4d3b-bc3a-07d9d35b5448'("Fecha y Hora Inicio" VARCHAR(255) , "Fecha y Hora Fin" VARCHAR(255) , Semana DOUBLE , Proceso VARCHAR(255) , Coordinador VARCHAR(255) , Responsable VARCHAR(255) , Pedido VARCHAR(255) , Proveedor VARCHAR(255) , "Total Items" DOUBLE , "Total Unidades" DOUBLE , Tiempo VARCHAR(255) , "Tiempo según productividad (h)" DOUBLE , "Tiempo Real" DOUBLE , Resultado VARCHAR(255) , "Productividad Esperada" DOUBLE , "Productividad Real" DOUBLE , "Acción de Personal" VARCHAR(255) )
+ SET ("MSExcel_file_dir" = 'C:\\SharePoint', "MSExcel_file_name" = 'ReporteProductividad.xlsx', "MSExcel_worksheet" = 'Productividad', "MSExcel_worksheet_all" = 'yes', "MSExcel_worksheet_is_number" = 'no', "MSExcel_worksheet_use_1row_names" = 'yes', "application_type" = '', "ds_configuration_enabled" = 'no', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct  7 16:57:30 2022', "ActaValue_3" = 'Thu Oct 13 16:57:40 2022', "x" = '-1', "y" = '-1')
+CREATE SESSION SharePoint_CDD::'adcc7771-f247-443b-942c-2c3f61e444f1'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio', "ui_script_text" = 'print(\'*********************************************--> INICIO <--*************************************************\');
+print(\'*****************************--> DESCARGA DE FILES SHAREPOINT <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '240', "y" = '-303')
+BEGIN_SCRIPT
+print('*********************************************--> INICIO <--*************************************************');print('*****************************--> DESCARGA DE FILES SHAREPOINT <--*******************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script789', "ui_script_text" = 'exec(\'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\',
+     \'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\SharePointCDD.py\',
+	 0
+)
+;
+#exec(\'C:\\Perl5\\bin\\perl.exe\', \'C:\\sandbox\\stats.pl 20 50 3000\', 0);', "x" = '740', "y" = '-300')
+BEGIN_SCRIPT
+exec('C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'C:\\Users\\Administrador\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\SharePointCDD.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio1', "ui_script_text" = 'print(\'*********************************************--> FIN <--*************************************************\');
+print(\'*****************************--> DESCARGA DE FILES SHAREPOINT <--*******************************\');
+print(\'************************************************************************************************************\');
+
+print(\'*********************************************--> INICIO <--*************************************************\');
+print(\'*****************************--> CARGA de TABLAS DE SHAREPOINT AL STAGE_BI <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '1150', "y" = '-303')
+BEGIN_SCRIPT
+print('*********************************************--> FIN <--*************************************************');print('*****************************--> DESCARGA DE FILES SHAREPOINT <--*******************************');print('************************************************************************************************************');print('*********************************************--> INICIO <--*************************************************');print('*****************************--> CARGA de TABLAS DE SHAREPOINT AL STAGE_BI <--*******************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '371', "y" = '-707')
+CALL DATAFLOW SharePoint_CDN_STAGE_BI_AsistenciaComayagua::'252e9a59-97b1-4807-abbe-cbbd9add1076'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '951', "y" = '-709')
+CALL DATAFLOW Sharepoint_CDN_STAGE_BI_Diferencias_RT_RL_PedidosHN::'dca2ba2e-0a5f-4e1e-9fbd-dd8d3bb7804f'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1578', "y" = '-709')
+CALL DATAFLOW Sharepoint_CDN_STAGE_BI_Planificacion2022::'03f1eaa7-c35d-4b66-a4f9-6f4926d31ffc'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2178', "y" = '-708')
+CALL DATAFLOW SharePoint_CDN_STAGE_BI_ReporteProductividad::'1158d07f-730e-4c26-b1ec-40e6c0e13c26'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2832', "y" = '-708')
+CALL DATAFLOW SharePoint_CDN_STAGE_BI_ArranqueDiarioComplemento::'3bb6f768-b24b-4bc1-a79b-bf4935c997e8'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Fin', "ui_script_text" = 'print(\'*********************************************--> FIN <--*************************************************\');
+print(\'*****************************--> FIN DE CARGA <--*******************************\');
+print(\'************************************************************************************************************\');
+', "x" = '3615', "y" = '-708')
+BEGIN_SCRIPT
+print('*********************************************--> FIN <--*************************************************');print('*****************************--> FIN DE CARGA <--*******************************');print('************************************************************************************************************');END
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'adcc7771-f247-443b-942c-2c3f61e444f1', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'SharePoint_CDD', "job_print_version" = 'no', "job_single_instance" = 'yes', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct 14 09:24:44 2022', "ActaValue_3" = 'Fri Oct 14 09:26:22 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW SharePoint_CDN_STAGE_BI_ArranqueDiarioComplemento::'3bb6f768-b24b-4bc1-a79b-bf4935c997e8'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>353</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '409', "y" = '-594')
+GUID::'6ded73fa-b782-45ee-ad26-39e599e5d4d6' READ __BODI_EXCEL SP_CDN_ArranqueDiarioComplemento OUTPUT(SP_CDN_ArranqueDiarioComplemento)
+SET();
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SP_CDN_ArranqueDiarioComplemento', "x" = '1094', "y" = '-575')
+GUID::'cf57faad-cd4e-48f9-9b9e-1b4290b623d2' CREATE VIEW Query( "Pedidos en Revisión Física/Military" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Pedidos en Revisión Física/Military"') ,
+ "Personal Ausente" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Personal Ausente"') ,
+ "Motivo de Ausencia" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Motivo de Ausencia"') ,
+ "Personal en Operaciones" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Personal en Operaciones"') ,
+ Cargo VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento.Cargo') ,
+ "Personal Outsorcing" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Personal Outsorcing"') ,
+ "Personal en Etiquetado" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento."Personal en Etiquetado"') ,
+ F8 VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_ArranqueDiarioComplemento.F8') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SP_CDN_ArranqueDiarioComplemento."Pedidos en Revisión Física/Military", SP_CDN_ArranqueDiarioComplemento."Personal Ausente", SP_CDN_ArranqueDiarioComplemento."Motivo de Ausencia", SP_CDN_ArranqueDiarioComplemento."Personal en Operaciones", SP_CDN_ArranqueDiarioComplemento.Cargo, SP_CDN_ArranqueDiarioComplemento."Personal Outsorcing", SP_CDN_ArranqueDiarioComplemento."Personal en Etiquetado", SP_CDN_ArranqueDiarioComplemento.F8, sysdate() FROM SP_CDN_ArranqueDiarioComplemento 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_display_name" = 'SP_CDD_XLS_ARRANQUEDIARIOCOMPLEMENTO(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '1887', "y" = '-539')
+GUID::'090696c8-a406-4000-b9ca-e4847e8052a3' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_ARRANQUEDIARIOCOMPLEMENTO INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct  7 16:20:38 2022', "ActaValue_3" = 'Tue Oct 11 15:22:05 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW SharePoint_CDN_STAGE_BI_AsistenciaComayagua::'252e9a59-97b1-4807-abbe-cbbd9add1076'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>341</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '465', "y" = '-475')
+GUID::'88cfd35f-ebd9-46ba-897b-30beeeefb2a0' READ __BODI_EXCEL SP_CDN_AsistenciaCDDComayagua OUTPUT(SP_CDN_AsistenciaCDDComayagua)
+SET();
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SP_CDN_AsistenciaCDDComayagua', "x" = '1106', "y" = '-475')
+GUID::'9a574ba2-03ab-4e11-9f64-6ad46411311d' CREATE VIEW Query( CODIGO DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua.CODIGO') ,
+ NOMBRE VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua.NOMBRE') ,
+ FECHA DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua.FECHA') ,
+ ESTATUS VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua.ESTATUS') ,
+ "Hora Extra Diurna" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua."Hora Extra Diurna"') ,
+ "Hora Extra Nocturna" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua."Hora Extra Nocturna"') ,
+ "Hora Extra Festivos & Domingos" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_AsistenciaCDDComayagua."Hora Extra Festivos & Domingos"') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SP_CDN_AsistenciaCDDComayagua.CODIGO, SP_CDN_AsistenciaCDDComayagua.NOMBRE, SP_CDN_AsistenciaCDDComayagua.FECHA, SP_CDN_AsistenciaCDDComayagua.ESTATUS, SP_CDN_AsistenciaCDDComayagua."Hora Extra Diurna", SP_CDN_AsistenciaCDDComayagua."Hora Extra Nocturna", SP_CDN_AsistenciaCDDComayagua."Hora Extra Festivos & Domingos", sysdate() FROM SP_CDN_AsistenciaCDDComayagua 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>419</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_display_name" = 'SP_CDD_XLS_ASISTENCIACDDCOMAYAGUA(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '1987', "y" = '-448')
+GUID::'3b5b3728-6fea-429d-ab1c-78705ea1749d' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_ASISTENCIACDDCOMAYAGUA INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Oct 13 15:50:41 2022', "ActaValue_3" = 'Thu Oct 13 17:19:45 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW SharePoint_CDN_STAGE_BI_ReporteProductividad::'1158d07f-730e-4c26-b1ec-40e6c0e13c26'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '488', "y" = '-766')
+GUID::'ac466687-bf77-4298-a458-e5de7c542ae7' READ __BODI_EXCEL SP_CDN_Reporte_Productividad OUTPUT(SP_CDN_Reporte_Productividad)
+SET();
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Name" = '351', "Input_Width_Type" = '96', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '347', "Output_Width_Type" = '96', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SP_CDN_Reporte_Productividad', "x" = '1197', "y" = '-709')
+GUID::'1f0baf12-deeb-455e-bed2-22ee07cb972c' CREATE VIEW Query( "Fecha y Hora Inicio" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Fecha y Hora Inicio"') ,
+ "Fecha y Hora Fin" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Fecha y Hora Fin"') ,
+ Semana DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Semana') ,
+ Proceso VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Proceso') ,
+ Coordinador VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Coordinador') ,
+ Responsable VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Responsable') ,
+ Pedido VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Pedido') ,
+ Proveedor VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Proveedor') ,
+ "Total Items" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Total Items"') ,
+ "Total Unidades" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Total Unidades"') ,
+ Tiempo VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Tiempo') ,
+ "Tiempo según productividad (h)" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Tiempo según productividad (h)"') ,
+ "Tiempo Real" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Tiempo Real"') ,
+ Resultado VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad.Resultado') ,
+ "Productividad Esperada" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Productividad Esperada"') ,
+ "Productividad Real" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Productividad Real"') ,
+ "Acción de Personal" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Reporte_Productividad."Acción de Personal"') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SP_CDN_Reporte_Productividad."Fecha y Hora Inicio", SP_CDN_Reporte_Productividad."Fecha y Hora Fin", SP_CDN_Reporte_Productividad.Semana, SP_CDN_Reporte_Productividad.Proceso, SP_CDN_Reporte_Productividad.Coordinador, SP_CDN_Reporte_Productividad.Responsable, SP_CDN_Reporte_Productividad.Pedido, SP_CDN_Reporte_Productividad.Proveedor, SP_CDN_Reporte_Productividad."Total Items", SP_CDN_Reporte_Productividad."Total Unidades", SP_CDN_Reporte_Productividad.Tiempo, SP_CDN_Reporte_Productividad."Tiempo según productividad (h)", SP_CDN_Reporte_Productividad."Tiempo Real", SP_CDN_Reporte_Productividad.Resultado, SP_CDN_Reporte_Productividad."Productividad Esperada", SP_CDN_Reporte_Productividad."Productividad Real", SP_CDN_Reporte_Productividad."Acción de Personal", sysdate() FROM SP_CDN_Reporte_Productividad 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "x" = '2050', "y" = '-641')
+GUID::'780f881c-1bf9-40e0-9013-52f64b833a49' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_REPORTE_PRODUCTIVIDAD INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 11 15:22:05 2022', "ActaValue_3" = 'Tue Oct 11 15:31:33 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW Sharepoint_CDN_STAGE_BI_Diferencias_RT_RL_PedidosHN::'dca2ba2e-0a5f-4e1e-9fbd-dd8d3bb7804f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '644', "y" = '-891')
+GUID::'f5a839aa-cf14-493f-8975-cb5a0dbed8b6' READ __BODI_EXCEL SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN OUTPUT(SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN)
+SET("MSExcel_capture_data_conversion" = 'no', "cache" = 'no', "connection_port" = 'no', "reader_filename_col" = 'DI_FILENAME', "reader_filename_col_size" = '100', "reader_filename_only" = 'yes', "reader_include_filename" = 'no', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN', "x" = '1286', "y" = '-867')
+GUID::'98f6fae7-1a28-4035-b857-bb54a3920c3b' CREATE VIEW Query_1( "FECHA#" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA#"') ,
+ MES VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.MES') ,
+ SEMANA DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.SEMANA') ,
+ "TIPO DE PEDIDO" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."TIPO DE PEDIDO"') ,
+ PEDIDO VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.PEDIDO') ,
+ ALMACEN VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ALMACEN') ,
+ CODIGO VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.CODIGO') ,
+ DESCRIPCION VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DESCRIPCION') ,
+ DOC DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DOC') ,
+ SCAN DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.SCAN') ,
+ DIFERENCIA DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DIFERENCIA') ,
+ TIPO VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.TIPO') ,
+ ESTATUS VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ESTATUS') ,
+ OBSERVACION VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.OBSERVACION') ,
+ "# DE ENVIO SOLUC#" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# DE ENVIO SOLUC#"') ,
+ "NOMBRE/RESPONSABLE" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."NOMBRE/RESPONSABLE"') ,
+ "CODIGO/RESPONSABLE2" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."CODIGO/RESPONSABLE2"') ,
+ "FECHA SOLUC#" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA SOLUC#"') ,
+ AUDITOR VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.AUDITOR') ,
+ NIVEL VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.NIVEL') ,
+ "COSTO/U" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/U"') ,
+ "COSTO/TOTAL#" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/TOTAL#"') ,
+ "COSTO/TOTAL" DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/TOTAL"') ,
+ ALM VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ALM') ,
+ "# AFI" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# AFI"') ,
+ UNID VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.UNID') ,
+ REFERENCIA VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.REFERENCIA') ,
+ "FECHA##" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA##"') ,
+ "¿AJUSTAR DIF# EN CDN" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."¿AJUSTAR DIF# EN CDN"') ,
+ "# AFI  CDN#" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# AFI  CDN#"') ,
+ "UNID/AJUSTAR" VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."UNID/AJUSTAR"') ,
+ "AUDITOR#" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."AUDITOR#"') ,
+ "OBSERVACION," DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."OBSERVACION,"') ,
+ HISTORIAL VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.HISTORIAL') ,
+ F35 VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.F35') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.MES, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.SEMANA, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."TIPO DE PEDIDO", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.PEDIDO, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ALMACEN, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.CODIGO, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DESCRIPCION, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DOC, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.SCAN, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.DIFERENCIA, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.TIPO, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ESTATUS, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.OBSERVACION, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# DE ENVIO SOLUC#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."NOMBRE/RESPONSABLE", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."CODIGO/RESPONSABLE2", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA SOLUC#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.AUDITOR, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.NIVEL, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/U", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/TOTAL#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."COSTO/TOTAL", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.ALM, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# AFI", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.UNID, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.REFERENCIA, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."FECHA##", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."¿AJUSTAR DIF# EN CDN", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."# AFI  CDN#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."UNID/AJUSTAR", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."AUDITOR#", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN."OBSERVACION,", SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.HISTORIAL, SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN.F35, sysdate() FROM SP_CDN_BaseDatosDiferencias_RT_RL_PedidosHN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_display_name" = 'SP_CDD_XLS_BASEDATOSDIFERENCIAS_RT_RL_PEDIDOSHN(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '1980', "y" = '-851')
+GUID::'4d5efbfd-c539-4f70-afde-1b9d9ce63dd7' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_BASEDATOSDIFERENCIAS_RT_RL_PEDIDOSHN INPUT(Query_1)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Oct 12 09:42:48 2022', "ActaValue_3" = 'Wed Oct 12 14:27:56 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW Sharepoint_CDN_STAGE_BI_Planificacion2022::'03f1eaa7-c35d-4b66-a4f9-6f4926d31ffc'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>325</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '566', "y" = '-537')
+GUID::'e1f47341-970b-4c3c-b617-f371f4a19d02' READ __BODI_EXCEL SP_CDN_Planificacion2022_Cumplimiento OUTPUT(SP_CDN_Planificacion2022_Cumplimiento)
+SET("MSExcel_capture_data_conversion" = 'no', "cache" = 'no', "connection_port" = 'no', "reader_filename_col" = 'DI_FILENAME', "reader_filename_col_size" = '100', "reader_filename_only" = 'yes', "reader_include_filename" = 'no', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'SP_CDN_Planificacion2022_Cumplimiento', "x" = '1187', "y" = '-534')
+GUID::'31936c7d-cfc7-4c04-9cc4-b6e8de14b47d' CREATE VIEW Query( Fecha DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Fecha') ,
+ Proceso VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Proceso') ,
+ Pedido VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Pedido') ,
+ "Hora Inicio" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento."Hora Inicio"') ,
+ "Hora Fin Planificada" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento."Hora Fin Planificada"') ,
+ "Hora Fin Real" DATETIME(9)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento."Hora Fin Real"') ,
+ Responsables DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Responsables') ,
+ Semana DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Semana') ,
+ Status VARCHAR(255)  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Status') ,
+ Cumplimiento DOUBLE  SET( "ui_mapping_text" = 'SP_CDN_Planificacion2022_Cumplimiento.Cumplimiento') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SP_CDN_Planificacion2022_Cumplimiento.Fecha, SP_CDN_Planificacion2022_Cumplimiento.Proceso, SP_CDN_Planificacion2022_Cumplimiento.Pedido, SP_CDN_Planificacion2022_Cumplimiento."Hora Inicio", SP_CDN_Planificacion2022_Cumplimiento."Hora Fin Planificada", SP_CDN_Planificacion2022_Cumplimiento."Hora Fin Real", SP_CDN_Planificacion2022_Cumplimiento.Responsables, SP_CDN_Planificacion2022_Cumplimiento.Semana, SP_CDN_Planificacion2022_Cumplimiento.Status, SP_CDN_Planificacion2022_Cumplimiento.Cumplimiento, sysdate() FROM SP_CDN_Planificacion2022_Cumplimiento 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "x" = '2034', "y" = '-485')
+GUID::'0001fc60-3f0c-4098-97f9-7e9d16fc655c' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SP_CDD_XLS_PLANIFICACION_CUMPLIMIENTO INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

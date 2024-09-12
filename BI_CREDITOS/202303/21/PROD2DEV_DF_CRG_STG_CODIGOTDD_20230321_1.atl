@@ -1,0 +1,728 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8B2E14801B696234F6C9B5960B284893FD21F52D1FCF9401FC2F3C81F114E77ED36A9CE0D77D013A269946801CACE1A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8E004769F984DA28BDF1AD58C50AC7B8AFC5090BFF0512D166768D41C5B5C3117332F50B4FE11051714A146F52C</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8E779957854A6AE956C4092B4CD0833CDC4DA32245FEE891F053C5247A1B7AD9F7B8936587FB842732878FC6F3C</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8522922AA51DB5BB1133895E8AD25FE6CFEF075AEE493406DC5ADAC03DF459DB137F6E09773A4843C61C87AF74B2376B9FB8734F42A6C</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '82050' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '82050' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '16 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RLoader_Is_Template_Table',ActaValue_9 = 'no' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Fri Oct  7 11:05:45 2022' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Tue Mar 21 15:54:22 2023' , 
+ActaName_13 = 'RDate_modified',ActaValue_13 = 'Fri Oct  7 08:39:38 2022' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CODIGOTDD(CODIGO VARCHAR(17)  NOT NULL  SET("Description" = 'CODIGO'), 
+UNIDV DECIMAL(1, 0)  NOT NULL  SET("Description" = 'UNIDAD VENTA'), 
+UNI01 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.01'), 
+UNI02 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.02'), 
+UNI03 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.03'), 
+UNI04 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.04'), 
+UNI05 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.05'), 
+UNI06 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.06'), 
+UNI07 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.07'), 
+UNI08 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.08'), 
+UNI09 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.09'), 
+UNI10 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.10'), 
+UNI21 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.21'), 
+UNI22 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.22'), 
+UNI23 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.23'), 
+UNI24 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.24'), 
+UNI25 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.25'), 
+UNI26 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.26'), 
+UNI27 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.27'), 
+UNI28 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.28'), 
+UNI29 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.29'), 
+UNI30 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.30'), 
+UNI31 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.31'), 
+UNI32 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.32'), 
+UNI33 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.33'), 
+UNI34 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.34'), 
+UNI35 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.35'), 
+UNI36 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.36'), 
+UNI37 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.37'), 
+UNI38 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.38'), 
+UNI39 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.39'), 
+UNI40 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.40'), 
+UNI41 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.41'), 
+UNI42 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.42'), 
+UNI43 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.43'), 
+UNI44 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.44'), 
+UNI45 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.45'), 
+UNI46 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.46'), 
+UNI47 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.47'), 
+UNI48 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.48'), 
+UNI49 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.49'), 
+UNI50 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.50'), 
+UNI51 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.51'), 
+UNI52 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.52'), 
+UNI53 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.53'), 
+UNI54 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.54'), 
+UNI55 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.55'), 
+UNI56 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.56'), 
+UNI57 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.57'), 
+UNI58 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.58'), 
+UNI59 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.59'), 
+UNI60 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.60'), 
+UNI61 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.61'), 
+UNI62 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.62'), 
+UNI63 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.63'), 
+UNI64 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.64'), 
+UNI65 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.65'), 
+UNI66 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.66'), 
+UNI67 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.67'), 
+UNI68 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.68'), 
+UNI69 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.69'), 
+UNI70 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.70'), 
+UNI71 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.71'), 
+UNI72 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.72'), 
+UNI73 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.73'), 
+UNI74 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.74'), 
+UNI75 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.75'), 
+UNI76 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.76'), 
+UNI77 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.77'), 
+UNI78 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.78'), 
+UNI79 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.79'), 
+UNI80 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.80'), 
+UNI81 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.81'), 
+UNI82 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.82'), 
+UNI83 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.83'), 
+UNI84 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.84'), 
+UNI85 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.85'), 
+UNI86 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.86'), 
+UNI87 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.87'), 
+UNI88 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.88'), 
+UNI89 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.89'), 
+UNI90 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.90'), 
+UNI91 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.91'), 
+UNI92 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.92'), 
+UNI93 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.93'), 
+UNI94 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.94'), 
+UNI95 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.95'), 
+UNI96 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.96'), 
+UNI97 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.97'), 
+UNI98 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.98'), 
+TDD01 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD01'), 
+TDD02 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD02'), 
+TDD03 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD03'), 
+TDD04 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD04'), 
+TDD05 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD05'), 
+TDD06 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD06'), 
+TDD07 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD07'), 
+TDD08 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD08'), 
+TDD09 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD09'), 
+TDD10 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD10'), 
+TDD21 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD21'), 
+TDD22 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD22'), 
+TDD23 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD23'), 
+TDD24 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD24'), 
+TDD25 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD25'), 
+TDD26 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD26'), 
+TDD27 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD27'), 
+TDD28 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD28'), 
+TDD29 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD29'), 
+TDD30 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD30'), 
+TDD31 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD31'), 
+TDD32 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD32'), 
+TDD33 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD33'), 
+TDD34 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD34'), 
+TDD35 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD35'), 
+TDD36 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD36'), 
+TDD37 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD37'), 
+TDD38 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD38'), 
+TDD39 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD39'), 
+TDD40 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD40'), 
+TDD41 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD41'), 
+TDD42 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD42'), 
+TDD43 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD43'), 
+TDD44 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD44'), 
+TDD45 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD45'), 
+TDD46 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD46'), 
+TDD47 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD47'), 
+TDD48 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD48'), 
+TDD49 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD49'), 
+TDD50 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD50'), 
+TDD51 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD51'), 
+TDD52 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD52'), 
+TDD53 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD53'), 
+TDD54 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD54'), 
+TDD55 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD55'), 
+TDD56 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD56'), 
+TDD57 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD57'), 
+TDD58 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD58'), 
+TDD59 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD59'), 
+TDD60 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD60'), 
+TDD61 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD61'), 
+TDD62 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD62'), 
+TDD63 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD63'), 
+TDD64 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD64'), 
+TDD65 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD65'), 
+TDD66 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD66'), 
+TDD67 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD67'), 
+TDD68 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD68'), 
+TDD69 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD69'), 
+TDD70 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD70'), 
+TDD71 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD71'), 
+TDD72 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD72'), 
+TDD73 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD73'), 
+TDD74 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD74'), 
+TDD75 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD75'), 
+TDD76 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD76'), 
+TDD77 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD77'), 
+TDD78 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD78'), 
+TDD79 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD79'), 
+TDD80 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD80'), 
+TDD81 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD81'), 
+TDD82 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD82'), 
+TDD83 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD83'), 
+TDD84 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD84'), 
+TDD85 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD85'), 
+TDD86 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD86'), 
+TDD87 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD87'), 
+TDD88 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD88'), 
+TDD89 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD89'), 
+TDD90 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD90'), 
+TDD91 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD91'), 
+TDD92 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD92'), 
+TDD93 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD93'), 
+TDD94 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD94'), 
+TDD95 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD95'), 
+TDD96 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD96'), 
+TDD97 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD97'), 
+TDD98 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD98'), 
+FECPROC DATETIME(6)  NOT NULL  SET("Description" = 'FECHA PROCESO', "Native Type" = 'DATETIME2'), 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'TASA DEMANDA DIARIA x CODIGO -TDD-              ®' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Fri Oct  7 11:05:46 2022' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.CODIGOTDD(CODIGO CHAR(17)  NOT NULL  SET("Description" = 'CODIGO'), 
+UNIDV DECIMAL(1, 0)  NOT NULL  SET("Description" = 'UNIDAD VENTA'), 
+UNI01 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.01'), 
+UNI02 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.02'), 
+UNI03 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.03'), 
+UNI04 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.04'), 
+UNI05 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.05'), 
+UNI06 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.06'), 
+UNI07 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.07'), 
+UNI08 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.08'), 
+UNI09 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.09'), 
+UNI10 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.10'), 
+UNI21 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.21'), 
+UNI22 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.22'), 
+UNI23 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.23'), 
+UNI24 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.24'), 
+UNI25 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.25'), 
+UNI26 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.26'), 
+UNI27 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.27'), 
+UNI28 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.28'), 
+UNI29 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.29'), 
+UNI30 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.30'), 
+UNI31 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.31'), 
+UNI32 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.32'), 
+UNI33 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.33'), 
+UNI34 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.34'), 
+UNI35 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.35'), 
+UNI36 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.36'), 
+UNI37 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.37'), 
+UNI38 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.38'), 
+UNI39 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.39'), 
+UNI40 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.40'), 
+UNI41 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.41'), 
+UNI42 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.42'), 
+UNI43 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.43'), 
+UNI44 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.44'), 
+UNI45 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.45'), 
+UNI46 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.46'), 
+UNI47 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.47'), 
+UNI48 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.48'), 
+UNI49 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.49'), 
+UNI50 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.50'), 
+UNI51 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.51'), 
+UNI52 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.52'), 
+UNI53 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.53'), 
+UNI54 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.54'), 
+UNI55 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.55'), 
+UNI56 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.56'), 
+UNI57 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.57'), 
+UNI58 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.58'), 
+UNI59 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.59'), 
+UNI60 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.60'), 
+UNI61 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.61'), 
+UNI62 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.62'), 
+UNI63 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.63'), 
+UNI64 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.64'), 
+UNI65 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.65'), 
+UNI66 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.66'), 
+UNI67 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.67'), 
+UNI68 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.68'), 
+UNI69 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.69'), 
+UNI70 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.70'), 
+UNI71 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.71'), 
+UNI72 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.72'), 
+UNI73 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.73'), 
+UNI74 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.74'), 
+UNI75 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.75'), 
+UNI76 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.76'), 
+UNI77 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.77'), 
+UNI78 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.78'), 
+UNI79 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.79'), 
+UNI80 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.80'), 
+UNI81 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.81'), 
+UNI82 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.82'), 
+UNI83 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.83'), 
+UNI84 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.84'), 
+UNI85 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.85'), 
+UNI86 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.86'), 
+UNI87 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.87'), 
+UNI88 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.88'), 
+UNI89 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.89'), 
+UNI90 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.90'), 
+UNI91 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.91'), 
+UNI92 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.92'), 
+UNI93 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.93'), 
+UNI94 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.94'), 
+UNI95 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.95'), 
+UNI96 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.96'), 
+UNI97 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.97'), 
+UNI98 DECIMAL(7, 0)  NOT NULL  SET("Description" = 'UNI.VTA.98'), 
+TDD01 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD01'), 
+TDD02 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD02'), 
+TDD03 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD03'), 
+TDD04 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD04'), 
+TDD05 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD05'), 
+TDD06 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD06'), 
+TDD07 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD07'), 
+TDD08 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD08'), 
+TDD09 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD09'), 
+TDD10 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD10'), 
+TDD21 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD21'), 
+TDD22 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD22'), 
+TDD23 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD23'), 
+TDD24 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD24'), 
+TDD25 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD25'), 
+TDD26 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD26'), 
+TDD27 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD27'), 
+TDD28 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD28'), 
+TDD29 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD29'), 
+TDD30 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD30'), 
+TDD31 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD31'), 
+TDD32 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD32'), 
+TDD33 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD33'), 
+TDD34 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD34'), 
+TDD35 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD35'), 
+TDD36 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD36'), 
+TDD37 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD37'), 
+TDD38 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD38'), 
+TDD39 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD39'), 
+TDD40 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD40'), 
+TDD41 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD41'), 
+TDD42 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD42'), 
+TDD43 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD43'), 
+TDD44 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD44'), 
+TDD45 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD45'), 
+TDD46 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD46'), 
+TDD47 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD47'), 
+TDD48 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD48'), 
+TDD49 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD49'), 
+TDD50 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD50'), 
+TDD51 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD51'), 
+TDD52 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD52'), 
+TDD53 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD53'), 
+TDD54 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD54'), 
+TDD55 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD55'), 
+TDD56 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD56'), 
+TDD57 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD57'), 
+TDD58 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD58'), 
+TDD59 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD59'), 
+TDD60 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD60'), 
+TDD61 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD61'), 
+TDD62 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD62'), 
+TDD63 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD63'), 
+TDD64 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD64'), 
+TDD65 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD65'), 
+TDD66 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD66'), 
+TDD67 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD67'), 
+TDD68 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD68'), 
+TDD69 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD69'), 
+TDD70 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD70'), 
+TDD71 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD71'), 
+TDD72 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD72'), 
+TDD73 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD73'), 
+TDD74 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD74'), 
+TDD75 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD75'), 
+TDD76 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD76'), 
+TDD77 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD77'), 
+TDD78 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD78'), 
+TDD79 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD79'), 
+TDD80 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD80'), 
+TDD81 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD81'), 
+TDD82 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD82'), 
+TDD83 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD83'), 
+TDD84 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD84'), 
+TDD85 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD85'), 
+TDD86 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD86'), 
+TDD87 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD87'), 
+TDD88 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD88'), 
+TDD89 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD89'), 
+TDD90 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD90'), 
+TDD91 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD91'), 
+TDD92 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD92'), 
+TDD93 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD93'), 
+TDD94 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD94'), 
+TDD95 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD95'), 
+TDD96 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD96'), 
+TDD97 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD97'), 
+TDD98 DECIMAL(7, 2)  NOT NULL  SET("Description" = 'TDD98'), 
+FECPROC DATETIME(6)  NOT NULL  SET("Description" = 'FECHA PROCESO')) 
+CREATE_INDEX "NEWINV.CODIGOTDD" ON (CODIGO) 
+SET("db_alias_name" = 'NEWINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct  7 11:05:46 2022', "ActaValue_3" = 'Fri Oct  7 08:39:57 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CODIGOTDD::'e7e8595a-58f6-4974-8629-648e8579309e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '288', "Output_Width_Mapping" = '85', "Output_Width_Name" = '773', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>381</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '638', "y" = '-784')
+GUID::'74ad29ca-cfa7-4b10-aec0-27aaa320d015' READ TABLE DS_DB2_GER_VTAS.NEWINV.CODIGOTDD OUTPUT(CODIGOTDD)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CODIGOTDD', "ui_display_name" = 'QRY_SV', "x" = '1382', "y" = '-784')
+GUID::'431b2fbc-8975-4f60-9eb3-a5bd4f343c9c' CREATE VIEW QRY_SV( CODIGO VARCHAR(17)  SET( "Description" = 'CODIGO', "ui_mapping_text" = 'CODIGOTDD.CODIGO') ,
+ UNIDV DECIMAL(1, 0)  SET( "Description" = 'UNIDAD VENTA', "ui_mapping_text" = 'CODIGOTDD.UNIDV') ,
+ UNI01 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.01', "ui_mapping_text" = 'CODIGOTDD.UNI01') ,
+ UNI02 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.02', "ui_mapping_text" = 'CODIGOTDD.UNI02') ,
+ UNI03 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.03', "ui_mapping_text" = 'CODIGOTDD.UNI03') ,
+ UNI04 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.04', "ui_mapping_text" = 'CODIGOTDD.UNI04') ,
+ UNI05 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.05', "ui_mapping_text" = 'CODIGOTDD.UNI05') ,
+ UNI06 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.06', "ui_mapping_text" = 'CODIGOTDD.UNI06') ,
+ UNI07 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.07', "ui_mapping_text" = 'CODIGOTDD.UNI07') ,
+ UNI08 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.08', "ui_mapping_text" = 'CODIGOTDD.UNI08') ,
+ UNI09 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.09', "ui_mapping_text" = 'CODIGOTDD.UNI09') ,
+ UNI10 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.10', "ui_mapping_text" = 'CODIGOTDD.UNI10') ,
+ UNI21 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.21', "ui_mapping_text" = 'CODIGOTDD.UNI21') ,
+ UNI22 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.22', "ui_mapping_text" = 'CODIGOTDD.UNI22') ,
+ UNI23 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.23', "ui_mapping_text" = 'CODIGOTDD.UNI23') ,
+ UNI24 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.24', "ui_mapping_text" = 'CODIGOTDD.UNI24') ,
+ UNI25 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.25', "ui_mapping_text" = 'CODIGOTDD.UNI25') ,
+ UNI26 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.26', "ui_mapping_text" = 'CODIGOTDD.UNI26') ,
+ UNI27 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.27', "ui_mapping_text" = 'CODIGOTDD.UNI27') ,
+ UNI28 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.28', "ui_mapping_text" = 'CODIGOTDD.UNI28') ,
+ UNI29 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.29', "ui_mapping_text" = 'CODIGOTDD.UNI29') ,
+ UNI30 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.30', "ui_mapping_text" = 'CODIGOTDD.UNI30') ,
+ UNI31 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.31', "ui_mapping_text" = 'CODIGOTDD.UNI31') ,
+ UNI32 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.32', "ui_mapping_text" = 'CODIGOTDD.UNI32') ,
+ UNI33 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.33', "ui_mapping_text" = 'CODIGOTDD.UNI33') ,
+ UNI34 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.34', "ui_mapping_text" = 'CODIGOTDD.UNI34') ,
+ UNI35 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.35', "ui_mapping_text" = 'CODIGOTDD.UNI35') ,
+ UNI36 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.36', "ui_mapping_text" = 'CODIGOTDD.UNI36') ,
+ UNI37 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.37', "ui_mapping_text" = 'CODIGOTDD.UNI37') ,
+ UNI38 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.38', "ui_mapping_text" = 'CODIGOTDD.UNI38') ,
+ UNI39 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.39', "ui_mapping_text" = 'CODIGOTDD.UNI39') ,
+ UNI40 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.40', "ui_mapping_text" = 'CODIGOTDD.UNI40') ,
+ UNI41 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.41', "ui_mapping_text" = 'CODIGOTDD.UNI41') ,
+ UNI42 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.42', "ui_mapping_text" = 'CODIGOTDD.UNI42') ,
+ UNI43 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.43', "ui_mapping_text" = 'CODIGOTDD.UNI43') ,
+ UNI44 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.44', "ui_mapping_text" = 'CODIGOTDD.UNI44') ,
+ UNI45 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.45', "ui_mapping_text" = 'CODIGOTDD.UNI45') ,
+ UNI46 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.46', "ui_mapping_text" = 'CODIGOTDD.UNI46') ,
+ UNI47 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.47', "ui_mapping_text" = 'CODIGOTDD.UNI47') ,
+ UNI48 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.48', "ui_mapping_text" = 'CODIGOTDD.UNI48') ,
+ UNI49 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.49', "ui_mapping_text" = 'CODIGOTDD.UNI49') ,
+ UNI50 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.50', "ui_mapping_text" = 'CODIGOTDD.UNI50') ,
+ UNI51 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.51', "ui_mapping_text" = 'CODIGOTDD.UNI51') ,
+ UNI52 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.52', "ui_mapping_text" = 'CODIGOTDD.UNI52') ,
+ UNI53 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.53', "ui_mapping_text" = 'CODIGOTDD.UNI53') ,
+ UNI54 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.54', "ui_mapping_text" = 'CODIGOTDD.UNI54') ,
+ UNI55 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.55', "ui_mapping_text" = 'CODIGOTDD.UNI55') ,
+ UNI56 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.56', "ui_mapping_text" = 'CODIGOTDD.UNI56') ,
+ UNI57 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.57', "ui_mapping_text" = 'CODIGOTDD.UNI57') ,
+ UNI58 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.58', "ui_mapping_text" = 'CODIGOTDD.UNI58') ,
+ UNI59 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.59', "ui_mapping_text" = 'CODIGOTDD.UNI59') ,
+ UNI60 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.60', "ui_mapping_text" = 'CODIGOTDD.UNI60') ,
+ UNI61 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.61', "ui_mapping_text" = 'CODIGOTDD.UNI61') ,
+ UNI62 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.62', "ui_mapping_text" = 'CODIGOTDD.UNI62') ,
+ UNI63 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.63', "ui_mapping_text" = 'CODIGOTDD.UNI63') ,
+ UNI64 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.64', "ui_mapping_text" = 'CODIGOTDD.UNI64') ,
+ UNI65 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.65', "ui_mapping_text" = 'CODIGOTDD.UNI65') ,
+ UNI66 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.66', "ui_mapping_text" = 'CODIGOTDD.UNI66') ,
+ UNI67 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.67', "ui_mapping_text" = 'CODIGOTDD.UNI67') ,
+ UNI68 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.68', "ui_mapping_text" = 'CODIGOTDD.UNI68') ,
+ UNI69 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.69', "ui_mapping_text" = 'CODIGOTDD.UNI69') ,
+ UNI70 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.70', "ui_mapping_text" = 'CODIGOTDD.UNI70') ,
+ UNI71 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.71', "ui_mapping_text" = 'CODIGOTDD.UNI71') ,
+ UNI72 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.72', "ui_mapping_text" = 'CODIGOTDD.UNI72') ,
+ UNI73 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.73', "ui_mapping_text" = 'CODIGOTDD.UNI73') ,
+ UNI74 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.74', "ui_mapping_text" = 'CODIGOTDD.UNI74') ,
+ UNI75 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.75', "ui_mapping_text" = 'CODIGOTDD.UNI75') ,
+ UNI76 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.76', "ui_mapping_text" = 'CODIGOTDD.UNI76') ,
+ UNI77 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.77', "ui_mapping_text" = 'CODIGOTDD.UNI77') ,
+ UNI78 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.78', "ui_mapping_text" = 'CODIGOTDD.UNI78') ,
+ UNI79 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.79', "ui_mapping_text" = 'CODIGOTDD.UNI79') ,
+ UNI80 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.80', "ui_mapping_text" = 'CODIGOTDD.UNI80') ,
+ UNI81 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.81', "ui_mapping_text" = 'CODIGOTDD.UNI81') ,
+ UNI82 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.82', "ui_mapping_text" = 'CODIGOTDD.UNI82') ,
+ UNI83 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.83', "ui_mapping_text" = 'CODIGOTDD.UNI83') ,
+ UNI84 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.84', "ui_mapping_text" = 'CODIGOTDD.UNI84') ,
+ UNI85 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.85', "ui_mapping_text" = 'CODIGOTDD.UNI85') ,
+ UNI86 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.86', "ui_mapping_text" = 'CODIGOTDD.UNI86') ,
+ UNI87 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.87', "ui_mapping_text" = 'CODIGOTDD.UNI87') ,
+ UNI88 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.88', "ui_mapping_text" = 'CODIGOTDD.UNI88') ,
+ UNI89 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.89', "ui_mapping_text" = 'CODIGOTDD.UNI89') ,
+ UNI90 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.90', "ui_mapping_text" = 'CODIGOTDD.UNI90') ,
+ UNI91 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.91', "ui_mapping_text" = 'CODIGOTDD.UNI91') ,
+ UNI92 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.92', "ui_mapping_text" = 'CODIGOTDD.UNI92') ,
+ UNI93 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.93', "ui_mapping_text" = 'CODIGOTDD.UNI93') ,
+ UNI94 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.94', "ui_mapping_text" = 'CODIGOTDD.UNI94') ,
+ UNI95 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.95', "ui_mapping_text" = 'CODIGOTDD.UNI95') ,
+ UNI96 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.96', "ui_mapping_text" = 'CODIGOTDD.UNI96') ,
+ UNI97 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.97', "ui_mapping_text" = 'CODIGOTDD.UNI97') ,
+ UNI98 DECIMAL(7, 0)  SET( "Description" = 'UNI.VTA.98', "ui_mapping_text" = 'CODIGOTDD.UNI98') ,
+ TDD01 DECIMAL(7, 2)  SET( "Description" = 'TDD01', "ui_mapping_text" = 'CODIGOTDD.TDD01') ,
+ TDD02 DECIMAL(7, 2)  SET( "Description" = 'TDD02', "ui_mapping_text" = 'CODIGOTDD.TDD02') ,
+ TDD03 DECIMAL(7, 2)  SET( "Description" = 'TDD03', "ui_mapping_text" = 'CODIGOTDD.TDD03') ,
+ TDD04 DECIMAL(7, 2)  SET( "Description" = 'TDD04', "ui_mapping_text" = 'CODIGOTDD.TDD04') ,
+ TDD05 DECIMAL(7, 2)  SET( "Description" = 'TDD05', "ui_mapping_text" = 'CODIGOTDD.TDD05') ,
+ TDD06 DECIMAL(7, 2)  SET( "Description" = 'TDD06', "ui_mapping_text" = 'CODIGOTDD.TDD06') ,
+ TDD07 DECIMAL(7, 2)  SET( "Description" = 'TDD07', "ui_mapping_text" = 'CODIGOTDD.TDD07') ,
+ TDD08 DECIMAL(7, 2)  SET( "Description" = 'TDD08', "ui_mapping_text" = 'CODIGOTDD.TDD08') ,
+ TDD09 DECIMAL(7, 2)  SET( "Description" = 'TDD09', "ui_mapping_text" = 'CODIGOTDD.TDD09') ,
+ TDD10 DECIMAL(7, 2)  SET( "Description" = 'TDD10', "ui_mapping_text" = 'CODIGOTDD.TDD10') ,
+ TDD21 DECIMAL(7, 2)  SET( "Description" = 'TDD21', "ui_mapping_text" = 'CODIGOTDD.TDD21') ,
+ TDD22 DECIMAL(7, 2)  SET( "Description" = 'TDD22', "ui_mapping_text" = 'CODIGOTDD.TDD22') ,
+ TDD23 DECIMAL(7, 2)  SET( "Description" = 'TDD23', "ui_mapping_text" = 'CODIGOTDD.TDD23') ,
+ TDD24 DECIMAL(7, 2)  SET( "Description" = 'TDD24', "ui_mapping_text" = 'CODIGOTDD.TDD24') ,
+ TDD25 DECIMAL(7, 2)  SET( "Description" = 'TDD25', "ui_mapping_text" = 'CODIGOTDD.TDD25') ,
+ TDD26 DECIMAL(7, 2)  SET( "Description" = 'TDD26', "ui_mapping_text" = 'CODIGOTDD.TDD26') ,
+ TDD27 DECIMAL(7, 2)  SET( "Description" = 'TDD27', "ui_mapping_text" = 'CODIGOTDD.TDD27') ,
+ TDD28 DECIMAL(7, 2)  SET( "Description" = 'TDD28', "ui_mapping_text" = 'CODIGOTDD.TDD28') ,
+ TDD29 DECIMAL(7, 2)  SET( "Description" = 'TDD29', "ui_mapping_text" = 'CODIGOTDD.TDD29') ,
+ TDD30 DECIMAL(7, 2)  SET( "Description" = 'TDD30', "ui_mapping_text" = 'CODIGOTDD.TDD30') ,
+ TDD31 DECIMAL(7, 2)  SET( "Description" = 'TDD31', "ui_mapping_text" = 'CODIGOTDD.TDD31') ,
+ TDD32 DECIMAL(7, 2)  SET( "Description" = 'TDD32', "ui_mapping_text" = 'CODIGOTDD.TDD32') ,
+ TDD33 DECIMAL(7, 2)  SET( "Description" = 'TDD33', "ui_mapping_text" = 'CODIGOTDD.TDD33') ,
+ TDD34 DECIMAL(7, 2)  SET( "Description" = 'TDD34', "ui_mapping_text" = 'CODIGOTDD.TDD34') ,
+ TDD35 DECIMAL(7, 2)  SET( "Description" = 'TDD35', "ui_mapping_text" = 'CODIGOTDD.TDD35') ,
+ TDD36 DECIMAL(7, 2)  SET( "Description" = 'TDD36', "ui_mapping_text" = 'CODIGOTDD.TDD36') ,
+ TDD37 DECIMAL(7, 2)  SET( "Description" = 'TDD37', "ui_mapping_text" = 'CODIGOTDD.TDD37') ,
+ TDD38 DECIMAL(7, 2)  SET( "Description" = 'TDD38', "ui_mapping_text" = 'CODIGOTDD.TDD38') ,
+ TDD39 DECIMAL(7, 2)  SET( "Description" = 'TDD39', "ui_mapping_text" = 'CODIGOTDD.TDD39') ,
+ TDD40 DECIMAL(7, 2)  SET( "Description" = 'TDD40', "ui_mapping_text" = 'CODIGOTDD.TDD40') ,
+ TDD41 DECIMAL(7, 2)  SET( "Description" = 'TDD41', "ui_mapping_text" = 'CODIGOTDD.TDD41') ,
+ TDD42 DECIMAL(7, 2)  SET( "Description" = 'TDD42', "ui_mapping_text" = 'CODIGOTDD.TDD42') ,
+ TDD43 DECIMAL(7, 2)  SET( "Description" = 'TDD43', "ui_mapping_text" = 'CODIGOTDD.TDD43') ,
+ TDD44 DECIMAL(7, 2)  SET( "Description" = 'TDD44', "ui_mapping_text" = 'CODIGOTDD.TDD44') ,
+ TDD45 DECIMAL(7, 2)  SET( "Description" = 'TDD45', "ui_mapping_text" = 'CODIGOTDD.TDD45') ,
+ TDD46 DECIMAL(7, 2)  SET( "Description" = 'TDD46', "ui_mapping_text" = 'CODIGOTDD.TDD46') ,
+ TDD47 DECIMAL(7, 2)  SET( "Description" = 'TDD47', "ui_mapping_text" = 'CODIGOTDD.TDD47') ,
+ TDD48 DECIMAL(7, 2)  SET( "Description" = 'TDD48', "ui_mapping_text" = 'CODIGOTDD.TDD48') ,
+ TDD49 DECIMAL(7, 2)  SET( "Description" = 'TDD49', "ui_mapping_text" = 'CODIGOTDD.TDD49') ,
+ TDD50 DECIMAL(7, 2)  SET( "Description" = 'TDD50', "ui_mapping_text" = 'CODIGOTDD.TDD50') ,
+ TDD51 DECIMAL(7, 2)  SET( "Description" = 'TDD51', "ui_mapping_text" = 'CODIGOTDD.TDD51') ,
+ TDD52 DECIMAL(7, 2)  SET( "Description" = 'TDD52', "ui_mapping_text" = 'CODIGOTDD.TDD52') ,
+ TDD53 DECIMAL(7, 2)  SET( "Description" = 'TDD53', "ui_mapping_text" = 'CODIGOTDD.TDD53') ,
+ TDD54 DECIMAL(7, 2)  SET( "Description" = 'TDD54', "ui_mapping_text" = 'CODIGOTDD.TDD54') ,
+ TDD55 DECIMAL(7, 2)  SET( "Description" = 'TDD55', "ui_mapping_text" = 'CODIGOTDD.TDD55') ,
+ TDD56 DECIMAL(7, 2)  SET( "Description" = 'TDD56', "ui_mapping_text" = 'CODIGOTDD.TDD56') ,
+ TDD57 DECIMAL(7, 2)  SET( "Description" = 'TDD57', "ui_mapping_text" = 'CODIGOTDD.TDD57') ,
+ TDD58 DECIMAL(7, 2)  SET( "Description" = 'TDD58', "ui_mapping_text" = 'CODIGOTDD.TDD58') ,
+ TDD59 DECIMAL(7, 2)  SET( "Description" = 'TDD59', "ui_mapping_text" = 'CODIGOTDD.TDD59') ,
+ TDD60 DECIMAL(7, 2)  SET( "Description" = 'TDD60', "ui_mapping_text" = 'CODIGOTDD.TDD60') ,
+ TDD61 DECIMAL(7, 2)  SET( "Description" = 'TDD61', "ui_mapping_text" = 'CODIGOTDD.TDD61') ,
+ TDD62 DECIMAL(7, 2)  SET( "Description" = 'TDD62', "ui_mapping_text" = 'CODIGOTDD.TDD62') ,
+ TDD63 DECIMAL(7, 2)  SET( "Description" = 'TDD63', "ui_mapping_text" = 'CODIGOTDD.TDD63') ,
+ TDD64 DECIMAL(7, 2)  SET( "Description" = 'TDD64', "ui_mapping_text" = 'CODIGOTDD.TDD64') ,
+ TDD65 DECIMAL(7, 2)  SET( "Description" = 'TDD65', "ui_mapping_text" = 'CODIGOTDD.TDD65') ,
+ TDD66 DECIMAL(7, 2)  SET( "Description" = 'TDD66', "ui_mapping_text" = 'CODIGOTDD.TDD66') ,
+ TDD67 DECIMAL(7, 2)  SET( "Description" = 'TDD67', "ui_mapping_text" = 'CODIGOTDD.TDD67') ,
+ TDD68 DECIMAL(7, 2)  SET( "Description" = 'TDD68', "ui_mapping_text" = 'CODIGOTDD.TDD68') ,
+ TDD69 DECIMAL(7, 2)  SET( "Description" = 'TDD69', "ui_mapping_text" = 'CODIGOTDD.TDD69') ,
+ TDD70 DECIMAL(7, 2)  SET( "Description" = 'TDD70', "ui_mapping_text" = 'CODIGOTDD.TDD70') ,
+ TDD71 DECIMAL(7, 2)  SET( "Description" = 'TDD71', "ui_mapping_text" = 'CODIGOTDD.TDD71') ,
+ TDD72 DECIMAL(7, 2)  SET( "Description" = 'TDD72', "ui_mapping_text" = 'CODIGOTDD.TDD72') ,
+ TDD73 DECIMAL(7, 2)  SET( "Description" = 'TDD73', "ui_mapping_text" = 'CODIGOTDD.TDD73') ,
+ TDD74 DECIMAL(7, 2)  SET( "Description" = 'TDD74', "ui_mapping_text" = 'CODIGOTDD.TDD74') ,
+ TDD75 DECIMAL(7, 2)  SET( "Description" = 'TDD75', "ui_mapping_text" = 'CODIGOTDD.TDD75') ,
+ TDD76 DECIMAL(7, 2)  SET( "Description" = 'TDD76', "ui_mapping_text" = 'CODIGOTDD.TDD76') ,
+ TDD77 DECIMAL(7, 2)  SET( "Description" = 'TDD77', "ui_mapping_text" = 'CODIGOTDD.TDD77') ,
+ TDD78 DECIMAL(7, 2)  SET( "Description" = 'TDD78', "ui_mapping_text" = 'CODIGOTDD.TDD78') ,
+ TDD79 DECIMAL(7, 2)  SET( "Description" = 'TDD79', "ui_mapping_text" = 'CODIGOTDD.TDD79') ,
+ TDD80 DECIMAL(7, 2)  SET( "Description" = 'TDD80', "ui_mapping_text" = 'CODIGOTDD.TDD80') ,
+ TDD81 DECIMAL(7, 2)  SET( "Description" = 'TDD81', "ui_mapping_text" = 'CODIGOTDD.TDD81') ,
+ TDD82 DECIMAL(7, 2)  SET( "Description" = 'TDD82', "ui_mapping_text" = 'CODIGOTDD.TDD82') ,
+ TDD83 DECIMAL(7, 2)  SET( "Description" = 'TDD83', "ui_mapping_text" = 'CODIGOTDD.TDD83') ,
+ TDD84 DECIMAL(7, 2)  SET( "Description" = 'TDD84', "ui_mapping_text" = 'CODIGOTDD.TDD84') ,
+ TDD85 DECIMAL(7, 2)  SET( "Description" = 'TDD85', "ui_mapping_text" = 'CODIGOTDD.TDD85') ,
+ TDD86 DECIMAL(7, 2)  SET( "Description" = 'TDD86', "ui_mapping_text" = 'CODIGOTDD.TDD86') ,
+ TDD87 DECIMAL(7, 2)  SET( "Description" = 'TDD87', "ui_mapping_text" = 'CODIGOTDD.TDD87') ,
+ TDD88 DECIMAL(7, 2)  SET( "Description" = 'TDD88', "ui_mapping_text" = 'CODIGOTDD.TDD88') ,
+ TDD89 DECIMAL(7, 2)  SET( "Description" = 'TDD89', "ui_mapping_text" = 'CODIGOTDD.TDD89') ,
+ TDD90 DECIMAL(7, 2)  SET( "Description" = 'TDD90', "ui_mapping_text" = 'CODIGOTDD.TDD90') ,
+ TDD91 DECIMAL(7, 2)  SET( "Description" = 'TDD91', "ui_mapping_text" = 'CODIGOTDD.TDD91') ,
+ TDD92 DECIMAL(7, 2)  SET( "Description" = 'TDD92', "ui_mapping_text" = 'CODIGOTDD.TDD92') ,
+ TDD93 DECIMAL(7, 2)  SET( "Description" = 'TDD93', "ui_mapping_text" = 'CODIGOTDD.TDD93') ,
+ TDD94 DECIMAL(7, 2)  SET( "Description" = 'TDD94', "ui_mapping_text" = 'CODIGOTDD.TDD94') ,
+ TDD95 DECIMAL(7, 2)  SET( "Description" = 'TDD95', "ui_mapping_text" = 'CODIGOTDD.TDD95') ,
+ TDD96 DECIMAL(7, 2)  SET( "Description" = 'TDD96', "ui_mapping_text" = 'CODIGOTDD.TDD96') ,
+ TDD97 DECIMAL(7, 2)  SET( "Description" = 'TDD97', "ui_mapping_text" = 'CODIGOTDD.TDD97') ,
+ TDD98 DECIMAL(7, 2)  SET( "Description" = 'TDD98', "ui_mapping_text" = 'CODIGOTDD.TDD98') ,
+ FECPROC DATETIME(9)  SET( "Description" = 'FECHA PROCESO', "ui_mapping_text" = 'CODIGOTDD.FECPROC') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CODIGOTDD.CODIGO, CODIGOTDD.UNIDV, CODIGOTDD.UNI01, CODIGOTDD.UNI02, CODIGOTDD.UNI03, CODIGOTDD.UNI04, CODIGOTDD.UNI05, CODIGOTDD.UNI06, CODIGOTDD.UNI07, CODIGOTDD.UNI08, CODIGOTDD.UNI09, CODIGOTDD.UNI10, CODIGOTDD.UNI21, CODIGOTDD.UNI22, CODIGOTDD.UNI23, CODIGOTDD.UNI24, CODIGOTDD.UNI25, CODIGOTDD.UNI26, CODIGOTDD.UNI27, CODIGOTDD.UNI28, CODIGOTDD.UNI29, CODIGOTDD.UNI30, CODIGOTDD.UNI31, CODIGOTDD.UNI32, CODIGOTDD.UNI33, CODIGOTDD.UNI34, CODIGOTDD.UNI35, CODIGOTDD.UNI36, CODIGOTDD.UNI37, CODIGOTDD.UNI38, CODIGOTDD.UNI39, CODIGOTDD.UNI40, CODIGOTDD.UNI41, CODIGOTDD.UNI42, CODIGOTDD.UNI43, CODIGOTDD.UNI44, CODIGOTDD.UNI45, CODIGOTDD.UNI46, CODIGOTDD.UNI47, CODIGOTDD.UNI48, CODIGOTDD.UNI49, CODIGOTDD.UNI50, CODIGOTDD.UNI51, CODIGOTDD.UNI52, CODIGOTDD.UNI53, CODIGOTDD.UNI54, CODIGOTDD.UNI55, CODIGOTDD.UNI56, CODIGOTDD.UNI57, CODIGOTDD.UNI58, CODIGOTDD.UNI59, CODIGOTDD.UNI60, CODIGOTDD.UNI61, CODIGOTDD.UNI62, CODIGOTDD.UNI63, CODIGOTDD.UNI64, CODIGOTDD.UNI65, CODIGOTDD.UNI66, CODIGOTDD.UNI67, CODIGOTDD.UNI68, CODIGOTDD.UNI69, CODIGOTDD.UNI70, CODIGOTDD.UNI71, CODIGOTDD.UNI72, CODIGOTDD.UNI73, CODIGOTDD.UNI74, CODIGOTDD.UNI75, CODIGOTDD.UNI76, CODIGOTDD.UNI77, CODIGOTDD.UNI78, CODIGOTDD.UNI79, CODIGOTDD.UNI80, CODIGOTDD.UNI81, CODIGOTDD.UNI82, CODIGOTDD.UNI83, CODIGOTDD.UNI84, CODIGOTDD.UNI85, CODIGOTDD.UNI86, CODIGOTDD.UNI87, CODIGOTDD.UNI88, CODIGOTDD.UNI89, CODIGOTDD.UNI90, CODIGOTDD.UNI91, CODIGOTDD.UNI92, CODIGOTDD.UNI93, CODIGOTDD.UNI94, CODIGOTDD.UNI95, CODIGOTDD.UNI96, CODIGOTDD.UNI97, CODIGOTDD.UNI98, CODIGOTDD.TDD01, CODIGOTDD.TDD02, CODIGOTDD.TDD03, CODIGOTDD.TDD04, CODIGOTDD.TDD05, CODIGOTDD.TDD06, CODIGOTDD.TDD07, CODIGOTDD.TDD08, CODIGOTDD.TDD09, CODIGOTDD.TDD10, CODIGOTDD.TDD21, CODIGOTDD.TDD22, CODIGOTDD.TDD23, CODIGOTDD.TDD24, CODIGOTDD.TDD25, CODIGOTDD.TDD26, CODIGOTDD.TDD27, CODIGOTDD.TDD28, CODIGOTDD.TDD29, CODIGOTDD.TDD30, CODIGOTDD.TDD31, CODIGOTDD.TDD32, CODIGOTDD.TDD33, CODIGOTDD.TDD34, CODIGOTDD.TDD35, CODIGOTDD.TDD36, CODIGOTDD.TDD37, CODIGOTDD.TDD38, CODIGOTDD.TDD39, CODIGOTDD.TDD40, CODIGOTDD.TDD41, CODIGOTDD.TDD42, CODIGOTDD.TDD43, CODIGOTDD.TDD44, CODIGOTDD.TDD45, CODIGOTDD.TDD46, CODIGOTDD.TDD47, CODIGOTDD.TDD48, CODIGOTDD.TDD49, CODIGOTDD.TDD50, CODIGOTDD.TDD51, CODIGOTDD.TDD52, CODIGOTDD.TDD53, CODIGOTDD.TDD54, CODIGOTDD.TDD55, CODIGOTDD.TDD56, CODIGOTDD.TDD57, CODIGOTDD.TDD58, CODIGOTDD.TDD59, CODIGOTDD.TDD60, CODIGOTDD.TDD61, CODIGOTDD.TDD62, CODIGOTDD.TDD63, CODIGOTDD.TDD64, CODIGOTDD.TDD65, CODIGOTDD.TDD66, CODIGOTDD.TDD67, CODIGOTDD.TDD68, CODIGOTDD.TDD69, CODIGOTDD.TDD70, CODIGOTDD.TDD71, CODIGOTDD.TDD72, CODIGOTDD.TDD73, CODIGOTDD.TDD74, CODIGOTDD.TDD75, CODIGOTDD.TDD76, CODIGOTDD.TDD77, CODIGOTDD.TDD78, CODIGOTDD.TDD79, CODIGOTDD.TDD80, CODIGOTDD.TDD81, CODIGOTDD.TDD82, CODIGOTDD.TDD83, CODIGOTDD.TDD84, CODIGOTDD.TDD85, CODIGOTDD.TDD86, CODIGOTDD.TDD87, CODIGOTDD.TDD88, CODIGOTDD.TDD89, CODIGOTDD.TDD90, CODIGOTDD.TDD91, CODIGOTDD.TDD92, CODIGOTDD.TDD93, CODIGOTDD.TDD94, CODIGOTDD.TDD95, CODIGOTDD.TDD96, CODIGOTDD.TDD97, CODIGOTDD.TDD98, CODIGOTDD.FECPROC, 1, sysdate() FROM CODIGOTDD 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'CODIGOTDD(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2155', "y" = '-783')
+GUID::'02c6949a-d78a-48b7-9575-73fa55b269a6' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CODIGOTDD INPUT(QRY_SV)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')

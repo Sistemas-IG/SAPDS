@@ -1,0 +1,193 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_FINANZAS::'a9061198-4861-4175-bd6c-684fc82d57b6' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E886737E6B9668B330EC5955EBE89F380A9BE89394569CFA2E52EA041C77ABDB0D67ABDF82983A647C3CC334DDE0</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8590C006EAA91D056D0E3C825B3B4909755A414B1B0BD033560DFE6CDAFD3DCE9BEF7DAA33053BAB2DB79669794</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8EA154A1FDADBFF604E80761E5AD0D1B74969EE2FB23B1DD5265B5BF6F09E2A28AC77B63FEBD5E2629875083AEDB0960B96D13370F46D</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_FINANZAS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_FINANZAS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_FINANZAS_DEV::'cb492fad-6056-4aa4-b73b-7b378b29ed12' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E87A04B6B36A16A898F8727B768A8B1324068A0CECCC52C765F62C7B487F8F42C3A23517030BFD582C0F6DC1B189</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E85054BC3D7BC23377E01351D72184600EA736A70197A458D7A7CC51EA616F4995B868E1C2C9B833E288C9E83F98</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E84B6626A989CAA91FB54D12D1796C01A496ED6170F23F2BFB7B5E0FCAB19C3A03F9DDEC1E7A7283BFF7AB32615AA1874BAE788E9D</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_FINANZAS</sql_server_database>
+<sql_server_dataserver>perseo</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_FINANZAS_DEV', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RTotal_Number_Of_Rows_Processed',ActaValue_5 = '304' , 
+ActaName_6 = 'RNumber_Of_Rows_Rejected',ActaValue_6 = '0' , 
+ActaName_7 = 'RNumber_Of_Inserts',ActaValue_7 = '304' , 
+ActaName_8 = 'RNumber_Of_Updates',ActaValue_8 = '0' , 
+ActaName_9 = 'RNumber_Of_Deletes',ActaValue_9 = '0' , 
+ActaName_10 = 'RElapsed_Time_For_Load',ActaValue_10 = '1 Seconds' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'yes' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Aug 16 12:00:57 2023' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Wed Aug 16 12:22:19 2023' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed Aug 16 12:00:58 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_FINANZAS_DEV.STG.CNETSIF(PAISET VARCHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASET VARCHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+NUCTET VARCHAR(12)  NOT NULL  SET("Description" = 'Numero Cta'), 
+NDCTET DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Digitos Cta'), 
+NOCTET VARCHAR(40)  NOT NULL  SET("Description" = 'Nombre Cta'), 
+NOABET VARCHAR(20)  NOT NULL  SET("Description" = 'Nombre Abrev'), 
+NUSUET VARCHAR(12)  NOT NULL  SET("Description" = 'Num.Cta Sumaria'), 
+TICTET VARCHAR(1)  NOT NULL  SET("Description" = 'Tipo Cta'), 
+CECOET VARCHAR(1)  NOT NULL  SET("Description" = 'Tiene CenCos'), 
+STCTET VARCHAR(1)  NOT NULL  SET("Description" = 'Status Cta'), 
+NACTET VARCHAR(1)  NOT NULL  SET("Description" = 'Naturaleza'), 
+TIUNET VARCHAR(3)  NOT NULL  SET("Description" = 'Tipo Unidades'), 
+SIGNET VARCHAR(1)  NOT NULL  SET("Description" = 'Signo Presentación'), 
+FU01ET VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU02ET VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU03ET VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso3'), 
+FU04ET VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso4'), 
+FU05ET VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso5'), 
+FECRET DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRET DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USCRET VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+DICRET VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Creacion'), 
+RECRET VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Creacion'), 
+FEMOET DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Modifica'), 
+HOMOET DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Modifica'), 
+USMOET VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Modifica'), 
+DIMOET VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Modifica'), 
+REMOET VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Modifica')) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '1723233' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '1723233' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '1 Minutes and 51 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'yes' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Aug 16 12:15:09 2023' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Wed Aug 16 12:24:18 2023' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed Aug 16 12:15:10 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_FINANZAS_DEV.STG.CNMOVSIF(PAISPM VARCHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASPM VARCHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CLASPM VARCHAR(6)  NOT NULL  SET("Description" = 'Clase'), 
+TIPOPM VARCHAR(6)  NOT NULL  SET("Description" = 'Tipo'), 
+NUCTPM VARCHAR(12)  NOT NULL  SET("Description" = 'Numero Cta'), 
+NUCCPM VARCHAR(8)  NOT NULL  SET("Description" = 'Numero CenCos'), 
+TCTAPM VARCHAR(1)  NOT NULL  SET("Description" = 'Tipo Cta'), 
+TCCOPM VARCHAR(1)  NOT NULL  SET("Description" = 'Tipo CenCos'), 
+AÑOEPM VARCHAR(4)  NOT NULL  SET("Description" = 'Año del Ejercicio'), 
+MESEPM VARCHAR(2)  NOT NULL  SET("Description" = 'Mes del Ejercicio'), 
+MEDIPM VARCHAR(6)  NOT NULL  SET("Description" = 'Tipo'), 
+SMESPM DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Saldo Mes'), 
+SACUPM DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Saldo Acu a Mes'), 
+SMELPM DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Saldo Mes ML'), 
+SACLPM DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Saldo Acu a Mes ML'), 
+FU01PM VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU02PM VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FU03PM VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso3'), 
+FU04PM VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso4'), 
+FU05PM VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso5'), 
+FECRPM DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRPM DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USCRPM VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+DICRPM VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Creacion'), 
+RECRPM VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Creacion')) 
+SET("db_alias_name" = 'STG')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '9' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '9' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '0 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'yes' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Aug 16 12:00:58 2023' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Wed Aug 16 12:22:23 2023' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed Aug 16 12:00:58 2023' )
+CREATE TABLE DS_SQL_SERVER_STAGE_FINANZAS_DEV.STG.CNZONA(PAISZN VARCHAR(3)  NOT NULL  SET("Description" = 'Pais'), 
+CIASZN VARCHAR(3)  NOT NULL  SET("Description" = 'Compania'), 
+CODIZN VARCHAR(2)  NOT NULL  SET("Description" = 'Codigo Zona'), 
+NOMBZN VARCHAR(20)  NOT NULL  SET("Description" = 'Nombre Zona'), 
+NOABZN VARCHAR(5)  NOT NULL  SET("Description" = 'Nombre Abrev Zona'), 
+FU01ZN VARCHAR(1)  NOT NULL  SET("Description" = 'Futuro Uso1'), 
+FU02ZN VARCHAR(10)  NOT NULL  SET("Description" = 'Futuro Uso2'), 
+FECRZN DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Creacion'), 
+HOCRZN DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Creacion'), 
+USCRZN VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+DICRZN VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Creacion'), 
+RECRZN VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Creacion'), 
+FEMOZN DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Modifica'), 
+HOMOZN DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Modifica'), 
+USMOZN VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Modifica'), 
+DIMOZN VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Modifica'), 
+REMOZN VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Modifica'), 
+FEELZN DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha Eliminado'), 
+HOELZN DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora Eliminado'), 
+USELZN VARCHAR(10)  NOT NULL  SET("Description" = 'Usuario Eliminado'), 
+DIELZN VARCHAR(10)  NOT NULL  SET("Description" = 'Disposi Eliminado'), 
+REELZN VARCHAR(10)  NOT NULL  SET("Description" = 'Ref Eliminado'), 
+MAELZN VARCHAR(1)  NOT NULL  SET("Description" = 'Marca Eliminado'), 
+DEPAZN VARCHAR(2)  NOT NULL  SET("Description" = 'Departamento'), 
+MUNIZN DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Municipio')) 
+SET("db_alias_name" = 'STG')
+;

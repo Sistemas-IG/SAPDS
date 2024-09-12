@@ -1,0 +1,603 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E83CF4423A28A297CD21111EF92C1992725858CB4F61E229EDA36CCC9EC57D5EE03A1B88C6CD8365321614D74A836E3A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 18 12:18:34 2022', "ActaValue_3" = 'Tue Oct 18 12:19:00 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWHFRAMEWORK::'f026d4c5-6f4d-4f63-9bed-a68db3c7d05c' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E851E069354B577970C1553B0433B2346474339315A7398015C9FAFD2EF20ECD3693267F992D4CB52E57F111EFBB</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8E047BA1EB9FC3CA0D4BD367ABDB0CE690AAA74A2AC673101D9A3B7AF83F58B3F8BB5A60B7E861BFD997E4890A1</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8D19F3DCAA769403ABE0F51080EE76B1E3B2C831AD463ED5A014D0FC14A37586DC142D0679CE3FBDBD2F50AE98269DC2D3E997EB6507D</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_FRAMEWORK</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWHFRAMEWORK', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E845DF581F76CE428C1A169D50396977C22039386CF44CE1031C02D7516D8664CC20DCC8696F1CE17600ACD6CD9F</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E819A7C216CD11846EE27F8AA7D8860CD5D7CF92A472B14657F2BCA18F3D711F21CF643AC9C757973E5F61766B6E</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8147AAC022B0A878D3E75618036DA91C92E95511A15026D2031C537FCB0E04DD413421106FB8873539D6F0D4DB722E7A2427C3EDA4D49</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu Nov 17 03:08:54 2022' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '1122154' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RDatabase_Object_Type',ActaValue_4 = 'TABLE' , 
+ActaName_5 = 'RTable_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RDescription',ActaValue_6 = '' , 
+ActaName_7 = 'REstimated_Row_Count',ActaValue_7 = '50000' , 
+ActaName_8 = 'RLoader_Is_Template_Table',ActaValue_8 = 'no' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RDate_modified',ActaValue_10 = 'Thu Sep  8 15:22:08 2022' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '1122154' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '4 Minutes and 43 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVADEH(ID_PAIS INT  NULL  SET("ui_mapping_text" = 'Merge.ID_PAIS', "ui_pasting" = '1'), 
+CTIPMO VARCHAR(1)  NULL  SET("Description" = 'Tipo de Movimiento', "ui_mapping_text" = 'Merge.CTIPMO', "ui_pasting" = 'COVADEH.CTIPMO'), 
+CCCEMI VARCHAR(2)  NULL  SET("Description" = 'Centro Costo Emisor', "ui_mapping_text" = 'Merge.CCCEMI', "ui_pasting" = 'COVADEH.CCCEMI'), 
+CCCREC VARCHAR(2)  NULL  SET("Description" = 'Centro Costo Recept.', "ui_mapping_text" = 'Merge.CCCREC', "ui_pasting" = 'COVADEH.CCCREC'), 
+CNUMCO VARCHAR(9)  NULL  SET("Description" = 'Nº de Comprobante', "ui_mapping_text" = 'Merge.CNUMCO', "ui_pasting" = 'COVADEH.CNUMCO'), 
+CMOVIC VARCHAR(1)  NULL  SET("Description" = 'Mov. si es factura', "ui_mapping_text" = 'Merge.CMOVIC', "ui_pasting" = 'COVADEH.CMOVIC'), 
+CTIPOC VARCHAR(1)  NULL  SET("Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'Merge.CTIPOC', "ui_pasting" = 'COVADEH.CTIPOC'), 
+CFPAGC VARCHAR(1)  NULL  SET("Description" = 'Forma de pago 0/1', "ui_mapping_text" = 'Merge.CFPAGC', "ui_pasting" = 'COVADEH.CFPAGC'), 
+CCODIC VARCHAR(4)  NULL  SET("Description" = 'Codigo de cliente', "ui_mapping_text" = 'Merge.CCODIC', "ui_pasting" = 'COVADEH.CCODIC'), 
+CNUVEC VARCHAR(4)  NULL  SET("Description" = 'Vendedor', "ui_mapping_text" = 'Merge.CNUVEC', "ui_pasting" = 'COVADEH.CNUVEC'), 
+CCODAR VARCHAR(17)  NULL  SET("Description" = 'Código de Articulo', "ui_mapping_text" = 'Merge.CCODAR', "ui_pasting" = 'COVADEH.CCODAR'), 
+CREDES VARCHAR(20)  NULL  SET("Description" = 'Descripción', "ui_mapping_text" = 'Merge.CREDES', "ui_pasting" = 'COVADEH.CREDES'), 
+CENTSA VARCHAR(1)  NULL  SET("Description" = 'Entrada/Salida', "ui_mapping_text" = 'Merge.CENTSA', "ui_pasting" = 'COVADEH.CENTSA'), 
+CANODO VARCHAR(4)  NULL  SET("Description" = 'Año', "ui_mapping_text" = 'Merge.CANODO', "ui_pasting" = 'COVADEH.CANODO'), 
+CFECDE VARCHAR(4)  NULL  SET("Description" = 'Fecha (MMDD)', "ui_mapping_text" = 'Merge.CFECDE', "ui_pasting" = 'COVADEH.CFECDE'), 
+CFEREC VARCHAR(4)  NULL  SET("Description" = 'MMDD TRANSADO', "ui_mapping_text" = 'Merge.CFEREC', "ui_pasting" = 'COVADEH.CFEREC'), 
+CCANTI DECIMAL(7, 0)  NULL  SET("Description" = 'Cantidad de Mov.', "ui_mapping_text" = 'Merge.CCANTI', "ui_pasting" = 'COVADEH.CCANTI'), 
+CVALDE DECIMAL(9, 2)  NULL  SET("Description" = 'Valor de Detalle', "ui_mapping_text" = 'Merge.CVALDE', "ui_pasting" = 'COVADEH.CVALDE'), 
+CREBDE DECIMAL(7, 2)  NULL  SET("Description" = 'Rebaja de Detalle', "ui_mapping_text" = 'Merge.CREBDE', "ui_pasting" = 'COVADEH.CREBDE'), 
+CDESDE DECIMAL(7, 2)  NULL  SET("Description" = 'Descto Detalle', "ui_mapping_text" = 'Merge.CDESDE', "ui_pasting" = 'COVADEH.CDESDE'), 
+CCOSVE DECIMAL(9, 2)  NULL  SET("Description" = 'Costo Vta/Dev', "ui_mapping_text" = 'Merge.CCOSVE', "ui_pasting" = 'COVADEH.CCOSVE'), 
+CSTSTR VARCHAR(1)  NULL  SET("Description" = 'Status Transacción', "ui_mapping_text" = 'Merge.CSTSTR', "ui_pasting" = 'COVADEH.CSTSTR'), 
+CEXMAQ DECIMAL(9, 0)  NULL  SET("Description" = 'Existencia Almacen', "ui_mapping_text" = 'Merge.CEXMAQ', "ui_pasting" = 'COVADEH.CEXMAQ'), 
+CEXTOT DECIMAL(9, 0)  NULL  SET("Description" = 'Existencia Total', "ui_mapping_text" = 'Merge.CEXTOT', "ui_pasting" = 'COVADEH.CEXTOT'), 
+CCOSAN DECIMAL(9, 4)  NULL  SET("Description" = 'Costo Anterior', "ui_mapping_text" = 'Merge.CCOSAN', "ui_pasting" = 'COVADEH.CCOSAN'), 
+CTIPTR VARCHAR(1)  NULL  SET("Description" = 'Tipo Transacción F/R', "ui_mapping_text" = 'Merge.CTIPTR', "ui_pasting" = 'COVADEH.CTIPTR'), 
+CVAIVA DECIMAL(9, 2)  NULL  SET("Description" = 'Valor IVA Detalle', "ui_mapping_text" = 'Merge.CVAIVA', "ui_pasting" = 'COVADEH.CVAIVA'), 
+CTIPPZ VARCHAR(1)  NULL  SET("Description" = 'Tipo C.Plaza K/V/E', "ui_mapping_text" = 'Merge.CTIPPZ', "ui_pasting" = 'COVADEH.CTIPPZ'), 
+CCORPZ DECIMAL(2, 0)  NULL  SET("Description" = 'Correlativo C.Plaza', "ui_mapping_text" = 'Merge.CCORPZ', "ui_pasting" = 'COVADEH.CCORPZ'), 
+CNORPZ VARCHAR(6)  NULL  SET("Description" = 'Nº Orden C.Plaza', "ui_mapping_text" = 'Merge.CNORPZ', "ui_pasting" = 'COVADEH.CNORPZ'), 
+CSWITC VARCHAR(3)  NULL  SET("Description" = 'Control del item', "ui_mapping_text" = 'Merge.CSWITC', "ui_pasting" = 'COVADEH.CSWITC'), 
+LLAVEA VARCHAR(31)  NULL  SET("Description" = 'LLave anterior', "ui_mapping_text" = 'Merge.LLAVEA', "ui_pasting" = 'COVADEH.LLAVEA'), 
+CGRUPO VARCHAR(2)  NULL  SET("Description" = 'Grupo', "ui_mapping_text" = 'Merge.CGRUPO', "ui_pasting" = 'COVADEH.CGRUPO'), 
+CSGRUP VARCHAR(2)  NULL  SET("Description" = 'SubGrupo', "ui_mapping_text" = 'Merge.CSGRUP', "ui_pasting" = 'COVADEH.CSGRUP'), 
+CREBES DECIMAL(7, 2)  NULL  SET("Description" = 'Rebaja Especial', "ui_mapping_text" = 'Merge.CREBES', "ui_pasting" = 'COVADEH.CREBES'), 
+CMANUL VARCHAR(1)  NULL  SET("Description" = 'Marca Anulada', "ui_mapping_text" = 'Merge.CMANUL', "ui_pasting" = 'COVADEH.CMANUL'), 
+CMPROM VARCHAR(2)  NULL  SET("Description" = 'Marca Promocion', "ui_mapping_text" = 'Merge.CMPROM', "ui_pasting" = 'COVADEH.CMPROM'), 
+CCOSCP DECIMAL(7, 2)  NULL  SET("Description" = 'Costo Compr.Plaz', "ui_mapping_text" = 'Merge.CCOSCP', "ui_pasting" = 'COVADEH.CCOSCP'), 
+CFU001 VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU001', "ui_pasting" = 'COVADEH.CFU001'), 
+CFU002 VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU002', "ui_pasting" = 'COVADEH.CFU002'), 
+CFU003 VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU003', "ui_pasting" = 'COVADEH.CFU003'), 
+CFU004 VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU004', "ui_pasting" = 'COVADEH.CFU004'), 
+CFU005 VARCHAR(1)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU005', "ui_pasting" = 'COVADEH.CFU005'), 
+CFU006 DECIMAL(9, 2)  NULL  SET("Description" = 'Percep.IVA', "ui_mapping_text" = 'Merge.CFU006', "ui_pasting" = 'COVADEH.CFU006'), 
+CFU007 DECIMAL(9, 2)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU007', "ui_pasting" = 'COVADEH.CFU007'), 
+CFU008 DECIMAL(9, 2)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU008', "ui_pasting" = 'COVADEH.CFU008'), 
+CFU009 VARCHAR(10)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU009', "ui_pasting" = 'COVADEH.CFU009'), 
+CFU010 VARCHAR(10)  NULL  SET("Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU010', "ui_pasting" = 'COVADEH.CFU010'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'to_date(Merge.CANODO||Merge.CFECDE, \'yyyymmdd hh24:mi:ss\' )'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'sysdate( )', "ui_pasting" = 'sysdate( )')) 
+SET("db_alias_name" = 'DWH')
+;
+CREATE FUNCTION DS_SQL_SERVER_STAGE_BI.DWH.sp_borrado_tb ($NMB_SCHEMA VARCHAR(3)  IN, $NMB_TABLE VARCHAR(100)  IN, $AL_SP_RETCODE VARCHAR(256)  OUT, $AL_SP_ERRMSG VARCHAR(1024)  OUT )
+RETURNS  INT 
+
+SET("CallableFromSQLExpr" = 'NO', "database_type" = 'Microsoft_SQL_Server', "db_alias_name" = 'DWH')
+CREATE FUNCTION DS_SQL_SERVER_DWHFRAMEWORK.fwk.sp_email_notification_job ($nmb_proyecto VARCHAR(100)  IN, $nmb_job VARCHAR(100)  IN, $fecha_inicio DATETIME(3)  IN, $fecha_fin DATETIME(3)  IN, $duracion INT  IN, $AL_SP_RETCODE VARCHAR(256)  OUT, $AL_SP_ERRMSG VARCHAR(1024)  OUT )
+RETURNS  INT 
+
+SET("CallableFromSQLExpr" = 'NO', "database_type" = 'Microsoft_SQL_Server', "db_alias_name" = 'FWK')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Sep  2 14:50:31 2022', "ActaValue_3" = 'Wed Sep 21 08:55:21 2022', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_COVADEH::'e13e6dd1-6b07-430f-9db3-f136331f6e2c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_COVADEH_HN', "ui_display_name" = 'QRY_HN', "x" = '986', "y" = '-1249')
+GUID::'4be96248-dd8f-463d-b221-502185b38b87' CREATE VIEW QRY_HN( ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ CTIPMO VARCHAR(1)  SET( "Description" = 'Tipo de Movimiento', "ui_mapping_text" = 'SQL_COVADEH_HN.CTIPMO') ,
+ CCCEMI VARCHAR(2)  SET( "Description" = 'Centro Costo Emisor', "ui_mapping_text" = 'SQL_COVADEH_HN.CCCEMI') ,
+ CCCREC VARCHAR(2)  SET( "Description" = 'Centro Costo Recept.', "ui_mapping_text" = 'SQL_COVADEH_HN.CCCREC') ,
+ CNUMCO VARCHAR(9)  SET( "Description" = 'Nº de Comprobante', "ui_mapping_text" = 'SQL_COVADEH_HN.CNUMCO') ,
+ CMOVIC VARCHAR(1)  SET( "Description" = 'Mov. si es factura', "ui_mapping_text" = 'SQL_COVADEH_HN.CMOVIC') ,
+ CTIPOC VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'SQL_COVADEH_HN.CTIPOC') ,
+ CFPAGC VARCHAR(1)  SET( "Description" = 'Forma de pago 0/1', "ui_mapping_text" = 'SQL_COVADEH_HN.CFPAGC') ,
+ CCODIC VARCHAR(4)  SET( "Description" = 'Codigo de cliente', "ui_mapping_text" = 'SQL_COVADEH_HN.CCODIC') ,
+ CNUVEC VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'SQL_COVADEH_HN.CNUVEC') ,
+ CCODAR VARCHAR(17)  SET( "Description" = 'Código de Articulo', "ui_mapping_text" = 'SQL_COVADEH_HN.CCODAR') ,
+ CREDES VARCHAR(20)  SET( "Description" = 'Descripción', "ui_mapping_text" = 'SQL_COVADEH_HN.CREDES') ,
+ CENTSA VARCHAR(1)  SET( "Description" = 'Entrada/Salida', "ui_mapping_text" = 'SQL_COVADEH_HN.CENTSA') ,
+ CANODO VARCHAR(4)  SET( "Description" = 'Año', "ui_mapping_text" = 'SQL_COVADEH_HN.CANODO') ,
+ CFECDE VARCHAR(4)  SET( "Description" = 'Fecha (MMDD)', "ui_mapping_text" = 'SQL_COVADEH_HN.CFECDE') ,
+ CFEREC VARCHAR(4)  SET( "Description" = 'MMDD TRANSADO', "ui_mapping_text" = 'SQL_COVADEH_HN.CFEREC') ,
+ CCANTI DECIMAL(7, 0)  SET( "Description" = 'Cantidad de Mov.', "ui_mapping_text" = 'SQL_COVADEH_HN.CCANTI') ,
+ CVALDE DECIMAL(9, 2)  SET( "Description" = 'Valor de Detalle', "ui_mapping_text" = 'SQL_COVADEH_HN.CVALDE') ,
+ CREBDE DECIMAL(7, 2)  SET( "Description" = 'Rebaja de Detalle', "ui_mapping_text" = 'SQL_COVADEH_HN.CREBDE') ,
+ CDESDE DECIMAL(7, 2)  SET( "Description" = 'Descto Detalle', "ui_mapping_text" = 'SQL_COVADEH_HN.CDESDE') ,
+ CCOSVE DECIMAL(9, 2)  SET( "Description" = 'Costo Vta/Dev', "ui_mapping_text" = 'SQL_COVADEH_HN.CCOSVE') ,
+ CSTSTR VARCHAR(1)  SET( "Description" = 'Status Transacción', "ui_mapping_text" = 'SQL_COVADEH_HN.CSTSTR') ,
+ CEXMAQ DECIMAL(9, 0)  SET( "Description" = 'Existencia Almacen', "ui_mapping_text" = 'SQL_COVADEH_HN.CEXMAQ') ,
+ CEXTOT DECIMAL(9, 0)  SET( "Description" = 'Existencia Total', "ui_mapping_text" = 'SQL_COVADEH_HN.CEXTOT') ,
+ CCOSAN DECIMAL(9, 4)  SET( "Description" = 'Costo Anterior', "ui_mapping_text" = 'SQL_COVADEH_HN.CCOSAN') ,
+ CTIPTR VARCHAR(1)  SET( "Description" = 'Tipo Transacción F/R', "ui_mapping_text" = 'SQL_COVADEH_HN.CTIPTR') ,
+ CVAIVA DECIMAL(9, 2)  SET( "Description" = 'Valor IVA Detalle', "ui_mapping_text" = 'SQL_COVADEH_HN.CVAIVA') ,
+ CTIPPZ VARCHAR(1)  SET( "Description" = 'Tipo C.Plaza K/V/E', "ui_mapping_text" = 'SQL_COVADEH_HN.CTIPPZ') ,
+ CCORPZ DECIMAL(2, 0)  SET( "Description" = 'Correlativo C.Plaza', "ui_mapping_text" = 'SQL_COVADEH_HN.CCORPZ') ,
+ CNORPZ VARCHAR(6)  SET( "Description" = 'Nº Orden C.Plaza', "ui_mapping_text" = 'SQL_COVADEH_HN.CNORPZ') ,
+ CSWITC VARCHAR(3)  SET( "Description" = 'Control del item', "ui_mapping_text" = 'SQL_COVADEH_HN.CSWITC') ,
+ LLAVEA VARCHAR(31)  SET( "Description" = 'LLave anterior', "ui_mapping_text" = 'SQL_COVADEH_HN.LLAVEA') ,
+ CGRUPO VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'SQL_COVADEH_HN.CGRUPO') ,
+ CSGRUP VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'SQL_COVADEH_HN.CSGRUP') ,
+ CREBES DECIMAL(7, 2)  SET( "Description" = 'Rebaja Especial', "ui_mapping_text" = 'SQL_COVADEH_HN.CREBES') ,
+ CMANUL VARCHAR(1)  SET( "Description" = 'Marca Anulada', "ui_mapping_text" = 'SQL_COVADEH_HN.CMANUL') ,
+ CMPROM VARCHAR(2)  SET( "Description" = 'Marca Promocion', "ui_mapping_text" = 'SQL_COVADEH_HN.CMPROM') ,
+ CCOSCP DECIMAL(7, 2)  SET( "Description" = 'Costo Compr.Plaz', "ui_mapping_text" = 'SQL_COVADEH_HN.CCOSCP') ,
+ CFU001 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU001') ,
+ CFU002 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU002') ,
+ CFU003 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU003') ,
+ CFU004 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU004') ,
+ CFU005 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU005') ,
+ CFU006 DECIMAL(9, 2)  SET( "Description" = 'Percep.IVA', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU006') ,
+ CFU007 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU007') ,
+ CFU008 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU008') ,
+ CFU009 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU009') ,
+ CFU010 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_HN.CFU010') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'to_date(SQL_COVADEH_HN.CANODO||SQL_COVADEH_HN.CFECDE, \'yyyymmdd\' )')  )
+ AS
+SELECT 2, SQL_COVADEH_HN.CTIPMO, SQL_COVADEH_HN.CCCEMI, SQL_COVADEH_HN.CCCREC, SQL_COVADEH_HN.CNUMCO, SQL_COVADEH_HN.CMOVIC, SQL_COVADEH_HN.CTIPOC, SQL_COVADEH_HN.CFPAGC, SQL_COVADEH_HN.CCODIC, SQL_COVADEH_HN.CNUVEC, SQL_COVADEH_HN.CCODAR, SQL_COVADEH_HN.CREDES, SQL_COVADEH_HN.CENTSA, SQL_COVADEH_HN.CANODO, SQL_COVADEH_HN.CFECDE, SQL_COVADEH_HN.CFEREC, SQL_COVADEH_HN.CCANTI, SQL_COVADEH_HN.CVALDE, SQL_COVADEH_HN.CREBDE, SQL_COVADEH_HN.CDESDE, SQL_COVADEH_HN.CCOSVE, SQL_COVADEH_HN.CSTSTR, SQL_COVADEH_HN.CEXMAQ, SQL_COVADEH_HN.CEXTOT, SQL_COVADEH_HN.CCOSAN, SQL_COVADEH_HN.CTIPTR, SQL_COVADEH_HN.CVAIVA, SQL_COVADEH_HN.CTIPPZ, SQL_COVADEH_HN.CCORPZ, SQL_COVADEH_HN.CNORPZ, SQL_COVADEH_HN.CSWITC, SQL_COVADEH_HN.LLAVEA, SQL_COVADEH_HN.CGRUPO, SQL_COVADEH_HN.CSGRUP, SQL_COVADEH_HN.CREBES, SQL_COVADEH_HN.CMANUL, SQL_COVADEH_HN.CMPROM, SQL_COVADEH_HN.CCOSCP, SQL_COVADEH_HN.CFU001, SQL_COVADEH_HN.CFU002, SQL_COVADEH_HN.CFU003, SQL_COVADEH_HN.CFU004, SQL_COVADEH_HN.CFU005, SQL_COVADEH_HN.CFU006, SQL_COVADEH_HN.CFU007, SQL_COVADEH_HN.CFU008, SQL_COVADEH_HN.CFU009, SQL_COVADEH_HN.CFU010, to_date((SQL_COVADEH_HN.CANODO || SQL_COVADEH_HN.CFECDE), 'yyyymmdd') FROM SQL_COVADEH_HN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>253</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'Merge', "ui_display_name" = 'QRY_MERGE', "x" = '2083', "y" = '-893')
+GUID::'daa92fd4-198c-4619-ad0f-75fcd329f85f' CREATE VIEW QRY_MERGE( ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS', "ui_pasting" = '1') ,
+ CTIPMO VARCHAR(1)  SET( "Description" = 'Tipo de Movimiento', "ui_mapping_text" = 'Merge.CTIPMO', "ui_pasting" = 'COVADEH.CTIPMO') ,
+ CCCEMI VARCHAR(2)  SET( "Description" = 'Centro Costo Emisor', "ui_mapping_text" = 'Merge.CCCEMI', "ui_pasting" = 'COVADEH.CCCEMI') ,
+ CCCREC VARCHAR(2)  SET( "Description" = 'Centro Costo Recept.', "ui_mapping_text" = 'Merge.CCCREC', "ui_pasting" = 'COVADEH.CCCREC') ,
+ CNUMCO VARCHAR(9)  SET( "Description" = 'Nº de Comprobante', "ui_mapping_text" = 'Merge.CNUMCO', "ui_pasting" = 'COVADEH.CNUMCO') ,
+ CMOVIC VARCHAR(1)  SET( "Description" = 'Mov. si es factura', "ui_mapping_text" = 'Merge.CMOVIC', "ui_pasting" = 'COVADEH.CMOVIC') ,
+ CTIPOC VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'Merge.CTIPOC', "ui_pasting" = 'COVADEH.CTIPOC') ,
+ CFPAGC VARCHAR(1)  SET( "Description" = 'Forma de pago 0/1', "ui_mapping_text" = 'Merge.CFPAGC', "ui_pasting" = 'COVADEH.CFPAGC') ,
+ CCODIC VARCHAR(4)  SET( "Description" = 'Codigo de cliente', "ui_mapping_text" = 'Merge.CCODIC', "ui_pasting" = 'COVADEH.CCODIC') ,
+ CNUVEC VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'Merge.CNUVEC', "ui_pasting" = 'COVADEH.CNUVEC') ,
+ CCODAR VARCHAR(17)  SET( "Description" = 'Código de Articulo', "ui_mapping_text" = 'Merge.CCODAR', "ui_pasting" = 'COVADEH.CCODAR') ,
+ CREDES VARCHAR(20)  SET( "Description" = 'Descripción', "ui_mapping_text" = 'Merge.CREDES', "ui_pasting" = 'COVADEH.CREDES') ,
+ CENTSA VARCHAR(1)  SET( "Description" = 'Entrada/Salida', "ui_mapping_text" = 'Merge.CENTSA', "ui_pasting" = 'COVADEH.CENTSA') ,
+ CANODO VARCHAR(4)  SET( "Description" = 'Año', "ui_mapping_text" = 'Merge.CANODO', "ui_pasting" = 'COVADEH.CANODO') ,
+ CFECDE VARCHAR(4)  SET( "Description" = 'Fecha (MMDD)', "ui_mapping_text" = 'Merge.CFECDE', "ui_pasting" = 'COVADEH.CFECDE') ,
+ CFEREC VARCHAR(4)  SET( "Description" = 'MMDD TRANSADO', "ui_mapping_text" = 'Merge.CFEREC', "ui_pasting" = 'COVADEH.CFEREC') ,
+ CCANTI DECIMAL(7, 0)  SET( "Description" = 'Cantidad de Mov.', "ui_mapping_text" = 'Merge.CCANTI', "ui_pasting" = 'COVADEH.CCANTI') ,
+ CVALDE DECIMAL(9, 2)  SET( "Description" = 'Valor de Detalle', "ui_mapping_text" = 'Merge.CVALDE', "ui_pasting" = 'COVADEH.CVALDE') ,
+ CREBDE DECIMAL(7, 2)  SET( "Description" = 'Rebaja de Detalle', "ui_mapping_text" = 'Merge.CREBDE', "ui_pasting" = 'COVADEH.CREBDE') ,
+ CDESDE DECIMAL(7, 2)  SET( "Description" = 'Descto Detalle', "ui_mapping_text" = 'Merge.CDESDE', "ui_pasting" = 'COVADEH.CDESDE') ,
+ CCOSVE DECIMAL(9, 2)  SET( "Description" = 'Costo Vta/Dev', "ui_mapping_text" = 'Merge.CCOSVE', "ui_pasting" = 'COVADEH.CCOSVE') ,
+ CSTSTR VARCHAR(1)  SET( "Description" = 'Status Transacción', "ui_mapping_text" = 'Merge.CSTSTR', "ui_pasting" = 'COVADEH.CSTSTR') ,
+ CEXMAQ DECIMAL(9, 0)  SET( "Description" = 'Existencia Almacen', "ui_mapping_text" = 'Merge.CEXMAQ', "ui_pasting" = 'COVADEH.CEXMAQ') ,
+ CEXTOT DECIMAL(9, 0)  SET( "Description" = 'Existencia Total', "ui_mapping_text" = 'Merge.CEXTOT', "ui_pasting" = 'COVADEH.CEXTOT') ,
+ CCOSAN DECIMAL(9, 4)  SET( "Description" = 'Costo Anterior', "ui_mapping_text" = 'Merge.CCOSAN', "ui_pasting" = 'COVADEH.CCOSAN') ,
+ CTIPTR VARCHAR(1)  SET( "Description" = 'Tipo Transacción F/R', "ui_mapping_text" = 'Merge.CTIPTR', "ui_pasting" = 'COVADEH.CTIPTR') ,
+ CVAIVA DECIMAL(9, 2)  SET( "Description" = 'Valor IVA Detalle', "ui_mapping_text" = 'Merge.CVAIVA', "ui_pasting" = 'COVADEH.CVAIVA') ,
+ CTIPPZ VARCHAR(1)  SET( "Description" = 'Tipo C.Plaza K/V/E', "ui_mapping_text" = 'Merge.CTIPPZ', "ui_pasting" = 'COVADEH.CTIPPZ') ,
+ CCORPZ DECIMAL(2, 0)  SET( "Description" = 'Correlativo C.Plaza', "ui_mapping_text" = 'Merge.CCORPZ', "ui_pasting" = 'COVADEH.CCORPZ') ,
+ CNORPZ VARCHAR(6)  SET( "Description" = 'Nº Orden C.Plaza', "ui_mapping_text" = 'Merge.CNORPZ', "ui_pasting" = 'COVADEH.CNORPZ') ,
+ CSWITC VARCHAR(3)  SET( "Description" = 'Control del item', "ui_mapping_text" = 'Merge.CSWITC', "ui_pasting" = 'COVADEH.CSWITC') ,
+ LLAVEA VARCHAR(31)  SET( "Description" = 'LLave anterior', "ui_mapping_text" = 'Merge.LLAVEA', "ui_pasting" = 'COVADEH.LLAVEA') ,
+ CGRUPO VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'Merge.CGRUPO', "ui_pasting" = 'COVADEH.CGRUPO') ,
+ CSGRUP VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'Merge.CSGRUP', "ui_pasting" = 'COVADEH.CSGRUP') ,
+ CREBES DECIMAL(7, 2)  SET( "Description" = 'Rebaja Especial', "ui_mapping_text" = 'Merge.CREBES', "ui_pasting" = 'COVADEH.CREBES') ,
+ CMANUL VARCHAR(1)  SET( "Description" = 'Marca Anulada', "ui_mapping_text" = 'Merge.CMANUL', "ui_pasting" = 'COVADEH.CMANUL') ,
+ CMPROM VARCHAR(2)  SET( "Description" = 'Marca Promocion', "ui_mapping_text" = 'Merge.CMPROM', "ui_pasting" = 'COVADEH.CMPROM') ,
+ CCOSCP DECIMAL(7, 2)  SET( "Description" = 'Costo Compr.Plaz', "ui_mapping_text" = 'Merge.CCOSCP', "ui_pasting" = 'COVADEH.CCOSCP') ,
+ CFU001 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU001', "ui_pasting" = 'COVADEH.CFU001') ,
+ CFU002 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU002', "ui_pasting" = 'COVADEH.CFU002') ,
+ CFU003 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU003', "ui_pasting" = 'COVADEH.CFU003') ,
+ CFU004 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU004', "ui_pasting" = 'COVADEH.CFU004') ,
+ CFU005 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU005', "ui_pasting" = 'COVADEH.CFU005') ,
+ CFU006 DECIMAL(9, 2)  SET( "Description" = 'Percep.IVA', "ui_mapping_text" = 'Merge.CFU006', "ui_pasting" = 'COVADEH.CFU006') ,
+ CFU007 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU007', "ui_pasting" = 'COVADEH.CFU007') ,
+ CFU008 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU008', "ui_pasting" = 'COVADEH.CFU008') ,
+ CFU009 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU009', "ui_pasting" = 'COVADEH.CFU009') ,
+ CFU010 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'Merge.CFU010', "ui_pasting" = 'COVADEH.CFU010') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_TRANSACCION') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )', "ui_pasting" = 'sysdate( )')  )
+ AS
+SELECT Merge.ID_PAIS, Merge.CTIPMO, Merge.CCCEMI, Merge.CCCREC, Merge.CNUMCO, Merge.CMOVIC, Merge.CTIPOC, Merge.CFPAGC, Merge.CCODIC, Merge.CNUVEC, Merge.CCODAR, Merge.CREDES, Merge.CENTSA, Merge.CANODO, Merge.CFECDE, Merge.CFEREC, Merge.CCANTI, Merge.CVALDE, Merge.CREBDE, Merge.CDESDE, Merge.CCOSVE, Merge.CSTSTR, Merge.CEXMAQ, Merge.CEXTOT, Merge.CCOSAN, Merge.CTIPTR, Merge.CVAIVA, Merge.CTIPPZ, Merge.CCORPZ, Merge.CNORPZ, Merge.CSWITC, Merge.LLAVEA, Merge.CGRUPO, Merge.CSGRUP, Merge.CREBES, Merge.CMANUL, Merge.CMPROM, Merge.CCOSCP, Merge.CFU001, Merge.CFU002, Merge.CFU003, Merge.CFU004, Merge.CFU005, Merge.CFU006, Merge.CFU007, Merge.CFU008, Merge.CFU009, Merge.CFU010, Merge.FECHA_TRANSACCION, sysdate() FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_COVADEH_SV', "ui_display_name" = 'QRY_SV', "x" = '997', "y" = '-501')
+GUID::'d788c22c-aa26-4110-9d56-48b741600419' CREATE VIEW QRY_SV( ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ CTIPMO VARCHAR(1)  SET( "Description" = 'Tipo de Movimiento', "ui_mapping_text" = 'SQL_COVADEH_SV.CTIPMO') ,
+ CCCEMI VARCHAR(2)  SET( "Description" = 'Centro Costo Emisor', "ui_mapping_text" = 'SQL_COVADEH_SV.CCCEMI') ,
+ CCCREC VARCHAR(2)  SET( "Description" = 'Centro Costo Recept.', "ui_mapping_text" = 'SQL_COVADEH_SV.CCCREC') ,
+ CNUMCO VARCHAR(9)  SET( "Description" = 'Nº de Comprobante', "ui_mapping_text" = 'SQL_COVADEH_SV.CNUMCO') ,
+ CMOVIC VARCHAR(1)  SET( "Description" = 'Mov. si es factura', "ui_mapping_text" = 'SQL_COVADEH_SV.CMOVIC') ,
+ CTIPOC VARCHAR(1)  SET( "Description" = 'Tipo F/R/3/4/5/6', "ui_mapping_text" = 'SQL_COVADEH_SV.CTIPOC') ,
+ CFPAGC VARCHAR(1)  SET( "Description" = 'Forma de pago 0/1', "ui_mapping_text" = 'SQL_COVADEH_SV.CFPAGC') ,
+ CCODIC VARCHAR(4)  SET( "Description" = 'Codigo de cliente', "ui_mapping_text" = 'SQL_COVADEH_SV.CCODIC') ,
+ CNUVEC VARCHAR(4)  SET( "Description" = 'Vendedor', "ui_mapping_text" = 'SQL_COVADEH_SV.CNUVEC') ,
+ CCODAR VARCHAR(17)  SET( "Description" = 'Código de Articulo', "ui_mapping_text" = 'SQL_COVADEH_SV.CCODAR') ,
+ CREDES VARCHAR(20)  SET( "Description" = 'Descripción', "ui_mapping_text" = 'SQL_COVADEH_SV.CREDES') ,
+ CENTSA VARCHAR(1)  SET( "Description" = 'Entrada/Salida', "ui_mapping_text" = 'SQL_COVADEH_SV.CENTSA') ,
+ CANODO VARCHAR(4)  SET( "Description" = 'Año', "ui_mapping_text" = 'SQL_COVADEH_SV.CANODO') ,
+ CFECDE VARCHAR(4)  SET( "Description" = 'Fecha (MMDD)', "ui_mapping_text" = 'SQL_COVADEH_SV.CFECDE') ,
+ CFEREC VARCHAR(4)  SET( "Description" = 'MMDD TRANSADO', "ui_mapping_text" = 'SQL_COVADEH_SV.CFEREC') ,
+ CCANTI DECIMAL(7, 0)  SET( "Description" = 'Cantidad de Mov.', "ui_mapping_text" = 'SQL_COVADEH_SV.CCANTI') ,
+ CVALDE DECIMAL(9, 2)  SET( "Description" = 'Valor de Detalle', "ui_mapping_text" = 'SQL_COVADEH_SV.CVALDE') ,
+ CREBDE DECIMAL(7, 2)  SET( "Description" = 'Rebaja de Detalle', "ui_mapping_text" = 'SQL_COVADEH_SV.CREBDE') ,
+ CDESDE DECIMAL(7, 2)  SET( "Description" = 'Descto Detalle', "ui_mapping_text" = 'SQL_COVADEH_SV.CDESDE') ,
+ CCOSVE DECIMAL(9, 2)  SET( "Description" = 'Costo Vta/Dev', "ui_mapping_text" = 'SQL_COVADEH_SV.CCOSVE') ,
+ CSTSTR VARCHAR(1)  SET( "Description" = 'Status Transacción', "ui_mapping_text" = 'SQL_COVADEH_SV.CSTSTR') ,
+ CEXMAQ DECIMAL(9, 0)  SET( "Description" = 'Existencia Almacen', "ui_mapping_text" = 'SQL_COVADEH_SV.CEXMAQ') ,
+ CEXTOT DECIMAL(9, 0)  SET( "Description" = 'Existencia Total', "ui_mapping_text" = 'SQL_COVADEH_SV.CEXTOT') ,
+ CCOSAN DECIMAL(9, 4)  SET( "Description" = 'Costo Anterior', "ui_mapping_text" = 'SQL_COVADEH_SV.CCOSAN') ,
+ CTIPTR VARCHAR(1)  SET( "Description" = 'Tipo Transacción F/R', "ui_mapping_text" = 'SQL_COVADEH_SV.CTIPTR') ,
+ CVAIVA DECIMAL(9, 2)  SET( "Description" = 'Valor IVA Detalle', "ui_mapping_text" = 'SQL_COVADEH_SV.CVAIVA') ,
+ CTIPPZ VARCHAR(1)  SET( "Description" = 'Tipo C.Plaza K/V/E', "ui_mapping_text" = 'SQL_COVADEH_SV.CTIPPZ') ,
+ CCORPZ DECIMAL(2, 0)  SET( "Description" = 'Correlativo C.Plaza', "ui_mapping_text" = 'SQL_COVADEH_SV.CCORPZ') ,
+ CNORPZ VARCHAR(6)  SET( "Description" = 'Nº Orden C.Plaza', "ui_mapping_text" = 'SQL_COVADEH_SV.CNORPZ') ,
+ CSWITC VARCHAR(3)  SET( "Description" = 'Control del item', "ui_mapping_text" = 'SQL_COVADEH_SV.CSWITC') ,
+ LLAVEA VARCHAR(31)  SET( "Description" = 'LLave anterior', "ui_mapping_text" = 'SQL_COVADEH_SV.LLAVEA') ,
+ CGRUPO VARCHAR(2)  SET( "Description" = 'Grupo', "ui_mapping_text" = 'SQL_COVADEH_SV.CGRUPO') ,
+ CSGRUP VARCHAR(2)  SET( "Description" = 'SubGrupo', "ui_mapping_text" = 'SQL_COVADEH_SV.CSGRUP') ,
+ CREBES DECIMAL(7, 2)  SET( "Description" = 'Rebaja Especial', "ui_mapping_text" = 'SQL_COVADEH_SV.CREBES') ,
+ CMANUL VARCHAR(1)  SET( "Description" = 'Marca Anulada', "ui_mapping_text" = 'SQL_COVADEH_SV.CMANUL') ,
+ CMPROM VARCHAR(2)  SET( "Description" = 'Marca Promocion', "ui_mapping_text" = 'SQL_COVADEH_SV.CMPROM') ,
+ CCOSCP DECIMAL(7, 2)  SET( "Description" = 'Costo Compr.Plaz', "ui_mapping_text" = 'SQL_COVADEH_SV.CCOSCP') ,
+ CFU001 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU001') ,
+ CFU002 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU002') ,
+ CFU003 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU003') ,
+ CFU004 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU004') ,
+ CFU005 VARCHAR(1)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU005') ,
+ CFU006 DECIMAL(9, 2)  SET( "Description" = 'Percep.IVA', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU006') ,
+ CFU007 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU007') ,
+ CFU008 DECIMAL(9, 2)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU008') ,
+ CFU009 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU009') ,
+ CFU010 VARCHAR(10)  SET( "Description" = 'Futuro Uso', "ui_mapping_text" = 'SQL_COVADEH_SV.CFU010') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'to_date(SQL_COVADEH_SV.CANODO||SQL_COVADEH_SV.CFECDE, \'yyyymmdd\' )')  )
+ AS
+SELECT 1, SQL_COVADEH_SV.CTIPMO, SQL_COVADEH_SV.CCCEMI, SQL_COVADEH_SV.CCCREC, SQL_COVADEH_SV.CNUMCO, SQL_COVADEH_SV.CMOVIC, SQL_COVADEH_SV.CTIPOC, SQL_COVADEH_SV.CFPAGC, SQL_COVADEH_SV.CCODIC, SQL_COVADEH_SV.CNUVEC, SQL_COVADEH_SV.CCODAR, SQL_COVADEH_SV.CREDES, SQL_COVADEH_SV.CENTSA, SQL_COVADEH_SV.CANODO, SQL_COVADEH_SV.CFECDE, SQL_COVADEH_SV.CFEREC, SQL_COVADEH_SV.CCANTI, SQL_COVADEH_SV.CVALDE, SQL_COVADEH_SV.CREBDE, SQL_COVADEH_SV.CDESDE, SQL_COVADEH_SV.CCOSVE, SQL_COVADEH_SV.CSTSTR, SQL_COVADEH_SV.CEXMAQ, SQL_COVADEH_SV.CEXTOT, SQL_COVADEH_SV.CCOSAN, SQL_COVADEH_SV.CTIPTR, SQL_COVADEH_SV.CVAIVA, SQL_COVADEH_SV.CTIPPZ, SQL_COVADEH_SV.CCORPZ, SQL_COVADEH_SV.CNORPZ, SQL_COVADEH_SV.CSWITC, SQL_COVADEH_SV.LLAVEA, SQL_COVADEH_SV.CGRUPO, SQL_COVADEH_SV.CSGRUP, SQL_COVADEH_SV.CREBES, SQL_COVADEH_SV.CMANUL, SQL_COVADEH_SV.CMPROM, SQL_COVADEH_SV.CCOSCP, SQL_COVADEH_SV.CFU001, SQL_COVADEH_SV.CFU002, SQL_COVADEH_SV.CFU003, SQL_COVADEH_SV.CFU004, SQL_COVADEH_SV.CFU005, SQL_COVADEH_SV.CFU006, SQL_COVADEH_SV.CFU007, SQL_COVADEH_SV.CFU008, SQL_COVADEH_SV.CFU009, SQL_COVADEH_SV.CFU010, to_date((SQL_COVADEH_SV.CANODO || SQL_COVADEH_SV.CFECDE), 'yyyymmdd') FROM SQL_COVADEH_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1544', "y" = '-893')
+GUID::'1bd21c25-1108-4bb9-88e5-dd39f7afef9e' CALL TRANSFORM Merge() INPUT(QRY_HN, QRY_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'COVADEH(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2687', "y" = '-895')
+GUID::'1038f43c-8ccc-4e27-8e54-9dd24bed37eb' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVADEH INPUT(QRY_MERGE)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_COVADEH.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>319</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'SQL_COVADEH_SV', "x" = '418', "y" = '-499')
+GUID::'f110d913-477d-450d-9f2d-5e541a610cac' CALL TRANSFORM SQL() OUTPUT(SQL_COVADEH_SV( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT *                                              &#xD;&#xA;FROM NEWINV.COVADEH                                   &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR((CURRENT_DATE - [$DiasDelete] DAYS),\'YYYYMMDD\')              </sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>316</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'SQL_COVADEH_HN', "x" = '403', "y" = '-1250')
+GUID::'d4d3804d-e095-4697-94f5-e65f2af77f4a' CALL TRANSFORM SQL() OUTPUT(SQL_COVADEH_HN( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT *                                              &#xD;&#xA;FROM PHNINV.COVADEH                                   &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR((CURRENT_DATE - [$DiasDelete] DAYS),\'YYYYMMDD\')    &#xD;&#xA;                              </sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Nov 14 12:34:58 2022', "ActaValue_3" = 'Tue Nov 15 08:37:27 2022', "x" = '-1', "y" = '-1')
+CREATE SESSION STAGE_BI_3_AM::'2fbea7cc-b2a9-4de9-b6cc-725637e79437'( )
+DECLARE
+     GLOBAL $DiasDelete VARCHAR(3) ;
+     GLOBAL $fechaFin DATETIME(9) ;
+     GLOBAL $fechaInicio DATETIME(9) ;
+     GLOBAL $duracion INT ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INI_STAGE_BI_3_AM', "ui_script_text" = 'print(\'*********************************************--> INICIO <--*************************************************\');
+print(\'**************************************--> ETL DE STAGE BI 3 AM <--******************************************\');
+print(\'************************************************************************************************************\');
+$fechaInicio = sysdate( );', "x" = '649', "y" = '-683')
+BEGIN_SCRIPT
+print('*********************************************--> INICIO <--*************************************************');print('**************************************--> ETL DE STAGE BI 3 AM <--******************************************');print('************************************************************************************************************');$fechaInicio = sysdate();END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>460</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1184', "y" = '-684')
+CALL PLAN WF_CRG_STG_COVADEH::'ca55ecac-5cb1-4272-bd30-dbdded89b56d'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FIN_STAGE_BI_3_AM', "ui_script_text" = 'print(\'************************************************************************************************************\');
+print(\'***********************************************--> FIN <--**************************************************\');
+print(\'*********************************--> EJECUCION DE ETL DE STAGE BI 3 AM<--***********************************\');
+print(\'************************************************************************************************************\');', "x" = '1777', "y" = '-682')
+BEGIN_SCRIPT
+print('************************************************************************************************************');print('***********************************************--> FIN <--**************************************************');print('*********************************--> EJECUCION DE ETL DE STAGE BI 3 AM<--***********************************');print('************************************************************************************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_MAIL', "ui_script_text" = 'print(\'#######################################----> INICIO ENVIO CORREO <---#######################################\');
+
+$fechaFin = sysdate( );
+
+print(\'Fecha fin: \' || cast( $fechaFin,\'varchar(30)\'));
+
+$duracion = date_diff( $fechaInicio, $fechaFin, \'M\');  
+
+print( $fechaFin - $fechaInicio);
+
+print(\'duracion: \' || $duracion);
+
+print(\'#######################################----> INICIO ENVIO CORREO <---#######################################\');
+
+DS_SQL_SERVER_DWHFRAMEWORK.FWK.SP_EMAIL_NOTIFICATION_JOB( \'GER_VTAS\',\'STAGE_BI_3_AM\',$fechaInicio,$fechaFin,$duracion );
+
+print(\'#######################################----> FIN ENVIO CORREO <---#######################################\');', "x" = '2343', "y" = '-682')
+BEGIN_SCRIPT
+print('#######################################----> INICIO ENVIO CORREO <---#######################################');$fechaFin = sysdate();print(('Fecha fin: ' || cast($fechaFin, 'varchar(30)')));$duracion = date_diff($fechaInicio, $fechaFin, 'M');print(($fechaFin - $fechaInicio));print(('duracion: ' || $duracion));print('#######################################----> INICIO ENVIO CORREO <---#######################################');DS_SQL_SERVER_DWHFRAMEWORK.FWK.SP_EMAIL_NOTIFICATION_JOB('GER_VTAS', 'STAGE_BI_3_AM', $fechaInicio, $fechaFin, $duracion);print('#######################################----> FIN ENVIO CORREO <---#######################################');END
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = '2fbea7cc-b2a9-4de9-b6cc-725637e79437', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'STAGE_BI_3_AM', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 25 16:33:03 2022', "ActaValue_3" = 'Tue Oct 25 16:38:57 2022', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_COVADEH::'ca55ecac-5cb1-4272-bd30-dbdded89b56d'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_CRG_STG_DIAS_A_ELIMINAR', "ui_script_text" = 'print(\'#################################----> ASIGNACION DE DIAS A ELIMINAR <---##################################\');  
+
+$DiasDelete = \'60\';', "x" = '455', "y" = '-1047')
+BEGIN_SCRIPT
+print('#################################----> ASIGNACION DE DIAS A ELIMINAR <---##################################');$DiasDelete = '60';END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>453</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_CRG_STG_COVADEH', "ui_script_text" = 'print(\'#################################----> INICIA ELIMINACION DE REGISTROS <---#################################\');  
+
+print(\'#######################################----> ELIMINACION COVADEH <---#######################################\');  
+
+DS_SQL_SERVER_STAGE_BI.DWH.SP_BORRADO_TB(\'DWH\',\'COVADEH\'); 
+
+print(\'###########################----> INICIA INSERCION DE REGISTROS COVADEH <---##################################\');  
+', "x" = '1015', "y" = '-1047')
+BEGIN_SCRIPT
+print('#################################----> INICIA ELIMINACION DE REGISTROS <---#################################');print('#######################################----> ELIMINACION COVADEH <---#######################################');DS_SQL_SERVER_STAGE_BI.DWH.SP_BORRADO_TB('DWH', 'COVADEH');print('###########################----> INICIA INSERCION DE REGISTROS COVADEH <---##################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1525', "y" = '-1047')
+CALL DATAFLOW DF_CRG_STG_COVADEH::'e13e6dd1-6b07-430f-9db3-f136331f6e2c'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>453</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_CRG_STG_COVADEH_FIN', "ui_script_text" = 'print(\'##########################----> FIN DE INSERCION DE REGISTROS COVADEH <---##################################\');  ', "x" = '2167', "y" = '-1048')
+BEGIN_SCRIPT
+print('##########################----> FIN DE INSERCION DE REGISTROS COVADEH <---##################################');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

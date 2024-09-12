@@ -1,0 +1,434 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ECOMMERCE::'7f69c8b0-36f8-4266-9748-767a142190e8' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E87BA204737242252815FFC1A453669E9ED453617F96547120B754E26AB65A887A11FA042AAED310BA3D6BFCCDD9</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E89283830EAB6BD33024FEE990FD408DB6E0EA2ABBA9511CD684F2FB83C7FFCE7B62F9B48FB85573FC813990CDF0</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>Azure DW</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8C06426509520C7A33AC1A28FD2F9B18679B4F2BBEC7E95E61BD21EB4D2EA84DEA4937E83E4BFF668D4A2213D3AF2890A969E91C08898AA1633C4</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>db-datawarehouse-ecommercesr</sql_server_database>
+<sql_server_dataserver>sqlserverecommerce.database.windows.net</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>power_bi_login</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ECOMMERCE', "pcache_force_utf16" = 'no');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STG_ECOMMERCE::'6a442f69-d5c6-4fbf-a0a5-889f30efc91c' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E85B9E5907C79C58609A3213E6A2E9534C96A25DF276E81242DD9E00EB4D480A09A8623203A6447F131B77E75689</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8C36E9F8C0BA6B7F156A7552DDF32D40A5DC8B816D972F4329B4EE071D044DA5B5EDD609EEA9F70D0945F285D38</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8EA3651D7F26D635AA1E7E0CBBAFA7243B4DD7A78DC46F2B2B08EBBDC536AD79C3820D84294CD112E5E109898BDB3278FF5CC0D028982</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_ECOMMERCE</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>SA</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STG_ECOMMERCE', "pcache_force_utf16" = 'no');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Feb 14 09:20:51 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_SQL_SERVER_ECOMMERCE.dbo.DetallePedidoPivot(Id NVARCHAR(200)  NOT NULL , 
+IdProducto NVARCHAR(200)  NULL , 
+Cantidad DECIMAL(18, 4)  NOT NULL , 
+PrecioUnitario DECIMAL(18, 4)  NOT NULL , 
+PrecioUnitarioNormal DECIMAL(18, 4)  NOT NULL , 
+IdCliente NVARCHAR(200)  NULL , 
+IdPedido NVARCHAR(200)  NOT NULL , 
+FechaIngreso NVARCHAR(34)  NOT NULL , 
+TotalPromocion DECIMAL(18, 4)  NOT NULL , 
+IdTienda NVARCHAR(200)  NOT NULL , 
+IdMoneda NVARCHAR(200)  NOT NULL , 
+IdTipoDetalle INT  NOT NULL , 
+DescripcionDetalle NVARCHAR(1000)  NULL , 
+IdProductoDescuento NVARCHAR(200)  NULL ) 
+CREATE_INDEX PK_DETALLEPEDIDOPIVOT ON (Id) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Mon Sep  2 15:54:48 2024' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '3314' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '3314' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '2 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RDate_modified',ActaValue_11 = 'Tue Feb 14 10:27:09 2023' , 
+ActaName_12 = 'RPartitionModified',ActaValue_12 = 'no' )
+CREATE TABLE DS_SQL_SERVER_STG_ECOMMERCE.dbo.DetallePedidoPivot(Id NVARCHAR(200)  NOT NULL , 
+IdProducto NVARCHAR(200)  NULL , 
+Cantidad DECIMAL(18, 4)  NOT NULL , 
+PrecioUnitario DECIMAL(18, 4)  NOT NULL , 
+PrecioUnitarioNormal DECIMAL(18, 4)  NOT NULL , 
+IdCliente NVARCHAR(200)  NULL , 
+IdPedido NVARCHAR(200)  NOT NULL , 
+FechaIngreso NVARCHAR(34)  NOT NULL , 
+TotalPromocion DECIMAL(18, 4)  NOT NULL , 
+IdTienda NVARCHAR(200)  NOT NULL , 
+IdMoneda NVARCHAR(200)  NOT NULL , 
+IdTipoDetalle INT  NOT NULL , 
+DescripcionDetalle NVARCHAR(1000)  NULL , 
+IdProductoDescuento NVARCHAR(200)  NULL , 
+FECHA_CARGA_DWH DATETIME(0)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Feb 14 11:27:16 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_SQL_SERVER_ECOMMERCE.dbo.PedidoPivot(Id NVARCHAR(200)  NOT NULL , 
+CodigoCorto INT  NOT NULL , 
+FechaPago NVARCHAR(34)  NOT NULL , 
+FechaIngreso NVARCHAR(34)  NOT NULL , 
+IdMoneda NVARCHAR(200)  NOT NULL , 
+IdCuenta NVARCHAR(200)  NOT NULL , 
+IdTienda NVARCHAR(200)  NOT NULL , 
+IdClienteCreo NVARCHAR(200)  NULL , 
+TotalPagar DECIMAL(18, 2)  NOT NULL , 
+TotalPrecioNormal DECIMAL(18, 2)  NOT NULL , 
+TotalDescuentoProductos DECIMAL(18, 2)  NOT NULL , 
+TotalDescuentoApis DECIMAL(18, 2)  NOT NULL , 
+CantidadSku DECIMAL(18, 2)  NOT NULL , 
+CantidadProductos INT  NOT NULL , 
+IdTipoEntrega INT  NOT NULL , 
+AliasBeneficiario NVARCHAR(200)  NULL , 
+NombreBeneficiario NVARCHAR(200)  NULL , 
+ApellidoBeneficiario NVARCHAR(200)  NULL , 
+NumeroDocumentoBeneficiario NVARCHAR(100)  NULL , 
+TipoDocumentoBeneficiario NVARCHAR(100)  NULL , 
+IdSucursalPreferencia NVARCHAR(200)  NOT NULL , 
+DireccionBeneficiario NVARCHAR(500)  NULL , 
+ZonaBeneficiario NVARCHAR(200)  NULL , 
+IdZona NVARCHAR(200)  NULL , 
+LatitudBeneficiario DECIMAL(18, 2)  NULL , 
+LongitudBeneficiario DECIMAL(18, 2)  NULL , 
+EmailBeneficiario NVARCHAR(200)  NULL , 
+TelefonosBeneficiario NVARCHAR(50)  NULL , 
+NumeroFactura NVARCHAR(200)  NULL , 
+NumeroViaje NVARCHAR(200)  NULL , 
+TipoPago NVARCHAR(200)  NULL , 
+ESTIMADOENTREGA NVARCHAR(200)  NULL , 
+FACTURACION_EXITOSA NVARCHAR(200)  NULL , 
+TIPODEREBAJA NVARCHAR(200)  NULL , 
+FORMA_PAGO NVARCHAR(200)  NULL , 
+AplicaCreditoFiscal NVARCHAR(200)  NULL , 
+NitCreditoFiscal NVARCHAR(200)  NULL , 
+RazonSocialCreditoFiscal NVARCHAR(200)  NULL , 
+TipoComprobanteCreditoFiscal NVARCHAR(200)  NULL , 
+GiroCreditoFiscal NVARCHAR(200)  NULL , 
+NumeroRegistroCreditoFiscal NVARCHAR(200)  NULL , 
+IdEstadoPedidoSuperRepuestos NVARCHAR(200)  NULL , 
+EstadoPedidoSuperRepuestos NVARCHAR(200)  NULL , 
+UltimaFechaCambioEstado NVARCHAR(200)  NULL ) 
+CREATE_INDEX PK_PEDIDOPIVOTS ON (Id) 
+SET("db_alias_name" = 'DBO')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '1557' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '1557' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '1 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RDate_created',ActaValue_12 = 'Tue Feb 14 10:31:28 2023' , 
+ActaName_13 = 'RDate_last_loaded',ActaValue_13 = 'Mon Sep  2 15:54:48 2024' , 
+ActaName_14 = 'RPartitionModified',ActaValue_14 = 'no' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Tue Feb 14 10:31:40 2023' )
+CREATE TABLE DS_SQL_SERVER_STG_ECOMMERCE.dbo.PedidoPivot(Id NVARCHAR(200)  NOT NULL , 
+CodigoCorto INT  NOT NULL , 
+FechaPago NVARCHAR(34)  NOT NULL , 
+FechaIngreso NVARCHAR(34)  NOT NULL , 
+IdMoneda NVARCHAR(200)  NOT NULL , 
+IdCuenta NVARCHAR(200)  NOT NULL , 
+IdTienda NVARCHAR(200)  NOT NULL , 
+IdClienteCreo NVARCHAR(200)  NULL , 
+TotalPagar DECIMAL(18, 2)  NOT NULL , 
+TotalPrecioNormal DECIMAL(18, 2)  NOT NULL , 
+TotalDescuentoProductos DECIMAL(18, 2)  NOT NULL , 
+TotalDescuentoApis DECIMAL(18, 2)  NOT NULL , 
+CantidadSku DECIMAL(18, 2)  NOT NULL , 
+CantidadProductos INT  NOT NULL , 
+IdTipoEntrega INT  NOT NULL , 
+AliasBeneficiario NVARCHAR(200)  NULL , 
+NombreBeneficiario NVARCHAR(200)  NULL , 
+ApellidoBeneficiario NVARCHAR(200)  NULL , 
+NumeroDocumentoBeneficiario NVARCHAR(100)  NULL , 
+TipoDocumentoBeneficiario NVARCHAR(100)  NULL , 
+IdSucursalPreferencia NVARCHAR(200)  NOT NULL , 
+DireccionBeneficiario NVARCHAR(500)  NULL , 
+ZonaBeneficiario NVARCHAR(200)  NULL , 
+IdZona NVARCHAR(200)  NULL , 
+LatitudBeneficiario DECIMAL(18, 2)  NULL , 
+LongitudBeneficiario DECIMAL(18, 2)  NULL , 
+EmailBeneficiario NVARCHAR(200)  NULL , 
+TelefonosBeneficiario NVARCHAR(50)  NULL , 
+NumeroFactura NVARCHAR(200)  NULL , 
+NumeroViaje NVARCHAR(200)  NULL , 
+TipoPago NVARCHAR(200)  NULL , 
+ESTIMADOENTREGA NVARCHAR(200)  NULL , 
+FACTURACION_EXITOSA NVARCHAR(200)  NULL , 
+TIPODEREBAJA NVARCHAR(200)  NULL , 
+FORMA_PAGO NVARCHAR(200)  NULL , 
+AplicaCreditoFiscal NVARCHAR(200)  NULL , 
+NitCreditoFiscal NVARCHAR(200)  NULL , 
+RazonSocialCreditoFiscal NVARCHAR(200)  NULL , 
+TipoComprobanteCreditoFiscal NVARCHAR(200)  NULL , 
+GiroCreditoFiscal NVARCHAR(200)  NULL , 
+NumeroRegistroCreditoFiscal NVARCHAR(200)  NULL , 
+IdEstadoPedidoSuperRepuestos NVARCHAR(200)  NULL , 
+EstadoPedidoSuperRepuestos NVARCHAR(200)  NULL , 
+UltimaFechaCambioEstado NVARCHAR(200)  NULL , 
+FECHA_CARGA_DWH DATETIME(0)  NULL ) 
+SET("db_alias_name" = 'DBO')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Feb 14 10:42:28 2023', "ActaValue_3" = 'Tue Feb 14 14:59:47 2023', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_ECOM_DETALLEPEDIDOPIVOT::'ecba0960-cf92-4e3f-90eb-2ea9f56ff97e'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '488', "y" = '-1235')
+GUID::'a43b298a-77af-4408-9bea-34a25dff4988' READ TABLE DS_SQL_SERVER_ECOMMERCE.DBO.DETALLEPEDIDOPIVOT OUTPUT(DETALLEPEDIDOPIVOT)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_ECOMMERCE', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'DETALLEPEDIDOPIVOT', "x" = '858', "y" = '-1235')
+GUID::'89d0c01e-fdbd-4d3a-b48a-e746bb476c3c' CREATE VIEW Query( ID VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.ID') ,
+ IDPRODUCTO VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDPRODUCTO') ,
+ CANTIDAD DECIMAL(18, 4)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.CANTIDAD') ,
+ PRECIOUNITARIO DECIMAL(18, 4)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.PRECIOUNITARIO') ,
+ PRECIOUNITARIONORMAL DECIMAL(18, 4)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.PRECIOUNITARIONORMAL') ,
+ IDCLIENTE VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDCLIENTE') ,
+ IDPEDIDO VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDPEDIDO') ,
+ FECHAINGRESO VARCHAR(34)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.FECHAINGRESO') ,
+ TOTALPROMOCION DECIMAL(18, 4)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.TOTALPROMOCION') ,
+ IDTIENDA VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDTIENDA') ,
+ IDMONEDA VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDMONEDA') ,
+ IDTIPODETALLE INT  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDTIPODETALLE') ,
+ DESCRIPCIONDETALLE VARCHAR(1000)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.DESCRIPCIONDETALLE') ,
+ IDPRODUCTODESCUENTO VARCHAR(200)  SET( "ui_mapping_text" = 'DETALLEPEDIDOPIVOT.IDPRODUCTODESCUENTO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'SYSDATE()')  )
+ AS
+SELECT DETALLEPEDIDOPIVOT.ID, DETALLEPEDIDOPIVOT.IDPRODUCTO, DETALLEPEDIDOPIVOT.CANTIDAD, DETALLEPEDIDOPIVOT.PRECIOUNITARIO, DETALLEPEDIDOPIVOT.PRECIOUNITARIONORMAL, DETALLEPEDIDOPIVOT.IDCLIENTE, DETALLEPEDIDOPIVOT.IDPEDIDO, DETALLEPEDIDOPIVOT.FECHAINGRESO, DETALLEPEDIDOPIVOT.TOTALPROMOCION, DETALLEPEDIDOPIVOT.IDTIENDA, DETALLEPEDIDOPIVOT.IDMONEDA, DETALLEPEDIDOPIVOT.IDTIPODETALLE, DETALLEPEDIDOPIVOT.DESCRIPCIONDETALLE, DETALLEPEDIDOPIVOT.IDPRODUCTODESCUENTO, SYSDATE() FROM DETALLEPEDIDOPIVOT 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '1406', "y" = '-1235')
+GUID::'3d28a110-e522-4350-ae65-dc03d42bacb4' LOAD TABLE DS_SQL_SERVER_STG_ECOMMERCE.DBO.DETALLEPEDIDOPIVOT INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STG_ECOMMERCE', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Feb 14 12:03:30 2023', "ActaValue_3" = 'Mon Sep  2 15:14:17 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_ECOM_PEDIDOPIVOT::'0a4a11e5-d03f-4ac9-ad2f-331c44dfa96a'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '288', "y" = '-1050')
+GUID::'b93049b3-8c02-45d7-94df-67caa765c737' READ TABLE DS_SQL_SERVER_ECOMMERCE.DBO.PEDIDOPIVOT OUTPUT(PEDIDOPIVOT)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_SQL_SERVER_ECOMMERCE', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'PEDIDOPIVOT', "x" = '746', "y" = '-1051')
+GUID::'6a76d942-c934-40be-87f9-02df5d4c939c' CREATE VIEW Query( ID VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ID') ,
+ CODIGOCORTO INT  SET( "ui_mapping_text" = 'PEDIDOPIVOT.CODIGOCORTO') ,
+ FECHAPAGO VARCHAR(34)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.FECHAPAGO') ,
+ FECHAINGRESO VARCHAR(34)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.FECHAINGRESO') ,
+ IDMONEDA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDMONEDA') ,
+ IDCUENTA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDCUENTA') ,
+ IDTIENDA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDTIENDA') ,
+ IDCLIENTECREO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDCLIENTECREO') ,
+ TOTALPAGAR DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TOTALPAGAR') ,
+ TOTALPRECIONORMAL DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TOTALPRECIONORMAL') ,
+ TOTALDESCUENTOPRODUCTOS DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TOTALDESCUENTOPRODUCTOS') ,
+ TOTALDESCUENTOAPIS DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TOTALDESCUENTOAPIS') ,
+ CANTIDADSKU DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.CANTIDADSKU') ,
+ CANTIDADPRODUCTOS INT  SET( "ui_mapping_text" = 'PEDIDOPIVOT.CANTIDADPRODUCTOS') ,
+ IDTIPOENTREGA INT  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDTIPOENTREGA') ,
+ ALIASBENEFICIARIO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ALIASBENEFICIARIO') ,
+ NOMBREBENEFICIARIO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NOMBREBENEFICIARIO') ,
+ APELLIDOBENEFICIARIO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.APELLIDOBENEFICIARIO') ,
+ NUMERODOCUMENTOBENEFICIARIO VARCHAR(100)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NUMERODOCUMENTOBENEFICIARIO') ,
+ TIPODOCUMENTOBENEFICIARIO VARCHAR(100)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TIPODOCUMENTOBENEFICIARIO') ,
+ IDSUCURSALPREFERENCIA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDSUCURSALPREFERENCIA') ,
+ DIRECCIONBENEFICIARIO VARCHAR(500)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.DIRECCIONBENEFICIARIO') ,
+ ZONABENEFICIARIO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ZONABENEFICIARIO') ,
+ IDZONA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDZONA') ,
+ LATITUDBENEFICIARIO DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.LATITUDBENEFICIARIO') ,
+ LONGITUDBENEFICIARIO DECIMAL(18, 2)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.LONGITUDBENEFICIARIO') ,
+ EMAILBENEFICIARIO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.EMAILBENEFICIARIO') ,
+ TELEFONOSBENEFICIARIO VARCHAR(50)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TELEFONOSBENEFICIARIO') ,
+ NUMEROFACTURA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NUMEROFACTURA') ,
+ NUMEROVIAJE VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NUMEROVIAJE') ,
+ TIPOPAGO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TIPOPAGO') ,
+ ESTIMADOENTREGA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ESTIMADOENTREGA') ,
+ FACTURACION_EXITOSA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.FACTURACION_EXITOSA') ,
+ TIPODEREBAJA VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TIPODEREBAJA') ,
+ FORMA_PAGO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.FORMA_PAGO') ,
+ APLICACREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.APLICACREDITOFISCAL') ,
+ NITCREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NITCREDITOFISCAL') ,
+ RAZONSOCIALCREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.RAZONSOCIALCREDITOFISCAL') ,
+ TIPOCOMPROBANTECREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.TIPOCOMPROBANTECREDITOFISCAL') ,
+ GIROCREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.GIROCREDITOFISCAL') ,
+ NUMEROREGISTROCREDITOFISCAL VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.NUMEROREGISTROCREDITOFISCAL') ,
+ IDESTADOPEDIDOSUPERREPUESTOS VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.IDESTADOPEDIDOSUPERREPUESTOS') ,
+ ESTADOPEDIDOSUPERREPUESTOS VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ESTADOPEDIDOSUPERREPUESTOS') ,
+ ULTIMAFECHACAMBIOESTADO VARCHAR(200)  SET( "ui_mapping_text" = 'PEDIDOPIVOT.ULTIMAFECHACAMBIOESTADO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'SYSDATE()')  )
+ AS
+SELECT PEDIDOPIVOT.ID, PEDIDOPIVOT.CODIGOCORTO, PEDIDOPIVOT.FECHAPAGO, PEDIDOPIVOT.FECHAINGRESO, PEDIDOPIVOT.IDMONEDA, PEDIDOPIVOT.IDCUENTA, PEDIDOPIVOT.IDTIENDA, PEDIDOPIVOT.IDCLIENTECREO, PEDIDOPIVOT.TOTALPAGAR, PEDIDOPIVOT.TOTALPRECIONORMAL, PEDIDOPIVOT.TOTALDESCUENTOPRODUCTOS, PEDIDOPIVOT.TOTALDESCUENTOAPIS, PEDIDOPIVOT.CANTIDADSKU, PEDIDOPIVOT.CANTIDADPRODUCTOS, PEDIDOPIVOT.IDTIPOENTREGA, PEDIDOPIVOT.ALIASBENEFICIARIO, PEDIDOPIVOT.NOMBREBENEFICIARIO, PEDIDOPIVOT.APELLIDOBENEFICIARIO, PEDIDOPIVOT.NUMERODOCUMENTOBENEFICIARIO, PEDIDOPIVOT.TIPODOCUMENTOBENEFICIARIO, PEDIDOPIVOT.IDSUCURSALPREFERENCIA, PEDIDOPIVOT.DIRECCIONBENEFICIARIO, PEDIDOPIVOT.ZONABENEFICIARIO, PEDIDOPIVOT.IDZONA, PEDIDOPIVOT.LATITUDBENEFICIARIO, PEDIDOPIVOT.LONGITUDBENEFICIARIO, PEDIDOPIVOT.EMAILBENEFICIARIO, PEDIDOPIVOT.TELEFONOSBENEFICIARIO, PEDIDOPIVOT.NUMEROFACTURA, PEDIDOPIVOT.NUMEROVIAJE, PEDIDOPIVOT.TIPOPAGO, PEDIDOPIVOT.ESTIMADOENTREGA, PEDIDOPIVOT.FACTURACION_EXITOSA, PEDIDOPIVOT.TIPODEREBAJA, PEDIDOPIVOT.FORMA_PAGO, PEDIDOPIVOT.APLICACREDITOFISCAL, PEDIDOPIVOT.NITCREDITOFISCAL, PEDIDOPIVOT.RAZONSOCIALCREDITOFISCAL, PEDIDOPIVOT.TIPOCOMPROBANTECREDITOFISCAL, PEDIDOPIVOT.GIROCREDITOFISCAL, PEDIDOPIVOT.NUMEROREGISTROCREDITOFISCAL, PEDIDOPIVOT.IDESTADOPEDIDOSUPERREPUESTOS, PEDIDOPIVOT.ESTADOPEDIDOSUPERREPUESTOS, PEDIDOPIVOT.ULTIMAFECHACAMBIOESTADO, SYSDATE() FROM PEDIDOPIVOT 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '1325', "y" = '-1047')
+GUID::'10613f80-9959-4ba4-8f6c-a2a063290a0f' LOAD TABLE DS_SQL_SERVER_STG_ECOMMERCE.DBO.PEDIDOPIVOT INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STG_ECOMMERCE', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Feb 15 09:47:48 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN LOAD_TRANS::'6d4743e9-4030-4663-9a0b-9fa180a6346b'( )
+BEGIN
+PARALLEL
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '0', "y" = '0')
+CALL DATAFLOW DF_CRG_STG_ECOM_DETALLEPEDIDOPIVOT::'ecba0960-cf92-4e3f-90eb-2ea9f56ff97e'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>591</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '10', "y" = '-294')
+CALL DATAFLOW DF_CRG_STG_ECOM_PEDIDOPIVOT::'0a4a11e5-d03f-4ac9-ad2f-331c44dfa96a'();
+END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
