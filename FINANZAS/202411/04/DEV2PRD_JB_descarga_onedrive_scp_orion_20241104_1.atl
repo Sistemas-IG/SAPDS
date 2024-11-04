@@ -1,0 +1,36 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Nov  4 15:04:18 2024', "ActaValue_3" = 'Mon Nov  4 15:16:28 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_Descarga_OneDrive_Subida_SCP::'71baf017-a18a-4552-bdda-2dff56fcab0a'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>385</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Sc_Ini_Desc_OneDrive', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'############################################# Inicio De Descarga OneDrive  ###############################################\');
+print(\'##########################################################################################################################\');', "x" = '475', "y" = '-452')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('############################################# Inicio De Descarga OneDrive  ###############################################');print('##########################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Sc_Desc_OneDrive', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Scripts\\python.exe\',\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Finanzas_Precios\\Descarga_Lista_Precios_SR_a_Orion.py\',0);
+
+', "x" = '977', "y" = '-452')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Scripts\\python.exe', 'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Finanzas_Precios\\Descarga_Lista_Precios_SR_a_Orion.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Sc_Fin_Desc_OneDrive', "ui_script_text" = 'print(\'#########################################################################################################################################\');
+print(\'############################################# Finalizada Descarga de OneDrive ###########################################################\');
+print(\'#########################################################################################################################################\');
+print(\'#########################################################################################################################################\');
+print(\'############################################# Inicio de subida SCP            ###########################################################\');
+print(\'#########################################################################################################################################\');', "x" = '1378', "y" = '-450')
+BEGIN_SCRIPT
+print('#########################################################################################################################################');print('############################################# Finalizada Descarga de OneDrive ###########################################################');print('#########################################################################################################################################');print('#########################################################################################################################################');print('############################################# Inicio de subida SCP            ###########################################################');print('#########################################################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>297</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Sc_Subida_SCP', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Scripts\\python.exe\',\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Finanzas_Precios\\EnvioSCP.py\',0);
+
+', "x" = '1824', "y" = '-451')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Scripts\\python.exe', 'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\Finanzas_Precios\\EnvioSCP.py', 0);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>357</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Sc_Fin_Subida_Scp', "ui_script_text" = 'print(\'##########################################################################################################################\');
+print(\'################################################### FIN SUBIDA SCP  ######################################################\');
+print(\'##########################################################################################################################\');', "x" = '2171', "y" = '-450')
+BEGIN_SCRIPT
+print('##########################################################################################################################');print('################################################### FIN SUBIDA SCP  ######################################################');print('##########################################################################################################################');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
