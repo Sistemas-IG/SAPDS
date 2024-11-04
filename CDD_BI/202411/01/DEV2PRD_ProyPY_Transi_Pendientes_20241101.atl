@@ -1,0 +1,198 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 26 11:03:49 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_CDD_BI::'5de09bd1-a168-4f49-b162-dfe39041c404' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8D12CBED677E39BDC529A84894321FBDBF943FE91ED0975D29656CD3FE417350D88C033C2F06F5D29A4570E6B0E</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8ABBE2D6AE25E219DB3FAE193D1D789BEE3C6E80CFBB93110CCE7F65E6EAAA6414E22FACDF73364978AA52BA1E8</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8F5E905A0177FD1C782A92AE553EE928480379B57CF26D1FC7AA052C8B3ADE376D90FCB2257EAFC597CE97F5F09DA3553EDBFC9A4FE83</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>CDD_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_CDD_BI', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 18 12:18:34 2022', "ActaValue_3" = 'Tue Oct 18 12:19:00 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWHFRAMEWORK::'f026d4c5-6f4d-4f63-9bed-a68db3c7d05c' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E821DA7844EC5171F2336566FCB24004398CB2B277FF980DA4FDC179C430AAAAC0621B985BB6D05951CFDBF742C5</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8AA9590FF588C5387B308CD15CED77B9265D94D5A2DD931EB747691DA031CD73EADE8A271C8756EB6681B21FC9C</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8FA1D80A05A7BC3C36C7C6232245E8D5C1DFF873DD50D3F2932772578AC757EBEC565D10940FA6E0CCEBDF6409F00915F1128A9CE4C00</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_FRAMEWORK</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWHFRAMEWORK', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Jul 23 10:37:46 2024', "ActaValue_3" = 'Tue Oct 29 12:08:42 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION ProyPY_Transi_Pendientes::'b9243eb6-bedd-4a89-abaf-ea049b294f5a'( )
+DECLARE
+     $LV_Actualizar INT ;
+     $LV_Actualizar_ INT ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>344</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio_Transi_Pendientes', "ui_script_text" = 'print(\'*********************************--> INICIO DE TRANCITOS PENDIENTES <--*************************************\');
+print(\'*****************************--> INICIO DE VALIDACION DE LA VARIABLE <--******************************\');
+print(\'#############################################################################################################\');', "x" = '750', "y" = '-1150')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE TRANCITOS PENDIENTES <--*************************************');print('*****************************--> INICIO DE VALIDACION DE LA VARIABLE <--******************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>385</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_VALIDACION_Act', "ui_script_text" = '$LV_Actualizar = sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'SELECT VALUE_DET_PARAM FROM FWK.ETL_DET_PARAM WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');
+PRINT(\'Actualizar = \'|| $LV_Actualizar);', "x" = '1272', "y" = '-1150')
+BEGIN_SCRIPT
+$LV_Actualizar = sql('DS_SQL_SERVER_DWHFRAMEWORK', 'SELECT VALUE_DET_PARAM FROM FWK.ETL_DET_PARAM WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');print(('Actualizar = ' || $LV_Actualizar));END
+ AlGUIComment ("If_condition" = '$LV_Actualizar = 0', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>319</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Validacion_Carga', "x" = '1672', "y" = '-1150')
+IF (($LV_Actualizar = 0) )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>385</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_UPDATE_INICIA CARGA', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 1 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');', "x" = '444', "y" = '-393')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 1 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>407</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_CARGA_PEND', "ui_script_text" = 'print(\'*********************************--> INICIO DE TRANSITO_HIST_ESTADOS<--*************************************\');
+print(\'#############################################################################################################\');', "x" = '838', "y" = '-391')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE TRANSITO_HIST_ESTADOS<--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>353</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1233', "y" = '-392')
+CALL PLAN sp_tra_Hist_Pendientes_Trancito::'7477fe0f-d1c6-4533-946c-03181f985d39'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_ENVIO_CORREOS', "ui_script_text" = 'print(\'*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************\');
+print(\'#############################################################################################################\');', "x" = '1650', "y" = '-393')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>400</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2112', "y" = '-393')
+CALL PLAN WF_PY_Transi_Pendientes::'3d8a7679-5464-4d36-a9bd-2ca7a40ed731'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_UPDATE_FINAL', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 0 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');', "x" = '2497', "y" = '-687')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 0 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FINAL_ETL', "ui_script_text" = 'print(\'############################################################################################\');
+print(\'************************************--> FIN DE ETL <--**************************************\');', "x" = '2857', "y" = '-685')
+BEGIN_SCRIPT
+print('############################################################################################');print('************************************--> FIN DE ETL <--**************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_REDAST', "ui_script_text" = 'print(\'*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************\');
+print(\'*********************************--> Reporte de Transitos pendientes de Recibir_HIST <--*************************************\');
+print(\'#############################################################################################################\');', "x" = '3162', "y" = '-928')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************');print('*********************************--> Reporte de Transitos pendientes de Recibir_HIST <--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '3575', "y" = '-925')
+CALL PLAN WF_PY_RefreshDataSet::'d9d0b496-42e4-4444-bf3c-1654bc94aa1a'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>310</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FIN_REDAST', "ui_script_text" = 'print(\'##################################################################################################################\');
+print(\'************************************--> FIN DE REFRESCAMIENTO DATA SET  <--**************************************\');
+', "x" = '3986', "y" = '-928')
+BEGIN_SCRIPT
+print('##################################################################################################################');print('************************************--> FIN DE REFRESCAMIENTO DATA SET  <--**************************************');END
+END
+ELSE
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>228</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_PARAR', "ui_script_text" = 'print(\'**********************************--> CARGA ABORTADA <--*************************************\');
+print(\'******************--> ETL CDD_BI EJECUTANDOSE EN ESTE MOMENTO || DELAY 5MIN <--*****************\');
+', "x" = '210', "y" = '-141')
+BEGIN_SCRIPT
+print('**********************************--> CARGA ABORTADA <--*************************************');print('******************--> ETL CDD_BI EJECUTANDOSE EN ESTE MOMENTO || DELAY 5MIN <--*****************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>225</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_DELAY', "ui_script_text" = 'exec(\'cmd.exe\', \'C:\\\\ProyectosPython\\\\DEV\\\\ProjectsPython\\\\.venv\\\\CDD_BI_ProyPY_Transi_Pendientes\\\\Delay_Time5Min.bat\', 1);', "x" = '640', "y" = '-141')
+BEGIN_SCRIPT
+exec('cmd.exe', 'C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\CDD_BI_ProyPY_Transi_Pendientes\\Delay_Time5Min.bat', 1);END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>353</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_VARIABLE_001', "ui_script_text" = '$LV_Actualizar_ = sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'SELECT VALUE_DET_PARAM FROM FWK.ETL_DET_PARAM WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');
+PRINT(\'Actualizar = \'|| $LV_Actualizar_);', "x" = '1091', "y" = '-142')
+BEGIN_SCRIPT
+$LV_Actualizar_ = sql('DS_SQL_SERVER_DWHFRAMEWORK', 'SELECT VALUE_DET_PARAM FROM FWK.ETL_DET_PARAM WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');print(('Actualizar = ' || $LV_Actualizar_));END
+ AlGUIComment ("If_condition" = '$LV_Actualizar_ = 0', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Validacion_Carga_01', "x" = '1623', "y" = '-141')
+IF (($LV_Actualizar_ = 0) )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>385</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_UPDATE_INICIA CARGA', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 1 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');', "x" = '471', "y" = '-296')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 1 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>407</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_CARGA_PEND', "ui_script_text" = 'print(\'*********************************--> INICIO DE TRANSITO_HIST_ESTADOS<--*************************************\');
+print(\'#############################################################################################################\');', "x" = '865', "y" = '-294')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE TRANSITO_HIST_ESTADOS<--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>353</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1260', "y" = '-295')
+CALL PLAN sp_tra_Hist_Pendientes_Trancito::'7477fe0f-d1c6-4533-946c-03181f985d39'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_ENVIO_CORREOS', "ui_script_text" = 'print(\'*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************\');
+print(\'#############################################################################################################\');', "x" = '1677', "y" = '-296')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>400</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2139', "y" = '-296')
+CALL PLAN WF_PY_Transi_Pendientes::'3d8a7679-5464-4d36-a9bd-2ca7a40ed731'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_UPDATE_FINAL', "ui_script_text" = 'sql(\'DS_SQL_SERVER_DWHFRAMEWORK\', \'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 0 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18\');', "x" = '2524', "y" = '-590')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWHFRAMEWORK', 'UPDATE FWK.ETL_DET_PARAM SET VALUE_DET_PARAM = 0 WHERE CODE_PARAM = 2 AND CODE_DET_PARAM = 18');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>282</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FINAL_ETL', "ui_script_text" = 'print(\'############################################################################################\');
+print(\'************************************--> FIN DE ETL <--**************************************\');', "x" = '2884', "y" = '-588')
+BEGIN_SCRIPT
+print('############################################################################################');print('************************************--> FIN DE ETL <--**************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>350</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_REDAST', "ui_script_text" = 'print(\'*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************\');
+print(\'*********************************--> Reporte de Transitos pendientes de Recibir_HIST <--*************************************\');
+print(\'#############################################################################################################\');', "x" = '3189', "y" = '-831')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************');print('*********************************--> Reporte de Transitos pendientes de Recibir_HIST <--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '3602', "y" = '-828')
+CALL PLAN WF_PY_RefreshDataSet::'d9d0b496-42e4-4444-bf3c-1654bc94aa1a'();
+END
+ELSE
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>228</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_PARAR', "ui_script_text" = 'print(\'**********************************--> CARGA FINALIZADA <--*************************************\');
+print(\'******************--> ETL EJECUTANDOSE EN ESTE MOMENTO INTENTE MAS TARDE <--*****************\');
+print(\'**********************************--> CARGA ABORTADA <--*************************************\');', "x" = '944', "y" = '-266')
+BEGIN_SCRIPT
+print('**********************************--> CARGA FINALIZADA <--*************************************');print('******************--> ETL EJECUTANDOSE EN ESTE MOMENTO INTENTE MAS TARDE <--*****************');print('**********************************--> CARGA ABORTADA <--*************************************');END
+END
+END
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'b9243eb6-bedd-4a89-abaf-ea049b294f5a', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'ProyPY_Transi_Pendientes', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct 29 11:47:18 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_PY_RefreshDataSet::'d9d0b496-42e4-4444-bf3c-1654bc94aa1a'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>513</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script_Python_RefreshDataSet', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\CDD_BI_ProyPY_Transi_Pendientes\\run_script_REDAST.bat\', 0);', "x" = '2144', "y" = '-622')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\CDD_BI_ProyPY_Transi_Pendientes\\run_script_REDAST.bat', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct  8 16:56:23 2024', "ActaValue_3" = 'Wed Oct  9 12:19:35 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_PY_Transi_Pendientes::'3d8a7679-5464-4d36-a9bd-2ca7a40ed731'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script_Python_Envio_Reportes_Transito', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\CDD_BI_ProyPY_Transi_Pendientes\\run_script.bat\', 0);
+', "x" = '1760', "y" = '-1381')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\CDD_BI_ProyPY_Transi_Pendientes\\run_script.bat', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Oct  8 14:53:17 2024', "ActaValue_3" = 'Thu Oct 24 18:52:33 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN sp_tra_Hist_Pendientes_Trancito::'7477fe0f-d1c6-4533-946c-03181f985d39'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Exec_sp_tra_Hist_Pendientes_Trancito', "ui_script_text" = 'sql(\'DS_SQL_SERVER_CDD_BI\',\'EXEC DWH.sp_TRANSITO_HIST_ESTADOS\');
+', "x" = '2584', "y" = '-1009')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_CDD_BI', 'EXEC DWH.sp_TRANSITO_HIST_ESTADOS');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
