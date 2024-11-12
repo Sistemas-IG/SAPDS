@@ -1,0 +1,993 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E82EA5880B53D5F019CAAB16037BCB0999E2503118B3797E9E4B2DE2075EA32F99884F25D62EFA37C9A1CA0F59466150</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8DBD6D6AA2FBF5B946A5D5E6D71193C011D71FE91E2EE14CC269E9538B1A5670C4AAC995A1E94F7493A5837CB7D</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8C32DE9F5E6BD55114DC4211F3E29B77E6F29B5E70CF22A91EC970F2F2D3F5D596974F636802AF9253B6D17A9D2</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E81636DC00FEBFD81CB476E5DA9EE59F5E579F48B1003FE723B59F9FC3BE7734DE0AE9043B6D05FC5AAB273141184205BBAD1BDF771BC2</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Fri Oct 25 14:27:39 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Thu Nov  7 15:12:43 2024' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '312967' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '312967' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '1 Minutes and 0 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNMDAAMMLF(PAISMD VARCHAR(3)  NOT NULL , 
+CIASMD VARCHAR(3)  NOT NULL , 
+NUPAMD VARCHAR(8)  NOT NULL , 
+CORPMD DECIMAL(5, 0)  NOT NULL , 
+FEPAMD VARCHAR(8)  NOT NULL , 
+CUENMD VARCHAR(12)  NOT NULL , 
+TICAMD VARCHAR(1)  NOT NULL , 
+TICCMD VARCHAR(1)  NOT NULL , 
+MDAOMD DECIMAL(2, 0)  NOT NULL , 
+CONCMD VARCHAR(60)  NOT NULL , 
+COARMD VARCHAR(1)  NOT NULL , 
+MOMPMD DECIMAL(13, 2)  NOT NULL , 
+MOMDMD DECIMAL(13, 2)  NOT NULL , 
+TASCMD DECIMAL(9, 4)  NOT NULL , 
+CECOMD VARCHAR(8)  NOT NULL , 
+DEDUMD VARCHAR(1)  NOT NULL , 
+TIPDMD VARCHAR(1)  NOT NULL , 
+DEPAMD VARCHAR(2)  NOT NULL , 
+MUNIMD DECIMAL(4, 0)  NOT NULL , 
+CORRMD DECIMAL(3, 0)  NOT NULL , 
+TIPAMD VARCHAR(3)  NOT NULL , 
+BYPAMD VARCHAR(8)  NOT NULL , 
+BUSAMD VARCHAR(10)  NOT NULL , 
+TCLAMD VARCHAR(1)  NOT NULL , 
+CCLAMD VARCHAR(4)  NOT NULL , 
+NPEAMD VARCHAR(8)  NOT NULL , 
+TGAAMD VARCHAR(1)  NOT NULL , 
+OBSAMD VARCHAR(30)  NOT NULL , 
+NITAMD VARCHAR(14)  NOT NULL , 
+AYNAMD VARCHAR(40)  NOT NULL , 
+AP1AMD VARCHAR(20)  NOT NULL , 
+AP2AMD VARCHAR(20)  NOT NULL , 
+NOMAMD VARCHAR(25)  NOT NULL , 
+TNIAMD VARCHAR(1)  NOT NULL , 
+REFAMD VARCHAR(30)  NOT NULL , 
+VLRAMD DECIMAL(9, 2)  NOT NULL , 
+PORAMD DECIMAL(5, 2)  NOT NULL , 
+RTAAMD DECIMAL(9, 2)  NOT NULL , 
+CEMAMD VARCHAR(4)  NOT NULL , 
+NCHEMD DECIMAL(6, 0)  NOT NULL , 
+FU01MD VARCHAR(1)  NOT NULL , 
+FU02MD VARCHAR(1)  NOT NULL , 
+FU03MD VARCHAR(1)  NOT NULL , 
+FU04MD VARCHAR(1)  NOT NULL , 
+FU05MD VARCHAR(1)  NOT NULL , 
+FECRMD DECIMAL(8, 0)  NOT NULL , 
+HOCRMD DECIMAL(6, 0)  NOT NULL , 
+USCRMD VARCHAR(10)  NOT NULL , 
+DICRMD VARCHAR(10)  NOT NULL , 
+RECRMD VARCHAR(10)  NOT NULL , 
+FEMOMD DECIMAL(8, 0)  NOT NULL , 
+HOMOMD DECIMAL(6, 0)  NOT NULL , 
+USMOMD VARCHAR(10)  NOT NULL , 
+DIMOMD VARCHAR(10)  NOT NULL , 
+REMOMD VARCHAR(10)  NOT NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Oct 25 12:45:03 2024', "ActaValue_3" = 'Thu Nov  7 14:59:01 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CNMDAAMMLF::'3fb16b46-3b94-434f-8f46-8827000e81f9'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "x" = '1913', "y" = '-954')
+GUID::'e78ff479-3d32-4622-ad71-914a46bd00d5' CALL TRANSFORM Merge() INPUT(Hn_QRY_MesActual, Hn_QRY_MesAnterior, Hn_QRY_MesSAnterior, SV_QRY_MesActual, SV_QRY_MesAnterior, SV_QRY_MesSAnterior) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'CNMDAAMMLF(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2583', "y" = '-954')
+GUID::'6f574484-258b-4f4d-89ec-cea78f6c90c4' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNMDAAMMLF INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>234</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'SV_MesActual', "x" = '595', "y" = '-395')
+GUID::'9ee0faf8-51d6-4781-b6c7-3131c7da5cc0' CALL TRANSFORM SQL() OUTPUT(SV_MesActual( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(11, 2) ,
+ MOMDMD DECIMAL(11, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$SVtbl_MesActual]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>369</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'SV_MesActual', "ui_display_name" = 'SV_QRY_MesActual', "x" = '1258', "y" = '-395')
+GUID::'08fd3ad4-9008-41fe-83cc-9e9f2a56b067' CREATE VIEW SV_QRY_MesActual( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesActual.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesActual.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesActual.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SV_MesActual.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesActual.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'SV_MesActual.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SV_MesActual.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'SV_MesActual.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.COARMD') ,
+ MOMPMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesActual.MOMPMD') ,
+ MOMDMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesActual.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'SV_MesActual.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesActual.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'SV_MesActual.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'SV_MesActual.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SV_MesActual.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesActual.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesActual.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesActual.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesActual.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesActual.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'SV_MesActual.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'SV_MesActual.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesActual.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesActual.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'SV_MesActual.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesActual.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesActual.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'SV_MesActual.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesActual.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesActual.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesActual.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesActual.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesActual.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesActual.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesActual.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesActual.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesActual.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT SV_MesActual.PAISMD, SV_MesActual.CIASMD, SV_MesActual.NUPAMD, SV_MesActual.CORPMD, SV_MesActual.FEPAMD, SV_MesActual.CUENMD, SV_MesActual.TICAMD, SV_MesActual.TICCMD, SV_MesActual.MDAOMD, SV_MesActual.CONCMD, SV_MesActual.COARMD, SV_MesActual.MOMPMD, SV_MesActual.MOMDMD, SV_MesActual.TASCMD, SV_MesActual.CECOMD, SV_MesActual.DEDUMD, SV_MesActual.TIPDMD, SV_MesActual.DEPAMD, SV_MesActual.MUNIMD, SV_MesActual.CORRMD, SV_MesActual.TIPAMD, SV_MesActual.BYPAMD, SV_MesActual.BUSAMD, SV_MesActual.TCLAMD, SV_MesActual.CCLAMD, SV_MesActual.NPEAMD, SV_MesActual.TGAAMD, SV_MesActual.OBSAMD, SV_MesActual.NITAMD, SV_MesActual.AYNAMD, SV_MesActual.AP1AMD, SV_MesActual.AP2AMD, SV_MesActual.NOMAMD, SV_MesActual.TNIAMD, SV_MesActual.REFAMD, SV_MesActual.VLRAMD, SV_MesActual.PORAMD, SV_MesActual.RTAAMD, SV_MesActual.CEMAMD, SV_MesActual.NCHEMD, SV_MesActual.FU01MD, SV_MesActual.FU02MD, SV_MesActual.FU03MD, SV_MesActual.FU04MD, SV_MesActual.FU05MD, SV_MesActual.FECRMD, SV_MesActual.HOCRMD, SV_MesActual.USCRMD, SV_MesActual.DICRMD, SV_MesActual.RECRMD, SV_MesActual.FEMOMD, SV_MesActual.HOMOMD, SV_MesActual.USMOMD, SV_MesActual.DIMOMD, SV_MesActual.REMOMD, 1, sysdate() FROM SV_MesActual 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>231</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'HN_MesActual', "x" = '611', "y" = '-1287')
+GUID::'cce5a91c-c4b1-44b4-b644-250261b3126d' CALL TRANSFORM SQL() OUTPUT(HN_MesActual( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(13, 2) ,
+ MOMDMD DECIMAL(13, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$HNtbl_MesActual]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'HN_MesActual', "ui_display_name" = 'Hn_QRY_MesActual', "x" = '1255', "y" = '-1288')
+GUID::'325e4ff3-ae81-4ac8-a28d-9ee77e5c21b4' CREATE VIEW Hn_QRY_MesActual( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesActual.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesActual.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesActual.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'HN_MesActual.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesActual.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'HN_MesActual.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'HN_MesActual.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'HN_MesActual.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.COARMD') ,
+ MOMPMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesActual.MOMPMD') ,
+ MOMDMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesActual.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'HN_MesActual.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesActual.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'HN_MesActual.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'HN_MesActual.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'HN_MesActual.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesActual.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesActual.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesActual.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesActual.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesActual.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'HN_MesActual.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'HN_MesActual.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesActual.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesActual.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'HN_MesActual.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesActual.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesActual.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'HN_MesActual.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesActual.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesActual.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesActual.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesActual.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesActual.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesActual.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesActual.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesActual.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesActual.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT HN_MesActual.PAISMD, HN_MesActual.CIASMD, HN_MesActual.NUPAMD, HN_MesActual.CORPMD, HN_MesActual.FEPAMD, HN_MesActual.CUENMD, HN_MesActual.TICAMD, HN_MesActual.TICCMD, HN_MesActual.MDAOMD, HN_MesActual.CONCMD, HN_MesActual.COARMD, HN_MesActual.MOMPMD, HN_MesActual.MOMDMD, HN_MesActual.TASCMD, HN_MesActual.CECOMD, HN_MesActual.DEDUMD, HN_MesActual.TIPDMD, HN_MesActual.DEPAMD, HN_MesActual.MUNIMD, HN_MesActual.CORRMD, HN_MesActual.TIPAMD, HN_MesActual.BYPAMD, HN_MesActual.BUSAMD, HN_MesActual.TCLAMD, HN_MesActual.CCLAMD, HN_MesActual.NPEAMD, HN_MesActual.TGAAMD, HN_MesActual.OBSAMD, HN_MesActual.NITAMD, HN_MesActual.AYNAMD, HN_MesActual.AP1AMD, HN_MesActual.AP2AMD, HN_MesActual.NOMAMD, HN_MesActual.TNIAMD, HN_MesActual.REFAMD, HN_MesActual.VLRAMD, HN_MesActual.PORAMD, HN_MesActual.RTAAMD, HN_MesActual.CEMAMD, HN_MesActual.NCHEMD, HN_MesActual.FU01MD, HN_MesActual.FU02MD, HN_MesActual.FU03MD, HN_MesActual.FU04MD, HN_MesActual.FU05MD, HN_MesActual.FECRMD, HN_MesActual.HOCRMD, HN_MesActual.USCRMD, HN_MesActual.DICRMD, HN_MesActual.RECRMD, HN_MesActual.FEMOMD, HN_MesActual.HOMOMD, HN_MesActual.USMOMD, HN_MesActual.DIMOMD, HN_MesActual.REMOMD, 2, sysdate() FROM HN_MesActual 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>259</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'SV_MesAnterior', "x" = '582', "y" = '-647')
+GUID::'1eb8aa7c-65d1-45e8-9544-9f9d278cd493' CALL TRANSFORM SQL() OUTPUT(SV_MesAnterior( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(11, 2) ,
+ MOMDMD DECIMAL(11, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$SVtbl_MesAnterior]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>281</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'SV_MesSAnterior', "x" = '591', "y" = '-910')
+GUID::'dc3254b7-6c2b-4cd0-81bb-44807212faf1' CALL TRANSFORM SQL() OUTPUT(SV_MesSAnterior( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(11, 2) ,
+ MOMDMD DECIMAL(11, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$SVtbl_MesSAnterior]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'SV_MesAnterior', "ui_display_name" = 'SV_QRY_MesAnterior', "x" = '1146', "y" = '-646')
+GUID::'8a81d913-0e32-4b3f-a3cd-4c8bd7651898' CREATE VIEW SV_QRY_MesAnterior( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesAnterior.PAISMD', "ui_pasting" = 'SV_MesActual.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesAnterior.CIASMD', "ui_pasting" = 'SV_MesActual.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesAnterior.NUPAMD', "ui_pasting" = 'SV_MesActual.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.CORPMD', "ui_pasting" = 'SV_MesActual.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesAnterior.FEPAMD', "ui_pasting" = 'SV_MesActual.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'SV_MesAnterior.CUENMD', "ui_pasting" = 'SV_MesActual.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TICAMD', "ui_pasting" = 'SV_MesActual.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TICCMD', "ui_pasting" = 'SV_MesActual.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.MDAOMD', "ui_pasting" = 'SV_MesActual.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'SV_MesAnterior.CONCMD', "ui_pasting" = 'SV_MesActual.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.COARMD', "ui_pasting" = 'SV_MesActual.COARMD') ,
+ MOMPMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesAnterior.MOMPMD', "ui_pasting" = 'SV_MesActual.MOMPMD') ,
+ MOMDMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesAnterior.MOMDMD', "ui_pasting" = 'SV_MesActual.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'SV_MesAnterior.TASCMD', "ui_pasting" = 'SV_MesActual.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesAnterior.CECOMD', "ui_pasting" = 'SV_MesActual.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.DEDUMD', "ui_pasting" = 'SV_MesActual.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TIPDMD', "ui_pasting" = 'SV_MesActual.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'SV_MesAnterior.DEPAMD', "ui_pasting" = 'SV_MesActual.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.MUNIMD', "ui_pasting" = 'SV_MesActual.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.CORRMD', "ui_pasting" = 'SV_MesActual.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesAnterior.TIPAMD', "ui_pasting" = 'SV_MesActual.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesAnterior.BYPAMD', "ui_pasting" = 'SV_MesActual.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.BUSAMD', "ui_pasting" = 'SV_MesActual.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TCLAMD', "ui_pasting" = 'SV_MesActual.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesAnterior.CCLAMD', "ui_pasting" = 'SV_MesActual.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesAnterior.NPEAMD', "ui_pasting" = 'SV_MesActual.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TGAAMD', "ui_pasting" = 'SV_MesActual.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesAnterior.OBSAMD', "ui_pasting" = 'SV_MesActual.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'SV_MesAnterior.NITAMD', "ui_pasting" = 'SV_MesActual.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'SV_MesAnterior.AYNAMD', "ui_pasting" = 'SV_MesActual.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesAnterior.AP1AMD', "ui_pasting" = 'SV_MesActual.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesAnterior.AP2AMD', "ui_pasting" = 'SV_MesActual.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'SV_MesAnterior.NOMAMD', "ui_pasting" = 'SV_MesActual.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.TNIAMD', "ui_pasting" = 'SV_MesActual.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesAnterior.REFAMD', "ui_pasting" = 'SV_MesActual.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesAnterior.VLRAMD', "ui_pasting" = 'SV_MesActual.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'SV_MesAnterior.PORAMD', "ui_pasting" = 'SV_MesActual.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesAnterior.RTAAMD', "ui_pasting" = 'SV_MesActual.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesAnterior.CEMAMD', "ui_pasting" = 'SV_MesActual.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.NCHEMD', "ui_pasting" = 'SV_MesActual.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.FU01MD', "ui_pasting" = 'SV_MesActual.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.FU02MD', "ui_pasting" = 'SV_MesActual.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.FU03MD', "ui_pasting" = 'SV_MesActual.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.FU04MD', "ui_pasting" = 'SV_MesActual.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesAnterior.FU05MD', "ui_pasting" = 'SV_MesActual.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.FECRMD', "ui_pasting" = 'SV_MesActual.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.HOCRMD', "ui_pasting" = 'SV_MesActual.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.USCRMD', "ui_pasting" = 'SV_MesActual.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.DICRMD', "ui_pasting" = 'SV_MesActual.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.RECRMD', "ui_pasting" = 'SV_MesActual.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.FEMOMD', "ui_pasting" = 'SV_MesActual.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesAnterior.HOMOMD', "ui_pasting" = 'SV_MesActual.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.USMOMD', "ui_pasting" = 'SV_MesActual.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.DIMOMD', "ui_pasting" = 'SV_MesActual.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesAnterior.REMOMD', "ui_pasting" = 'SV_MesActual.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1', "ui_pasting" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()', "ui_pasting" = 'sysdate()')  )
+ AS
+SELECT SV_MesAnterior.PAISMD, SV_MesAnterior.CIASMD, SV_MesAnterior.NUPAMD, SV_MesAnterior.CORPMD, SV_MesAnterior.FEPAMD, SV_MesAnterior.CUENMD, SV_MesAnterior.TICAMD, SV_MesAnterior.TICCMD, SV_MesAnterior.MDAOMD, SV_MesAnterior.CONCMD, SV_MesAnterior.COARMD, SV_MesAnterior.MOMPMD, SV_MesAnterior.MOMDMD, SV_MesAnterior.TASCMD, SV_MesAnterior.CECOMD, SV_MesAnterior.DEDUMD, SV_MesAnterior.TIPDMD, SV_MesAnterior.DEPAMD, SV_MesAnterior.MUNIMD, SV_MesAnterior.CORRMD, SV_MesAnterior.TIPAMD, SV_MesAnterior.BYPAMD, SV_MesAnterior.BUSAMD, SV_MesAnterior.TCLAMD, SV_MesAnterior.CCLAMD, SV_MesAnterior.NPEAMD, SV_MesAnterior.TGAAMD, SV_MesAnterior.OBSAMD, SV_MesAnterior.NITAMD, SV_MesAnterior.AYNAMD, SV_MesAnterior.AP1AMD, SV_MesAnterior.AP2AMD, SV_MesAnterior.NOMAMD, SV_MesAnterior.TNIAMD, SV_MesAnterior.REFAMD, SV_MesAnterior.VLRAMD, SV_MesAnterior.PORAMD, SV_MesAnterior.RTAAMD, SV_MesAnterior.CEMAMD, SV_MesAnterior.NCHEMD, SV_MesAnterior.FU01MD, SV_MesAnterior.FU02MD, SV_MesAnterior.FU03MD, SV_MesAnterior.FU04MD, SV_MesAnterior.FU05MD, SV_MesAnterior.FECRMD, SV_MesAnterior.HOCRMD, SV_MesAnterior.USCRMD, SV_MesAnterior.DICRMD, SV_MesAnterior.RECRMD, SV_MesAnterior.FEMOMD, SV_MesAnterior.HOMOMD, SV_MesAnterior.USMOMD, SV_MesAnterior.DIMOMD, SV_MesAnterior.REMOMD, 1, sysdate() FROM SV_MesAnterior 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'SV_MesSAnterior', "ui_display_name" = 'SV_QRY_MesSAnterior', "x" = '1171', "y" = '-884')
+GUID::'e78bd72b-1ef7-434e-b440-488796ee20d7' CREATE VIEW SV_QRY_MesSAnterior( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesSAnterior.PAISMD', "ui_pasting" = 'SV_MesAnterior.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CIASMD', "ui_pasting" = 'SV_MesAnterior.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesSAnterior.NUPAMD', "ui_pasting" = 'SV_MesAnterior.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CORPMD', "ui_pasting" = 'SV_MesAnterior.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FEPAMD', "ui_pasting" = 'SV_MesAnterior.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CUENMD', "ui_pasting" = 'SV_MesAnterior.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TICAMD', "ui_pasting" = 'SV_MesAnterior.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TICCMD', "ui_pasting" = 'SV_MesAnterior.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.MDAOMD', "ui_pasting" = 'SV_MesAnterior.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CONCMD', "ui_pasting" = 'SV_MesAnterior.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.COARMD', "ui_pasting" = 'SV_MesAnterior.COARMD') ,
+ MOMPMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.MOMPMD', "ui_pasting" = 'SV_MesAnterior.MOMPMD') ,
+ MOMDMD DECIMAL(11, 2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.MOMDMD', "ui_pasting" = 'SV_MesAnterior.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TASCMD', "ui_pasting" = 'SV_MesAnterior.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CECOMD', "ui_pasting" = 'SV_MesAnterior.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.DEDUMD', "ui_pasting" = 'SV_MesAnterior.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TIPDMD', "ui_pasting" = 'SV_MesAnterior.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.DEPAMD', "ui_pasting" = 'SV_MesAnterior.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.MUNIMD', "ui_pasting" = 'SV_MesAnterior.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CORRMD', "ui_pasting" = 'SV_MesAnterior.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TIPAMD', "ui_pasting" = 'SV_MesAnterior.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesSAnterior.BYPAMD', "ui_pasting" = 'SV_MesAnterior.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.BUSAMD', "ui_pasting" = 'SV_MesAnterior.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TCLAMD', "ui_pasting" = 'SV_MesAnterior.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CCLAMD', "ui_pasting" = 'SV_MesAnterior.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'SV_MesSAnterior.NPEAMD', "ui_pasting" = 'SV_MesAnterior.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TGAAMD', "ui_pasting" = 'SV_MesAnterior.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesSAnterior.OBSAMD', "ui_pasting" = 'SV_MesAnterior.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'SV_MesSAnterior.NITAMD', "ui_pasting" = 'SV_MesAnterior.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'SV_MesSAnterior.AYNAMD', "ui_pasting" = 'SV_MesAnterior.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesSAnterior.AP1AMD', "ui_pasting" = 'SV_MesAnterior.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'SV_MesSAnterior.AP2AMD', "ui_pasting" = 'SV_MesAnterior.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'SV_MesSAnterior.NOMAMD', "ui_pasting" = 'SV_MesAnterior.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.TNIAMD', "ui_pasting" = 'SV_MesAnterior.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'SV_MesSAnterior.REFAMD', "ui_pasting" = 'SV_MesAnterior.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.VLRAMD', "ui_pasting" = 'SV_MesAnterior.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.PORAMD', "ui_pasting" = 'SV_MesAnterior.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'SV_MesSAnterior.RTAAMD', "ui_pasting" = 'SV_MesAnterior.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'SV_MesSAnterior.CEMAMD', "ui_pasting" = 'SV_MesAnterior.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.NCHEMD', "ui_pasting" = 'SV_MesAnterior.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FU01MD', "ui_pasting" = 'SV_MesAnterior.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FU02MD', "ui_pasting" = 'SV_MesAnterior.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FU03MD', "ui_pasting" = 'SV_MesAnterior.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FU04MD', "ui_pasting" = 'SV_MesAnterior.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FU05MD', "ui_pasting" = 'SV_MesAnterior.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FECRMD', "ui_pasting" = 'SV_MesAnterior.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.HOCRMD', "ui_pasting" = 'SV_MesAnterior.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.USCRMD', "ui_pasting" = 'SV_MesAnterior.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.DICRMD', "ui_pasting" = 'SV_MesAnterior.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.RECRMD', "ui_pasting" = 'SV_MesAnterior.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.FEMOMD', "ui_pasting" = 'SV_MesAnterior.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'SV_MesSAnterior.HOMOMD', "ui_pasting" = 'SV_MesAnterior.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.USMOMD', "ui_pasting" = 'SV_MesAnterior.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.DIMOMD', "ui_pasting" = 'SV_MesAnterior.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'SV_MesSAnterior.REMOMD', "ui_pasting" = 'SV_MesAnterior.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1', "ui_pasting" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()', "ui_pasting" = 'sysdate()')  )
+ AS
+SELECT SV_MesSAnterior.PAISMD, SV_MesSAnterior.CIASMD, SV_MesSAnterior.NUPAMD, SV_MesSAnterior.CORPMD, SV_MesSAnterior.FEPAMD, SV_MesSAnterior.CUENMD, SV_MesSAnterior.TICAMD, SV_MesSAnterior.TICCMD, SV_MesSAnterior.MDAOMD, SV_MesSAnterior.CONCMD, SV_MesSAnterior.COARMD, SV_MesSAnterior.MOMPMD, SV_MesSAnterior.MOMDMD, SV_MesSAnterior.TASCMD, SV_MesSAnterior.CECOMD, SV_MesSAnterior.DEDUMD, SV_MesSAnterior.TIPDMD, SV_MesSAnterior.DEPAMD, SV_MesSAnterior.MUNIMD, SV_MesSAnterior.CORRMD, SV_MesSAnterior.TIPAMD, SV_MesSAnterior.BYPAMD, SV_MesSAnterior.BUSAMD, SV_MesSAnterior.TCLAMD, SV_MesSAnterior.CCLAMD, SV_MesSAnterior.NPEAMD, SV_MesSAnterior.TGAAMD, SV_MesSAnterior.OBSAMD, SV_MesSAnterior.NITAMD, SV_MesSAnterior.AYNAMD, SV_MesSAnterior.AP1AMD, SV_MesSAnterior.AP2AMD, SV_MesSAnterior.NOMAMD, SV_MesSAnterior.TNIAMD, SV_MesSAnterior.REFAMD, SV_MesSAnterior.VLRAMD, SV_MesSAnterior.PORAMD, SV_MesSAnterior.RTAAMD, SV_MesSAnterior.CEMAMD, SV_MesSAnterior.NCHEMD, SV_MesSAnterior.FU01MD, SV_MesSAnterior.FU02MD, SV_MesSAnterior.FU03MD, SV_MesSAnterior.FU04MD, SV_MesSAnterior.FU05MD, SV_MesSAnterior.FECRMD, SV_MesSAnterior.HOCRMD, SV_MesSAnterior.USCRMD, SV_MesSAnterior.DICRMD, SV_MesSAnterior.RECRMD, SV_MesSAnterior.FEMOMD, SV_MesSAnterior.HOMOMD, SV_MesSAnterior.USMOMD, SV_MesSAnterior.DIMOMD, SV_MesSAnterior.REMOMD, 1, sysdate() FROM SV_MesSAnterior 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>256</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'HN_MesAnterior', "x" = '600', "y" = '-1565')
+GUID::'f9da7d08-c3ab-45ba-8a50-85a365c674b0' CALL TRANSFORM SQL() OUTPUT(HN_MesAnterior( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(13, 2) ,
+ MOMDMD DECIMAL(13, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$HNtbl_MesAnterior]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>278</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '62', "ui_display_name" = 'HN_MesSAnterior', "x" = '597', "y" = '-1810')
+GUID::'12f79998-679e-43dd-a5e9-94d2780dae11' CALL TRANSFORM SQL() OUTPUT(HN_MesSAnterior( PAISMD VARCHAR(3) ,
+ CIASMD VARCHAR(3) ,
+ NUPAMD VARCHAR(8) ,
+ CORPMD DECIMAL(5, 0) ,
+ FEPAMD VARCHAR(8) ,
+ CUENMD VARCHAR(12) ,
+ TICAMD VARCHAR(1) ,
+ TICCMD VARCHAR(1) ,
+ MDAOMD DECIMAL(2, 0) ,
+ CONCMD VARCHAR(60) ,
+ COARMD VARCHAR(1) ,
+ MOMPMD DECIMAL(13, 2) ,
+ MOMDMD DECIMAL(13, 2) ,
+ TASCMD DECIMAL(9, 4) ,
+ CECOMD VARCHAR(8) ,
+ DEDUMD VARCHAR(1) ,
+ TIPDMD VARCHAR(1) ,
+ DEPAMD VARCHAR(2) ,
+ MUNIMD DECIMAL(4, 0) ,
+ CORRMD DECIMAL(3, 0) ,
+ TIPAMD VARCHAR(3) ,
+ BYPAMD VARCHAR(8) ,
+ BUSAMD VARCHAR(10) ,
+ TCLAMD VARCHAR(1) ,
+ CCLAMD VARCHAR(4) ,
+ NPEAMD VARCHAR(8) ,
+ TGAAMD VARCHAR(1) ,
+ OBSAMD VARCHAR(30) ,
+ NITAMD VARCHAR(14) ,
+ AYNAMD VARCHAR(40) ,
+ AP1AMD VARCHAR(20) ,
+ AP2AMD VARCHAR(20) ,
+ NOMAMD VARCHAR(25) ,
+ TNIAMD VARCHAR(1) ,
+ REFAMD VARCHAR(30) ,
+ VLRAMD DECIMAL(9, 2) ,
+ PORAMD DECIMAL(5, 2) ,
+ RTAAMD DECIMAL(9, 2) ,
+ CEMAMD VARCHAR(4) ,
+ NCHEMD DECIMAL(6, 0) ,
+ FU01MD VARCHAR(1) ,
+ FU02MD VARCHAR(1) ,
+ FU03MD VARCHAR(1) ,
+ FU04MD VARCHAR(1) ,
+ FU05MD VARCHAR(1) ,
+ FECRMD DECIMAL(8, 0) ,
+ HOCRMD DECIMAL(6, 0) ,
+ USCRMD VARCHAR(10) ,
+ DICRMD VARCHAR(10) ,
+ RECRMD VARCHAR(10) ,
+ FEMOMD DECIMAL(8, 0) ,
+ HOMOMD DECIMAL(6, 0) ,
+ USMOMD VARCHAR(10) ,
+ DIMOMD VARCHAR(10) ,
+ REMOMD VARCHAR(10)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>Select *&#xD;&#xA;from [$HNtbl_MesSAnterior]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'HN_MesAnterior', "ui_display_name" = 'Hn_QRY_MesAnterior', "x" = '1259', "y" = '-1541')
+GUID::'63beb0ed-4b3a-4532-bf7f-3259f9550f32' CREATE VIEW Hn_QRY_MesAnterior( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesAnterior.PAISMD', "ui_pasting" = 'HN_MesActual.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesAnterior.CIASMD', "ui_pasting" = 'HN_MesActual.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesAnterior.NUPAMD', "ui_pasting" = 'HN_MesActual.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.CORPMD', "ui_pasting" = 'HN_MesActual.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesAnterior.FEPAMD', "ui_pasting" = 'HN_MesActual.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'HN_MesAnterior.CUENMD', "ui_pasting" = 'HN_MesActual.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TICAMD', "ui_pasting" = 'HN_MesActual.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TICCMD', "ui_pasting" = 'HN_MesActual.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.MDAOMD', "ui_pasting" = 'HN_MesActual.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'HN_MesAnterior.CONCMD', "ui_pasting" = 'HN_MesActual.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.COARMD', "ui_pasting" = 'HN_MesActual.COARMD') ,
+ MOMPMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesAnterior.MOMPMD', "ui_pasting" = 'HN_MesActual.MOMPMD') ,
+ MOMDMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesAnterior.MOMDMD', "ui_pasting" = 'HN_MesActual.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'HN_MesAnterior.TASCMD', "ui_pasting" = 'HN_MesActual.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesAnterior.CECOMD', "ui_pasting" = 'HN_MesActual.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.DEDUMD', "ui_pasting" = 'HN_MesActual.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TIPDMD', "ui_pasting" = 'HN_MesActual.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'HN_MesAnterior.DEPAMD', "ui_pasting" = 'HN_MesActual.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.MUNIMD', "ui_pasting" = 'HN_MesActual.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.CORRMD', "ui_pasting" = 'HN_MesActual.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesAnterior.TIPAMD', "ui_pasting" = 'HN_MesActual.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesAnterior.BYPAMD', "ui_pasting" = 'HN_MesActual.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.BUSAMD', "ui_pasting" = 'HN_MesActual.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TCLAMD', "ui_pasting" = 'HN_MesActual.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesAnterior.CCLAMD', "ui_pasting" = 'HN_MesActual.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesAnterior.NPEAMD', "ui_pasting" = 'HN_MesActual.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TGAAMD', "ui_pasting" = 'HN_MesActual.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesAnterior.OBSAMD', "ui_pasting" = 'HN_MesActual.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'HN_MesAnterior.NITAMD', "ui_pasting" = 'HN_MesActual.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'HN_MesAnterior.AYNAMD', "ui_pasting" = 'HN_MesActual.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesAnterior.AP1AMD', "ui_pasting" = 'HN_MesActual.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesAnterior.AP2AMD', "ui_pasting" = 'HN_MesActual.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'HN_MesAnterior.NOMAMD', "ui_pasting" = 'HN_MesActual.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.TNIAMD', "ui_pasting" = 'HN_MesActual.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesAnterior.REFAMD', "ui_pasting" = 'HN_MesActual.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesAnterior.VLRAMD', "ui_pasting" = 'HN_MesActual.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'HN_MesAnterior.PORAMD', "ui_pasting" = 'HN_MesActual.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesAnterior.RTAAMD', "ui_pasting" = 'HN_MesActual.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesAnterior.CEMAMD', "ui_pasting" = 'HN_MesActual.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.NCHEMD', "ui_pasting" = 'HN_MesActual.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.FU01MD', "ui_pasting" = 'HN_MesActual.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.FU02MD', "ui_pasting" = 'HN_MesActual.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.FU03MD', "ui_pasting" = 'HN_MesActual.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.FU04MD', "ui_pasting" = 'HN_MesActual.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesAnterior.FU05MD', "ui_pasting" = 'HN_MesActual.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.FECRMD', "ui_pasting" = 'HN_MesActual.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.HOCRMD', "ui_pasting" = 'HN_MesActual.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.USCRMD', "ui_pasting" = 'HN_MesActual.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.DICRMD', "ui_pasting" = 'HN_MesActual.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.RECRMD', "ui_pasting" = 'HN_MesActual.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.FEMOMD', "ui_pasting" = 'HN_MesActual.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesAnterior.HOMOMD', "ui_pasting" = 'HN_MesActual.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.USMOMD', "ui_pasting" = 'HN_MesActual.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.DIMOMD', "ui_pasting" = 'HN_MesActual.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesAnterior.REMOMD', "ui_pasting" = 'HN_MesActual.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2', "ui_pasting" = '2') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()', "ui_pasting" = 'sysdate()')  )
+ AS
+SELECT HN_MesAnterior.PAISMD, HN_MesAnterior.CIASMD, HN_MesAnterior.NUPAMD, HN_MesAnterior.CORPMD, HN_MesAnterior.FEPAMD, HN_MesAnterior.CUENMD, HN_MesAnterior.TICAMD, HN_MesAnterior.TICCMD, HN_MesAnterior.MDAOMD, HN_MesAnterior.CONCMD, HN_MesAnterior.COARMD, HN_MesAnterior.MOMPMD, HN_MesAnterior.MOMDMD, HN_MesAnterior.TASCMD, HN_MesAnterior.CECOMD, HN_MesAnterior.DEDUMD, HN_MesAnterior.TIPDMD, HN_MesAnterior.DEPAMD, HN_MesAnterior.MUNIMD, HN_MesAnterior.CORRMD, HN_MesAnterior.TIPAMD, HN_MesAnterior.BYPAMD, HN_MesAnterior.BUSAMD, HN_MesAnterior.TCLAMD, HN_MesAnterior.CCLAMD, HN_MesAnterior.NPEAMD, HN_MesAnterior.TGAAMD, HN_MesAnterior.OBSAMD, HN_MesAnterior.NITAMD, HN_MesAnterior.AYNAMD, HN_MesAnterior.AP1AMD, HN_MesAnterior.AP2AMD, HN_MesAnterior.NOMAMD, HN_MesAnterior.TNIAMD, HN_MesAnterior.REFAMD, HN_MesAnterior.VLRAMD, HN_MesAnterior.PORAMD, HN_MesAnterior.RTAAMD, HN_MesAnterior.CEMAMD, HN_MesAnterior.NCHEMD, HN_MesAnterior.FU01MD, HN_MesAnterior.FU02MD, HN_MesAnterior.FU03MD, HN_MesAnterior.FU04MD, HN_MesAnterior.FU05MD, HN_MesAnterior.FECRMD, HN_MesAnterior.HOCRMD, HN_MesAnterior.USCRMD, HN_MesAnterior.DICRMD, HN_MesAnterior.RECRMD, HN_MesAnterior.FEMOMD, HN_MesAnterior.HOMOMD, HN_MesAnterior.USMOMD, HN_MesAnterior.DIMOMD, HN_MesAnterior.REMOMD, 2, sysdate() FROM HN_MesAnterior 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>407</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'HN_MesSAnterior', "ui_display_name" = 'Hn_QRY_MesSAnterior', "x" = '1247', "y" = '-1790')
+GUID::'a0187c45-591b-4b67-9ec4-a70b226d15bd' CREATE VIEW Hn_QRY_MesSAnterior( PAISMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesSAnterior.PAISMD', "ui_pasting" = 'HN_MesAnterior.PAISMD') ,
+ CIASMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CIASMD', "ui_pasting" = 'HN_MesAnterior.CIASMD') ,
+ NUPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesSAnterior.NUPAMD', "ui_pasting" = 'HN_MesAnterior.NUPAMD') ,
+ CORPMD DECIMAL(5, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CORPMD', "ui_pasting" = 'HN_MesAnterior.CORPMD') ,
+ FEPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FEPAMD', "ui_pasting" = 'HN_MesAnterior.FEPAMD') ,
+ CUENMD VARCHAR(12)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CUENMD', "ui_pasting" = 'HN_MesAnterior.CUENMD') ,
+ TICAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TICAMD', "ui_pasting" = 'HN_MesAnterior.TICAMD') ,
+ TICCMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TICCMD', "ui_pasting" = 'HN_MesAnterior.TICCMD') ,
+ MDAOMD DECIMAL(2, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.MDAOMD', "ui_pasting" = 'HN_MesAnterior.MDAOMD') ,
+ CONCMD VARCHAR(60)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CONCMD', "ui_pasting" = 'HN_MesAnterior.CONCMD') ,
+ COARMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.COARMD', "ui_pasting" = 'HN_MesAnterior.COARMD') ,
+ MOMPMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.MOMPMD', "ui_pasting" = 'HN_MesAnterior.MOMPMD') ,
+ MOMDMD DECIMAL(13, 2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.MOMDMD', "ui_pasting" = 'HN_MesAnterior.MOMDMD') ,
+ TASCMD DECIMAL(9, 4)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TASCMD', "ui_pasting" = 'HN_MesAnterior.TASCMD') ,
+ CECOMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CECOMD', "ui_pasting" = 'HN_MesAnterior.CECOMD') ,
+ DEDUMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.DEDUMD', "ui_pasting" = 'HN_MesAnterior.DEDUMD') ,
+ TIPDMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TIPDMD', "ui_pasting" = 'HN_MesAnterior.TIPDMD') ,
+ DEPAMD VARCHAR(2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.DEPAMD', "ui_pasting" = 'HN_MesAnterior.DEPAMD') ,
+ MUNIMD DECIMAL(4, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.MUNIMD', "ui_pasting" = 'HN_MesAnterior.MUNIMD') ,
+ CORRMD DECIMAL(3, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CORRMD', "ui_pasting" = 'HN_MesAnterior.CORRMD') ,
+ TIPAMD VARCHAR(3)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TIPAMD', "ui_pasting" = 'HN_MesAnterior.TIPAMD') ,
+ BYPAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesSAnterior.BYPAMD', "ui_pasting" = 'HN_MesAnterior.BYPAMD') ,
+ BUSAMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.BUSAMD', "ui_pasting" = 'HN_MesAnterior.BUSAMD') ,
+ TCLAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TCLAMD', "ui_pasting" = 'HN_MesAnterior.TCLAMD') ,
+ CCLAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CCLAMD', "ui_pasting" = 'HN_MesAnterior.CCLAMD') ,
+ NPEAMD VARCHAR(8)  SET( "ui_mapping_text" = 'HN_MesSAnterior.NPEAMD', "ui_pasting" = 'HN_MesAnterior.NPEAMD') ,
+ TGAAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TGAAMD', "ui_pasting" = 'HN_MesAnterior.TGAAMD') ,
+ OBSAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesSAnterior.OBSAMD', "ui_pasting" = 'HN_MesAnterior.OBSAMD') ,
+ NITAMD VARCHAR(14)  SET( "ui_mapping_text" = 'HN_MesSAnterior.NITAMD', "ui_pasting" = 'HN_MesAnterior.NITAMD') ,
+ AYNAMD VARCHAR(40)  SET( "ui_mapping_text" = 'HN_MesSAnterior.AYNAMD', "ui_pasting" = 'HN_MesAnterior.AYNAMD') ,
+ AP1AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesSAnterior.AP1AMD', "ui_pasting" = 'HN_MesAnterior.AP1AMD') ,
+ AP2AMD VARCHAR(20)  SET( "ui_mapping_text" = 'HN_MesSAnterior.AP2AMD', "ui_pasting" = 'HN_MesAnterior.AP2AMD') ,
+ NOMAMD VARCHAR(25)  SET( "ui_mapping_text" = 'HN_MesSAnterior.NOMAMD', "ui_pasting" = 'HN_MesAnterior.NOMAMD') ,
+ TNIAMD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.TNIAMD', "ui_pasting" = 'HN_MesAnterior.TNIAMD') ,
+ REFAMD VARCHAR(30)  SET( "ui_mapping_text" = 'HN_MesSAnterior.REFAMD', "ui_pasting" = 'HN_MesAnterior.REFAMD') ,
+ VLRAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.VLRAMD', "ui_pasting" = 'HN_MesAnterior.VLRAMD') ,
+ PORAMD DECIMAL(5, 2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.PORAMD', "ui_pasting" = 'HN_MesAnterior.PORAMD') ,
+ RTAAMD DECIMAL(9, 2)  SET( "ui_mapping_text" = 'HN_MesSAnterior.RTAAMD', "ui_pasting" = 'HN_MesAnterior.RTAAMD') ,
+ CEMAMD VARCHAR(4)  SET( "ui_mapping_text" = 'HN_MesSAnterior.CEMAMD', "ui_pasting" = 'HN_MesAnterior.CEMAMD') ,
+ NCHEMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.NCHEMD', "ui_pasting" = 'HN_MesAnterior.NCHEMD') ,
+ FU01MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FU01MD', "ui_pasting" = 'HN_MesAnterior.FU01MD') ,
+ FU02MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FU02MD', "ui_pasting" = 'HN_MesAnterior.FU02MD') ,
+ FU03MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FU03MD', "ui_pasting" = 'HN_MesAnterior.FU03MD') ,
+ FU04MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FU04MD', "ui_pasting" = 'HN_MesAnterior.FU04MD') ,
+ FU05MD VARCHAR(1)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FU05MD', "ui_pasting" = 'HN_MesAnterior.FU05MD') ,
+ FECRMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FECRMD', "ui_pasting" = 'HN_MesAnterior.FECRMD') ,
+ HOCRMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.HOCRMD', "ui_pasting" = 'HN_MesAnterior.HOCRMD') ,
+ USCRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.USCRMD', "ui_pasting" = 'HN_MesAnterior.USCRMD') ,
+ DICRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.DICRMD', "ui_pasting" = 'HN_MesAnterior.DICRMD') ,
+ RECRMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.RECRMD', "ui_pasting" = 'HN_MesAnterior.RECRMD') ,
+ FEMOMD DECIMAL(8, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.FEMOMD', "ui_pasting" = 'HN_MesAnterior.FEMOMD') ,
+ HOMOMD DECIMAL(6, 0)  SET( "ui_mapping_text" = 'HN_MesSAnterior.HOMOMD', "ui_pasting" = 'HN_MesAnterior.HOMOMD') ,
+ USMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.USMOMD', "ui_pasting" = 'HN_MesAnterior.USMOMD') ,
+ DIMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.DIMOMD', "ui_pasting" = 'HN_MesAnterior.DIMOMD') ,
+ REMOMD VARCHAR(10)  SET( "ui_mapping_text" = 'HN_MesSAnterior.REMOMD', "ui_pasting" = 'HN_MesAnterior.REMOMD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2', "ui_pasting" = '2') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()', "ui_pasting" = 'sysdate()')  )
+ AS
+SELECT HN_MesSAnterior.PAISMD, HN_MesSAnterior.CIASMD, HN_MesSAnterior.NUPAMD, HN_MesSAnterior.CORPMD, HN_MesSAnterior.FEPAMD, HN_MesSAnterior.CUENMD, HN_MesSAnterior.TICAMD, HN_MesSAnterior.TICCMD, HN_MesSAnterior.MDAOMD, HN_MesSAnterior.CONCMD, HN_MesSAnterior.COARMD, HN_MesSAnterior.MOMPMD, HN_MesSAnterior.MOMDMD, HN_MesSAnterior.TASCMD, HN_MesSAnterior.CECOMD, HN_MesSAnterior.DEDUMD, HN_MesSAnterior.TIPDMD, HN_MesSAnterior.DEPAMD, HN_MesSAnterior.MUNIMD, HN_MesSAnterior.CORRMD, HN_MesSAnterior.TIPAMD, HN_MesSAnterior.BYPAMD, HN_MesSAnterior.BUSAMD, HN_MesSAnterior.TCLAMD, HN_MesSAnterior.CCLAMD, HN_MesSAnterior.NPEAMD, HN_MesSAnterior.TGAAMD, HN_MesSAnterior.OBSAMD, HN_MesSAnterior.NITAMD, HN_MesSAnterior.AYNAMD, HN_MesSAnterior.AP1AMD, HN_MesSAnterior.AP2AMD, HN_MesSAnterior.NOMAMD, HN_MesSAnterior.TNIAMD, HN_MesSAnterior.REFAMD, HN_MesSAnterior.VLRAMD, HN_MesSAnterior.PORAMD, HN_MesSAnterior.RTAAMD, HN_MesSAnterior.CEMAMD, HN_MesSAnterior.NCHEMD, HN_MesSAnterior.FU01MD, HN_MesSAnterior.FU02MD, HN_MesSAnterior.FU03MD, HN_MesSAnterior.FU04MD, HN_MesSAnterior.FU05MD, HN_MesSAnterior.FECRMD, HN_MesSAnterior.HOCRMD, HN_MesSAnterior.USCRMD, HN_MesSAnterior.DICRMD, HN_MesSAnterior.RECRMD, HN_MesSAnterior.FEMOMD, HN_MesSAnterior.HOMOMD, HN_MesSAnterior.USMOMD, HN_MesSAnterior.DIMOMD, HN_MesSAnterior.REMOMD, 2, sysdate() FROM HN_MesSAnterior 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
