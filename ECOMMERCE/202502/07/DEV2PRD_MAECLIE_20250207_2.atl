@@ -1,0 +1,305 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8F13CD9AE9C1C1EC07D14FAF3B5D3942E5DBCC1D6ABE41C122791AA818EB86F5849E9746A1F35C9657CAAC77766F3B2</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8DB618A0458B81543324C7C3184412D2341842FDABC2A6B824900195E996F631472592373AFFB80EA8BC8E5D157</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E876F48EF11E95D9F40079E3BC59640ABCCC4E5FB935334AD78850680EA9E3E3FB7305C6573B12B7263E38156D33</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E84C942122184EB016540EED3BCB0C0F60DCC92C698561075BBD7ECA2A2E49BF886E318165B4DD257CC3079DDB598305E00113EF71C5F1</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Fri Feb  7 10:39:39 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAECLIE(EVECTE DECIMAL(8, 0)  KEY  NOT NULL , 
+IDECTE VARCHAR(14)  NULL , 
+DOCCTE VARCHAR(1)  NULL , 
+NOMCTE VARCHAR(120)  NULL , 
+CACCTE VARCHAR(5)  NULL , 
+C2CCTE VARCHAR(5)  NULL , 
+C3CCTE VARCHAR(5)  NULL , 
+PAICTE VARCHAR(5)  NULL , 
+DPTCTE VARCHAR(2)  NULL , 
+MNCCTE VARCHAR(2)  NULL , 
+DIRCTE VARCHAR(200)  NULL , 
+TELCTE VARCHAR(10)  NULL , 
+TE2CTE VARCHAR(10)  NULL , 
+TE3CTE VARCHAR(10)  NULL , 
+TE4CTE VARCHAR(10)  NULL , 
+TE5CTE VARCHAR(10)  NULL , 
+CORCTE VARCHAR(60)  NULL , 
+CO2CTE VARCHAR(60)  NULL , 
+CO3CTE VARCHAR(60)  NULL , 
+CO4CTE VARCHAR(60)  NULL , 
+CO5CTE VARCHAR(60)  NULL , 
+TPECTE VARCHAR(1)  NULL , 
+IVACTE VARCHAR(1)  NULL , 
+EXECTE VARCHAR(1)  NULL , 
+DOMCTE VARCHAR(1)  NULL , 
+MEDCTE VARCHAR(1)  NULL , 
+PERCTE VARCHAR(1)  NULL , 
+RFICTE VARCHAR(10)  NULL , 
+FECCTE DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2'), 
+USRCTE VARCHAR(10)  NULL , 
+FE2CTE DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2'), 
+US2CTE VARCHAR(10)  NULL , 
+FE3CTE DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2'), 
+US3CTE VARCHAR(10)  NULL , 
+STSCTE VARCHAR(1)  NULL , 
+FECHA_CARGA_DWH DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2'), 
+ID_PAIS INT  NULL ) 
+PRIMARY KEY (EVECTE) 
+CREATE_INDEX PK__MAECLIE__E654B3E3B0075232 ON (EVECTE) PRIMARY 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Fri Dec 22 17:19:40 2023' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Fri Feb  7 10:35:59 2025' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.MAECLIE(EVECTE DECIMAL(8, 0)  KEY  NOT NULL  SET("Description" = 'NUMERO-EVENTUAL'), 
+IDECTE CHAR(14)  NOT NULL  SET("Description" = 'IDENT-CLIENTE'), 
+DOCCTE CHAR(1)  NOT NULL  SET("Description" = 'TIPO-DOCUMENTO'), 
+NOMCTE CHAR(120)  NOT NULL  SET("Description" = 'NOMBR-CLIENTE'), 
+CACCTE CHAR(5)  NOT NULL  SET("Description" = 'CODIGO-GIRO1'), 
+C2CCTE CHAR(5)  NOT NULL  SET("Description" = 'CODIGO-GIRO2'), 
+C3CCTE CHAR(5)  NOT NULL  SET("Description" = 'CODIGO-GIRO3'), 
+PAICTE CHAR(5)  NOT NULL  SET("Description" = 'CODIGO PAIS'), 
+DPTCTE CHAR(2)  NOT NULL  SET("Description" = 'DEPARTAMENTO'), 
+MNCCTE CHAR(2)  NOT NULL  SET("Description" = 'MUNICIPIO'), 
+DIRCTE CHAR(200)  NOT NULL  SET("Description" = 'DIRECCION'), 
+TELCTE CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO1'), 
+TE2CTE CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO2'), 
+TE3CTE CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO3'), 
+TE4CTE CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO4'), 
+TE5CTE CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO5'), 
+CORCTE CHAR(60)  NOT NULL  SET("Description" = 'CORREO1 ELECT'), 
+CO2CTE CHAR(60)  NOT NULL  SET("Description" = 'CORREO2 ELECT'), 
+CO3CTE CHAR(60)  NOT NULL  SET("Description" = 'CORREO3 ELECT'), 
+CO4CTE CHAR(60)  NOT NULL  SET("Description" = 'CORREO4 ELECT'), 
+CO5CTE CHAR(60)  NOT NULL  SET("Description" = 'CORREO5 ELECT'), 
+TPECTE CHAR(1)  NOT NULL  SET("Description" = 'NATURAL-JURIDICO'), 
+IVACTE CHAR(1)  NOT NULL  SET("Description" = 'INSCRITO IVA'), 
+EXECTE CHAR(1)  NOT NULL  SET("Description" = 'EXENTO IVA'), 
+DOMCTE CHAR(1)  NOT NULL  SET("Description" = 'DOMICILIADO'), 
+MEDCTE CHAR(1)  NOT NULL  SET("Description" = 'MEDIO DTE'), 
+PERCTE CHAR(1)  NOT NULL  SET("Description" = 'PERCEPCION IVA'), 
+RFICTE CHAR(10)  NOT NULL  SET("Description" = 'NRO-REG.FISCAL'), 
+FECCTE DATETIME(6)  NOT NULL  SET("Description" = 'FECHA-CREA'), 
+USRCTE CHAR(10)  NOT NULL  SET("Description" = 'USUAR-CREA'), 
+FE2CTE DATETIME(6)  NOT NULL  SET("Description" = 'FECHA-UPDATE'), 
+US2CTE CHAR(10)  NOT NULL  SET("Description" = 'USUAR-UPDATE'), 
+FE3CTE DATETIME(6)  NOT NULL  SET("Description" = 'FECHA-APROB'), 
+US3CTE CHAR(10)  NOT NULL  SET("Description" = 'USUAR-APROB'), 
+STSCTE CHAR(1)  NOT NULL  SET("Description" = 'STATU-APROB')) 
+PRIMARY KEY (EVECTE) 
+CREATE_INDEX "NEWINV.MAECLIE" ON (EVECTE) 
+CREATE_INDEX "NEWINV.MAECLIEL1" ON (IDECTE) 
+CREATE_INDEX "NEWINV.MAECLIEL2" ON (NOMCTE) 
+CREATE_INDEX "NEWINV.MAECLIEL3" ON (RFICTE) 
+CREATE_INDEX "NEWINV.MAECLIEL4" ON (EVECTE) 
+SET("db_alias_name" = 'NEWINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Dec 22 17:19:42 2023', "ActaValue_3" = 'Fri Feb  7 10:40:22 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_MAECLIE::'9d4e93d5-4702-43f7-b3d8-5e95794d160c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '37', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>372</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '54', "x" = '559', "y" = '-788')
+GUID::'3941c20b-06ba-450b-8406-77bc1f4c554d' READ TABLE DS_DB2_GER_VTAS.NEWINV.MAECLIE OUTPUT(MAECLIE)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '126', "Output_Width_Mapping" = '85', "Output_Width_Name" = '351', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '54', "ui_acta_from_schema_0" = 'MAECLIE', "x" = '1297', "y" = '-767')
+GUID::'58a55986-49e2-4093-bc94-597cf413835d' CREATE VIEW Query( EVECTE DECIMAL(8, 0)  KEY  SET( "Description" = 'NUMERO-EVENTUAL', "ui_mapping_text" = 'MAECLIE.EVECTE') ,
+ IDECTE VARCHAR(14)  SET( "Description" = 'IDENT-CLIENTE', "ui_mapping_text" = 'MAECLIE.IDECTE') ,
+ DOCCTE VARCHAR(1)  SET( "Description" = 'TIPO-DOCUMENTO', "ui_mapping_text" = 'MAECLIE.DOCCTE') ,
+ NOMCTE VARCHAR(120)  SET( "Description" = 'NOMBR-CLIENTE', "ui_mapping_text" = 'MAECLIE.NOMCTE') ,
+ CACCTE VARCHAR(5)  SET( "Description" = 'CODIGO-GIRO1', "ui_mapping_text" = 'MAECLIE.CACCTE') ,
+ C2CCTE VARCHAR(5)  SET( "Description" = 'CODIGO-GIRO2', "ui_mapping_text" = 'MAECLIE.C2CCTE') ,
+ C3CCTE VARCHAR(5)  SET( "Description" = 'CODIGO-GIRO3', "ui_mapping_text" = 'MAECLIE.C3CCTE') ,
+ PAICTE VARCHAR(5)  SET( "Description" = 'CODIGO PAIS', "ui_mapping_text" = 'MAECLIE.PAICTE') ,
+ DPTCTE VARCHAR(2)  SET( "Description" = 'DEPARTAMENTO', "ui_mapping_text" = 'MAECLIE.DPTCTE') ,
+ MNCCTE VARCHAR(2)  SET( "Description" = 'MUNICIPIO', "ui_mapping_text" = 'MAECLIE.MNCCTE') ,
+ DIRCTE VARCHAR(200)  SET( "Description" = 'DIRECCION', "ui_mapping_text" = 'MAECLIE.DIRCTE') ,
+ TELCTE VARCHAR(10)  SET( "Description" = 'TELEFONO1', "ui_mapping_text" = 'MAECLIE.TELCTE') ,
+ TE2CTE VARCHAR(10)  SET( "Description" = 'TELEFONO2', "ui_mapping_text" = 'MAECLIE.TE2CTE') ,
+ TE3CTE VARCHAR(10)  SET( "Description" = 'TELEFONO3', "ui_mapping_text" = 'MAECLIE.TE3CTE') ,
+ TE4CTE VARCHAR(10)  SET( "Description" = 'TELEFONO4', "ui_mapping_text" = 'MAECLIE.TE4CTE') ,
+ TE5CTE VARCHAR(10)  SET( "Description" = 'TELEFONO5', "ui_mapping_text" = 'MAECLIE.TE5CTE') ,
+ CORCTE VARCHAR(60)  SET( "Description" = 'CORREO1 ELECT', "ui_mapping_text" = 'MAECLIE.CORCTE') ,
+ CO2CTE VARCHAR(60)  SET( "Description" = 'CORREO2 ELECT', "ui_mapping_text" = 'MAECLIE.CO2CTE') ,
+ CO3CTE VARCHAR(60)  SET( "Description" = 'CORREO3 ELECT', "ui_mapping_text" = 'MAECLIE.CO3CTE') ,
+ CO4CTE VARCHAR(60)  SET( "Description" = 'CORREO4 ELECT', "ui_mapping_text" = 'MAECLIE.CO4CTE') ,
+ CO5CTE VARCHAR(60)  SET( "Description" = 'CORREO5 ELECT', "ui_mapping_text" = 'MAECLIE.CO5CTE') ,
+ TPECTE VARCHAR(1)  SET( "Description" = 'NATURAL-JURIDICO', "ui_mapping_text" = 'MAECLIE.TPECTE') ,
+ IVACTE VARCHAR(1)  SET( "Description" = 'INSCRITO IVA', "ui_mapping_text" = 'MAECLIE.IVACTE') ,
+ EXECTE VARCHAR(1)  SET( "Description" = 'EXENTO IVA', "ui_mapping_text" = 'MAECLIE.EXECTE') ,
+ DOMCTE VARCHAR(1)  SET( "Description" = 'DOMICILIADO', "ui_mapping_text" = 'MAECLIE.DOMCTE') ,
+ MEDCTE VARCHAR(1)  SET( "Description" = 'MEDIO DTE', "ui_mapping_text" = 'MAECLIE.MEDCTE') ,
+ PERCTE VARCHAR(1)  SET( "Description" = 'PERCEPCION IVA', "ui_mapping_text" = 'MAECLIE.PERCTE') ,
+ RFICTE VARCHAR(10)  SET( "Description" = 'NRO-REG.FISCAL', "ui_mapping_text" = 'MAECLIE.RFICTE') ,
+ FECCTE DATETIME(9)  SET( "Description" = 'FECHA-CREA', "ui_mapping_text" = 'MAECLIE.FECCTE') ,
+ USRCTE VARCHAR(10)  SET( "Description" = 'USUAR-CREA', "ui_mapping_text" = 'MAECLIE.USRCTE') ,
+ FE2CTE DATETIME(9)  SET( "Description" = 'FECHA-UPDATE', "ui_mapping_text" = 'MAECLIE.FE2CTE') ,
+ US2CTE VARCHAR(10)  SET( "Description" = 'USUAR-UPDATE', "ui_mapping_text" = 'MAECLIE.US2CTE') ,
+ FE3CTE DATETIME(9)  SET( "Description" = 'FECHA-APROB', "ui_mapping_text" = 'MAECLIE.FE3CTE') ,
+ US3CTE VARCHAR(10)  SET( "Description" = 'USUAR-APROB', "ui_mapping_text" = 'MAECLIE.US3CTE') ,
+ STSCTE VARCHAR(1)  SET( "Description" = 'STATU-APROB', "ui_mapping_text" = 'MAECLIE.STSCTE') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT MAECLIE.EVECTE, MAECLIE.IDECTE, MAECLIE.DOCCTE, MAECLIE.NOMCTE, MAECLIE.CACCTE, MAECLIE.C2CCTE, MAECLIE.C3CCTE, MAECLIE.PAICTE, MAECLIE.DPTCTE, MAECLIE.MNCCTE, MAECLIE.DIRCTE, MAECLIE.TELCTE, MAECLIE.TE2CTE, MAECLIE.TE3CTE, MAECLIE.TE4CTE, MAECLIE.TE5CTE, MAECLIE.CORCTE, MAECLIE.CO2CTE, MAECLIE.CO3CTE, MAECLIE.CO4CTE, MAECLIE.CO5CTE, MAECLIE.TPECTE, MAECLIE.IVACTE, MAECLIE.EXECTE, MAECLIE.DOMCTE, MAECLIE.MEDCTE, MAECLIE.PERCTE, MAECLIE.RFICTE, MAECLIE.FECCTE, MAECLIE.USRCTE, MAECLIE.FE2CTE, MAECLIE.US2CTE, MAECLIE.FE3CTE, MAECLIE.US3CTE, MAECLIE.STSCTE, 1, sysdate() FROM MAECLIE 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '44', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '61', "x" = '2037', "y" = '-747')
+GUID::'99619323-e66b-4f94-9063-7ce0d5990e50' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAECLIE INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Dec 22 17:19:42 2023', "x" = '-1', "y" = '-1')
+CREATE PLAN MAECLIE::'0dcb54b6-1404-467c-98b0-c7060914c2cd'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1431', "y" = '-859')
+CALL DATAFLOW DF_CRG_STG_MAECLIE::'9d4e93d5-4702-43f7-b3d8-5e95794d160c'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
