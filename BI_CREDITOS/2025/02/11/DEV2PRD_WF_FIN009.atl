@@ -1,0 +1,1099 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon May 09 11:36:59 2016', "ActaValue_3" = 'Mon Aug 29 13:53:04 2016', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2::'e3ea301f-1161-455a-8e6d-2693a76e8eab' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8AC53E951E53E054EB01C626715B9DCE355245576C1AC433080744C48D71B9748DD491AA1D96A05F07D9CA21E9D7978</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8CF56B7CC4B048B9543165D91CF307702E1CF15E6A790788ACB06BF7EA5B90739349924B84D8A0AA49AC2E49F1A</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E84EF844A34835495D7C8C6BAE8318FF34DE94469398727BA62ED10B4478A77934563C0B9F07B20B6543154590BC</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8AA7734BBF4BB361D0BE5034EDA5BDA90DF2859F57C5858B0530BDB7DFBB9BC691BAD785C53A7FAB184F43303249FCBD3DA71646A1EBE</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '93' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '93' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '0 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Wed Feb 12 10:56:16 2025' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Wed Feb 12 11:28:37 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNCC(PAISCC VARCHAR(3)  NULL , 
+CIASCC VARCHAR(3)  NULL , 
+CODICC VARCHAR(8)  NULL , 
+DIGICC DECIMAL(2, 0)  NULL , 
+NOMBCC VARCHAR(40)  NULL , 
+NOABCC VARCHAR(20)  NULL , 
+COSUCC VARCHAR(8)  NULL , 
+TIPOCC VARCHAR(1)  NULL , 
+STATCC VARCHAR(1)  NULL , 
+COANCC VARCHAR(2)  NULL , 
+RESPCC VARCHAR(40)  NULL , 
+ZONACC VARCHAR(2)  NULL , 
+FU01CC VARCHAR(1)  NULL , 
+FU02CC VARCHAR(1)  NULL , 
+FU03CC VARCHAR(1)  NULL , 
+FU04CC VARCHAR(1)  NULL , 
+FU05CC VARCHAR(1)  NULL , 
+FECRCC DECIMAL(8, 0)  NULL , 
+HOCRCC DECIMAL(6, 0)  NULL , 
+USCRCC VARCHAR(10)  NULL , 
+DICRCC VARCHAR(10)  NULL , 
+RECRCC VARCHAR(10)  NULL , 
+FEMOCC DECIMAL(8, 0)  NULL , 
+HOMOCC DECIMAL(6, 0)  NULL , 
+USMOCC VARCHAR(10)  NULL , 
+DIMOCC VARCHAR(10)  NULL , 
+REMOCC VARCHAR(10)  NULL , 
+FEELCC DECIMAL(8, 0)  NULL , 
+HOELCC DECIMAL(6, 0)  NULL , 
+USELCC VARCHAR(10)  NULL , 
+DIELCC VARCHAR(10)  NULL , 
+REELCC VARCHAR(10)  NULL , 
+MAELCC VARCHAR(1)  NULL , 
+DEPACC VARCHAR(2)  NULL , 
+MUNICC DECIMAL(4, 0)  NULL , 
+ANIO VARCHAR(4)  NULL , 
+FECHA_CARGA_DWH DATETIME(3)  NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Wed Feb 12 10:59:20 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Wed Feb 12 11:28:44 2025' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '613' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '613' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '0 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNCT(PAISCT VARCHAR(3)  NULL , 
+CIASCT VARCHAR(3)  NULL , 
+NUCTCT VARCHAR(12)  NULL , 
+NDCTCT DECIMAL(2, 0)  NULL , 
+NOCTCT VARCHAR(40)  NULL , 
+NOABCT VARCHAR(20)  NULL , 
+NUSUCT VARCHAR(12)  NULL , 
+TICTCT VARCHAR(1)  NULL , 
+AUXICT VARCHAR(1)  NULL , 
+CECOCT VARCHAR(1)  NULL , 
+STCTCT VARCHAR(1)  NULL , 
+TICACT VARCHAR(1)  NULL , 
+SIGNCT VARCHAR(1)  NULL , 
+MOCLCT VARCHAR(3)  NULL , 
+CTCOCT VARCHAR(12)  NULL , 
+CTANCT VARCHAR(12)  NULL , 
+FU01CT VARCHAR(1)  NULL , 
+FU02CT VARCHAR(1)  NULL , 
+FU03CT VARCHAR(1)  NULL , 
+FU04CT VARCHAR(1)  NULL , 
+FU05CT VARCHAR(1)  NULL , 
+FECRCT DECIMAL(8, 0)  NULL , 
+HOCRCT DECIMAL(6, 0)  NULL , 
+USCRCT VARCHAR(10)  NULL , 
+DICRCT VARCHAR(10)  NULL , 
+RECRCT VARCHAR(10)  NULL , 
+FEMOCT DECIMAL(8, 0)  NULL , 
+HOMOCT DECIMAL(6, 0)  NULL , 
+USMOCT VARCHAR(10)  NULL , 
+DIMOCT VARCHAR(10)  NULL , 
+REMOCT VARCHAR(10)  NULL , 
+ANIO VARCHAR(4)  NULL , 
+FECHA_CARGA_DWH DATETIME(3)  NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Feb 12 11:00:40 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'Wed Feb 12 11:29:02 2025' , 
+ActaName_9 = 'RTotal_Number_Of_Rows_Processed',ActaValue_9 = '42370' , 
+ActaName_10 = 'RNumber_Of_Rows_Rejected',ActaValue_10 = '0' , 
+ActaName_11 = 'RNumber_Of_Inserts',ActaValue_11 = '42370' , 
+ActaName_12 = 'RElapsed_Time_For_Load',ActaValue_12 = '9 Seconds' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNSMCT(PAISSM VARCHAR(3)  NULL , 
+CIASSM VARCHAR(3)  NULL , 
+AÑOESM VARCHAR(4)  NULL , 
+NUCTSM VARCHAR(12)  NULL , 
+NUCCSM VARCHAR(8)  NULL , 
+SUCTSM VARCHAR(12)  NULL , 
+SUCCSM VARCHAR(8)  NULL , 
+TCTASM VARCHAR(1)  NULL , 
+TCCOSM VARCHAR(1)  NULL , 
+TICTSM VARCHAR(1)  NULL , 
+SIML01 DECIMAL(11, 2)  NULL , 
+CADL01 DECIMAL(11, 2)  NULL , 
+ABDL01 DECIMAL(11, 2)  NULL , 
+CAEL01 DECIMAL(11, 2)  NULL , 
+ABEL01 DECIMAL(11, 2)  NULL , 
+SAML01 DECIMAL(11, 2)  NULL , 
+CADL02 DECIMAL(11, 2)  NULL , 
+ABDL02 DECIMAL(11, 2)  NULL , 
+CAEL02 DECIMAL(11, 2)  NULL , 
+ABEL02 DECIMAL(11, 2)  NULL , 
+SAML02 DECIMAL(11, 2)  NULL , 
+CADL03 DECIMAL(11, 2)  NULL , 
+ABDL03 DECIMAL(11, 2)  NULL , 
+CAEL03 DECIMAL(11, 2)  NULL , 
+ABEL03 DECIMAL(11, 2)  NULL , 
+SAML03 DECIMAL(11, 2)  NULL , 
+CADL04 DECIMAL(11, 2)  NULL , 
+ABDL04 DECIMAL(11, 2)  NULL , 
+CAEL04 DECIMAL(11, 2)  NULL , 
+ABEL04 DECIMAL(11, 2)  NULL , 
+SAML04 DECIMAL(11, 2)  NULL , 
+CADL05 DECIMAL(11, 2)  NULL , 
+ABDL05 DECIMAL(11, 2)  NULL , 
+CAEL05 DECIMAL(11, 2)  NULL , 
+ABEL05 DECIMAL(11, 2)  NULL , 
+SAML05 DECIMAL(11, 2)  NULL , 
+CADL06 DECIMAL(11, 2)  NULL , 
+ABDL06 DECIMAL(11, 2)  NULL , 
+CAEL06 DECIMAL(11, 2)  NULL , 
+ABEL06 DECIMAL(11, 2)  NULL , 
+SAML06 DECIMAL(11, 2)  NULL , 
+CADL07 DECIMAL(11, 2)  NULL , 
+ABDL07 DECIMAL(11, 2)  NULL , 
+CAEL07 DECIMAL(11, 2)  NULL , 
+ABEL07 DECIMAL(11, 2)  NULL , 
+SAML07 DECIMAL(11, 2)  NULL , 
+CADL08 DECIMAL(11, 2)  NULL , 
+ABDL08 DECIMAL(11, 2)  NULL , 
+CAEL08 DECIMAL(11, 2)  NULL , 
+ABEL08 DECIMAL(11, 2)  NULL , 
+SAML08 DECIMAL(11, 2)  NULL , 
+CADL09 DECIMAL(11, 2)  NULL , 
+ABDL09 DECIMAL(11, 2)  NULL , 
+CAEL09 DECIMAL(11, 2)  NULL , 
+ABEL09 DECIMAL(11, 2)  NULL , 
+SAML09 DECIMAL(11, 2)  NULL , 
+CADL10 DECIMAL(11, 2)  NULL , 
+ABDL10 DECIMAL(11, 2)  NULL , 
+CAEL10 DECIMAL(11, 2)  NULL , 
+ABEL10 DECIMAL(11, 2)  NULL , 
+SAML10 DECIMAL(11, 2)  NULL , 
+CADL11 DECIMAL(11, 2)  NULL , 
+ABDL11 DECIMAL(11, 2)  NULL , 
+CAEL11 DECIMAL(11, 2)  NULL , 
+ABEL11 DECIMAL(11, 2)  NULL , 
+SAML11 DECIMAL(11, 2)  NULL , 
+CADL12 DECIMAL(11, 2)  NULL , 
+ABDL12 DECIMAL(11, 2)  NULL , 
+CAEL12 DECIMAL(11, 2)  NULL , 
+ABEL12 DECIMAL(11, 2)  NULL , 
+SAML12 DECIMAL(11, 2)  NULL , 
+CADL13 DECIMAL(11, 2)  NULL , 
+ABDL13 DECIMAL(11, 2)  NULL , 
+CAEL13 DECIMAL(11, 2)  NULL , 
+ABEL13 DECIMAL(11, 2)  NULL , 
+SAML13 DECIMAL(11, 2)  NULL , 
+SIMD01 DECIMAL(11, 2)  NULL , 
+CADD01 DECIMAL(11, 2)  NULL , 
+ABDD01 DECIMAL(11, 2)  NULL , 
+CAED01 DECIMAL(11, 2)  NULL , 
+ABED01 DECIMAL(11, 2)  NULL , 
+SAMD01 DECIMAL(11, 2)  NULL , 
+CADD02 DECIMAL(11, 2)  NULL , 
+ABDD02 DECIMAL(11, 2)  NULL , 
+CAED02 DECIMAL(11, 2)  NULL , 
+ABED02 DECIMAL(11, 2)  NULL , 
+SAMD02 DECIMAL(11, 2)  NULL , 
+CADD03 DECIMAL(11, 2)  NULL , 
+ABDD03 DECIMAL(11, 2)  NULL , 
+CAED03 DECIMAL(11, 2)  NULL , 
+ABED03 DECIMAL(11, 2)  NULL , 
+SAMD03 DECIMAL(11, 2)  NULL , 
+CADD04 DECIMAL(11, 2)  NULL , 
+ABDD04 DECIMAL(11, 2)  NULL , 
+CAED04 DECIMAL(11, 2)  NULL , 
+ABED04 DECIMAL(11, 2)  NULL , 
+SAMD04 DECIMAL(11, 2)  NULL , 
+CADD05 DECIMAL(11, 2)  NULL , 
+ABDD05 DECIMAL(11, 2)  NULL , 
+CAED05 DECIMAL(11, 2)  NULL , 
+ABED05 DECIMAL(11, 2)  NULL , 
+SAMD05 DECIMAL(11, 2)  NULL , 
+CADD06 DECIMAL(11, 2)  NULL , 
+ABDD06 DECIMAL(11, 2)  NULL , 
+CAED06 DECIMAL(11, 2)  NULL , 
+ABED06 DECIMAL(11, 2)  NULL , 
+SAMD06 DECIMAL(11, 2)  NULL , 
+CADD07 DECIMAL(11, 2)  NULL , 
+ABDD07 DECIMAL(11, 2)  NULL , 
+CAED07 DECIMAL(11, 2)  NULL , 
+ABED07 DECIMAL(11, 2)  NULL , 
+SAMD07 DECIMAL(11, 2)  NULL , 
+CADD08 DECIMAL(11, 2)  NULL , 
+ABDD08 DECIMAL(11, 2)  NULL , 
+CAED08 DECIMAL(11, 2)  NULL , 
+ABED08 DECIMAL(11, 2)  NULL , 
+SAMD08 DECIMAL(11, 2)  NULL , 
+CADD09 DECIMAL(11, 2)  NULL , 
+ABDD09 DECIMAL(11, 2)  NULL , 
+CAED09 DECIMAL(11, 2)  NULL , 
+ABED09 DECIMAL(11, 2)  NULL , 
+SAMD09 DECIMAL(11, 2)  NULL , 
+CADD10 DECIMAL(11, 2)  NULL , 
+ABDD10 DECIMAL(11, 2)  NULL , 
+CAED10 DECIMAL(11, 2)  NULL , 
+ABED10 DECIMAL(11, 2)  NULL , 
+SAMD10 DECIMAL(11, 2)  NULL , 
+CADD11 DECIMAL(11, 2)  NULL , 
+ABDD11 DECIMAL(11, 2)  NULL , 
+CAED11 DECIMAL(11, 2)  NULL , 
+ABED11 DECIMAL(11, 2)  NULL , 
+SAMD11 DECIMAL(11, 2)  NULL , 
+CADD12 DECIMAL(11, 2)  NULL , 
+ABDD12 DECIMAL(11, 2)  NULL , 
+CAED12 DECIMAL(11, 2)  NULL , 
+ABED12 DECIMAL(11, 2)  NULL , 
+SAMD12 DECIMAL(11, 2)  NULL , 
+CADD13 DECIMAL(11, 2)  NULL , 
+ABDD13 DECIMAL(11, 2)  NULL , 
+CAED13 DECIMAL(11, 2)  NULL , 
+ABED13 DECIMAL(11, 2)  NULL , 
+SAMD13 DECIMAL(11, 2)  NULL , 
+FU01SM VARCHAR(1)  NULL , 
+FU02SM VARCHAR(1)  NULL , 
+FU03SM VARCHAR(1)  NULL , 
+FU04SM VARCHAR(1)  NULL , 
+FU05SM VARCHAR(1)  NULL , 
+FECRSM DECIMAL(8, 0)  NULL , 
+HOCRSM DECIMAL(6, 0)  NULL , 
+USCRSM VARCHAR(10)  NULL , 
+DICRSM VARCHAR(10)  NULL , 
+RECRSM VARCHAR(10)  NULL , 
+FEMOSM DECIMAL(8, 0)  NULL , 
+HOMOSM DECIMAL(6, 0)  NULL , 
+USMOSM VARCHAR(10)  NULL , 
+DIMOSM VARCHAR(10)  NULL , 
+REMOSM VARCHAR(10)  NULL , 
+ANIO VARCHAR(4)  NULL , 
+FECHA_CARGA_DWH DATETIME(3)  NULL ) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Feb 10 11:37:49 2025', "ActaValue_3" = 'Tue Feb 11 09:58:46 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CNCC::'1566d9b8-c15b-4b3a-90d3-304395c4c8cc'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Name" = '333', "Output_Width_Type" = '96', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'CNCC', "x" = '0', "y" = '0')
+GUID::'dc5fdf59-7563-44a1-85df-5ec5d22041c2' CALL TRANSFORM SQL() OUTPUT(CNCC( PAISCC VARCHAR(3) ,
+ CIASCC VARCHAR(3) ,
+ CODICC VARCHAR(8) ,
+ DIGICC DECIMAL(2, 0) ,
+ NOMBCC VARCHAR(40) ,
+ NOABCC VARCHAR(20) ,
+ COSUCC VARCHAR(8) ,
+ TIPOCC VARCHAR(1) ,
+ STATCC VARCHAR(1) ,
+ COANCC VARCHAR(2) ,
+ RESPCC VARCHAR(40) ,
+ ZONACC VARCHAR(2) ,
+ FU01CC VARCHAR(1) ,
+ FU02CC VARCHAR(1) ,
+ FU03CC VARCHAR(1) ,
+ FU04CC VARCHAR(1) ,
+ FU05CC VARCHAR(1) ,
+ FECRCC DECIMAL(8, 0) ,
+ HOCRCC DECIMAL(6, 0) ,
+ USCRCC VARCHAR(10) ,
+ DICRCC VARCHAR(10) ,
+ RECRCC VARCHAR(10) ,
+ FEMOCC DECIMAL(8, 0) ,
+ HOMOCC DECIMAL(6, 0) ,
+ USMOCC VARCHAR(10) ,
+ DIMOCC VARCHAR(10) ,
+ REMOCC VARCHAR(10) ,
+ FEELCC DECIMAL(8, 0) ,
+ HOELCC DECIMAL(6, 0) ,
+ USELCC VARCHAR(10) ,
+ DIELCC VARCHAR(10) ,
+ REELCC VARCHAR(10) ,
+ MAELCC VARCHAR(1) ,
+ DEPACC VARCHAR(2) ,
+ MUNICC DECIMAL(4, 0) ,
+ ANIO VARCHAR(4)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT &#xD;&#xA;PAISCC,CIASCC,CODICC,DIGICC,NOMBCC,NOABCC,COSUCC,TIPOCC,STATCC,&#xD;&#xA;COANCC,RESPCC,ZONACC,FU01CC,FU02CC,FU03CC,FU04CC,FU05CC,FECRCC,&#xD;&#xA;HOCRCC,USCRCC,DICRCC,RECRCC,FEMOCC,HOMOCC,USMOCC,DIMOCC,REMOCC,&#xD;&#xA;FEELCC,HOELCC,USELCC,DIELCC,REELCC,MAELCC,DEPACC,MUNICC,[$Anio]&#xD;&#xA;FROM NEWCTB.[$tbl_CNCC][$Desde]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '62', "ui_acta_from_schema_0" = 'CNCC', "x" = '560', "y" = '-6')
+GUID::'d35ea0f3-efbf-4097-8277-d77cb938c734' CREATE VIEW Query( PAISCC VARCHAR(3)  SET( "ui_mapping_text" = 'CNCC.PAISCC', "ui_pasting" = 'CNCC.PAISCC') ,
+ CIASCC VARCHAR(3)  SET( "ui_mapping_text" = 'CNCC.CIASCC', "ui_pasting" = 'CNCC.CIASCC') ,
+ CODICC VARCHAR(8)  SET( "ui_mapping_text" = 'CNCC.CODICC', "ui_pasting" = 'CNCC.CODICC') ,
+ DIGICC DECIMAL(2, 0)  SET( "ui_mapping_text" = 'CNCC.DIGICC', "ui_pasting" = 'CNCC.DIGICC') ,
+ NOMBCC VARCHAR(40)  SET( "ui_mapping_text" = 'CNCC.NOMBCC', "ui_pasting" = 'CNCC.NOMBCC') ,
+ NOABCC VARCHAR(20)  SET( "ui_mapping_text" = 'CNCC.NOABCC', "ui_pasting" = 'CNCC.NOABCC') ,
+ COSUCC VARCHAR(8)  SET( "ui_mapping_text" = 'CNCC.COSUCC', "ui_pasting" = 'CNCC.COSUCC') ,
+ TIPOCC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.TIPOCC', "ui_pasting" = 'CNCC.TIPOCC') ,
+ STATCC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.STATCC', "ui_pasting" = 'CNCC.STATCC') ,
+ COANCC VARCHAR(2)  SET( "ui_mapping_text" = 'CNCC.COANCC', "ui_pasting" = 'CNCC.COANCC') ,
+ RESPCC VARCHAR(40)  SET( "ui_mapping_text" = 'CNCC.RESPCC', "ui_pasting" = 'CNCC.RESPCC') ,
+ ZONACC VARCHAR(2)  SET( "ui_mapping_text" = 'CNCC.ZONACC', "ui_pasting" = 'CNCC.ZONACC') ,
+ FU01CC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.FU01CC', "ui_pasting" = 'CNCC.FU01CC') ,
+ FU02CC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.FU02CC', "ui_pasting" = 'CNCC.FU02CC') ,
+ FU03CC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.FU03CC', "ui_pasting" = 'CNCC.FU03CC') ,
+ FU04CC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.FU04CC', "ui_pasting" = 'CNCC.FU04CC') ,
+ FU05CC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.FU05CC', "ui_pasting" = 'CNCC.FU05CC') ,
+ FECRCC DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNCC.FECRCC', "ui_pasting" = 'CNCC.FECRCC') ,
+ HOCRCC DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNCC.HOCRCC', "ui_pasting" = 'CNCC.HOCRCC') ,
+ USCRCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.USCRCC', "ui_pasting" = 'CNCC.USCRCC') ,
+ DICRCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.DICRCC', "ui_pasting" = 'CNCC.DICRCC') ,
+ RECRCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.RECRCC', "ui_pasting" = 'CNCC.RECRCC') ,
+ FEMOCC DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNCC.FEMOCC', "ui_pasting" = 'CNCC.FEMOCC') ,
+ HOMOCC DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNCC.HOMOCC', "ui_pasting" = 'CNCC.HOMOCC') ,
+ USMOCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.USMOCC', "ui_pasting" = 'CNCC.USMOCC') ,
+ DIMOCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.DIMOCC', "ui_pasting" = 'CNCC.DIMOCC') ,
+ REMOCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.REMOCC', "ui_pasting" = 'CNCC.REMOCC') ,
+ FEELCC DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNCC.FEELCC', "ui_pasting" = 'CNCC.FEELCC') ,
+ HOELCC DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNCC.HOELCC', "ui_pasting" = 'CNCC.HOELCC') ,
+ USELCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.USELCC', "ui_pasting" = 'CNCC.USELCC') ,
+ DIELCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.DIELCC', "ui_pasting" = 'CNCC.DIELCC') ,
+ REELCC VARCHAR(10)  SET( "ui_mapping_text" = 'CNCC.REELCC', "ui_pasting" = 'CNCC.REELCC') ,
+ MAELCC VARCHAR(1)  SET( "ui_mapping_text" = 'CNCC.MAELCC', "ui_pasting" = 'CNCC.MAELCC') ,
+ DEPACC VARCHAR(2)  SET( "ui_mapping_text" = 'CNCC.DEPACC', "ui_pasting" = 'CNCC.DEPACC') ,
+ MUNICC DECIMAL(4, 0)  SET( "ui_mapping_text" = 'CNCC.MUNICC', "ui_pasting" = 'CNCC.MUNICC') ,
+ ANIO VARCHAR(4)  SET( "ui_mapping_text" = 'CNCC.ANIO', "ui_pasting" = 'CNCC.ANIO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CNCC.PAISCC, CNCC.CIASCC, CNCC.CODICC, CNCC.DIGICC, CNCC.NOMBCC, CNCC.NOABCC, CNCC.COSUCC, CNCC.TIPOCC, CNCC.STATCC, CNCC.COANCC, CNCC.RESPCC, CNCC.ZONACC, CNCC.FU01CC, CNCC.FU02CC, CNCC.FU03CC, CNCC.FU04CC, CNCC.FU05CC, CNCC.FECRCC, CNCC.HOCRCC, CNCC.USCRCC, CNCC.DICRCC, CNCC.RECRCC, CNCC.FEMOCC, CNCC.HOMOCC, CNCC.USMOCC, CNCC.DIMOCC, CNCC.REMOCC, CNCC.FEELCC, CNCC.HOELCC, CNCC.USELCC, CNCC.DIELCC, CNCC.REELCC, CNCC.MAELCC, CNCC.DEPACC, CNCC.MUNICC, CNCC.ANIO, sysdate() FROM CNCC 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '1109', "y" = '-6')
+GUID::'63aecf48-046c-41ec-849c-c84249b1d41e' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNCC INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Feb 10 17:04:46 2025', "ActaValue_3" = 'Tue Feb 11 09:58:46 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CNCT::'03aec3b5-bcf1-4b2c-9d28-3df4eee5b85f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'CNCT', "x" = '700', "y" = '-656')
+GUID::'09a28d85-2a9b-4d72-9a0c-3f5a0e640d54' CALL TRANSFORM SQL() OUTPUT(CNCT( PAISCT VARCHAR(3) ,
+ CIASCT VARCHAR(3) ,
+ NUCTCT VARCHAR(12) ,
+ NDCTCT DECIMAL(2, 0) ,
+ NOCTCT VARCHAR(40) ,
+ NOABCT VARCHAR(20) ,
+ NUSUCT VARCHAR(12) ,
+ TICTCT VARCHAR(1) ,
+ AUXICT VARCHAR(1) ,
+ CECOCT VARCHAR(1) ,
+ STCTCT VARCHAR(1) ,
+ TICACT VARCHAR(1) ,
+ SIGNCT VARCHAR(1) ,
+ MOCLCT VARCHAR(3) ,
+ CTCOCT VARCHAR(12) ,
+ CTANCT VARCHAR(12) ,
+ FU01CT VARCHAR(1) ,
+ FU02CT VARCHAR(1) ,
+ FU03CT VARCHAR(1) ,
+ FU04CT VARCHAR(1) ,
+ FU05CT VARCHAR(1) ,
+ FECRCT DECIMAL(8, 0) ,
+ HOCRCT DECIMAL(6, 0) ,
+ USCRCT VARCHAR(10) ,
+ DICRCT VARCHAR(10) ,
+ RECRCT VARCHAR(10) ,
+ FEMOCT DECIMAL(8, 0) ,
+ HOMOCT DECIMAL(6, 0) ,
+ USMOCT VARCHAR(10) ,
+ DIMOCT VARCHAR(10) ,
+ REMOCT VARCHAR(10) ,
+ ANIO VARCHAR(4)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>select &#xD;&#xA;PAISCT,CIASCT,NUCTCT,NDCTCT,&#xD;&#xA;NOCTCT,NOABCT,NUSUCT,TICTCT,&#xD;&#xA;AUXICT,CECOCT,STCTCT,TICACT,&#xD;&#xA;SIGNCT,MOCLCT,CTCOCT,CTANCT,&#xD;&#xA;FU01CT,FU02CT,FU03CT,FU04CT,&#xD;&#xA;FU05CT,FECRCT,HOCRCT,USCRCT,&#xD;&#xA;DICRCT,RECRCT,FEMOCT,HOMOCT,&#xD;&#xA;USMOCT,DIMOCT,REMOCT,[$Anio] &#xD;&#xA;from NEWCTB.[$tbl_CNCT][$Desde]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'CNCT', "x" = '1325', "y" = '-655')
+GUID::'9f0d5955-1610-4a10-93a5-9c68747c4cef' CREATE VIEW Query( PAISCT VARCHAR(3)  SET( "ui_mapping_text" = 'CNCT.PAISCT') ,
+ CIASCT VARCHAR(3)  SET( "ui_mapping_text" = 'CNCT.CIASCT') ,
+ NUCTCT VARCHAR(12)  SET( "ui_mapping_text" = 'CNCT.NUCTCT') ,
+ NDCTCT DECIMAL(2, 0)  SET( "ui_mapping_text" = 'CNCT.NDCTCT') ,
+ NOCTCT VARCHAR(40)  SET( "ui_mapping_text" = 'CNCT.NOCTCT') ,
+ NOABCT VARCHAR(20)  SET( "ui_mapping_text" = 'CNCT.NOABCT') ,
+ NUSUCT VARCHAR(12)  SET( "ui_mapping_text" = 'CNCT.NUSUCT') ,
+ TICTCT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.TICTCT') ,
+ AUXICT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.AUXICT') ,
+ CECOCT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.CECOCT') ,
+ STCTCT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.STCTCT') ,
+ TICACT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.TICACT') ,
+ SIGNCT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.SIGNCT') ,
+ MOCLCT VARCHAR(3)  SET( "ui_mapping_text" = 'CNCT.MOCLCT') ,
+ CTCOCT VARCHAR(12)  SET( "ui_mapping_text" = 'CNCT.CTCOCT') ,
+ CTANCT VARCHAR(12)  SET( "ui_mapping_text" = 'CNCT.CTANCT') ,
+ FU01CT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.FU01CT') ,
+ FU02CT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.FU02CT') ,
+ FU03CT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.FU03CT') ,
+ FU04CT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.FU04CT') ,
+ FU05CT VARCHAR(1)  SET( "ui_mapping_text" = 'CNCT.FU05CT') ,
+ FECRCT DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNCT.FECRCT') ,
+ HOCRCT DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNCT.HOCRCT') ,
+ USCRCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.USCRCT') ,
+ DICRCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.DICRCT') ,
+ RECRCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.RECRCT') ,
+ FEMOCT DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNCT.FEMOCT') ,
+ HOMOCT DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNCT.HOMOCT') ,
+ USMOCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.USMOCT') ,
+ DIMOCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.DIMOCT') ,
+ REMOCT VARCHAR(10)  SET( "ui_mapping_text" = 'CNCT.REMOCT') ,
+ ANIO VARCHAR(4)  SET( "ui_mapping_text" = 'CNCT.ANIO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CNCT.PAISCT, CNCT.CIASCT, CNCT.NUCTCT, CNCT.NDCTCT, CNCT.NOCTCT, CNCT.NOABCT, CNCT.NUSUCT, CNCT.TICTCT, CNCT.AUXICT, CNCT.CECOCT, CNCT.STCTCT, CNCT.TICACT, CNCT.SIGNCT, CNCT.MOCLCT, CNCT.CTCOCT, CNCT.CTANCT, CNCT.FU01CT, CNCT.FU02CT, CNCT.FU03CT, CNCT.FU04CT, CNCT.FU05CT, CNCT.FECRCT, CNCT.HOCRCT, CNCT.USCRCT, CNCT.DICRCT, CNCT.RECRCT, CNCT.FEMOCT, CNCT.HOMOCT, CNCT.USMOCT, CNCT.DIMOCT, CNCT.REMOCT, CNCT.ANIO, sysdate() FROM CNCT 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>432</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '1906', "y" = '-653')
+GUID::'c3db15a3-d8f9-4357-8c00-e110d8410105' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNCT INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue Feb 11 09:27:53 2025', "ActaValue_3" = 'Tue Feb 11 09:58:46 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CNSMCT::'493734e5-299f-4a49-b4e6-9b94cda4f3b2'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'CNSMCT', "x" = '725', "y" = '-831')
+GUID::'68069b3a-f9d1-44aa-bcff-74b186c2e5aa' CALL TRANSFORM SQL() OUTPUT(CNSMCT( PAISSM VARCHAR(3) ,
+ CIASSM VARCHAR(3) ,
+ AÑOESM VARCHAR(4) ,
+ NUCTSM VARCHAR(12) ,
+ NUCCSM VARCHAR(8) ,
+ SUCTSM VARCHAR(12) ,
+ SUCCSM VARCHAR(8) ,
+ TCTASM VARCHAR(1) ,
+ TCCOSM VARCHAR(1) ,
+ TICTSM VARCHAR(1) ,
+ SIML01 DECIMAL(11, 2) ,
+ CADL01 DECIMAL(11, 2) ,
+ ABDL01 DECIMAL(11, 2) ,
+ CAEL01 DECIMAL(11, 2) ,
+ ABEL01 DECIMAL(11, 2) ,
+ SAML01 DECIMAL(11, 2) ,
+ CADL02 DECIMAL(11, 2) ,
+ ABDL02 DECIMAL(11, 2) ,
+ CAEL02 DECIMAL(11, 2) ,
+ ABEL02 DECIMAL(11, 2) ,
+ SAML02 DECIMAL(11, 2) ,
+ CADL03 DECIMAL(11, 2) ,
+ ABDL03 DECIMAL(11, 2) ,
+ CAEL03 DECIMAL(11, 2) ,
+ ABEL03 DECIMAL(11, 2) ,
+ SAML03 DECIMAL(11, 2) ,
+ CADL04 DECIMAL(11, 2) ,
+ ABDL04 DECIMAL(11, 2) ,
+ CAEL04 DECIMAL(11, 2) ,
+ ABEL04 DECIMAL(11, 2) ,
+ SAML04 DECIMAL(11, 2) ,
+ CADL05 DECIMAL(11, 2) ,
+ ABDL05 DECIMAL(11, 2) ,
+ CAEL05 DECIMAL(11, 2) ,
+ ABEL05 DECIMAL(11, 2) ,
+ SAML05 DECIMAL(11, 2) ,
+ CADL06 DECIMAL(11, 2) ,
+ ABDL06 DECIMAL(11, 2) ,
+ CAEL06 DECIMAL(11, 2) ,
+ ABEL06 DECIMAL(11, 2) ,
+ SAML06 DECIMAL(11, 2) ,
+ CADL07 DECIMAL(11, 2) ,
+ ABDL07 DECIMAL(11, 2) ,
+ CAEL07 DECIMAL(11, 2) ,
+ ABEL07 DECIMAL(11, 2) ,
+ SAML07 DECIMAL(11, 2) ,
+ CADL08 DECIMAL(11, 2) ,
+ ABDL08 DECIMAL(11, 2) ,
+ CAEL08 DECIMAL(11, 2) ,
+ ABEL08 DECIMAL(11, 2) ,
+ SAML08 DECIMAL(11, 2) ,
+ CADL09 DECIMAL(11, 2) ,
+ ABDL09 DECIMAL(11, 2) ,
+ CAEL09 DECIMAL(11, 2) ,
+ ABEL09 DECIMAL(11, 2) ,
+ SAML09 DECIMAL(11, 2) ,
+ CADL10 DECIMAL(11, 2) ,
+ ABDL10 DECIMAL(11, 2) ,
+ CAEL10 DECIMAL(11, 2) ,
+ ABEL10 DECIMAL(11, 2) ,
+ SAML10 DECIMAL(11, 2) ,
+ CADL11 DECIMAL(11, 2) ,
+ ABDL11 DECIMAL(11, 2) ,
+ CAEL11 DECIMAL(11, 2) ,
+ ABEL11 DECIMAL(11, 2) ,
+ SAML11 DECIMAL(11, 2) ,
+ CADL12 DECIMAL(11, 2) ,
+ ABDL12 DECIMAL(11, 2) ,
+ CAEL12 DECIMAL(11, 2) ,
+ ABEL12 DECIMAL(11, 2) ,
+ SAML12 DECIMAL(11, 2) ,
+ CADL13 DECIMAL(11, 2) ,
+ ABDL13 DECIMAL(11, 2) ,
+ CAEL13 DECIMAL(11, 2) ,
+ ABEL13 DECIMAL(11, 2) ,
+ SAML13 DECIMAL(11, 2) ,
+ SIMD01 DECIMAL(11, 2) ,
+ CADD01 DECIMAL(11, 2) ,
+ ABDD01 DECIMAL(11, 2) ,
+ CAED01 DECIMAL(11, 2) ,
+ ABED01 DECIMAL(11, 2) ,
+ SAMD01 DECIMAL(11, 2) ,
+ CADD02 DECIMAL(11, 2) ,
+ ABDD02 DECIMAL(11, 2) ,
+ CAED02 DECIMAL(11, 2) ,
+ ABED02 DECIMAL(11, 2) ,
+ SAMD02 DECIMAL(11, 2) ,
+ CADD03 DECIMAL(11, 2) ,
+ ABDD03 DECIMAL(11, 2) ,
+ CAED03 DECIMAL(11, 2) ,
+ ABED03 DECIMAL(11, 2) ,
+ SAMD03 DECIMAL(11, 2) ,
+ CADD04 DECIMAL(11, 2) ,
+ ABDD04 DECIMAL(11, 2) ,
+ CAED04 DECIMAL(11, 2) ,
+ ABED04 DECIMAL(11, 2) ,
+ SAMD04 DECIMAL(11, 2) ,
+ CADD05 DECIMAL(11, 2) ,
+ ABDD05 DECIMAL(11, 2) ,
+ CAED05 DECIMAL(11, 2) ,
+ ABED05 DECIMAL(11, 2) ,
+ SAMD05 DECIMAL(11, 2) ,
+ CADD06 DECIMAL(11, 2) ,
+ ABDD06 DECIMAL(11, 2) ,
+ CAED06 DECIMAL(11, 2) ,
+ ABED06 DECIMAL(11, 2) ,
+ SAMD06 DECIMAL(11, 2) ,
+ CADD07 DECIMAL(11, 2) ,
+ ABDD07 DECIMAL(11, 2) ,
+ CAED07 DECIMAL(11, 2) ,
+ ABED07 DECIMAL(11, 2) ,
+ SAMD07 DECIMAL(11, 2) ,
+ CADD08 DECIMAL(11, 2) ,
+ ABDD08 DECIMAL(11, 2) ,
+ CAED08 DECIMAL(11, 2) ,
+ ABED08 DECIMAL(11, 2) ,
+ SAMD08 DECIMAL(11, 2) ,
+ CADD09 DECIMAL(11, 2) ,
+ ABDD09 DECIMAL(11, 2) ,
+ CAED09 DECIMAL(11, 2) ,
+ ABED09 DECIMAL(11, 2) ,
+ SAMD09 DECIMAL(11, 2) ,
+ CADD10 DECIMAL(11, 2) ,
+ ABDD10 DECIMAL(11, 2) ,
+ CAED10 DECIMAL(11, 2) ,
+ ABED10 DECIMAL(11, 2) ,
+ SAMD10 DECIMAL(11, 2) ,
+ CADD11 DECIMAL(11, 2) ,
+ ABDD11 DECIMAL(11, 2) ,
+ CAED11 DECIMAL(11, 2) ,
+ ABED11 DECIMAL(11, 2) ,
+ SAMD11 DECIMAL(11, 2) ,
+ CADD12 DECIMAL(11, 2) ,
+ ABDD12 DECIMAL(11, 2) ,
+ CAED12 DECIMAL(11, 2) ,
+ ABED12 DECIMAL(11, 2) ,
+ SAMD12 DECIMAL(11, 2) ,
+ CADD13 DECIMAL(11, 2) ,
+ ABDD13 DECIMAL(11, 2) ,
+ CAED13 DECIMAL(11, 2) ,
+ ABED13 DECIMAL(11, 2) ,
+ SAMD13 DECIMAL(11, 2) ,
+ FU01SM VARCHAR(1) ,
+ FU02SM VARCHAR(1) ,
+ FU03SM VARCHAR(1) ,
+ FU04SM VARCHAR(1) ,
+ FU05SM VARCHAR(1) ,
+ FECRSM DECIMAL(8, 0) ,
+ HOCRSM DECIMAL(6, 0) ,
+ USCRSM VARCHAR(10) ,
+ DICRSM VARCHAR(10) ,
+ RECRSM VARCHAR(10) ,
+ FEMOSM DECIMAL(8, 0) ,
+ HOMOSM DECIMAL(6, 0) ,
+ USMOSM VARCHAR(10) ,
+ DIMOSM VARCHAR(10) ,
+ REMOSM VARCHAR(10) ,
+ ANIO VARCHAR(4)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>select &#xD;&#xA;PAISSM,CIASSM,AÑOESM,NUCTSM,NUCCSM,SUCTSM,SUCCSM,TCTASM,TCCOSM,TICTSM,SIML01,CADL01,ABDL01,CAEL01,ABEL01,SAML01,CADL02,ABDL02,CAEL02,ABEL02,SAML02,CADL03,&#xD;&#xA;ABDL03,CAEL03,ABEL03,SAML03,CADL04,ABDL04,CAEL04,ABEL04,SAML04,CADL05,ABDL05,CAEL05,ABEL05,SAML05,CADL06,ABDL06,CAEL06,ABEL06,SAML06,CADL07,ABDL07,CAEL07,&#xD;&#xA;ABEL07,SAML07,CADL08,ABDL08,CAEL08,ABEL08,SAML08,CADL09,ABDL09,CAEL09,ABEL09,SAML09,CADL10,ABDL10,CAEL10,ABEL10,SAML10,CADL11,ABDL11,CAEL11,ABEL11,SAML11,&#xD;&#xA;CADL12,ABDL12,CAEL12,ABEL12,SAML12,CADL13,ABDL13,CAEL13,ABEL13,SAML13,SIMD01,CADD01,ABDD01,CAED01,ABED01,SAMD01,CADD02,ABDD02,CAED02,ABED02,SAMD02,CADD03,&#xD;&#xA;ABDD03,CAED03,ABED03,SAMD03,CADD04,ABDD04,CAED04,ABED04,SAMD04,CADD05,ABDD05,CAED05,ABED05,SAMD05,CADD06,ABDD06,CAED06,ABED06,SAMD06,CADD07,ABDD07,CAED07,&#xD;&#xA;ABED07,SAMD07,CADD08,ABDD08,CAED08,ABED08,SAMD08,CADD09,ABDD09,CAED09,ABED09,SAMD09,CADD10,ABDD10,CAED10,ABED10,SAMD10,CADD11,ABDD11,CAED11,ABED11,SAMD11,&#xD;&#xA;CADD12,ABDD12,CAED12,ABED12,SAMD12,CADD13,ABDD13,CAED13,ABED13,SAMD13,FU01SM,FU02SM,FU03SM,FU04SM,FU05SM,FECRSM,HOCRSM,USCRSM,DICRSM,RECRSM,FEMOSM,HOMOSM,&#xD;&#xA;USMOSM,DIMOSM,REMOSM,[$Anio] &#xD;&#xA;from NEWCTB.[$tbl_CNSMCT][$Desde]</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '47', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'CNSMCT', "x" = '1492', "y" = '-830')
+GUID::'f12717db-dd1e-4cdc-a0bb-46bdf5ae1f64' CREATE VIEW Query( PAISSM VARCHAR(3)  SET( "ui_mapping_text" = 'CNSMCT.PAISSM') ,
+ CIASSM VARCHAR(3)  SET( "ui_mapping_text" = 'CNSMCT.CIASSM') ,
+ AÑOESM VARCHAR(4)  SET( "ui_mapping_text" = 'CNSMCT.AÑOESM') ,
+ NUCTSM VARCHAR(12)  SET( "ui_mapping_text" = 'CNSMCT.NUCTSM') ,
+ NUCCSM VARCHAR(8)  SET( "ui_mapping_text" = 'CNSMCT.NUCCSM') ,
+ SUCTSM VARCHAR(12)  SET( "ui_mapping_text" = 'CNSMCT.SUCTSM') ,
+ SUCCSM VARCHAR(8)  SET( "ui_mapping_text" = 'CNSMCT.SUCCSM') ,
+ TCTASM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.TCTASM') ,
+ TCCOSM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.TCCOSM') ,
+ TICTSM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.TICTSM') ,
+ SIML01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SIML01') ,
+ CADL01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL01') ,
+ ABDL01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL01') ,
+ CAEL01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL01') ,
+ ABEL01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL01') ,
+ SAML01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML01') ,
+ CADL02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL02') ,
+ ABDL02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL02') ,
+ CAEL02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL02') ,
+ ABEL02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL02') ,
+ SAML02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML02') ,
+ CADL03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL03') ,
+ ABDL03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL03') ,
+ CAEL03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL03') ,
+ ABEL03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL03') ,
+ SAML03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML03') ,
+ CADL04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL04') ,
+ ABDL04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL04') ,
+ CAEL04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL04') ,
+ ABEL04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL04') ,
+ SAML04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML04') ,
+ CADL05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL05') ,
+ ABDL05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL05') ,
+ CAEL05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL05') ,
+ ABEL05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL05') ,
+ SAML05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML05') ,
+ CADL06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL06') ,
+ ABDL06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL06') ,
+ CAEL06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL06') ,
+ ABEL06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL06') ,
+ SAML06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML06') ,
+ CADL07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL07') ,
+ ABDL07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL07') ,
+ CAEL07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL07') ,
+ ABEL07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL07') ,
+ SAML07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML07') ,
+ CADL08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL08') ,
+ ABDL08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL08') ,
+ CAEL08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL08') ,
+ ABEL08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL08') ,
+ SAML08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML08') ,
+ CADL09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL09') ,
+ ABDL09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL09') ,
+ CAEL09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL09') ,
+ ABEL09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL09') ,
+ SAML09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML09') ,
+ CADL10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL10') ,
+ ABDL10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL10') ,
+ CAEL10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL10') ,
+ ABEL10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL10') ,
+ SAML10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML10') ,
+ CADL11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL11') ,
+ ABDL11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL11') ,
+ CAEL11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL11') ,
+ ABEL11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL11') ,
+ SAML11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML11') ,
+ CADL12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL12') ,
+ ABDL12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL12') ,
+ CAEL12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL12') ,
+ ABEL12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL12') ,
+ SAML12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML12') ,
+ CADL13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADL13') ,
+ ABDL13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDL13') ,
+ CAEL13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAEL13') ,
+ ABEL13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABEL13') ,
+ SAML13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAML13') ,
+ SIMD01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SIMD01') ,
+ CADD01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD01') ,
+ ABDD01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD01') ,
+ CAED01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED01') ,
+ ABED01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED01') ,
+ SAMD01 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD01') ,
+ CADD02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD02') ,
+ ABDD02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD02') ,
+ CAED02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED02') ,
+ ABED02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED02') ,
+ SAMD02 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD02') ,
+ CADD03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD03') ,
+ ABDD03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD03') ,
+ CAED03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED03') ,
+ ABED03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED03') ,
+ SAMD03 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD03') ,
+ CADD04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD04') ,
+ ABDD04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD04') ,
+ CAED04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED04') ,
+ ABED04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED04') ,
+ SAMD04 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD04') ,
+ CADD05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD05') ,
+ ABDD05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD05') ,
+ CAED05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED05') ,
+ ABED05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED05') ,
+ SAMD05 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD05') ,
+ CADD06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD06') ,
+ ABDD06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD06') ,
+ CAED06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED06') ,
+ ABED06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED06') ,
+ SAMD06 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD06') ,
+ CADD07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD07') ,
+ ABDD07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD07') ,
+ CAED07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED07') ,
+ ABED07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED07') ,
+ SAMD07 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD07') ,
+ CADD08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD08') ,
+ ABDD08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD08') ,
+ CAED08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED08') ,
+ ABED08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED08') ,
+ SAMD08 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD08') ,
+ CADD09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD09') ,
+ ABDD09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD09') ,
+ CAED09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED09') ,
+ ABED09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED09') ,
+ SAMD09 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD09') ,
+ CADD10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD10') ,
+ ABDD10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD10') ,
+ CAED10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED10') ,
+ ABED10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED10') ,
+ SAMD10 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD10') ,
+ CADD11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD11') ,
+ ABDD11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD11') ,
+ CAED11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED11') ,
+ ABED11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED11') ,
+ SAMD11 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD11') ,
+ CADD12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD12') ,
+ ABDD12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD12') ,
+ CAED12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED12') ,
+ ABED12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED12') ,
+ SAMD12 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD12') ,
+ CADD13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CADD13') ,
+ ABDD13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABDD13') ,
+ CAED13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.CAED13') ,
+ ABED13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.ABED13') ,
+ SAMD13 DECIMAL(11, 2)  SET( "ui_mapping_text" = 'CNSMCT.SAMD13') ,
+ FU01SM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.FU01SM') ,
+ FU02SM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.FU02SM') ,
+ FU03SM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.FU03SM') ,
+ FU04SM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.FU04SM') ,
+ FU05SM VARCHAR(1)  SET( "ui_mapping_text" = 'CNSMCT.FU05SM') ,
+ FECRSM DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNSMCT.FECRSM') ,
+ HOCRSM DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNSMCT.HOCRSM') ,
+ USCRSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.USCRSM') ,
+ DICRSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.DICRSM') ,
+ RECRSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.RECRSM') ,
+ FEMOSM DECIMAL(8, 0)  SET( "ui_mapping_text" = 'CNSMCT.FEMOSM') ,
+ HOMOSM DECIMAL(6, 0)  SET( "ui_mapping_text" = 'CNSMCT.HOMOSM') ,
+ USMOSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.USMOSM') ,
+ DIMOSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.DIMOSM') ,
+ REMOSM VARCHAR(10)  SET( "ui_mapping_text" = 'CNSMCT.REMOSM') ,
+ ANIO VARCHAR(4)  SET( "ui_mapping_text" = 'CNSMCT.ANIO') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT CNSMCT.PAISSM, CNSMCT.CIASSM, CNSMCT.AÑOESM, CNSMCT.NUCTSM, CNSMCT.NUCCSM, CNSMCT.SUCTSM, CNSMCT.SUCCSM, CNSMCT.TCTASM, CNSMCT.TCCOSM, CNSMCT.TICTSM, CNSMCT.SIML01, CNSMCT.CADL01, CNSMCT.ABDL01, CNSMCT.CAEL01, CNSMCT.ABEL01, CNSMCT.SAML01, CNSMCT.CADL02, CNSMCT.ABDL02, CNSMCT.CAEL02, CNSMCT.ABEL02, CNSMCT.SAML02, CNSMCT.CADL03, CNSMCT.ABDL03, CNSMCT.CAEL03, CNSMCT.ABEL03, CNSMCT.SAML03, CNSMCT.CADL04, CNSMCT.ABDL04, CNSMCT.CAEL04, CNSMCT.ABEL04, CNSMCT.SAML04, CNSMCT.CADL05, CNSMCT.ABDL05, CNSMCT.CAEL05, CNSMCT.ABEL05, CNSMCT.SAML05, CNSMCT.CADL06, CNSMCT.ABDL06, CNSMCT.CAEL06, CNSMCT.ABEL06, CNSMCT.SAML06, CNSMCT.CADL07, CNSMCT.ABDL07, CNSMCT.CAEL07, CNSMCT.ABEL07, CNSMCT.SAML07, CNSMCT.CADL08, CNSMCT.ABDL08, CNSMCT.CAEL08, CNSMCT.ABEL08, CNSMCT.SAML08, CNSMCT.CADL09, CNSMCT.ABDL09, CNSMCT.CAEL09, CNSMCT.ABEL09, CNSMCT.SAML09, CNSMCT.CADL10, CNSMCT.ABDL10, CNSMCT.CAEL10, CNSMCT.ABEL10, CNSMCT.SAML10, CNSMCT.CADL11, CNSMCT.ABDL11, CNSMCT.CAEL11, CNSMCT.ABEL11, CNSMCT.SAML11, CNSMCT.CADL12, CNSMCT.ABDL12, CNSMCT.CAEL12, CNSMCT.ABEL12, CNSMCT.SAML12, CNSMCT.CADL13, CNSMCT.ABDL13, CNSMCT.CAEL13, CNSMCT.ABEL13, CNSMCT.SAML13, CNSMCT.SIMD01, CNSMCT.CADD01, CNSMCT.ABDD01, CNSMCT.CAED01, CNSMCT.ABED01, CNSMCT.SAMD01, CNSMCT.CADD02, CNSMCT.ABDD02, CNSMCT.CAED02, CNSMCT.ABED02, CNSMCT.SAMD02, CNSMCT.CADD03, CNSMCT.ABDD03, CNSMCT.CAED03, CNSMCT.ABED03, CNSMCT.SAMD03, CNSMCT.CADD04, CNSMCT.ABDD04, CNSMCT.CAED04, CNSMCT.ABED04, CNSMCT.SAMD04, CNSMCT.CADD05, CNSMCT.ABDD05, CNSMCT.CAED05, CNSMCT.ABED05, CNSMCT.SAMD05, CNSMCT.CADD06, CNSMCT.ABDD06, CNSMCT.CAED06, CNSMCT.ABED06, CNSMCT.SAMD06, CNSMCT.CADD07, CNSMCT.ABDD07, CNSMCT.CAED07, CNSMCT.ABED07, CNSMCT.SAMD07, CNSMCT.CADD08, CNSMCT.ABDD08, CNSMCT.CAED08, CNSMCT.ABED08, CNSMCT.SAMD08, CNSMCT.CADD09, CNSMCT.ABDD09, CNSMCT.CAED09, CNSMCT.ABED09, CNSMCT.SAMD09, CNSMCT.CADD10, CNSMCT.ABDD10, CNSMCT.CAED10, CNSMCT.ABED10, CNSMCT.SAMD10, CNSMCT.CADD11, CNSMCT.ABDD11, CNSMCT.CAED11, CNSMCT.ABED11, CNSMCT.SAMD11, CNSMCT.CADD12, CNSMCT.ABDD12, CNSMCT.CAED12, CNSMCT.ABED12, CNSMCT.SAMD12, CNSMCT.CADD13, CNSMCT.ABDD13, CNSMCT.CAED13, CNSMCT.ABED13, CNSMCT.SAMD13, CNSMCT.FU01SM, CNSMCT.FU02SM, CNSMCT.FU03SM, CNSMCT.FU04SM, CNSMCT.FU05SM, CNSMCT.FECRSM, CNSMCT.HOCRSM, CNSMCT.USCRSM, CNSMCT.DICRSM, CNSMCT.RECRSM, CNSMCT.FEMOSM, CNSMCT.HOMOSM, CNSMCT.USMOSM, CNSMCT.DIMOSM, CNSMCT.REMOSM, CNSMCT.ANIO, sysdate() FROM CNSMCT 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '45', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '31', "x" = '2082', "y" = '-812')
+GUID::'19248d57-27a2-48e8-a4a7-8becb2ac8863' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CNSMCT INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Feb 10 11:55:52 2025', "ActaValue_3" = 'Tue Feb 11 10:46:48 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_FIN0009::'cd385523-e36e-4be5-9323-d9eab189c955'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>247</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_ACTUAL', "ui_script_text" = '$conteo = -156;
+$tbl_CNCC = \'CNCC\';
+$tbl_CNCT = \'CNCT\';
+$tbl_CNSMCT = \'CNSMCT\';
+$Desde = to_char(sysdate(),\'YY\');
+$Anio = to_char(sysdate(),\'YYYY\');
+#$Hasta = to_char(sysdate(),\'YYMM\');
+#print(\'Desde \'||$Desde ||\' Hasta \'||$Hasta);
+print($tbl_CNCC||$Desde);
+
+#-------------------------------------------------------------------
+
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.CNCC WHERE Anio = \\\'\'|| $Anio ||\'\\\'\');
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.CNCT WHERE Anio = \\\'\'|| $Anio ||\'\\\'\');
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.CNSMCT WHERE Anio = \\\'\'|| $Anio ||\'\\\'\');', "x" = '1', "y" = '-422')
+BEGIN_SCRIPT
+$conteo = -156;$tbl_CNCC = 'CNCC';$tbl_CNCT = 'CNCT';$tbl_CNSMCT = 'CNSMCT';$Desde = to_char(sysdate(), 'YY');$Anio = to_char(sysdate(), 'YYYY');print(($tbl_CNCC || $Desde));sql('DS_SQL_SERVER_STAGE_BI', (('DELETE FROM STAGE_BI.DWH.CNCC WHERE Anio = \'' || $Anio) || '\''));sql('DS_SQL_SERVER_STAGE_BI', (('DELETE FROM STAGE_BI.DWH.CNCT WHERE Anio = \'' || $Anio) || '\''));sql('DS_SQL_SERVER_STAGE_BI', (('DELETE FROM STAGE_BI.DWH.CNSMCT WHERE Anio = \'' || $Anio) || '\''));END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '439', "y" = '-422')
+CALL DATAFLOW DF_CNCC::'1566d9b8-c15b-4b3a-90d3-304395c4c8cc'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '896', "y" = '-424')
+CALL DATAFLOW DF_CNCT::'03aec3b5-bcf1-4b2c-9d28-3df4eee5b85f'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>244</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1404', "y" = '-422')
+CALL DATAFLOW DF_CNSMCT::'493734e5-299f-4a49-b4e6-9b94cda4f3b2'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_FIN0009_2::'cc0450e1-9775-4a29-827e-b30a26eb4907'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO', "ui_script_text" = '$Anio = \'\';
+$conteo = -156;
+$tbl_CNCC = \'CNCC\';
+$tbl_CNCT = \'CNCT\';
+$tbl_CNSMCT = \'CNSMCT\';
+$Desde = to_char(add_months(sysdate(),$conteo),\'YY\');
+#$Hasta = to_char(sysdate(),\'YYMM\');
+#print(\'Desde \'||$Desde ||\' Hasta \'||$Hasta);
+print($tbl_CNCC||$Desde);
+', "x" = '0', "y" = '0')
+BEGIN_SCRIPT
+$Anio = '';$conteo = -156;$tbl_CNCC = 'CNCC';$tbl_CNCT = 'CNCT';$tbl_CNSMCT = 'CNSMCT';$Desde = to_char(add_months(sysdate(), $conteo), 'YY');print(($tbl_CNCC || $Desde));END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>228</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'While29889', "x" = '488', "y" = '-2')
+WHILE (($conteo != 0) )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO', "ui_script_text" = '$conteo = $conteo + 12;
+
+print($conteo);
+
+$Desde = to_char(add_months(sysdate(),$conteo),\'YY\');
+$Anio = to_char(add_months(sysdate(),$conteo),\'YYYY\');
+print($tbl_CNCC||$Desde);
+
+
+', "x" = '387', "y" = '-403')
+BEGIN_SCRIPT
+$conteo = ($conteo + 12);print($conteo);$Desde = to_char(add_months(sysdate(), $conteo), 'YY');$Anio = to_char(add_months(sysdate(), $conteo), 'YYYY');print(($tbl_CNCC || $Desde));END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '960', "y" = '-405')
+CALL DATAFLOW DF_CNCC::'1566d9b8-c15b-4b3a-90d3-304395c4c8cc'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1417', "y" = '-404')
+CALL DATAFLOW DF_CNCT::'03aec3b5-bcf1-4b2c-9d28-3df4eee5b85f'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>244</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1935', "y" = '-404')
+CALL DATAFLOW DF_CNSMCT::'493734e5-299f-4a49-b4e6-9b94cda4f3b2'();
+END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

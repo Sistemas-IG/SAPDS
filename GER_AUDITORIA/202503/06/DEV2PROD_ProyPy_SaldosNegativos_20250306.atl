@@ -1,0 +1,1198 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E85B81A0C00D6C031EC335D6B220FCF4907C90804384840414B114CBE7FEFA0A1E2D315FDFBF01A035E9E6FDF7E53821</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ODS::'4a76885e-ae42-460a-99ff-e7767746a3bd' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8F2DAA43818AF389A71C229F96D02A376896D2D277522838A0E1D5B670432702BACD40D96BF6B3383430FC2CBC9</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8B148585A3A694A5F5B325988C13F4106F8D649860F39AEF0C089BA683D6C45B6C2E5E89FF0E7836F68BFF8DFF8</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8560351121B9217901EB5EE6F7820F1A49960D7905F764DE0BE2A7906D08DFA2195C85B72975DC29FE0E46161A756E1901779570FAB7E</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_ODS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ODS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8F96F0020DAA1D8C74533DE2FE93652815FE97F9757AA2D0882B83DA45F13F0D9FA57B2CE4076E46043901F0637</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E829EAC7168653BC1C149D10562B70EE4F263C3A244ADB931C0D89617FB188C6712F0E010712C62E6926765DB1E1</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E819927695BCF53C642E9F32F1BFDB615239B01080B9B97DCA62B4BEFD407B5AF152D8BDBD8EE746BD4B2340B07CDFDF585D63C2D37F16</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '871' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '871' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '0 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Thu Mar  6 13:36:33 2025' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Thu Mar  6 13:54:02 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.ALMUSR(USALM VARCHAR(10)  NULL , 
+RESALM VARCHAR(2)  NULL , 
+DESALM VARCHAR(1)  NULL , 
+GERALM VARCHAR(1)  NULL , 
+CAJALM VARCHAR(1)  NULL , 
+DSPALM VARCHAR(1)  NULL , 
+VENALM VARCHAR(1)  NULL , 
+FECALM VARCHAR(7)  NULL , 
+PLAALM VARCHAR(4)  NULL , 
+NVEALM VARCHAR(4)  NULL , 
+OBSALM VARCHAR(30)  NULL , 
+SWIALM VARCHAR(5)  NULL , 
+BODALM VARCHAR(1)  NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu Mar  6 13:54:02 2025' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '4079' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '4079' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '1 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RSavedAfterCheckOut',ActaValue_10 = 'YES' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'no' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Fri Feb 14 14:09:15 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.PDMAE(DPTOPL VARCHAR(2)  NULL , 
+COREPL VARCHAR(2)  NULL , 
+NOMBPL VARCHAR(30)  NULL , 
+NOMRPL VARCHAR(25)  NULL , 
+CARGPL VARCHAR(20)  NULL , 
+DIR1PL VARCHAR(30)  NULL , 
+DIR2PL VARCHAR(30)  NULL , 
+SEXOPL VARCHAR(1)  NULL , 
+ESTCPL VARCHAR(1)  NULL , 
+CONYPL VARCHAR(30)  NULL , 
+DEV1PL DECIMAL(7, 2)  NULL , 
+DEV2PL DECIMAL(7, 2)  NULL , 
+DEV3PL DECIMAL(7, 2)  NULL , 
+OTR3PL DECIMAL(7, 2)  NULL , 
+TIPAPL VARCHAR(1)  NULL , 
+CTABPL VARCHAR(12)  NULL , 
+NITPL VARCHAR(17)  NULL , 
+ACOEPL VARCHAR(4)  NULL , 
+NUPPL VARCHAR(12)  NULL , 
+TVAPL VARCHAR(1)  NULL , 
+CVAPL DECIMAL(7, 2)  NULL , 
+PVAPL DECIMAL(2, 0)  NULL , 
+SUEAPL DECIMAL(7, 2)  NULL , 
+HORPL DECIMAL(2, 0)  NULL , 
+COEPL DECIMAL(1, 0)  NULL , 
+FENAPL VARCHAR(8)  NULL , 
+NFINPL VARCHAR(8)  NULL , 
+TEMEPL VARCHAR(12)  NULL , 
+TCELPL VARCHAR(7)  NULL , 
+TVIPPL VARCHAR(7)  NULL , 
+UNIDPL VARCHAR(7)  NULL , 
+INGAPL DECIMAL(9, 2)  NULL , 
+ISSAPL DECIMAL(9, 2)  NULL , 
+FPAPL DECIMAL(9, 2)  NULL , 
+CO01PL DECIMAL(9, 2)  NULL , 
+CO02PL DECIMAL(9, 2)  NULL , 
+CO03PL DECIMAL(9, 2)  NULL , 
+CO04PL DECIMAL(9, 2)  NULL , 
+CO05PL DECIMAL(9, 2)  NULL , 
+CO06PL DECIMAL(9, 2)  NULL , 
+CO07PL DECIMAL(9, 2)  NULL , 
+CO08PL DECIMAL(9, 2)  NULL , 
+CO09PL DECIMAL(9, 2)  NULL , 
+CO10PL DECIMAL(9, 2)  NULL , 
+CO11PL DECIMAL(9, 2)  NULL , 
+CO12PL DECIMAL(9, 2)  NULL , 
+FU5PL DECIMAL(9, 2)  NULL , 
+FU6PL VARCHAR(20)  NULL , 
+FU7PL VARCHAR(20)  NULL , 
+FU8PL VARCHAR(20)  NULL , 
+FU9PL VARCHAR(20)  NULL , 
+FU10PL VARCHAR(20)  NULL , 
+FU11PL VARCHAR(4)  NULL , 
+FU12PL VARCHAR(4)  NULL , 
+FU13PL VARCHAR(4)  NULL , 
+FU14PL VARCHAR(4)  NULL , 
+SALAPL DECIMAL(9, 2)  NULL , 
+CIPPL VARCHAR(14)  NULL , 
+ISSSPL VARCHAR(14)  NULL , 
+DUIPL VARCHAR(14)  NULL , 
+LICEPL VARCHAR(14)  NULL , 
+COA1PL VARCHAR(1)  NULL , 
+COA2PL VARCHAR(1)  NULL , 
+ID_PAIS INT  NULL , 
+CCARPL DECIMAL(3, 0)  NULL , 
+FECHA_CARGA_DWH DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'MAESTRO DE EMPLEADOS DE PLANILLA              @EDH' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Dec 19 14:12:45 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWCTB.PDMAE(DPTOPL CHAR(2)  NOT NULL  SET("Description" = 'DEPTO. EMPLEADO'), 
+COREPL CHAR(2)  NOT NULL  SET("Description" = 'CORELATIVO EMPLEADO'), 
+NOMBPL CHAR(30)  NOT NULL  SET("Description" = 'NOMBRE DE EMPLEADO'), 
+NOMRPL CHAR(25)  NOT NULL  SET("Description" = 'NOMBRE REDUCIDO'), 
+CARGPL CHAR(20)  NOT NULL  SET("Description" = 'CARGO DEL EMPLEADO'), 
+DIR1PL CHAR(30)  NOT NULL  SET("Description" = 'DIRECCION EMPLEADO'), 
+DIR2PL CHAR(30)  NOT NULL  SET("Description" = 'DIRECCION EMPLEADO'), 
+PRENPL CHAR(5)  NOT NULL  SET("Description" = 'PRE-NOMBRE EMPLEADO'), 
+PTSPL CHAR(3)  NOT NULL  SET("Description" = 'PUNTOS DEL PUESTO'), 
+TELEPL CHAR(10)  NOT NULL  SET("Description" = 'TELEFONO :'), 
+COA1PL CHAR(1)  NOT NULL  SET("Description" = 'COD. ACT. 1A. QUINC.'), 
+COA2PL CHAR(1)  NOT NULL  SET("Description" = 'COD. ACT. 2A. QUINC.'), 
+COA3PL CHAR(1)  NOT NULL  SET("Description" = 'COD. ACT. COMISIONES'), 
+SEXOPL CHAR(1)  NOT NULL  SET("Description" = 'SEXO (M/F) :'), 
+ESTCPL CHAR(1)  NOT NULL  SET("Description" = 'EST.CIVIL(S/C/V/D/A)'), 
+CONYPL CHAR(30)  NOT NULL  SET("Description" = 'CONYUGE DE EMPLEADO)'), 
+FINGPL CHAR(8)  NOT NULL  SET("Description" = 'FECHA INGRESO :'), 
+SALAPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'SALARIO MENSUAL :'), 
+DEV1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DEVENGADO 1A.Q:'), 
+DEV2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DEVENGADO 2A.Q'), 
+DEV3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DEVENGADO COMISION'), 
+REN1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'RENTA 1A. QUINCENA'), 
+REN2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'RENTA 2A. QUINCENA'), 
+REN3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'RENTA COMISION'), 
+ISS1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'ISSS 1A. QUINCENA'), 
+ISS2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'ISSS QUINCENA'), 
+ISS3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'ISSS COMISION'), 
+OTR1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'OTROS DESCTOS 1A Q.'), 
+OTR2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'OTROS DESCTOS 2A Q.'), 
+OTR3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'OTROS DESCTOS COMIS.'), 
+DEPRPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'VALOR DE DEPRECICION'), 
+OTRIPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'OTROS INGRESOS'), 
+TIPCPL CHAR(1)  NOT NULL  SET("Description" = 'TIP.COMIS. 0/1/2/3/4'), 
+NUMVPL CHAR(4)  NOT NULL  SET("Description" = 'NUMERO VENDEDOR'), 
+TIPAPL CHAR(1)  NOT NULL  SET("Description" = 'TIPO PAGO E/R/C/'), 
+CTABPL CHAR(12)  NOT NULL  SET("Description" = 'CUENTA BANCARIA:'), 
+BANKPL CHAR(1)  NOT NULL  SET("Description" = 'BANCO A/C/F/S/H/'), 
+CIPPL CHAR(12)  NOT NULL  SET("Description" = 'NUMERO CEDULA'), 
+ISSSPL CHAR(9)  NOT NULL  SET("Description" = 'CODIGO ISSS'), 
+DUIPL CHAR(12)  NOT NULL  SET("Description" = 'NUMERO DE D.U.I.'), 
+NITPL CHAR(17)  NOT NULL  SET("Description" = 'CODIGO NIT'), 
+LICEPL CHAR(10)  NOT NULL  SET("Description" = 'CODIGO LICENCIA'), 
+ACOEPL CHAR(4)  NOT NULL  SET("Description" = 'CODIGO ACOESUR'), 
+OBSEPL CHAR(30)  NOT NULL  SET("Description" = 'OBSERVACION'), 
+PUESPL CHAR(2)  NOT NULL  SET("Description" = 'CODIGO DE PUESTO'), 
+DEV4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DEVENGADO HORAS EX'), 
+REN4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'RENTA HORAS EX'), 
+ISS4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'ISSS HORAS EX'), 
+FP4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'FONDO PENS. HORAS E'), 
+FP1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'FONDO PENS. 1A.QUIN'), 
+FP2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'FONDO PENS. 2A.QUIN'), 
+FP3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'FONDO PENS. COMISIO'), 
+DEV0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'DEVENG. 1A.VACACION'), 
+REN0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'RENTA 1A. VACACION'), 
+ISS0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'ISSS 1A Q. VACAC'), 
+FP0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'FONDO PENS. 1A.Q. V'), 
+OTR0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'OTROS ING HORAS EX'), 
+NUPPL CHAR(12)  NOT NULL  SET("Description" = 'NUM. UNICO PREVIS.'), 
+IAFPPL CHAR(1)  NOT NULL  SET("Description" = 'IDENT. AFP'), 
+TVAPL CHAR(1)  NOT NULL  SET("Description" = 'TIPO COT.VOL.AFIL.'), 
+TVEPL CHAR(1)  NOT NULL  SET("Description" = 'TIPO COT.VOL.EMPR.'), 
+CVAPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'COTIZAC. VOL. AFIL'), 
+CVEPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'COTIZAC. VOL. EMPR'), 
+PVAPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'PERIODIC.VOL. AFIL'), 
+PVEPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'PERIODIC.VOL. EMPR'), 
+SUEAPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'SUELDO NORMAL AFIL'), 
+DIAPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'DIAS DE TRABA AFIL'), 
+HORPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'HORAS DE TRABA AFIL'), 
+COEPL DECIMAL(1, 0)  NOT NULL  SET("Description" = 'PENSIONADO TRABAJA X'), 
+FENAPL CHAR(8)  NOT NULL  SET("Description" = 'FECHA NACIM DDMMAAAA'), 
+NFINPL CHAR(8)  NOT NULL  SET("Description" = 'FECHA INGR. DDMMAAAA'), 
+TEMEPL CHAR(12)  NOT NULL  SET("Description" = 'TELEF. EMERGENCIAS'), 
+PEMEPL CHAR(20)  NOT NULL  SET("Description" = 'PERSONA EMERGENCIAS'), 
+TCELPL CHAR(7)  NOT NULL  SET("Description" = 'TELEF. CELULAR'), 
+TVIPPL CHAR(7)  NOT NULL  SET("Description" = 'TELEF. VIPER'), 
+UNIDPL CHAR(7)  NOT NULL  SET("Description" = 'UNIDAD VIPER'), 
+GASOPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'VALOR GASOLINA'), 
+INGAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'INGRESO ANUAL RECIB.'), 
+RENAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'RENTA ANUAL DESCONT.'), 
+ISSAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'ISSS ANUAL DESCONT.'), 
+FPAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FONDO PENSION DESCO.'), 
+CO01PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION ENERO'), 
+CO02PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION FEBRERO'), 
+CO03PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION MARZO'), 
+CO04PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION ABRIL'), 
+CO05PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION MAYO'), 
+CO06PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION JUNIO'), 
+CO07PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION JULIO'), 
+CO08PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION AGOSTO'), 
+CO09PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION SEPTIEMBRE'), 
+CO10PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION OCTUBRE'), 
+CO11PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION NOVIEMBRE'), 
+CO12PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'COMISION DICIEMBRE'), 
+FU1PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 1'), 
+FU2PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 2'), 
+FU3PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 3'), 
+FU4PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 4'), 
+FU5PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 5'), 
+FU6PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 6'), 
+FU7PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 7'), 
+FU8PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 8'), 
+FU9PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 9'), 
+FU10PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 10'), 
+FU11PL CHAR(4)  NOT NULL  SET("Description" = 'FUTURO USO 11'), 
+FU12PL CHAR(4)  NOT NULL  SET("Description" = 'Depto y Municipio'), 
+FU13PL CHAR(4)  NOT NULL  SET("Description" = 'FUTURO USO 13'), 
+FU14PL CHAR(4)  NOT NULL  SET("Description" = 'FUTURO USO 14')) 
+CREATE_INDEX "NEWCTB.PDMAE" ON (DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAE00" ON (NITPL) 
+CREATE_INDEX "NEWCTB.PDMAE07" ON (ACOEPL) 
+CREATE_INDEX "NEWCTB.PDMAEL" ON (NITPL, DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAEL1" ON (NOMBPL) 
+CREATE_INDEX "NEWCTB.PDMAEL9" ON (ISSSPL) 
+CREATE_INDEX "NEWCTB.PDMAEVTA" ON (DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAEVTB" ON (DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAEVTC" ON (DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAEVTD" ON (DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMAEXVA" ON (SALAPL, DPTOPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMALF" ON (DPTOPL, PTSPL, COREPL) 
+CREATE_INDEX "NEWCTB.PDMALF2" ON (IAFPPL, NUPPL) 
+CREATE_INDEX "NEWCTB.PDMALF3" ON (IAFPPL, NOMBPL) 
+CREATE_INDEX "NEWCTB.PDMVIALI" ON (FU12PL, DPTOPL, COREPL) 
+SET("db_alias_name" = 'NEWCTB')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Maestro de Empleados' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Dec 19 14:13:06 2024' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNCTB.PDMAE(DPTOPL CHAR(2)  NOT NULL  SET("Description" = 'Depto Empleado'), 
+COREPL CHAR(2)  NOT NULL  SET("Description" = 'Correlativo Empleado'), 
+CODUPL DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cod Unico Empleado'), 
+PRENPL CHAR(5)  NOT NULL  SET("Description" = 'Pre-Nombre Empleado'), 
+NOMBPL CHAR(30)  NOT NULL  SET("Description" = 'Nombre Empleado'), 
+NOMRPL CHAR(25)  NOT NULL  SET("Description" = 'Nombre Reducido'), 
+PRMNPL CHAR(15)  NOT NULL  SET("Description" = 'Primer Nombre'), 
+SDONPL CHAR(15)  NOT NULL  SET("Description" = 'Segundo Nombre'), 
+TRCNPL CHAR(15)  NOT NULL  SET("Description" = 'Tercer Nombre'), 
+PRMAPL CHAR(15)  NOT NULL  SET("Description" = 'Primer Apellido'), 
+SDOAPL CHAR(15)  NOT NULL  SET("Description" = 'Segundo Apellido'), 
+TRCAPL CHAR(15)  NOT NULL  SET("Description" = 'Tercer Apellido'), 
+APECPL CHAR(15)  NOT NULL  SET("Description" = 'Apellido Casada'), 
+CARGPL CHAR(20)  NOT NULL  SET("Description" = 'Cargo de Empleado'), 
+DIR1PL CHAR(30)  NOT NULL  SET("Description" = 'Direccion 1'), 
+DIR2PL CHAR(30)  NOT NULL  SET("Description" = 'Direccion 2'), 
+CODZPL DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Zona'), 
+CODMPL DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Municipio'), 
+CCIUPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Cod de Ciudad'), 
+SEXOPL CHAR(1)  NOT NULL  SET("Description" = 'Cod de Sexo'), 
+ESTCPL CHAR(1)  NOT NULL  SET("Description" = 'Cod Estado Civil'), 
+CONYPL CHAR(30)  NOT NULL  SET("Description" = 'Conyuge Empleado'), 
+NUMVPL CHAR(4)  NOT NULL  SET("Description" = 'Numero Vendedor'), 
+CODCPL DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Centro de Costos'), 
+CODDPL DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod Depto Trabajo'), 
+CCARPL DECIMAL(3, 0)  NOT NULL  SET("Description" = 'Cod de Cargo'), 
+PUESPL CHAR(2)  NOT NULL  SET("Description" = 'Codigo de Puesto'), 
+PTSPL CHAR(3)  NOT NULL  SET("Description" = 'Puntos del Puesto'), 
+SALAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Salario Mensual'), 
+GASOPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Gasolina'), 
+DEPRPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Uso Vehiculo'), 
+BONIPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Bonificacion'), 
+COMBPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Combustible'), 
+VIATPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Viaticos'), 
+ALIMPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Alimentacion'), 
+TRANPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Transporte'), 
+REPRPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Representacion'), 
+OTRIPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Valor Bonificacion'), 
+COA1PL CHAR(1)  NOT NULL  SET("Description" = 'Cod Act 1a Quincena'), 
+DEV1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Devengado 1a Quinc'), 
+ISS1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'IHSS 1a Quincena'), 
+FP1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Fdo Pension 1a Quinc'), 
+REN1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Renta 1a Quincena'), 
+OTR1PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Otros Desc 1a Quinc'), 
+COA2PL CHAR(1)  NOT NULL  SET("Description" = 'Cod Act 2a Quincena'), 
+DEV2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Devengado 2a Quinc'), 
+ISS2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'IHSS 2a Quincena'), 
+FP2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Fdo Pension 2a Quinc'), 
+REN2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Renta 2a Quincena'), 
+OTR2PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Otros Desc 2a Quinc'), 
+TIPCPL CHAR(1)  NOT NULL  SET("Description" = 'Tipo Comis 0/1/2/3/4'), 
+COA3PL CHAR(1)  NOT NULL  SET("Description" = 'Cod Act Comisiones'), 
+DEV3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Devengado Comision'), 
+ISS3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'IHSS Comision'), 
+FP3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Fdo Pension Comision'), 
+REN3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Renta Comision'), 
+OTR3PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Otros Desc Comision'), 
+FU1PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Hr Ext Diurna   1.25'), 
+FU2PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Hr Ext Mixta    1.50'), 
+FU3PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Hr Ext Nocturna 1.75'), 
+FU4PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Hr Ext Feriado  2.00'), 
+DEV4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Devengado Hrs Extras'), 
+ISS4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'IHSS Hrs Extras'), 
+FP4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Fdo Pension Hrs Extr'), 
+REN4PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Renta Hrs Extras'), 
+DEV0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Devengado 1a Vacac'), 
+ISS0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'IHSS 1a Vacacion'), 
+FP0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Fdo Pension 1a Vacac'), 
+REN0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Renta 1a Vacacion'), 
+OTR0PL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Otros Desc Vacacion'), 
+BANKPL CHAR(1)  NOT NULL  SET("Description" = 'Banco A/C/F/S/H/'), 
+TIPAPL CHAR(1)  NOT NULL  SET("Description" = 'Tipo de Pago E/R/C/'), 
+CTABPL CHAR(12)  NOT NULL  SET("Description" = 'Cuenta Bancaria'), 
+CIPPL CHAR(14)  NOT NULL  SET("Description" = 'Numero Cedula'), 
+ISSSPL CHAR(14)  NOT NULL  SET("Description" = 'Numero IHSS'), 
+DUIPL CHAR(14)  NOT NULL  SET("Description" = 'Numero DUI'), 
+NITPL CHAR(17)  NOT NULL  SET("Description" = 'Numero RTN'), 
+LICEPL CHAR(14)  NOT NULL  SET("Description" = 'Numero Licencia'), 
+ACOEPL CHAR(4)  NOT NULL  SET("Description" = 'Numero ACOESUR'), 
+IAFPPL CHAR(1)  NOT NULL  SET("Description" = 'Cod de RAP'), 
+NUPPL CHAR(12)  NOT NULL  SET("Description" = 'Numero de RAP'), 
+TVAPL CHAR(1)  NOT NULL  SET("Description" = 'Tipo Cot Vol Afiliad'), 
+CVAPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Cotizac Vol Afiliad'), 
+PVAPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Periodic Vol Afiliad'), 
+DIAPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Dias Trabajados Afil'), 
+SUEAPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Sdo Normal Afiliad'), 
+HORPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Hrs Trabajo Afiliad'), 
+TVEPL CHAR(1)  NOT NULL  SET("Description" = 'Tipo Cot Vol Empresa'), 
+CVEPL DECIMAL(7, 2)  NOT NULL  SET("Description" = 'Cotizac Vol Empresa'), 
+PVEPL DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Periodic Vol Empresa'), 
+COEPL DECIMAL(1, 0)  NOT NULL  SET("Description" = 'Empleado Pensionado'), 
+FINGPL CHAR(8)  NOT NULL  SET("Description" = 'Fecha de Ingreso'), 
+FENAPL CHAR(8)  NOT NULL  SET("Description" = 'Fecha de Nacimiento'), 
+NFINPL CHAR(8)  NOT NULL  SET("Description" = 'Fecha de Salida'), 
+FNADPL CHAR(8)  NOT NULL  SET("Description" = 'Fecha Nacimiento DUI'), 
+TELEPL CHAR(10)  NOT NULL  SET("Description" = 'Tel Casa'), 
+TEMEPL CHAR(12)  NOT NULL  SET("Description" = 'Tel Emergencia'), 
+TCELPL CHAR(7)  NOT NULL  SET("Description" = 'Tel Celular'), 
+TCE1PL CHAR(9)  NOT NULL  SET("Description" = 'Tel de Celular 1'), 
+TCD2PL CHAR(9)  NOT NULL  SET("Description" = 'Tel de Celular 2'), 
+TTRBPL CHAR(9)  NOT NULL  SET("Description" = 'Tel de Trabajo'), 
+TAVIPL CHAR(9)  NOT NULL  SET("Description" = 'Tel de Aviso'), 
+TVIPPL CHAR(7)  NOT NULL  SET("Description" = 'Tel Viper'), 
+UNIDPL CHAR(7)  NOT NULL  SET("Description" = 'Unidad Viper'), 
+PEMEPL CHAR(20)  NOT NULL  SET("Description" = 'Persona Emergencia'), 
+EMAIPL CHAR(60)  NOT NULL  SET("Description" = 'Correo Electronico'), 
+INGAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Ingresos Anual'), 
+ISSAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'IHSS Anual'), 
+FPAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Fondo Pension Anual'), 
+RENAPL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Renta Anual'), 
+CO01PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Enero'), 
+CO02PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Febre'), 
+CO03PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Marzo'), 
+CO04PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Abril'), 
+CO05PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Mayo'), 
+CO06PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Junio'), 
+CO07PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Julio'), 
+CO08PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Agost'), 
+CO09PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Septi'), 
+CO10PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Octub'), 
+CO11PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Novie'), 
+CO12PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'Comision Dicie'), 
+FU5PL DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 5'), 
+FU6PL CHAR(20)  NOT NULL  SET("Description" = 'Num Cuenta Bancaria'), 
+FU7PL CHAR(20)  NOT NULL  SET("Description" = 'Num Docto Identidad'), 
+FU8PL CHAR(20)  NOT NULL  SET("Description" = 'Nivel Academico'), 
+FU9PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 9'), 
+FU10PL CHAR(20)  NOT NULL  SET("Description" = 'FUTURO USO 10'), 
+FU11PL CHAR(4)  NOT NULL  SET("Description" = 'Vida Salud'), 
+FU12PL CHAR(4)  NOT NULL  SET("Description" = 'Ubicacion Geografica'), 
+FU13PL CHAR(4)  NOT NULL  SET("Description" = 'Cod Empleado Factura'), 
+FU14PL CHAR(4)  NOT NULL  SET("Description" = 'FUTURO USO 14'), 
+OBSEPL CHAR(30)  NOT NULL  SET("Description" = 'Observacion'), 
+OBS1PL CHAR(50)  NOT NULL  SET("Description" = 'Observaciones 1'), 
+OBS2PL CHAR(50)  NOT NULL  SET("Description" = 'Observaciones 2'), 
+ELIMPL CHAR(1)  NOT NULL  SET("Description" = 'Cod Eliminado'), 
+FLG1PL CHAR(1)  NOT NULL  SET("Description" = 'Pago de Horas Extras'), 
+FLG2PL CHAR(1)  NOT NULL  SET("Description" = 'Flag 2'), 
+FLG3PL CHAR(1)  NOT NULL  SET("Description" = 'Flag 3'), 
+FLG4PL CHAR(1)  NOT NULL  SET("Description" = 'Flag 4'), 
+FLG5PL CHAR(1)  NOT NULL  SET("Description" = 'Flag 5'), 
+COD1PL CHAR(4)  NOT NULL  SET("Description" = 'Codigo 1'), 
+COD2PL CHAR(4)  NOT NULL  SET("Description" = 'Codigo 2'), 
+COD3PL CHAR(4)  NOT NULL  SET("Description" = 'Codigo 3'), 
+COD4PL CHAR(4)  NOT NULL  SET("Description" = 'Codigo 4'), 
+COD5PL CHAR(4)  NOT NULL  SET("Description" = 'Codigo 5'), 
+NUM1PL DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Numero 1'), 
+NUM2PL DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Numero 2'), 
+NUM3PL DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Numero 3'), 
+NUM4PL DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Numero 4'), 
+NUM5PL DECIMAL(7, 0)  NOT NULL  SET("Description" = 'Numero 5'), 
+FEC1PL DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 1'), 
+FEC2PL DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 2'), 
+FEC3PL DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 3'), 
+FEC4PL DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 4'), 
+FEC5PL DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha 5'), 
+VLR1PL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 1'), 
+VLR2PL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 2'), 
+VLR3PL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 3'), 
+VLR4PL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 4'), 
+VLR5PL DECIMAL(11, 2)  NOT NULL  SET("Description" = 'Valor 5'), 
+DAT1PL CHAR(20)  NOT NULL  SET("Description" = 'Dato 1'), 
+DAT2PL CHAR(20)  NOT NULL  SET("Description" = 'Dato 2'), 
+DAT3PL CHAR(20)  NOT NULL  SET("Description" = 'Dato 3'), 
+DAT4PL CHAR(20)  NOT NULL  SET("Description" = 'Dato 4'), 
+DAT5PL CHAR(20)  NOT NULL  SET("Description" = 'Valo 5')) 
+CREATE_INDEX "PHNCTB.PDMAE" ON (DPTOPL, COREPL) 
+CREATE_INDEX "PHNCTB.PDMAEL" ON (NITPL, DPTOPL, COREPL) 
+CREATE_INDEX "PHNCTB.PDMAEVTA" ON (CODCPL, CODUPL) 
+CREATE_INDEX "PHNCTB.PDMAEVTC" ON (CODCPL, CODUPL) 
+CREATE_INDEX "PHNCTB.PDMAEVTD" ON (CODCPL, CODUPL) 
+CREATE_INDEX "PHNCTB.PLMAE01" ON (CODCPL, CODUPL) 
+CREATE_INDEX "PHNCTB.PLMAE02" ON (CODUPL) 
+CREATE_INDEX "PHNCTB.PLMAE03" ON (NUMVPL) 
+CREATE_INDEX "PHNCTB.PLMAE04" ON (ISSSPL) 
+CREATE_INDEX "PHNCTB.PLMAE05" ON (NOMBPL) 
+CREATE_INDEX "PHNCTB.PLMAE06" ON (DPTOPL, COREPL) 
+CREATE_INDEX "PHNCTB.PLMAE07" ON (CODUPL) 
+SET("db_alias_name" = 'PHNCTB')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Thu Mar  6 13:49:06 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.PDMAESD(DPTOPL VARCHAR(2)  NULL , 
+COREPL VARCHAR(2)  NULL , 
+NOMBPL VARCHAR(30)  NULL , 
+CARGPL VARCHAR(20)  NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'MAESTRO EMPLEADOS PLANILLA - SERVICIO DOMICILIO RR' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Jan  8 17:10:15 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.PDMAESD(DPTOPL CHAR(2)  NOT NULL  SET("Description" = 'DEPTO. EMPLEADO'), 
+COREPL CHAR(2)  NOT NULL  SET("Description" = 'CORELATIVO EMPLEADO'), 
+NOMBPL CHAR(30)  NOT NULL  SET("Description" = 'NOMBRE DE EMPLEADO'), 
+CARGPL CHAR(20)  NOT NULL  SET("Description" = 'CARGO DEL EMPLEADO')) 
+CREATE_INDEX "NEWINV.PDMAESD" ON (DPTOPL, COREPL) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Maestro de Empleados para Servicio a Domicilio' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Jan  8 17:10:49 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.PDMAESD(DPTOPL CHAR(2)  NOT NULL  SET("Description" = 'DEPTO. EMPLEADO'), 
+COREPL CHAR(2)  NOT NULL  SET("Description" = 'CORELATIVO EMPLEADO'), 
+NOMBPL CHAR(30)  NOT NULL  SET("Description" = 'NOMBRE DE EMPLEADO'), 
+CARGPL CHAR(20)  NOT NULL  SET("Description" = 'CARGO DEL EMPLEADO'), 
+INICGO CHAR(4)  NOT NULL  SET("Description" = 'Iniciales del Cargo')) 
+CREATE_INDEX "PHNINV.PDMAESD" ON (DPTOPL, COREPL) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Nov 25 09:51:58 2024', "ActaValue_3" = 'Wed Mar  5 11:34:07 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_ALMUSR::'b6e430f1-3c10-4dfc-bf0c-2c91fc08bbb2'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_sv', "x" = '1228', "y" = '-806')
+GUID::'ba23f06a-e223-4e92-9335-64e2fa561b94' CALL TRANSFORM SQL() OUTPUT(SQL_sv( USALM VARCHAR(10) ,
+ RESALM VARCHAR(2) ,
+ DESALM VARCHAR(1) ,
+ GERALM VARCHAR(1) ,
+ CAJALM VARCHAR(1) ,
+ DSPALM VARCHAR(1) ,
+ VENALM VARCHAR(1) ,
+ FECALM VARCHAR(7) ,
+ PLAALM VARCHAR(4) ,
+ NVEALM VARCHAR(4) ,
+ OBSALM VARCHAR(30) ,
+ SWIALM VARCHAR(5) ,
+ BODALM VARCHAR(1)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>select * from newinv.almusr</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_sv', "ui_display_name" = 'Query_sv', "x" = '1756', "y" = '-913')
+GUID::'99ba9465-5837-4e99-a7f0-95cb304743a3' CREATE VIEW Query_sv( USALM VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_sv.USALM') ,
+ RESALM VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_sv.RESALM') ,
+ DESALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.DESALM') ,
+ GERALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.GERALM') ,
+ CAJALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.CAJALM') ,
+ DSPALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.DSPALM') ,
+ VENALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.VENALM') ,
+ FECALM VARCHAR(7)  SET( "ui_mapping_text" = 'SQL_sv.FECALM') ,
+ PLAALM VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_sv.PLAALM') ,
+ NVEALM VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_sv.NVEALM') ,
+ OBSALM VARCHAR(30)  SET( "ui_mapping_text" = 'SQL_sv.OBSALM') ,
+ SWIALM VARCHAR(5)  SET( "ui_mapping_text" = 'SQL_sv.SWIALM') ,
+ BODALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_sv.BODALM') ,
+ id_pais INT  SET( "ui_mapping_text" = '1') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT SQL_sv.USALM, SQL_sv.RESALM, SQL_sv.DESALM, SQL_sv.GERALM, SQL_sv.CAJALM, SQL_sv.DSPALM, SQL_sv.VENALM, SQL_sv.FECALM, SQL_sv.PLAALM, SQL_sv.NVEALM, SQL_sv.OBSALM, SQL_sv.SWIALM, SQL_sv.BODALM, 1, sysdate() FROM SQL_sv 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>194</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_hn', "x" = '1119', "y" = '-1288')
+GUID::'172962f5-4af8-4444-a3e1-eb4227f8c369' CALL TRANSFORM SQL() OUTPUT(SQL_hn( USALM VARCHAR(10) ,
+ RESALM VARCHAR(2) ,
+ DESALM VARCHAR(1) ,
+ GERALM VARCHAR(1) ,
+ CAJALM VARCHAR(1) ,
+ DSPALM VARCHAR(1) ,
+ VENALM VARCHAR(1) ,
+ FECALM VARCHAR(7) ,
+ PLAALM VARCHAR(4) ,
+ NVEALM VARCHAR(4) ,
+ OBSALM VARCHAR(30) ,
+ SWIALM VARCHAR(5) ,
+ BODALM VARCHAR(1)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>select * from phninv.almusr</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_hn', "ui_display_name" = 'Query_hn', "x" = '1775', "y" = '-1284')
+GUID::'ac5bc432-481b-4bab-b122-acc53026633c' CREATE VIEW Query_hn( USALM VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_hn.USALM') ,
+ RESALM VARCHAR(2)  SET( "ui_mapping_text" = 'SQL_hn.RESALM') ,
+ DESALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.DESALM') ,
+ GERALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.GERALM') ,
+ CAJALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.CAJALM') ,
+ DSPALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.DSPALM') ,
+ VENALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.VENALM') ,
+ FECALM VARCHAR(7)  SET( "ui_mapping_text" = 'SQL_hn.FECALM') ,
+ PLAALM VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_hn.PLAALM') ,
+ NVEALM VARCHAR(4)  SET( "ui_mapping_text" = 'SQL_hn.NVEALM') ,
+ OBSALM VARCHAR(30)  SET( "ui_mapping_text" = 'SQL_hn.OBSALM') ,
+ SWIALM VARCHAR(5)  SET( "ui_mapping_text" = 'SQL_hn.SWIALM') ,
+ BODALM VARCHAR(1)  SET( "ui_mapping_text" = 'SQL_hn.BODALM') ,
+ id_pais INT  SET( "ui_mapping_text" = '2') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT SQL_hn.USALM, SQL_hn.RESALM, SQL_hn.DESALM, SQL_hn.GERALM, SQL_hn.CAJALM, SQL_hn.DSPALM, SQL_hn.VENALM, SQL_hn.FECALM, SQL_hn.PLAALM, SQL_hn.NVEALM, SQL_hn.OBSALM, SQL_hn.SWIALM, SQL_hn.BODALM, 2, sysdate() FROM SQL_hn 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '2488', "y" = '-1150')
+GUID::'8bdafcb5-be91-40b6-8aa1-2b4554e11b2f' CALL TRANSFORM Merge() INPUT(Query_hn, Query_sv) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '3303', "y" = '-1313')
+GUID::'d7d1a5c1-47ab-4f51-9274-36e7475795fe' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.ALMUSR INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_ALMUSR.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Dec 19 12:12:31 2024', "ActaValue_3" = 'Thu Mar  6 13:44:16 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_PDMAE::'2f1ea059-dafb-42e6-b774-28feb4dac3f4'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '44', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1259', "y" = '-859')
+GUID::'922955c0-1a70-46bb-8bfb-c0bbc50c32e3' READ TABLE DS_DB2_GER_VTAS.NEWCTB.PDMAE OUTPUT(PDMAE)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '44', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '1235', "y" = '-1269')
+GUID::'ede17768-e5ce-4d9a-a4bd-e5a6e8032f21' READ TABLE DS_DB2_GER_VTAS.PHNCTB.PDMAE OUTPUT(PDMAE_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '44', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '177', "Input_Width_Name" = '367', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>341</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '77', "ui_acta_from_schema_0" = 'PDMAE', "ui_display_name" = 'Query_PDMAE_SV', "x" = '1710', "y" = '-915')
+GUID::'dd382a26-9e8e-42c7-b085-ad43f3c84ee9' CREATE VIEW Query_PDMAE_SV( DPTOPL VARCHAR(2)  SET( "ui_mapping_text" = 'PDMAE.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "ui_mapping_text" = 'PDMAE.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE.NOMBPL') ,
+ NOMRPL VARCHAR(25)  SET( "ui_mapping_text" = 'PDMAE.NOMRPL') ,
+ CARGPL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.CARGPL') ,
+ DIR1PL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE.DIR1PL') ,
+ DIR2PL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE.DIR2PL') ,
+ SEXOPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE.SEXOPL') ,
+ ESTCPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE.ESTCPL') ,
+ CONYPL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE.CONYPL') ,
+ DEV1PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.DEV1PL') ,
+ DEV2PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.DEV2PL') ,
+ DEV3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.DEV3PL') ,
+ OTR3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.OTR3PL') ,
+ TIPAPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE.TIPAPL') ,
+ CTABPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE.CTABPL') ,
+ NITPL VARCHAR(17)  SET( "ui_mapping_text" = 'PDMAE.NITPL') ,
+ ACOEPL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE.ACOEPL') ,
+ TVAPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE.TVAPL') ,
+ NUPPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE.NUPPL') ,
+ CVAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.CVAPL') ,
+ PVAPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDMAE.PVAPL') ,
+ SUEAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE.SUEAPL') ,
+ HORPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDMAE.HORPL') ,
+ COEPL DECIMAL(1, 0)  SET( "ui_mapping_text" = 'PDMAE.COEPL') ,
+ FENAPL VARCHAR(8)  SET( "ui_mapping_text" = 'PDMAE.FENAPL') ,
+ NFINPL VARCHAR(8)  SET( "ui_mapping_text" = 'PDMAE.NFINPL') ,
+ TEMEPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE.TEMEPL') ,
+ TCELPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE.TCELPL') ,
+ TVIPPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE.TVIPPL') ,
+ UNIDPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE.UNIDPL') ,
+ INGAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.INGAPL') ,
+ ISSAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.ISSAPL') ,
+ FPAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.FPAPL') ,
+ CO01PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO01PL') ,
+ CO02PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO02PL') ,
+ CO03PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO03PL') ,
+ CO04PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO04PL') ,
+ CO05PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO05PL') ,
+ CO06PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO06PL') ,
+ CO07PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO07PL') ,
+ CO08PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO08PL') ,
+ CO09PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO09PL') ,
+ CO10PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO10PL') ,
+ CO11PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO11PL') ,
+ CO12PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.CO12PL') ,
+ FU5PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.FU5PL') ,
+ FU6PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.FU6PL') ,
+ FU7PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.FU7PL') ,
+ FU8PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.FU8PL') ,
+ FU9PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.FU9PL') ,
+ FU10PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE.FU10PL') ,
+ FU11PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE.FU11PL') ,
+ FU12PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE.FU12PL') ,
+ FU13PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE.FU13PL') ,
+ FU14PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE.FU14PL') ,
+ SALAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE.SALAPL') ,
+ CIPPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE.CIPPL') ,
+ ISSSPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE.ISSSPL') ,
+ DUIPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE.DUIPL') ,
+ COA1PL VARCHAR(1)  SET( "Description" = 'COD. ACT. 1A. QUINC.', "ui_mapping_text" = 'PDMAE.COA1PL') ,
+ COA2PL VARCHAR(1)  SET( "Description" = 'COD. ACT. 2A. QUINC.', "ui_mapping_text" = 'PDMAE.COA2PL') ,
+ LICEPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE.LICEPL')  )
+ AS
+SELECT PDMAE.DPTOPL, PDMAE.COREPL, PDMAE.NOMBPL, PDMAE.NOMRPL, PDMAE.CARGPL, PDMAE.DIR1PL, PDMAE.DIR2PL, PDMAE.SEXOPL, PDMAE.ESTCPL, PDMAE.CONYPL, PDMAE.DEV1PL, PDMAE.DEV2PL, PDMAE.DEV3PL, PDMAE.OTR3PL, PDMAE.TIPAPL, PDMAE.CTABPL, PDMAE.NITPL, PDMAE.ACOEPL, PDMAE.TVAPL, PDMAE.NUPPL, PDMAE.CVAPL, PDMAE.PVAPL, PDMAE.SUEAPL, PDMAE.HORPL, PDMAE.COEPL, PDMAE.FENAPL, PDMAE.NFINPL, PDMAE.TEMEPL, PDMAE.TCELPL, PDMAE.TVIPPL, PDMAE.UNIDPL, PDMAE.INGAPL, PDMAE.ISSAPL, PDMAE.FPAPL, PDMAE.CO01PL, PDMAE.CO02PL, PDMAE.CO03PL, PDMAE.CO04PL, PDMAE.CO05PL, PDMAE.CO06PL, PDMAE.CO07PL, PDMAE.CO08PL, PDMAE.CO09PL, PDMAE.CO10PL, PDMAE.CO11PL, PDMAE.CO12PL, PDMAE.FU5PL, PDMAE.FU6PL, PDMAE.FU7PL, PDMAE.FU8PL, PDMAE.FU9PL, PDMAE.FU10PL, PDMAE.FU11PL, PDMAE.FU12PL, PDMAE.FU13PL, PDMAE.FU14PL, PDMAE.SALAPL, PDMAE.CIPPL, PDMAE.ISSSPL, PDMAE.DUIPL, PDMAE.COA1PL, PDMAE.COA2PL, PDMAE.LICEPL FROM PDMAE 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '44', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>338</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '87', "ui_acta_from_schema_0" = 'PDMAE_1', "ui_display_name" = 'Query_PDMAE_HN', "x" = '1719', "y" = '-1285')
+GUID::'cf4d7394-8e34-4ca3-a641-f0d25c41df8a' CREATE VIEW Query_PDMAE_HN( DPTOPL VARCHAR(2)  SET( "ui_mapping_text" = 'PDMAE_1.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "ui_mapping_text" = 'PDMAE_1.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE_1.NOMBPL') ,
+ NOMRPL VARCHAR(25)  SET( "ui_mapping_text" = 'PDMAE_1.NOMRPL') ,
+ CARGPL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.CARGPL') ,
+ DIR1PL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE_1.DIR1PL') ,
+ DIR2PL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE_1.DIR2PL') ,
+ SEXOPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE_1.SEXOPL') ,
+ ESTCPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE_1.ESTCPL') ,
+ CONYPL VARCHAR(30)  SET( "ui_mapping_text" = 'PDMAE_1.CONYPL') ,
+ SALAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.SALAPL') ,
+ DEV1PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.DEV1PL') ,
+ DEV2PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.DEV2PL') ,
+ DEV3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.DEV3PL') ,
+ OTR3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.OTR3PL') ,
+ TIPAPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE_1.TIPAPL') ,
+ CTABPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE_1.CTABPL') ,
+ CIPPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE_1.CIPPL') ,
+ ISSSPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE_1.ISSSPL') ,
+ DUIPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE_1.DUIPL') ,
+ NITPL VARCHAR(17)  SET( "ui_mapping_text" = 'PDMAE_1.NITPL') ,
+ LICEPL VARCHAR(14)  SET( "ui_mapping_text" = 'PDMAE_1.LICEPL') ,
+ ACOEPL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE_1.ACOEPL') ,
+ NUPPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE_1.NUPPL') ,
+ TVAPL VARCHAR(1)  SET( "ui_mapping_text" = 'PDMAE_1.TVAPL') ,
+ CVAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CVAPL') ,
+ PVAPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDMAE_1.PVAPL') ,
+ SUEAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'PDMAE_1.SUEAPL') ,
+ HORPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'PDMAE_1.HORPL') ,
+ COEPL DECIMAL(1, 0)  SET( "ui_mapping_text" = 'PDMAE_1.COEPL') ,
+ FENAPL VARCHAR(8)  SET( "ui_mapping_text" = 'PDMAE_1.FENAPL') ,
+ NFINPL VARCHAR(8)  SET( "ui_mapping_text" = 'PDMAE_1.NFINPL') ,
+ TEMEPL VARCHAR(12)  SET( "ui_mapping_text" = 'PDMAE_1.TEMEPL') ,
+ TCELPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE_1.TCELPL') ,
+ TVIPPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE_1.TVIPPL') ,
+ UNIDPL VARCHAR(7)  SET( "ui_mapping_text" = 'PDMAE_1.UNIDPL') ,
+ INGAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.INGAPL') ,
+ ISSAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.ISSAPL') ,
+ FPAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.FPAPL') ,
+ CO01PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO01PL') ,
+ CO02PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO02PL') ,
+ CO03PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO03PL') ,
+ CO04PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO04PL') ,
+ CO05PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO05PL') ,
+ CO06PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO06PL') ,
+ CO07PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO07PL') ,
+ CO08PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO08PL') ,
+ CO09PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO09PL') ,
+ CO10PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO10PL') ,
+ CO11PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO11PL') ,
+ CO12PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.CO12PL') ,
+ FU5PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'PDMAE_1.FU5PL') ,
+ FU6PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.FU6PL') ,
+ FU7PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.FU7PL') ,
+ FU8PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.FU8PL') ,
+ FU9PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.FU9PL') ,
+ FU10PL VARCHAR(20)  SET( "ui_mapping_text" = 'PDMAE_1.FU10PL') ,
+ FU11PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE_1.FU11PL') ,
+ FU12PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE_1.FU12PL') ,
+ FU13PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE_1.FU13PL') ,
+ FU14PL VARCHAR(4)  SET( "ui_mapping_text" = 'PDMAE_1.FU14PL') ,
+ COA1PL VARCHAR(1)  SET( "Description" = 'Cod Act 1a Quincena', "ui_mapping_text" = 'PDMAE_1.COA1PL') ,
+ COA2PL VARCHAR(1)  SET( "Description" = 'Cod Act 2a Quincena', "ui_mapping_text" = 'PDMAE_1.COA2PL') ,
+ CCARPL DECIMAL(3, 0)  SET( "Description" = 'Cod de Cargo', "ui_mapping_text" = 'PDMAE_1.CCARPL')  )
+ AS
+SELECT PDMAE_1.DPTOPL, PDMAE_1.COREPL, PDMAE_1.NOMBPL, PDMAE_1.NOMRPL, PDMAE_1.CARGPL, PDMAE_1.DIR1PL, PDMAE_1.DIR2PL, PDMAE_1.SEXOPL, PDMAE_1.ESTCPL, PDMAE_1.CONYPL, PDMAE_1.SALAPL, PDMAE_1.DEV1PL, PDMAE_1.DEV2PL, PDMAE_1.DEV3PL, PDMAE_1.OTR3PL, PDMAE_1.TIPAPL, PDMAE_1.CTABPL, PDMAE_1.CIPPL, PDMAE_1.ISSSPL, PDMAE_1.DUIPL, PDMAE_1.NITPL, PDMAE_1.LICEPL, PDMAE_1.ACOEPL, PDMAE_1.NUPPL, PDMAE_1.TVAPL, PDMAE_1.CVAPL, PDMAE_1.PVAPL, PDMAE_1.SUEAPL, PDMAE_1.HORPL, PDMAE_1.COEPL, PDMAE_1.FENAPL, PDMAE_1.NFINPL, PDMAE_1.TEMEPL, PDMAE_1.TCELPL, PDMAE_1.TVIPPL, PDMAE_1.UNIDPL, PDMAE_1.INGAPL, PDMAE_1.ISSAPL, PDMAE_1.FPAPL, PDMAE_1.CO01PL, PDMAE_1.CO02PL, PDMAE_1.CO03PL, PDMAE_1.CO04PL, PDMAE_1.CO05PL, PDMAE_1.CO06PL, PDMAE_1.CO07PL, PDMAE_1.CO08PL, PDMAE_1.CO09PL, PDMAE_1.CO10PL, PDMAE_1.CO11PL, PDMAE_1.CO12PL, PDMAE_1.FU5PL, PDMAE_1.FU6PL, PDMAE_1.FU7PL, PDMAE_1.FU8PL, PDMAE_1.FU9PL, PDMAE_1.FU10PL, PDMAE_1.FU11PL, PDMAE_1.FU12PL, PDMAE_1.FU13PL, PDMAE_1.FU14PL, PDMAE_1.COA1PL, PDMAE_1.COA2PL, PDMAE_1.CCARPL FROM PDMAE_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '191', "Input_Width_Name" = '181', "Input_Width_Type" = '131', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>275</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'Merge_PDMAE', "x" = '2481', "y" = '-1128')
+GUID::'7d45ea27-a8a9-45b1-a59d-c5d4220dc7bc' CALL TRANSFORM Merge() INPUT(Query, Query_1) OUTPUT(Merge_PDMAE()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '77', "ui_acta_from_schema_0" = 'Query_PDMAE_SV', "x" = '2122', "y" = '-938')
+GUID::'ea269f63-103d-4604-a652-0241f7ffe0c9' CREATE VIEW Query( DPTOPL VARCHAR(2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.NOMBPL') ,
+ NOMRPL VARCHAR(25)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.NOMRPL') ,
+ CARGPL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CARGPL') ,
+ DIR1PL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DIR1PL') ,
+ DIR2PL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DIR2PL') ,
+ SEXOPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.SEXOPL') ,
+ ESTCPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.ESTCPL') ,
+ CONYPL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CONYPL') ,
+ DEV1PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DEV1PL') ,
+ DEV2PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DEV2PL') ,
+ DEV3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DEV3PL') ,
+ OTR3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.OTR3PL') ,
+ TIPAPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.TIPAPL') ,
+ CTABPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CTABPL') ,
+ NITPL VARCHAR(17)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.NITPL') ,
+ ACOEPL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.ACOEPL') ,
+ NUPPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.NUPPL') ,
+ TVAPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.TVAPL') ,
+ CVAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CVAPL') ,
+ PVAPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.PVAPL') ,
+ SUEAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.SUEAPL') ,
+ HORPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.HORPL') ,
+ COEPL DECIMAL(1, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.COEPL') ,
+ FENAPL VARCHAR(8)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FENAPL') ,
+ NFINPL VARCHAR(8)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.NFINPL') ,
+ TEMEPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.TEMEPL') ,
+ TCELPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.TCELPL') ,
+ TVIPPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.TVIPPL') ,
+ UNIDPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.UNIDPL') ,
+ INGAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.INGAPL') ,
+ ISSAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.ISSAPL') ,
+ FPAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FPAPL') ,
+ CO01PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO01PL') ,
+ CO02PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO02PL') ,
+ CO03PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO03PL') ,
+ CO04PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO04PL') ,
+ CO05PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO05PL') ,
+ CO06PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO06PL') ,
+ CO07PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO07PL') ,
+ CO08PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO08PL') ,
+ CO09PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO09PL') ,
+ CO10PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO10PL') ,
+ CO11PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO11PL') ,
+ CO12PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CO12PL') ,
+ FU5PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU5PL') ,
+ FU6PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU6PL') ,
+ FU7PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU7PL') ,
+ FU8PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU8PL') ,
+ FU9PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU9PL') ,
+ FU10PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU10PL') ,
+ FU11PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU11PL') ,
+ FU12PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU12PL') ,
+ FU13PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU13PL') ,
+ FU14PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.FU14PL') ,
+ SALAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.SALAPL') ,
+ CIPPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.CIPPL') ,
+ ISSSPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.ISSSPL') ,
+ DUIPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.DUIPL') ,
+ LICEPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_SV.LICEPL') ,
+ COA1PL VARCHAR(1)  SET( "Description" = 'COD. ACT. 1A. QUINC.', "ui_mapping_text" = 'Query_PDMAE_SV.COA1PL') ,
+ COA2PL VARCHAR(1)  SET( "Description" = 'COD. ACT. 2A. QUINC.', "ui_mapping_text" = 'Query_PDMAE_SV.COA2PL') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ CCARPL DECIMAL(3, 0)  SET( "ui_mapping_text" = '0') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT Query_PDMAE_SV.DPTOPL, Query_PDMAE_SV.COREPL, Query_PDMAE_SV.NOMBPL, Query_PDMAE_SV.NOMRPL, Query_PDMAE_SV.CARGPL, Query_PDMAE_SV.DIR1PL, Query_PDMAE_SV.DIR2PL, Query_PDMAE_SV.SEXOPL, Query_PDMAE_SV.ESTCPL, Query_PDMAE_SV.CONYPL, Query_PDMAE_SV.DEV1PL, Query_PDMAE_SV.DEV2PL, Query_PDMAE_SV.DEV3PL, Query_PDMAE_SV.OTR3PL, Query_PDMAE_SV.TIPAPL, Query_PDMAE_SV.CTABPL, Query_PDMAE_SV.NITPL, Query_PDMAE_SV.ACOEPL, Query_PDMAE_SV.NUPPL, Query_PDMAE_SV.TVAPL, Query_PDMAE_SV.CVAPL, Query_PDMAE_SV.PVAPL, Query_PDMAE_SV.SUEAPL, Query_PDMAE_SV.HORPL, Query_PDMAE_SV.COEPL, Query_PDMAE_SV.FENAPL, Query_PDMAE_SV.NFINPL, Query_PDMAE_SV.TEMEPL, Query_PDMAE_SV.TCELPL, Query_PDMAE_SV.TVIPPL, Query_PDMAE_SV.UNIDPL, Query_PDMAE_SV.INGAPL, Query_PDMAE_SV.ISSAPL, Query_PDMAE_SV.FPAPL, Query_PDMAE_SV.CO01PL, Query_PDMAE_SV.CO02PL, Query_PDMAE_SV.CO03PL, Query_PDMAE_SV.CO04PL, Query_PDMAE_SV.CO05PL, Query_PDMAE_SV.CO06PL, Query_PDMAE_SV.CO07PL, Query_PDMAE_SV.CO08PL, Query_PDMAE_SV.CO09PL, Query_PDMAE_SV.CO10PL, Query_PDMAE_SV.CO11PL, Query_PDMAE_SV.CO12PL, Query_PDMAE_SV.FU5PL, Query_PDMAE_SV.FU6PL, Query_PDMAE_SV.FU7PL, Query_PDMAE_SV.FU8PL, Query_PDMAE_SV.FU9PL, Query_PDMAE_SV.FU10PL, Query_PDMAE_SV.FU11PL, Query_PDMAE_SV.FU12PL, Query_PDMAE_SV.FU13PL, Query_PDMAE_SV.FU14PL, Query_PDMAE_SV.SALAPL, Query_PDMAE_SV.CIPPL, Query_PDMAE_SV.ISSSPL, Query_PDMAE_SV.DUIPL, Query_PDMAE_SV.LICEPL, Query_PDMAE_SV.COA1PL, Query_PDMAE_SV.COA2PL, 1, 0, sysdate() FROM Query_PDMAE_SV 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '52', "ui_acta_from_schema_0" = 'Query_PDMAE_HN', "x" = '2117', "y" = '-1237')
+GUID::'bcdc8afe-f3bd-4240-9c03-962db64f235a' CREATE VIEW Query_1( DPTOPL VARCHAR(2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.NOMBPL') ,
+ NOMRPL VARCHAR(25)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.NOMRPL') ,
+ CARGPL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CARGPL') ,
+ DIR1PL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DIR1PL') ,
+ DIR2PL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DIR2PL') ,
+ SEXOPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.SEXOPL') ,
+ ESTCPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.ESTCPL') ,
+ CONYPL VARCHAR(30)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CONYPL') ,
+ DEV1PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DEV1PL') ,
+ DEV2PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DEV2PL') ,
+ DEV3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DEV3PL') ,
+ OTR3PL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.OTR3PL') ,
+ TIPAPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.TIPAPL') ,
+ CTABPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CTABPL') ,
+ NITPL VARCHAR(17)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.NITPL') ,
+ ACOEPL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.ACOEPL') ,
+ NUPPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.NUPPL') ,
+ TVAPL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.TVAPL') ,
+ CVAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CVAPL') ,
+ PVAPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.PVAPL') ,
+ SUEAPL DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.SUEAPL') ,
+ HORPL DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.HORPL') ,
+ COEPL DECIMAL(1, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.COEPL') ,
+ FENAPL VARCHAR(8)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FENAPL') ,
+ NFINPL VARCHAR(8)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.NFINPL') ,
+ TEMEPL VARCHAR(12)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.TEMEPL') ,
+ TCELPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.TCELPL') ,
+ TVIPPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.TVIPPL') ,
+ UNIDPL VARCHAR(7)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.UNIDPL') ,
+ INGAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.INGAPL') ,
+ ISSAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.ISSAPL') ,
+ FPAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FPAPL') ,
+ CO01PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO01PL') ,
+ CO02PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO02PL') ,
+ CO03PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO03PL') ,
+ CO04PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO04PL') ,
+ CO05PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO05PL') ,
+ CO06PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO06PL') ,
+ CO07PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO07PL') ,
+ CO08PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO08PL') ,
+ CO09PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO09PL') ,
+ CO10PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO10PL') ,
+ CO11PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO11PL') ,
+ CO12PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CO12PL') ,
+ FU5PL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU5PL') ,
+ FU6PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU6PL') ,
+ FU7PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU7PL') ,
+ FU8PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU8PL') ,
+ FU9PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU9PL') ,
+ FU10PL VARCHAR(20)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU10PL') ,
+ FU11PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU11PL') ,
+ FU12PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU12PL') ,
+ FU13PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU13PL') ,
+ FU14PL VARCHAR(4)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.FU14PL') ,
+ SALAPL DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.SALAPL') ,
+ CIPPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CIPPL') ,
+ ISSSPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.ISSSPL') ,
+ DUIPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.DUIPL') ,
+ LICEPL VARCHAR(14)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.LICEPL') ,
+ COA1PL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.COA1PL') ,
+ COA2PL VARCHAR(1)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.COA2PL') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2') ,
+ CCARPL DECIMAL(3, 0)  SET( "ui_mapping_text" = 'Query_PDMAE_HN.CCARPL') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT Query_PDMAE_HN.DPTOPL, Query_PDMAE_HN.COREPL, Query_PDMAE_HN.NOMBPL, Query_PDMAE_HN.NOMRPL, Query_PDMAE_HN.CARGPL, Query_PDMAE_HN.DIR1PL, Query_PDMAE_HN.DIR2PL, Query_PDMAE_HN.SEXOPL, Query_PDMAE_HN.ESTCPL, Query_PDMAE_HN.CONYPL, Query_PDMAE_HN.DEV1PL, Query_PDMAE_HN.DEV2PL, Query_PDMAE_HN.DEV3PL, Query_PDMAE_HN.OTR3PL, Query_PDMAE_HN.TIPAPL, Query_PDMAE_HN.CTABPL, Query_PDMAE_HN.NITPL, Query_PDMAE_HN.ACOEPL, Query_PDMAE_HN.NUPPL, Query_PDMAE_HN.TVAPL, Query_PDMAE_HN.CVAPL, Query_PDMAE_HN.PVAPL, Query_PDMAE_HN.SUEAPL, Query_PDMAE_HN.HORPL, Query_PDMAE_HN.COEPL, Query_PDMAE_HN.FENAPL, Query_PDMAE_HN.NFINPL, Query_PDMAE_HN.TEMEPL, Query_PDMAE_HN.TCELPL, Query_PDMAE_HN.TVIPPL, Query_PDMAE_HN.UNIDPL, Query_PDMAE_HN.INGAPL, Query_PDMAE_HN.ISSAPL, Query_PDMAE_HN.FPAPL, Query_PDMAE_HN.CO01PL, Query_PDMAE_HN.CO02PL, Query_PDMAE_HN.CO03PL, Query_PDMAE_HN.CO04PL, Query_PDMAE_HN.CO05PL, Query_PDMAE_HN.CO06PL, Query_PDMAE_HN.CO07PL, Query_PDMAE_HN.CO08PL, Query_PDMAE_HN.CO09PL, Query_PDMAE_HN.CO10PL, Query_PDMAE_HN.CO11PL, Query_PDMAE_HN.CO12PL, Query_PDMAE_HN.FU5PL, Query_PDMAE_HN.FU6PL, Query_PDMAE_HN.FU7PL, Query_PDMAE_HN.FU8PL, Query_PDMAE_HN.FU9PL, Query_PDMAE_HN.FU10PL, Query_PDMAE_HN.FU11PL, Query_PDMAE_HN.FU12PL, Query_PDMAE_HN.FU13PL, Query_PDMAE_HN.FU14PL, Query_PDMAE_HN.SALAPL, Query_PDMAE_HN.CIPPL, Query_PDMAE_HN.ISSSPL, Query_PDMAE_HN.DUIPL, Query_PDMAE_HN.LICEPL, Query_PDMAE_HN.COA1PL, Query_PDMAE_HN.COA2PL, 2, Query_PDMAE_HN.CCARPL, sysdate() FROM Query_PDMAE_HN 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '50', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '77', "x" = '3313', "y" = '-1181')
+GUID::'300cc486-a618-4308-8362-b0159300d61b' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.PDMAE INPUT(Merge_PDMAE)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Jan  8 17:13:53 2025', "ActaValue_3" = 'Thu Mar  6 13:49:31 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_PDMAESD::'052aba9b-4d22-4987-b798-2672f516ed32'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '52', "x" = '963', "y" = '-369')
+GUID::'2d889814-ed35-4823-8b31-d56157bac56a' READ TABLE DS_DB2_GER_VTAS.NEWINV.PDMAESD OUTPUT(PDMAESD)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>391</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '52', "x" = '941', "y" = '-752')
+GUID::'9eb21295-63fe-4314-8ab7-b333089a7ef2' READ TABLE DS_DB2_GER_VTAS.PHNINV.PDMAESD OUTPUT(PDMAESD_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '52', "ui_acta_from_schema_0" = 'PDMAESD', "x" = '1477', "y" = '-382')
+GUID::'a5ca776c-750b-4b62-9893-8f6941cd41b3' CREATE VIEW Query( DPTOPL VARCHAR(2)  SET( "Description" = 'DEPTO. EMPLEADO', "ui_mapping_text" = 'PDMAESD.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "Description" = 'CORELATIVO EMPLEADO', "ui_mapping_text" = 'PDMAESD.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "Description" = 'NOMBRE DE EMPLEADO', "ui_mapping_text" = 'PDMAESD.NOMBPL') ,
+ CARGPL VARCHAR(20)  SET( "Description" = 'CARGO DEL EMPLEADO', "ui_mapping_text" = 'PDMAESD.CARGPL') ,
+ ID_PAIS INT  SET( "Description" = '1', "ui_mapping_text" = '1') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT PDMAESD.DPTOPL, PDMAESD.COREPL, PDMAESD.NOMBPL, PDMAESD.CARGPL, 1, sysdate() FROM PDMAESD 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '52', "ui_acta_from_schema_0" = 'PDMAESD_1', "x" = '1469', "y" = '-741')
+GUID::'b2cbbcbd-fa1b-4c14-a034-51a325413457' CREATE VIEW Query_1( DPTOPL VARCHAR(2)  SET( "Description" = 'DEPTO. EMPLEADO', "ui_mapping_text" = 'PDMAESD_1.DPTOPL') ,
+ COREPL VARCHAR(2)  SET( "Description" = 'CORELATIVO EMPLEADO', "ui_mapping_text" = 'PDMAESD_1.COREPL') ,
+ NOMBPL VARCHAR(30)  SET( "Description" = 'NOMBRE DE EMPLEADO', "ui_mapping_text" = 'PDMAESD_1.NOMBPL') ,
+ CARGPL VARCHAR(20)  SET( "Description" = 'CARGO DEL EMPLEADO', "ui_mapping_text" = 'PDMAESD_1.CARGPL') ,
+ ID_PAIS INT  SET( "Description" = '2', "ui_mapping_text" = '2') ,
+ fecha_carga_dwh DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT PDMAESD_1.DPTOPL, PDMAESD_1.COREPL, PDMAESD_1.NOMBPL, PDMAESD_1.CARGPL, 2, sysdate() FROM PDMAESD_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '52', "x" = '2291', "y" = '-666')
+GUID::'8a2ab4b8-6129-48ab-b11d-02e0ed6897b5' CALL TRANSFORM Merge() INPUT(Query, Query_1) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '41', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '52', "x" = '2891', "y" = '-906')
+GUID::'1c3ca678-0e95-4e62-bb50-dd9501bcf52d' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.PDMAESD INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_SP_CAT_USUARIOS_NEGATIVOS::'a4c5819b-79a0-44ce-97c6-1cf7db2706b0'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>650</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'EXEC SP_CAT_USUARIOS_NEGATIVOS', "ui_script_text" = 'sql(\'DS_SQL_SERVER_ODS\',\'EXEC ods.sp_cat_usuarios_negativos \');', "x" = '3088', "y" = '-1047')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_ODS', 'EXEC ods.sp_cat_usuarios_negativos ');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
