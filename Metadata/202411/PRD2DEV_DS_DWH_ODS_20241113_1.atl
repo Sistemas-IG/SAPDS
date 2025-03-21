@@ -1,0 +1,61 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWH_MODELO::'ea2c829a-86f1-4910-be43-ca150ed30f51' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E800AB1F2250B1A9CE4BB777AD7B38D628DD7B3D2FB1A76F40E4C2F8D4B6D7033B802CF5BE3E97C3FF9A92F7EF8A</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8540F3041B3CFEF74A875A30CFDCC06FC7CEADC8D510F76F151DA5DA1832FAFB7246A69E058F8DB5C6C7103A0A6</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8389FB2BC3CE25425418DBEAF4F3608966632E53E31A712D8EEEA4E1029BF0573A76635A3E7CD55CECCABD0ABB93C81A0381ECE52FFEC</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_MODELO</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWH_MODELO', "pcache_force_utf16" = 'no');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWH_MODELO_DEV::'d0f4e111-afac-4353-b175-f258b6f4f539' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8D02B559EE3FD0BFA1C4BE4270E6F2ABB570E813EB834121A350B907D9E449E35753C555E99D99BE5FD32A429BF</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8F76C80AAF430707AE5D4CD13D281A79263C5B0696C726AED99DCA7E3FDBA17E5FC3672B79ED54BFD7E380A59EF</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E87BC6174E7129F8285F99EF49758D495B1D34C1BA18EBD66377BF47353A459AC987DA2481ADA9B448C451D954EC390D03546123E5</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_MODELO</sql_server_database>
+<sql_server_dataserver>perseo.superrepuestos.domain</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWH_MODELO_DEV', "pcache_force_utf16" = 'no');

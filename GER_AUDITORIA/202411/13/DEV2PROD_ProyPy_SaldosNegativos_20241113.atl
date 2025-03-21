@@ -1,0 +1,354 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E84972F920D11BC87A504DE011A2D3C10304A623C1ABB18F7E1DC6F4AB2B968F9AE112AF18C2D8B623352E136AE8557A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ODS::'4a76885e-ae42-460a-99ff-e7767746a3bd' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8EB48E8734023C9895F95571DC92CF4086DC999C8C077BE92C626B9A12C465C5B0C355AFB2C9DE6C844203B2625</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8C403FA775C69AC4BB0A817569FD4DB482688FAB2BE3B2F28F8B302FCAB441A99BEF08C1BFC059BE89E61F8DB65</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8BE774320EB9BBA10A538376CB9A47B95E85A73A9A205F66D6729B8825ABC8B1B31F1A601749E4FC3C7C7732795CE3BE93928005D492C</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_ODS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ODS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8E2089111441D157811C3A7D62962A2F8A6298F25108138AE7CFE0C94B692A48D7F12F81503B4A6AE81AF24EEB4</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E81CE233697B0B8EF7075B1E26FD63284156EA9925AB9DB4D161164E4B4F60265B2BA5C638660C6D4FD148090E1D</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E89AF9799E87E4E65F899B64379C2E66E1B01EFFF02DB6DACE34729D0847C8D35FBDA829B2B55BAC1B37889FCE23CD590600B81A07174A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'RTotal_Number_Of_Rows_Processed',ActaValue_4 = '33270' , 
+ActaName_5 = 'RNumber_Of_Rows_Rejected',ActaValue_5 = '0' , 
+ActaName_6 = 'RNumber_Of_Inserts',ActaValue_6 = '33270' , 
+ActaName_7 = 'RNumber_Of_Updates',ActaValue_7 = '0' , 
+ActaName_8 = 'RNumber_Of_Deletes',ActaValue_8 = '0' , 
+ActaName_9 = 'RElapsed_Time_For_Load',ActaValue_9 = '1 Seconds' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RLoader_Is_Template_Table',ActaValue_12 = 'no' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Nov 13 12:21:16 2024' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Wed Nov 13 17:15:52 2024' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAESALNEG(NEGPAIS DECIMAL(3, 0)  NULL , 
+NEGCODE VARCHAR(17)  NULL , 
+NEGALMA DECIMAL(5, 0)  NULL , 
+NEGEXIS DECIMAL(7, 0)  NULL , 
+NEGUSUA VARCHAR(10)  NULL , 
+NEGTIME DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu Oct  3 14:43:24 2024', "ActaValue_3" = 'Wed Nov 13 17:10:10 2024', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_MAESALNEG::'f81a496e-6d99-435b-b4b1-710087381c23'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>294</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "ui_display_name" = 'SQL_MAESALNEG', "x" = '1037', "y" = '-1173')
+GUID::'0c5a2497-3209-43ce-a157-cd36ceb1e52e' CALL TRANSFORM SQL() OUTPUT(SQL_MAESALNEG( NEGPAIS DECIMAL(3, 0) ,
+ NEGCODE VARCHAR(17) ,
+ NEGALMA DECIMAL(5, 0) ,
+ NEGEXIS DECIMAL(7, 0) ,
+ NEGUSUA VARCHAR(10) ,
+ NEGTIME DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT *&#xD;&#xA;FROM SRSHRLIB.MAESALNEG WHERE VARCHAR_FORMAT(NEGTIME, \'YYYYMMDD\') &gt;= VARCHAR_FORMAT(CURRENT DATE - 1 MONTHS, \'YYYYMMDD\')</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>344</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'SQL_MAESALNEG', "ui_display_name" = 'QRY_MAESALNEG', "x" = '1556', "y" = '-1172')
+GUID::'d4112c40-1212-4a42-bcec-c066070a7746' CREATE VIEW QRY_MAESALNEG( NEGPAIS DECIMAL(3, 0)  SET( "ui_mapping_text" = 'SQL_MAESALNEG.NEGPAIS') ,
+ NEGCODE VARCHAR(17)  SET( "ui_mapping_text" = 'SQL_MAESALNEG.NEGCODE') ,
+ NEGALMA DECIMAL(5, 0)  SET( "ui_mapping_text" = 'SQL_MAESALNEG.NEGALMA') ,
+ NEGEXIS DECIMAL(7, 0)  SET( "ui_mapping_text" = 'SQL_MAESALNEG.NEGEXIS') ,
+ NEGUSUA VARCHAR(10)  SET( "ui_mapping_text" = 'SQL_MAESALNEG.NEGUSUA') ,
+ NEGTIME DATETIME(9)  SET( "Native Type" = 'DATETIME2', "ui_mapping_text" = 'SQL_MAESALNEG.NEGTIME')  )
+ AS
+SELECT SQL_MAESALNEG.NEGPAIS, SQL_MAESALNEG.NEGCODE, SQL_MAESALNEG.NEGALMA, SQL_MAESALNEG.NEGEXIS, SQL_MAESALNEG.NEGUSUA, SQL_MAESALNEG.NEGTIME FROM SQL_MAESALNEG 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "x" = '2200', "y" = '-1172')
+GUID::'d0c0c5f3-88d1-4116-ac1d-dc9880cd737b' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.MAESALNEG INPUT(QRY_MAESALNEG)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_MAESALNEG.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Nov 13 10:49:08 2024', "ActaValue_3" = 'Wed Nov 13 16:59:22 2024', "x" = '-1', "y" = '-1')
+CREATE SESSION ProyPy_SaldosNegativos::'d4d3e35a-88f5-4002-b169-3775dfb5e788'( )
+DECLARE
+     $LV_Actualizar INT ;
+     $dia_semana INT ;
+     $var INT ;
+     $Dia_mes INT ;
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>328</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Inicio_Saldos_Neg', "ui_script_text" = 'print(\'*********************************--> INICIO DE SALDOS NEGATIVOS <--*******************************************\');
+print(\'*****************************--> INICIO DE VALIDACION DE LA VARIABLE DE DIAS <--******************************\');
+print(\'#############################################################################################################\');', "x" = '672', "y" = '-953')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE SALDOS NEGATIVOS <--*******************************************');print('*****************************--> INICIO DE VALIDACION DE LA VARIABLE DE DIAS <--******************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_Validacion_dias', "ui_script_text" = '$dia_semana = day_in_week( sysdate( ));
+print( \'Dia en la semana: \' || $dia_semana );
+
+$Dia_mes = date_part( sysdate( ), \'DD\');
+print( \'Dia en el mes: \' || $Dia_mes );
+
+IF ( $dia_semana = 6 OR $dia_semana = 7 AND $Dia_mes IN ( 15 ,30))
+begin
+$var = 1 ;
+print(\'Es domingo o sabado, siendo dia 15 o 30: \'|| $var);	
+end
+IF ( $dia_semana  IN ( 1, 2, 3, 4, 5) )
+begin
+$var = 1 ;
+print(\'Es dia de semana: \'|| $var);	
+end
+else
+begin
+$var = 0 ;
+print(\'No es dia 15 o 30 , siendo sabado o domingo: \' || $var );
+end 
+', "x" = '1048', "y" = '-950')
+BEGIN_SCRIPT
+$dia_semana = day_in_week(sysdate());print(('Dia en la semana: ' || $dia_semana));$Dia_mes = date_part(sysdate(), 'DD');print(('Dia en el mes: ' || $Dia_mes));IF ((($dia_semana = 6) OR
+   (  (($dia_semana = 7) AND
+   $Dia_mes IN (15,30))  )) )
+BEGIN
+$var = 1;print(('Es domingo o sabado, siendo dia 15 o 30: ' || $var));END
+IF ($dia_semana IN (1,2,3,4,5) )
+BEGIN
+$var = 1;print(('Es dia de semana: ' || $var));END
+ELSE
+BEGIN
+$var = 0;print(('No es dia 15 o 30 , siendo sabado o domingo: ' || $var));END
+END
+ AlGUIComment ("If_condition" = '$var = 1 ', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>216</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Vali_dia', "x" = '1528', "y" = '-952')
+IF (($var = 1) )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_CARGA_NEG', "ui_script_text" = 'print(\'*********************************--> INICIO DE SALDOS NEGATIVOS <--*************************************\');
+print(\'#############################################################################################################\');', "x" = '347', "y" = '-463')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE SALDOS NEGATIVOS <--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>457</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '761', "y" = '-464')
+CALL PLAN WF_CRG_STG_MAESALNEG::'9edda4c2-8126-4187-9ef3-81c5fd2ad546'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>357</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1247', "y" = '-465')
+CALL PLAN sp_tra_fact_saldos_hist::'3a3ddef7-0633-40b5-96bb-0d5d8448354a'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>407</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_ENVCORR_NEG', "ui_script_text" = 'print(\'*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************\');
+print(\'#############################################################################################################\');', "x" = '1644', "y" = '-462')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE ENVIO DE CORREOS<--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2027', "y" = '-460')
+CALL PLAN WF_PY_SaldosNegativos::'3ca47c5e-b8cd-4125-9dbf-7aa5c64c8cfa'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FINAL_ETL_NEG', "ui_script_text" = 'print(\'############################################################################################\');
+print(\'************************************--> FIN DE ETL <--**************************************\');', "x" = '2475', "y" = '-737')
+BEGIN_SCRIPT
+print('############################################################################################');print('************************************--> FIN DE ETL <--**************************************');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>397</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_INICIO_REDAST_NEG', "ui_script_text" = 'print(\'*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************\');
+print(\'*********************************--> Reporte de Historia_SaldosNegativos <--*************************************\');
+print(\'#############################################################################################################\');', "x" = '2938', "y" = '-735')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE REFRESH DATA SET en PBI <--***************************************************');print('*********************************--> Reporte de Historia_SaldosNegativos <--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '3397', "y" = '-735')
+CALL PLAN WF_PY_RefreshDataSet_Neg::'2396ea48-b191-4290-b570-62fc40084102'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'SC_FIN_REDAST_NEG', "ui_script_text" = 'print(\'##################################################################################################################\');
+print(\'************************************--> FIN DE REFRESCAMIENTO DATA SET  <--**************************************\');', "x" = '3938', "y" = '-737')
+BEGIN_SCRIPT
+print('##################################################################################################################');print('************************************--> FIN DE REFRESCAMIENTO DATA SET  <--**************************************');END
+END
+ELSE
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>344</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'sc_validacion_fin_dia', "ui_script_text" = 'PRINT(\'**************************************************************************************\');
+print(\'***************--> ES SABADO O DOMINGO || DONDE NO ES 15 O 30 DEL MES <--**************\');
+print(\'######################################################################################\');', "x" = '397', "y" = '-330')
+BEGIN_SCRIPT
+print('**************************************************************************************');print('***************--> ES SABADO O DOMINGO || DONDE NO ES 15 O 30 DEL MES <--**************');print('######################################################################################');END
+END
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'd4d3e35a-88f5-4002-b169-3775dfb5e788', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'ProyPy_SaldosNegativos', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Nov 13 12:17:40 2024', "ActaValue_3" = 'Wed Nov 13 14:28:08 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_MAESALNEG::'9edda4c2-8126-4187-9ef3-81c5fd2ad546'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>425</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'DELETE_1_MONTH_NEG', "ui_script_text" = 'SQL(\'DS_SQL_SERVER_STAGE_BI\',\'DELETE FROM STAGE_BI.DWH.MAESALNEG WHERE CONVERT(varchar(8),cast(NEGTIME as date),112) >= CONVERT(varchar(8),DATEADD(DD,-30,cast(getdate() as date)),112)\');', "x" = '987', "y" = '-791')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_STAGE_BI', 'DELETE FROM STAGE_BI.DWH.MAESALNEG WHERE CONVERT(varchar(8),cast(NEGTIME as date),112) >= CONVERT(varchar(8),DATEADD(DD,-30,cast(getdate() as date)),112)');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>447</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1653', "y" = '-791')
+CALL DATAFLOW DF_CRG_STG_MAESALNEG::'f81a496e-6d99-435b-b4b1-710087381c23'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Nov 13 16:58:19 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_PY_RefreshDataSet_Neg::'2396ea48-b191-4290-b570-62fc40084102'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>363</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script_Python_RefreshDataSet_Neg', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\GER_AUDITORIA_ProyPy_SaldosNegativos\\run_script_REDAST.bat\', 0);', "x" = '1394', "y" = '-675')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\DEV\\ProjectsPython\\.venv\\GER_AUDITORIA_ProyPy_SaldosNegativos\\run_script_REDAST.bat', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Nov 13 15:46:22 2024', "ActaValue_3" = 'Wed Nov 13 16:34:13 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_PY_SaldosNegativos::'3ca47c5e-b8cd-4125-9dbf-7aa5c64c8cfa'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script_Python_Envio_Reportes_Negativos', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\GER_AUDITORIA_ProyPy_SaldosNegativos\\run_script.bat\', 0);', "x" = '1875', "y" = '-700')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\GER_AUDITORIA_ProyPy_SaldosNegativos\\run_script.bat', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Nov 13 13:51:04 2024', "ActaValue_3" = 'Wed Nov 13 15:11:18 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN sp_tra_fact_saldos_hist::'3a3ddef7-0633-40b5-96bb-0d5d8448354a'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>360</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Exec sp_tra_fact_saldos_hist', "ui_script_text" = 'sql(\'DS_SQL_SERVER_ODS\',\'EXEC ods.sp_tra_fact_saldos_hist \');', "x" = '1134', "y" = '-775')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_ODS', 'EXEC ods.sp_tra_fact_saldos_hist ');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

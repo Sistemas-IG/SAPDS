@@ -1,0 +1,40 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_DWH_MODELO::'ea2c829a-86f1-4910-be43-ca150ed30f51' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8F9A19C283D844150462F0445B2354E5B35B22B9BF4C2D74EE4E3863A84BCBA1A18D212D4EB7A10E3B73ABAEFCE</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8BFD5CFE2D8396F3E40016A8312247235F30517B47B1543D32736531AC5179F633533CC3B560AC5E3C7A0012A6C</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8A99F52725CAFD77567D216D797903994D9EF26B570E93487469296B618BDBAAE64ED74ED64E93929D8352CFCB34D44B2DD29333F6BA4</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_MODELO</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_DWH_MODELO', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Jul 15 16:55:04 2024', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_Dim_Documento::'1f4a7425-0271-47c8-9a42-65d388374ed3'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>294</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Dim_Documento', "ui_script_text" = 'sql( \'DS_SQL_SERVER_DWH_MODELO\', \'EXEC DWH.sp_Dim_Documento\');', "x" = '1050', "y" = '-460')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_DWH_MODELO', 'EXEC DWH.sp_Dim_Documento');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
