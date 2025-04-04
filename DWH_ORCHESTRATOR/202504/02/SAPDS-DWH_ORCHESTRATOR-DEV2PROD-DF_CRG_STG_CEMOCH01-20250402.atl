@@ -1,0 +1,350 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May 12 15:10:52 2021', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_BI_GERENCIA::'9ef3f82b-2283-4195-af8d-dac7a7f44be4' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E8D5B484D389DC487AE6AEFF7FAB6CA6B5E7B94DC814D67484B984DCB018B03FEF518C1A67C5512C4F3867B63E38CE81</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_BI_GERENCIA', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8E4BD201FFFB49C27ED23C934039E42964403683E9AC2B72279880E8B228D2CF3DF67EBFC34A872AE76DB00FAF1</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E8451D370246CB39FE64AB0B093C00D854792BF144D4A1E785E4D29BC451FDC10F9F216442852B3976B53280CF78</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8B965C942A43438F33796244AE85BAB1C08CA9764EB1B64C3740FE97D8A356B8BD53CEF1FB5BA94181604956CF1D3C18C697EE8DAA261</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '1523' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '1523' , 
+ActaName_4 = 'RElapsed_Time_For_Load',ActaValue_4 = '0 Seconds' , 
+ActaName_5 = 'RDatabase_Object_Type',ActaValue_5 = 'TABLE' , 
+ActaName_6 = 'RTable_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RDescription',ActaValue_7 = '' , 
+ActaName_8 = 'REstimated_Row_Count',ActaValue_8 = '50000' , 
+ActaName_9 = 'RSavedAfterCheckOut',ActaValue_9 = 'YES' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RDate_created',ActaValue_11 = 'Mon Mar 31 16:40:27 2025' , 
+ActaName_12 = 'RDate_last_loaded',ActaValue_12 = 'Tue Apr  1 08:30:17 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CEMOCH01(ORIMCH VARCHAR(1)  NULL , 
+MARMCH VARCHAR(3)  NULL , 
+MODMCH VARCHAR(15)  NULL , 
+MOTMCH VARCHAR(10)  NULL , 
+CHAMCH VARCHAR(10)  NULL , 
+VERMCH VARCHAR(1)  NULL , 
+TIPMCH VARCHAR(15)  NULL , 
+ADEMCH VARCHAR(4)  NULL , 
+MDEMCH VARCHAR(2)  NULL , 
+AHAMCH VARCHAR(4)  NULL , 
+MHAMCH VARCHAR(2)  NULL , 
+MMOMCH VARCHAR(3)  NULL , 
+COMMCH VARCHAR(1)  NULL , 
+CCUMCH DECIMAL(5, 0)  NULL , 
+CILMCH VARCHAR(3)  NULL , 
+LITMCH DECIMAL(3, 1)  NULL , 
+CIDMCH DECIMAL(4, 0)  NULL , 
+VALMCH DECIMAL(2, 0)  NULL , 
+EJLMCH VARCHAR(4)  NULL , 
+OB1MCH VARCHAR(30)  NULL , 
+OB2MCH VARCHAR(30)  NULL , 
+OB3MCH VARCHAR(30)  NULL , 
+ORIMTR VARCHAR(1)  NULL , 
+MARMTR VARCHAR(3)  NULL , 
+MODMTR VARCHAR(15)  NULL , 
+MOTMTR VARCHAR(10)  NULL , 
+CHAMTR VARCHAR(10)  NULL , 
+VERMTR VARCHAR(1)  NULL , 
+TIPMTR VARCHAR(15)  NULL , 
+ADEMTR VARCHAR(4)  NULL , 
+MDEMTR VARCHAR(2)  NULL , 
+AHAMTR VARCHAR(4)  NULL , 
+MHAMTR VARCHAR(2)  NULL , 
+ORICHA VARCHAR(1)  NULL , 
+MARCHA VARCHAR(3)  NULL , 
+MODCHA VARCHAR(15)  NULL , 
+MOTCHA VARCHAR(10)  NULL , 
+CHACHA VARCHAR(10)  NULL , 
+VERCHA VARCHAR(1)  NULL , 
+TIPCHA VARCHAR(15)  NULL , 
+ADECHA VARCHAR(4)  NULL , 
+MDECHA VARCHAR(2)  NULL , 
+AHACHA VARCHAR(4)  NULL , 
+MHACHA VARCHAR(2)  NULL , 
+USCMCH VARCHAR(10)  NULL , 
+FECMCH DECIMAL(8, 0)  NULL , 
+HOCMCH DECIMAL(6, 0)  NULL , 
+USMMCH VARCHAR(10)  NULL , 
+FEMMCH DECIMAL(8, 0)  NULL , 
+HOMMCH DECIMAL(6, 0)  NULL , 
+ID_PAIS INT  NULL , 
+ID_COMPANIA INT  NULL , 
+FECHA_CARGA_DWH DATETIME(7)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Combinación de cabeceras Motor y Chasis' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Tue Oct 19 15:06:14 2021' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Fri Mar  8 09:11:43 2024' )
+CREATE TABLE DS_DB2_BI_GERENCIA.NEWINV.CEMOCH01(ORIMCH CHAR(1)  NOT NULL  SET("Description" = 'Origen'), 
+MARMCH CHAR(3)  NOT NULL  SET("Description" = 'Marca'), 
+MODMCH CHAR(15)  NOT NULL  SET("Description" = 'Modelo'), 
+MOTMCH CHAR(10)  NOT NULL  SET("Description" = 'Motor'), 
+CHAMCH CHAR(10)  NOT NULL  SET("Description" = 'Chasis'), 
+VERMCH CHAR(1)  NOT NULL  SET("Description" = 'Version'), 
+TIPMCH CHAR(15)  NOT NULL  SET("Description" = 'Tipo Vehic.'), 
+ADEMCH CHAR(4)  NOT NULL  SET("Description" = 'Año Desde'), 
+MDEMCH CHAR(2)  NOT NULL  SET("Description" = 'Mes Desde'), 
+AHAMCH CHAR(4)  NOT NULL  SET("Description" = 'Año Hasta'), 
+MHAMCH CHAR(2)  NOT NULL  SET("Description" = 'Mes Hasta'), 
+MMOMCH CHAR(3)  NOT NULL  SET("Description" = 'Marca de Motor'), 
+COMMCH CHAR(1)  NOT NULL  SET("Description" = 'Combustible'), 
+CCUMCH DECIMAL(5, 0)  NOT NULL  SET("Description" = 'Cilindrada'), 
+CILMCH CHAR(3)  NOT NULL  SET("Description" = 'No.y Posicion'), 
+LITMCH DECIMAL(3, 1)  NOT NULL  SET("Description" = 'Litros'), 
+CIDMCH DECIMAL(4, 0)  NOT NULL  SET("Description" = 'Cubic Inch Displacement'), 
+VALMCH DECIMAL(2, 0)  NOT NULL  SET("Description" = 'Valvulas'), 
+EJLMCH CHAR(4)  NOT NULL  SET("Description" = 'DOHC SOHC'), 
+OB1MCH CHAR(30)  NOT NULL  SET("Description" = 'Obser1 MCHic.'), 
+OB2MCH CHAR(30)  NOT NULL  SET("Description" = 'Obser2 MCHic.'), 
+OB3MCH CHAR(30)  NOT NULL  SET("Description" = 'Obser3 MCHic.'), 
+ORIMTR CHAR(1)  NOT NULL  SET("Description" = 'Origen Motor'), 
+MARMTR CHAR(3)  NOT NULL  SET("Description" = 'Marca Motor'), 
+MODMTR CHAR(15)  NOT NULL  SET("Description" = 'Modelo Motor'), 
+MOTMTR CHAR(10)  NOT NULL  SET("Description" = 'Motor Motor'), 
+CHAMTR CHAR(10)  NOT NULL  SET("Description" = 'Chasis Motor'), 
+VERMTR CHAR(1)  NOT NULL  SET("Description" = 'Version Motor'), 
+TIPMTR CHAR(15)  NOT NULL  SET("Description" = 'Tipo Vehic. Motor'), 
+ADEMTR CHAR(4)  NOT NULL  SET("Description" = 'Año Desde Motor'), 
+MDEMTR CHAR(2)  NOT NULL  SET("Description" = 'Mes Desde Motor'), 
+AHAMTR CHAR(4)  NOT NULL  SET("Description" = 'Año Hasta Motor'), 
+MHAMTR CHAR(2)  NOT NULL  SET("Description" = 'Mes Hasta Motor'), 
+ORICHA CHAR(1)  NOT NULL  SET("Description" = 'Origen Chasis'), 
+MARCHA CHAR(3)  NOT NULL  SET("Description" = 'Marca Chasis'), 
+MODCHA CHAR(15)  NOT NULL  SET("Description" = 'Modelo Chasis'), 
+MOTCHA CHAR(10)  NOT NULL  SET("Description" = 'Motor Chasis'), 
+CHACHA CHAR(10)  NOT NULL  SET("Description" = 'Chasis Chasis'), 
+VERCHA CHAR(1)  NOT NULL  SET("Description" = 'Version Chasis'), 
+TIPCHA CHAR(15)  NOT NULL  SET("Description" = 'Tipo Vehic. Chasis'), 
+ADECHA CHAR(4)  NOT NULL  SET("Description" = 'Año Desde Chasis'), 
+MDECHA CHAR(2)  NOT NULL  SET("Description" = 'Mes Desde Chasis'), 
+AHACHA CHAR(4)  NOT NULL  SET("Description" = 'Año Hasta Chasis'), 
+MHACHA CHAR(2)  NOT NULL  SET("Description" = 'Mes Hasta Chasis'), 
+USCMCH CHAR(10)  NOT NULL  SET("Description" = 'Usuario Creacion'), 
+FECMCH DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha   Creacion'), 
+HOCMCH DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora    Creacion'), 
+USMMCH CHAR(10)  NOT NULL  SET("Description" = 'Usuario Modificacion'), 
+FEMMCH DECIMAL(8, 0)  NOT NULL  SET("Description" = 'Fecha   Modificacion'), 
+HOMMCH DECIMAL(6, 0)  NOT NULL  SET("Description" = 'Hora    Modificacion')) 
+CREATE_INDEX "NEWINV.CEMOCH01" ON (MARMCH, MODMCH, MOTMCH, CHAMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+CREATE_INDEX "NEWINV.CEMOCH02" ON (MARMCH, MODMCH, CHAMCH, MOTMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+CREATE_INDEX "NEWINV.CEMOCH03" ON (MODMCH, MARMCH, CHAMCH, MOTMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+CREATE_INDEX "NEWINV.CEMOCH04" ON (MOTMCH, MARMCH, MODMCH, CHAMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+CREATE_INDEX "NEWINV.CEMOCH05" ON (CHAMCH, MARMCH, MODMCH, MOTMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+CREATE_INDEX "NEWINV.CEMOCH06" ON (MARMTR, MODMTR, MOTMTR, CHAMTR, VERMTR, TIPMTR, ADEMTR, MDEMTR, AHAMTR, MHAMTR) 
+CREATE_INDEX "NEWINV.CEMOCH07" ON (MARCHA, MODCHA, MOTCHA, CHACHA, VERCHA, TIPCHA, ADECHA, MDECHA, AHACHA, MHACHA) 
+CREATE_INDEX "NEWINV.CEMOCH08" ON (MODMCH, MOTMCH, MARMCH, CHAMCH, VERMCH, TIPMCH, ADEMCH, MDEMCH, AHAMCH, MHAMCH) 
+SET("db_alias_name" = 'NEWINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Mar 31 12:31:52 2025', "ActaValue_3" = 'Mon Mar 31 17:02:11 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CEMOCH01::'19651172-4f3c-4313-9670-7c341ae333d3'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>388</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '59', "x" = '517', "y" = '-390')
+GUID::'dbc51fd4-2884-4805-9abe-6ef39a90e81c' READ TABLE DS_DB2_BI_GERENCIA.NEWINV.CEMOCH01 OUTPUT(CEMOCH01)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_BI_GERENCIA', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>338</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "ui_acta_from_schema_0" = 'CEMOCH01', "ui_display_name" = 'Query_CEMOCH01', "x" = '1294', "y" = '-500')
+GUID::'c02a0b65-5ead-451d-8c6b-787997f4b3cb' CREATE VIEW Query_CEMOCH01( ORIMCH VARCHAR(1)  SET( "Description" = 'Origen', "ui_mapping_text" = 'CEMOCH01.ORIMCH') ,
+ MARMCH VARCHAR(3)  SET( "Description" = 'Marca', "ui_mapping_text" = 'CEMOCH01.MARMCH') ,
+ MODMCH VARCHAR(15)  SET( "Description" = 'Modelo', "ui_mapping_text" = 'CEMOCH01.MODMCH') ,
+ MOTMCH VARCHAR(10)  SET( "Description" = 'Motor', "ui_mapping_text" = 'CEMOCH01.MOTMCH') ,
+ CHAMCH VARCHAR(10)  SET( "Description" = 'Chasis', "ui_mapping_text" = 'CEMOCH01.CHAMCH') ,
+ VERMCH VARCHAR(1)  SET( "Description" = 'Version', "ui_mapping_text" = 'CEMOCH01.VERMCH') ,
+ TIPMCH VARCHAR(15)  SET( "Description" = 'Tipo Vehic.', "ui_mapping_text" = 'CEMOCH01.TIPMCH') ,
+ ADEMCH VARCHAR(4)  SET( "Description" = 'Año Desde', "ui_mapping_text" = 'CEMOCH01.ADEMCH') ,
+ MDEMCH VARCHAR(2)  SET( "Description" = 'Mes Desde', "ui_mapping_text" = 'CEMOCH01.MDEMCH') ,
+ AHAMCH VARCHAR(4)  SET( "Description" = 'Año Hasta', "ui_mapping_text" = 'CEMOCH01.AHAMCH') ,
+ MHAMCH VARCHAR(2)  SET( "Description" = 'Mes Hasta', "ui_mapping_text" = 'CEMOCH01.MHAMCH') ,
+ MMOMCH VARCHAR(3)  SET( "Description" = 'Marca de Motor', "ui_mapping_text" = 'CEMOCH01.MMOMCH') ,
+ COMMCH VARCHAR(1)  SET( "Description" = 'Combustible', "ui_mapping_text" = 'CEMOCH01.COMMCH') ,
+ CCUMCH DECIMAL(5, 0)  SET( "Description" = 'Cilindrada', "ui_mapping_text" = 'CEMOCH01.CCUMCH') ,
+ CILMCH VARCHAR(3)  SET( "Description" = 'No.y Posicion', "ui_mapping_text" = 'CEMOCH01.CILMCH') ,
+ LITMCH DECIMAL(3, 1)  SET( "Description" = 'Litros', "ui_mapping_text" = 'CEMOCH01.LITMCH') ,
+ CIDMCH DECIMAL(4, 0)  SET( "Description" = 'Cubic Inch Displacement', "ui_mapping_text" = 'CEMOCH01.CIDMCH') ,
+ VALMCH DECIMAL(2, 0)  SET( "Description" = 'Valvulas', "ui_mapping_text" = 'CEMOCH01.VALMCH') ,
+ EJLMCH VARCHAR(4)  SET( "Description" = 'DOHC SOHC', "ui_mapping_text" = 'CEMOCH01.EJLMCH') ,
+ OB1MCH VARCHAR(30)  SET( "Description" = 'Obser1 MCHic.', "ui_mapping_text" = 'CEMOCH01.OB1MCH') ,
+ OB2MCH VARCHAR(30)  SET( "Description" = 'Obser2 MCHic.', "ui_mapping_text" = 'CEMOCH01.OB2MCH') ,
+ OB3MCH VARCHAR(30)  SET( "Description" = 'Obser3 MCHic.', "ui_mapping_text" = 'CEMOCH01.OB3MCH') ,
+ ORIMTR VARCHAR(1)  SET( "Description" = 'Origen Motor', "ui_mapping_text" = 'CEMOCH01.ORIMTR') ,
+ MARMTR VARCHAR(3)  SET( "Description" = 'Marca Motor', "ui_mapping_text" = 'CEMOCH01.MARMTR') ,
+ MODMTR VARCHAR(15)  SET( "Description" = 'Modelo Motor', "ui_mapping_text" = 'CEMOCH01.MODMTR') ,
+ MOTMTR VARCHAR(10)  SET( "Description" = 'Motor Motor', "ui_mapping_text" = 'CEMOCH01.MOTMTR') ,
+ CHAMTR VARCHAR(10)  SET( "Description" = 'Chasis Motor', "ui_mapping_text" = 'CEMOCH01.CHAMTR') ,
+ VERMTR VARCHAR(1)  SET( "Description" = 'Version Motor', "ui_mapping_text" = 'CEMOCH01.VERMTR') ,
+ TIPMTR VARCHAR(15)  SET( "Description" = 'Tipo Vehic. Motor', "ui_mapping_text" = 'CEMOCH01.TIPMTR') ,
+ ADEMTR VARCHAR(4)  SET( "Description" = 'Año Desde Motor', "ui_mapping_text" = 'CEMOCH01.ADEMTR') ,
+ MDEMTR VARCHAR(2)  SET( "Description" = 'Mes Desde Motor', "ui_mapping_text" = 'CEMOCH01.MDEMTR') ,
+ AHAMTR VARCHAR(4)  SET( "Description" = 'Año Hasta Motor', "ui_mapping_text" = 'CEMOCH01.AHAMTR') ,
+ MHAMTR VARCHAR(2)  SET( "Description" = 'Mes Hasta Motor', "ui_mapping_text" = 'CEMOCH01.MHAMTR') ,
+ ORICHA VARCHAR(1)  SET( "Description" = 'Origen Chasis', "ui_mapping_text" = 'CEMOCH01.ORICHA') ,
+ MARCHA VARCHAR(3)  SET( "Description" = 'Marca Chasis', "ui_mapping_text" = 'CEMOCH01.MARCHA') ,
+ MODCHA VARCHAR(15)  SET( "Description" = 'Modelo Chasis', "ui_mapping_text" = 'CEMOCH01.MODCHA') ,
+ MOTCHA VARCHAR(10)  SET( "Description" = 'Motor Chasis', "ui_mapping_text" = 'CEMOCH01.MOTCHA') ,
+ CHACHA VARCHAR(10)  SET( "Description" = 'Chasis Chasis', "ui_mapping_text" = 'CEMOCH01.CHACHA') ,
+ VERCHA VARCHAR(1)  SET( "Description" = 'Version Chasis', "ui_mapping_text" = 'CEMOCH01.VERCHA') ,
+ TIPCHA VARCHAR(15)  SET( "Description" = 'Tipo Vehic. Chasis', "ui_mapping_text" = 'CEMOCH01.TIPCHA') ,
+ ADECHA VARCHAR(4)  SET( "Description" = 'Año Desde Chasis', "ui_mapping_text" = 'CEMOCH01.ADECHA') ,
+ MDECHA VARCHAR(2)  SET( "Description" = 'Mes Desde Chasis', "ui_mapping_text" = 'CEMOCH01.MDECHA') ,
+ AHACHA VARCHAR(4)  SET( "Description" = 'Año Hasta Chasis', "ui_mapping_text" = 'CEMOCH01.AHACHA') ,
+ MHACHA VARCHAR(2)  SET( "Description" = 'Mes Hasta Chasis', "ui_mapping_text" = 'CEMOCH01.MHACHA') ,
+ USCMCH VARCHAR(10)  SET( "Description" = 'Usuario Creacion', "ui_mapping_text" = 'CEMOCH01.USCMCH') ,
+ FECMCH DECIMAL(8, 0)  SET( "Description" = 'Fecha   Creacion', "ui_mapping_text" = 'CEMOCH01.FECMCH') ,
+ HOCMCH DECIMAL(6, 0)  SET( "Description" = 'Hora    Creacion', "ui_mapping_text" = 'CEMOCH01.HOCMCH') ,
+ USMMCH VARCHAR(10)  SET( "Description" = 'Usuario Modificacion', "ui_mapping_text" = 'CEMOCH01.USMMCH') ,
+ FEMMCH DECIMAL(8, 0)  SET( "Description" = 'Fecha   Modificacion', "ui_mapping_text" = 'CEMOCH01.FEMMCH') ,
+ HOMMCH DECIMAL(6, 0)  SET( "Description" = 'Hora    Modificacion', "ui_mapping_text" = 'CEMOCH01.HOMMCH') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ ID_COMPANIA INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate( )')  )
+ AS
+SELECT CEMOCH01.ORIMCH, CEMOCH01.MARMCH, CEMOCH01.MODMCH, CEMOCH01.MOTMCH, CEMOCH01.CHAMCH, CEMOCH01.VERMCH, CEMOCH01.TIPMCH, CEMOCH01.ADEMCH, CEMOCH01.MDEMCH, CEMOCH01.AHAMCH, CEMOCH01.MHAMCH, CEMOCH01.MMOMCH, CEMOCH01.COMMCH, CEMOCH01.CCUMCH, CEMOCH01.CILMCH, CEMOCH01.LITMCH, CEMOCH01.CIDMCH, CEMOCH01.VALMCH, CEMOCH01.EJLMCH, CEMOCH01.OB1MCH, CEMOCH01.OB2MCH, CEMOCH01.OB3MCH, CEMOCH01.ORIMTR, CEMOCH01.MARMTR, CEMOCH01.MODMTR, CEMOCH01.MOTMTR, CEMOCH01.CHAMTR, CEMOCH01.VERMTR, CEMOCH01.TIPMTR, CEMOCH01.ADEMTR, CEMOCH01.MDEMTR, CEMOCH01.AHAMTR, CEMOCH01.MHAMTR, CEMOCH01.ORICHA, CEMOCH01.MARCHA, CEMOCH01.MODCHA, CEMOCH01.MOTCHA, CEMOCH01.CHACHA, CEMOCH01.VERCHA, CEMOCH01.TIPCHA, CEMOCH01.ADECHA, CEMOCH01.MDECHA, CEMOCH01.AHACHA, CEMOCH01.MHACHA, CEMOCH01.USCMCH, CEMOCH01.FECMCH, CEMOCH01.HOCMCH, CEMOCH01.USMMCH, CEMOCH01.FEMMCH, CEMOCH01.HOMMCH, 1, 1, sysdate() FROM CEMOCH01 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '30', "x" = '2075', "y" = '-575')
+GUID::'d72111e4-5235-49d7-9bd3-2b0bd6533861' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CEMOCH01 INPUT(Query_CEMOCH01)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>4000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>no</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file>DS_SQL_SERVER_STAGE_BI_DWH_CEMOCH01.txt</loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
