@@ -1,0 +1,252 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon May 09 11:36:59 2016', "ActaValue_3" = 'Mon Aug 29 13:53:04 2016', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2::'e3ea301f-1161-455a-8e6d-2693a76e8eab' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E869B7CC6B500E5F78C3748E4EC95A77903DC87CAA22072333217AD5463FB9276A215FBF5CBF04E5DD070249B44BBA6A</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May 17 15:59:56 2023', "ActaValue_3" = 'Fri Aug 11 11:09:51 2023', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI_DEV::'20b6c1d2-c9e0-48d9-b67c-c65b1ec918ad' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8BF432B978D720866DAE48E72E7A985D102E7CB775CB194E4AF5E35C827969B90F6D53F61A204F644429DB5936D</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E81A935857CA4F380E1909AE171D7D7AF1670A77046C14F25275EE73691939157DAAB7BD17519568F187199C2D09</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8122513E1366D632D46516506C50A105CB51465A901235C2CC7381E3292653EDA3B9DDC6FC7EFC231EB16E2D245DDA5FFF9A50C4F</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>perseo.superrepuestos.domain</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI_DEV', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Wed Apr 16 10:12:52 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' )
+CREATE TABLE DS_DB2.NEWINV.TAC580CPF(ALM580 CHAR(2)  NOT NULL  SET("Description" = 'COD-ALMACEN'), 
+FEC580 CHAR(4)  NOT NULL  SET("Description" = 'MES Y DIA'), 
+TCO580 CHAR(1)  NOT NULL  SET("Description" = 'TIPO DE COMPROB.'), 
+FAC580 CHAR(6)  NOT NULL  SET("Description" = 'NUMERO DE FACTURA'), 
+TTA580 CHAR(1)  NOT NULL  SET("Description" = 'TIPO-TALLER'), 
+CTA580 CHAR(3)  NOT NULL  SET("Description" = 'CORREL-TALLER'), 
+STS580 CHAR(3)  NOT NULL  SET("Description" = 'STATUS'), 
+CVE580 CHAR(4)  NOT NULL  SET("Description" = 'CODIGO VENDEDOR'), 
+MTO580 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'MONTO DE FACTURA'), 
+MCO580 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'MONTO DE COMISION'), 
+DES580 DECIMAL(9, 2)  NOT NULL  SET("Description" = '% DESC.DE FACTURA'), 
+MTB580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO S/IVA'), 
+IV1580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO IVA+'), 
+IV2580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO IVA-'), 
+REN580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO RENTA'), 
+NET580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO NETO'), 
+FCA580 DATETIME(6)  NOT NULL  SET("Description" = 'FECHA DE CARGA')) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RTotal_Number_Of_Rows_Processed',ActaValue_1 = '30809' , 
+ActaName_2 = 'RNumber_Of_Rows_Rejected',ActaValue_2 = '0' , 
+ActaName_3 = 'RNumber_Of_Inserts',ActaValue_3 = '30809' , 
+ActaName_4 = 'RNumber_Of_Updates',ActaValue_4 = '0' , 
+ActaName_5 = 'RNumber_Of_Deletes',ActaValue_5 = '0' , 
+ActaName_6 = 'RElapsed_Time_For_Load',ActaValue_6 = '2 Seconds' , 
+ActaName_7 = 'RDatabase_Object_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RTable_Type',ActaValue_8 = 'TABLE' , 
+ActaName_9 = 'RDescription',ActaValue_9 = '' , 
+ActaName_10 = 'REstimated_Row_Count',ActaValue_10 = '50000' , 
+ActaName_11 = 'RLoader_Is_Template_Table',ActaValue_11 = 'yes' , 
+ActaName_12 = 'RSavedAfterCheckOut',ActaValue_12 = 'YES' , 
+ActaName_13 = 'RDate_created',ActaValue_13 = 'Wed Apr 16 12:08:47 2025' , 
+ActaName_14 = 'RDate_last_loaded',ActaValue_14 = 'Wed Apr 16 12:09:00 2025' , 
+ActaName_15 = 'RDate_modified',ActaValue_15 = 'Wed Apr 16 12:08:48 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI_DEV.DWH.TAC580CPF(ALM580 VARCHAR(2)  NOT NULL  SET("Description" = 'COD-ALMACEN'), 
+FEC580 VARCHAR(4)  NOT NULL  SET("Description" = 'MES Y DIA'), 
+TCO580 VARCHAR(1)  NOT NULL  SET("Description" = 'TIPO DE COMPROB.'), 
+FAC580 VARCHAR(6)  NOT NULL  SET("Description" = 'NUMERO DE FACTURA'), 
+TTA580 VARCHAR(1)  NOT NULL  SET("Description" = 'TIPO-TALLER'), 
+CTA580 VARCHAR(3)  NOT NULL  SET("Description" = 'CORREL-TALLER'), 
+STS580 VARCHAR(3)  NOT NULL  SET("Description" = 'STATUS'), 
+CVE580 VARCHAR(4)  NOT NULL  SET("Description" = 'CODIGO VENDEDOR'), 
+MTO580 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'MONTO DE FACTURA'), 
+MCO580 DECIMAL(9, 2)  NOT NULL  SET("Description" = 'MONTO DE COMISION'), 
+DES580 DECIMAL(9, 2)  NOT NULL  SET("Description" = '% DESC.DE FACTURA'), 
+MTB580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO S/IVA'), 
+IV1580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO IVA+'), 
+IV2580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO IVA-'), 
+REN580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO RENTA'), 
+NET580 DECIMAL(10, 2)  NOT NULL  SET("Description" = 'MONTO NETO'), 
+FCA580 DATETIME(6)  NOT NULL  SET("Description" = 'FECHA DE CARGA', "Native Type" = 'DATETIME2'), 
+ID_PAIS INT  NULL , 
+ID_COMPANIA INT  NULL , 
+FECHA_CREACION_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed Apr 16 11:04:31 2025', "ActaValue_3" = 'Wed Apr 16 12:03:48 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_TAC580PF::'0d046f0d-d428-44de-b4cf-c44406b9c083'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '38', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>366</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "x" = '366', "y" = '-328')
+GUID::'3621a6be-8445-4755-aa25-625543a0f54a' READ TABLE DS_DB2.NEWINV.TAC580CPF OUTPUT(TAC580CPF)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '40', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '44', "ui_acta_from_schema_0" = 'TAC580CPF', "x" = '1212', "y" = '-357')
+GUID::'e8ba9d37-f442-4fcc-86aa-f9257f1b6891' CREATE VIEW Query( ALM580 VARCHAR(2)  SET( "Description" = 'COD-ALMACEN', "ui_mapping_text" = 'TAC580CPF.ALM580') ,
+ FEC580 VARCHAR(4)  SET( "Description" = 'MES Y DIA', "ui_mapping_text" = 'TAC580CPF.FEC580') ,
+ TCO580 VARCHAR(1)  SET( "Description" = 'TIPO DE COMPROB.', "ui_mapping_text" = 'TAC580CPF.TCO580') ,
+ FAC580 VARCHAR(6)  SET( "Description" = 'NUMERO DE FACTURA', "ui_mapping_text" = 'TAC580CPF.FAC580') ,
+ TTA580 VARCHAR(1)  SET( "Description" = 'TIPO-TALLER', "ui_mapping_text" = 'TAC580CPF.TTA580') ,
+ CTA580 VARCHAR(3)  SET( "Description" = 'CORREL-TALLER', "ui_mapping_text" = 'TAC580CPF.CTA580') ,
+ STS580 VARCHAR(3)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'TAC580CPF.STS580') ,
+ CVE580 VARCHAR(4)  SET( "Description" = 'CODIGO VENDEDOR', "ui_mapping_text" = 'TAC580CPF.CVE580') ,
+ MTO580 DECIMAL(9, 2)  SET( "Description" = 'MONTO DE FACTURA', "ui_mapping_text" = 'TAC580CPF.MTO580') ,
+ MCO580 DECIMAL(9, 2)  SET( "Description" = 'MONTO DE COMISION', "ui_mapping_text" = 'TAC580CPF.MCO580') ,
+ DES580 DECIMAL(9, 2)  SET( "Description" = '% DESC.DE FACTURA', "ui_mapping_text" = 'TAC580CPF.DES580') ,
+ MTB580 DECIMAL(10, 2)  SET( "Description" = 'MONTO S/IVA', "ui_mapping_text" = 'TAC580CPF.MTB580') ,
+ IV1580 DECIMAL(10, 2)  SET( "Description" = 'MONTO IVA+', "ui_mapping_text" = 'TAC580CPF.IV1580') ,
+ IV2580 DECIMAL(10, 2)  SET( "Description" = 'MONTO IVA-', "ui_mapping_text" = 'TAC580CPF.IV2580') ,
+ REN580 DECIMAL(10, 2)  SET( "Description" = 'MONTO RENTA', "ui_mapping_text" = 'TAC580CPF.REN580') ,
+ NET580 DECIMAL(10, 2)  SET( "Description" = 'MONTO NETO', "ui_mapping_text" = 'TAC580CPF.NET580') ,
+ FCA580 DATETIME(9)  SET( "Description" = 'FECHA DE CARGA', "ui_mapping_text" = 'TAC580CPF.FCA580') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ ID_COMPANIA INT  SET( "ui_mapping_text" = '1') ,
+ Fecha_Creacion_DWH DATETIME(9)  SET( "ui_mapping_text" = 'sysdate()')  )
+ AS
+SELECT TAC580CPF.ALM580, TAC580CPF.FEC580, TAC580CPF.TCO580, TAC580CPF.FAC580, TAC580CPF.TTA580, TAC580CPF.CTA580, TAC580CPF.STS580, TAC580CPF.CVE580, TAC580CPF.MTO580, TAC580CPF.MCO580, TAC580CPF.DES580, TAC580CPF.MTB580, TAC580CPF.IV1580, TAC580CPF.IV2580, TAC580CPF.REN580, TAC580CPF.NET580, TAC580CPF.FCA580, 1, 1, sysdate() FROM TAC580CPF 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>422</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '59', "x" = '2199', "y" = '-349')
+GUID::'749c648e-22e6-4c4e-9ebc-37c27a8fdbf1' LOAD TABLE DS_SQL_SERVER_STAGE_BI_DEV.DWH.TAC580CPF INPUT(Query)
+SET("connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>1000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load></loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'yes', "name" = 'DS_SQL_SERVER_STAGE_BI_DEV', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_TAC580PF::'2fa00fc7-034c-420f-a9d3-00b53cafab6e'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>272</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '312', "y" = '-413')
+CALL DATAFLOW DF_TAC580PF::'0d046f0d-d428-44de-b4cf-c44406b9c083'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
