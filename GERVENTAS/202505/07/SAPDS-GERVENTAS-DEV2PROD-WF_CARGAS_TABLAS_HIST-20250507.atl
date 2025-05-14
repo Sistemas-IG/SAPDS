@@ -1,0 +1,1952 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E80031056412F07DD289A9FA389560AADAE0BC0AF618DA356A7939345ED18835EA54AE874FB4D36960695CE26C9EBE20</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E801710B6A00A308666AC3E462E119A2BB12E137839773B2099CCEE21BC58ADDC38F44B5BDED743F40B14583CBEB</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E84C0DEE047DD133231162AF831B7511F0F30C5B4DF9EA3E6F3FC478DFADE622E3969263B15E35F27164CBDB2399</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E8AC7D843D93DA5BB9A0EEC73418E25412E88E42479848F3BB977119C4753B8BCF001F9C4C0B993B4BF25FFDC3172A7DAA6A1B6358045D</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu May  8 10:41:52 2025' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '1191944' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '1191944' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '54 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed May  7 16:57:55 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVADE_HIST(CTIPMO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CTIPMO'), 
+CCCEMI VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.CCCEMI'), 
+CCCREC VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.CCCREC'), 
+CNUMCO VARCHAR(9)  NULL  SET("ui_mapping_text" = 'Merge.CNUMCO'), 
+CMOVIC VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CMOVIC'), 
+CTIPOC VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CTIPOC'), 
+CFPAGC VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFPAGC'), 
+CCODIC VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CCODIC'), 
+CNUVEC VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CNUVEC'), 
+CCODAR VARCHAR(17)  NULL  SET("ui_mapping_text" = 'Merge.CCODAR'), 
+CREDES VARCHAR(20)  NULL  SET("ui_mapping_text" = 'Merge.CREDES'), 
+CENTSA VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CENTSA'), 
+CANODO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CANODO'), 
+CFECDE VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CFECDE'), 
+CFEREC VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CFEREC'), 
+CCANTI DECIMAL(7, 0)  NULL  SET("ui_mapping_text" = 'Merge.CCANTI'), 
+CVALDE DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CVALDE'), 
+CREBDE DECIMAL(7, 2)  NULL  SET("ui_mapping_text" = 'Merge.CREBDE'), 
+CDESDE DECIMAL(7, 2)  NULL  SET("ui_mapping_text" = 'Merge.CDESDE'), 
+CCOSVE DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CCOSVE'), 
+CSTSTR VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CSTSTR'), 
+CEXMAQ DECIMAL(9, 0)  NULL  SET("ui_mapping_text" = 'Merge.CEXMAQ'), 
+CEXTOT DECIMAL(9, 0)  NULL  SET("ui_mapping_text" = 'Merge.CEXTOT'), 
+CCOSAN DECIMAL(9, 4)  NULL  SET("ui_mapping_text" = 'Merge.CCOSAN'), 
+CTIPTR VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CTIPTR'), 
+CVAIVA DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CVAIVA'), 
+CTIPPZ VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CTIPPZ'), 
+CCORPZ DECIMAL(2, 0)  NULL  SET("ui_mapping_text" = 'Merge.CCORPZ'), 
+CNORPZ VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.CNORPZ'), 
+CSWITC VARCHAR(3)  NULL  SET("ui_mapping_text" = 'Merge.CSWITC'), 
+LLAVEA VARCHAR(31)  NULL  SET("ui_mapping_text" = 'Merge.LLAVEA'), 
+CGRUPO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.CGRUPO'), 
+CSGRUP VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.CSGRUP'), 
+CREBES DECIMAL(7, 2)  NULL  SET("ui_mapping_text" = 'Merge.CREBES'), 
+CMANUL VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CMANUL'), 
+CMPROM VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.CMPROM'), 
+CCOSCP DECIMAL(7, 2)  NULL  SET("ui_mapping_text" = 'Merge.CCOSCP'), 
+CFU001 VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFU001'), 
+CFU002 VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFU002'), 
+CFU003 VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFU003'), 
+CFU004 VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFU004'), 
+CFU005 VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.CFU005'), 
+CFU006 DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CFU006'), 
+CFU007 DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CFU007'), 
+CFU008 DECIMAL(9, 2)  NULL  SET("ui_mapping_text" = 'Merge.CFU008'), 
+CFU009 VARCHAR(10)  NULL  SET("ui_mapping_text" = 'Merge.CFU009'), 
+CFU010 VARCHAR(10)  NULL  SET("ui_mapping_text" = 'Merge.CFU010'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_TRANSACCION'), 
+ID_PAIS INT  NULL  SET("ui_mapping_text" = 'Merge.ID_PAIS'), 
+ID_COMPANIA INT  NULL  SET("ui_mapping_text" = 'Merge.ID_COMPANIA'), 
+ID_MONEDA INT  NULL  SET("ui_mapping_text" = 'Merge.ID_MONEDA'), 
+ID_FECHA VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.ID_FECHA'), 
+FECHA_CARGA_DWH DATETIME(6)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu May  8 13:47:43 2025' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '437305' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '437305' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '32 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed May  7 16:57:36 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SDSOLE01_HIST(STATSO VARCHAR(3)  NULL  SET("ui_mapping_text" = 'Merge.STATSO'), 
+RAZOSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.RAZOSO'), 
+PROCSO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.PROCSO'), 
+PRIOSO DECIMAL(3, 0)  NULL  SET("ui_mapping_text" = 'Merge.PRIOSO'), 
+TIPESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.TIPESO'), 
+NPEDSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NPEDSO'), 
+FE01SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE01SO'), 
+HO01SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO01SO'), 
+ALSOSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALSOSO'), 
+URGESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.URGESO'), 
+NSOLSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.NSOLSO'), 
+ALPISO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALPISO'), 
+ALTRSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALTRSO'), 
+PROVSO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.PROVSO'), 
+ZPROSO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.ZPROSO'), 
+VENDSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.VENDSO'), 
+NCOTSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NCOTSO'), 
+NPRFSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NPRFSO'), 
+NFACSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NFACSO'), 
+NORCSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NORCSO'), 
+TIPFSO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.TIPFSO'), 
+ZCLISO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.ZCLISO'), 
+CODCSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CODCSO'), 
+GRUPSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.GRUPSO'), 
+SGRUSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.SGRUSO'), 
+CODPSO VARCHAR(17)  NULL  SET("ui_mapping_text" = 'Merge.CODPSO'), 
+CANSSO DECIMAL(7, 0)  NULL  SET("ui_mapping_text" = 'Merge.CANSSO'), 
+LUGESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.LUGESO'), 
+INS1SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.INS1SO'), 
+INS2SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.INS2SO'), 
+FE02SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE02SO'), 
+HO02SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO02SO'), 
+DE02SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE02SO'), 
+FE03SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE03SO'), 
+HO03SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO03SO'), 
+DE03SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE03SO'), 
+FE04SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE04SO'), 
+HO04SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO04SO'), 
+DE04SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE04SO'), 
+RA04SO VARCHAR(20)  NULL  SET("ui_mapping_text" = 'Merge.RA04SO'), 
+FE05SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE05SO'), 
+HO05SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO05SO'), 
+DE05SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE05SO'), 
+NENVSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NENVSO'), 
+CANDSO DECIMAL(7, 0)  NULL  SET("ui_mapping_text" = 'Merge.CANDSO'), 
+FE5ASO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5ASO'), 
+HO5ASO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5ASO'), 
+DE5ASO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5ASO'), 
+MP5ASO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5ASO'), 
+FE5BSO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5BSO'), 
+HO5BSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5BSO'), 
+DE5BSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5BSO'), 
+MP5BSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5BSO'), 
+FE5CSO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5CSO'), 
+HO5CSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5CSO'), 
+DE5CSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5CSO'), 
+MP5CSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5CSO'), 
+FE06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE06SO'), 
+HO06SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO06SO'), 
+DE06SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE06SO'), 
+MP06SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP06SO'), 
+STMOSO VARCHAR(3)  NULL  SET("ui_mapping_text" = 'Merge.STMOSO'), 
+FE07SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE07SO'), 
+HO07SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO07SO'), 
+MP07SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP07SO'), 
+HRUTSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HRUTSO'), 
+FE08SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE08SO'), 
+HO08SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO08SO'), 
+MP08SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP08SO'), 
+FE09SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE09SO'), 
+HO09SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO09SO'), 
+MP09SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP09SO'), 
+FE10SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE10SO'), 
+HO10SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO10SO'), 
+MP10SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP10SO'), 
+RA10SO VARCHAR(20)  NULL  SET("ui_mapping_text" = 'Merge.RA10SO'), 
+FT06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FT06SO'), 
+NREMSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.NREMSO'), 
+CODTSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CODTSO'), 
+LUGDSO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.LUGDSO'), 
+FU01SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.FU01SO'), 
+FU02SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU02SO'), 
+FU03SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU03SO'), 
+FU04SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU04SO'), 
+FU05SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU05SO'), 
+FU06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU06SO'), 
+FU07SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU07SO'), 
+FU08SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU08SO'), 
+FU09SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU09SO'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_TRANSACCION'), 
+ID_PAIS INT  NULL  SET("ui_mapping_text" = 'Merge.ID_PAIS'), 
+ID_COMPANIA INT  NULL  SET("ui_mapping_text" = 'Merge.ID_COMPANIA'), 
+ID_FECHA VARCHAR(10)  NULL  SET("ui_mapping_text" = 'Merge.ID_FECHA'), 
+FECHA_CARGA_DWH DATETIME(6)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDate_last_loaded',ActaValue_1 = 'Thu May  8 11:51:19 2025' , 
+ActaName_2 = 'RTotal_Number_Of_Rows_Processed',ActaValue_2 = '92772' , 
+ActaName_3 = 'RNumber_Of_Rows_Rejected',ActaValue_3 = '0' , 
+ActaName_4 = 'RNumber_Of_Inserts',ActaValue_4 = '92772' , 
+ActaName_5 = 'RElapsed_Time_For_Load',ActaValue_5 = '8 Seconds' , 
+ActaName_6 = 'RDatabase_Object_Type',ActaValue_6 = 'TABLE' , 
+ActaName_7 = 'RTable_Type',ActaValue_7 = 'TABLE' , 
+ActaName_8 = 'RDescription',ActaValue_8 = '' , 
+ActaName_9 = 'REstimated_Row_Count',ActaValue_9 = '50000' , 
+ActaName_10 = 'RLoader_Is_Template_Table',ActaValue_10 = 'no' , 
+ActaName_11 = 'RSavedAfterCheckOut',ActaValue_11 = 'YES' , 
+ActaName_12 = 'RDate_modified',ActaValue_12 = 'Wed May  7 16:57:13 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.SOLBAL01_HIST(STATSO VARCHAR(3)  NULL  SET("ui_mapping_text" = 'Merge.STATSO'), 
+RAZOSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.RAZOSO'), 
+PROCSO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.PROCSO'), 
+PRIOSO DECIMAL(3, 0)  NULL  SET("ui_mapping_text" = 'Merge.PRIOSO'), 
+TIPESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.TIPESO'), 
+NPEDSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NPEDSO'), 
+FE01SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE01SO'), 
+HO01SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO01SO'), 
+ALSOSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALSOSO'), 
+URGESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.URGESO'), 
+NSOLSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.NSOLSO'), 
+ALPISO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALPISO'), 
+ALTRSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.ALTRSO'), 
+PROVSO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.PROVSO'), 
+ZPROSO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.ZPROSO'), 
+VENDSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.VENDSO'), 
+NCOTSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NCOTSO'), 
+NPRFSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NPRFSO'), 
+NFACSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NFACSO'), 
+NORCSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NORCSO'), 
+TIPFSO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.TIPFSO'), 
+ZCLISO VARCHAR(6)  NULL  SET("ui_mapping_text" = 'Merge.ZCLISO'), 
+CODCSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CODCSO'), 
+GRUPSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.GRUPSO'), 
+SGRUSO VARCHAR(2)  NULL  SET("ui_mapping_text" = 'Merge.SGRUSO'), 
+CODPSO VARCHAR(17)  NULL  SET("ui_mapping_text" = 'Merge.CODPSO'), 
+CANSSO DECIMAL(7, 0)  NULL  SET("ui_mapping_text" = 'Merge.CANSSO'), 
+LUGESO VARCHAR(1)  NULL  SET("ui_mapping_text" = 'Merge.LUGESO'), 
+INS1SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.INS1SO'), 
+INS2SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.INS2SO'), 
+FE02SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE02SO'), 
+HO02SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO02SO'), 
+DE02SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE02SO'), 
+FE03SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE03SO'), 
+HO03SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO03SO'), 
+DE03SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE03SO'), 
+FE04SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE04SO'), 
+HO04SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO04SO'), 
+DE04SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE04SO'), 
+RA04SO VARCHAR(20)  NULL  SET("ui_mapping_text" = 'Merge.RA04SO'), 
+FE05SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE05SO'), 
+HO05SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO05SO'), 
+DE05SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE05SO'), 
+NENVSO VARCHAR(8)  NULL  SET("ui_mapping_text" = 'Merge.NENVSO'), 
+CANDSO DECIMAL(7, 0)  NULL  SET("ui_mapping_text" = 'Merge.CANDSO'), 
+FE5ASO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5ASO'), 
+HO5ASO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5ASO'), 
+DE5ASO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5ASO'), 
+MP5ASO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5ASO'), 
+FE5BSO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5BSO'), 
+HO5BSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5BSO'), 
+DE5BSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5BSO'), 
+MP5BSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5BSO'), 
+FE5CSO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE5CSO'), 
+HO5CSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO5CSO'), 
+DE5CSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE5CSO'), 
+MP5CSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP5CSO'), 
+FE06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE06SO'), 
+HO06SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO06SO'), 
+DE06SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.DE06SO'), 
+MP06SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP06SO'), 
+STMOSO VARCHAR(3)  NULL  SET("ui_mapping_text" = 'Merge.STMOSO'), 
+FE07SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE07SO'), 
+HO07SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO07SO'), 
+MP07SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP07SO'), 
+HRUTSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HRUTSO'), 
+FE08SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE08SO'), 
+HO08SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO08SO'), 
+MP08SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP08SO'), 
+FE09SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE09SO'), 
+HO09SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO09SO'), 
+MP09SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP09SO'), 
+FE10SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FE10SO'), 
+HO10SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.HO10SO'), 
+MP10SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.MP10SO'), 
+RA10SO VARCHAR(20)  NULL  SET("ui_mapping_text" = 'Merge.RA10SO'), 
+FT06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FT06SO'), 
+NREMSO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.NREMSO'), 
+CODTSO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.CODTSO'), 
+LUGDSO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.LUGDSO'), 
+FU01SO VARCHAR(40)  NULL  SET("ui_mapping_text" = 'Merge.FU01SO'), 
+FU02SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU02SO'), 
+FU03SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU03SO'), 
+FU04SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU04SO'), 
+FU05SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU05SO'), 
+FU06SO DECIMAL(8, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU06SO'), 
+FU07SO DECIMAL(6, 0)  NULL  SET("ui_mapping_text" = 'Merge.FU07SO'), 
+FU08SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU08SO'), 
+FU09SO VARCHAR(4)  NULL  SET("ui_mapping_text" = 'Merge.FU09SO'), 
+FECHA_TRANSACCION DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_TRANSACCION'), 
+ID_PAIS INT  NULL  SET("ui_mapping_text" = 'Merge.ID_PAIS'), 
+ID_COMPANIA INT  NULL  SET("ui_mapping_text" = 'Merge.ID_COMPANIA'), 
+ID_FECHA VARCHAR(10)  NULL  SET("ui_mapping_text" = 'Merge.ID_FECHA'), 
+FECHA_CARGA_DWH DATETIME(9)  NULL  SET("Native Type" = 'DATETIME2', "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH')) 
+SET("db_alias_name" = 'DWH')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 13:32:33 2025', "ActaValue_3" = 'Wed May  7 16:06:02 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_COVADE_HIST::'9f101cef-1b0d-4451-8970-5dd02500772b'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>319</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_COVADEH_SV', "x" = '634', "y" = '-329')
+GUID::'628f396f-f2ae-45b1-8b01-fe41a1e21ba8' CALL TRANSFORM SQL() OUTPUT(SQL_COVADEH_SV( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ ID_MONEDA INT ,
+ ID_FECHA VARCHAR(8) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;TIMESTAMP_FORMAT(CONCAT(CANODO,CFECDE) || \'000000\', \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;1 ID_MONEDA,&#xD;&#xA;CONCAT(CANODO,CFECDE) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH                                     &#xD;&#xA;FROM NEWINV.COVADEH A                                  &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>316</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "ui_display_name" = 'SQL_COVADEH_HN', "x" = '647', "y" = '-705')
+GUID::'e6ba9bec-312f-47ef-99fb-19cb2bb7f9fa' CALL TRANSFORM SQL() OUTPUT(SQL_COVADEH_HN( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ ID_MONEDA INT ,
+ ID_FECHA VARCHAR(8) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;TIMESTAMP_FORMAT(CONCAT(CANODO,CFECDE) || \'000000\', \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;3 ID_MONEDA,&#xD;&#xA;CONCAT(CANODO,CFECDE) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH                                             &#xD;&#xA;FROM PHNINV.COVADEH A                                  &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "x" = '1459', "y" = '-862')
+GUID::'a609f182-aa88-492c-9339-aa27fab584e6' CALL TRANSFORM Merge() INPUT(SQL_COVADEH_HN, SQL_COVADEH_SV, SQL_COVADE_HN, SQL_COVADE_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '60', "ui_acta_from_schema_0" = 'Merge', "x" = '2016', "y" = '-932')
+GUID::'d2bab58b-18fe-414a-a48c-fd6de2afbcab' CREATE VIEW Query( CTIPMO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CTIPMO') ,
+ CCCEMI VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.CCCEMI') ,
+ CCCREC VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.CCCREC') ,
+ CNUMCO VARCHAR(9)  SET( "ui_mapping_text" = 'Merge.CNUMCO') ,
+ CMOVIC VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CMOVIC') ,
+ CTIPOC VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CTIPOC') ,
+ CFPAGC VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFPAGC') ,
+ CCODIC VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CCODIC') ,
+ CNUVEC VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CNUVEC') ,
+ CCODAR VARCHAR(17)  SET( "ui_mapping_text" = 'Merge.CCODAR') ,
+ CREDES VARCHAR(20)  SET( "ui_mapping_text" = 'Merge.CREDES') ,
+ CENTSA VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CENTSA') ,
+ CANODO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CANODO') ,
+ CFECDE VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CFECDE') ,
+ CFEREC VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CFEREC') ,
+ CCANTI DECIMAL(7, 0)  SET( "ui_mapping_text" = 'Merge.CCANTI') ,
+ CVALDE DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CVALDE') ,
+ CREBDE DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Merge.CREBDE') ,
+ CDESDE DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Merge.CDESDE') ,
+ CCOSVE DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CCOSVE') ,
+ CSTSTR VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CSTSTR') ,
+ CEXMAQ DECIMAL(9, 0)  SET( "ui_mapping_text" = 'Merge.CEXMAQ') ,
+ CEXTOT DECIMAL(9, 0)  SET( "ui_mapping_text" = 'Merge.CEXTOT') ,
+ CCOSAN DECIMAL(9, 4)  SET( "ui_mapping_text" = 'Merge.CCOSAN') ,
+ CTIPTR VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CTIPTR') ,
+ CVAIVA DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CVAIVA') ,
+ CTIPPZ VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CTIPPZ') ,
+ CCORPZ DECIMAL(2, 0)  SET( "ui_mapping_text" = 'Merge.CCORPZ') ,
+ CNORPZ VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.CNORPZ') ,
+ CSWITC VARCHAR(3)  SET( "ui_mapping_text" = 'Merge.CSWITC') ,
+ LLAVEA VARCHAR(31)  SET( "ui_mapping_text" = 'Merge.LLAVEA') ,
+ CGRUPO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.CGRUPO') ,
+ CSGRUP VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.CSGRUP') ,
+ CREBES DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Merge.CREBES') ,
+ CMANUL VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CMANUL') ,
+ CMPROM VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.CMPROM') ,
+ CCOSCP DECIMAL(7, 2)  SET( "ui_mapping_text" = 'Merge.CCOSCP') ,
+ CFU001 VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFU001') ,
+ CFU002 VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFU002') ,
+ CFU003 VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFU003') ,
+ CFU004 VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFU004') ,
+ CFU005 VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.CFU005') ,
+ CFU006 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CFU006') ,
+ CFU007 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CFU007') ,
+ CFU008 DECIMAL(9, 2)  SET( "ui_mapping_text" = 'Merge.CFU008') ,
+ CFU009 VARCHAR(10)  SET( "ui_mapping_text" = 'Merge.CFU009') ,
+ CFU010 VARCHAR(10)  SET( "ui_mapping_text" = 'Merge.CFU010') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_TRANSACCION') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ ID_COMPANIA INT  SET( "ui_mapping_text" = 'Merge.ID_COMPANIA') ,
+ ID_MONEDA INT  SET( "ui_mapping_text" = 'Merge.ID_MONEDA') ,
+ ID_FECHA VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.ID_FECHA') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH')  )
+ AS
+SELECT Merge.CTIPMO, Merge.CCCEMI, Merge.CCCREC, Merge.CNUMCO, Merge.CMOVIC, Merge.CTIPOC, Merge.CFPAGC, Merge.CCODIC, Merge.CNUVEC, Merge.CCODAR, Merge.CREDES, Merge.CENTSA, Merge.CANODO, Merge.CFECDE, Merge.CFEREC, Merge.CCANTI, Merge.CVALDE, Merge.CREBDE, Merge.CDESDE, Merge.CCOSVE, Merge.CSTSTR, Merge.CEXMAQ, Merge.CEXTOT, Merge.CCOSAN, Merge.CTIPTR, Merge.CVAIVA, Merge.CTIPPZ, Merge.CCORPZ, Merge.CNORPZ, Merge.CSWITC, Merge.LLAVEA, Merge.CGRUPO, Merge.CSGRUP, Merge.CREBES, Merge.CMANUL, Merge.CMPROM, Merge.CCOSCP, Merge.CFU001, Merge.CFU002, Merge.CFU003, Merge.CFU004, Merge.CFU005, Merge.CFU006, Merge.CFU007, Merge.CFU008, Merge.CFU009, Merge.CFU010, Merge.FECHA_TRANSACCION, Merge.ID_PAIS, Merge.ID_COMPANIA, Merge.ID_MONEDA, Merge.ID_FECHA, Merge.FECHA_CARGA_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>297</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "ui_display_name" = 'SQL_COVADE_SV', "x" = '663', "y" = '-1234')
+GUID::'e9e1c58a-0865-4492-a773-9abef60110a8' CALL TRANSFORM SQL() OUTPUT(SQL_COVADE_SV( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ ID_MONEDA INT ,
+ ID_FECHA VARCHAR(8) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;TIMESTAMP_FORMAT(CONCAT(CANODO,CFECDE) || \'000000\', \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;1 ID_MONEDA,&#xD;&#xA;CONCAT(CANODO,CFECDE) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH                                             &#xD;&#xA;FROM NEWINV.COVADE A                                  &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>294</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "ui_display_name" = 'SQL_COVADE_HN', "x" = '665', "y" = '-1577')
+GUID::'ea7fffd6-a741-4443-857d-afe9f0d106ad' CALL TRANSFORM SQL() OUTPUT(SQL_COVADE_HN( CTIPMO VARCHAR(1) ,
+ CCCEMI VARCHAR(2) ,
+ CCCREC VARCHAR(2) ,
+ CNUMCO VARCHAR(9) ,
+ CMOVIC VARCHAR(1) ,
+ CTIPOC VARCHAR(1) ,
+ CFPAGC VARCHAR(1) ,
+ CCODIC VARCHAR(4) ,
+ CNUVEC VARCHAR(4) ,
+ CCODAR VARCHAR(17) ,
+ CREDES VARCHAR(20) ,
+ CENTSA VARCHAR(1) ,
+ CANODO VARCHAR(4) ,
+ CFECDE VARCHAR(4) ,
+ CFEREC VARCHAR(4) ,
+ CCANTI DECIMAL(7, 0) ,
+ CVALDE DECIMAL(9, 2) ,
+ CREBDE DECIMAL(7, 2) ,
+ CDESDE DECIMAL(7, 2) ,
+ CCOSVE DECIMAL(9, 2) ,
+ CSTSTR VARCHAR(1) ,
+ CEXMAQ DECIMAL(9, 0) ,
+ CEXTOT DECIMAL(9, 0) ,
+ CCOSAN DECIMAL(9, 4) ,
+ CTIPTR VARCHAR(1) ,
+ CVAIVA DECIMAL(9, 2) ,
+ CTIPPZ VARCHAR(1) ,
+ CCORPZ DECIMAL(2, 0) ,
+ CNORPZ VARCHAR(6) ,
+ CSWITC VARCHAR(3) ,
+ LLAVEA VARCHAR(31) ,
+ CGRUPO VARCHAR(2) ,
+ CSGRUP VARCHAR(2) ,
+ CREBES DECIMAL(7, 2) ,
+ CMANUL VARCHAR(1) ,
+ CMPROM VARCHAR(2) ,
+ CCOSCP DECIMAL(7, 2) ,
+ CFU001 VARCHAR(1) ,
+ CFU002 VARCHAR(1) ,
+ CFU003 VARCHAR(1) ,
+ CFU004 VARCHAR(1) ,
+ CFU005 VARCHAR(1) ,
+ CFU006 DECIMAL(9, 2) ,
+ CFU007 DECIMAL(9, 2) ,
+ CFU008 DECIMAL(9, 2) ,
+ CFU009 VARCHAR(10) ,
+ CFU010 VARCHAR(10) ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ ID_MONEDA INT ,
+ ID_FECHA VARCHAR(8) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;TIMESTAMP_FORMAT(CONCAT(CANODO,CFECDE) || \'000000\', \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;3 ID_MONEDA,&#xD;&#xA;CONCAT(CANODO,CFECDE) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH                                             &#xD;&#xA;FROM PHNINV.COVADE A                                  &#xD;&#xA;WHERE CONCAT(CANODO,CFECDE) &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '50', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>428</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_display_name" = 'COVADE_HIST(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2644', "y" = '-984')
+GUID::'5fe57c83-e50d-4843-ad66-2ce02ed205e5' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.COVADE_HIST INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 10:20:43 2025', "ActaValue_3" = 'Thu May  8 12:21:20 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_SDSOLE01_HIST::'3c093c80-49cf-47fe-8805-1b898818717f'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>328</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "ui_display_name" = 'SQL_SDSOLH01_SV', "x" = '653', "y" = '-363')
+GUID::'6136c23f-5e09-44d0-8f10-8a67c056d413' CALL TRANSFORM SQL() OUTPUT(SQL_SDSOLH01_SV( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM NEWINV.SDSOLH01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>325</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "ui_display_name" = 'SQL_SDSOLH01_HN', "x" = '654', "y" = '-794')
+GUID::'ba827d5c-c9dd-4075-bec6-e423f1ec851b' CALL TRANSFORM SQL() OUTPUT(SQL_SDSOLH01_HN( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM PHNINV.SDSOLH01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '1497', "y" = '-959')
+GUID::'3d9f1484-8919-4890-bbef-4eb3e3b24f27' CALL TRANSFORM Merge() INPUT(SQL_SDSOLE01_HN, SQL_SDSOLE01_SV, SQL_SDSOLH01_HN, SQL_SDSOLH01_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '60', "ui_acta_from_schema_0" = 'Merge', "x" = '2147', "y" = '-1055')
+GUID::'fff5f45a-7f3a-4d74-a7c8-b575c7ee3095' CREATE VIEW Query( STATSO VARCHAR(3)  SET( "ui_mapping_text" = 'Merge.STATSO') ,
+ RAZOSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.RAZOSO') ,
+ PROCSO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.PROCSO') ,
+ PRIOSO DECIMAL(3, 0)  SET( "ui_mapping_text" = 'Merge.PRIOSO') ,
+ TIPESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.TIPESO') ,
+ NPEDSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NPEDSO') ,
+ FE01SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE01SO') ,
+ HO01SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO01SO') ,
+ ALSOSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALSOSO') ,
+ URGESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.URGESO') ,
+ NSOLSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.NSOLSO') ,
+ ALPISO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALPISO') ,
+ ALTRSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALTRSO') ,
+ PROVSO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.PROVSO') ,
+ ZPROSO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.ZPROSO') ,
+ VENDSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.VENDSO') ,
+ NCOTSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NCOTSO') ,
+ NPRFSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NPRFSO') ,
+ NFACSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NFACSO') ,
+ NORCSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NORCSO') ,
+ TIPFSO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.TIPFSO') ,
+ ZCLISO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.ZCLISO') ,
+ CODCSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CODCSO') ,
+ GRUPSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.GRUPSO') ,
+ SGRUSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.SGRUSO') ,
+ CODPSO VARCHAR(17)  SET( "ui_mapping_text" = 'Merge.CODPSO') ,
+ CANSSO DECIMAL(7, 0)  SET( "ui_mapping_text" = 'Merge.CANSSO') ,
+ LUGESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.LUGESO') ,
+ INS1SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.INS1SO') ,
+ INS2SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.INS2SO') ,
+ FE02SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE02SO') ,
+ HO02SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO02SO') ,
+ DE02SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE02SO') ,
+ FE03SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE03SO') ,
+ HO03SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO03SO') ,
+ DE03SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE03SO') ,
+ FE04SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE04SO') ,
+ HO04SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO04SO') ,
+ DE04SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE04SO') ,
+ RA04SO VARCHAR(20)  SET( "ui_mapping_text" = 'Merge.RA04SO') ,
+ FE05SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE05SO') ,
+ HO05SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO05SO') ,
+ DE05SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE05SO') ,
+ NENVSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NENVSO') ,
+ CANDSO DECIMAL(7, 0)  SET( "ui_mapping_text" = 'Merge.CANDSO') ,
+ FE5ASO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5ASO') ,
+ HO5ASO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5ASO') ,
+ DE5ASO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5ASO') ,
+ MP5ASO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5ASO') ,
+ FE5BSO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5BSO') ,
+ HO5BSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5BSO') ,
+ DE5BSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5BSO') ,
+ MP5BSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5BSO') ,
+ FE5CSO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5CSO') ,
+ HO5CSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5CSO') ,
+ DE5CSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5CSO') ,
+ MP5CSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5CSO') ,
+ FE06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE06SO') ,
+ HO06SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO06SO') ,
+ DE06SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE06SO') ,
+ MP06SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP06SO') ,
+ STMOSO VARCHAR(3)  SET( "ui_mapping_text" = 'Merge.STMOSO') ,
+ FE07SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE07SO') ,
+ HO07SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO07SO') ,
+ MP07SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP07SO') ,
+ HRUTSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HRUTSO') ,
+ FE08SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE08SO') ,
+ HO08SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO08SO') ,
+ MP08SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP08SO') ,
+ FE09SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE09SO') ,
+ HO09SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO09SO') ,
+ MP09SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP09SO') ,
+ FE10SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE10SO') ,
+ HO10SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO10SO') ,
+ MP10SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP10SO') ,
+ RA10SO VARCHAR(20)  SET( "ui_mapping_text" = 'Merge.RA10SO') ,
+ FT06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FT06SO') ,
+ NREMSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.NREMSO') ,
+ CODTSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CODTSO') ,
+ LUGDSO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.LUGDSO') ,
+ FU01SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.FU01SO') ,
+ FU02SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FU02SO') ,
+ FU03SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.FU03SO') ,
+ FU04SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU04SO') ,
+ FU05SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU05SO') ,
+ FU06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FU06SO') ,
+ FU07SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.FU07SO') ,
+ FU08SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU08SO') ,
+ FU09SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU09SO') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_TRANSACCION') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ ID_COMPANIA INT  SET( "ui_mapping_text" = 'Merge.ID_COMPANIA') ,
+ ID_FECHA VARCHAR(10)  SET( "ui_mapping_text" = 'Merge.ID_FECHA') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH')  )
+ AS
+SELECT Merge.STATSO, Merge.RAZOSO, Merge.PROCSO, Merge.PRIOSO, Merge.TIPESO, Merge.NPEDSO, Merge.FE01SO, Merge.HO01SO, Merge.ALSOSO, Merge.URGESO, Merge.NSOLSO, Merge.ALPISO, Merge.ALTRSO, Merge.PROVSO, Merge.ZPROSO, Merge.VENDSO, Merge.NCOTSO, Merge.NPRFSO, Merge.NFACSO, Merge.NORCSO, Merge.TIPFSO, Merge.ZCLISO, Merge.CODCSO, Merge.GRUPSO, Merge.SGRUSO, Merge.CODPSO, Merge.CANSSO, Merge.LUGESO, Merge.INS1SO, Merge.INS2SO, Merge.FE02SO, Merge.HO02SO, Merge.DE02SO, Merge.FE03SO, Merge.HO03SO, Merge.DE03SO, Merge.FE04SO, Merge.HO04SO, Merge.DE04SO, Merge.RA04SO, Merge.FE05SO, Merge.HO05SO, Merge.DE05SO, Merge.NENVSO, Merge.CANDSO, Merge.FE5ASO, Merge.HO5ASO, Merge.DE5ASO, Merge.MP5ASO, Merge.FE5BSO, Merge.HO5BSO, Merge.DE5BSO, Merge.MP5BSO, Merge.FE5CSO, Merge.HO5CSO, Merge.DE5CSO, Merge.MP5CSO, Merge.FE06SO, Merge.HO06SO, Merge.DE06SO, Merge.MP06SO, Merge.STMOSO, Merge.FE07SO, Merge.HO07SO, Merge.MP07SO, Merge.HRUTSO, Merge.FE08SO, Merge.HO08SO, Merge.MP08SO, Merge.FE09SO, Merge.HO09SO, Merge.MP09SO, Merge.FE10SO, Merge.HO10SO, Merge.MP10SO, Merge.RA10SO, Merge.FT06SO, Merge.NREMSO, Merge.CODTSO, Merge.LUGDSO, Merge.FU01SO, Merge.FU02SO, Merge.FU03SO, Merge.FU04SO, Merge.FU05SO, Merge.FU06SO, Merge.FU07SO, Merge.FU08SO, Merge.FU09SO, Merge.FECHA_TRANSACCION, Merge.ID_PAIS, Merge.ID_COMPANIA, Merge.ID_FECHA, Merge.FECHA_CARGA_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>325</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "ui_display_name" = 'SQL_SDSOLE01_SV', "x" = '682', "y" = '-1228')
+GUID::'6c3036f8-5877-42a1-9cc5-d478cbdd7e3a' CALL TRANSFORM SQL() OUTPUT(SQL_SDSOLE01_SV( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM NEWINV.SDSOLE01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>322</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '60', "ui_display_name" = 'SQL_SDSOLE01_HN', "x" = '682', "y" = '-1581')
+GUID::'e95de5d9-e7f1-4914-bd6c-917c76ebb1a8' CALL TRANSFORM SQL() OUTPUT(SQL_SDSOLE01_HN( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM PHNINV.SDSOLE01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '50', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>410</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_display_name" = 'SDSOLE01_HIST(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2959', "y" = '-1025')
+GUID::'27b44433-1811-4ca6-9535-499aaa47fb94' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SDSOLE01_HIST INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 09:02:58 2025', "ActaValue_3" = 'Wed May  7 16:58:22 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_SOLBAL01_HIST::'c2a26c67-0026-41fe-ad46-0dd70f35898c'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '39', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>331</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '42', "ui_display_name" = 'SQL_SOLBAH01_SV', "x" = '456', "y" = '-65')
+GUID::'1668f5c5-596d-4ce3-b7ba-c2bc276736ab' CALL TRANSFORM SQL() OUTPUT(SQL_SOLBAH01_SV( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM NEWINV.SOLBAH01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>328</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '44', "ui_display_name" = 'SQL_SOLBAH01_HN', "x" = '452', "y" = '-433')
+GUID::'3bce9626-4705-4999-af32-1d978afcda6b' CALL TRANSFORM SQL() OUTPUT(SQL_SOLBAH01_HN( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM PHNINV.SOLBAH01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "x" = '1294', "y" = '-669')
+GUID::'0fd23604-1afe-4de0-bccc-9d8fab0f39aa' CALL TRANSFORM Merge() INPUT(SQL_SOLBAH01_HN, SQL_SOLBAH01_SV, SQL_SOLBAL01_HN, SQL_SOLBAL01_SV) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '51', "ui_acta_from_schema_0" = 'Merge', "x" = '1887', "y" = '-669')
+GUID::'4a91ca7a-b064-4902-882f-ff7f389b81b0' CREATE VIEW Query( STATSO VARCHAR(3)  SET( "ui_mapping_text" = 'Merge.STATSO') ,
+ RAZOSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.RAZOSO') ,
+ PROCSO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.PROCSO') ,
+ PRIOSO DECIMAL(3, 0)  SET( "ui_mapping_text" = 'Merge.PRIOSO') ,
+ TIPESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.TIPESO') ,
+ NPEDSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NPEDSO') ,
+ FE01SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE01SO') ,
+ HO01SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO01SO') ,
+ ALSOSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALSOSO') ,
+ URGESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.URGESO') ,
+ NSOLSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.NSOLSO') ,
+ ALPISO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALPISO') ,
+ ALTRSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.ALTRSO') ,
+ PROVSO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.PROVSO') ,
+ ZPROSO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.ZPROSO') ,
+ VENDSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.VENDSO') ,
+ NCOTSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NCOTSO') ,
+ NPRFSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NPRFSO') ,
+ NFACSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NFACSO') ,
+ NORCSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NORCSO') ,
+ TIPFSO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.TIPFSO') ,
+ ZCLISO VARCHAR(6)  SET( "ui_mapping_text" = 'Merge.ZCLISO') ,
+ CODCSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CODCSO') ,
+ GRUPSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.GRUPSO') ,
+ SGRUSO VARCHAR(2)  SET( "ui_mapping_text" = 'Merge.SGRUSO') ,
+ CODPSO VARCHAR(17)  SET( "ui_mapping_text" = 'Merge.CODPSO') ,
+ CANSSO DECIMAL(7, 0)  SET( "ui_mapping_text" = 'Merge.CANSSO') ,
+ LUGESO VARCHAR(1)  SET( "ui_mapping_text" = 'Merge.LUGESO') ,
+ INS1SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.INS1SO') ,
+ INS2SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.INS2SO') ,
+ FE02SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE02SO') ,
+ HO02SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO02SO') ,
+ DE02SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE02SO') ,
+ FE03SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE03SO') ,
+ HO03SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO03SO') ,
+ DE03SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE03SO') ,
+ FE04SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE04SO') ,
+ HO04SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO04SO') ,
+ DE04SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE04SO') ,
+ RA04SO VARCHAR(20)  SET( "ui_mapping_text" = 'Merge.RA04SO') ,
+ FE05SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE05SO') ,
+ HO05SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO05SO') ,
+ DE05SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE05SO') ,
+ NENVSO VARCHAR(8)  SET( "ui_mapping_text" = 'Merge.NENVSO') ,
+ CANDSO DECIMAL(7, 0)  SET( "ui_mapping_text" = 'Merge.CANDSO') ,
+ FE5ASO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5ASO') ,
+ HO5ASO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5ASO') ,
+ DE5ASO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5ASO') ,
+ MP5ASO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5ASO') ,
+ FE5BSO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5BSO') ,
+ HO5BSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5BSO') ,
+ DE5BSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5BSO') ,
+ MP5BSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5BSO') ,
+ FE5CSO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE5CSO') ,
+ HO5CSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO5CSO') ,
+ DE5CSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE5CSO') ,
+ MP5CSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP5CSO') ,
+ FE06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE06SO') ,
+ HO06SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO06SO') ,
+ DE06SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.DE06SO') ,
+ MP06SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP06SO') ,
+ STMOSO VARCHAR(3)  SET( "ui_mapping_text" = 'Merge.STMOSO') ,
+ FE07SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE07SO') ,
+ HO07SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO07SO') ,
+ MP07SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP07SO') ,
+ HRUTSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HRUTSO') ,
+ FE08SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE08SO') ,
+ HO08SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO08SO') ,
+ MP08SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP08SO') ,
+ FE09SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE09SO') ,
+ HO09SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO09SO') ,
+ MP09SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP09SO') ,
+ FE10SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FE10SO') ,
+ HO10SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.HO10SO') ,
+ MP10SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.MP10SO') ,
+ RA10SO VARCHAR(20)  SET( "ui_mapping_text" = 'Merge.RA10SO') ,
+ FT06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FT06SO') ,
+ NREMSO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.NREMSO') ,
+ CODTSO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.CODTSO') ,
+ LUGDSO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.LUGDSO') ,
+ FU01SO VARCHAR(40)  SET( "ui_mapping_text" = 'Merge.FU01SO') ,
+ FU02SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FU02SO') ,
+ FU03SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.FU03SO') ,
+ FU04SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU04SO') ,
+ FU05SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU05SO') ,
+ FU06SO DECIMAL(8, 0)  SET( "ui_mapping_text" = 'Merge.FU06SO') ,
+ FU07SO DECIMAL(6, 0)  SET( "ui_mapping_text" = 'Merge.FU07SO') ,
+ FU08SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU08SO') ,
+ FU09SO VARCHAR(4)  SET( "ui_mapping_text" = 'Merge.FU09SO') ,
+ FECHA_TRANSACCION DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_TRANSACCION') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = 'Merge.ID_PAIS') ,
+ ID_COMPANIA INT  SET( "ui_mapping_text" = 'Merge.ID_COMPANIA') ,
+ ID_FECHA VARCHAR(10)  SET( "ui_mapping_text" = 'Merge.ID_FECHA') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'Merge.FECHA_CARGA_DWH')  )
+ AS
+SELECT Merge.STATSO, Merge.RAZOSO, Merge.PROCSO, Merge.PRIOSO, Merge.TIPESO, Merge.NPEDSO, Merge.FE01SO, Merge.HO01SO, Merge.ALSOSO, Merge.URGESO, Merge.NSOLSO, Merge.ALPISO, Merge.ALTRSO, Merge.PROVSO, Merge.ZPROSO, Merge.VENDSO, Merge.NCOTSO, Merge.NPRFSO, Merge.NFACSO, Merge.NORCSO, Merge.TIPFSO, Merge.ZCLISO, Merge.CODCSO, Merge.GRUPSO, Merge.SGRUSO, Merge.CODPSO, Merge.CANSSO, Merge.LUGESO, Merge.INS1SO, Merge.INS2SO, Merge.FE02SO, Merge.HO02SO, Merge.DE02SO, Merge.FE03SO, Merge.HO03SO, Merge.DE03SO, Merge.FE04SO, Merge.HO04SO, Merge.DE04SO, Merge.RA04SO, Merge.FE05SO, Merge.HO05SO, Merge.DE05SO, Merge.NENVSO, Merge.CANDSO, Merge.FE5ASO, Merge.HO5ASO, Merge.DE5ASO, Merge.MP5ASO, Merge.FE5BSO, Merge.HO5BSO, Merge.DE5BSO, Merge.MP5BSO, Merge.FE5CSO, Merge.HO5CSO, Merge.DE5CSO, Merge.MP5CSO, Merge.FE06SO, Merge.HO06SO, Merge.DE06SO, Merge.MP06SO, Merge.STMOSO, Merge.FE07SO, Merge.HO07SO, Merge.MP07SO, Merge.HRUTSO, Merge.FE08SO, Merge.HO08SO, Merge.MP08SO, Merge.FE09SO, Merge.HO09SO, Merge.MP09SO, Merge.FE10SO, Merge.HO10SO, Merge.MP10SO, Merge.RA10SO, Merge.FT06SO, Merge.NREMSO, Merge.CODTSO, Merge.LUGDSO, Merge.FU01SO, Merge.FU02SO, Merge.FU03SO, Merge.FU04SO, Merge.FU05SO, Merge.FU06SO, Merge.FU07SO, Merge.FU08SO, Merge.FU09SO, Merge.FECHA_TRANSACCION, Merge.ID_PAIS, Merge.ID_COMPANIA, Merge.ID_FECHA, Merge.FECHA_CARGA_DWH FROM Merge 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>328</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "ui_display_name" = 'SQL_SOLBAL01_SV', "x" = '456', "y" = '-935')
+GUID::'b24ae1e0-87c3-4b4c-b87e-5cdb69e60fbe' CALL TRANSFORM SQL() OUTPUT(SQL_SOLBAL01_SV( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;1 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM NEWINV.SOLBAL01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '42', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = 'Description', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>325</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '51', "ui_display_name" = 'SQL_SOLBAL01_HN', "x" = '457', "y" = '-1268')
+GUID::'92e43320-7c62-4ba0-870d-a932a4809375' CALL TRANSFORM SQL() OUTPUT(SQL_SOLBAL01_HN( STATSO VARCHAR(3) ,
+ RAZOSO VARCHAR(2) ,
+ PROCSO VARCHAR(1) ,
+ PRIOSO DECIMAL(3, 0) ,
+ TIPESO VARCHAR(1) ,
+ NPEDSO VARCHAR(8) ,
+ FE01SO DECIMAL(8, 0) ,
+ HO01SO DECIMAL(6, 0) ,
+ ALSOSO VARCHAR(2) ,
+ URGESO VARCHAR(1) ,
+ NSOLSO DECIMAL(6, 0) ,
+ ALPISO VARCHAR(2) ,
+ ALTRSO VARCHAR(2) ,
+ PROVSO VARCHAR(6) ,
+ ZPROSO VARCHAR(6) ,
+ VENDSO VARCHAR(4) ,
+ NCOTSO VARCHAR(8) ,
+ NPRFSO VARCHAR(8) ,
+ NFACSO VARCHAR(8) ,
+ NORCSO VARCHAR(8) ,
+ TIPFSO VARCHAR(1) ,
+ ZCLISO VARCHAR(6) ,
+ CODCSO VARCHAR(4) ,
+ GRUPSO VARCHAR(2) ,
+ SGRUSO VARCHAR(2) ,
+ CODPSO VARCHAR(17) ,
+ CANSSO DECIMAL(7, 0) ,
+ LUGESO VARCHAR(1) ,
+ INS1SO VARCHAR(40) ,
+ INS2SO VARCHAR(40) ,
+ FE02SO DECIMAL(8, 0) ,
+ HO02SO DECIMAL(6, 0) ,
+ DE02SO VARCHAR(4) ,
+ FE03SO DECIMAL(8, 0) ,
+ HO03SO DECIMAL(6, 0) ,
+ DE03SO VARCHAR(4) ,
+ FE04SO DECIMAL(8, 0) ,
+ HO04SO DECIMAL(6, 0) ,
+ DE04SO VARCHAR(4) ,
+ RA04SO VARCHAR(20) ,
+ FE05SO DECIMAL(8, 0) ,
+ HO05SO DECIMAL(6, 0) ,
+ DE05SO VARCHAR(4) ,
+ NENVSO VARCHAR(8) ,
+ CANDSO DECIMAL(7, 0) ,
+ FE5ASO DECIMAL(8, 0) ,
+ HO5ASO DECIMAL(6, 0) ,
+ DE5ASO VARCHAR(4) ,
+ MP5ASO VARCHAR(4) ,
+ FE5BSO DECIMAL(8, 0) ,
+ HO5BSO DECIMAL(6, 0) ,
+ DE5BSO VARCHAR(4) ,
+ MP5BSO VARCHAR(4) ,
+ FE5CSO DECIMAL(8, 0) ,
+ HO5CSO DECIMAL(6, 0) ,
+ DE5CSO VARCHAR(4) ,
+ MP5CSO VARCHAR(4) ,
+ FE06SO DECIMAL(8, 0) ,
+ HO06SO DECIMAL(6, 0) ,
+ DE06SO VARCHAR(4) ,
+ MP06SO VARCHAR(4) ,
+ STMOSO VARCHAR(3) ,
+ FE07SO DECIMAL(8, 0) ,
+ HO07SO DECIMAL(6, 0) ,
+ MP07SO VARCHAR(4) ,
+ HRUTSO DECIMAL(6, 0) ,
+ FE08SO DECIMAL(8, 0) ,
+ HO08SO DECIMAL(6, 0) ,
+ MP08SO VARCHAR(4) ,
+ FE09SO DECIMAL(8, 0) ,
+ HO09SO DECIMAL(6, 0) ,
+ MP09SO VARCHAR(4) ,
+ FE10SO DECIMAL(8, 0) ,
+ HO10SO DECIMAL(6, 0) ,
+ MP10SO VARCHAR(4) ,
+ RA10SO VARCHAR(20) ,
+ FT06SO DECIMAL(8, 0) ,
+ NREMSO DECIMAL(6, 0) ,
+ CODTSO VARCHAR(4) ,
+ LUGDSO VARCHAR(40) ,
+ FU01SO VARCHAR(40) ,
+ FU02SO DECIMAL(8, 0) ,
+ FU03SO DECIMAL(6, 0) ,
+ FU04SO VARCHAR(4) ,
+ FU05SO VARCHAR(4) ,
+ FU06SO DECIMAL(8, 0) ,
+ FU07SO DECIMAL(6, 0) ,
+ FU08SO VARCHAR(4) ,
+ FU09SO VARCHAR(4) ,
+ ID_PAIS INT ,
+ ID_COMPANIA INT ,
+ FECHA_TRANSACCION DATETIME(9) ,
+ ID_FECHA VARCHAR(10) ,
+ FECHA_CARGA_DWH DATETIME(9)  )
+)
+SET("array_fetch_size" = '1000', "cache" = 'no', "database_datastore" = 'DS_DB2_GER_VTAS', "sql_transform_configuration_enabled" = 'yes', "sql_transform_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<SQLTexts>
+<SQLText database_type="ODBC" database_version="ODBC">
+<odbc_database_type>OTHER</odbc_database_type>
+<sql_text>SELECT A.*,&#xD;&#xA;2 ID_PAIS,&#xD;&#xA;1 ID_COMPANIA,&#xD;&#xA;TIMESTAMP_FORMAT(VARCHAR(FE01SO) || RIGHT(CONCAT(\'000000\', VARCHAR(HO01SO)), 6), \'YYYYMMDDHH24MISS\') AS FECHA_TRANSACCION,&#xD;&#xA;VARCHAR(FE01SO) ID_FECHA,&#xD;&#xA;CURRENT TIMESTAMP AS FECHA_CARGA_DWH&#xD;&#xA;FROM PHNINV.SOLBAL01 A&#xD;&#xA;WHERE FE01SO &gt;= TO_CHAR(CURRENT DATE - 1 MONTHS, \'YYYYMM\')||\'01\'</sql_text>
+</SQLText>
+</SQLTexts>', "table_weight" = '0');
+
+ALGUIComment ("InputSchema_WidthProp" = '50', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '50', "ui_display_name" = 'SOLBAL01_HIST(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2744', "y" = '-694')
+GUID::'f2801cde-d2d9-4a30-85a5-c72a6f5c9c61' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.SOLBAL01_HIST INPUT(Query)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>append</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Wed May  7 17:38:17 2025', "ActaValue_3" = 'Thu May  8 12:02:07 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CARGAS_TABLAS_HIST::'35f5ab5c-1203-45e1-ab02-c93971eac061'( )
+BEGIN
+PARALLEL
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>453</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1472', "y" = '-643')
+CALL PLAN WF_CRG_STG_SOLBAL01_HIST::'4d18768e-1b45-4b9f-9f38-9ee4f1a11187'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1482', "y" = '-879')
+CALL PLAN WF_CRG_STG_SDSOLE01_HIST::'6b2c208b-647e-4b30-8016-14616c8dd2f1'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>460</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1475', "y" = '-1105')
+CALL PLAN WF_STG_CRG_COVADE_HIST::'2603652c-ac0d-4965-965d-b68eac7b0fbf'();
+END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 11:08:22 2025', "ActaValue_3" = 'Wed May  7 16:07:16 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_SDSOLE01_HIST::'6b2c208b-647e-4b30-8016-14616c8dd2f1'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'DELETE SDSOLE01_HIST', "ui_script_text" = 'print(\'######################################----> ELIMINACION SDSOLE01_HIST <---#######################################\');  
+
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.SDSOLE01_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\\\'01\\\'\');
+
+print(\'##########################----> INICIA INSERCION DE REGISTROS SDSOLE01_HIST <---#################################\');  ', "x" = '403', "y" = '-759')
+BEGIN_SCRIPT
+print('######################################----> ELIMINACION SDSOLE01_HIST <---#######################################');sql('DS_SQL_SERVER_STAGE_BI', 'DELETE FROM STAGE_BI.DWH.SDSOLE01_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\'01\'');print('##########################----> INICIA INSERCION DE REGISTROS SDSOLE01_HIST <---#################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>441</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1500', "y" = '-754')
+CALL DATAFLOW DF_CRG_STG_SDSOLE01_HIST::'3c093c80-49cf-47fe-8805-1b898818717f'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 09:02:59 2025', "ActaValue_3" = 'Wed May  7 16:07:16 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_STG_SOLBAL01_HIST::'4d18768e-1b45-4b9f-9f38-9ee4f1a11187'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>416</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'DELETE SOLBAL01_HIST', "ui_script_text" = 'print(\'######################################----> ELIMINACION SOLBAL01_HIST <---#######################################\');  
+
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.SOLBAL01_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\\\'01\\\'\');
+
+print(\'##########################----> INICIA INSERCION DE REGISTROS SOLBAL01_HIST <---#################################\');  ', "x" = '384', "y" = '-769')
+BEGIN_SCRIPT
+print('######################################----> ELIMINACION SOLBAL01_HIST <---#######################################');sql('DS_SQL_SERVER_STAGE_BI', 'DELETE FROM STAGE_BI.DWH.SOLBAL01_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\'01\'');print('##########################----> INICIA INSERCION DE REGISTROS SOLBAL01_HIST <---#################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>444</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1169', "y" = '-722')
+CALL DATAFLOW DF_CRG_STG_SOLBAL01_HIST::'c2a26c67-0026-41fe-ad46-0dd70f35898c'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Tue May  6 13:32:33 2025', "ActaValue_3" = 'Thu May  8 10:23:01 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_STG_CRG_COVADE_HIST::'2603652c-ac0d-4965-965d-b68eac7b0fbf'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>413</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'DELETE COVADE_HIST', "ui_script_text" = 'print(\'######################################----> ELIMINACION COVADE_HIST <---#######################################\');  
+
+sql(\'DS_SQL_SERVER_STAGE_BI\', \'DELETE FROM STAGE_BI.DWH.COVADE_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\\\'01\\\'\');
+
+print(\'##########################----> INICIA INSERCION DE REGISTROS COVADE_HIST <---#################################\');  ', "x" = '450', "y" = '-863')
+BEGIN_SCRIPT
+print('######################################----> ELIMINACION COVADE_HIST <---#######################################');sql('DS_SQL_SERVER_STAGE_BI', 'DELETE FROM STAGE_BI.DWH.COVADE_HIST WHERE ID_FECHA>=CONVERT(VARCHAR(6),DATEADD(MONTH,-1,GETDATE()),112)+\'01\'');print('##########################----> INICIA INSERCION DE REGISTROS COVADE_HIST <---#################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>450</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '1481', "y" = '-853')
+CALL DATAFLOW DF_CRG_STG_COVADE_HIST::'9f101cef-1b0d-4451-8970-5dd02500772b'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')

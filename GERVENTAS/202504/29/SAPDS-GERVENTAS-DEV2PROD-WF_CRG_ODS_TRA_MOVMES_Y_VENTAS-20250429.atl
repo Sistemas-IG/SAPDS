@@ -1,0 +1,57 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_ODS::'4a76885e-ae42-460a-99ff-e7767746a3bd' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E8A82AACD519E48D8FCFD7BDB272BCB6E2C272C692529CBD84883F949D9C2E4209A23A761EFB449227931DCB7B29</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E883FB65506EF0A0E97455F33D2B1026AC4D3C8637119EAB0953182989336BC95EE598F264148A7961E5B14C8844</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E87529F0291DE55ECDC13BD912CA2DED3D419B9720E8C5926E8957CB0BCC1422DAD578ECC125A09EB07A41CCB76083E104657742B51E1F</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>DWH_ODS</sql_server_database>
+<sql_server_dataserver>Datawarehouse</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_ODS', "pcache_force_utf16" = 'no');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Apr 25 17:16:52 2025', "ActaValue_3" = 'Mon Apr 28 15:47:34 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_ODS_TRA_MOVMES_CON_EXISTENCIA_ACTUAL::'b4289f86-b4b0-4482-83bd-9e686c4e24ac'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>435</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'EXEC SP_TRA_MOVMES_CON_EXISTENCIA_ACTUAL', "ui_script_text" = 'SQL(\'DS_SQL_SERVER_ODS\',\'EXEC ODS.SP_TRA_MOVMES_CON_EXISTENCIA_ACTUAL\');', "x" = '803', "y" = '-566')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_ODS', 'EXEC ODS.SP_TRA_MOVMES_CON_EXISTENCIA_ACTUAL');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_ODS_TRA_MOVMES_Y_VENTAS::'b73966b9-ea00-4953-bb0c-f702d313c299'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>460</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '0', "y" = '0')
+CALL PLAN WF_CRG_ODS_TRA_MOVMES_CON_EXISTENCIA_ACTUAL::'b4289f86-b4b0-4482-83bd-9e686c4e24ac'();
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>453</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '703', "y" = '-35')
+CALL PLAN WF_CRG_ODS_TRA_VENTAS_CON_EXSITENCIA_ACTUAL::'ce101042-cf77-489d-b18d-6e48070b5a5a'();
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Fri Apr 25 17:16:52 2025', "ActaValue_3" = 'Tue Apr 29 17:04:08 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_CRG_ODS_TRA_VENTAS_CON_EXSITENCIA_ACTUAL::'ce101042-cf77-489d-b18d-6e48070b5a5a'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>847</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'EXEC SP_TRA_VENTAS_CON_EXSITENCIA_ACTUAL', "ui_script_text" = 'SQL(\'DS_SQL_SERVER_ODS\',\'EXEC ODS.SP_TRA_VENTAS_CON_EXISTENCIA_ACTUAL\');', "x" = '950', "y" = '-788')
+BEGIN_SCRIPT
+sql('DS_SQL_SERVER_ODS', 'EXEC ODS.SP_TRA_VENTAS_CON_EXISTENCIA_ACTUAL');END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
