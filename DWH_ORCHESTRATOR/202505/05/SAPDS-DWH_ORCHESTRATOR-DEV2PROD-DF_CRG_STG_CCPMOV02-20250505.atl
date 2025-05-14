@@ -1,0 +1,311 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_DB2_GER_VTAS::'0705c125-c4a3-4f1f-9856-d2aa0a018dd5' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>yes</case_sensitive>
+<database_type>ODBC</database_type>
+<db_date_format>yyyy-mm-dd</db_date_format>
+<db_datetime_format>yyyy-mm-dd hh:mi:ss</db_datetime_format>
+<db_decimal_separator>.</db_decimal_separator>
+<db_driver_supports_array_fetch>no</db_driver_supports_array_fetch>
+<db_driver_supports_param_sql>odbc_automatic</db_driver_supports_param_sql>
+<db_time_format>hh:mi:ss</db_time_format>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<odbc_autocommit_support>odbc_automatic</odbc_autocommit_support>
+<odbc_convert_func_support>odbc_automatic</odbc_convert_func_support>
+<odbc_data_source>Power IBM</odbc_data_source>
+<odbc_database_type>OTHER</odbc_database_type>
+<odbc_func_absolute>odbc_automatic</odbc_func_absolute>
+<odbc_func_avg>odbc_automatic</odbc_func_avg>
+<odbc_func_ceiling>odbc_automatic</odbc_func_ceiling>
+<odbc_func_count>odbc_automatic</odbc_func_count>
+<odbc_func_count_distinct>odbc_automatic</odbc_func_count_distinct>
+<odbc_func_dayofmonth>odbc_automatic</odbc_func_dayofmonth>
+<odbc_func_dayofyear>odbc_automatic</odbc_func_dayofyear>
+<odbc_func_floor>odbc_automatic</odbc_func_floor>
+<odbc_func_lcase>odbc_automatic</odbc_func_lcase>
+<odbc_func_length>odbc_automatic</odbc_func_length>
+<odbc_func_ln>odbc_automatic</odbc_func_ln>
+<odbc_func_log>odbc_automatic</odbc_func_log>
+<odbc_func_ltrim_blanks>odbc_automatic</odbc_func_ltrim_blanks>
+<odbc_func_max>odbc_automatic</odbc_func_max>
+<odbc_func_min>odbc_automatic</odbc_func_min>
+<odbc_func_mod>odbc_automatic</odbc_func_mod>
+<odbc_func_month>odbc_automatic</odbc_func_month>
+<odbc_func_power>odbc_automatic</odbc_func_power>
+<odbc_func_quarter>odbc_automatic</odbc_func_quarter>
+<odbc_func_round>odbc_automatic</odbc_func_round>
+<odbc_func_rtrim_blanks>odbc_automatic</odbc_func_rtrim_blanks>
+<odbc_func_soundex>odbc_automatic</odbc_func_soundex>
+<odbc_func_sqrt>odbc_automatic</odbc_func_sqrt>
+<odbc_func_substring>odbc_automatic</odbc_func_substring>
+<odbc_func_sum>odbc_automatic</odbc_func_sum>
+<odbc_func_sysdate>odbc_automatic</odbc_func_sysdate>
+<odbc_func_systime>odbc_automatic</odbc_func_systime>
+<odbc_func_truncate>odbc_automatic</odbc_func_truncate>
+<odbc_func_ucase>odbc_automatic</odbc_func_ucase>
+<odbc_func_week>odbc_automatic</odbc_func_week>
+<odbc_func_year>odbc_automatic</odbc_func_year>
+<odbc_ifthenelse_func_support>no</odbc_ifthenelse_func_support>
+<odbc_ms_access>no</odbc_ms_access>
+<odbc_nvarchar_type_name>&lt;unknown&gt;</odbc_nvarchar_type_name>
+<odbc_nvl_func_support>odbc_automatic</odbc_nvl_func_support>
+<odbc_outer_join_support>odbc_automatic</odbc_outer_join_support>
+<odbc_sql92_join_support>odbc_automatic</odbc_sql92_join_support>
+<password>+0400000000120303000803E85A716249DD9A64EA162E073535B7A14567410756CFD186C35D40AAD2B72DEA59E8E5F53998166A3CC9A1B95870531F</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<server_sorts_in_binary>yes</server_sorts_in_binary>
+<user>SIF2016</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'yes', "name" = 'DS_DB2_GER_VTAS', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon Sep 19 16:59:45 2022', "x" = '-1', "y" = '-1')
+CREATE DATABASE DATASTORE DS_SQL_SERVER_STAGE_BI::'08acadc3-6105-46be-9799-5f2e06ed4d18' SET ("DBLiveLoad" = 'no', "application_type" = 'Custom', "cdc_enabled" = 'no', "cdc_type" = 'native', "datastore_repotype" = 'local', "ds_configuration_enabled" = 'yes', "ds_configurations" = '<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<DSConfigurations>
+<DSConfiguration default="true" name="Configuration1">
+<case_sensitive>no</case_sensitive>
+<cdc_ra_password>+0400000000120303000803E883B7EFB96029EDCE9388DC4D09E0E9833D099244E808A5B2EB6D1FF7A079FDEDE6D1AF83AFDEBF350F1BED6DC1</cdc_ra_password>
+<cdc_ra_server>DS_RA</cdc_ra_server>
+<cdc_ra_user>sa</cdc_ra_user>
+<cdc_rs_password>+0400000000120303000803E81CB7BC394E1F6ED299B9C6B79CFDCA99C78B12DF435AC7EA0AF641AC29E30182FD0A38C541504662346E9DCC3A</cdc_rs_password>
+<cdc_rs_retention>0</cdc_rs_retention>
+<cdc_rs_server>SAMPLE_RS</cdc_rs_server>
+<cdc_rs_user>ds</cdc_rs_user>
+<database_subtype>On Premise</database_subtype>
+<database_type>Microsoft_SQL_Server</database_type>
+<loader_xact_size>1000</loader_xact_size>
+<locale_codepage>&lt;default&gt;</locale_codepage>
+<locale_language>&lt;default&gt;</locale_language>
+<locale_territory>&lt;default&gt;</locale_territory>
+<mssql_windows_authentication>no</mssql_windows_authentication>
+<password>+0400000000120303000803E833B384D632050EA71623F16C1CE6139BA5837E1724A94576A1291DC032B2C6C23C4F20AD6031FBBB602EBF7DC8053092FA98C1F699D8</password>
+<server_codepage>&lt;default&gt;</server_codepage>
+<sql_server_database>STAGE_BI</sql_server_database>
+<sql_server_dataserver>DATAWAREHOUSE</sql_server_dataserver>
+<sql_server_version>Microsoft SQL Server 2019</sql_server_version>
+<use_ssl_encryption>no</use_ssl_encryption>
+<user>sa</user>
+</DSConfiguration>
+</DSConfigurations>
+', "enable_data_transfer" = 'yes', "import_unknown_type" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "pcache_force_utf16" = 'no', "unknown_type_size" = '255');
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'TABLE' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = '' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RLoader_Is_Template_Table',ActaValue_5 = 'no' , 
+ActaName_6 = 'RSavedAfterCheckOut',ActaValue_6 = 'YES' , 
+ActaName_7 = 'RDate_created',ActaValue_7 = 'Mon May  5 16:17:52 2025' , 
+ActaName_8 = 'RDate_last_loaded',ActaValue_8 = 'NotYetLoaded' , 
+ActaName_9 = 'RDate_modified',ActaValue_9 = 'Mon May  5 16:31:30 2025' )
+CREATE TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCPMOV02(ALMACD VARCHAR(2)  NOT NULL , 
+CODTCD VARCHAR(4)  NOT NULL , 
+CODCCD VARCHAR(4)  NOT NULL , 
+TIPOCD VARCHAR(1)  NOT NULL , 
+NUMECD VARCHAR(6)  NOT NULL , 
+COMPCD VARCHAR(6)  NOT NULL , 
+TIPMCD VARCHAR(2)  NOT NULL , 
+FECHCD VARCHAR(8)  NOT NULL , 
+VALOCD DECIMAL(9, 2)  NOT NULL , 
+SALDCD DECIMAL(9, 2)  NOT NULL , 
+FLAGCD VARCHAR(1)  NOT NULL , 
+VENDCD VARCHAR(4)  NOT NULL , 
+AUTOCD VARCHAR(10)  NOT NULL , 
+DIPACD DECIMAL(3, 0)  NOT NULL , 
+ANDECD VARCHAR(1)  NOT NULL , 
+FU01CD DECIMAL(3, 0)  NOT NULL , 
+FU02CD DECIMAL(9, 2)  NOT NULL , 
+FU03CD VARCHAR(2)  NOT NULL , 
+FU04CD VARCHAR(2)  NOT NULL , 
+FU05CD VARCHAR(2)  NOT NULL , 
+ID_PAIS INT  NULL , 
+FECHA_CARGA_DWH DATETIME(2)  NULL  SET("Native Type" = 'DATETIME2')) 
+SET("db_alias_name" = 'DWH')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Logico para control de pagos                   @JR' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Mon May  5 15:13:00 2025' )
+CREATE TABLE DS_DB2_GER_VTAS.NEWINV.CCPMOV02(ALMACD CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN SUCURSAL'), 
+CODTCD CHAR(4)  NOT NULL  SET("Description" = 'CODIGO TALLER'), 
+CODCCD CHAR(4)  NOT NULL  SET("Description" = 'CODIGO CLIENTE'), 
+TIPOCD CHAR(1)  NOT NULL  SET("Description" = 'TIPO "F" "R"'), 
+NUMECD CHAR(6)  NOT NULL  SET("Description" = 'NUMERO FACT/CCF'), 
+COMPCD CHAR(6)  NOT NULL  SET("Description" = 'COMPROBANTE'), 
+TIPMCD CHAR(2)  NOT NULL  SET("Description" = 'TIPO TRANSAC.'), 
+FECHCD CHAR(8)  NOT NULL  SET("Description" = 'FECHA'), 
+VALOCD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VALOR'), 
+SALDCD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'SALDO'), 
+FLAGCD CHAR(1)  NOT NULL  SET("Description" = 'STATUS'), 
+VENDCD CHAR(4)  NOT NULL  SET("Description" = 'VENDEDOR'), 
+AUTOCD CHAR(10)  NOT NULL  SET("Description" = 'AUTORIZA'), 
+DIPACD DECIMAL(3, 0)  NOT NULL  SET("Description" = 'DIAS PAGADOS'), 
+ANDECD CHAR(1)  NOT NULL  SET("Description" = 'ANULAC/DEVOLUC'), 
+FU01CD DECIMAL(3, 0)  NOT NULL  SET("Description" = 'FUTURO USO 01'), 
+FU02CD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 02'), 
+FU03CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 03'), 
+FU04CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 04'), 
+FU05CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 05')) 
+SET("db_alias_name" = 'NEWINV')
+;
+
+ AlGUIComment (ActaName_1 = 'RDatabase_Object_Type',ActaValue_1 = 'VIEW' , 
+ActaName_2 = 'RTable_Type',ActaValue_2 = 'TABLE' , 
+ActaName_3 = 'RDescription',ActaValue_3 = 'Logico para control de pagos                   @JR' , 
+ActaName_4 = 'REstimated_Row_Count',ActaValue_4 = '50000' , 
+ActaName_5 = 'RSavedAfterCheckOut',ActaValue_5 = 'YES' , 
+ActaName_6 = 'RLoader_Is_Template_Table',ActaValue_6 = 'no' , 
+ActaName_7 = 'RDate_modified',ActaValue_7 = 'Mon May  5 15:13:04 2025' )
+CREATE TABLE DS_DB2_GER_VTAS.PHNINV.CCPMOV02(ALMACD CHAR(2)  NOT NULL  SET("Description" = 'ALMACEN SUCURSAL'), 
+CODTCD CHAR(4)  NOT NULL  SET("Description" = 'CODIGO TALLER'), 
+CODCCD CHAR(4)  NOT NULL  SET("Description" = 'CODIGO CLIENTE'), 
+TIPOCD CHAR(1)  NOT NULL  SET("Description" = 'TIPO "F" "R"'), 
+NUMECD CHAR(6)  NOT NULL  SET("Description" = 'NUMERO FACT/CCF'), 
+COMPCD CHAR(6)  NOT NULL  SET("Description" = 'COMPROBANTE'), 
+TIPMCD CHAR(2)  NOT NULL  SET("Description" = 'TIPO TRANSAC.'), 
+FECHCD CHAR(8)  NOT NULL  SET("Description" = 'FECHA'), 
+VALOCD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'VALOR'), 
+SALDCD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'SALDO'), 
+FLAGCD CHAR(1)  NOT NULL  SET("Description" = 'STATUS'), 
+VENDCD CHAR(4)  NOT NULL  SET("Description" = 'VENDEDOR'), 
+AUTOCD CHAR(10)  NOT NULL  SET("Description" = 'AUTORIZA'), 
+DIPACD DECIMAL(3, 0)  NOT NULL  SET("Description" = 'DIAS PAGADOS'), 
+ANDECD CHAR(1)  NOT NULL  SET("Description" = 'ANULAC/DEVOLUC'), 
+FU01CD DECIMAL(3, 0)  NOT NULL  SET("Description" = 'FUTURO USO 01'), 
+FU02CD DECIMAL(9, 2)  NOT NULL  SET("Description" = 'FUTURO USO 02'), 
+FU03CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 03'), 
+FU04CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 04'), 
+FU05CD CHAR(2)  NOT NULL  SET("Description" = 'FUTURO USO 05')) 
+SET("db_alias_name" = 'PHNINV')
+;
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaValue_1" = 'YES', "ActaValue_2" = 'Mon May  5 16:17:52 2025', "x" = '-1', "y" = '-1')
+CREATE  DATAFLOW DF_CRG_STG_CCPMPV02::'3766a347-a643-4a4c-a963-51fe9abba453'
+BEGIN
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Description', "Input_2nd_Column_Name" = 'Type', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '440', "y" = '-431')
+GUID::'dd0ebbac-4688-41a8-a33b-015809dd93cc' READ TABLE DS_DB2_GER_VTAS.NEWINV.CCPMOV02 OUTPUT(CCPMOV02)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>394</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '451', "y" = '-850')
+GUID::'66e064ab-aca7-4cdc-b0f0-51b5faae812b' READ TABLE DS_DB2_GER_VTAS.PHNINV.CCPMOV02 OUTPUT(CCPMOV02_1)
+SET("Initial_Load" = 'no', "array_fetch_size" = '1000', "cache" = 'yes', "connection_port" = 'no', "enable_partitioning" = 'no', "name" = 'DS_DB2_GER_VTAS', "package_size" = '0', "parallel_sap_connections" = '0', "reader_is_DB2CDC_table" = 'no', "reader_overflow_file" = 'overflow_file', "reader_template_table" = 'no', "reader_use_overflow_file" = 'no', "reader_use_trex_transaction" = 'no', "sap_odp_cwf_delay" = '5', "table_weight" = '0', "teradata_bulk_rdr_cleanup" = 'yes');
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CCPMOV02', "ui_display_name" = 'QRY_SV', "x" = '1115', "y" = '-431')
+GUID::'c04cb51d-c9cd-4c3f-a26d-0e704743e1c9' CREATE VIEW QRY_SV( ALMACD VARCHAR(2)  SET( "Description" = 'ALMACEN SUCURSAL', "ui_mapping_text" = 'CCPMOV02.ALMACD') ,
+ CODTCD VARCHAR(4)  SET( "Description" = 'CODIGO TALLER', "ui_mapping_text" = 'CCPMOV02.CODTCD') ,
+ CODCCD VARCHAR(4)  SET( "Description" = 'CODIGO CLIENTE', "ui_mapping_text" = 'CCPMOV02.CODCCD') ,
+ TIPOCD VARCHAR(1)  SET( "Description" = 'TIPO "F" "R"', "ui_mapping_text" = 'CCPMOV02.TIPOCD') ,
+ NUMECD VARCHAR(6)  SET( "Description" = 'NUMERO FACT/CCF', "ui_mapping_text" = 'CCPMOV02.NUMECD') ,
+ COMPCD VARCHAR(6)  SET( "Description" = 'COMPROBANTE', "ui_mapping_text" = 'CCPMOV02.COMPCD') ,
+ TIPMCD VARCHAR(2)  SET( "Description" = 'TIPO TRANSAC.', "ui_mapping_text" = 'CCPMOV02.TIPMCD') ,
+ FECHCD VARCHAR(8)  SET( "Description" = 'FECHA', "ui_mapping_text" = 'CCPMOV02.FECHCD') ,
+ VALOCD DECIMAL(9, 2)  SET( "Description" = 'VALOR', "ui_mapping_text" = 'CCPMOV02.VALOCD') ,
+ SALDCD DECIMAL(9, 2)  SET( "Description" = 'SALDO', "ui_mapping_text" = 'CCPMOV02.SALDCD') ,
+ FLAGCD VARCHAR(1)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'CCPMOV02.FLAGCD') ,
+ VENDCD VARCHAR(4)  SET( "Description" = 'VENDEDOR', "ui_mapping_text" = 'CCPMOV02.VENDCD') ,
+ AUTOCD VARCHAR(10)  SET( "Description" = 'AUTORIZA', "ui_mapping_text" = 'CCPMOV02.AUTOCD') ,
+ DIPACD DECIMAL(3, 0)  SET( "Description" = 'DIAS PAGADOS', "ui_mapping_text" = 'CCPMOV02.DIPACD') ,
+ ANDECD VARCHAR(1)  SET( "Description" = 'ANULAC/DEVOLUC', "ui_mapping_text" = 'CCPMOV02.ANDECD') ,
+ FU01CD DECIMAL(3, 0)  SET( "Description" = 'FUTURO USO 01', "ui_mapping_text" = 'CCPMOV02.FU01CD') ,
+ FU02CD DECIMAL(9, 2)  SET( "Description" = 'FUTURO USO 02', "ui_mapping_text" = 'CCPMOV02.FU02CD') ,
+ FU03CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 03', "ui_mapping_text" = 'CCPMOV02.FU03CD') ,
+ FU04CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 04', "ui_mapping_text" = 'CCPMOV02.FU04CD') ,
+ FU05CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 05', "ui_mapping_text" = 'CCPMOV02.FU05CD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'SYSDATE()')  )
+ AS
+SELECT CCPMOV02.ALMACD, CCPMOV02.CODTCD, CCPMOV02.CODCCD, CCPMOV02.TIPOCD, CCPMOV02.NUMECD, CCPMOV02.COMPCD, CCPMOV02.TIPMCD, CCPMOV02.FECHCD, CCPMOV02.VALOCD, CCPMOV02.SALDCD, CCPMOV02.FLAGCD, CCPMOV02.VENDCD, CCPMOV02.AUTOCD, CCPMOV02.DIPACD, CCPMOV02.ANDECD, CCPMOV02.FU01CD, CCPMOV02.FU02CD, CCPMOV02.FU03CD, CCPMOV02.FU04CD, CCPMOV02.FU05CD, 1, SYSDATE() FROM CCPMOV02 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_acta_from_schema_0" = 'CCPMOV02_1', "ui_display_name" = 'QRY_SV_1', "x" = '1112', "y" = '-850')
+GUID::'369e1814-5ebe-4deb-96d1-c6e381690f60' CREATE VIEW QRY_SV_1( ALMACD VARCHAR(2)  SET( "Description" = 'ALMACEN SUCURSAL', "ui_mapping_text" = 'CCPMOV02_1.ALMACD', "ui_pasting" = 'CCPMOV02.ALMACD') ,
+ CODTCD VARCHAR(4)  SET( "Description" = 'CODIGO TALLER', "ui_mapping_text" = 'CCPMOV02_1.CODTCD', "ui_pasting" = 'CCPMOV02.CODTCD') ,
+ CODCCD VARCHAR(4)  SET( "Description" = 'CODIGO CLIENTE', "ui_mapping_text" = 'CCPMOV02_1.CODCCD', "ui_pasting" = 'CCPMOV02.CODCCD') ,
+ TIPOCD VARCHAR(1)  SET( "Description" = 'TIPO "F" "R"', "ui_mapping_text" = 'CCPMOV02_1.TIPOCD', "ui_pasting" = 'CCPMOV02.TIPOCD') ,
+ NUMECD VARCHAR(6)  SET( "Description" = 'NUMERO FACT/CCF', "ui_mapping_text" = 'CCPMOV02_1.NUMECD', "ui_pasting" = 'CCPMOV02.NUMECD') ,
+ COMPCD VARCHAR(6)  SET( "Description" = 'COMPROBANTE', "ui_mapping_text" = 'CCPMOV02_1.COMPCD', "ui_pasting" = 'CCPMOV02.COMPCD') ,
+ TIPMCD VARCHAR(2)  SET( "Description" = 'TIPO TRANSAC.', "ui_mapping_text" = 'CCPMOV02_1.TIPMCD', "ui_pasting" = 'CCPMOV02.TIPMCD') ,
+ FECHCD VARCHAR(8)  SET( "Description" = 'FECHA', "ui_mapping_text" = 'CCPMOV02_1.FECHCD', "ui_pasting" = 'CCPMOV02.FECHCD') ,
+ VALOCD DECIMAL(9, 2)  SET( "Description" = 'VALOR', "ui_mapping_text" = 'CCPMOV02_1.VALOCD', "ui_pasting" = 'CCPMOV02.VALOCD') ,
+ SALDCD DECIMAL(9, 2)  SET( "Description" = 'SALDO', "ui_mapping_text" = 'CCPMOV02_1.SALDCD', "ui_pasting" = 'CCPMOV02.SALDCD') ,
+ FLAGCD VARCHAR(1)  SET( "Description" = 'STATUS', "ui_mapping_text" = 'CCPMOV02_1.FLAGCD', "ui_pasting" = 'CCPMOV02.FLAGCD') ,
+ VENDCD VARCHAR(4)  SET( "Description" = 'VENDEDOR', "ui_mapping_text" = 'CCPMOV02_1.VENDCD', "ui_pasting" = 'CCPMOV02.VENDCD') ,
+ AUTOCD VARCHAR(10)  SET( "Description" = 'AUTORIZA', "ui_mapping_text" = 'CCPMOV02_1.AUTOCD', "ui_pasting" = 'CCPMOV02.AUTOCD') ,
+ DIPACD DECIMAL(3, 0)  SET( "Description" = 'DIAS PAGADOS', "ui_mapping_text" = 'CCPMOV02_1.DIPACD', "ui_pasting" = 'CCPMOV02.DIPACD') ,
+ ANDECD VARCHAR(1)  SET( "Description" = 'ANULAC/DEVOLUC', "ui_mapping_text" = 'CCPMOV02_1.ANDECD', "ui_pasting" = 'CCPMOV02.ANDECD') ,
+ FU01CD DECIMAL(3, 0)  SET( "Description" = 'FUTURO USO 01', "ui_mapping_text" = 'CCPMOV02_1.FU01CD', "ui_pasting" = 'CCPMOV02.FU01CD') ,
+ FU02CD DECIMAL(9, 2)  SET( "Description" = 'FUTURO USO 02', "ui_mapping_text" = 'CCPMOV02_1.FU02CD', "ui_pasting" = 'CCPMOV02.FU02CD') ,
+ FU03CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 03', "ui_mapping_text" = 'CCPMOV02_1.FU03CD', "ui_pasting" = 'CCPMOV02.FU03CD') ,
+ FU04CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 04', "ui_mapping_text" = 'CCPMOV02_1.FU04CD', "ui_pasting" = 'CCPMOV02.FU04CD') ,
+ FU05CD VARCHAR(2)  SET( "Description" = 'FUTURO USO 05', "ui_mapping_text" = 'CCPMOV02_1.FU05CD', "ui_pasting" = 'CCPMOV02.FU05CD') ,
+ ID_PAIS INT  SET( "ui_mapping_text" = '2', "ui_pasting" = '1') ,
+ FECHA_CARGA_DWH DATETIME(9)  SET( "ui_mapping_text" = 'SYSDATE()', "ui_pasting" = 'SYSDATE()')  )
+ AS
+SELECT CCPMOV02_1.ALMACD, CCPMOV02_1.CODTCD, CCPMOV02_1.CODCCD, CCPMOV02_1.TIPOCD, CCPMOV02_1.NUMECD, CCPMOV02_1.COMPCD, CCPMOV02_1.TIPMCD, CCPMOV02_1.FECHCD, CCPMOV02_1.VALOCD, CCPMOV02_1.SALDCD, CCPMOV02_1.FLAGCD, CCPMOV02_1.VENDCD, CCPMOV02_1.AUTOCD, CCPMOV02_1.DIPACD, CCPMOV02_1.ANDECD, CCPMOV02_1.FU01CD, CCPMOV02_1.FU02CD, CCPMOV02_1.FU03CD, CCPMOV02_1.FU04CD, CCPMOV02_1.FU05CD, 2, SYSDATE() FROM CCPMOV02_1 
+SET("distinct_run_as_separate_process" = 'no', "group_by_run_as_separate_process" = 'no', "join_run_as_separate_process" = 'no', "order_by_run_as_separate_process" = 'no', "run_as_separate_process" = 'no')
+;
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Mapping', "Output_3rd_Column_Name" = 'Description', "Output_Column_Name_4" = 'Content_Type', "Output_Column_Name_5" = 'Business_Name', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>238</CX><CY>-164</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UpperContainer_HeightProp" = '65', "x" = '1688', "y" = '-641')
+GUID::'3d823cad-bcbf-4c69-ad4f-f89ae48bb427' CALL TRANSFORM Merge() INPUT(QRY_SV, QRY_SV_1) OUTPUT(Merge()
+);
+
+ALGUIComment ("InputSchema_WidthProp" = '35', "Input_1st_Column_Name" = 'Type', "Input_2nd_Column_Name" = 'Description', "Input_Column_Name_3" = 'Content_Type', "Input_Column_Name_4" = 'Business_Name', "Input_Column_Width_3" = '100', "Input_Column_Width_4" = '100', "Input_Width_Description" = '130', "Input_Width_Type" = '85', "Output_1st_Column_Name" = 'Type', "Output_2nd_Column_Name" = 'Description', "Output_3rd_Column_Name" = 'Content_Type', "Output_Column_Name_4" = 'Business_Name', "Output_Column_Name_5" = '', "Output_Column_Width_4" = '100', "Output_Column_Width_5" = '100', "Output_Width_Decsription" = '130', "Output_Width_Mapping" = '85', "Output_Width_Type" = '80', "UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>438</CX><CY>-183</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-175</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "UI_PASSTHRU_VSPLIT_PCT" = '50', "UpperContainer_HeightProp" = '65', "ui_display_name" = 'CCPMOV02(DS_SQL_SERVER_STAGE_BI.DWH)', "x" = '2255', "y" = '-642')
+GUID::'8d821ec1-6329-4a18-88b1-96b09ddcc7cf' LOAD TABLE DS_SQL_SERVER_STAGE_BI.DWH.CCPMOV02 INPUT(Merge)
+SET("LDRLiveLoad" = 'no', "Table_Type" = 'TABLE', "connection_port" = 'no', "ldr_configuration_enabled" = 'yes', "ldr_configurations" = '<?xml version="1.0" encoding="UTF-8"?>
+<LDRConfigurations>
+<LDRConfiguration database_type="Microsoft_SQL_Server" database_version="Microsoft SQL Server 2019">
+<auto_correct_using_merge>yes</auto_correct_using_merge>
+<bulk_col_delimiter>/127</bulk_col_delimiter>
+<bulk_ldr_all_rows></bulk_ldr_all_rows>
+<bulk_ldr_cleanup>yes</bulk_ldr_cleanup>
+<bulk_ldr_max_errors></bulk_ldr_max_errors>
+<bulk_ldr_rows_per_commit>3000</bulk_ldr_rows_per_commit>
+<enable_partitioning>no</enable_partitioning>
+<ignore_column_case>yes</ignore_column_case>
+<ignore_columns_null>no</ignore_columns_null>
+<ignore_columns_value></ignore_columns_value>
+<loader_auto_correct>no</loader_auto_correct>
+<loader_bulk_load>1</loader_bulk_load>
+<loader_compare_column>compare_by_name</loader_compare_column>
+<loader_delete_map></loader_delete_map>
+<loader_drop_and_create_table>yes</loader_drop_and_create_table>
+<loader_fl_object_name></loader_fl_object_name>
+<loader_insert_map></loader_insert_map>
+<loader_load_choice>append</loader_load_choice>
+<loader_num_parallel_loaders>1</loader_num_parallel_loaders>
+<loader_overflow_file></loader_overflow_file>
+<loader_post_load1></loader_post_load1>
+<loader_pre_load1></loader_pre_load1>
+<loader_quote_names>0</loader_quote_names>
+<loader_transactional>no</loader_transactional>
+<loader_transactional_order>0</loader_transactional_order>
+<loader_update_key_columns>no</loader_update_key_columns>
+<loader_update_map></loader_update_map>
+<loader_use_user_defined_keys>no</loader_use_user_defined_keys>
+<loader_xact_size>1000</loader_xact_size>
+<mssql_bulk_ldr_mode>truncate</mssql_bulk_ldr_mode>
+<mssql_bulk_ldr_packet_size>4</mssql_bulk_ldr_packet_size>
+<mssql_ldr_identity_insert>off</mssql_ldr_identity_insert>
+<overflow_file_format>write_data</overflow_file_format>
+<overriding_substitution_parameter_for_tablename></overriding_substitution_parameter_for_tablename>
+<sql_text></sql_text>
+<text_delimiter></text_delimiter>
+<use_overflow_file>no</use_overflow_file>
+<use_unicode_varchar>no</use_unicode_varchar>
+<sql_text></sql_text>
+</LDRConfiguration>
+</LDRConfigurations>', "loader_template_table" = 'no', "name" = 'DS_SQL_SERVER_STAGE_BI', "use_unicode_varchar" = 'no');
+
+END
+ SET ("Cache_type" = 'pageable_cache', "Parallelism_degree" = 'default', "allows_both_input_and_output" = 'yes', "dataflow_loader_bulk_load" = 'no', "dataflow_loader_commit_size" = 'default', "dataflow_loader_row_size_bytes" = '0', "dataflow_number_of_loaders" = '0', "run_once" = 'no', "use_dataflow_links" = 'no', "use_datastore_links" = 'yes', "validation_xform_exists" = 'no', "validation_xform_stats" = 'no')
