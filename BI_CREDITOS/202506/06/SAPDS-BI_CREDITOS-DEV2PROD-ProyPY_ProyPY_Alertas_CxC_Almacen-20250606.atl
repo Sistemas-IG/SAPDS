@@ -1,0 +1,23 @@
+#__AW_Repository_Version '14.2.14.0000';
+#__AW_Product_Version '14.2.14.2660';
+#__AW_ATL_Locale 'spa_sv.utf-8';
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu May  8 14:34:21 2025', "ActaValue_3" = 'Thu May  8 14:45:35 2025', "x" = '-1', "y" = '-1')
+CREATE SESSION ProyPY_ProyPY_Alertas_CxC_Almacen::'ebf769f2-b35d-46bb-b22d-5153e9105896'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>303</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script_Read_bat', "ui_script_text" = 'print(\'*********************************--> INICIO DE Proyecto Creditos <--***************************************************\');
+print(\'*********************************--> Envio de Alertas Creditos CxC Almacen <--*************************************\');
+print(\'#############################################################################################################\');', "x" = '1397', "y" = '-675')
+BEGIN_SCRIPT
+print('*********************************--> INICIO DE Proyecto Creditos <--***************************************************');print('*********************************--> Envio de Alertas Creditos CxC Almacen <--*************************************');print('#############################################################################################################');END
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>403</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "x" = '2275', "y" = '-766')
+CALL PLAN WF_PY_Alertas_CxC_Almacen::'5f9ebbbd-4b48-40b5-a62e-1661ec65e363'();
+END
+ SET ("job_checkpoint_enabled" = 'no', "job_collect_statistics" = 'no', "job_collect_statistics_monitor" = 'no', "job_create_debug_package" = 'no', "job_enable_assemblers" = 'yes', "job_enable_audit" = 'yes', "job_enable_dataquality" = 'yes', "job_export_repo" = 'no', "job_export_reports" = 'no', "job_guid" = 'ebf769f2-b35d-46bb-b22d-5153e9105896', "job_isrecoverable" = 'no', "job_mode" = 'Multi-Process', "job_monitor_sample_rate" = '1000', "job_monitor_timer_rate" = '5', "job_name" = 'ProyPY_ProyPY_Alertas_CxC_Almacen', "job_print_version" = 'no', "job_testmode_enabled" = 'no', "job_trace_abapquery" = 'no', "job_trace_all" = 'no', "job_trace_ascomm" = 'no', "job_trace_assemblers" = 'no', "job_trace_audit" = 'no', "job_trace_dataflow" = 'yes', "job_trace_idoc_file" = 'no', "job_trace_memory_loader" = 'no', "job_trace_memory_reader" = 'no', "job_trace_optimized_dataflow" = 'no', "job_trace_parallel_execution" = 'no', "job_trace_rfc_function" = 'no', "job_trace_row" = 'no', "job_trace_script" = 'no', "job_trace_session" = 'yes', "job_trace_sql_only" = 'no', "job_trace_sqlfunctions" = 'no', "job_trace_sqlloaders" = 'no', "job_trace_sqlreaders" = 'no', "job_trace_sqltransforms" = 'no', "job_trace_stored_procedure" = 'no', "job_trace_table" = 'no', "job_trace_table_reader" = 'no', "job_trace_transform" = 'no', "job_trace_userfunction" = 'no', "job_trace_usertransform" = 'no', "job_trace_workflow" = 'yes', "job_type" = 'batch', "job_use_statistics" = 'yes', "locale_codepage" = '<default>', "locale_language" = '<default>', "locale_territory" = '<default>')
+ AlGUIComment ("ActaName_1" = 'RSavedAfterCheckOut', "ActaName_2" = 'RDate_created', "ActaName_3" = 'RDate_modified', "ActaValue_1" = 'YES', "ActaValue_2" = 'Thu May  8 14:40:30 2025', "ActaValue_3" = 'Thu May  8 14:53:49 2025', "x" = '-1', "y" = '-1')
+CREATE PLAN WF_PY_Alertas_CxC_Almacen::'5f9ebbbd-4b48-40b5-a62e-1661ec65e363'( )
+BEGIN
+ AlGUIComment ("UI_DATA_XML" = '<UIDATA><MAINICON><LOCATION><X>0</X><Y>0</Y></LOCATION><SIZE><CX>341</CX><CY>-179</CY></SIZE></MAINICON><DESCRIPTION><LOCATION><X>0</X><Y>-190</Y></LOCATION><SIZE><CX>200</CX><CY>200</CY></SIZE><VISIBLE>0</VISIBLE></DESCRIPTION></UIDATA>', "ui_display_name" = 'Script Python Alertas_CxC_Almacen', "ui_script_text" = 'exec(\'C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\CRED_ProyPY_Alertas_CxC_Almacen\\Run_bat_main.bat\',0);', "x" = '4063', "y" = '-1169')
+BEGIN_SCRIPT
+exec('C:\\ProyectosPython\\PRD\\ProjectsPython\\.venv\\CRED_ProyPY_Alertas_CxC_Almacen\\Run_bat_main.bat', 0);END
+END
+ SET ("run_once" = 'no', "unit_of_recovery" = 'no', "workflow_type" = 'Regular')
